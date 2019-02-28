@@ -1,0 +1,78 @@
+{{ define "main" }}
+  <section class="hero hero--contacts">
+                <div class="container">
+                    <div class="hero__content hero__content--dark hero__content--perspectives">
+                        
+                        {{if eq .Section "best-practice"}}
+                        <span class="label--lg italic">
+                        Best practice
+                    	</span>
+                    	<h1 class="h1">Explore best practice and examplar pages</h1>
+                        {{end}}
+                        {{if eq .Section "creating-pages"}}
+                        <span class="label--lg italic">
+                        Creating pages
+                    	</span>
+                        <h1 class="h1">Creating pages in Sitecore</h1>
+                        {{end}}
+                        {{if eq .Section "creating-modules"}}
+                        <span class="label--lg italic">
+                        Creating modules
+                    	</span>
+                    	<h1 class="h1">Creating and adding modules</h1>
+                    	<h1 class="h1">Explore best practice and examplar pages</h1>
+                        {{end}}
+                        {{if eq .Section "getting-started"}}
+                        <span class="label--lg italic">
+                        Getting started
+                        </span>
+                        <h1 class="h1">Getting started with Sitecore</h1>
+                        {{end}}
+                    </div>
+                </div>
+            </section>
+<section class="container" id="">
+                <div class="rich-text">
+                    <div class="reveal rich-text__content">
+                        {{.Content}}
+                    </div>
+                </div>
+            </section>
+      <section class="container">
+    <div class="menu_row clearfix fullwidth" style="margin-top:3rem;">
+        <div class="menu_section list-page">
+        	{{ if eq .Section "best-practice"}}
+            <h4 class="index-title">Best practice</h4>
+            {{end}}
+            {{ range where (.Pages.ByParam "weight") "Section" "==" "best-practice" }}
+            <a class="index-link" href="{{.Permalink}}">{{.Title}}</a>
+            {{end}}
+        </div>
+        <div class="menu_section list-page">
+        	{{ if eq .Section "creating-pages"}}
+            <h4 class="index-title">Creating new pages</h4>
+            {{end}}
+            {{ range where (.Pages.ByParam "weight") "Section" "==" "creating-pages" }}
+            <a class="index-link" href="{{.Permalink}}">{{.Title}}</a>
+            {{end}}
+        </div>
+        <div class="menu_section list-page">
+        	{{ if eq .Section "creating-modules"}}
+            <h4 class="index-title">Creating and adding modules</h4>
+            {{end}}
+            {{ range where (.Pages.ByParam "weight") "Section" "==" "creating-modules" }}
+            <a class="index-link" href="{{.Permalink}}">{{.Title}}</a>
+            {{end}}
+        </div>
+        <div class="menu_section list-page">
+        	{{ if eq .Section "getting-started"}}
+            <h4 class="index-title">Getting started with Sitecore</h4>
+            {{end}}
+            {{ range where (.Pages.ByParam "weight") "Section" "==" "getting-started" }}
+            <a class="index-link" href="{{.Permalink}}">{{.Title}}</a>
+            {{end}}
+        </div>
+    </div>
+</section>
+    
+{{ end }}

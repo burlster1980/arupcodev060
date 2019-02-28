@@ -1,0 +1,34 @@
+{{ define "header" }}
+  {{ partial "header.html" . }}
+{{ end }}
+{{ define "main" }}
+  <section class="hero hero--contacts">
+    <div class="container">
+    	<div class="hero__content hero__content--dark hero__content--perspectives">
+        	<span class="label--lg italic">{{.Type}}</span>
+        	<h1 class="h1">{{.Title}}</h1>
+        	<span class="label--lg">Last updated: {{.Lastmod.Format .Site.Params.DateForm }}</span>
+        </div>
+    </div>
+   </section>
+    {{.Content}}
+   <section class="container" id="">
+	<div class="rich-text">
+		<div class="reveal rich-text__content">
+			<ul class="list-navigation">
+				{{ if .NextInSection }}
+				<li class="previous"><span>Previous: <a href="{{.NextInSection.Permalink}}"><b><em>{{.NextInSection.Title}}</em></b></a></span></li>
+				{{end}}
+				{{if .PrevInSection}}
+				<li class="next"><span>Next: <a href="{{.PrevInSection.Permalink}}"><b><em>{{.PrevInSection.Title}}</em></b></a></span></li>
+				{{end}}
+				
+			</ul>
+			<a class="cta-btn" href="/"><span class="cta-btn__text">Guidance home</span> <span class="cta-btn__icon-wrap"><span class="cta-btn__icon icon icon-next" data-grunticon-embed=""></span></span></a>
+		</div>
+	</div>
+</section>
+{{end}}
+{{define "footer"}}
+  {{partial "footer.html" . }}
+{{end}}

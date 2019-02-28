@@ -1,0 +1,36 @@
+baseURL = "https://styleguide.arup.com/"
+languageCode = "en-us"
+title = "Arup.com support and best practice"
+theme = "arup"
+[menu]
+
+  [[menu.main]]
+    identifier = "getting-started"
+    name = "Getting started with Sitecore"
+    title = "Getting started with Sitecore"
+    url = "/getting-started/"
+    weight = "-400"
+
+  [[menu.main]]
+    identifier = "creating-pages"
+    name = "Creating pages"
+    title = "creating pages"
+    url = "/creating-pages/"
+    weight = "-300"
+
+  [[menu.main]]
+    identifier = "creating-modules"
+    name = "Creating and adding modules"
+    title = "Creating and adding modules"
+    url = "/creating-modules/"
+    weight = "-2000"
+
+  [[menu.main]]
+    identifier = "best-practice"
+    name = "Best practice and examples"
+    title = "Best practice and examples"
+    url = "/best-practice/"
+    weight = "-100"
+
+  [params]
+    DateForm = "2/1/2006"

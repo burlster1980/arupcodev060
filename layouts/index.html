@@ -1,0 +1,34 @@
+{{ define "main" }}
+    
+    {{ .Content }}
+  
+  <section class="container">
+    <div class="menu_row clearfix fullwidth" style="margin-top:3rem;">
+        <div class="menu_section">
+            <h4 class="index-title">Getting started with Sitecore</h4>
+            {{ range where (.Pages.ByParam "weight") "Section" "getting-started" }}
+            <a class="index-link" href="{{.Permalink}}">{{.Title}}</a>
+            {{end}}
+        </div>
+        <div class="menu_section">
+            <h4 class="index-title">Creating pages</h4>
+            {{ range where .Pages.ByTitle "Section" "creating-pages" }}
+            <a class="index-link" href="{{.Permalink}}">{{.Title}}</a>
+            {{end}}
+        </div>
+        <div class="menu_section">
+            <h4 class="index-title">Creating modules</h4>
+            {{ range where .Pages.ByDate "Section" "creating-modules" }}
+            <a class="index-link" href="{{.Permalink}}">{{.Title}}</a>
+            {{end}}
+        </div>
+        <div class="menu_section">
+            <h4 class="index-title">Best practice</h4>
+            {{ range where .Pages.ByTitle "Section" "best-practice" }}
+            <a class="index-link" href="{{.Permalink}}">{{.Title}}</a>
+            {{end}}
+        </div>
+    </div>
+  </section>
+  
+{{ end }}
