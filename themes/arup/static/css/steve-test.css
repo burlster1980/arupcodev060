@@ -1,0 +1,63 @@
+/* alternative publications module */
+
+.publications.alternative {
+padding:2rem 0 2rem;
+}
+
+.publications.alternative .container {
+	max-width:902px;
+}
+
+.publications.reveal.alternative .title { 
+	font-size:16px;
+	color:#343434;
+}
+
+.publications.reveal.alternative h2 {
+	font-size: 24px;
+}
+
+.publications.alternative img {
+	max-width: 150px;
+	margin:2rem auto;
+}
+
+@media (min-width: 768px) {
+
+	.publications.alternative .highlight-section {
+		margin-top:0;
+	}
+
+	.publications.alternative .publications__heading {
+		width:75%;
+		float:left;
+	}
+
+	.publications.reveal.alternative h2 {
+	font-size:32px;
+	}
+
+	.publications.reveal.alternative p {
+		font-size:20px;
+		margin-bottom:1.5rem;
+	}
+
+	.publications.alternative img {
+		position: initial;
+		float:right;
+		transform: initial;
+		max-width: 200px;
+		margin:0;
+	}
+}
+
+/* careers revamp demo */
+@media (min-width:768px) {
+	.hero.hero--headerimage.hero--careers h1 {
+		font-size:50px;
+	}
+
+	.hero__content .intro {
+		margin-top:1rem;
+	}
+}
