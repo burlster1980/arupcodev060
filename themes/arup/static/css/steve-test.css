@@ -1,3 +1,8 @@
+/* general changes for presentation */
+ol li, ul li {
+	font-size:20px;
+}
+
 /* alternative publications module */
 
 .publications.alternative {
