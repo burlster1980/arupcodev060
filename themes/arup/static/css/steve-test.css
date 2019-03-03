@@ -3,6 +3,133 @@ ol li, ul li {
 	font-size:20px;
 }
 
+/* CTA changes */
+.alternative .cta {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "helvetica";
+}
+
+/* video carousel */
+.video-carousel.alternative .progressiveMedia.show_desktop::after, .video-carousel.alternative .progressiveMedia.show_desktop::after {
+		content: "";
+	   position: absolute;
+	   bottom: 0;
+	   top: 0;
+	   left: 0;
+	   right: 0;
+	   background-color: rgba(0,0,0,0.15);
+	   z-index: 2;
+}
+
+/* second carousel changes - increase text max-width */
+.full-carousel.alternative .full-carousel__content {
+	max-width:750px;
+}
+
+.full-carousel.alternative .progressiveMedia.show_desktop::after {
+	   content: "";
+	   position: absolute;
+	   bottom: 0;
+	   top: 0;
+	   left: 0;
+	   right: 0;
+	   background-color: rgba(0,0,0,0.15);
+	   z-index: 2;
+}
+
+@media (min-width: 768px) {
+	.industries-carousel.alternative .industry-item__image {
+		display: none;
+	}
+
+	.industries-carousel.alternative .industry-item {
+		margin-bottom: 0;
+    background: #b2b2b2 none scroll no-repeat 50%;
+    background-size: cover;
+    display: -webkit-box!important;
+    display: -webkit-flex!important;
+    display: flex!important;
+	}
+
+	.industries-carousel.alternative .industry-item__contentwrap {
+		min-height: 65vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    width: 100%;
+	}
+	.industries-carousel.alternative .industry-item__content {
+	display: block;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, .8)), to(transparent));
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, .8), transparent);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, .8) 0, transparent);
+    z-index: 3;
+    color: #fff;
+    width: 100%;
+    position: relative;
+    padding: 200px 20px 40px;
+	}
+
+	.industries-carousel.alternative .industry-item-content p {
+		color:#fff;
+	}
+
+}
+
+/* industries carousel */
+
+.industries-carousel.alternative .filter {
+	font-size:20px;
+	font-weight:bold;
+	font-family: "Helvetica"
+}
+
+/* Quotes */
+
+.large-quote.alternative .cta {
+	margin:20px 0 0 0;
+}
+
+.quote-container.alternative .cta {
+	margin-top:20px;
+}
+
+.large-quote.alternative .people, .quote-container.alternative .people {
+	font-size: 16px;
+}
+
+@media (min-width: 1280px) {
+	.large-quote.alternative .cta {
+	margin-left:50px;
+	}
+
+	.quote-container.alternative .cta {
+		margin-left:50px;
+	}
+}
+
+/* contact us module */
+
+@media (max-width:768px) {
+
+	.contact-us--in-page.alternative .mini-profile__main {
+		margin:auto;
+		width:initial;
+	}
+
+	.contact-us--in-page.alternative .mini-profile__pic-wrap {
+		margin: auto;
+	}
+}
+
 /* alternative publications module */
 
 .publications.alternative {
@@ -51,10 +178,65 @@ padding:2rem 0 2rem;
 		position: initial;
 		float:right;
 		transform: initial;
-		max-width: 200px;
 		margin:0;
 	}
 }
+
+/* recommended content module */
+@media (min-width:768px) {
+	.dynamic-feat.alternative .up-list .cta {
+		display: none;
+	}
+}
+
+@media (max-width:767px) {
+	.dynamic-feat.alternative .up-list .preview-card__pic {
+		display: none;
+	}
+
+	.dynamic-feat.alternative .up-list__item {
+		margin-bottom:20px;
+	}
+}
+
+/* news ticker */
+	.news-ticker.alternative .news-ticker__articles {
+		width:70%;
+	}
+
+	@media (min-width: 768px) {
+		.news-ticker.alternative .news-ticker__articles .article {
+			padding-right:0;
+		}
+
+		.news-ticker.alternative .cta {
+		position:relative;
+		top:0;
+		padding-top:0;
+		display: table;
+		width:100%;
+		font-family: initial;
+			font-weight: initial;
+		}
+
+		.news-ticker.alternative .news-ticker__articles .article h3 {
+			width:80%;
+			display: inline-block;
+			margin-bottom: 0
+		}
+
+		.newsticker.alternative .cta {
+			font-family: initial;
+			font-weight: initial;
+		}
+
+		.news-ticker.alternative .cta span {
+			position: initial;
+			display: table-cell;
+			vertical-align: middle;
+			transform: translateY(0);
+		}
+	}
 
 /* careers revamp demo */
 @media (min-width:768px) {
@@ -64,5 +246,26 @@ padding:2rem 0 2rem;
 
 	.hero__content .intro {
 		margin-top:1rem;
+	}
+
+	.page-search.alternative {
+		width:49%;
+		float: left;
+	}
+	.page-search.alternative:last-child {
+		margin-left:2%;
+	}
+
+	.alternative .split-pic__content {
+		min-height:32rem;
+	}
+
+	.alternative .link-brick__title {
+		font-weight: bold;
+		font-family: "Helvetica"
+	}
+
+	.alternative .link-brick__copy {
+		font-size:18px;
 	}
 }

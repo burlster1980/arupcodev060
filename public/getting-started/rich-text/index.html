@@ -1,0 +1,970 @@
+
+<!doctype html>
+
+
+
+
+
+ <html lang="en" class=""> 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=no">
+
+    <title>Working with rich text</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+<link rel="manifest" href="../manifest.json">
+<link rel="mask-icon" href="../safari-pinned-tab.svg" color="#000000">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="../mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KWSTJVF');</script>
+
+	<link rel="stylesheet" type="text/css" href=/css/site2.css />
+	<link rel="stylesheet" type="text/css" href=/css/default.css />
+    <link rel="stylesheet" type="text/css" href="/css/slick.css">
+    
+
+
+    
+
+    
+    <script  src=/js/imageloader.js></script>
+
+
+    <script>
+     
+    !function(){function e(e,n,t){"use strict";var o=window.document.createElement("link"),r=n||window.document.getElementsByTagName("script")[0],a=window.document.styleSheets;return o.rel="stylesheet",o.href=e,o.media="only x",r.parentNode.insertBefore(o,r),o.onloadcssdefined=function(e){for(var n,t=0;t<a.length;t++)a[t].href&&a[t].href===o.href&&(n=!0);n?e():setTimeout(function(){o.onloadcssdefined(e)})},o.onloadcssdefined(function(){o.media=t||"all"}),o}function n(e,n){e.onload=function(){e.onload=null,n&&n.call(e)},"isApplicationInstalled"in navigator&&"onloadcssdefined"in e&&e.onloadcssdefined(n)}!function(t){var o=function(r,a){"use strict";if(r&&3===r.length){var i=t.navigator,c=t.document,s=t.Image,d=!(!c.createElementNS||!c.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!c.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||t.opera&&i.userAgent.indexOf("Chrome")===-1||i.userAgent.indexOf("Series40")!==-1),l=new s;l.onerror=function(){o.method="png",o.href=r[2],e(r[2])},l.onload=function(){var t=1===l.width&&1===l.height,i=r[t&&d?0:t?1:2];t&&d?o.method="svg":t?o.method="datapng":o.method="png",o.href=i,n(e(i),a)},l.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",c.documentElement.className+=" grunticon"}};o.loadCSS=e,o.onloadCSS=n,t.grunticon=o}(this),function(e,n){"use strict";var t,o=n.document,r="grunticon:",a=function(e){if(o.attachEvent?"complete"===o.readyState:"loading"!==o.readyState)e();else{var n=!1;o.addEventListener("readystatechange",function(){n||(n=!0,e())},!1)}},i=function(e){return n.document.querySelector('link[href$="'+e+'"]')},c=function(e,n){if(t&&!n)return t;t={};var o,a,i,c,s,d;if(o=e.sheet,!o)return t;a=o.cssRules?o.cssRules:o.rules;for(var l=0;l<a.length;l++)i=a[l].cssText,c=r+a[l].selectorText,s=i.split(");")[0].match(/US\-ASCII\,([^"']+)/),s&&s[1]&&(d=decodeURIComponent(s[1]),t[c]=d);return t},s=function(e,n){var t,a,i,c,s;n?t=e:(n=e,t=o),c="data-grunticon-embed";for(var d in n){s=d.slice(r.length);try{a=t.querySelectorAll(s)}catch(e){continue}i=[];for(var l=0;l<a.length;l++)null!==a[l].getAttribute(c)&&i.push(a[l]);if(i.length)for(l=0;l<i.length;l++)i[l].innerHTML=n[d],i[l].style.backgroundImage="none",i[l].removeAttribute(c)}return i},d=function(n,t){"svg"===e.method&&a(function(){var o=c(i(e.href));"function"==typeof t?(s(n,o),t()):s(o),"function"==typeof n&&n()})};e.embedIcons=s,e.getCSS=i,e.getIcons=c,e.ready=a,e.svgLoadedCallback=d,e.embedSVG=d}(grunticon,this)}();
+    </script>
+
+    <noscript><link href=/css/icons.fallback.css rel="stylesheet"></noscript>
+    
+
+</head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWSTJVF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+  
+
+
+  
+ <header class="header  js-site-header" role="navigation">
+  <section id="search-head" class="search" data-api="/api/search/autosearch" role="search" >
+  <div class="container--search search__inner">
+
+    <span class="search__icon"></span>
+
+    <form action="search.html">
+      <label class="label--search-top" for="searchbox_header">Search for projects, services, people and more</label>
+      <input type="text" name="query" id="searchbox_header" class="input--search-top" placeholder="Search for projects, services, people and more" autofocus autocomplete="off" />
+    </form>
+
+    <span class="formError">Please enter at least 2 characters</span>
+
+    <span tabindex="0" data-grunticon-embed class="search__reset icon icon-close" aria-label="Close"></span>
+
+  </div>
+</section>
+
+  <section class="header__inner">
+    <div class="header__burger">
+      <button class="burger js-mobile-nav-toggle">
+        <div class="burger__spinner">
+          <div class="burger__part burger__part--1"></div>
+          <div class="burger__part burger__part--2"></div>
+          <div class="burger__part burger__part--3"></div>
+        </div>
+      </button>
+    </div>
+    <h1 class="header__logo arup-logo "><a class="header__logo-link" href="/">Arup</a></h1>
+    <nav class="header__sitenav">
+
+      <div class="desktopnav">
+        <div class="marker js-nav-marker">
+          <div class="marker__side marker__side--left js-nav-marker-left"></div>
+          <div class="marker__side marker__side--right js-nav-marker-right"></div>
+        </div>
+        <ul class="main-nav">
+          <li class="main-nav__item  js-dnav-has-menu" style="display:none;">
+            <a href="../html/expertise-hub.html" class="main-nav__link main-nav__link--dropdown js-dnav-menu-trigger"><span data-grunticon-embed class="main-nav__icon icon icon-down_arrow"></span></a>
+            <div class="meganav-pane meganav-pane--expertise" role="navigation" aria-expanded="false">
+              <section class="meganav-pane__inner">
+                <div class="meganav-col meganav-col--subnav">
+                  <div class="meganav-subnav">
+                    <h4 class="meganav-subnav__item">
+                      <button class="subnav-action subnav-action--fade subnav-action--nolink active js-nav-submenu" data-subnav-trigger="navindustry">By Industry <span data-grunticon-embed class="subnav-action__icon icon icon-down_arrow"></span></button>
+                    </h4>
+                    <h4 class="meganav-subnav__subtitle">By Service</h4>
+                    <ul class="meganav-subnav__list">
+                      <li class="meganav-subnav__item"><button class="subnav-action subnav-action--fade subnav-action--nolink js-nav-submenu" data-subnav-trigger="navbd">Building <span data-grunticon-embed class="subnav-action__icon icon icon-down_arrow"></span></button></li>
+                      <li class="meganav-subnav__item"><a class="subnav-action subnav-action--fade js-nav-submenu" href="./industry.html" data-subnav-trigger="navas">Advisory Services <span data-grunticon-embed class="subnav-action__icon icon icon-down_arrow"></span></a></li>
+                      <li class="meganav-subnav__item"><button class="subnav-action subnav-action--fade subnav-action--nolink js-nav-submenu" data-subnav-trigger="navid">Infrastructure <span data-grunticon-embed class="subnav-action__icon icon icon-down_arrow"></span></button></li>
+                      <li class="meganav-subnav__item"><button class="subnav-action subnav-action--fade subnav-action--nolink js-nav-submenu" data-subnav-trigger="navp">Planning <span data-grunticon-embed class="subnav-action__icon icon icon-down_arrow"></span></button></li>
+                      <li class="meganav-subnav__item"><button class="subnav-action subnav-action--fade subnav-action--nolink js-nav-submenu" data-subnav-trigger="navtc">Technical Consulting <span data-grunticon-embed class="subnav-action__icon icon icon-down_arrow"></span></button></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="meganav-col meganav-col--submarker">
+                  <div class="sub-marker">
+                    <img class="sub-marker__pic js-nav-marker-img" src="https://preview.wearethink.com/arup-website/assets/images/nav_scroll_line--right.png" />
+                    
+                  </div>
+                </div>
+                <div class="meganav-col meganav-col--subnav-content">
+                  <div data-subnav-content="navindustry" aria-hidden="false" class="subnav-content active js-nav-submenu-target">
+                    <ul class="meganav-list meganav-list--cols-three">
+                      <li class="meganav-list__item"><a class="meganav-action" href="../html/industry-arts.html">Arts and Culture</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Cities</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Education</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Energy</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Government</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Healthcare</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Mining</a></li>
+                      <li class="meganav-group">
+                        <h5 class="meganav-group__title">Property</h5>
+                        <ul class="meganav-group__wrap">
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Commercial Property</a></li>
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Hotels and Leisure</a></li>
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Residential</a></li>
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Retail</a></li>
+                        </ul>
+                      </li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Resources and Waste</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Science and Industry</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Sport</a></li>
+                      <li class="meganav-group">
+                        <h5 class="meganav-group__title">Transport</h5>
+                        <ul class="meganav-group__wrap">
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Aviation</a></li>
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Highways</a></li>
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Maritime</a></li>
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Rail</a></li>
+                        </ul>
+                      </li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Water</a></li>
+                    </ul>
+                  </div>
+                  <div data-subnav-content="navbd" aria-hidden="true" class="subnav-content js-nav-submenu-target">
+                    <ul class="meganav-list meganav-list--cols-three">
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Accessible environments</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Architecture</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Building design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Building information modelling</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Building physics</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Building retrofit</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Building services engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Commissioning and building performance evaluation</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Electrical engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Facade engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Facilities management</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Fire engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Landscape architecture</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Mechanical engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Public health engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Structural engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Sustainable buildings design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Vertical transportation design</a></li>
+                    </ul>
+                  </div>
+                  <div data-subnav-content="navas" aria-hidden="true" class="subnav-content js-nav-submenu-target">
+                    <ul class="meganav-list meganav-list--cols-three">
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Business and investor advisory</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Carbon management</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Data insight and analytics</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Digital</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Foresight</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Intelligent transport solutions</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Operations consulting</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Operational readiness activation and transition</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Organisational behaviour</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Programme and project management</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Research</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Sustainability consulting</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Transport consulting</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Visualisation</a></li>
+                    </ul>
+                  </div>      
+                  <div data-subnav-content="navid" aria-hidden="true" class="subnav-content js-nav-submenu-target">
+                    <ul class="meganav-list meganav-list--cols-three">
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Airport planning</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Bridge engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Civil engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Infrastructure design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Maritime engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Rail engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Sustainable infrastructure design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Tunnel design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Waste management</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Waste to energy solutions</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Water engineering</a></li>
+                    </ul>
+                  </div>
+                  <div data-subnav-content="navp" aria-hidden="true" class="subnav-content js-nav-submenu-target">
+                    <ul class="meganav-list meganav-list--cols-three">
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Environmental consulting</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Economic planning</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Flood risk management</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">International development</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Master planning</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Planning policy advice</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Resilience security and risk</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Smart cities</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Smart mobility</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Town planning</a></li>
+                    </ul>
+                  </div>
+                  <div data-subnav-content="navtc" aria-hidden="true" class="subnav-content js-nav-submenu-target">
+                    <ul class="meganav-list meganav-list--cols-three">
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Acoustic consulting</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Advanced technology and research</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Audio visual and multimedia</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Fluid dynamics</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Geographic information systems</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Geotechnics</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Hydrogeology</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">ICT infrastructure design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Lighting design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Materials</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Product design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Quantity surveying</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Seismic design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Software products</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Technology operations and project management</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Theatre consulting</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Vibration engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Wind engineering</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </li>
+          
+          
+           
+          <li class="main-nav__item js-dnav-has-menu">
+            <a href="/getting-started/" class="main-nav__link main-nav__link--dropdown js-dnav-menu-trigger">Getting started with Sitecore<span data-grunticon-embed class="main-nav__icon icon icon-down_arrow"></span></a>
+            
+            <div class="meganav-pane meganav-pane--perspective" role="navigation" aria-expanded="false" style="background-image:url('/images/backgrounds/navigation-background.jpg')">
+              <section class="meganav-pane__inner">
+                <div class="meganav-col meganav-col--title">
+                  <div class="nav-intro">
+                    <h4 class="nav-intro__title">General guidance on using the Sitecore platform</h4>
+                    
+                  </div>
+                </div>
+                <div class="meganav-col meganav-col--listcol">
+                  
+                  <ul class="meganav-list active">
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/getting-started/content-experienence-editor/">Exploring Sitecore</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/getting-started/rich-text/">Working with rich text</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/getting-started/adding-links/">Adding links</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/getting-started/image-preparation/">Image Preparation</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/getting-started/uploading-images/">Uploading images</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/getting-started/language-versions/">Adding language versions</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/getting-started/workflow/">Workflow</a></li>
+                    
+                  </ul>
+                  
+                </div>
+              </section>
+            </div>
+            
+          </li>
+          
+           
+          <li class="main-nav__item js-dnav-has-menu">
+            <a href="/creating-pages/" class="main-nav__link main-nav__link--dropdown js-dnav-menu-trigger">Creating pages<span data-grunticon-embed class="main-nav__icon icon icon-down_arrow"></span></a>
+            
+            <div class="meganav-pane meganav-pane--perspective" role="navigation" aria-expanded="false" style="background-image:url('/images/backgrounds/navigation-background.jpg')">
+              <section class="meganav-pane__inner">
+                <div class="meganav-col meganav-col--title">
+                  <div class="nav-intro">
+                    <h4 class="nav-intro__title">General guidance on using the Sitecore platform</h4>
+                    
+                  </div>
+                </div>
+                <div class="meganav-col meganav-col--listcol">
+                  
+                  <ul class="meganav-list active">
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-pages/creating-news/">Creating a news page</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-pages/creating-offices/">Creating an office page</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-pages/creating-perspectives/">Creating a perspective</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-pages/creating-profiles/">Creating profiles</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-pages/creating-projects/">Creating a project</a></li>
+                    
+                  </ul>
+                  
+                </div>
+              </section>
+            </div>
+            
+          </li>
+          
+          
+           
+          <li class="main-nav__item js-dnav-has-menu">
+            <a href="/creating-modules/" class="main-nav__link main-nav__link--dropdown js-dnav-menu-trigger">Creating and adding modules<span data-grunticon-embed class="main-nav__icon icon icon-down_arrow"></span></a>
+            
+            <div class="meganav-pane meganav-pane--perspective" role="navigation" aria-expanded="false" style="background-image:url('/images/backgrounds/navigation-background.jpg')">
+              <section class="meganav-pane__inner">
+                <div class="meganav-col meganav-col--title">
+                  <div class="nav-intro">
+                    <h4 class="nav-intro__title">General guidance on using the Sitecore platform</h4>
+                    
+                  </div>
+                </div>
+                <div class="meganav-col meganav-col--listcol">
+                  
+                  <ul class="meganav-list active horizontal">
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/adding-modules/">Adding modules</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/carousel/">Carousel</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/contacts/">Contacts</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/images/">Image module</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/publication-prom/">Publication promo</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/quotation/">Quotation module</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/quote/">Quote module</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/recommended-content/">Recommended content</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/rich-text-modulule/">Rich text module</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/text-image-split/">Text image split</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/video/">Video module</a></li>
+                    
+                  </ul>
+                  
+                </div>
+              </section>
+            </div>
+            
+          </li>
+          
+           
+          <li class="main-nav__item js-dnav-has-menu">
+            <a href="/best-practice/" class="main-nav__link main-nav__link--dropdown js-dnav-menu-trigger">Best practice and examples<span data-grunticon-embed class="main-nav__icon icon icon-down_arrow"></span></a>
+            
+            <div class="meganav-pane meganav-pane--perspective" role="navigation" aria-expanded="false" style="background-image:url('/images/backgrounds/navigation-background.jpg')">
+              <section class="meganav-pane__inner">
+                <div class="meganav-col meganav-col--title">
+                  <div class="nav-intro">
+                    <h4 class="nav-intro__title">General guidance on using the Sitecore platform</h4>
+                    
+                  </div>
+                </div>
+                <div class="meganav-col meganav-col--listcol">
+                  
+                  <ul class="meganav-list active horizontal">
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/best-practice/exemplar-office/">Exemplar office</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/best-practice/content-checklist/">Content checklist</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/best-practice/exemplar-profile/">Exemplar profile</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/best-practice/seo/">SEO best practice</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/best-practice/exemplar-project/">Exemplar project</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/best-practice/dashboards/">Metrics and dashboards</a></li>
+                    
+                  </ul>
+                  
+                </div>
+              </section>
+            </div>
+            
+          </li>
+          
+          
+        </ul>
+      </div>
+
+
+    </nav>
+    <nav class="header__nav-extra">
+      <ul class="extra-nav">
+        
+      </ul>
+    </nav>
+  </section>
+</header>
+
+  
+
+  <div class="nav-sidebar js-mobile-nav">
+  <div class="nav-sidebar__controls">
+    <div class="nav-ctrls">
+      <div class="nav-ctrls__btn nav-ctrls__btn--close js-mobile-nav-toggle">
+        <button class="nav-ctrl">
+          <span data-grunticon-embed class="nav-ctrl__icon icon icon-close">Close</span>
+        </button>
+      </div>
+      <div class="nav-ctrls__btn nav-ctrls__btn--back js-mobile-nav-back js-nav-sec-trigger" data-nav-sec-trigger="core">
+        <button class="nav-ctrl">
+          <span data-grunticon-embed class="nav-ctrl__icon nav-ctrl__icon--back icon icon-down_arrow">Back</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <nav class="nav-sidebar__main">
+
+    <ul class="nav-list-wrap">
+      <li class="nav-list-wrap__item nav-list-wrap__item--active js-nav-sec" data-nav-sec="core">
+        <div class="nav-list-wrap__content nav-list-wrap__content--center">
+          <div class="nav-core">
+            <ul class="nav-core__list">
+              <li class="nav-core__item">
+
+                <button class="nav-core__action nav-core__action--trigger js-nav-sec-trigger" data-nav-sec-trigger="expertise">General guidance<span data-grunticon-embed class="nav-core__pointer icon icon-down_arrow"></span></button>
+              </li>
+              
+              <li class="nav-core__item">
+                <button class="nav-core__action nav-core__action--trigger js-nav-sec-trigger" data-nav-sec-trigger="perspectives">Creating pages<span data-grunticon-embed class="nav-core__pointer icon icon-down_arrow"></span></button>
+              </li>
+              
+              <li class="nav-core__item">
+                <button class="nav-core__action nav-core__action--trigger js-nav-sec-trigger" data-nav-sec-trigger="firm">Creating and editing modules<span data-grunticon-embed class="nav-core__pointer icon icon-down_arrow"></span></button>
+              </li>
+              
+              <li class="nav-core__item">
+                <button class="nav-core__action nav-core__action--trigger js-nav-sec-trigger" data-nav-sec-trigger="offices">Best practice<span data-grunticon-embed class="nav-core__pointer icon icon-down_arrow"></span></button>
+              </li>
+            </ul>
+            <div class="nav-core__search">
+              <button class="nav-search-btn"><span data-grunticon-embed class="nav-search-btn__icon icon icon-search"></span> Search</button>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="nav-list-wrap__item nav-list-wrap__item--dark nav-list-wrap__item--expertise js-nav-sec" data-nav-sec="expertise">
+        <div class="nav-list-wrap__content">
+          <div class="nav-second">
+            <h3 class="nav-second__title nav-link-title">
+              <a href="#" class="nav-link-title__link">
+                <span class="nav-link-title__copy">General guidance</span>
+                
+              </a>
+            </h3>
+
+            <div class="nav-second__subsec">
+              
+              <ul class="nav-second__list">
+                <li class="nav-second__item">
+                  <a href="/getting-started/content-experience-editor" class="nav-second__link nav-action">Getting started with Sitecore</a>
+                </li>
+                <li class="nav-second__item">
+                  <a href="/getting-started/rich-text" class="nav-second__link nav-action">Editing using Rich Text editor</a>
+                </li>
+                <li class="nav-second__item">
+                  <a href="/getting-started/adding-links" class="nav-second__link nav-action">Adding links in Sitecore</a>
+                </li>
+                <li class="nav-second__item">
+                  <a href="/getting-started/image-preparation" class="nav-second__link nav-action">Preparing images</a>
+                </li>
+              
+                <li class="nav-second__item">
+                  <a href="/getting-started/uploading" class="nav-second__link nav-action">Uploading images</a>
+                </li>
+                <li class="nav-second__item">
+                  <a href="/getting-started/language-versions" class="nav-second__link nav-action">Adding language versions</a>
+                </li>
+                <li class="nav-second__item">
+                  <a href="/getting-started/workflow" class="nav-second__link nav-action">Workflow</a>
+                </li>
+               </uL>
+            </div>
+        </div>
+    </div>
+      </li>
+      <li class="nav-list-wrap__item nav-list-wrap__item--dark nav-list-wrap__item--perspectives js-nav-sec" data-nav-sec="perspectives">
+        <div class="nav-list-wrap__content">
+          <div class="nav-second">
+            <h3 class="nav-second__title nav-link-title">
+              <a href="#" class="nav-link-title__link">
+                <span class="nav-link-title__copy">Creating pages</span>
+                
+              </a>
+            </h3>
+
+            
+            <ul class="nav-second__list">
+              <li class="nav-second__item">
+                <a href="/creating-pages/creating-news" class="nav-second__link nav-action">News</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/creating-pages/creating-offices" class="nav-second__link nav-action">Offices</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/creating-pages/creating-perspectives" class="nav-second__link nav-action">Perspectives</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/creating-pages/profiles" class="nav-second__link nav-action">Profiles</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/creating-pages/creating-project" class="nav-second__link nav-action">Projects</a>
+              </li>
+            </ul>
+            
+
+          </div>
+        </div>
+      </li>
+      <li class="nav-list-wrap__item nav-list-wrap__item--dark nav-list-wrap__item--firm js-nav-sec" data-nav-sec="firm">
+        <div class="nav-list-wrap__content">
+          <div class="nav-second">
+            <h3 class="nav-second__title nav-link-title">
+              <a href="#" class="nav-link-title__link">
+                <span class="nav-link-title__copy">Creating and editing modules</span>
+                
+              </a>
+            </h3>
+
+            
+            <ul class="nav-second__list">
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/adding-modules">Adding modules</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/carousel">Carousel</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/contacts">Contacts</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules//creating-modules//creating-modules/images">Image</a></li>
+           
+
+            
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules//creating-modules/publication-promo">Publication Promo</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/quotation">Quotation (Quote and image)</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/quote">Quote</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/recommended-content">Recommended content</a></li>
+            
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules//creating-modules/rich-text-module">Rich Text module</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/text-image-split">Text image split</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/video">Video</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </li>
+      <li class="nav-list-wrap__item nav-list-wrap__item--dark nav-list-wrap__item--offices js-nav-sec" data-nav-sec="offices">
+        <div class="nav-list-wrap__content">
+          <div class="nav-second">
+            <h3 class="nav-second__title nav-link-title">
+              <a href="#" class="nav-link-title__link">
+                <span class="nav-link-title__copy">Best practice</span>
+                
+              </a>
+            </h3>
+
+            <ul class="nav-second__list">
+              
+              <li class="nav-second__item">
+                <a href="/best-practice/exemplar-office" class="nav-second__link nav-action">Exemplar office</a>
+              </li>
+              
+              <li class="nav-second__item">
+                <a href="/best-practice/exemplar-profile" class="nav-second__link nav-action">Exemplar profile</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/best-practice/exemplar-project.html" class="nav-second__link nav-action">Exemplar project</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/best-practice/content-checklist" class="nav-second__link nav-action">Content checlist</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/best-practice/seo" class="nav-second__link nav-action">SEO best practice</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/best-practice/dashboards" class="nav-second__link nav-action">Metrics and dashboards</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </li>
+    </ul>
+
+  </nav>
+  <footer class="nav-sidebar__foot">
+    <a href="../html/contact.html" class="link link--icon"><span data-grunticon-embed class="icon icon-contact"></span>Get in touch</a>
+  </footer>
+</div>
+
+
+  <section id="search-results" class="search-results">
+
+  <div class="search-results__wrap">
+
+    <div class="container--search search-results--inner">
+
+      <div class="search-results--noresult">
+          <p class="search-results__warning">Looks like there are no results for <span></span></p>
+          <span class="suggestion label label--md">Suggestions</span>
+          <ul class="search-result__results search-result__results--suggestions">
+            <li><a href="search.html">Waste<a></li>
+            <li><a href="search.html">Water<a></li>
+            <li><a href="search.html">Watershed<a></li>
+              <li><a href="search.html">Waste<a></li>
+              <li><a href="search.html">Water<a></li>
+              <li><a href="search.html">Watershed<a></li>
+          </ul>
+      </div>
+
+      <div class="search-results__content">
+
+        <span class="suggestion label label--md">Suggestions</span>
+
+        <div class="search-result">
+          <span class="search-result__section">Projects</span>
+          <ul class="search-result__results">
+            <li><a href="search.html">Marina Bay Waterfront Promenade<a></li>
+            <li><a href="search.html">Marina Bay Sands integrated resort<a></li>
+            <li><a href="search.html">Istanbul Marina Transport Services<a></li>
+          </ul>
+        </div>
+
+        <div class="search-result">
+          <span class="search-result__section">Industry</span>
+          <ul class="search-result__results">
+            <li><a href="search.html">Maritime <span class="search__tag">Marina</span><a></li>
+          </ul>
+        </div>
+
+        <div class="search-result">
+          <span class="search-result__section">Office</span>
+          <ul class="search-result__results">
+            <li><a href="search.html">London, United Kingdom <span class="search__tag">London</span><a></li>
+          </ul>
+        </div>
+      </div>
+
+      <a href="search.html" id="search__viewall" class="cta cta--black cta--lg">
+          <span data-grunticon-embed class="icon icon-oval"></span>
+          <span>View all results for <span class="search__cta">"Marina"</span></span>
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<div class="global-wrapper">
+        	<main id="main" role="main">
+  <section class="hero hero--contacts">
+    <div class="container">
+    	<div class="hero__content hero__content--dark hero__content--perspectives">
+        	<span class="label--lg italic">Getting started</span>
+        	<h1 class="h1">Working with rich text</h1>
+        	<span class="label--lg">Last updated: 17/2/2019</span>
+        </div>
+    </div>
+   </section>
+    <section class="container" id="">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <h2>Table of contents</h2>
+        </div>
+    </div>
+</section>
+<section class="container">
+    <div class="menu_row">
+        <div class="menu_section two">
+            <ol class="header-list">
+                <li>
+                    <a href="#what">What is the Rich Text editor?</a>
+                </li>
+                <li>
+                    <a href="#fields">Where are rich text editors found?</a>
+                    <ul class="sub-header-list">
+                        <li>
+                            <a href="#pages">Pages</a>
+                        </li>
+                        <li>
+                            <a href="#modules">Modules</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#using">Using the Rich Text Editor</a>
+                    <ul class="sub-header-list">
+                        <li>
+                            <a href="#formatting">Formatting</a>
+                        </li>
+                        <li>
+                            <a href="#links">Adding links</a>
+                        </li>
+                        <li>
+                            <a href="#images">Images</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#how">Using the editor</a>
+                </li>
+            </ol>
+        </div>
+        <div class="menu_section two">
+            <ol class="header-list second" start="4">
+                <li>
+                    <a href="#faq">FAQ</a>
+                </li>
+            </ol>
+        </div>
+    </div>
+</section>
+<section class="container" id="what">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <h2>1. What is the Rich Text editor?</h2>
+            <p></p>
+            <p>Rich text editors are a fundamental component of most Content Management Systems, allowing you to add elements such as text, lists, links and images to your content.</p>
+            <p>Arup.com and Sitecore make extensive use of Rich Text elements to add content into your pages. This guide details the two specific ways that rich text is utilised within Sitecore.</p>
+            <div class="training-image"><img alt="Image" class="mainImg" src="/images/rich-text/rich-text-example.jpg"></div>
+            <div class="halfbleed__detail">
+                Fig 1: An example of a the Sitecore Rich Text Editor
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container" id="how">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <h2>2. Where are rich text editors found?</h2>
+            <p></p>
+            <p>You will find Rich Text fields across the Sitecore platform. They will be found either in pages when creating them, or within individual modules.</p>
+            <h5><a id="pages" name="pages"></a>Pages</h5>
+            <p>When creating some page types, you will be able to enter 'rich text' content directly into the fields that make up the item. The following page types utilise rich text fields:</p>
+            <ul>
+                <li>Industry</li>
+                <li>Service</li>
+                <li>
+                    <a href="/creating-pages/creating-projects/">Projects</a>
+                </li>
+                <li>
+                    <a href="/creating-pages/creating-perspectives/">Perspectives</a>
+                </li>
+                <li>
+                    <a href="/creating-pages/creating-news/">News</a>
+                </li>
+                <li>Events</li>
+                <li>
+                    <a href="/creating-pages/creating-profiles/">Profiles</a>
+                </li>
+                <li>
+                    <a href="/creating-pages/creating-offices/">Countries / offices</a>
+                </li>
+            </ul>
+            <h5><a id="modules" name="modules">Modules</a></h5>
+            <p>A number of the individual modules used on arup.com also require the use of rich text editors. These include:</p>
+            <ul>
+                <li>
+                    <a href="/creating-modules/images/">Image</a>
+                </li>
+                <li>Rich text</li>
+                <li>
+                    <a href="/creating-modules/text-image-split/">Text image split</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="container" id="using">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <h2>3. Using the Rich Text Editor</h2>
+            <p>You can tell when a field requires rich text input due to the presence of multiple options for the field - and an inability to edit copy by simply clicking on the field. The screenshot below represents an example of a rich text field from a 'country' page.</p>
+            <div class="training-image"><img alt="Image" class="mainImg" src="/images/rich-text/rich-text-field.jpg"></div>
+            <div class="halfbleed__detail">
+                Fig 2: Example of a 'rich text' field on a page type. 'Show editor' option is the indicator that this is a rich text field
+            </div>
+            <p>To add content within the Rich Text Editor, please follow the steps below:</p>
+            <ul>
+                <li>When viewing your page or module in the Content Editor, click 'Show Editor' - this will launch the editor in a new popup window</li>
+                <li>Enter you copy either by:
+                    <ol>
+                        <li>Manually entering it into editor</li>
+                        <li>Cut and paste your copy from an alternative source such as Word*</li>
+                    </ol>
+                </li>
+            </ul>
+            <p><b>*You are STRONGLY advised not to paste content directly into the CMS from any Microsoft product including Word and Outlook. This is due to the potential for these programmes to add additional formatting to your content which will break the site's display. You should instead copy all your content into Notepad (installed on all Windows machines) and then copy and paste from Notepad into the Rich Text Editor.</b></p>
+        </div>
+    </div>
+</section>
+<section class="container" id="">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <h5><a id="formatting" name="formatting"></a>Formatting content</h5>
+            <p>The Rich Text Editor gives you some control over how your content is formatted. There are a number of different options you <i>could</i> use, but you should restrict any formatting changes to the options discussed below:</p>
+            <p><b>Formatting paragraphs</b></p>
+            <p>The Rich Text Editor will automatically apply paragraph tags (&lt; p &gt;) to your copy every time you hit 'return' when using the editor. This will result in your copy being correctly spaced.</p>
+            <p><b>Making text bold</b></p>
+            <p>To make your text bold, highlight the word(s) you want to make bold by dragging your mouse over them and choose the 'B' icon from the editor.</p>
+            <p><b>Making text italic</b></p>
+            <p></p>
+            <p>To make your text italic, highlight the word(s) you want to make italic by dragging your mouse over them and choose the 'I' icon from the editor. <b>NB - never make text both bold and italic - this style is exclusively reserved for links on arup.com</b></p>
+            <p><b>Adding bullet lists</b></p>
+            <p>You should always use the Rich Text editor to correctly format lists. Please take the steps below:</p>
+            <ul>
+                <li>Remove any bullets / icons imported with your original copy</li>
+                <li>Ensure each line of your list is on a separate line in the editor window</li>
+                <li>Highlight each line of your list by dragging your course across them and then select the icon composed of 'three dots and three lines'</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="container" id="">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <p><b>Adding headers such as H2 or H3</b></p>
+            <p>To correctly format headings in your copy, highlight the text and from the second drop down option (default value of 'Normal') choose the appropriate heading style. Please follow the guidance below if you do this:</p>
+            <ul>
+                <li>Never use the H1 option - content editors must NOT set this value</li>
+                <li>Your first level headers should be styled as H2</li>
+                <li>Any headings which sit under a H2 heading should be styled as an H3 and so on</li>
+            </ul>
+            <p><b>NB - please note that due to the use of global styling on arup.com, the above approach may not always display on the most appropriate fashion. If so, please alter the heading style you apply.</b></p>
+            <p>Whilst the editor contains a range of additional options, other than those discussed below, you should not attempt to use these without talking to GMC Online first.</p>
+            <div class="training-image"><img alt="Image" class="mainImg" src="/images/rich-text/rich-text-options.jpg"></div>
+            <div class="halfbleed__detail">
+                Fig 3: Some of the key options you can utilise in the Rich Text Editor are highlighted above
+            </div>
+            <h5><a id="links" name="links"></a>Adding links</h5>
+            <p>You can add links to your content via the Rich Text Editor.</p>
+            <p></p>
+            <p>A full guide on <a href="links.html">adding links in Sitecore</a> is available.</p>
+            <h5><a id="images" name="images"></a>Adding images</h5>
+            <p>Whilst it is possible to add images via the Rich Text Editor, you are strongly advised against doing this. Specific modules are available for incorporating images - ensuring they are styled correctly and work across all devices.</p>
+            <p>A full guide on the <a href="/creating-modules/images">Image Module</a> is available.</p>
+        </div>
+    </div>
+</section>
+<section class="container" id="faq">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <h2>FAQ</h2>
+            <ol class="header-list">
+                <li>
+                    <a href="#faq-why">My text formatting is incorrect. Why?</a>
+                </li>
+                <li>
+                    <a href="#faq-header">Why should I use specific header styles?</a>
+                </li>
+                <li>
+                    <a href="#faq-images">Why shouldn't I add images in the Rich Text Editor?</a>
+                </li>
+            </ol>
+            <h5><a id="faq-why" name="faq-why"></a>1. My text formatting is incorrect. Why?</h5>
+            <p>A. There are a number of reasons for why your formatting may not appear correctly. These include:</p>
+            <ul>
+                <li>Pasting content directly from Word - this may add additional HTML into the editor which impacts how content is displayed. To prevent this, try to always copy content into Notepad (or another text editor) first, then copy from Notepad into the Rich Text Editor</li>
+                <li>Incorrect use of paragraph tags - by default, Sitecore will wrap content in paragraph tags each time you hit 'return' or 'enter' when using the Rich Text Editor. If you 'double space' as you may when using Word, you'll likely see large gaps between your paragraphs. Simply delete one of the additional lines you've add to rectify this</li>
+                <li>Additional paragraph tags or line breaks sometimes get added at the end of content - place your cursor at the very end of your content and ensure that there are no lines below your final word. If there are, simply delete these</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="container" id="">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <h5><a id="faq-header" name="faq-header"></a>2. Why should I use specific header styles?</h5>
+            <p>A. Headings in your content are a good thing. They help to break up content and make it easier for users to find what they're looking for. Remember, web browsers' attention spans are notoriously short. Providing headings throughout your content helps indicate clearly what people will find.</p>
+            <p>Using the correct heading format is important chiefly from an SEO perspective. Google and other search engines look for specific signals within your content when they index it. One of these is the structure of the page's underlying HTML. Ensuring good structure boosts the chances of Google et al viewing the page favourably and therefore being returned higher up the search results.</p>
+            <p></p>
+            <h5><a id="faq-images" name="faq-images"></a>3. Why shouldn't I add images in the Rich Text Editor?</h5>
+            <p>arup.com is designed to responsive - i.e. to work on any device. Achieving this is a complex process, particularly when it comes to imagery. To ensure images work correctly across all devices, specific modules have been designed for incorporating imagery into your work. These are coded to allow images to resize and reshape depending on the screen size of the user.</p>
+            <p>If you add imagery via the Editor, this code will not be in place. If you viewed your content on a mobile device, you'd likely see a full size image 'breaking' the display and disappearing off the edge of your screen. This is a bad user experience and reflects badly on the Arup digital brand.</p>
+        </div>
+    </div>
+</section>
+
+   <section class="container" id="">
+	<div class="rich-text">
+		<div class="reveal rich-text__content">
+			<ul class="list-navigation">
+				
+				<li class="previous"><span>Previous: <a href="https://styleguide.arup.com/getting-started/content-experienence-editor/"><b><em>Exploring Sitecore</em></b></a></span></li>
+				
+				
+				<li class="next"><span>Next: <a href="https://styleguide.arup.com/getting-started/adding-links/"><b><em>Adding links</em></b></a></span></li>
+				
+				
+			</ul>
+			<a class="cta-btn" href="/"><span class="cta-btn__text">Guidance home</span> <span class="cta-btn__icon-wrap"><span class="cta-btn__icon icon icon-next" data-grunticon-embed=""></span></span></a>
+		</div>
+	</div>
+</section>
+
+        	</main>	<footer class="footer" role="contentinfo">
+		<div class="footer__menu">
+    		<section class="container">
+				<div class="footer__group footer__group--logo">
+        			<span class="arup-logo"><a href="/index.html">Arup</a></span>
+        			<p>We shape a better world</p>
+      			</div>
+		    	<hr />
+		    	<ul class=" footer__group footer__list footer__right">
+        			<li class=""><a href="../html/careers.html">Careers</a></li>
+        			<li class=""><a href="../html/news.html">News &amp; Events</a></li>
+        			<li class=""><a href="../html/contact.html">Contact</a></li>
+      			</ul>
+    		</section>
+		</div>
+
+		<div class="footer__submenu">
+    		<section class="container">
+        		<div class=" footer__group footer__right">
+            		<ul class="list__icons">
+            			<li><a target="_blank" href="../html/404.html" data-grunticon-embed class="icon icon-twitter">Twitter</a></li>
+            			<li><a target="_blank" href="../html/maintenance.html" data-grunticon-embed class="icon icon-linkedin">LinkedIn</a></li>
+            			<li><a target="_blank" href="#" data-grunticon-embed class="icon icon-facebook">Facebook</a></li>
+            			<li><a target="_blank" href="#" data-grunticon-embed class="icon icon-instagram">Instagram</a></li>
+            			<li><a target="_blank" href="#" data-grunticon-embed class="icon icon-rss">RSS</a></li>
+          			</ul>
+        		</div>
+      			<hr />
+      			<div class="footer__group">
+            		<span class="copyright footer__md">© Arup 2019. All rights reserved <span class="divider"></span> </span>
+          			<ul class="list--inline">
+            			<li><a class="link--small" href="../html/legal.html">Privacy</a><span class="divider footer__mob"></span></li>
+            			<li><a class="link--small" href="../html/legal.html">Legal</a><span class="divider footer__mob"></span></li>
+            			<li><a class="link--small" href="../html/legal.html">Cookies</a></li>
+          			</ul>
+           			<span class="copyright footer__mob">© Arup 2019. All rights reserved <span class="divider footer__md"></span> </span>
+        		</div>
+    		</section>
+		</div>
+	</footer>
+</div>
+<script>document.addEventListener('DOMContentLoaded', function () {grunticon(["/css/icons.data.svg.css", "/css/icons.data.png.css", "/css/icons.fallback.css"], grunticon.svgLoadedCallback);});</script>
+<script src=/js/libs.js></script>
+<script src=/js/app.js ></script>
+<script src=/js/steve.js ></script>
+
+</body>
+</html>

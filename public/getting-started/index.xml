@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Creating pages on Arup.com support and best practice</title>
+    <link>https://styleguide.arup.com/getting-started/</link>
+    <description>Recent content in Creating pages on Arup.com support and best practice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Feb 2019 14:39:43 +0000</lastBuildDate>
+    
+	<atom:link href="https://styleguide.arup.com/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Exploring Sitecore</title>
+      <link>https://styleguide.arup.com/getting-started/content-experienence-editor/</link>
+      <pubDate>Sun, 17 Feb 2019 01:30:53 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/getting-started/content-experienence-editor/</guid>
+      <description>Table of contents     Introduction to Sitecore   Definitions and terms   The CMS  Accessing Sitecore and logging in   Home screen   Browsing in the Content Editor   Buckets   Key functionality       The Experience Editor  Accessing the Experience Editor   Adding modules   Editing modules   Removing modules   Browsing pages   Previewing   Submitting a page for publication        1.</description>
+    </item>
+    
+    <item>
+      <title>Working with rich text</title>
+      <link>https://styleguide.arup.com/getting-started/rich-text/</link>
+      <pubDate>Sun, 17 Feb 2019 11:32:53 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/getting-started/rich-text/</guid>
+      <description>Table of contents     What is the Rich Text editor?   Where are rich text editors found?  Pages   Modules     Using the Rich Text Editor  Formatting   Adding links   Images     Using the editor     FAQ      1. What is the Rich Text editor? 
+Rich text editors are a fundamental component of most Content Management Systems, allowing you to add elements such as text, lists, links and images to your content.</description>
+    </item>
+    
+    <item>
+      <title>Adding links</title>
+      <link>https://styleguide.arup.com/getting-started/adding-links/</link>
+      <pubDate>Sun, 17 Feb 2019 11:34:53 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/getting-started/adding-links/</guid>
+      <description>Table of contents     General links overview   Adding links in Rich Text fields  Internal page links   External page links     Adding links to form fields     FAQ      1. General links overview Adding links to your content is vital. Sitecore offers a number of different ways to add links. This is a simple process, but each method is slightly different.</description>
+    </item>
+    
+    <item>
+      <title>Image Preparation</title>
+      <link>https://styleguide.arup.com/getting-started/image-preparation/</link>
+      <pubDate>Sun, 17 Feb 2019 11:35:22 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/getting-started/image-preparation/</guid>
+      <description>Table of contents     Preparing imagery   Tools   Image quality   Image size  Resizing an image   Check your proportions   Resize the image       Image cropping  Undoing a crop   Pixel perfect crops     Saving your images for use online  When to use different file types     FAQ      1.</description>
+    </item>
+    
+    <item>
+      <title>Uploading images</title>
+      <link>https://styleguide.arup.com/getting-started/uploading-images/</link>
+      <pubDate>Sun, 17 Feb 2019 11:39:22 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/getting-started/uploading-images/</guid>
+      <description>Table of contents     Uploading images to Sitecore   Media library  Locating images   Creating new folders   Adding images to the folder       Selecting and uploading images   FAQ      1. Uploading images to Sitecore Once you&#39;ve prepared your images, the next step is to upload them. Images are stored in Sitecore&#39;s media library.</description>
+    </item>
+    
+    <item>
+      <title>Adding language versions</title>
+      <link>https://styleguide.arup.com/getting-started/language-versions/</link>
+      <pubDate>Sun, 17 Feb 2019 11:43:22 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/getting-started/language-versions/</guid>
+      <description>Table of contents     What are language versions?   Creating new language versions  Adding to documents   Adding to modules       The Experience Editor   FAQ      1. What are language versions? Sitecore supports multiple different language versions for pages. By default, all pages should be created in English - when you add a page it&#39;s important that you do so using English.</description>
+    </item>
+    
+    <item>
+      <title>Workflow</title>
+      <link>https://styleguide.arup.com/getting-started/workflow/</link>
+      <pubDate>Sun, 17 Feb 2019 11:53:22 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/getting-started/workflow/</guid>
+      <description>Table of contents     What is a workflow?   What are the steps of arup.com&#39;s workflow?   The workflow and you  Editing a page   Previewing a page   Publishing a page       FAQ      1. What is a workflow? A workflow is the process through which content goes before it is published - live - to a website.</description>
+    </item>
+    
+  </channel>
+</rss>

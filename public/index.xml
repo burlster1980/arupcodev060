@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arup.com training and best practice on Arup.com support and best practice</title>
+    <link>https://styleguide.arup.com/</link>
+    <description>Recent content in Arup.com training and best practice on Arup.com support and best practice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Feb 2019 14:34:43 +0000</lastBuildDate>
+    
+	<atom:link href="https://styleguide.arup.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Exploring Sitecore</title>
+      <link>https://styleguide.arup.com/getting-started/content-experienence-editor/</link>
+      <pubDate>Sun, 17 Feb 2019 01:30:53 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/getting-started/content-experienence-editor/</guid>
+      <description>Table of contents     Introduction to Sitecore   Definitions and terms   The CMS  Accessing Sitecore and logging in   Home screen   Browsing in the Content Editor   Buckets   Key functionality       The Experience Editor  Accessing the Experience Editor   Adding modules   Editing modules   Removing modules   Browsing pages   Previewing   Submitting a page for publication        1.</description>
+    </item>
+    
+    <item>
+      <title>Adding modules</title>
+      <link>https://styleguide.arup.com/creating-modules/adding-modules/</link>
+      <pubDate>Sun, 17 Feb 2019 00:51:48 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-modules/adding-modules/</guid>
+      <description>Table of contents     What are modules?   Creating modules in the CMS   Modules in the Experience Editor  Adding modules   Editing modules   Removing modules       Best practice      1. What are modules? Modules - sometimes referred to as components - are elements of content that you can add to virtually any page on arup.</description>
+    </item>
+    
+    <item>
+      <title>Creating a news page</title>
+      <link>https://styleguide.arup.com/creating-pages/creating-news/</link>
+      <pubDate>Sat, 16 Feb 2019 17:42:27 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-pages/creating-news/</guid>
+      <description>Table of contents     Where is news?   Creating a news item  Adding content to your news item   Completing your news item   Adding links   Adding modules   Adding alternative language versions   Workflow       Best practice   FAQ      1. Where is news? News on the website When viewing the website, news is found under the URL www.</description>
+    </item>
+    
+    <item>
+      <title>Exemplar office page</title>
+      <link>https://styleguide.arup.com/best-practice/exemplar-office/</link>
+      <pubDate>Sat, 16 Feb 2019 17:42:27 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/best-practice/exemplar-office/</guid>
+      <description>Table of contents     Best practice tips   Best practice office      1. Best practice tips You can see an example of a well-presented office page by looking at an exemplar office below.
+You should bear in mind the following when adding offices to arup.com:
+ Your introduction / summary content is vital - try not to make this content too long, summarise your office succinctly.</description>
+    </item>
+    
+    <item>
+      <title>Creating an office page</title>
+      <link>https://styleguide.arup.com/creating-pages/creating-offices/</link>
+      <pubDate>Sun, 17 Feb 2019 15:42:27 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-pages/creating-offices/</guid>
+      <description>Table of contents     Where are offices?   Creating a office item  Adding content to your office item   Completing your office item   Adding alternative language versions   Workflow       Best practice   FAQ      1. Where are offices? Offices on the website When viewing the website, offices can be found under the URL www.</description>
+    </item>
+    
+    <item>
+      <title>Working with rich text</title>
+      <link>https://styleguide.arup.com/getting-started/rich-text/</link>
+      <pubDate>Sun, 17 Feb 2019 11:32:53 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/getting-started/rich-text/</guid>
+      <description>Table of contents     What is the Rich Text editor?   Where are rich text editors found?  Pages   Modules     Using the Rich Text Editor  Formatting   Adding links   Images     Using the editor     FAQ      1. What is the Rich Text editor? 
+Rich text editors are a fundamental component of most Content Management Systems, allowing you to add elements such as text, lists, links and images to your content.</description>
+    </item>
+    
+    <item>
+      <title>Creating a carousel module</title>
+      <link>https://styleguide.arup.com/creating-modules/carousel/</link>
+      <pubDate>Sun, 17 Feb 2019 01:00:13 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-modules/carousel/</guid>
+      <description>Table of contents    Carousel guide What is the carousel module? Where can you use hte carousel? Makeup of a carousel? Creating a carousel module Fullwidth or default? Image preparation Creating carousel items     Best practice FAQ     1. Carousel guide This guide provides details on how to successfully utilise the Carousel module in Sitecore.         1 of 2   Ove and his team realised that if each shell fit the shape described by a sphere, the same mould could be re-used for multiple shells.</description>
+    </item>
+    
+    <item>
+      <title>Content checklist</title>
+      <link>https://styleguide.arup.com/best-practice/content-checklist/</link>
+      <pubDate>Sat, 16 Feb 2019 17:46:27 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/best-practice/content-checklist/</guid>
+      <description>Table of contents     Content checklist   Mobile previewing guidance      Preparing your content Whether you&#39;re a marketer preparing content, or a CMS user thinking about building pages, its important to stop and think about your content first. The following checklist provides details of the key things you need to think about before publishing on arup.com.
+    Does your content address user needs?</description>
+    </item>
+    
+    <item>
+      <title>Adding links</title>
+      <link>https://styleguide.arup.com/getting-started/adding-links/</link>
+      <pubDate>Sun, 17 Feb 2019 11:34:53 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/getting-started/adding-links/</guid>
+      <description>Table of contents     General links overview   Adding links in Rich Text fields  Internal page links   External page links     Adding links to form fields     FAQ      1. General links overview Adding links to your content is vital. Sitecore offers a number of different ways to add links. This is a simple process, but each method is slightly different.</description>
+    </item>
+    
+    <item>
+      <title>Adding contacts and the contact us module</title>
+      <link>https://styleguide.arup.com/creating-modules/contacts/</link>
+      <pubDate>Sun, 17 Feb 2019 01:01:18 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-modules/contacts/</guid>
+      <description>Table of contents     Contacts guide - using contacts to their full ability   Where do we display contacts?   Why do we show contacts?   Showing different contacts to different users   Adding &#39;main&#39; contacts to pages     The &#39;Contact us&#39; module  Adding the &#39;Contact us&#39; module   Adding content to the module   Adding the Contact us module in the Experience Editor     Personalising contacts   Contact us module - best practice   FAQ      1.</description>
+    </item>
+    
+    <item>
+      <title>Exemplar profile page</title>
+      <link>https://styleguide.arup.com/best-practice/exemplar-profile/</link>
+      <pubDate>Sat, 16 Feb 2019 17:46:27 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/best-practice/exemplar-profile/</guid>
+      <description>Table of contents     Best practice tips   Best practice project       1. Best practice tips 
+You should bear in mind the following when adding profiles to arup.com:
+ Profiles are key content items on arup.com. Ultimately staff represent Arup&#39;s key resource and profiles are how we bring this to life online Profiles should only ever be created for Arup staff.</description>
+    </item>
+    
+    <item>
+      <title>Creating a perspective</title>
+      <link>https://styleguide.arup.com/creating-pages/creating-perspectives/</link>
+      <pubDate>Sat, 16 Feb 2019 17:42:27 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-pages/creating-perspectives/</guid>
+      <description>Table of contents     Where are perspectives?  Perspectives on the website   Perspectives in the CMS     Creating a perspective item  Adding content to your perspective item   Completing your perspective item   Adding modules   Adding alternative language versions   Workflow       Best practice      1. Where are perspectives?</description>
+    </item>
+    
+    <item>
+      <title>Creating profiles</title>
+      <link>https://styleguide.arup.com/creating-pages/creating-profiles/</link>
+      <pubDate>Sun, 17 Feb 2019 15:49:27 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-pages/creating-profiles/</guid>
+      <description>Table of contents     What is a profile?   Where are profiles?  Profiles on the website   Profiles in the CMS     Creating a profile  Adding content to your profile   Completing your profile   Adding related content   Adding links   Alternative language versions       Best practice      1.</description>
+    </item>
+    
+    <item>
+      <title>Image Preparation</title>
+      <link>https://styleguide.arup.com/getting-started/image-preparation/</link>
+      <pubDate>Sun, 17 Feb 2019 11:35:22 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/getting-started/image-preparation/</guid>
+      <description>Table of contents     Preparing imagery   Tools   Image quality   Image size  Resizing an image   Check your proportions   Resize the image       Image cropping  Undoing a crop   Pixel perfect crops     Saving your images for use online  When to use different file types     FAQ      1.</description>
+    </item>
+    
+    <item>
+      <title>Creating the image module</title>
+      <link>https://styleguide.arup.com/creating-modules/images/</link>
+      <pubDate>Sun, 17 Feb 2019 01:09:03 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-modules/images/</guid>
+      <description>Table of contents     Image module guide   What is the Image module?   Where can you use the module?   Image preparation   Creating the Image module  Adding content       Best practice  Half bleed images   Full bleed images   Full bleed with text overlay     FAQ      1.</description>
+    </item>
+    
+    <item>
+      <title>SEO best practice</title>
+      <link>https://styleguide.arup.com/best-practice/seo/</link>
+      <pubDate>Sat, 16 Feb 2019 17:46:27 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/best-practice/seo/</guid>
+      <description>Table of contents     What is SEO?   Isn&#39;t SEO a technical skill?   What is your content for?   What are keywords?   Embedding keywords in your content   The importance of links   SEO checklist      1. What is SEO? SEO stands for &#39;Search Engine Optimisation&#39;. At its most basic level, SEO is this process of making your content as discoverable as possible by search engines such as Google.</description>
+    </item>
+    
+    <item>
+      <title>Uploading images</title>
+      <link>https://styleguide.arup.com/getting-started/uploading-images/</link>
+      <pubDate>Sun, 17 Feb 2019 11:39:22 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/getting-started/uploading-images/</guid>
+      <description>Table of contents     Uploading images to Sitecore   Media library  Locating images   Creating new folders   Adding images to the folder       Selecting and uploading images   FAQ      1. Uploading images to Sitecore Once you&#39;ve prepared your images, the next step is to upload them. Images are stored in Sitecore&#39;s media library.</description>
+    </item>
+    
+    <item>
+      <title>Creating a publication promo module</title>
+      <link>https://styleguide.arup.com/creating-modules/publication-prom/</link>
+      <pubDate>Sun, 17 Feb 2019 01:18:33 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-modules/publication-prom/</guid>
+      <description>Table of contents     Publication promo guide   What is the Publication promo module?   Where can you use the module?   Creating a publication promo module  Adding content   Completing the module       Best practice   FAQ      1. Publication promo module guide This guide provides details on how to successfully utilise the publication promo module in Sitecore.</description>
+    </item>
+    
+    <item>
+      <title>Creating a project</title>
+      <link>https://styleguide.arup.com/creating-pages/creating-projects/</link>
+      <pubDate>Sat, 16 Feb 2019 17:42:27 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-pages/creating-projects/</guid>
+      <description>Table of contents     Where are projects?  Projects on the website   Projects in the CMS     Creating a project item  Adding content to your project item   Completing your project item   Adding modules   Adding alternative language versions   Workflow       Best practice FAQ--     1. Where are projects?</description>
+    </item>
+    
+    <item>
+      <title>Exemplar project page</title>
+      <link>https://styleguide.arup.com/best-practice/exemplar-project/</link>
+      <pubDate>Sat, 16 Feb 2019 17:42:27 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/best-practice/exemplar-project/</guid>
+      <description>Table of contents     Best practice tips   Best practice project      1. Best practice tips On this page you will find an example of a &amp;lsquo;best practice&amp;rsquo; project. This section provides some guidance on why the project is an example of best practice.
+Content structure All content on arup.com needs to have a purpose. The ultimate purpose of all projects on the website is to convey Arup&amp;rsquo;s expertise and ability to deliver high quality solutions.</description>
+    </item>
+    
+    <item>
+      <title>Adding language versions</title>
+      <link>https://styleguide.arup.com/getting-started/language-versions/</link>
+      <pubDate>Sun, 17 Feb 2019 11:43:22 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/getting-started/language-versions/</guid>
+      <description>Table of contents     What are language versions?   Creating new language versions  Adding to documents   Adding to modules       The Experience Editor   FAQ      1. What are language versions? Sitecore supports multiple different language versions for pages. By default, all pages should be created in English - when you add a page it&#39;s important that you do so using English.</description>
+    </item>
+    
+    <item>
+      <title>Creating a quotation module</title>
+      <link>https://styleguide.arup.com/creating-modules/quotation/</link>
+      <pubDate>Sun, 17 Feb 2019 07:43:24 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-modules/quotation/</guid>
+      <description>Table of contents     Quotation guide   What is the quotation module   How does this module differ from the quote module   Where can you use the module?   Creating a quotation module  Adding content       Best practice   FAQ      1. Quotation guide This guide provides details on how to successfully utilise the Quotation module in Sitecore.</description>
+    </item>
+    
+    <item>
+      <title>Metrics and dashboards</title>
+      <link>https://styleguide.arup.com/best-practice/dashboards/</link>
+      <pubDate>Sat, 16 Feb 2019 17:49:27 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/best-practice/dashboards/</guid>
+      <description>Table of contents     2018 site overview performance   2018 global marketing expertise performance     Accessing detailed reports     Site overview The dashboard below gives details of arup.com&#39;s overall performance in 2018. it includes a breakdown of key content types such as projects, perspectives and expertise pages.
+     Global marketing expertise performance The dashboard below gives high-level details of the &#39;expertise&#39; pages covered by Global marketers.</description>
+    </item>
+    
+    <item>
+      <title>Workflow</title>
+      <link>https://styleguide.arup.com/getting-started/workflow/</link>
+      <pubDate>Sun, 17 Feb 2019 11:53:22 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/getting-started/workflow/</guid>
+      <description>Table of contents     What is a workflow?   What are the steps of arup.com&#39;s workflow?   The workflow and you  Editing a page   Previewing a page   Publishing a page       FAQ      1. What is a workflow? A workflow is the process through which content goes before it is published - live - to a website.</description>
+    </item>
+    
+    <item>
+      <title>Creating a quote module</title>
+      <link>https://styleguide.arup.com/creating-modules/quote/</link>
+      <pubDate>Sun, 17 Feb 2019 07:44:14 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-modules/quote/</guid>
+      <description>Table of contents     Quote guide   What is the quote module   How does the quote module work?   Where can you use the module?   Creating quote module  Adding content - Arup staff   Adding content - non Arup staff   Styling your module   Adding a CTA       Best practice   FAQ      1.</description>
+    </item>
+    
+    <item>
+      <title>Creating a recommended content module</title>
+      <link>https://styleguide.arup.com/creating-modules/recommended-content/</link>
+      <pubDate>Sun, 17 Feb 2019 07:48:01 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-modules/recommended-content/</guid>
+      <description>Table of contents     Recommended content guide   What is the recommended content module   Where can you use the module?   Creating the recommended content module  Adding content   Things to consider   Adding introductions to articles   Completing the module       Best practice   FAQ      1. Recommended content module guide This guide provides details on how to successfully utilise the Recommended content module in Sitecore.</description>
+    </item>
+    
+    <item>
+      <title>Creating a rich text module</title>
+      <link>https://styleguide.arup.com/creating-modules/rich-text-modulule/</link>
+      <pubDate>Sun, 17 Feb 2019 09:07:50 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-modules/rich-text-modulule/</guid>
+      <description>Table of contents     Rich Text module guide   What is the Rich Text module?   Where can you use the module?   Creating the Rich Text module  Adding content   Rich text - guidance       Best practice   FAQ      1. The Rich Text module This guide provides details on how to successfully utilise the Rich text module in Sitecore.</description>
+    </item>
+    
+    <item>
+      <title>Creating a text image split module</title>
+      <link>https://styleguide.arup.com/creating-modules/text-image-split/</link>
+      <pubDate>Sun, 17 Feb 2019 09:51:04 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-modules/text-image-split/</guid>
+      <description>Table of contents     Text image split guide   What is the text image split module?   How does the module work?   Where can you use the module?   Creating the text image split module  Adding content       Best practice   FAQ      1. Text image split guide This guide provides details on how to successfully add and display the text image split module to your page.</description>
+    </item>
+    
+    <item>
+      <title>Creating a video module</title>
+      <link>https://styleguide.arup.com/creating-modules/video/</link>
+      <pubDate>Sun, 17 Feb 2019 10:46:57 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-modules/video/</guid>
+      <description>Table of contents     Video guide   What is the video module?   What types of video can you embed?   Where can you use the module?   Creating a video module  Adding data   Completing the module       Best practice   FAQ      1. Video module guide This guide provides details on how to successfully utilise video module in Sitecore.</description>
+    </item>
+    
+    <item>
+      <title>Call to Action Review Pt2</title>
+      <link>https://styleguide.arup.com/arup-pages/call-to-action-review-pt2/</link>
+      <pubDate>Fri, 01 Mar 2019 17:11:15 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/arup-pages/call-to-action-review-pt2/</guid>
+      <description>Hero project         3D Housing 05 Italy Creating the first 3D printed concrete house in EU 3D Housing 05 Italy      Content slider    Content slider (with additional CTA added)        Strategy and visioning  Insights and trends  Scenario planning  Future-proof design  Drivers of change        Foresight services Organisations and large projects need a common vision to ensure that different components and contributors can effectively work towards a common goal.</description>
+    </item>
+    
+    <item>
+      <title>Call to Action Review</title>
+      <link>https://styleguide.arup.com/arup-pages/call-to-action-review/</link>
+      <pubDate>Fri, 01 Mar 2019 16:51:30 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/arup-pages/call-to-action-review/</guid>
+      <description>Video carousel    Your browser does not support the video tag. I suggest you upgrade your browser.  Shaping a better world We are an independent firm of designers, engineers, architects, planners, consultants and technical specialists working across every aspect of today&amp;#39;s built environment.    Your browser does not support the video tag. I suggest you upgrade your browser.  Digital Shaping the connected world Discover how we realise our clients&amp;#39; ambitions, combining advanced technology and brilliant thinking to redefine the possible across the built environment    Your browser does not support the video tag.</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>https://styleguide.arup.com/arup-pages/careers/home/</link>
+      <pubDate>Thu, 28 Feb 2019 22:26:05 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/arup-pages/careers/home/</guid>
+      <description>Sorry, it looks like there are no results for 
+   Suggestions   View all results for       Careers with Arup Wherever you are in your career, we welcome creative and curious minds. Join us and shape a better world.
+        Search roles by keyword   Search roles by location   At Arup you&#39;ll find a community of talented people, who know their best work is always ahead of them.</description>
+    </item>
+    
+    <item>
+      <title>Perspective</title>
+      <link>https://styleguide.arup.com/arup-pages/perspective/</link>
+      <pubDate>Thu, 28 Feb 2019 14:48:32 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/arup-pages/perspective/</guid>
+      <description>; ;  Your browser does not support the video tag. I suggest you upgrade your browser. Your browser does not support the video tag. I suggest you upgrade your browser.  Stopping the spread: a new framework for fire safety                  Scroll    function globalContactClick(name) { dataLayer.push({ &#39;dataLayer.overlayInfo.type&#39;: &#39;global contact&#39; }); dataLayer.</description>
+    </item>
+    
+  </channel>
+</rss>

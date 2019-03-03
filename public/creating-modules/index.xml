@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Creating modules on Arup.com support and best practice</title>
+    <link>https://styleguide.arup.com/creating-modules/</link>
+    <description>Recent content in Creating modules on Arup.com support and best practice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Feb 2019 14:34:43 +0000</lastBuildDate>
+    
+	<atom:link href="https://styleguide.arup.com/creating-modules/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adding modules</title>
+      <link>https://styleguide.arup.com/creating-modules/adding-modules/</link>
+      <pubDate>Sun, 17 Feb 2019 00:51:48 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-modules/adding-modules/</guid>
+      <description>Table of contents     What are modules?   Creating modules in the CMS   Modules in the Experience Editor  Adding modules   Editing modules   Removing modules       Best practice      1. What are modules? Modules - sometimes referred to as components - are elements of content that you can add to virtually any page on arup.</description>
+    </item>
+    
+    <item>
+      <title>Creating a carousel module</title>
+      <link>https://styleguide.arup.com/creating-modules/carousel/</link>
+      <pubDate>Sun, 17 Feb 2019 01:00:13 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-modules/carousel/</guid>
+      <description>Table of contents    Carousel guide What is the carousel module? Where can you use hte carousel? Makeup of a carousel? Creating a carousel module Fullwidth or default? Image preparation Creating carousel items     Best practice FAQ     1. Carousel guide This guide provides details on how to successfully utilise the Carousel module in Sitecore.         1 of 2   Ove and his team realised that if each shell fit the shape described by a sphere, the same mould could be re-used for multiple shells.</description>
+    </item>
+    
+    <item>
+      <title>Adding contacts and the contact us module</title>
+      <link>https://styleguide.arup.com/creating-modules/contacts/</link>
+      <pubDate>Sun, 17 Feb 2019 01:01:18 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-modules/contacts/</guid>
+      <description>Table of contents     Contacts guide - using contacts to their full ability   Where do we display contacts?   Why do we show contacts?   Showing different contacts to different users   Adding &#39;main&#39; contacts to pages     The &#39;Contact us&#39; module  Adding the &#39;Contact us&#39; module   Adding content to the module   Adding the Contact us module in the Experience Editor     Personalising contacts   Contact us module - best practice   FAQ      1.</description>
+    </item>
+    
+    <item>
+      <title>Creating the image module</title>
+      <link>https://styleguide.arup.com/creating-modules/images/</link>
+      <pubDate>Sun, 17 Feb 2019 01:09:03 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-modules/images/</guid>
+      <description>Table of contents     Image module guide   What is the Image module?   Where can you use the module?   Image preparation   Creating the Image module  Adding content       Best practice  Half bleed images   Full bleed images   Full bleed with text overlay     FAQ      1.</description>
+    </item>
+    
+    <item>
+      <title>Creating a publication promo module</title>
+      <link>https://styleguide.arup.com/creating-modules/publication-prom/</link>
+      <pubDate>Sun, 17 Feb 2019 01:18:33 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-modules/publication-prom/</guid>
+      <description>Table of contents     Publication promo guide   What is the Publication promo module?   Where can you use the module?   Creating a publication promo module  Adding content   Completing the module       Best practice   FAQ      1. Publication promo module guide This guide provides details on how to successfully utilise the publication promo module in Sitecore.</description>
+    </item>
+    
+    <item>
+      <title>Creating a quotation module</title>
+      <link>https://styleguide.arup.com/creating-modules/quotation/</link>
+      <pubDate>Sun, 17 Feb 2019 07:43:24 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-modules/quotation/</guid>
+      <description>Table of contents     Quotation guide   What is the quotation module   How does this module differ from the quote module   Where can you use the module?   Creating a quotation module  Adding content       Best practice   FAQ      1. Quotation guide This guide provides details on how to successfully utilise the Quotation module in Sitecore.</description>
+    </item>
+    
+    <item>
+      <title>Creating a quote module</title>
+      <link>https://styleguide.arup.com/creating-modules/quote/</link>
+      <pubDate>Sun, 17 Feb 2019 07:44:14 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-modules/quote/</guid>
+      <description>Table of contents     Quote guide   What is the quote module   How does the quote module work?   Where can you use the module?   Creating quote module  Adding content - Arup staff   Adding content - non Arup staff   Styling your module   Adding a CTA       Best practice   FAQ      1.</description>
+    </item>
+    
+    <item>
+      <title>Creating a recommended content module</title>
+      <link>https://styleguide.arup.com/creating-modules/recommended-content/</link>
+      <pubDate>Sun, 17 Feb 2019 07:48:01 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-modules/recommended-content/</guid>
+      <description>Table of contents     Recommended content guide   What is the recommended content module   Where can you use the module?   Creating the recommended content module  Adding content   Things to consider   Adding introductions to articles   Completing the module       Best practice   FAQ      1. Recommended content module guide This guide provides details on how to successfully utilise the Recommended content module in Sitecore.</description>
+    </item>
+    
+    <item>
+      <title>Creating a rich text module</title>
+      <link>https://styleguide.arup.com/creating-modules/rich-text-modulule/</link>
+      <pubDate>Sun, 17 Feb 2019 09:07:50 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-modules/rich-text-modulule/</guid>
+      <description>Table of contents     Rich Text module guide   What is the Rich Text module?   Where can you use the module?   Creating the Rich Text module  Adding content   Rich text - guidance       Best practice   FAQ      1. The Rich Text module This guide provides details on how to successfully utilise the Rich text module in Sitecore.</description>
+    </item>
+    
+    <item>
+      <title>Creating a text image split module</title>
+      <link>https://styleguide.arup.com/creating-modules/text-image-split/</link>
+      <pubDate>Sun, 17 Feb 2019 09:51:04 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-modules/text-image-split/</guid>
+      <description>Table of contents     Text image split guide   What is the text image split module?   How does the module work?   Where can you use the module?   Creating the text image split module  Adding content       Best practice   FAQ      1. Text image split guide This guide provides details on how to successfully add and display the text image split module to your page.</description>
+    </item>
+    
+    <item>
+      <title>Creating a video module</title>
+      <link>https://styleguide.arup.com/creating-modules/video/</link>
+      <pubDate>Sun, 17 Feb 2019 10:46:57 +0000</pubDate>
+      
+      <guid>https://styleguide.arup.com/creating-modules/video/</guid>
+      <description>Table of contents     Video guide   What is the video module?   What types of video can you embed?   Where can you use the module?   Creating a video module  Adding data   Completing the module       Best practice   FAQ      1. Video module guide This guide provides details on how to successfully utilise video module in Sitecore.</description>
+    </item>
+    
+  </channel>
+</rss>

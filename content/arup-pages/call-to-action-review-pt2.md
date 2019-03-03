@@ -24,7 +24,7 @@ type: perspective
 				<a class="project__inner" href="/projects/3d-housing-05">
 				<div class="project__img-wrap img-wrap"><img alt="" class="project__img project__img--d" height="1125" src="https://www.arup.com/-/media/arup/images/projects/3/3d-printing-house/2000x1125-11_arup_luca-orlandini.jpg?h=1125&amp;la=en&amp;w=2000&amp;hash=417462F8C04F40DB3F4E3FC2037AA527AED61B57" width="2000"><img alt="" class="project__img project__img--m" height="405" src="/-/media/arup/images/projects/3/3d-printing-house/2000x1125-11_arup_luca-orlandini.jpg?h=405&amp;la=en&amp;mw=720&amp;w=720&amp;hash=62BCE3146B13FBC2EA428AE910E630A70198FAAD" width="720"></div>
 				<div class="project__content project__content--overlay">
-					<h5 class="project__footnote project__footnote--alt">Residential, Hotels and Leisure</h5>
+					<h5 class="project__footnote project__footnote--alt">3D Housing 05 <span class="project__sublabel">Italy</span></h5>
 					<h4 class="project__title">Creating the first 3D printed concrete house in EU</h4>
 					<h5 class="project__label">3D Housing 05 <span class="project__sublabel">Italy</span></h5>
 				</div></a>

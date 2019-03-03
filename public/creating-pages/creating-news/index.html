@@ -1,0 +1,1108 @@
+
+<!doctype html>
+
+
+
+
+
+ <html lang="en" class=""> 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=no">
+
+    <title>Creating a news page</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+<link rel="manifest" href="../manifest.json">
+<link rel="mask-icon" href="../safari-pinned-tab.svg" color="#000000">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="../mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KWSTJVF');</script>
+
+	<link rel="stylesheet" type="text/css" href=/css/site2.css />
+	<link rel="stylesheet" type="text/css" href=/css/default.css />
+    <link rel="stylesheet" type="text/css" href="/css/slick.css">
+    
+
+
+    
+
+    
+    <script  src=/js/imageloader.js></script>
+
+
+    <script>
+     
+    !function(){function e(e,n,t){"use strict";var o=window.document.createElement("link"),r=n||window.document.getElementsByTagName("script")[0],a=window.document.styleSheets;return o.rel="stylesheet",o.href=e,o.media="only x",r.parentNode.insertBefore(o,r),o.onloadcssdefined=function(e){for(var n,t=0;t<a.length;t++)a[t].href&&a[t].href===o.href&&(n=!0);n?e():setTimeout(function(){o.onloadcssdefined(e)})},o.onloadcssdefined(function(){o.media=t||"all"}),o}function n(e,n){e.onload=function(){e.onload=null,n&&n.call(e)},"isApplicationInstalled"in navigator&&"onloadcssdefined"in e&&e.onloadcssdefined(n)}!function(t){var o=function(r,a){"use strict";if(r&&3===r.length){var i=t.navigator,c=t.document,s=t.Image,d=!(!c.createElementNS||!c.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!c.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||t.opera&&i.userAgent.indexOf("Chrome")===-1||i.userAgent.indexOf("Series40")!==-1),l=new s;l.onerror=function(){o.method="png",o.href=r[2],e(r[2])},l.onload=function(){var t=1===l.width&&1===l.height,i=r[t&&d?0:t?1:2];t&&d?o.method="svg":t?o.method="datapng":o.method="png",o.href=i,n(e(i),a)},l.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",c.documentElement.className+=" grunticon"}};o.loadCSS=e,o.onloadCSS=n,t.grunticon=o}(this),function(e,n){"use strict";var t,o=n.document,r="grunticon:",a=function(e){if(o.attachEvent?"complete"===o.readyState:"loading"!==o.readyState)e();else{var n=!1;o.addEventListener("readystatechange",function(){n||(n=!0,e())},!1)}},i=function(e){return n.document.querySelector('link[href$="'+e+'"]')},c=function(e,n){if(t&&!n)return t;t={};var o,a,i,c,s,d;if(o=e.sheet,!o)return t;a=o.cssRules?o.cssRules:o.rules;for(var l=0;l<a.length;l++)i=a[l].cssText,c=r+a[l].selectorText,s=i.split(");")[0].match(/US\-ASCII\,([^"']+)/),s&&s[1]&&(d=decodeURIComponent(s[1]),t[c]=d);return t},s=function(e,n){var t,a,i,c,s;n?t=e:(n=e,t=o),c="data-grunticon-embed";for(var d in n){s=d.slice(r.length);try{a=t.querySelectorAll(s)}catch(e){continue}i=[];for(var l=0;l<a.length;l++)null!==a[l].getAttribute(c)&&i.push(a[l]);if(i.length)for(l=0;l<i.length;l++)i[l].innerHTML=n[d],i[l].style.backgroundImage="none",i[l].removeAttribute(c)}return i},d=function(n,t){"svg"===e.method&&a(function(){var o=c(i(e.href));"function"==typeof t?(s(n,o),t()):s(o),"function"==typeof n&&n()})};e.embedIcons=s,e.getCSS=i,e.getIcons=c,e.ready=a,e.svgLoadedCallback=d,e.embedSVG=d}(grunticon,this)}();
+    </script>
+
+    <noscript><link href=/css/icons.fallback.css rel="stylesheet"></noscript>
+    
+
+</head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWSTJVF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+  
+
+
+  
+ <header class="header  js-site-header" role="navigation">
+  <section id="search-head" class="search" data-api="/api/search/autosearch" role="search" >
+  <div class="container--search search__inner">
+
+    <span class="search__icon"></span>
+
+    <form action="search.html">
+      <label class="label--search-top" for="searchbox_header">Search for projects, services, people and more</label>
+      <input type="text" name="query" id="searchbox_header" class="input--search-top" placeholder="Search for projects, services, people and more" autofocus autocomplete="off" />
+    </form>
+
+    <span class="formError">Please enter at least 2 characters</span>
+
+    <span tabindex="0" data-grunticon-embed class="search__reset icon icon-close" aria-label="Close"></span>
+
+  </div>
+</section>
+
+  <section class="header__inner">
+    <div class="header__burger">
+      <button class="burger js-mobile-nav-toggle">
+        <div class="burger__spinner">
+          <div class="burger__part burger__part--1"></div>
+          <div class="burger__part burger__part--2"></div>
+          <div class="burger__part burger__part--3"></div>
+        </div>
+      </button>
+    </div>
+    <h1 class="header__logo arup-logo "><a class="header__logo-link" href="/">Arup</a></h1>
+    <nav class="header__sitenav">
+
+      <div class="desktopnav">
+        <div class="marker js-nav-marker">
+          <div class="marker__side marker__side--left js-nav-marker-left"></div>
+          <div class="marker__side marker__side--right js-nav-marker-right"></div>
+        </div>
+        <ul class="main-nav">
+          <li class="main-nav__item  js-dnav-has-menu" style="display:none;">
+            <a href="../html/expertise-hub.html" class="main-nav__link main-nav__link--dropdown js-dnav-menu-trigger"><span data-grunticon-embed class="main-nav__icon icon icon-down_arrow"></span></a>
+            <div class="meganav-pane meganav-pane--expertise" role="navigation" aria-expanded="false">
+              <section class="meganav-pane__inner">
+                <div class="meganav-col meganav-col--subnav">
+                  <div class="meganav-subnav">
+                    <h4 class="meganav-subnav__item">
+                      <button class="subnav-action subnav-action--fade subnav-action--nolink active js-nav-submenu" data-subnav-trigger="navindustry">By Industry <span data-grunticon-embed class="subnav-action__icon icon icon-down_arrow"></span></button>
+                    </h4>
+                    <h4 class="meganav-subnav__subtitle">By Service</h4>
+                    <ul class="meganav-subnav__list">
+                      <li class="meganav-subnav__item"><button class="subnav-action subnav-action--fade subnav-action--nolink js-nav-submenu" data-subnav-trigger="navbd">Building <span data-grunticon-embed class="subnav-action__icon icon icon-down_arrow"></span></button></li>
+                      <li class="meganav-subnav__item"><a class="subnav-action subnav-action--fade js-nav-submenu" href="./industry.html" data-subnav-trigger="navas">Advisory Services <span data-grunticon-embed class="subnav-action__icon icon icon-down_arrow"></span></a></li>
+                      <li class="meganav-subnav__item"><button class="subnav-action subnav-action--fade subnav-action--nolink js-nav-submenu" data-subnav-trigger="navid">Infrastructure <span data-grunticon-embed class="subnav-action__icon icon icon-down_arrow"></span></button></li>
+                      <li class="meganav-subnav__item"><button class="subnav-action subnav-action--fade subnav-action--nolink js-nav-submenu" data-subnav-trigger="navp">Planning <span data-grunticon-embed class="subnav-action__icon icon icon-down_arrow"></span></button></li>
+                      <li class="meganav-subnav__item"><button class="subnav-action subnav-action--fade subnav-action--nolink js-nav-submenu" data-subnav-trigger="navtc">Technical Consulting <span data-grunticon-embed class="subnav-action__icon icon icon-down_arrow"></span></button></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="meganav-col meganav-col--submarker">
+                  <div class="sub-marker">
+                    <img class="sub-marker__pic js-nav-marker-img" src="https://preview.wearethink.com/arup-website/assets/images/nav_scroll_line--right.png" />
+                    
+                  </div>
+                </div>
+                <div class="meganav-col meganav-col--subnav-content">
+                  <div data-subnav-content="navindustry" aria-hidden="false" class="subnav-content active js-nav-submenu-target">
+                    <ul class="meganav-list meganav-list--cols-three">
+                      <li class="meganav-list__item"><a class="meganav-action" href="../html/industry-arts.html">Arts and Culture</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Cities</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Education</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Energy</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Government</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Healthcare</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Mining</a></li>
+                      <li class="meganav-group">
+                        <h5 class="meganav-group__title">Property</h5>
+                        <ul class="meganav-group__wrap">
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Commercial Property</a></li>
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Hotels and Leisure</a></li>
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Residential</a></li>
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Retail</a></li>
+                        </ul>
+                      </li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Resources and Waste</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Science and Industry</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Sport</a></li>
+                      <li class="meganav-group">
+                        <h5 class="meganav-group__title">Transport</h5>
+                        <ul class="meganav-group__wrap">
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Aviation</a></li>
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Highways</a></li>
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Maritime</a></li>
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Rail</a></li>
+                        </ul>
+                      </li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Water</a></li>
+                    </ul>
+                  </div>
+                  <div data-subnav-content="navbd" aria-hidden="true" class="subnav-content js-nav-submenu-target">
+                    <ul class="meganav-list meganav-list--cols-three">
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Accessible environments</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Architecture</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Building design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Building information modelling</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Building physics</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Building retrofit</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Building services engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Commissioning and building performance evaluation</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Electrical engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Facade engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Facilities management</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Fire engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Landscape architecture</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Mechanical engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Public health engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Structural engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Sustainable buildings design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Vertical transportation design</a></li>
+                    </ul>
+                  </div>
+                  <div data-subnav-content="navas" aria-hidden="true" class="subnav-content js-nav-submenu-target">
+                    <ul class="meganav-list meganav-list--cols-three">
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Business and investor advisory</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Carbon management</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Data insight and analytics</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Digital</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Foresight</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Intelligent transport solutions</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Operations consulting</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Operational readiness activation and transition</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Organisational behaviour</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Programme and project management</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Research</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Sustainability consulting</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Transport consulting</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Visualisation</a></li>
+                    </ul>
+                  </div>      
+                  <div data-subnav-content="navid" aria-hidden="true" class="subnav-content js-nav-submenu-target">
+                    <ul class="meganav-list meganav-list--cols-three">
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Airport planning</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Bridge engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Civil engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Infrastructure design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Maritime engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Rail engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Sustainable infrastructure design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Tunnel design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Waste management</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Waste to energy solutions</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Water engineering</a></li>
+                    </ul>
+                  </div>
+                  <div data-subnav-content="navp" aria-hidden="true" class="subnav-content js-nav-submenu-target">
+                    <ul class="meganav-list meganav-list--cols-three">
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Environmental consulting</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Economic planning</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Flood risk management</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">International development</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Master planning</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Planning policy advice</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Resilience security and risk</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Smart cities</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Smart mobility</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Town planning</a></li>
+                    </ul>
+                  </div>
+                  <div data-subnav-content="navtc" aria-hidden="true" class="subnav-content js-nav-submenu-target">
+                    <ul class="meganav-list meganav-list--cols-three">
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Acoustic consulting</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Advanced technology and research</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Audio visual and multimedia</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Fluid dynamics</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Geographic information systems</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Geotechnics</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Hydrogeology</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">ICT infrastructure design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Lighting design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Materials</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Product design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Quantity surveying</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Seismic design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Software products</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Technology operations and project management</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Theatre consulting</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Vibration engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Wind engineering</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </li>
+          
+          
+           
+          <li class="main-nav__item js-dnav-has-menu">
+            <a href="/getting-started/" class="main-nav__link main-nav__link--dropdown js-dnav-menu-trigger">Getting started with Sitecore<span data-grunticon-embed class="main-nav__icon icon icon-down_arrow"></span></a>
+            
+            <div class="meganav-pane meganav-pane--perspective" role="navigation" aria-expanded="false" style="background-image:url('/images/backgrounds/navigation-background.jpg')">
+              <section class="meganav-pane__inner">
+                <div class="meganav-col meganav-col--title">
+                  <div class="nav-intro">
+                    <h4 class="nav-intro__title">General guidance on using the Sitecore platform</h4>
+                    
+                  </div>
+                </div>
+                <div class="meganav-col meganav-col--listcol">
+                  
+                  <ul class="meganav-list active">
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/getting-started/content-experienence-editor/">Exploring Sitecore</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/getting-started/rich-text/">Working with rich text</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/getting-started/adding-links/">Adding links</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/getting-started/image-preparation/">Image Preparation</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/getting-started/uploading-images/">Uploading images</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/getting-started/language-versions/">Adding language versions</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/getting-started/workflow/">Workflow</a></li>
+                    
+                  </ul>
+                  
+                </div>
+              </section>
+            </div>
+            
+          </li>
+          
+           
+          <li class="main-nav__item js-dnav-has-menu">
+            <a href="/creating-pages/" class="main-nav__link main-nav__link--dropdown js-dnav-menu-trigger">Creating pages<span data-grunticon-embed class="main-nav__icon icon icon-down_arrow"></span></a>
+            
+            <div class="meganav-pane meganav-pane--perspective" role="navigation" aria-expanded="false" style="background-image:url('/images/backgrounds/navigation-background.jpg')">
+              <section class="meganav-pane__inner">
+                <div class="meganav-col meganav-col--title">
+                  <div class="nav-intro">
+                    <h4 class="nav-intro__title">General guidance on using the Sitecore platform</h4>
+                    
+                  </div>
+                </div>
+                <div class="meganav-col meganav-col--listcol">
+                  
+                  <ul class="meganav-list active">
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-pages/creating-news/">Creating a news page</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-pages/creating-offices/">Creating an office page</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-pages/creating-perspectives/">Creating a perspective</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-pages/creating-profiles/">Creating profiles</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-pages/creating-projects/">Creating a project</a></li>
+                    
+                  </ul>
+                  
+                </div>
+              </section>
+            </div>
+            
+          </li>
+          
+          
+           
+          <li class="main-nav__item js-dnav-has-menu">
+            <a href="/creating-modules/" class="main-nav__link main-nav__link--dropdown js-dnav-menu-trigger">Creating and adding modules<span data-grunticon-embed class="main-nav__icon icon icon-down_arrow"></span></a>
+            
+            <div class="meganav-pane meganav-pane--perspective" role="navigation" aria-expanded="false" style="background-image:url('/images/backgrounds/navigation-background.jpg')">
+              <section class="meganav-pane__inner">
+                <div class="meganav-col meganav-col--title">
+                  <div class="nav-intro">
+                    <h4 class="nav-intro__title">General guidance on using the Sitecore platform</h4>
+                    
+                  </div>
+                </div>
+                <div class="meganav-col meganav-col--listcol">
+                  
+                  <ul class="meganav-list active horizontal">
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/adding-modules/">Adding modules</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/carousel/">Carousel</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/contacts/">Contacts</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/images/">Image module</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/publication-prom/">Publication promo</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/quotation/">Quotation module</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/quote/">Quote module</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/recommended-content/">Recommended content</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/rich-text-modulule/">Rich text module</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/text-image-split/">Text image split</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/video/">Video module</a></li>
+                    
+                  </ul>
+                  
+                </div>
+              </section>
+            </div>
+            
+          </li>
+          
+           
+          <li class="main-nav__item js-dnav-has-menu">
+            <a href="/best-practice/" class="main-nav__link main-nav__link--dropdown js-dnav-menu-trigger">Best practice and examples<span data-grunticon-embed class="main-nav__icon icon icon-down_arrow"></span></a>
+            
+            <div class="meganav-pane meganav-pane--perspective" role="navigation" aria-expanded="false" style="background-image:url('/images/backgrounds/navigation-background.jpg')">
+              <section class="meganav-pane__inner">
+                <div class="meganav-col meganav-col--title">
+                  <div class="nav-intro">
+                    <h4 class="nav-intro__title">General guidance on using the Sitecore platform</h4>
+                    
+                  </div>
+                </div>
+                <div class="meganav-col meganav-col--listcol">
+                  
+                  <ul class="meganav-list active horizontal">
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/best-practice/exemplar-office/">Exemplar office</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/best-practice/content-checklist/">Content checklist</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/best-practice/exemplar-profile/">Exemplar profile</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/best-practice/seo/">SEO best practice</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/best-practice/exemplar-project/">Exemplar project</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/best-practice/dashboards/">Metrics and dashboards</a></li>
+                    
+                  </ul>
+                  
+                </div>
+              </section>
+            </div>
+            
+          </li>
+          
+          
+        </ul>
+      </div>
+
+
+    </nav>
+    <nav class="header__nav-extra">
+      <ul class="extra-nav">
+        
+      </ul>
+    </nav>
+  </section>
+</header>
+
+  
+
+  <div class="nav-sidebar js-mobile-nav">
+  <div class="nav-sidebar__controls">
+    <div class="nav-ctrls">
+      <div class="nav-ctrls__btn nav-ctrls__btn--close js-mobile-nav-toggle">
+        <button class="nav-ctrl">
+          <span data-grunticon-embed class="nav-ctrl__icon icon icon-close">Close</span>
+        </button>
+      </div>
+      <div class="nav-ctrls__btn nav-ctrls__btn--back js-mobile-nav-back js-nav-sec-trigger" data-nav-sec-trigger="core">
+        <button class="nav-ctrl">
+          <span data-grunticon-embed class="nav-ctrl__icon nav-ctrl__icon--back icon icon-down_arrow">Back</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <nav class="nav-sidebar__main">
+
+    <ul class="nav-list-wrap">
+      <li class="nav-list-wrap__item nav-list-wrap__item--active js-nav-sec" data-nav-sec="core">
+        <div class="nav-list-wrap__content nav-list-wrap__content--center">
+          <div class="nav-core">
+            <ul class="nav-core__list">
+              <li class="nav-core__item">
+
+                <button class="nav-core__action nav-core__action--trigger js-nav-sec-trigger" data-nav-sec-trigger="expertise">General guidance<span data-grunticon-embed class="nav-core__pointer icon icon-down_arrow"></span></button>
+              </li>
+              
+              <li class="nav-core__item">
+                <button class="nav-core__action nav-core__action--trigger js-nav-sec-trigger" data-nav-sec-trigger="perspectives">Creating pages<span data-grunticon-embed class="nav-core__pointer icon icon-down_arrow"></span></button>
+              </li>
+              
+              <li class="nav-core__item">
+                <button class="nav-core__action nav-core__action--trigger js-nav-sec-trigger" data-nav-sec-trigger="firm">Creating and editing modules<span data-grunticon-embed class="nav-core__pointer icon icon-down_arrow"></span></button>
+              </li>
+              
+              <li class="nav-core__item">
+                <button class="nav-core__action nav-core__action--trigger js-nav-sec-trigger" data-nav-sec-trigger="offices">Best practice<span data-grunticon-embed class="nav-core__pointer icon icon-down_arrow"></span></button>
+              </li>
+            </ul>
+            <div class="nav-core__search">
+              <button class="nav-search-btn"><span data-grunticon-embed class="nav-search-btn__icon icon icon-search"></span> Search</button>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="nav-list-wrap__item nav-list-wrap__item--dark nav-list-wrap__item--expertise js-nav-sec" data-nav-sec="expertise">
+        <div class="nav-list-wrap__content">
+          <div class="nav-second">
+            <h3 class="nav-second__title nav-link-title">
+              <a href="#" class="nav-link-title__link">
+                <span class="nav-link-title__copy">General guidance</span>
+                
+              </a>
+            </h3>
+
+            <div class="nav-second__subsec">
+              
+              <ul class="nav-second__list">
+                <li class="nav-second__item">
+                  <a href="/getting-started/content-experience-editor" class="nav-second__link nav-action">Getting started with Sitecore</a>
+                </li>
+                <li class="nav-second__item">
+                  <a href="/getting-started/rich-text" class="nav-second__link nav-action">Editing using Rich Text editor</a>
+                </li>
+                <li class="nav-second__item">
+                  <a href="/getting-started/adding-links" class="nav-second__link nav-action">Adding links in Sitecore</a>
+                </li>
+                <li class="nav-second__item">
+                  <a href="/getting-started/image-preparation" class="nav-second__link nav-action">Preparing images</a>
+                </li>
+              
+                <li class="nav-second__item">
+                  <a href="/getting-started/uploading" class="nav-second__link nav-action">Uploading images</a>
+                </li>
+                <li class="nav-second__item">
+                  <a href="/getting-started/language-versions" class="nav-second__link nav-action">Adding language versions</a>
+                </li>
+                <li class="nav-second__item">
+                  <a href="/getting-started/workflow" class="nav-second__link nav-action">Workflow</a>
+                </li>
+               </uL>
+            </div>
+        </div>
+    </div>
+      </li>
+      <li class="nav-list-wrap__item nav-list-wrap__item--dark nav-list-wrap__item--perspectives js-nav-sec" data-nav-sec="perspectives">
+        <div class="nav-list-wrap__content">
+          <div class="nav-second">
+            <h3 class="nav-second__title nav-link-title">
+              <a href="#" class="nav-link-title__link">
+                <span class="nav-link-title__copy">Creating pages</span>
+                
+              </a>
+            </h3>
+
+            
+            <ul class="nav-second__list">
+              <li class="nav-second__item">
+                <a href="/creating-pages/creating-news" class="nav-second__link nav-action">News</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/creating-pages/creating-offices" class="nav-second__link nav-action">Offices</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/creating-pages/creating-perspectives" class="nav-second__link nav-action">Perspectives</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/creating-pages/profiles" class="nav-second__link nav-action">Profiles</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/creating-pages/creating-project" class="nav-second__link nav-action">Projects</a>
+              </li>
+            </ul>
+            
+
+          </div>
+        </div>
+      </li>
+      <li class="nav-list-wrap__item nav-list-wrap__item--dark nav-list-wrap__item--firm js-nav-sec" data-nav-sec="firm">
+        <div class="nav-list-wrap__content">
+          <div class="nav-second">
+            <h3 class="nav-second__title nav-link-title">
+              <a href="#" class="nav-link-title__link">
+                <span class="nav-link-title__copy">Creating and editing modules</span>
+                
+              </a>
+            </h3>
+
+            
+            <ul class="nav-second__list">
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/adding-modules">Adding modules</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/carousel">Carousel</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/contacts">Contacts</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules//creating-modules//creating-modules/images">Image</a></li>
+           
+
+            
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules//creating-modules/publication-promo">Publication Promo</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/quotation">Quotation (Quote and image)</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/quote">Quote</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/recommended-content">Recommended content</a></li>
+            
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules//creating-modules/rich-text-module">Rich Text module</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/text-image-split">Text image split</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/video">Video</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </li>
+      <li class="nav-list-wrap__item nav-list-wrap__item--dark nav-list-wrap__item--offices js-nav-sec" data-nav-sec="offices">
+        <div class="nav-list-wrap__content">
+          <div class="nav-second">
+            <h3 class="nav-second__title nav-link-title">
+              <a href="#" class="nav-link-title__link">
+                <span class="nav-link-title__copy">Best practice</span>
+                
+              </a>
+            </h3>
+
+            <ul class="nav-second__list">
+              
+              <li class="nav-second__item">
+                <a href="/best-practice/exemplar-office" class="nav-second__link nav-action">Exemplar office</a>
+              </li>
+              
+              <li class="nav-second__item">
+                <a href="/best-practice/exemplar-profile" class="nav-second__link nav-action">Exemplar profile</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/best-practice/exemplar-project.html" class="nav-second__link nav-action">Exemplar project</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/best-practice/content-checklist" class="nav-second__link nav-action">Content checlist</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/best-practice/seo" class="nav-second__link nav-action">SEO best practice</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/best-practice/dashboards" class="nav-second__link nav-action">Metrics and dashboards</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </li>
+    </ul>
+
+  </nav>
+  <footer class="nav-sidebar__foot">
+    <a href="../html/contact.html" class="link link--icon"><span data-grunticon-embed class="icon icon-contact"></span>Get in touch</a>
+  </footer>
+</div>
+
+
+  <section id="search-results" class="search-results">
+
+  <div class="search-results__wrap">
+
+    <div class="container--search search-results--inner">
+
+      <div class="search-results--noresult">
+          <p class="search-results__warning">Looks like there are no results for <span></span></p>
+          <span class="suggestion label label--md">Suggestions</span>
+          <ul class="search-result__results search-result__results--suggestions">
+            <li><a href="search.html">Waste<a></li>
+            <li><a href="search.html">Water<a></li>
+            <li><a href="search.html">Watershed<a></li>
+              <li><a href="search.html">Waste<a></li>
+              <li><a href="search.html">Water<a></li>
+              <li><a href="search.html">Watershed<a></li>
+          </ul>
+      </div>
+
+      <div class="search-results__content">
+
+        <span class="suggestion label label--md">Suggestions</span>
+
+        <div class="search-result">
+          <span class="search-result__section">Projects</span>
+          <ul class="search-result__results">
+            <li><a href="search.html">Marina Bay Waterfront Promenade<a></li>
+            <li><a href="search.html">Marina Bay Sands integrated resort<a></li>
+            <li><a href="search.html">Istanbul Marina Transport Services<a></li>
+          </ul>
+        </div>
+
+        <div class="search-result">
+          <span class="search-result__section">Industry</span>
+          <ul class="search-result__results">
+            <li><a href="search.html">Maritime <span class="search__tag">Marina</span><a></li>
+          </ul>
+        </div>
+
+        <div class="search-result">
+          <span class="search-result__section">Office</span>
+          <ul class="search-result__results">
+            <li><a href="search.html">London, United Kingdom <span class="search__tag">London</span><a></li>
+          </ul>
+        </div>
+      </div>
+
+      <a href="search.html" id="search__viewall" class="cta cta--black cta--lg">
+          <span data-grunticon-embed class="icon icon-oval"></span>
+          <span>View all results for <span class="search__cta">"Marina"</span></span>
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<div class="global-wrapper">
+        	<main id="main" role="main">
+  <section class="hero hero--contacts">
+    <div class="container">
+    	<div class="hero__content hero__content--dark hero__content--perspectives">
+        	<span class="label--lg italic">Creating new pages</span>
+        	<h1 class="h1">Creating a news page</h1>
+        	<span class="label--lg">Last updated: 17/2/2019</span>
+        </div>
+    </div>
+   </section>
+    <section class="container" id="">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <h2>Table of contents</h2>
+        </div>
+    </div>
+</section>
+<section class="container">
+    <div class="menu_row">
+        <div class="menu_section two">
+            <ol class="header-list">
+                <li>
+                    <a href="#where">Where is news?</a>
+                </li>
+                <li>
+                    <a href="#creating">Creating a news item</a>
+                    <ul class="sub-header-list">
+                        <li>
+                            <a href="#adding">Adding content to your news item</a>
+                        </li>
+                        <li>
+                            <a href="#completing">Completing your news item</a>
+                        </li>
+                        <li>
+                            <a href="#links">Adding links</a>
+                        </li>
+                        <li>
+                            <a href="#modules">Adding modules</a>
+                        </li>
+                        <li>
+                            <a href="#language">Adding alternative language versions</a>
+                        </li>
+                        <li>
+                            <a href="#workflow">Workflow</a>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+        <div class="menu_section two">
+            <ol class="header-list second" start="3">
+                <li>
+                    <a href="#best-practice">Best practice</a>
+                </li>
+                <li>
+                    <a href="#faq">FAQ</a>
+                </li>
+            </ol>
+        </div>
+    </div>
+</section>
+<section class="container" id="where">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <h2>1. Where is news?</h2>
+            <h5>News on the website</h5>
+            <p>When viewing the website, news is found under the URL <a href="https://www.arup.com/news-and-events" target="_blank">www.arup.com/news-and-events</a></p>
+            <h5>News within the CMS</h5>
+            <p></p>
+            <p>When viewing the CMS, news is found at <b>Sitecore &gt; Content &gt; Arup &gt; Home &gt; News and events</b></p>
+            <p>News articles are 'bucketable' and stored in Sitecore 'Buckets'. Buckets are essentially Sitecore terminology for folders. They allow the CMS to store content in a folder structure, making things easier to find. A bucket's name does not appear in the URL of a page.</p>
+            <p></p>
+            <p>News articles are stored in the following way:</p>
+            <p><b>News and events &gt; News &gt; Year &gt; Month &gt; name of article</b></p>
+            <p>This means that when you create a new News item, it will be stored in the corresponding year and month bucket. For example, if you created a news item on 1 January 2019, its location would be:</p>
+            <p><b>News and events &gt; News &gt; 2019 &gt; 01 &gt; name of your article</b></p>
+        </div>
+    </div>
+</section>
+<section class="container" id="creating">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <h2>2. Creating a news item</h2>
+            <p>To create a news article, you will need to:</p>
+            <ul>
+                <li>Expand the item 'News and events' by clicking the black triangle next to it</li>
+                <li>Once expanded, right click on 'News' and choose '<b>Insert &gt; News</b>'</li>
+            </ul>
+            <div class="training-image"><img alt="Image" class="mainImg" src="/images/news/create-news.jpg"></div>
+            <div class="halfbleed__detail">
+                Fig1: Creating a new News item. You need to right click on the 'News' node, and choose 'Insert &gt; News'
+            </div>
+            <ul>
+                <li>Enter a name for your news item that suitably describes the content (NB - this name will form the URL of the article for example if you called your item 'My news item' the url would be arup.com/news-and-events/my-news-item) and click OK</li>
+                <li>The screen will then reload, and you've successfully created your news item</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="container" id="">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <h5><a id="adding" name="adding"></a>Adding content to a news item</h5>
+            <p>News articles contain a mixture of 'form' content and modules. Essentially, your key data about your news item will be added to the News item you've just created, whilst the bulk of the actual article content will be added via modules. This guide details the former - describing what fields you need to complete and what they do.</p>
+            <p>Each of the headings below represents one of the expandable panels of the news document. The fields relevant to each are detailed.</p>
+            <p><b>Content</b></p>
+            <p><b>*</b>fields marked with an asterisk are required and must be completed</p>
+            <ul>
+                <li><b>Header label*</b> - by default this will be populated with the word 'News'. If you're creating a press release, then you should replace 'News' with the label 'Press release'</li>
+                <li><b>Title*</b> - this is the heading of your article.</li>
+                <li>
+                    <b>Intro*</b> - this is the introduction to your article. This should either represent:
+                    <ul class="sub-header-list">
+                        <li>the first one to two sentences of your article (never more than two)</li>
+                        <li style="list-style: none; display: inline">
+                            <p>OR</p>
+                        </li>
+                        <li>a one to two sentence summary of your article - meaning that a user could gain overall insight by reading this content</li>
+                    </ul><br>
+                    To add content to this field click 'show editor' and enter your text. Please see the guide to using the Rich Text editor for further information on adding content here
+                </li>
+                <li><b>Image</b>* - please add a suitable image to your article. This should be resized to 2000px wide by 1125px high. Further details about imagery and news articles is contained below.</li>
+                <li><b>Body</b> - theoretically, you add in your article copy to this field. However, please see below before doing this<br>
+                <br>
+                To add content to this field click 'show editor' and enter your text. Please see the guide to using the Rich Text editor for further information on adding content here.</li>
+                <li>
+                    <b>News date*</b> - this is the date of publication of your article. By default, it will be set to the date upon which you created the item. You can however change it to a past or future date if you wish. To change the date:
+                    <ul class="sub-header-list">
+                        <li>Click the downward triangle next to the date</li>
+                        <li>From the resulting calendar popup, choose the date you want for your publication date</li>
+                    </ul>
+                </li>
+                <li><b>News expiry date</b> - if you set this, the date you insert will be the date that your article CEASES to be published.</li>
+                <li>
+                    <b>Author*</b> - you need to select an author for your article. This will be a member of the marketing or press teams (or indeed it maybe you). To choose the contact:
+                    <ul class="sub-header-list">
+                        <li>Browse the list of contacts (you can scroll using your mouse)</li>
+                        <li>Double click the name of the contact you want - you'll see their name move to the righthand column</li>
+                        <li>To remove an unwanted contact - double click the name that has been moved to the righthand column and they will disappear</li>
+                        <li>For more information on profiles, and help with creating new profiles, please see the <a href="/creating-pages/creating-profiles/">profiles guidance</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="container" id="creating">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <p>The screenshot below indicates where each of the above fields are shown on a published news item.</p>
+            <div class="training-image"><img alt="Image" class="mainImg" src="/images/news/key-news-fields-added.jpg"></div>
+            <div class="halfbleed__detail">
+                Fig 2: example of a completed news article indicating which fields do what
+            </div>
+            <p><b>NB - Image</b></p>
+            <p>You MUST add an image to your News item. At the time of writing, images do not show on individual news articles. However, the image is used for promoting your news story - particularly at <a href="https://www.arup.com/news-and-events" target="_blank">https://www.arup.com/news-and-events</a></p>
+            <p><b>NB - Body field</b></p>
+            <p>As detailed above, you can add your content to the 'Body' field of a news document. However, if you do this, you won't be able to add any modules to your page. Modules allow you to add elements such as <a href="image.html">images</a>, <a href="/creating-modules/carousel/">carousels</a>, <a href="/creating-modules/quote/">styled quotes</a> and <a href="/creating-modules/contacts/">contact details</a> to your content. If you do NOT want to take advantage of modules then you can safely add all your copy to the 'Body field'. If you want to add any modules then you should do the following:</p>
+            <ul>
+                <li>In the Body field, add all of your copy - up to the point at which you want to include an image / quote / carousel etc. Don't add any more at this point</li>
+                <li>Complete the rest of the relevant fields detailed above (and those below)</li>
+                <li>Save your document</li>
+                <li>Open the <a href="/getting-started/content-experience-editor/">Experience Editor</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="container">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <p><b>Recommend content</b></p>
+            <p>You can ignore this field</p>
+            <p><b>Article content</b></p>
+            <p>Please ignore fields under this heading. They are not used for displaying News content.</p>
+            <p><b>Location</b></p>
+            <p>News displays to users based on their geographic location. So for example, if a user is based in the USA, they will see news stories pre-filtered by their location i.e. stories that have been tagged with the country 'United States of America'.</p>
+            <p><b>*</b>fields marked with an asterisk are required and must be completed</p>
+            <ul>
+                <li>Location - please enter a place name i.e. Sydney or London relevant to your News item</li>
+                <li><b>Country*</b> - please select the country(s) that apply to your news item. Double click on each relevant country so that its name appears in the righthand column.</li>
+            </ul>
+            <p><b>NB - you no longer need to select 'Global' for your story to appear regardless of location</b></p>
+        </div>
+    </div>
+</section>
+<section class="container" id="">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <p><b>Related articles</b></p>
+            <p>Before completing this section, please note that the following do NOT display for news articles. You do not therefore need to select these.</p>
+            <ul>
+                <li>Related projects</li>
+                <li>Related perspectives</li>
+                <li>Related services</li>
+                <li>Related Industries</li>
+            </ul>
+            <p>You can indicate what industries and services relate to your story in the following way:</p>
+            <ul>
+                <li>Locate the field whose label begins 'The chosen expertise to be displayed…' and click 'edit'</li>
+                <li>From the resulting popup, select the industries / services you want to display by double clicking each option you wish to apply until it appears in the right hand column</li>
+            </ul>
+            <div class="training-image"><img alt="Image" class="mainImg" src="/images/news/selecting-related-news.jpg"></div>
+            <div class="halfbleed__detail">
+                Fig 3: Field for selecting related expertise - 'Education' is selected in this example
+            </div>
+            <div class="training-image"><img alt="Image" class="mainImg" src="/images/news/choose-related-options.jpg"></div>
+            <div class="halfbleed__detail">
+                Fig 4: Selecting your related content from the popup
+            </div>
+            <p>This information will be displayed in the following way once published:</p>
+            <div class="training-image"><img alt="Image" class="mainImg" src="/images/news/where-related-news-shows.jpg"></div>
+            <div class="halfbleed__detail">
+                Fig 5: Examples of where related expertise displays. These are highlighted in red above
+            </div>
+            <p><b>Contacts</b></p>
+            <p>You do NOT need to select an item from here. News uses the field 'Author' (detailed above) to display the relevant contact.</p>
+        </div>
+    </div>
+</section>
+<section class="container">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <p><b>Facebook Open Graph</b></p>
+            <p>These fields are used to display content when your article is shared via social platforms.</p>
+            <p><b>*</b>fields marked with an asterisk are required and must be completed</p>
+            <ul>
+                <li><b>Open Graph Title*</b> - Please enter a suitable title. Generally, you can re-use the article title entered above</li>
+                <li><b>Open Graph Description*</b> - Please enter a brief description of your content. This should summarise the content of your article in a maximum of two sentences.</li>
+                <li><b>Open Graph Image</b> - Please resize your main article image to a width of 800px and add to this field</li>
+            </ul>
+            <p><b>Metadata</b></p>
+            <p>This information is used to aid the discovery of your article via search engines. Adding it is vital in helping people to find the article and ensuring that it performs to the best of its ability.</p>
+            <p><b>*</b>fields marked with an asterisk are required and must be completed</p>
+            <ul>
+                <li><b>Browser title*</b> - Should you re-enter the title of your article to this field. If your title is particularly long, please consider drafting a shorter version for this field.</li>
+                <li><b>SEO meta description*</b> - Please enter a two to three sentence summary of your article. You can consider re-using the introduction copy you've used above</li>
+                <li><b>Meta keywords</b> - keywords have been used by search engines in the past to help users locate content. However, keywords are no longer of high relevance for search engines such as Google and you do not need to add these to aid search performance.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="container" id="">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <h5><a id="completing" name="completing"></a>Completing your news article</h5>
+            <p>Once you have added the data detailed above, you should save your document. If you are intending to add modules to your article, you will need to follow the steps outlined below. If your article is complete without modules, you can now submit it for publication or preview it using the method outlined below.</p>
+            <h5><a id="links" name="links"></a>Adding links in Sitecore</h5>
+            <p>You can add links to content in certain fields. Fields on a news document you can add links to include:</p>
+            <ul>
+                <li>Introduction</li>
+                <li>Body</li>
+            </ul>
+            <p>Please see the '<a href="/getting-started/adding-links/">adding links in Sitecore</a>' guide for more information on adding links.</p>
+            <h5><a id="modules" name="modules"></a>Adding modules to your news item</h5>
+            <p>The following details the steps to prepare for adding modules and adding a new module. It does not provide details on the individual modules you can use. You should consult the individual module guides for full details on those relevant to your article.</p>
+            <ul>
+                <li>Right click on your news item in the content tree window and choose '<b>Insert &gt; Local datasource folder</b>'</li>
+                <li>You will be prompted to name the item you've created - you should leave the pre-defined label of 'Local content' and click 'OK'</li>
+                <li>Once your 'Local content' folder is created, it will appear underneath your news item. You can now add modules to this folder</li>
+                <li>To add a module, right click on the local content folder and choose '<b>Insert &gt; module name</b>'</li>
+                <li>Give your module a suitable name and click OK</li>
+            </ul>
+            <p><b>NB - when you name your modules, its worthwhile considering the order you're going to add them in. If you need to come back to your article later on (or something happens to it) using a naming convention that helps you easily identify what's in the module - and the order you're intending to add them - makes it much easier to edit or restore an article in a worst case scenario.</b></p>
+            <div class="training-image"><img alt="Image" class="mainImg" src="/images/news/adding-localcontent.jpg"></div>
+            <div class="halfbleed__detail">
+                Fig 6: adding a local content folder to your news item. Right click on your news item, and choose 'Insert &gt; Local Datasource Folder'
+            </div>
+            <h5><a id="language" name="language"></a>Adding an alternative language version</h5>
+            <p>Sitecore gives you the ability to add multiple language versions to your content. A full guide to language versions has been provided, but you should be aware that:</p>
+            <ul>
+                <li>An article MUST be created in English first</li>
+                <li>Any modules that have been added to your news item will also require translated versions be created</li>
+            </ul>
+            <p><a href="language-versions.html">Find out more about languages in Sitecore</a></p>
+            <h5><a id="workflow" name="workflow"></a>Workflow</h5>
+            <p>News articles are covered by the CMS' workflow. This means that only certain staff are able to publish content. Generally, this will be a member of the GMC Online team - though some regions including Australasia and the Far East also have a member of staff with publishing rights. You can learn more about the <a href="/getting-started/workflow/">workflow via the online guide</a>.</p>
+        </div>
+    </div>
+</section>
+<section class="container" id="best-practice">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <h2>3. Best practice</h2>
+            <p>You can see an example of a well-presented news item by looking at an exemplar news item (link to item).</p>
+            <p>You should bear in mind the following when adding news to arup.com:</p>
+            <ul>
+                <li>Your introduction / summary content is vital - this content needs to encourage people to read on.</li>
+                <li>Try not to link to pages in the first paragraph of your article - this won't always be possible, but ideally you should give users a chance to read your content before linking off to another page.</li>
+                <li>Wherever possible, make use of calls to action (CTAs) - if your news item is about a report on arup.com (or any other page) - don't forget to link to it clearly! You can link to the same page more than once if you need to. It's always worth finishing your article with another link to a page. Good calls to action encourage people to find out more. Examples might include:
+                    <ul class="sub-header-list">
+                        <li>Learn more about project X</li>
+                        <li>Download a copy of our report on Y</li>
+                        <li>Discover more about our expertise in Z</li>
+                    </ul>
+                </li>
+                <li>If you're linking to a specific publication, consider making use of the Publication module (link) - this module helps to highlight publications specifically</li>
+                <li>If you're promoting a specific project / perspective / service / area of expertise, consider making use of the Recommend Content module (link) - this can help highlight a particular page or set of pages. This won't always work, so you should consider this carefully</li>
+                <li>Try and link to relevant pages on the site even if you're not writing about a specific item such as a report or project - news is a great way to get people on to arup.com. Linking to relevant pages will help keep them there and encourage them to learn more</li>
+                <li>If you'd adding links to external sites (for example you're linking to a report on the Parliament website) be sure to set this to open in a 'New window'. All links to pages outside of arup.com (even to other Arup websites) should open in a new tab in your browser (see adding Links above for more details)</li>
+                <li>Make the most of high quality images - if you've got good images for your story - use them! Images help bring stories to life, particularly when paired with good, descriptive captions that link the image to your story</li>
+                <li>Don't use modules simply to 'break up' your news article - modules are designed to bring your content to life, and if used properly they will. However, don't forget that ultimately you want your readers to read your story. Simply adding modules for the sake of it will make this harder and potentially cause users to leave without getting your full story</li>
+                <li>Don't overuse the Quote module - the quote module is designed to highlight important text or quotes. Its ok to leave extensive quotes in either the body of your article or in a Rich Text module using simple quotation marks (as you would in a Word document for example). Using the module multiple times - particularly one after the other - can reduce the impact of the module</li>
+            </ul>
+        </div>
+    </div>
+</section><!-- faq -->
+<section class="container" id="faq">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <h2>FAQ</h2>
+            <ol class="header-list">
+                <li>
+                    <a href="#faq-creating">I'm creating a news item, but the relevant month doesn't yet exist in the CMS. What should I do?</a>
+                </li>
+                <li>
+                    <a href="#faq-image">I haven't got an image for my news item. Does it matter?</a>
+                </li>
+                <li>
+                    <a href="#faq-intro">Why shouldn't I add links to the Introduction field?</a>
+                </li>
+                <li>
+                    <a href="#faq-multiple">What's the point of linking to content multiple times?</a>
+                </li>
+                <li>
+                    <a href="#faq-cta">What kind of calls to action can I add?</a>
+                </li>
+                <li>
+                    <a href="#faq-edit">Can I go back and edit an article after it's been published?</a>
+                </li>
+                <li>
+                    <a href="#faq-publish">I want my news item to be published in the future. Is this possible?</a>
+                </li>
+                <li>
+                    <a href="#faq-body">I'm not sure about the Body field and adding modules. What should I do?</a>
+                </li>
+                <li>
+                    <a href="#faq-location">When I look at news on the website, I don't see all the articles. Why is this?</a>
+                </li>
+            </ol>
+            <h5><a id="faq-creating" name="faq-creating"></a>1. I'm creating a news item, but the relevant month doesn't yet exist in the CMS. What should I do?</h5>
+            <p>A. You don't need to do anything - but you're likely trying to create your item in the wrong place. Whenever you create a new news item, you should always create it by right clicking on the 'News' node in the content tree. The CMS will automatically create new 'buckets' for months or years if they don't exist and are required.</p>
+            <h5><a id="faq-image" name="faq-image"></a>2. I haven't got an image for my news item. Does it matter?</h5>
+            <p>A. You don't need to do anything - but you're likely trying to create your item in the wrong place. Whenever you create a new news item, you should always create it by right clicking on the 'News' node in the content tree. The CMS will automatically create new 'buckets' for months or years if they don't exist and are required.</p>
+            <h5><a id="faq-intro" name="faq-intro"></a>3. Why shouldn't I add links to the Introduction field?</h5>
+            <p>A. You can add links to this field if necessary. However, links naturally encourage users to follow them. If you have a link in your first two sentences, you increase the chances that users won't read your news item. Wherever possible, try and give users an opportunity to read your content and then explore relevant links.</p>
+            <h5><a id="faq-multiple" name="faq-multiple"></a>4. What's the point of linking to content multiple times?</h5>
+            <p>A. Its good practice to try and end a piece of content with a strong call to action. This way you encourage your users to continue browsing arup.com. By linking to a publication (for example) towards the start of your article, and again at the end, you're increasing the chances that someone will look at it. Try and use active CTAs such as 'Discover more' or 'Learn more' about. Also considering adding these links to a separate line at the end of your article.</p>
+            <h5><a id="faq-cta" name="faq-cta"></a>5. What kind of calls to action can I add?</h5>
+            <p>A. Not all news articles will have an obvious CTA, but most likely will. You can link to anything on arup.com, be it projects, perspective articles, publications or videos, or industry and service pages. The content you link to is that which is most relevant to your story and that will help your users continue to learn more about Arup.</p>
+            <h5><a id="faq-edit" name="faq-edit"></a>6. Can I go back and edit an article after it's been published?</h5>
+            <p>A. Yes. You can edit an article multiple times even after its been published. Each time you edit an article after publication, a new version will created. This means that if necessary an Administrator can revert back to a previous version if necessary.</p>
+            <h5><a id="faq-cta" name="faq-cta"></a>7. I want my news item to be published in the future. Is this possible?</h5>
+            <p>A. Yes. An article can be published at any point in time. You need to consider the following if you do want this:</p>
+            <ul>
+                <li>Ensure that you set field 'News date' to an appropriate value. You can set this to any appropriate date</li>
+                <li>Ensure that you either don't submit your article for publication until you're ready, or you contact the person responsible for publishing your content to discuss this</li>
+            </ul>
+            <h5><a id="faq-body" name="faq-body"></a>8. I'm not sure about the Body field and adding modules. What should I do?</h5>
+            <p>A. You do NOT have to add any content into the 'Body' field if you don't want. You can use modules to add all your copy if you prefer. However, using the 'Body' field is quicker. If you're not going to add any modules (i.e. images / carousels / quotes etc) its easiest to add content in this way.</p>
+            <p>Alternatively, if you're only going to add a module half way through your article, it will be quicker to add all the content up to this point into the Body field.</p>
+            <h5><a id="faq-location" name="faq-location"></a>9. When I look at news on the website, I don't see all the articles. Why is this?</h5>
+            <p>A. arup.com uses 'GEOIP' to serve relevant content to users based on their location. By default, users will initially only see news articles relevant to their location. So for example, a user in the USA would only see news from America. You control this by defining what county(s) are assigned to your news item.</p>
+            <p>You can use the filters to view any news item on the website, either by country or by selecting 'All countries' from the dropdown list.</p>
+        </div>
+    </div>
+</section>
+
+   <section class="container" id="">
+	<div class="rich-text">
+		<div class="reveal rich-text__content">
+			<ul class="list-navigation">
+				
+				
+				<li class="next"><span>Next: <a href="https://styleguide.arup.com/creating-pages/creating-offices/"><b><em>Creating an office page</em></b></a></span></li>
+				
+				
+			</ul>
+			<a class="cta-btn" href="/"><span class="cta-btn__text">Guidance home</span> <span class="cta-btn__icon-wrap"><span class="cta-btn__icon icon icon-next" data-grunticon-embed=""></span></span></a>
+		</div>
+	</div>
+</section>
+
+        	</main>	<footer class="footer" role="contentinfo">
+		<div class="footer__menu">
+    		<section class="container">
+				<div class="footer__group footer__group--logo">
+        			<span class="arup-logo"><a href="/index.html">Arup</a></span>
+        			<p>We shape a better world</p>
+      			</div>
+		    	<hr />
+		    	<ul class=" footer__group footer__list footer__right">
+        			<li class=""><a href="../html/careers.html">Careers</a></li>
+        			<li class=""><a href="../html/news.html">News &amp; Events</a></li>
+        			<li class=""><a href="../html/contact.html">Contact</a></li>
+      			</ul>
+    		</section>
+		</div>
+
+		<div class="footer__submenu">
+    		<section class="container">
+        		<div class=" footer__group footer__right">
+            		<ul class="list__icons">
+            			<li><a target="_blank" href="../html/404.html" data-grunticon-embed class="icon icon-twitter">Twitter</a></li>
+            			<li><a target="_blank" href="../html/maintenance.html" data-grunticon-embed class="icon icon-linkedin">LinkedIn</a></li>
+            			<li><a target="_blank" href="#" data-grunticon-embed class="icon icon-facebook">Facebook</a></li>
+            			<li><a target="_blank" href="#" data-grunticon-embed class="icon icon-instagram">Instagram</a></li>
+            			<li><a target="_blank" href="#" data-grunticon-embed class="icon icon-rss">RSS</a></li>
+          			</ul>
+        		</div>
+      			<hr />
+      			<div class="footer__group">
+            		<span class="copyright footer__md">© Arup 2019. All rights reserved <span class="divider"></span> </span>
+          			<ul class="list--inline">
+            			<li><a class="link--small" href="../html/legal.html">Privacy</a><span class="divider footer__mob"></span></li>
+            			<li><a class="link--small" href="../html/legal.html">Legal</a><span class="divider footer__mob"></span></li>
+            			<li><a class="link--small" href="../html/legal.html">Cookies</a></li>
+          			</ul>
+           			<span class="copyright footer__mob">© Arup 2019. All rights reserved <span class="divider footer__md"></span> </span>
+        		</div>
+    		</section>
+		</div>
+	</footer>
+</div>
+<script>document.addEventListener('DOMContentLoaded', function () {grunticon(["/css/icons.data.svg.css", "/css/icons.data.png.css", "/css/icons.fallback.css"], grunticon.svgLoadedCallback);});</script>
+<script src=/js/libs.js></script>
+<script src=/js/app.js ></script>
+<script src=/js/steve.js ></script>
+
+</body>
+</html>

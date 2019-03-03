@@ -1,0 +1,1148 @@
+
+<!doctype html>
+
+
+
+
+
+ <html lang="en" class=""> 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=no">
+
+    <title>Creating a carousel module</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+<link rel="manifest" href="../manifest.json">
+<link rel="mask-icon" href="../safari-pinned-tab.svg" color="#000000">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="../mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KWSTJVF');</script>
+
+	<link rel="stylesheet" type="text/css" href=/css/site2.css />
+	<link rel="stylesheet" type="text/css" href=/css/default.css />
+    <link rel="stylesheet" type="text/css" href="/css/slick.css">
+    
+
+
+    
+
+    
+    <script  src=/js/imageloader.js></script>
+
+
+    <script>
+     
+    !function(){function e(e,n,t){"use strict";var o=window.document.createElement("link"),r=n||window.document.getElementsByTagName("script")[0],a=window.document.styleSheets;return o.rel="stylesheet",o.href=e,o.media="only x",r.parentNode.insertBefore(o,r),o.onloadcssdefined=function(e){for(var n,t=0;t<a.length;t++)a[t].href&&a[t].href===o.href&&(n=!0);n?e():setTimeout(function(){o.onloadcssdefined(e)})},o.onloadcssdefined(function(){o.media=t||"all"}),o}function n(e,n){e.onload=function(){e.onload=null,n&&n.call(e)},"isApplicationInstalled"in navigator&&"onloadcssdefined"in e&&e.onloadcssdefined(n)}!function(t){var o=function(r,a){"use strict";if(r&&3===r.length){var i=t.navigator,c=t.document,s=t.Image,d=!(!c.createElementNS||!c.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!c.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||t.opera&&i.userAgent.indexOf("Chrome")===-1||i.userAgent.indexOf("Series40")!==-1),l=new s;l.onerror=function(){o.method="png",o.href=r[2],e(r[2])},l.onload=function(){var t=1===l.width&&1===l.height,i=r[t&&d?0:t?1:2];t&&d?o.method="svg":t?o.method="datapng":o.method="png",o.href=i,n(e(i),a)},l.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",c.documentElement.className+=" grunticon"}};o.loadCSS=e,o.onloadCSS=n,t.grunticon=o}(this),function(e,n){"use strict";var t,o=n.document,r="grunticon:",a=function(e){if(o.attachEvent?"complete"===o.readyState:"loading"!==o.readyState)e();else{var n=!1;o.addEventListener("readystatechange",function(){n||(n=!0,e())},!1)}},i=function(e){return n.document.querySelector('link[href$="'+e+'"]')},c=function(e,n){if(t&&!n)return t;t={};var o,a,i,c,s,d;if(o=e.sheet,!o)return t;a=o.cssRules?o.cssRules:o.rules;for(var l=0;l<a.length;l++)i=a[l].cssText,c=r+a[l].selectorText,s=i.split(");")[0].match(/US\-ASCII\,([^"']+)/),s&&s[1]&&(d=decodeURIComponent(s[1]),t[c]=d);return t},s=function(e,n){var t,a,i,c,s;n?t=e:(n=e,t=o),c="data-grunticon-embed";for(var d in n){s=d.slice(r.length);try{a=t.querySelectorAll(s)}catch(e){continue}i=[];for(var l=0;l<a.length;l++)null!==a[l].getAttribute(c)&&i.push(a[l]);if(i.length)for(l=0;l<i.length;l++)i[l].innerHTML=n[d],i[l].style.backgroundImage="none",i[l].removeAttribute(c)}return i},d=function(n,t){"svg"===e.method&&a(function(){var o=c(i(e.href));"function"==typeof t?(s(n,o),t()):s(o),"function"==typeof n&&n()})};e.embedIcons=s,e.getCSS=i,e.getIcons=c,e.ready=a,e.svgLoadedCallback=d,e.embedSVG=d}(grunticon,this)}();
+    </script>
+
+    <noscript><link href=/css/icons.fallback.css rel="stylesheet"></noscript>
+    
+
+</head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWSTJVF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+  
+
+
+  
+ <header class="header  js-site-header" role="navigation">
+  <section id="search-head" class="search" data-api="/api/search/autosearch" role="search" >
+  <div class="container--search search__inner">
+
+    <span class="search__icon"></span>
+
+    <form action="search.html">
+      <label class="label--search-top" for="searchbox_header">Search for projects, services, people and more</label>
+      <input type="text" name="query" id="searchbox_header" class="input--search-top" placeholder="Search for projects, services, people and more" autofocus autocomplete="off" />
+    </form>
+
+    <span class="formError">Please enter at least 2 characters</span>
+
+    <span tabindex="0" data-grunticon-embed class="search__reset icon icon-close" aria-label="Close"></span>
+
+  </div>
+</section>
+
+  <section class="header__inner">
+    <div class="header__burger">
+      <button class="burger js-mobile-nav-toggle">
+        <div class="burger__spinner">
+          <div class="burger__part burger__part--1"></div>
+          <div class="burger__part burger__part--2"></div>
+          <div class="burger__part burger__part--3"></div>
+        </div>
+      </button>
+    </div>
+    <h1 class="header__logo arup-logo "><a class="header__logo-link" href="/">Arup</a></h1>
+    <nav class="header__sitenav">
+
+      <div class="desktopnav">
+        <div class="marker js-nav-marker">
+          <div class="marker__side marker__side--left js-nav-marker-left"></div>
+          <div class="marker__side marker__side--right js-nav-marker-right"></div>
+        </div>
+        <ul class="main-nav">
+          <li class="main-nav__item  js-dnav-has-menu" style="display:none;">
+            <a href="../html/expertise-hub.html" class="main-nav__link main-nav__link--dropdown js-dnav-menu-trigger"><span data-grunticon-embed class="main-nav__icon icon icon-down_arrow"></span></a>
+            <div class="meganav-pane meganav-pane--expertise" role="navigation" aria-expanded="false">
+              <section class="meganav-pane__inner">
+                <div class="meganav-col meganav-col--subnav">
+                  <div class="meganav-subnav">
+                    <h4 class="meganav-subnav__item">
+                      <button class="subnav-action subnav-action--fade subnav-action--nolink active js-nav-submenu" data-subnav-trigger="navindustry">By Industry <span data-grunticon-embed class="subnav-action__icon icon icon-down_arrow"></span></button>
+                    </h4>
+                    <h4 class="meganav-subnav__subtitle">By Service</h4>
+                    <ul class="meganav-subnav__list">
+                      <li class="meganav-subnav__item"><button class="subnav-action subnav-action--fade subnav-action--nolink js-nav-submenu" data-subnav-trigger="navbd">Building <span data-grunticon-embed class="subnav-action__icon icon icon-down_arrow"></span></button></li>
+                      <li class="meganav-subnav__item"><a class="subnav-action subnav-action--fade js-nav-submenu" href="./industry.html" data-subnav-trigger="navas">Advisory Services <span data-grunticon-embed class="subnav-action__icon icon icon-down_arrow"></span></a></li>
+                      <li class="meganav-subnav__item"><button class="subnav-action subnav-action--fade subnav-action--nolink js-nav-submenu" data-subnav-trigger="navid">Infrastructure <span data-grunticon-embed class="subnav-action__icon icon icon-down_arrow"></span></button></li>
+                      <li class="meganav-subnav__item"><button class="subnav-action subnav-action--fade subnav-action--nolink js-nav-submenu" data-subnav-trigger="navp">Planning <span data-grunticon-embed class="subnav-action__icon icon icon-down_arrow"></span></button></li>
+                      <li class="meganav-subnav__item"><button class="subnav-action subnav-action--fade subnav-action--nolink js-nav-submenu" data-subnav-trigger="navtc">Technical Consulting <span data-grunticon-embed class="subnav-action__icon icon icon-down_arrow"></span></button></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="meganav-col meganav-col--submarker">
+                  <div class="sub-marker">
+                    <img class="sub-marker__pic js-nav-marker-img" src="https://preview.wearethink.com/arup-website/assets/images/nav_scroll_line--right.png" />
+                    
+                  </div>
+                </div>
+                <div class="meganav-col meganav-col--subnav-content">
+                  <div data-subnav-content="navindustry" aria-hidden="false" class="subnav-content active js-nav-submenu-target">
+                    <ul class="meganav-list meganav-list--cols-three">
+                      <li class="meganav-list__item"><a class="meganav-action" href="../html/industry-arts.html">Arts and Culture</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Cities</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Education</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Energy</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Government</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Healthcare</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Mining</a></li>
+                      <li class="meganav-group">
+                        <h5 class="meganav-group__title">Property</h5>
+                        <ul class="meganav-group__wrap">
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Commercial Property</a></li>
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Hotels and Leisure</a></li>
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Residential</a></li>
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Retail</a></li>
+                        </ul>
+                      </li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Resources and Waste</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Science and Industry</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Sport</a></li>
+                      <li class="meganav-group">
+                        <h5 class="meganav-group__title">Transport</h5>
+                        <ul class="meganav-group__wrap">
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Aviation</a></li>
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Highways</a></li>
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Maritime</a></li>
+                          <li class="meganav-group__item"><a class="meganav-action" href="#">Rail</a></li>
+                        </ul>
+                      </li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Water</a></li>
+                    </ul>
+                  </div>
+                  <div data-subnav-content="navbd" aria-hidden="true" class="subnav-content js-nav-submenu-target">
+                    <ul class="meganav-list meganav-list--cols-three">
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Accessible environments</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Architecture</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Building design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Building information modelling</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Building physics</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Building retrofit</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Building services engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Commissioning and building performance evaluation</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Electrical engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Facade engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Facilities management</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Fire engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Landscape architecture</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Mechanical engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Public health engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Structural engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Sustainable buildings design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Vertical transportation design</a></li>
+                    </ul>
+                  </div>
+                  <div data-subnav-content="navas" aria-hidden="true" class="subnav-content js-nav-submenu-target">
+                    <ul class="meganav-list meganav-list--cols-three">
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Business and investor advisory</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Carbon management</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Data insight and analytics</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Digital</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Foresight</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Intelligent transport solutions</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Operations consulting</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Operational readiness activation and transition</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Organisational behaviour</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Programme and project management</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Research</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Sustainability consulting</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Transport consulting</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Visualisation</a></li>
+                    </ul>
+                  </div>      
+                  <div data-subnav-content="navid" aria-hidden="true" class="subnav-content js-nav-submenu-target">
+                    <ul class="meganav-list meganav-list--cols-three">
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Airport planning</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Bridge engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Civil engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Infrastructure design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Maritime engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Rail engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Sustainable infrastructure design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Tunnel design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Waste management</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Waste to energy solutions</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Water engineering</a></li>
+                    </ul>
+                  </div>
+                  <div data-subnav-content="navp" aria-hidden="true" class="subnav-content js-nav-submenu-target">
+                    <ul class="meganav-list meganav-list--cols-three">
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Environmental consulting</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Economic planning</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Flood risk management</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">International development</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Master planning</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Planning policy advice</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Resilience security and risk</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Smart cities</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Smart mobility</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Town planning</a></li>
+                    </ul>
+                  </div>
+                  <div data-subnav-content="navtc" aria-hidden="true" class="subnav-content js-nav-submenu-target">
+                    <ul class="meganav-list meganav-list--cols-three">
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Acoustic consulting</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Advanced technology and research</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Audio visual and multimedia</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Fluid dynamics</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Geographic information systems</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Geotechnics</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Hydrogeology</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">ICT infrastructure design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Lighting design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Materials</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Product design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Quantity surveying</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Seismic design</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Software products</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Technology operations and project management</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Theatre consulting</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Vibration engineering</a></li>
+                      <li class="meganav-list__item"><a class="meganav-action" href="#">Wind engineering</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </li>
+          
+          
+           
+          <li class="main-nav__item js-dnav-has-menu">
+            <a href="/getting-started/" class="main-nav__link main-nav__link--dropdown js-dnav-menu-trigger">Getting started with Sitecore<span data-grunticon-embed class="main-nav__icon icon icon-down_arrow"></span></a>
+            
+            <div class="meganav-pane meganav-pane--perspective" role="navigation" aria-expanded="false" style="background-image:url('/images/backgrounds/navigation-background.jpg')">
+              <section class="meganav-pane__inner">
+                <div class="meganav-col meganav-col--title">
+                  <div class="nav-intro">
+                    <h4 class="nav-intro__title">General guidance on using the Sitecore platform</h4>
+                    
+                  </div>
+                </div>
+                <div class="meganav-col meganav-col--listcol">
+                  
+                  <ul class="meganav-list active">
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/getting-started/content-experienence-editor/">Exploring Sitecore</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/getting-started/rich-text/">Working with rich text</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/getting-started/adding-links/">Adding links</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/getting-started/image-preparation/">Image Preparation</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/getting-started/uploading-images/">Uploading images</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/getting-started/language-versions/">Adding language versions</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/getting-started/workflow/">Workflow</a></li>
+                    
+                  </ul>
+                  
+                </div>
+              </section>
+            </div>
+            
+          </li>
+          
+           
+          <li class="main-nav__item js-dnav-has-menu">
+            <a href="/creating-pages/" class="main-nav__link main-nav__link--dropdown js-dnav-menu-trigger">Creating pages<span data-grunticon-embed class="main-nav__icon icon icon-down_arrow"></span></a>
+            
+            <div class="meganav-pane meganav-pane--perspective" role="navigation" aria-expanded="false" style="background-image:url('/images/backgrounds/navigation-background.jpg')">
+              <section class="meganav-pane__inner">
+                <div class="meganav-col meganav-col--title">
+                  <div class="nav-intro">
+                    <h4 class="nav-intro__title">General guidance on using the Sitecore platform</h4>
+                    
+                  </div>
+                </div>
+                <div class="meganav-col meganav-col--listcol">
+                  
+                  <ul class="meganav-list active">
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-pages/creating-news/">Creating a news page</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-pages/creating-offices/">Creating an office page</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-pages/creating-perspectives/">Creating a perspective</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-pages/creating-profiles/">Creating profiles</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-pages/creating-projects/">Creating a project</a></li>
+                    
+                  </ul>
+                  
+                </div>
+              </section>
+            </div>
+            
+          </li>
+          
+          
+           
+          <li class="main-nav__item js-dnav-has-menu">
+            <a href="/creating-modules/" class="main-nav__link main-nav__link--dropdown js-dnav-menu-trigger">Creating and adding modules<span data-grunticon-embed class="main-nav__icon icon icon-down_arrow"></span></a>
+            
+            <div class="meganav-pane meganav-pane--perspective" role="navigation" aria-expanded="false" style="background-image:url('/images/backgrounds/navigation-background.jpg')">
+              <section class="meganav-pane__inner">
+                <div class="meganav-col meganav-col--title">
+                  <div class="nav-intro">
+                    <h4 class="nav-intro__title">General guidance on using the Sitecore platform</h4>
+                    
+                  </div>
+                </div>
+                <div class="meganav-col meganav-col--listcol">
+                  
+                  <ul class="meganav-list active horizontal">
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/adding-modules/">Adding modules</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/carousel/">Carousel</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/contacts/">Contacts</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/images/">Image module</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/publication-prom/">Publication promo</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/quotation/">Quotation module</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/quote/">Quote module</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/recommended-content/">Recommended content</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/rich-text-modulule/">Rich text module</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/text-image-split/">Text image split</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/creating-modules/video/">Video module</a></li>
+                    
+                  </ul>
+                  
+                </div>
+              </section>
+            </div>
+            
+          </li>
+          
+           
+          <li class="main-nav__item js-dnav-has-menu">
+            <a href="/best-practice/" class="main-nav__link main-nav__link--dropdown js-dnav-menu-trigger">Best practice and examples<span data-grunticon-embed class="main-nav__icon icon icon-down_arrow"></span></a>
+            
+            <div class="meganav-pane meganav-pane--perspective" role="navigation" aria-expanded="false" style="background-image:url('/images/backgrounds/navigation-background.jpg')">
+              <section class="meganav-pane__inner">
+                <div class="meganav-col meganav-col--title">
+                  <div class="nav-intro">
+                    <h4 class="nav-intro__title">General guidance on using the Sitecore platform</h4>
+                    
+                  </div>
+                </div>
+                <div class="meganav-col meganav-col--listcol">
+                  
+                  <ul class="meganav-list active horizontal">
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/best-practice/exemplar-office/">Exemplar office</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/best-practice/content-checklist/">Content checklist</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/best-practice/exemplar-profile/">Exemplar profile</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/best-practice/seo/">SEO best practice</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/best-practice/exemplar-project/">Exemplar project</a></li>
+                    
+                    <li class="meganav-list__item"><a class="subnav-action" href="/best-practice/dashboards/">Metrics and dashboards</a></li>
+                    
+                  </ul>
+                  
+                </div>
+              </section>
+            </div>
+            
+          </li>
+          
+          
+        </ul>
+      </div>
+
+
+    </nav>
+    <nav class="header__nav-extra">
+      <ul class="extra-nav">
+        
+      </ul>
+    </nav>
+  </section>
+</header>
+
+  
+
+  <div class="nav-sidebar js-mobile-nav">
+  <div class="nav-sidebar__controls">
+    <div class="nav-ctrls">
+      <div class="nav-ctrls__btn nav-ctrls__btn--close js-mobile-nav-toggle">
+        <button class="nav-ctrl">
+          <span data-grunticon-embed class="nav-ctrl__icon icon icon-close">Close</span>
+        </button>
+      </div>
+      <div class="nav-ctrls__btn nav-ctrls__btn--back js-mobile-nav-back js-nav-sec-trigger" data-nav-sec-trigger="core">
+        <button class="nav-ctrl">
+          <span data-grunticon-embed class="nav-ctrl__icon nav-ctrl__icon--back icon icon-down_arrow">Back</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <nav class="nav-sidebar__main">
+
+    <ul class="nav-list-wrap">
+      <li class="nav-list-wrap__item nav-list-wrap__item--active js-nav-sec" data-nav-sec="core">
+        <div class="nav-list-wrap__content nav-list-wrap__content--center">
+          <div class="nav-core">
+            <ul class="nav-core__list">
+              <li class="nav-core__item">
+
+                <button class="nav-core__action nav-core__action--trigger js-nav-sec-trigger" data-nav-sec-trigger="expertise">General guidance<span data-grunticon-embed class="nav-core__pointer icon icon-down_arrow"></span></button>
+              </li>
+              
+              <li class="nav-core__item">
+                <button class="nav-core__action nav-core__action--trigger js-nav-sec-trigger" data-nav-sec-trigger="perspectives">Creating pages<span data-grunticon-embed class="nav-core__pointer icon icon-down_arrow"></span></button>
+              </li>
+              
+              <li class="nav-core__item">
+                <button class="nav-core__action nav-core__action--trigger js-nav-sec-trigger" data-nav-sec-trigger="firm">Creating and editing modules<span data-grunticon-embed class="nav-core__pointer icon icon-down_arrow"></span></button>
+              </li>
+              
+              <li class="nav-core__item">
+                <button class="nav-core__action nav-core__action--trigger js-nav-sec-trigger" data-nav-sec-trigger="offices">Best practice<span data-grunticon-embed class="nav-core__pointer icon icon-down_arrow"></span></button>
+              </li>
+            </ul>
+            <div class="nav-core__search">
+              <button class="nav-search-btn"><span data-grunticon-embed class="nav-search-btn__icon icon icon-search"></span> Search</button>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="nav-list-wrap__item nav-list-wrap__item--dark nav-list-wrap__item--expertise js-nav-sec" data-nav-sec="expertise">
+        <div class="nav-list-wrap__content">
+          <div class="nav-second">
+            <h3 class="nav-second__title nav-link-title">
+              <a href="#" class="nav-link-title__link">
+                <span class="nav-link-title__copy">General guidance</span>
+                
+              </a>
+            </h3>
+
+            <div class="nav-second__subsec">
+              
+              <ul class="nav-second__list">
+                <li class="nav-second__item">
+                  <a href="/getting-started/content-experience-editor" class="nav-second__link nav-action">Getting started with Sitecore</a>
+                </li>
+                <li class="nav-second__item">
+                  <a href="/getting-started/rich-text" class="nav-second__link nav-action">Editing using Rich Text editor</a>
+                </li>
+                <li class="nav-second__item">
+                  <a href="/getting-started/adding-links" class="nav-second__link nav-action">Adding links in Sitecore</a>
+                </li>
+                <li class="nav-second__item">
+                  <a href="/getting-started/image-preparation" class="nav-second__link nav-action">Preparing images</a>
+                </li>
+              
+                <li class="nav-second__item">
+                  <a href="/getting-started/uploading" class="nav-second__link nav-action">Uploading images</a>
+                </li>
+                <li class="nav-second__item">
+                  <a href="/getting-started/language-versions" class="nav-second__link nav-action">Adding language versions</a>
+                </li>
+                <li class="nav-second__item">
+                  <a href="/getting-started/workflow" class="nav-second__link nav-action">Workflow</a>
+                </li>
+               </uL>
+            </div>
+        </div>
+    </div>
+      </li>
+      <li class="nav-list-wrap__item nav-list-wrap__item--dark nav-list-wrap__item--perspectives js-nav-sec" data-nav-sec="perspectives">
+        <div class="nav-list-wrap__content">
+          <div class="nav-second">
+            <h3 class="nav-second__title nav-link-title">
+              <a href="#" class="nav-link-title__link">
+                <span class="nav-link-title__copy">Creating pages</span>
+                
+              </a>
+            </h3>
+
+            
+            <ul class="nav-second__list">
+              <li class="nav-second__item">
+                <a href="/creating-pages/creating-news" class="nav-second__link nav-action">News</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/creating-pages/creating-offices" class="nav-second__link nav-action">Offices</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/creating-pages/creating-perspectives" class="nav-second__link nav-action">Perspectives</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/creating-pages/profiles" class="nav-second__link nav-action">Profiles</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/creating-pages/creating-project" class="nav-second__link nav-action">Projects</a>
+              </li>
+            </ul>
+            
+
+          </div>
+        </div>
+      </li>
+      <li class="nav-list-wrap__item nav-list-wrap__item--dark nav-list-wrap__item--firm js-nav-sec" data-nav-sec="firm">
+        <div class="nav-list-wrap__content">
+          <div class="nav-second">
+            <h3 class="nav-second__title nav-link-title">
+              <a href="#" class="nav-link-title__link">
+                <span class="nav-link-title__copy">Creating and editing modules</span>
+                
+              </a>
+            </h3>
+
+            
+            <ul class="nav-second__list">
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/adding-modules">Adding modules</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/carousel">Carousel</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/contacts">Contacts</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules//creating-modules//creating-modules/images">Image</a></li>
+           
+
+            
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules//creating-modules/publication-promo">Publication Promo</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/quotation">Quotation (Quote and image)</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/quote">Quote</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/recommended-content">Recommended content</a></li>
+            
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules//creating-modules/rich-text-module">Rich Text module</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/text-image-split">Text image split</a></li>
+              <li class="nav-second__item"><a class="nav-second__link nav-action" href="/creating-modules/video">Video</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </li>
+      <li class="nav-list-wrap__item nav-list-wrap__item--dark nav-list-wrap__item--offices js-nav-sec" data-nav-sec="offices">
+        <div class="nav-list-wrap__content">
+          <div class="nav-second">
+            <h3 class="nav-second__title nav-link-title">
+              <a href="#" class="nav-link-title__link">
+                <span class="nav-link-title__copy">Best practice</span>
+                
+              </a>
+            </h3>
+
+            <ul class="nav-second__list">
+              
+              <li class="nav-second__item">
+                <a href="/best-practice/exemplar-office" class="nav-second__link nav-action">Exemplar office</a>
+              </li>
+              
+              <li class="nav-second__item">
+                <a href="/best-practice/exemplar-profile" class="nav-second__link nav-action">Exemplar profile</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/best-practice/exemplar-project.html" class="nav-second__link nav-action">Exemplar project</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/best-practice/content-checklist" class="nav-second__link nav-action">Content checlist</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/best-practice/seo" class="nav-second__link nav-action">SEO best practice</a>
+              </li>
+              <li class="nav-second__item">
+                <a href="/best-practice/dashboards" class="nav-second__link nav-action">Metrics and dashboards</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </li>
+    </ul>
+
+  </nav>
+  <footer class="nav-sidebar__foot">
+    <a href="../html/contact.html" class="link link--icon"><span data-grunticon-embed class="icon icon-contact"></span>Get in touch</a>
+  </footer>
+</div>
+
+
+  <section id="search-results" class="search-results">
+
+  <div class="search-results__wrap">
+
+    <div class="container--search search-results--inner">
+
+      <div class="search-results--noresult">
+          <p class="search-results__warning">Looks like there are no results for <span></span></p>
+          <span class="suggestion label label--md">Suggestions</span>
+          <ul class="search-result__results search-result__results--suggestions">
+            <li><a href="search.html">Waste<a></li>
+            <li><a href="search.html">Water<a></li>
+            <li><a href="search.html">Watershed<a></li>
+              <li><a href="search.html">Waste<a></li>
+              <li><a href="search.html">Water<a></li>
+              <li><a href="search.html">Watershed<a></li>
+          </ul>
+      </div>
+
+      <div class="search-results__content">
+
+        <span class="suggestion label label--md">Suggestions</span>
+
+        <div class="search-result">
+          <span class="search-result__section">Projects</span>
+          <ul class="search-result__results">
+            <li><a href="search.html">Marina Bay Waterfront Promenade<a></li>
+            <li><a href="search.html">Marina Bay Sands integrated resort<a></li>
+            <li><a href="search.html">Istanbul Marina Transport Services<a></li>
+          </ul>
+        </div>
+
+        <div class="search-result">
+          <span class="search-result__section">Industry</span>
+          <ul class="search-result__results">
+            <li><a href="search.html">Maritime <span class="search__tag">Marina</span><a></li>
+          </ul>
+        </div>
+
+        <div class="search-result">
+          <span class="search-result__section">Office</span>
+          <ul class="search-result__results">
+            <li><a href="search.html">London, United Kingdom <span class="search__tag">London</span><a></li>
+          </ul>
+        </div>
+      </div>
+
+      <a href="search.html" id="search__viewall" class="cta cta--black cta--lg">
+          <span data-grunticon-embed class="icon icon-oval"></span>
+          <span>View all results for <span class="search__cta">"Marina"</span></span>
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<div class="global-wrapper">
+        	<main id="main" role="main">
+  <section class="hero hero--contacts">
+    <div class="container">
+    	<div class="hero__content hero__content--dark hero__content--perspectives">
+        	<span class="label--lg italic">Creating modules</span>
+        	<h1 class="h1">Creating a carousel module</h1>
+        	<span class="label--lg">Last updated: 17/2/2019</span>
+        </div>
+    </div>
+   </section>
+    <section class="container" id="">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <h2>Table of contents</h2>
+        </div>
+    </div>
+</section>
+<section class="container">
+    <div class="menu_row">
+        <div class="menu_section two">
+            <ol class="header-list">
+                <li><a href="#guide">Carousel guide</a></li>
+                <li><a href="#what-is">What is the carousel module?</a></li>
+                <li><a href="#where">Where can you use hte carousel?</a></li>
+                <li><a href="#makeup">Makeup of a carousel?</a></li>
+                <li><a href="#creating">Creating a carousel module</a>
+                    <ul class="sub-header-list">
+                        <lI><a href="#fullwidth">Fullwidth or default?</a></lI>
+                        <li><a href="#preparation">Image preparation</a></li>
+                        <li><a href="#creating-item">Creating carousel items</a></li>
+                    </ul>
+                </lI>
+            </ol>
+        </div>
+        <div class="menu_section two">
+            <ol class="header-list second" start="6">
+                <li><A href="#best-practice">Best practice</A></li>
+                <li><a href="#faq">FAQ</a>
+            </ol>
+        </div>
+    </div>
+</section>
+<section class="container" id="guide">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <h2>1. Carousel guide</h2>
+            <P>This guide provides details on how to successfully utilise the Carousel module in Sitecore.</P>
+        </div>
+    </div>
+</section>
+<!-- demo carousel -->
+<section class="halfbleed halfbleed-carousel reveal">
+    <div class="halfbleed-carousel__slides">
+        <div class="slide" data-description="Ove and his team realised that if each shell fit the shape described by a sphere, the same mould could be re-used for multiple shells. ">
+            <img src="https://www.arup.com/-/media/Arup/Images/Projects/S/Sydney-Opera-House/Arup_PROJECTS_ARTS_CULTURE_SYDNEY_OPERA_HOUSE_AU_05_2000x1125.jpg?h=1125&amp;la=en&amp;w=2000&amp;hash=FD3B73455CF111CCA60DE98D327B555CAA9685C0" alt="Ove Arup and the Sydney Opera House team" width="2000" height="1125" DisableWebEdit="False" />
+        </div>
+        <div class="slide" data-description="The complex design work for the shells was achieved through the pioneering use of computers.">
+            <img src="https://www.arup.com/-/media/Arup/Images/Projects/S/Sydney-Opera-House/Arup_PROJECTS_ARTS_CULTURE_SYDNEY_OPERA_HOUSE_AU_06_2000x1125.jpg?h=1125&amp;la=en&amp;w=2000&amp;hash=D14BA174E49EAF3C0764C67BB871551BA7C6D5D9" alt="Sydney Opera House roof model" width="2000" height="1125" DisableWebEdit="False" />
+        </div>
+        <div class="slide" data-description="The construction of the concrete ribs, which would support the multiple shells of the Sydney Opera House.">
+            <img src="https://www.arup.com/-/media/Arup/Images/Projects/S/Sydney-Opera-House/Arup_PROJECTS_ARTS_CULTURE_SYDNEY_OPERA_HOUSE_AU_07_2000x1125.jpg?h=1125&amp;la=en&amp;w=2000&amp;hash=AEFF2CDDF493DBE63CE1C5D10616BA1DCA317313" alt="Sydney Opera House black and white close up" width="2000" height="1125" DisableWebEdit="False" />
+        </div>
+        <div class="slide" data-description="Each rib was fitted with a metal structure into which over a million square tiles were fitted in a chevron pattern. ">
+            <img src="https://www.arup.com/-/media/Arup/Images/Projects/S/Sydney-Opera-House/Arup_PROJECTS_ARTS_CULTURE_SYDNEY_OPERA_HOUSE_AU_08_2000x1125.jpg?h=1125&amp;la=en&amp;w=2000&amp;hash=47266C093B6C9866BE0BA60531FD1104F3317E94" alt="Sydney Opera House roof close up" width="2000" height="1125" DisableWebEdit="False" />
+        </div>
+    </div>
+    <div class="halfbleed__detail">
+        <div class="carousel__count">
+            <span class="current">1</span> of <span class="total">2</span>
+            <span class="divider"></span>
+        </div>
+        <span class="carousel__desc">
+Ove and his team realised that if each shell fit the shape described by a sphere, the same mould could be re-used for multiple shells.                 </span>
+        <div class="halfbleed-carousel__controls">
+            <div class="halfbleed-carousel__control carousel-prev">
+                <span role="button" href="#" data-grunticon-embed class="icon icon-prev" aria-label="Previous"></span>
+            </div>
+            <div class="halfbleed-carousel__control carousel-next">
+                <span role="button" href="#" data-grunticon-embed class="icon icon-next" aria-label="Next"></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- end demo carousel -->
+
+<section class="container" id="where">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <h2>2. What is the Carousel module?</h2>
+            <P>The Carousel module allows you to add multiple images into a carousel type display that users can browse through.</p>
+            <P>The module has two potential layouts:</P>
+            <P><b>Default layout</b> – by default, the carousel module will display as shown in the example below:</P>
+        </div>
+    </div>
+</section>        
+<section class="halfbleed halfbleed-carousel reveal">
+    <div class="halfbleed-carousel__slides">
+        <div class="slide" data-description="Ove and his team realised that if each shell fit the shape described by a sphere, the same mould could be re-used for multiple shells. ">
+            <img src="https://www.arup.com/-/media/Arup/Images/Projects/S/Sydney-Opera-House/Arup_PROJECTS_ARTS_CULTURE_SYDNEY_OPERA_HOUSE_AU_05_2000x1125.jpg?h=1125&amp;la=en&amp;w=2000&amp;hash=FD3B73455CF111CCA60DE98D327B555CAA9685C0" alt="Ove Arup and the Sydney Opera House team" width="2000" height="1125" DisableWebEdit="False" />
+        </div>
+        <div class="slide" data-description="The complex design work for the shells was achieved through the pioneering use of computers.">
+            <img src="https://www.arup.com/-/media/Arup/Images/Projects/S/Sydney-Opera-House/Arup_PROJECTS_ARTS_CULTURE_SYDNEY_OPERA_HOUSE_AU_06_2000x1125.jpg?h=1125&amp;la=en&amp;w=2000&amp;hash=D14BA174E49EAF3C0764C67BB871551BA7C6D5D9" alt="Sydney Opera House roof model" width="2000" height="1125" DisableWebEdit="False" />
+        </div>
+        <div class="slide" data-description="The construction of the concrete ribs, which would support the multiple shells of the Sydney Opera House.">
+            <img src="https://www.arup.com/-/media/Arup/Images/Projects/S/Sydney-Opera-House/Arup_PROJECTS_ARTS_CULTURE_SYDNEY_OPERA_HOUSE_AU_07_2000x1125.jpg?h=1125&amp;la=en&amp;w=2000&amp;hash=AEFF2CDDF493DBE63CE1C5D10616BA1DCA317313" alt="Sydney Opera House black and white close up" width="2000" height="1125" DisableWebEdit="False" />
+        </div>
+        <div class="slide" data-description="Each rib was fitted with a metal structure into which over a million square tiles were fitted in a chevron pattern. ">
+            <img src="https://www.arup.com/-/media/Arup/Images/Projects/S/Sydney-Opera-House/Arup_PROJECTS_ARTS_CULTURE_SYDNEY_OPERA_HOUSE_AU_08_2000x1125.jpg?h=1125&amp;la=en&amp;w=2000&amp;hash=47266C093B6C9866BE0BA60531FD1104F3317E94" alt="Sydney Opera House roof close up" width="2000" height="1125" DisableWebEdit="False" />
+        </div>
+    </div>
+    <div class="halfbleed__detail">
+        <div class="carousel__count">
+            <span class="current">1</span> of <span class="total">2</span>
+            <span class="divider"></span>
+        </div>
+        <span class="carousel__desc">
+Ove and his team realised that if each shell fit the shape described by a sphere, the same mould could be re-used for multiple shells.                 </span>
+        <div class="halfbleed-carousel__controls">
+            <div class="halfbleed-carousel__control carousel-prev">
+                <span role="button" href="#" data-grunticon-embed class="icon icon-prev" aria-label="Previous"></span>
+            </div>
+            <div class="halfbleed-carousel__control carousel-next">
+                <span role="button" href="#" data-grunticon-embed class="icon icon-next" aria-label="Next"></span>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container" id="">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <P><b>Full width</b> – in the example below, you’ll see that the carousel is displayed in a fullwidth format, occupying the full potential width of the screen.</P>
+        </div>
+    </div>
+</section>
+<section class="fullbleed fullbleed-carousel reveal">
+    <div class="fullbleed-carousel__slides">
+        <div class="slide" data-description="The elliptical tower is orientated to face north towards the clear views to Sydney Harbour.">
+            <img src="https://www.arup.com/-/media/arup/images/projects/1/1-bligh-street-sydney/1_bligh_street_sydney_image_1.jpg?h=600&amp;la=en&amp;w=900&amp;hash=2E143C993761068DAD77C13B5D4166494EAB9C55" alt="The elliptical tower is orientated to face north towards the clear views to Sydney Harbour" width="900" height="600" DisableWebEdit="False" />
+        </div>
+        <div class="slide" data-description="1 Bligh Street set new standards for sustainability and innovation in high-rise development in Australia.">
+            <img src="http://https://www.arup.com/-/media/arup/images/projects/1/1-bligh-street-sydney/1_bligh_street_sydney_image_2.jpg?h=600&amp;la=en&amp;w=900&amp;hash=AB07AEA34E7F89407855F4210837041670FF9123" alt="" width="900" height="600" DisableWebEdit="False" />
+        </div>
+        <div class="slide" data-description="The 30-storey atrium with clear glazed skylight is a spectacular space.">
+            <img src="https://www.arup.com/-/media/arup/images/projects/1/1-bligh-street-sydney/1_bligh_street_sydney_image_3.jpg?h=600&amp;la=en&amp;w=900&amp;hash=A36AE6802F062442EB71731070B6E9D3F0C2590E" alt="The 30-storey atrium with clear glazed skylight is a spectacular space" width="900" height="600" DisableWebEdit="False" />
+        </div>
+        <div class="slide" data-description="Very high levels of indoor air quality are achieved with the ventilation system.">
+            <img src="https://www.arup.com/-/media/arup/images/projects/1/1-bligh-street-sydney/1_bligh_street_sydney_image_4.jpg?h=600&amp;la=en&amp;w=900&amp;hash=6939C7BD3D1F8050E97E817E8756608D4E902801" alt="Very high levels of indoor air quality are achieved with the ventilation system providing a 150% improvement over Australian standards" width="900" height="600" DisableWebEdit="False" />
+        </div>
+    </div>
+    <div class="fullbleed-carousel__detail">
+        <span class="current">1</span> of <span class="total">4</span>
+        <span class="divider"></span>
+        <span class="fullbleed-carousel__text">The elliptical tower is orientated to face north towards the clear views to Sydney Harbour.</span>
+        <div class="fullbleed-carousel__controls">
+            <span href="#" role="button" data-grunticon-embed class="icon icon-prev" aria-label="Previous"></span>
+            <span href="#" role="button" data-grunticon-embed class="icon icon-next" aria-label="Next"></span>
+        </div>
+    </div>
+</section>
+<section class="container" id="where">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <h2>3. Where can you use the carousel?</h2>
+            <P>The carousel module can be placed on the following types of pages:</p>
+            <uL>
+                <lI>Events</li>
+                <li>News items</li>
+                <lI>Perspectives</lI>
+                <li>Projects</li>
+                <li>Services</li>
+                <lI>Industries</lI>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="container" id="makeup">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <h2>4. Makeup of a carousel</h2>
+            <P>The Carousel module is composed of two items</P>
+            <ol>
+                <lI>‘Carousel’ – this is the container for your individual images. You create this first</lI>
+                <li>‘Carousel item’ this is where you attach your images. You can add as many items to a carousel as you require</li>
+            </ol>
+        </div>
+    </div>
+</section>
+<section class="container" id="creating">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+        <h2>5. Creating a carousel module</h2>
+        <P>To add a Carousel to your page, you must first create it in the Content Editor. It is not possible to create it purely within the Experience Editor – though you will still use the Experience Editor to add the completed module to your page.</P>
+        <ul>
+            <li>Right click on the ‘Local content’ folder and choose ‘<b>Insert > Carousel</b>’ from the popup</li>
+        </ul>
+        <div class="training-image">
+            <img src="/images/carousel/select-carousel.jpg" alt="Image" class="mainImg"/>
+        </div>
+        <div class="halfbleed__detail">
+            Fig 1: Adding a carousel module to the ‘Local content’ folder
+        </div>
+        <ul>
+            <li>Give your Carousel a suitably descriptive name and click ‘Ok’</li>
+            <li>You have now created your carousel container</li>
+        </ul>
+        </div>
+    </div>
+</section>
+<section class="container">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+        <h5>Fullwidth or default?</h5>
+        <P>Once you’ve created your Carousel, you need to confirm whether you want to make the carousel fill the full width of your page. Some considerations are listed below to help you decide:</p>
+        <ul>
+            <Li>Are you images big enough? To make use of the fullwidth carousel, your images should be at least 2000px wide and 800px high</li>
+            <li>Are your images genuinely engaging and likely to inspire users? </li>
+            <li>What type of content are you creating? Fullwidth carousels lend themselves better to Projects (though can be used anywhere if your images are of sufficient quality)</li>
+        </uL>
+        <p><b>Fullwidth</b></P>
+        <P>If you wish to make your carousel full width, please do the following (NB – you can change this later on. However, logically it makes sense to decide from the start so you can resize your images accordingly).</p>
+        <ul>
+            <li>Select the ‘Carousel’ item and within the ‘Media’ section, check ‘ShowFullWidth’. Once selected, save the ‘Carousel’ </li>
+        </ul>
+        <div class="training-image">
+            <img src="/images/carousel/select-fullwidth.jpg" alt="Image" class="mainImg"/>
+        </div>
+        <div class="halfbleed__detail">
+            Fig 2: Select ‘ShowFullWidth’ to make your carousel occupy the full width of your page</div>
+        </div>
+    </div>
+</section>
+<section class="container">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <h5>Image preparation</h5>
+            <P>Before you begin uploading your images, you need to prepare your images for use. Ideally, you should have access to image editing software such as Photoshop. You need to be able to effectively resize, crop and alter the file size of images you’re uploading to the website. If you regularly edit and create content on Sitecore, you should speak to your manager regarding obtaining Photoshop</p>
+            <p><b>Image guide</b></p>
+            <P>To help you with the general principles of image preparation, the GMC Online time has produced a standalone <a href="/getting-started/image-preparation/">image preparation guide</a>. Please consult this if you’re not familiar with preparing images for online use.</P>
+            <p><b>Resizing images – default size</b></P>
+            <P>If you’re using the default carousel, you should resize all the images to;</p>
+            <Ul>
+                <lI>Width: 900px </li>
+                <lI>Height: 520px</lI>
+            </ul>
+            <p><b>Resizing images – fullwidth</b></p>
+            <P>If you’re introducing a fullwidth carousel, you should resize all images to:</P>
+            <ul>
+                <li>Width: 2000px</li>
+                <li>Height: 800px</li>
+            </ul>
+            <P>Please see the <a href="#faq"><b><em>FAQ</em></b></a> at the end of this guide for further information on resizing images.</p>
+            <p><b>Uploading your images</b></p>
+            <P>Please see the <a href="/getting-started/uploading-images/">image upload guide</a> for more information if you’re not familiar with the upload process.</p>
+            <h5>Creating your Carousel Items</h5>
+            <P>Once you’ve uploaded all your imagery, you’re ready to begin adding items to your carousel.</p>
+            <Ul>
+                <li>Click on the carousel container you created – then right click and choose ‘<b>Insert > Carousel item</b>’</li>
+            </Ul>
+            <div class="training-image">
+                <img src="/images/carousel/create-carousel-item.jpg" alt="Image" class="mainImg"/>
+            </div>
+            <div class="halfbleed__detail">
+                Fig 3: creating a carousel item
+            </div>
+            <ul>
+                <li>Name your Carousel item – its good practice to include reference to the number of the item. For example, call the first item ‘Carousel item 1’, second ‘Carousel item 2’ and so on. Click ‘Ok’</li>
+                <Li>Once the item has loaded, click on the ‘Browse’ option under ‘Image’ – this will display a popup where you can browse to your image’s folder and select your image</li>
+                <li>Once you’ve selected your image you need to add a caption. Enter a brief description in the ‘Caption’ field</li>
+                <li>Click save once the above steps are complete</li>
+                <lI>Repeat each step for each additional carousel item you wish to add</li>
+            </ul>
+            <div class="training-image">
+                <img src="/images/carousel/completing-carousel-item.jpg" alt="Image" class="mainImg"/>
+            </div>
+            <div class="halfbleed__detail">
+                Fig 4: Completed 'Carousel item'
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container" id="best-practice">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <h2>Carousel module - best practice</h2>
+            <P>In this section, you will find guidance and advice on how to best utilise the 'Carousel' module.</P>
+            <P>It includes examples illustrating how to use and display the module</p>
+            <h5>Recommended use</h5>
+            <ul class="featureList">
+                <li class="tick">Display collections of imagery</li>
+                <li class="tick">Use a set of images to tell a story that supports your content</li>
+            </ul>
+            <p><b>Example 1 - correctly presented 'default' carousel</b></P>
+            <P>In the example below, you'll see what a 'perfect' example of a carousel in default display mode looks like.</P>
+            <P>It has:</p>
+            <ul class="featureList">
+                <li class="tick">Correctly prepared images (900px wide by 520px high)</li>
+                <li class="tick">Each image has a caption which supports the image and gives the user useful information</li>
+                <li class="tick">The images are 'useful' - they're not just a collection of stock images but illustrate the project the carousel is used on</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="halfbleed halfbleed-carousel reveal">
+    <div class="halfbleed-carousel__slides">
+        <div class="slide" data-description="The elliptical tower is orientated to face north towards the clear views to Sydney Harbour.">
+            <img src="https://www.arup.com/-/media/arup/images/projects/1/1-bligh-street-sydney/1_bligh_street_sydney_image_1.jpg?h=520&amp;la=en&amp;w=900&amp;hash=407D2A257913106D57375DB0C421E1D5074ECE8E" alt="The elliptical tower is orientated to face north towards the clear views to Sydney Harbour" width="900" height="520" DisableWebEdit="False" />
+        </div>
+        <div class="slide" data-description="1 Bligh Street set new standards for sustainability and innovation in high-rise development in Australia.">
+            <img src="https://www.arup.com/-/media/arup/images/projects/1/1-bligh-street-sydney/1_bligh_street_sydney_image_2.jpg?h=520&amp;la=en&amp;w=900&amp;hash=E516238DB9C3594CDF251713C39F08A6F0464740" alt="" width="900" height="520" DisableWebEdit="False" />
+        </div>
+        <div class="slide" data-description="The 30-storey atrium with clear glazed skylight is a spectacular space.">
+            <img src="https://www.arup.com/-/media/arup/images/projects/1/1-bligh-street-sydney/1_bligh_street_sydney_image_3.jpg?h=520&amp;la=en&amp;w=900&amp;hash=0A74DCFAE11F5132A03DA599CEBB6128B7DF4CE1" alt="The 30-storey atrium with clear glazed skylight is a spectacular space" width="900" height="520" DisableWebEdit="False" />
+        </div>
+        <div class="slide" data-description="Very high levels of indoor air quality are achieved with the ventilation system.">
+            <img src="https://www.arup.com/-/media/arup/images/projects/1/1-bligh-street-sydney/1_bligh_street_sydney_image_4.jpg?h=521&amp;la=en&amp;w=900&amp;hash=FBD39EAE5599196403220F984630A61E5ACECA66" alt="Very high levels of indoor air quality are achieved with the ventilation system providing a 150% improvement over Australian standards" width="900" height="521" DisableWebEdit="False" />
+        </div>
+    </div>
+    <div class="halfbleed__detail">
+        <div class="carousel__count">
+            <span class="current">1</span> of <span class="total">2</span>
+            <span class="divider"></span>
+         </div>
+         <span class="carousel__desc">The elliptical tower is orientated to face north towards the clear views to Sydney Harbour.</span>
+         <div class="halfbleed-carousel__controls">
+            <div class="halfbleed-carousel__control carousel-prev"><span role="button" href="#" data-grunticon-embed class="icon icon-prev" aria-label="Previous"></span></div>
+            <div class="halfbleed-carousel__control carousel-next"><span role="button" href="#" data-grunticon-embed class="icon icon-next" aria-label="Next"></span></div>
+        </div>
+    </div>
+</section>
+<section class="container" id="best-practice">
+    <div class="rich-text">
+        <div class="reveal rich-text__content">
+            <p><b>Example 2 - poor image and no caption</b></P>
+            <P>In the example below, a full width carousel has been applied but there are a number of issues:</P>
+            <Ul class="featureList">
+                <li class="cross">The image is not correctly sized for this use</li>
+                <li class="cross">Captions are either missing or very difficult to read</li>
+                <li class="cross">It is very difficult to see the carousel's navigation / pagination</li>
+                <li class="cross">The images are doing nothing - they are not telling a story or bringing the content to life</lI>
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- begin example 2--> 
+<section class="fullbleed fullbleed-carousel reveal">
+    <div class="fullbleed-carousel__slides">
+        <div class="slide" data-description="">
+            <img src="/images/carousel/poor-image1.jpg" alt="" width="900" height="600" DisableWebEdit="False" />
+        </div>
+        <div class="slide" data-description="1 Bligh Street set new standards for sustainability and innovation in high-rise development in Australia.">
+            <img src="/images/carousel/poor-image2.jpg" alt="" width="900" height="600" DisableWebEdit="False" />
+        </div>
+    </div>
+    <div class="fullbleed-carousel__detail">
+        <span class="current">1</span> of <span class="total">4</span>
+        <span class="divider"></span>
+        <span class="fullbleed-carousel__text">The elliptical tower is orientated to face north towards the clear views to Sydney Harbour.</span>
+        <div class="fullbleed-carousel__controls">
+            <span href="#" role="button" data-grunticon-embed class="icon icon-prev" aria-label="Previous"></span>
+            <span href="#" role="button" data-grunticon-embed class="icon icon-next" aria-label="Next"></span>
+        </div>
+    </div>
+</section>
+
+<p><section class="container" id="faq">
+        <div class="rich-text">
+            <div class="reveal rich-text__content">
+                <h2>FAQ</h2>
+                <ol class="header-list">
+                    <li>
+                        <a href="#content">What content can I add to the carousel?</a>
+                    </li>
+                    <li>
+                        <a href="#type">What type of images should I use?</a>
+                    </li>
+                    <li>
+                        <a href="#minimum">Is there a minimum or maximum number of items I can add to a carousel?</a>
+                    </li>
+                    <li>
+                        <a href="#one-more">Can I add more than one carousel to a page?</a>
+                    </li>
+                    <li>
+                        <a href="#why-do">Why do I have to resize images to a specific size?</a>
+                    </li>
+                </ol>
+                <h5><a id="content" name="content"></a>What content can I add to the carousel?</h5>
+                <p>A. It is currently only possible to add images to the carousel.</p>
+                <h5><a id="type" name="type"></a>What type of images should I use?</h5>
+                <p>A. Images should generally be saved as .jpg files. The carousel however will support .png and .gif format images.</p>
+                <h5><a id="minimum" name="minimum"></a>Is there a minimum or maximum number of items I can add to a carousel?</h5>
+                <p>A. There is no maximum number of items, though you should use your judgement when considering this. Are users likely to scroll through 10 or 15 items? Would you scroll through this many pictures? You need to ensure that the carousel supports your content and that when combined with a quality caption, the images in your carousel tell a story.</p>
+                <p>You should only use a carousel if you have a minimum of two images.</p>
+                <h5><a id="one-more" name="one-more"></a>Can I add more than one carousel to a page?</h5>
+                <p>A. Theoretically yes. However, practically this is not something you should pursue unless there is a very good reason for it. Ultimately carousels require the user to physically interact with your page. Research suggests that many users do not make extensive use of carousels. Therefore, you should think carefully before adding more than a single carousel to your content. Why do you need more than one? What will the user get from exploring the content?</p>
+                <h5><a id="why-do" name="why-do"></a>Why do I have to resize images to a specific size?</h5>
+                <p>A. It is vital that you correctly resize your images for use - not just for carousels - but wherever images are uploaded. There are two key reasons for this</p>
+                <ol>
+                    <li>Image file size - if you upload photo quality images to your page, you will slow down the speed of the website - particularly for users on mobile devices. Every image you upload has to be downloaded by the user. The more you have, and the bigger the file size, the longer this takes.</li>
+                    <li>Image distortion or cut off - if you don&rsquo;t resize your images to the correct proportions or size, you&rsquo;re likely to see the image become distorted or of reduced quality. Alternatively, you may find that elements of your image are removed which can be frustrating - particularly if specific areas such as faces are being cut off!</li>
+                </ol>
+                <p>You should consult the image guide for more information on this.</p>
+            </div>
+        </div>
+    </section>
+<!-- end image --></p>
+
+   <section class="container" id="">
+	<div class="rich-text">
+		<div class="reveal rich-text__content">
+			<ul class="list-navigation">
+				
+				<li class="previous"><span>Previous: <a href="https://styleguide.arup.com/creating-modules/adding-modules/"><b><em>Adding modules</em></b></a></span></li>
+				
+				
+				<li class="next"><span>Next: <a href="https://styleguide.arup.com/creating-modules/contacts/"><b><em>Adding contacts and the contact us module</em></b></a></span></li>
+				
+				
+			</ul>
+			<a class="cta-btn" href="/"><span class="cta-btn__text">Guidance home</span> <span class="cta-btn__icon-wrap"><span class="cta-btn__icon icon icon-next" data-grunticon-embed=""></span></span></a>
+		</div>
+	</div>
+</section>
+
+        	</main>	<footer class="footer" role="contentinfo">
+		<div class="footer__menu">
+    		<section class="container">
+				<div class="footer__group footer__group--logo">
+        			<span class="arup-logo"><a href="/index.html">Arup</a></span>
+        			<p>We shape a better world</p>
+      			</div>
+		    	<hr />
+		    	<ul class=" footer__group footer__list footer__right">
+        			<li class=""><a href="../html/careers.html">Careers</a></li>
+        			<li class=""><a href="../html/news.html">News &amp; Events</a></li>
+        			<li class=""><a href="../html/contact.html">Contact</a></li>
+      			</ul>
+    		</section>
+		</div>
+
+		<div class="footer__submenu">
+    		<section class="container">
+        		<div class=" footer__group footer__right">
+            		<ul class="list__icons">
+            			<li><a target="_blank" href="../html/404.html" data-grunticon-embed class="icon icon-twitter">Twitter</a></li>
+            			<li><a target="_blank" href="../html/maintenance.html" data-grunticon-embed class="icon icon-linkedin">LinkedIn</a></li>
+            			<li><a target="_blank" href="#" data-grunticon-embed class="icon icon-facebook">Facebook</a></li>
+            			<li><a target="_blank" href="#" data-grunticon-embed class="icon icon-instagram">Instagram</a></li>
+            			<li><a target="_blank" href="#" data-grunticon-embed class="icon icon-rss">RSS</a></li>
+          			</ul>
+        		</div>
+      			<hr />
+      			<div class="footer__group">
+            		<span class="copyright footer__md">© Arup 2019. All rights reserved <span class="divider"></span> </span>
+          			<ul class="list--inline">
+            			<li><a class="link--small" href="../html/legal.html">Privacy</a><span class="divider footer__mob"></span></li>
+            			<li><a class="link--small" href="../html/legal.html">Legal</a><span class="divider footer__mob"></span></li>
+            			<li><a class="link--small" href="../html/legal.html">Cookies</a></li>
+          			</ul>
+           			<span class="copyright footer__mob">© Arup 2019. All rights reserved <span class="divider footer__md"></span> </span>
+        		</div>
+    		</section>
+		</div>
+	</footer>
+</div>
+<script>document.addEventListener('DOMContentLoaded', function () {grunticon(["/css/icons.data.svg.css", "/css/icons.data.png.css", "/css/icons.fallback.css"], grunticon.svgLoadedCallback);});</script>
+<script src=/js/libs.js></script>
+<script src=/js/app.js ></script>
+<script src=/js/steve.js ></script>
+
+</body>
+</html>
