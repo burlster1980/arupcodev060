@@ -1,7 +1,7 @@
 ---
 title: "Metrics and dashboards"
 date: 2019-02-16T17:49:27Z
-lastmod: 2019-02-17
+lastmod: 2019-03-06
 draft: false
 type: Best practice
 weight: "6"
@@ -85,7 +85,7 @@ menu:
 			<p>Reports below all include live data and can be filtered by date.</p>
 			<ol class="header-list" style="margin-bottom:20px;">
 				<li>
-					<a href="">Advisory services report - overview of the Advisory Services page (NOTE: excludes individual services)</a>
+					<a href="https://datastudio.google.com/open/1Dt3qxLpF2tQDyNrDMY1BGfqJZ17ThqXt" target="_blank">Advisory services report - overview of the Advisory Services page (NOTE: excludes individual services)</a>
 				</li>
 				<li>
 					<a href="https://datastudio.google.com/open/1D1iVjayJY_CnR6Hb0jAR_z8UOsJxQJfS" target="_blank">Aviation report - overview of Aviation industry area and associated projects</a>
@@ -93,9 +93,9 @@ menu:
 				<li>
 					<a href="https://datastudio.google.com/open/1c55MqpUiK_g60NIvcWQl0s6lEp0pTCRNV" target="_blank">Cities report - overview of Cities industry area and associated projects and perspectives</a>
 				</li>
-				<!--<li>
+				<li>
 					<a href="https://datastudio.google.com/open/1usw1opPSDjeawt1ug2Gcx8Kq2VKWvwIV" target="_blank">Digital report - overview of Digital performance including Shaping the Connected World page, Digital service page and associated projects and perspectives</a>
-				</li>-->
+				</li>
 				<li>
 					<a href="https://datastudio.google.com/open/1L8p9ZYjlMGOGM63OM24jDQFHoHod4pgV" target="_blank">Energy report - overview of Energy expertise section, and associated projects and perspectives</a>
 				</li>

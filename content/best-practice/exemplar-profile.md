@@ -158,14 +158,3 @@ menu:
 		</div>
 	</section>
 </article>
-<section class="container" id="" style="padding-top:2.5em;">
-	<div class="rich-text">
-		<div class="reveal rich-text__content">
-			<ul class="list-navigation">
-				<li class="previous">Previous: <a href="exemplar-office.html"><b><em>Examplar office</em></b></a>
-				</li>
-				<li class="next"><span>Next: <a href="exemplar-project.html"><b><em>Exemplar project</em></b></a></span></li>
-			</ul><a class="cta-btn" href="index.html"><span class="cta-btn__text">Guidance home</span> <span class="cta-btn__icon-wrap"><span class="cta-btn__icon icon icon-next" data-grunticon-embed=""></span></span></a>
-		</div>
-	</div>
-</section>

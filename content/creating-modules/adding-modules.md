@@ -2,7 +2,7 @@
 title: "Adding modules"
 date: 2019-02-17T00:51:48Z
 draft: false
-lastmod: 2019-02-17
+lastmod: 2019-03-06
 type: Creating modules
 weight: "1"
 menu:
@@ -59,7 +59,7 @@ menu:
 		<div class="reveal rich-text__content">
 			<h2>1. What are modules?</h2>
 			<p>Modules - sometimes referred to as components - are elements of content that you can add to virtually any page on arup.com. They are pre-styled and perform defined tasks. For example, the 'Image' module is used for adding images to your content.</p>
-			<p>arup.com has a range of modules (<a href="/">detailed here</a>) that you can utilise to bring your content to life. We have modules to give you the freedom to create unique experiences from your content. By using modules, you are free to layout your content in anyway that you see fit (within some broad parameters), ensuring that no two pages may ever look exactly the same.</p>
+			<p>arup.com has a range of modules (<a href="/creating-modules/">detailed here</a>) that you can utilise to bring your content to life. We have modules to give you the freedom to create unique experiences from your content. By using modules, you are free to layout your content in anyway that you see fit (within some broad parameters), ensuring that no two pages may ever look exactly the same.</p>
 			<p>Modules are created using the <a href="/getting-started/content-experience-editor/#cms">Content Editor</a>, and added to your page using the Experience Editor.</p>
 		</div>
 	</div>
