@@ -260,7 +260,35 @@ padding:2rem 0 2rem;
     top: 0;
     bottom: 0;
     z-index: -1;
-    pointer-events: none;;
+    pointer-events: none;
+	}
+
+	.alternative-timeline .preview-card__pic {
+		background-color:#fff;
+	}
+
+	.alternative-timeline .preview-card__date {
+		display: none;
+	}
+
+	.alternative-timeline .preview-card__main {
+		min-height:175px;
+	}
+
+	.alternative-timeline .tl-ctrl__scroller.js-timeline-scroller {
+		display:none;
+	}
+
+	.alternative-timeline .tl-ctrl {
+		padding-top:4rem;
+	}
+
+	.alternative-timeline .tl-ctrl__button--prev {
+		right:calc(50% + 40px);
+	}
+
+	.alternative-timeline .tl-ctrl__button--next {
+		left: calc(50% + 40px);
 	}
 }
 
