@@ -238,6 +238,32 @@ padding:2rem 0 2rem;
 		}
 	}
 
+/* Publications */
+
+@media (min-width:768px) {
+	ul.alternative li.item-shelf__item {
+		width:20%;
+	}
+
+	.item-shelf__item.item-shelf__item:nth-of-type(4n+1) .item-shelf__copy-wrap:before {
+		content:"";
+		position:initial;
+	}
+
+	.item-shelf__item.item-shelf__item:first-of-type .item-shelf__copy-wrap::before, .item-shelf__item.item-shelf__item:nth-of-type(5n+1) .item-shelf__copy-wrap:before {
+	content: "";
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    left: -100vw;
+    right: -100vw;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    pointer-events: none;;
+	}
+}
+
 /* careers revamp demo */
 @media (min-width:768px) {
 	.hero.hero--headerimage.hero--careers h1 {

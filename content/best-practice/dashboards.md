@@ -66,6 +66,11 @@ menu:
 		<div class="reveal rich-text__content">
 			<h2>Accessing detailed reports</h2>
 			<p>Click on your preferred report below to access more detailed analytics information about arup.com.</p>
+			<P>These reports contain a range of information inluding an 'overview' of the subject as well as a focus on more specific areas for example projects or perspectives. These reports are spread over multiple pages. Once you've loaded your report, you can browse the different pages by clicking underneath the report's title and choosing the page that's relevant to your interest.</P>
+			<div class="training-image"><img alt="Image" class="mainImg" src="/images/best-practice/dashboard-pages.jpg"></div>
+			<div class="halfbleed__detail">
+				Fig 1: Browsing pages in a Data Studio dashboard
+			</div>
 			<h5>Local reports</h5>
 			<ol class="header-list" style="margin-bottom:20px;">
 				<li>
