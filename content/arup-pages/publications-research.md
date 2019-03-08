@@ -1,5 +1,5 @@
 ---
-title: "Publications All"
+title: "Publications research listing"
 date: 2019-03-07T15:20:48Z
 draft: false
 type: perspective

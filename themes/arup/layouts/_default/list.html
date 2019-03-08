@@ -28,6 +28,12 @@
                         </span>
                         <h1 class="h1">Getting started with Sitecore</h1>
                         {{end}}
+                        {{if eq .Section "arup-pages"}}
+                        <span class="label--lg italic">
+                        Arup pages
+                        </span>
+                        <h1 class="h1">List of test Arup pages</h1>
+                        {{end}}
                     </div>
                 </div>
             </section>
@@ -69,6 +75,11 @@
             <h4 class="index-title">Getting started with Sitecore</h4>
             {{end}}
             {{ range where (.Pages.ByParam "weight") "Section" "==" "getting-started" }}
+            <a class="index-link" href="{{.Permalink}}">{{.Title}}</a>
+            {{end}}
+        </div>
+        <div class="menu_section list-page">
+            {{ range where (.Pages.ByParam "weight") "Section" "==" "arup-pages" }}
             <a class="index-link" href="{{.Permalink}}">{{.Title}}</a>
             {{end}}
         </div>

@@ -1,5 +1,5 @@
 ---
-title: "Perspectives"
+title: "Perspectives hub v3"
 date: 2019-03-07T12:52:58Z
 draft: false
 type: perspective
