@@ -3,12 +3,12 @@ ol li, ul li {
 	font-size:20px;
 }
 
-/* CTA changes */
+/* CTA changes 
 .alternative .cta {
 	font-size: 20px;
 	font-weight: bold;
 	font-family: "helvetica";
-}
+}*/
 
 /* video carousel */
 .video-carousel.alternative .progressiveMedia.show_desktop::after, .video-carousel.alternative .progressiveMedia.show_desktop::after {

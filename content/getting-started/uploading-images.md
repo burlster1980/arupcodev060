@@ -1,7 +1,7 @@
 ---
 title: "Uploading images"
 date: 2019-02-17T11:39:22Z
-lastmod: 2019-02-17
+lastmod: 2019-04-01
 draft: false
 type: Getting started
 weight: "5"
@@ -117,7 +117,7 @@ menu:
 			<ul>
 				<li>A prompt will then appear asking you to find the images you want to upload. Click 'Browse' and locate the image you want to upload on your computer</li>
 				<li>Click 'Upload' once you've selected your image</li>
-				<li>Once your image is uploaded, you'll then be taken to it within the media library.</li>
+				<li>Once your image is uploaded, you'll then be taken to it within the media library</li>
 				<li>You need to add 'Alt' text at this point - the 'Alt' text is a brief description of the image and MUST be added for all images you upload</li>
 			</ul>
 			<div class="training-image width-1000"><img alt="Image" class="mainImg" src="/images/image-prep/adding-alt-text.jpg"></div>
@@ -140,7 +140,7 @@ menu:
 			<ul>
 				<li>When viewing a page field in Sitecore that requires an image, click the 'Browse' option as highlighted below. You will only follow these steps if you've NOT already uploaded your image(s).</li>
 			</ul>
-			<div class="training-image width-1000"><img alt="Image" class="mainImg" src="/images/image-prep/completing-carousel-item.jpg"></div>
+			<div class="training-image width-1000"><img alt="Image" class="mainImg" src="/images/image-prep/browse-for-image.jpg"></div>
 			<div class="halfbleed__detail">
 				Fig 4: Select the 'Browse' link to being the process
 			</div>
@@ -181,16 +181,16 @@ menu:
 			<h2>FAQ</h2>
 			<ol class="header-list">
 				<li>
-					<a href="#faq-move">Can i move an image once it's uploaded?</a>
+					<a href="#faq-move">Can I move an image once it's uploaded?</a>
 				</li>
 				<li>
 					<a href="#faq-wrong">I've uploaded my image to the wrong folder. What should I do?</a>
 				</li>
 				<li>
-					<a href="#faq-replace">Can I replace an image that i've uploaded with an alternative version?</a>
+					<a href="#faq-replace">Can I replace an image that I've uploaded with an alternative version?</a>
 				</li>
 				<li>
-					<a href="#faq-reuse">Can i re-use an image i've uploaded on multiple pages or modules?</a>
+					<a href="#faq-reuse">Can I re-use an image I've uploaded on multiple pages or modules?</a>
 				</li>
 			</ol>
 			<h5><a id="faq-move" name="faq-move">1. Can I move an image once it's uploaded?</a></h5>

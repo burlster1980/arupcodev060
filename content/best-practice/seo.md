@@ -1,7 +1,7 @@
 ---
 title: "SEO best practice"
 date: 2019-02-16T17:46:27Z
-lastmod: 2019-02-17
+lastmod: 2019-04-01
 draft: false
 type: Best practice
 weight: "4"
@@ -51,8 +51,8 @@ menu:
     <div class="rich-text">
         <div class="reveal rich-text__content">
             <h2>1. What is SEO?</h2>
-            <p>SEO stands for 'Search Engine Optimisation'. At its most basic level, SEO is this process of making your content as discoverable as possible by search engines such as Google.</p>
-            <p>All search engines operate their own specific algorithms that are used to identify and rank content based on the criteria that the searcher enters. What you see as the searcher is what the search engine believes are the pages that will answer your query or question based on its assessment of millions of pages of content. We use SEO to increase the chances of our page being the result that a searcher sees first</p>
+            <p>SEO stands for 'Search Engine Optimisation'. At its most basic level, SEO is the process of making your content as discoverable as possible by search engines such as Google.</p>
+            <p>All search engines operate their own specific algorithms that are used to identify and rank content based on the criteria that the searcher enters. What you see as the searcher is what the search engine believes are the pages that will answer your query or question based on its assessment of millions of pages of content. We use SEO to increase the chances of our page being the result that a searcher sees first.</p>
         </div>
     </div>
 </section>
@@ -142,7 +142,7 @@ menu:
             <p>Search engines looking to answer users queries need a way of determining how accurate a page will be in answering that query. One of the most important factors they consider is the 'authority' of your page.</p>
             <p>Essentially, authority is determined by the number of other people who think your content serves a valid purpose. In web terms, this is measured by the number of other websites linking to your page. Lots of links into your page tells a search engine that people think your content has value.</p>
             <p>There is an important caveat to this though. In Google's eyes, all websites are not created equal. It sees some websites as having more authority than others. In practical terms, this means that big, powerful websites like bbc.co.uk or theguardian.com have far more authority than xyznews.com. A single link from a major, high profile website can add more authority to your page in a search engine's eyes than a dozen links from tiny blogs seen by 3 avid readers.</p>
-            <p>Ultimately, the best way to obtain this authority is to write great copy that solves a need. You can actively reach out to people and ask them to link to your site, and when writing things like press releases its always important to ask the journalists you work with if they can link to your content. But be careful - links from some sites can do more harm than good. If someone approaches you and offers to add links to your site in return for links to their site, make sure you know who they are and who they represent. Links to arup.com from a site marked as spam by a search engine will do far more harm than good.</p>
+            <p>Ultimately, the best way to obtain this authority is to write great copy that solves a need. You can actively reach out to people and ask them to link to your site, and when writing things like press releases it's always important to ask the journalists you work with if they can link to your content. But be careful - links from some sites can do more harm than good. If someone approaches you and offers to add links to your site in return for links to their site, make sure you know who they are and who they represent. Links to arup.com from a site marked as spam by a search engine will do far more harm than good.</p>
         </div>
     </div>
 </section>
@@ -155,8 +155,8 @@ menu:
                 <li>Search engines' spiders are able to follow links in a page they're browsing - this means that you can help the search engines discover more about content on arup.com</li>
                 <li>Linking to internal pages is great for human users too - again it helps them to discover more relevant content and learn more about Arup</li>
             </ol>
-            <p>When adding internal links its vital to add context. For example, if you have a sentence like 'Arup's civil engineering team used its knowledge and skill to help overcome construction challenges'. In this sentence, you could add a link to the Civil Engineering expertise page - specifically linking the words 'civil engineering team'. Doing this, you've told users and search engines that clicking the link will take them to content about our civil engineering team.</p>
-            <p>What you shouldnt do in this example is link content you want to promote - but which lacks relevance. For example, linking to a project that involved our civil engineering expertise would not be sufficiently relevant. Again, clicking the link, a user would expect to find content about the team in question - not another project or perspective which merely happens to reference civil engineering.</p>
+            <p>When adding internal links it's vital to add context. For example, if you have a sentence like 'Arup's civil engineering team used its knowledge and skill to help overcome construction challenges'. In this sentence, you could add a link to the Civil Engineering expertise page - specifically linking the words 'civil engineering team'. Doing this, you've told users and search engines that clicking the link will take them to content about our civil engineering team.</p>
+            <p>What you shouldn't do in this example is link content you want to promote - but which lacks relevance. For example, linking to a project that involved our civil engineering expertise would not be sufficiently relevant. Again, clicking the link, a user would expect to find content about the team in question - not another project or perspective which merely happens to reference civil engineering.</p>
             <p>Relevance and context is vital for both human users and search engine spiders.</p>
         </div>
     </div>
@@ -168,7 +168,7 @@ menu:
             <p>To help you ensure your content is optimised in the best way, you can consult the checklist below:</p>
             <ol>
                 <li><b>Does your content meet user needs?</b> Write content with your user's needs in mind first, and Arup's needs second. Addressing your user's needs will ensure they find the content - which helps meet Arup's needs</li>
-                <li><b>Does the name of your page include relevant keywords?</b> The name you give to a page when you create it in the CMS is used to generate the page's URL. When you create content in the CMS, ensure you label it in a way others would search for it - not how we internally label it, particularly for projects. Ensure that words people use to describe your content 'in the real world' are included. One word names are not good.</li>
+                <li><b>Does the name of your page include relevant keywords?</b> The name you give to a page when you create it in the CMS is used to generate the page's URL. When you create content in the CMS, ensure you label it in a way others would search for it - not how we internally label it, particularly for projects. Ensure that words people use to describe your content 'in the real world' are included. One word names are not good</li>
                 <li><b>Ensure your main page heading is powerful</b> - that it describes and summarises your content and includes words or phrases people would use to find it</li>
                 <li><b>Add useful and relevant headings</b> - Use strong headings througout your content to break it up in easily discernable chunks. Make sure your headers are descriptive of the content that sits under them and avoid abstract concepts or 'marketing' speak</li>
                 <li><b>Always add a meta title and a meta description</b> - The title can match the name of your page, but the description should efficiently summarise your content, and include keywords and phrases</li>

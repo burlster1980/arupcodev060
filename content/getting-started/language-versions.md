@@ -55,7 +55,7 @@ menu:
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
 			<h2>1. What are language versions?</h2>
-			<p>Sitecore supports multiple different language versions for pages. By default, all pages should be created in English - when you add a page it's important that you do so using English. However, where language versions are added to pages, users are able to select that version of the page - and will be presented with an alternative version in the chosen language. The screenshot below shows an example of a page in both English and Japanese. Notice how after switching to the Japanese version, the URL changes - to include reference to the language in question.</p>
+			<p>Sitecore supports multiple different language versions for pages. By default, all pages should be created in English - when you add a page it's important that you do so using English. However, where language versions are added to pages, users are able to select that version of the page - and will be presented with an alternative version in the chosen language. </P><P>The screenshot below shows an example of a page that has been translated into both English and Japanese (<a href="https://www.arup.com/projects/singapore-sports-hub" target="_blank">See the example</a>). You can tell a page has a translation available by the presence of the button in the top right hand corner of the banner image. Clicking this will highlight the versions available.</p><P>Notice how after switching to the Japanese version, the URL changes - to include reference to the language in question.</p>
 			<div class="training-image"><img alt="Image" class="mainImg" src="/images/languages/english-version.jpg"></div>
 			<div class="halfbleed__detail">
 				Fig 1: English (default) version of a page
@@ -116,7 +116,7 @@ menu:
 				Fig 3: Click 'English' and choose your language from the dropdown menu
 			</div>
 			<ul>
-				<li>After selecting your language, the page will re-load. You will then need see a warning at the top of the page that 'No version exists in the current language. You need to click 'Add a new version'</li>
+				<li>After selecting your language, the page will re-load. You will then see a warning at the top of the page that 'No version exists in the current language. You need to click 'Add a new version'</li>
 			</ul>
 			<div class="training-image"><img alt="Image" class="mainImg" src="/images/languages/add-version.jpg"></div>
 			<div class="halfbleed__detail">
@@ -198,7 +198,7 @@ menu:
 				</li>
 			</ol>
 			<h5><a id="faq-multiple" name="faq-multiple"></a>1. Can I add multiple languages to a single document or module?</h5>
-			<p>A. Yes. Any page can have multiple different language versions avaialble. You must simple repeat the steps above for each individual language that you wish to add.</p>
+			<p>A. Yes. Any page can have multiple different language versions available. You must simply repeat the steps above for each individual language that you wish to add.</p>
 			<h5><a id="faq-why" name="faq-why"></a>2. Why do I have to rebuild the page in the Experience Editor?</h5>
 			<p>A. Each individual language represents a version of the page. Versions allow you to completely recreate a page in a different way. Because of this, it is necessary to completely rebuild the new language version.</p>
 			<h5><a id="faq-modules" name="faq-modules"></a>3. Do I have to translate and re-add all the modules from my English version?</h5>

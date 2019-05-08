@@ -1,7 +1,7 @@
 ---
 title: "Image Preparation"
 date: 2019-02-17T11:35:22Z
-lastmod: 2019-02-17
+lastmod: 2019-04-01
 draft: false
 type: Getting started
 weight: "4"
@@ -154,7 +154,7 @@ menu:
 			<h5><a id="resize-image" name="resize-image"></a>Resize the image</h5>
 			<p>The first thing to consider is whether to resize by width or by height. At this stage you need to focus on ensuring that EITHER the width or the height is correct - and that the dimension you haven't edited, is either equal, or greater than, your desired amount.</p>
 			<ul>
-				<li>If you have a landscape image (wider than it is hight), its best to resize the height.</li>
+				<li>If you have a landscape image (wider than it is height), its best to resize the height.</li>
 				<li>If you have portrait image (taller than it is wide), it will be best to resize the width</li>
 			</ul>
 			<p>In this example, the image is a landscape image. Therefore, the first dimension to resize will be the height. The screenshot below shows what happens when the height of this image is switched to 1125px.</p>
@@ -162,11 +162,11 @@ menu:
 			<div class="halfbleed__detail">
 				Fig 6: Resizing the height of this image to 1125px has changed the width to 2000px. This image is now the correct size
 			</div>
-			<h5>Images that don't have two correct dimensions after your first re-size</h5>
+			<h5>Images that don't have two correct dimensions after your first resize</h5>
 			<p>When you resize your image's width or height, it's unlikely that both dimensions will automatically align to what you want.</p>
 			<p>For example - imagine you have an image of dimensions 2800px wide by 1688px high. Changing the height of this image to 1125px would result in its width becoming 1866px wide. This is not good as now your image is not wide enough.</p>
 			<p>To fix this, you should cancel your image resize. If you've already resized the image click '<b>ctrl +alt + z</b>' on your keyboard to undo any changes you've made.</p>
-			<p>Resize your image again, but this time, resize the width instead. If you change the width of this image to 2000px wide, the height will become 1206px high. Its too high, but this can be fixed with 'cropping' - detailed below.</p>
+			<p>Resize your image again, but this time, resize the width instead. If you change the width of this image to 2000px wide, the height will become 1206px high. It's too high, but this can be fixed with 'cropping' - detailed below.</p>
 			<p><b>WARNING</b> - if when you resize the width of your image, and the height is reduced to LESS than your desired dimensions, you need to rethink your approach. You should ensure that the dimension you haven't manually altered is always either equal to, or greater than, the target height (or width - depending on which value you've altered).</p>
 		</div>
 	</div>
@@ -226,7 +226,7 @@ menu:
 			<p>You may notice that sometimes when you're cropping the image, you cannot get the exact number of pixels you're looking for. For example, you want to ensure the height is 1125px. Every time you crop the height back, it goes to 1126px or 1123px but you just cannot get to 1125px.</p>
 			<p>There are two ways around this:</p>
 			<ol>
-				<li>Sometimes magnifying your image will resolve the image. You can increase the size if your image view by clicking '<b>Ctrl + +</b>' on your keyboard. To reduce the size, click '<b>Ctrl + -</b>'</li>
+				<li>Sometimes magnifying your image will resolve the image. You can increase the size of your image view by clicking '<b>Ctrl + +</b>' on your keyboard. To reduce the size, click '<b>Ctrl + -</b>'</li>
 				<li>You can use the 'canvas size' tool to get the exact result you're looking for. To do this follow the instructions below.</li>
 			</ol>
 			<p>To use the 'canvas size' tool:</p>
@@ -341,7 +341,7 @@ menu:
 			</ol>
 			<h5><a id="faq-imagesize" name="faq-imagesize">1. What is an ideal image size?</a></h5>
 			<p>A. There is no single ideal size. Image sizes depend on a number of factors, including the quality of the original photograph and the complexity and detail of its content. A simple diagram will be much smaller in size than a complex photo of a cityscape. Sometimes you'll be able to reduce the size to less than 100kb, other times you'll struggle to get it below 4 - 500kb without seeing a loss in quality. The most important thing is to try and reduce the size.</p>
-			<h5><a id="faq-big" name="faq-big">2. When is an image to big?</a></h5>
+			<h5><a id="faq-big" name="faq-big">2. When is an image too big?</a></h5>
 			<p>A. If you save an image and notice that the file size is more than around 700 - 800kb then your image is too large and you should try to reduce it via the method described above. It's highly unlikely that you should ever need to have a file this large.</p>
 			<h5><a id="faq-width" name="faq-width">3. I resize my image, to the correct width, but the height is reduced to below what I want. How can I change this?</a></h5>
 			<p>A. If the above scenario happens, the first thing to try is to resize your height instead. If this means that your width is too great, you can crop the image's width down to the desired size.</p>

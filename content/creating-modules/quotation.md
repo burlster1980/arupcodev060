@@ -1,7 +1,7 @@
 ---
 title: "Creating a quotation module"
 date: 2019-02-17T07:43:24Z
-lastmod: 2019-02-17
+lastmod: 2019-04-01
 draft: false
 type: Creating modules
 weight: "6"
@@ -167,8 +167,8 @@ menu:
 					<b>Image*</b> - Add your module's image. The image should be resized to 2000px wide by 1125px high. For more information on preparing images, please see the <a href="/getting-started/image-preparation/">image guide</a>.
 				</li>
 				<li><b>Mobile image</b> - You can add an alternative image for use on mobile devices - but the site will automatically resize your main image for use across all devices.</li>
-				<li><b>CTA</b> - You can choose to add a specific link / CTA to your module such as 'Discover more about xxxx'. Click 'insert link' and choose the page you're linking to, and enter your link text. See the Sitecore link guide for more information on this</li>
-				<li><b>Contact person*</b> - Choose the person you're quoting. Click 'edit' and from the resulting popup, browse the list of available profiles. NB - you can only display quotes from Arup staff within this module</li>
+				<li><b>CTA</b> - You can choose to add a specific link / CTA to your module such as 'Discover more about xxxx'. Click 'insert link' and choose the page you're linking to, and enter your link text. See the <a href="/getting-started/adding-links/">Sitecore link guide</a> for more information on this</li>
+				<li><b>Contact person*</b> - Choose the person you're quoting. Click 'edit' and from the resulting popup, browse the list of available profiles. NB - you can only display quotes from Arup staff within this module. You will need to <a href="/creating-pages/creating-profiles">create the profile</a> first if it does not already exist</li>
 			</ul>
 			<div class="training-image"><img alt="Image" class="mainImg" src="/images/quotation/completed-quotation.jpg"></div>
 			<div class="halfbleed__detail">
@@ -181,11 +181,11 @@ menu:
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
 			<h2>Best practice</h2>
-			<p>In this section, you will find guidance and advice on how to best utilise the 'Quote' module.</p>
+			<p>In this section, you will find guidance and advice on how to best utilise the 'Quotation' module.</p>
 			<p>It includes examples illustrating how to use and display the module.</p>
 			<h5>Recommended use</h5>
 			<ul class="featureList">
-				<li class="tick">To highlight the viewpoint of Arup staff, clients or people who have worked with us</li>
+				<li class="tick">To highlight the viewpoint of Arup staff</li>
 				<li class="tick">Works best when the image relates to quote which has been overlaid, and is not obstructed with the addition of the quote box</li>
 				<li>Works best when the selected quote is not too long, if the quote is very long this will stretch the image and be too consuming for the user to scroll through the page.</li>
 			</ul>
@@ -195,7 +195,7 @@ menu:
 			<ul class="featureList">
 				<li class="tick">Quote that relates to the image subject matter</li>
 				<li class="tick">The image works well as a background image, main elements are not covered</li>
-				<li class="tick">The quote is an ideal length and and does not consume an entire page (of a desktop monitor)</li>
+				<li class="tick">The quote is an ideal length and does not consume an entire page (of a desktop monitor)</li>
 				<li class="tick">The person being quoted has a profile containing job title and image</li>
 			</ul>
 		</div>
@@ -314,16 +314,16 @@ menu:
 			</ol>
 			<h5><a id="faq-why" name="faq-why"></a>1. Why use this module over the 'normal' quote module?</h5>
 			<p>A. The Quotation module represents another way to make key pieces of text stand out in your article. It is also reliant on your having an image of sufficient quality to show off. Ultimately which module you use is up to you, but the Quote module offers more flexibility and options for displaying quotes - where as the Quotation module requires more thought before it s used.</p>
-			<p>Ultimately the style of quote you use is decision you need to make when building your page.</p>
+			<p>The style of quote you use is a decision you need to make when building your page.</p>
 			<h5><a id="faq-staff" name="faq-staff"></a>2. Can I quote non-Arup staff using this module?</h5>
 			<p>A. Not if you need to be able to attribute the quote to an individual. Attribution (providing name / job title etc) requires that the person have a profile on arup.com - and only Arup staff should ever have profiles.</p>
-			<p>If you just wish to highlight some important text from your article, and do not need to attribute it to an individual then you can use the quote without selecting a profile.</p>
+			<p>If you just wish to highlight some important text from your article, and do not need to attribute it to an individual then you can use the <a href="/creating-moduls/quote/">quote module</a> as an alternative.</p>
 			<h5><a id="faq-picture" name="faq-picture"></a>3. The profile I want to assign to the module does not have an image. What should I do?</h5>
-			<p>A. Where the profile lacks an image, you'll see a missing space for it on the module. This is not visually pleasing and you should seek to obtain a picture of the person you want to quote and add this to their profile. See the profile guide for more information on editing profiles.</p>
+			<p>A. Where the profile lacks an image, you'll see a missing space for it on the module. This is not visually pleasing and you should seek to obtain a picture of the person you want to quote and add this to their profile. See the <a href="/creating-pages/creating-profiles/">profile guide</a> for more information on editing profiles.</p>
 			<h5><a id="faq-image" name="faq-image"></a>4. What kind of image should I use in the module?</h5>
-			<p>A. You image should be visually striking and must relate to your overall narrative - and ideally the text that your adding as a quote. Please bear in mind that overlaying the quote on the image will obscure parts of the image. You can switch between 'left' and 'right' alignment for your text if necessary - but do not use a picture that will result in key elements being obscured by your text. Instead use the image module (link) to show off your image.</p>
+			<p>A. Your image should be visually striking and must relate to your overall narrative - and ideally the text that you're adding as a quote. Please bear in mind that overlaying the quote on the image will obscure parts of the image. You can switch between 'left' and 'right' alignment for your text if necessary - but do not use a picture that will result in key elements being obscured by your text. Instead use the <a href="creating-modules/images/">image module</a> to show off your image.</p>
 			<h5><a id="faq-height" name="faq-height"></a>5. The full height of my image is not showing. Why?</h5>
-			<p>A. A. The module is styled so that it has a minimum height. This minimum height is less than the advised height you should prepare your image to (this is deliberate). This can result in the top and bottom of your image being cropped off when displayed on the page.</p>
+			<p>A. The module is styled so that it has a minimum height. This minimum height is less than the advised height you should prepare your image to (this is deliberate). This can result in the top and bottom of your image being cropped off when displayed on the page.</p>
 			<p>After a minimum height, your image will 'grow' depending on the length of your quote.</p>
 		</div>
 	</div>

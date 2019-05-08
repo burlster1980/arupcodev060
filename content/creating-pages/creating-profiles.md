@@ -1,7 +1,7 @@
 ---
 title: "Creating profiles"
 date: 2019-02-17T15:49:27Z
-lastmod: 2019-02-17
+lastmod: 2019-04-01
 draft: false
 type: Creating new pages
 weight: "4"
@@ -128,7 +128,7 @@ menu:
 				<li><b>Name</b>* - Enter the name of the person who's profile you're creating - for example 'Steve Burleigh'</li>
 				<li>Title - Please leave this field blank</li>
 				<li>
-					<b>Picture</b>* - add the image of the person here. See the uploading guide for further advice on adding imagery. The image should be:
+					<b>Picture</b>* - add the image of the person here. See the <a href="/getting-started/uploading-images/">uploading guide</a> for further advice on adding imagery. The image should be:
 					<ul>
 						<li>Resized to 400px wide by 400px high. It MUST be square in dimension</li>
 						<li>The picture should be 'portrait style' and not contain significant background elements (i.e. not a picture of the person on site)</li>
@@ -202,8 +202,8 @@ menu:
 			<p>These fields are used to display content when your article is shared via social platforms.</p>
 			<p>*fields marked with an asterix are required and must be completed</p>
 			<ul>
-				<li><b>Open Graph Title</b>* - Please enter the name of your profilee</li>
-				<li><b>Open Graph Description</b> - Please enter a brief description / summary of your profilee</li>
+				<li><b>Open Graph Title</b>* - Please enter the name of your the person in your profile</li>
+				<li><b>Open Graph Description</b> - Please enter a brief description / summary of your profile</li>
 				<li><b>Open Graph Image</b> - N/A</li>
 			</ul>
 			<p><b>Metadata</b></p>
@@ -258,7 +258,7 @@ menu:
 			<h5><a id="language" name="language"></a>Adding an alternative language version</h5>
 			<p>Sitecore gives you the ability to add multiple language versions to your content. A <a href="/getting-started/language-versions/">full guide to language versions</a> has been provided, but you should be aware that:</p>
 			<ul>
-				<li>An article MUST be created in English first</li>
+				<li>A profile MUST be created in English first</li>
 				<li>Any modules that have been added to your profile item will also require translated versions be created</li>
 			</ul>
 			<p><a href="/getting-started/language-versions/">Find out more about languages in Sitecore</a></p>
@@ -272,7 +272,7 @@ menu:
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
 			<h2>4. Best practice</h2>
-			<p>You can see an example of a well-presented profile item by looking at an exemplar profile. (link to item).</p>
+			<p>You can see an example of a well-presented profile item by looking at an <a href="/best-practive/examplar-profile/">exemplar profile</a>. (link to item).</p>
 			<p>You should bear in mind the following when adding profiles to arup.com:</p>
 			<ul>
 				<li>Profiles are key content items on arup.com. Ultimately staff represent Arup's key resource and profiles are how we bring this to life online</li>

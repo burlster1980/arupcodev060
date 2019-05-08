@@ -1,7 +1,7 @@
 ---
 title: "Creating a perspective"
 date: 2019-02-16T17:42:27Z
-lastmod: 2019-02-17
+lastmod: 2019-04-01
 draft: false
 type: Creating new pages
 weight: "3"
@@ -120,6 +120,7 @@ menu:
 				<li>
 					<b>Image*</b> - Please enter a suitable image for your perspective. The image should be high quality and should be at least 2000px wide by 1125px BEFORE you carry out any resizing of the image. See the <a href="/getting-started/image-preparation/">image guide for more information</a> on this if necessary
 				</li>
+								<li><b>Version image</b> - This is field allows you to show an alternative image to the main 'Image' (above). You would only ever use this if you wish to show a different image for a translated version of your content. You would only complete this field on the translated version (i.e. you do not touch it on the default English version). This will ensure that your image is shown specifically to your language audience, but no one else</li>
 				<li><b>Date*</b> - enter a publication date for your perspective in this field. This will determine the order that your perspective displays on the relevant 'hub' page i.e. 'Cities'</li>
 			</ul>
 			<p>The screenshot below indicates where each of the above fields are shown on a published perspective item.</p>

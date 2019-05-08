@@ -141,7 +141,7 @@ menu:
 			<p>It's important to note that if your page is located in a Sitecore bucket - you do NOT need to include the bucket details in your URL. Using the example above this project would be located within the 'B' bucket under 'Projects' - you can safely exclude this from the URL you enter.</p>
 			<div class="training-image"><img alt="Image" class="mainImg" src="/images/workflow/item-path.jpg"></div>
 			<div class="halfbleed__detail">
-				Fig 4: Finding the URL of your page before its published. You need to separate all words with a 'hyphen' and enter the path after the word 'home/'
+				Fig 4: Finding the URL of your page before its published. You need to separate all words with a 'hyphen' (i.e. replace any spaces) and enter the path after the word 'home/'
 			</div>
 		</div>
 	</div>

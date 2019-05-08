@@ -89,7 +89,7 @@ menu:
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
 			<h5><a id="external" name="external"></a>Adding links to external pages - pages not on arup.com</h5>
-			<p>If you wish to link to a page that doesnt reside on arup.com then you will need to follow the steps below:</p>
+			<p>If you wish to link to a page that doesn't reside on arup.com then you will need to follow the steps below:</p>
 			<ul>
 				<li>Locate the text you wish to add a link to - click in front of the first word, and then, holding down your mouse button, drag your cursor across all the words you wish to include in the link</li>
 				<li>Click on the icon highlighted in the image below - and a popup will open</li>
@@ -113,7 +113,7 @@ menu:
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
 			<h2>3. Adding links via forms</h2>
-			<p>Adding links to 'form' fields is slight different to adding them directly to rich text content.</p>
+			<p>Adding links to 'form' fields is slightly different to adding them directly to rich text content.</p>
 			<p>What do we mean by form fields? In essence a form field is where you see a dedicated field (on either a page type i.e. Perspective or a module) which is used for adding links. The process is very similar, but requires a key additional step.</p>
 			<div class="training-image"><img alt="Image" class="mainImg" src="/images/links/form-link.jpg"></div>
 			<div class="halfbleed__detail">

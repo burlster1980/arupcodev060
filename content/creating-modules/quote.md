@@ -1,7 +1,7 @@
 ---
 title: "Creating a quote module"
 date: 2019-02-17T07:44:14Z
-lastmod: 2019-02-17
+lastmod: 2019-04-01
 draft: false
 type: Creating modules
 weight: "7"
@@ -114,7 +114,7 @@ menu:
 		<div class="reveal rich-text__content">
 			<h2>3. How does the Quote module work?</h2>
 			<p>The Quote module allows you to add an attributable quote block to your page. Its style is designed to actively highlight and draw attention to the quote.</p>
-			<p>The module takes details either from a 'Profile' item (for people you qote who work for Arup) or from details directly added to the module for people who do not work for Arup.</p>
+			<p>The module takes details either from a 'Profile' item (for people you quote who work for Arup) or from details directly added to the module for people who do not work for Arup.</p>
 			<p><b>NB - only Arup staff should be added as profiles. See the <a href="/creating-pages/profiles">Profiles guide</a> for more information.</b></p>
 		</div>
 	</div>
@@ -154,14 +154,18 @@ menu:
 			<p>You can add content to the following fields:</p>
 			<ul>
 				<li><b>Title</b> - this is an optional field. If you add a title, it will be displayed as a heading above your quote</li>
-				<li><b>Body</b> - Enter the copy for your quote here</li>
+				<li><b>Body</b>* - Enter the copy for your quote here</li>
 				<li><b>Person</b> - select the staff member that you want to associate with your quote. Double click on their name - and this should then be moved to the right hand column under 'selected' (see the screenshot below). You can only select one name per quote. NB - please see the FAQ below if a profile does not exist</li>
 			</ul>
+			<div class="training-image"><img alt="Image" class="mainImg" src="/images/quote/selecting-profile.jpg"></div>
+			<div class="halfbleed__detail">
+				Fig 3: Selecting an individual profile
+			</div>
 			<h5><a id="adding-content-not" name="adding-content-not"></a>Adding content (Non staff)</h5>
 			<p>If the person you're quoting does not work at Arup, then you should add content in the following way:</p>
 			<ul>
 				<li><b>Title</b> - this is an optional field. If you add a title, it will be displayed as a heading above your quote</li>
-				<li><b>Body</b> - enter the copy for your quote here</li>
+				<li><b>Body</b>* - enter the copy for your quote here</li>
 				<li><b>Person</b> - ignore this field. Instead, scroll down the module until you locate the field entitled 'Name of person quoted'</li>
 				<li><b>Name of person quoted</b> - enter the name of the person you're quoting</li>
 				<li><b>Job title of person quoted</b> - enter the job title and or employer of the person you're quoting</li>
@@ -171,7 +175,7 @@ menu:
 			</ul>
 			<div class="training-image"><img alt="Image" class="mainImg" src="/images/quote/basic-quote.jpg"></div>
 			<div class="halfbleed__detail">
-				Fig 3: Example of a 'default' style quote. Adding the content detailed above will result in your quote appearing in this style
+				Fig 4: Example of a 'default' style quote. Adding the content detailed above will result in your quote appearing in this style
 			</div>
 		</div>
 	</div>
@@ -192,12 +196,12 @@ menu:
 			<p><b>Considerations when choosing your style</b></p>
 			<p>Please bear the following in mind when choosing your quote style</p>
 			<ol>
-				<li>Does the person your quoting work for Arup? If they don't, then the best option is the 'Pull' quote - this won't display a picture / job title etc for the quote</li>
+				<li>Does the person you're quoting work for Arup? If they don't, then the best option is the 'Pull' quote - this won't display a picture / job title etc for the quote</li>
 				<li>Does the person's profile have all the relevant information added? Does it have a picture? Is the person's name and job title correct?</li>
-				<li>Are you using multiple quotes on your page? Having multiple different styles of quotes on the page can be jarring</li>
+				<li>Are you using multiple quotes on your page? Having multiple different styles of quotes on the page can be jarring. You should be consistent with the quote styles that you choose on each page.</li>
 			</ol>
 			<p><a href="#what-is">View the individual quote styles above</a></p>
-			<p><b>NB - do not attempt to select both Pull and Large quote options at the same time</b></p>
+			<p><b>NB - do not attempt to select both Pull and Large quote options at the same time as this will break the module and cause errors.</b></p>
 		</div>
 	</div>
 </section>
@@ -207,7 +211,7 @@ menu:
 			<h2>Best practice</h2>
 			<p>In this section, you will find guidance and advice on how to best utilise the 'Quote' module.</p>
 			<p>It includes examples illustrating how to use and display the module.</p>
-			<p><b>NB - It is highly recommended that you DO NOT use the 'Pull' style quote when adding quotes to your page.</b></p>
+			<p><b>NB - It is highly recommended that you DO NOT use the 'Pull' style quote when adding quotes to your page. This is because it offers no quote attribution and is not visually pleasing. GMC is exploring this option's removal.</b></p>
 			<h5>Recommended use</h5>
 			<ul class="featureList">
 				<li class="tick">Display quotes from Arup employees</li>
@@ -217,10 +221,10 @@ menu:
 			<p>In the example below, you'll see what a 'perfect' example of a quote in default display mode looks like.</p>
 			<p>It has:</p>
 			<ul class="featureList">
-				<li class="tick">All profile is displaying</li>
+				<li class="tick">All profile information is displaying</li>
 				<li class="tick">Profile has an image of the person</li>
 				<li class="tick">Person's external job title is present</li>
-				<li class="tick">Quotation marks are correctly positioned at the start and end of the quote</li>
+				<li class="tick">Quotation marks correctly positioned at the start and end of the quote</li>
 			</ul>
 		</div>
 	</div>
@@ -234,11 +238,11 @@ menu:
 <section class="container" id="creating">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<p><b>Example 2 - correctly presented perfect module</b></p>
-			<p>In the example below, you'll see what a 'perfect' example of a Quote in default display mode looks like.</p>
+			<p><b>Example 2 - correctly presented 'large' quote module</b></p>
+			<p>In the example below, you'll see what a 'perfect' example of a Large quote looks like.</p>
 			<p>It has:</p>
 			<ul class="featureList">
-				<li class="tick">All profile is displaying</li>
+				<li class="tick">All profile information displaying</li>
 				<li class="tick">Profile has an image of the person</li>
 				<li class="tick">Person's external job title is present</li>
 				<li class="tick">Quotation marks are correctly positioned at the start and end of the quote</li>
@@ -249,7 +253,7 @@ menu:
 <section class="large-quote container">
 	<blockquote class="quote reveal">
 		<span class="quote__symbol">&#8220;</span>
-		<p>The opportunity to work on this truly innovative project was brilliant and I am very grateful and honoured with this industry recognition. It is great to see that in the digital age, traditional engineering disciplines such as bridge design can find ways to innovate and evolve. &#8221;</p><span class="people"><img alt="Paolo Cresci" height="450" src="images/quote/paolo-cresci.jpg" width="450"> <span class="people__inner"><span class="bold">Paolo Cresci</span> <span>Sustainability and Building Services Team Leader</span></span></span>
+		<p>The opportunity to work on this truly innovative project was brilliant and I am very grateful and honoured with this industry recognition. It is great to see that in the digital age, traditional engineering disciplines such as bridge design can find ways to innovate and evolve. &#8221;</p><span class="people"><img alt="Paolo Cresci" height="450" src="/images/quote/paolo-cresci.jpg" width="450"> <span class="people__inner"><span class="bold">Paolo Cresci</span> <span>Sustainability and Building Services Team Leader</span></span></span>
 	</blockquote>
 </section>
 <section class="container" id="creating">
@@ -289,7 +293,7 @@ menu:
 <section class="large-quote container">
 	<blockquote class="quote reveal">
 		<span class="quote__symbol">&#8220;</span>
-		<p>The opportunity to work on this truly innovative project was brilliant and I am very grateful and honoured with this industry recognition. It is great to see that in the digital age, traditional engineering disciplines such as bridge design can find ways to innovate and evolve in the future. &#8221;</p><span class="people"><img alt="Paolo Cresci" height="450" src="images/quote/paolo-cresci.jpg" width="450"> <span class="people__inner"><span class="bold">Paolo Cresci</span> <span>Sustainability and Building Services Team Leader</span></span></span>
+		<p>The opportunity to work on this truly innovative project was brilliant and I am very grateful and honoured with this industry recognition. It is great to see that in the digital age, traditional engineering disciplines such as bridge design can find ways to innovate and evolve in the future. &#8221;</p><span class="people"><img alt="Paolo Cresci" height="450" src="/images/quote/paolo-cresci.jpg" width="450"> <span class="people__inner"><span class="bold">Paolo Cresci</span> <span>Sustainability and Building Services Team Leader</span></span></span>
 	</blockquote>
 </section><!-- faq -->
 <section class="container" id="faq">
@@ -322,7 +326,7 @@ menu:
 			<h5><a id="faq-should" name="faq-should"></a>2. Should I use different styles of quotes in the same article?</h5>
 			<p>A. Ideally you should be consistent in a single page or article in your use of quotes. Using all three styles in the same page could be draining on the user and make them work harder.</p>
 			<h5><a id="faq-quoting" name="faq-quoting"></a>3. I'm quoting an Arup staff member but a profile doesn't already exist on arup.com. What should I do?</h5>
-			<p>A. Ideally, you should create a profile to hold the relevant data for your quote (see the Profile guide for further information on this). If this is not feasible, then you should instead use the 'Pull quote' to display your quote.</p>
+			<p>A. Ideally, you should create a profile to hold the relevant data for your quote (see the <a href="/creating-pages/creating-profiles/">Profile guide</a> for further information on this). If this is not feasible, then you should instead use the 'Pull quote' to display your quote.</p>
 			<h5><a id="faq-notstaff" name="faq-notstaff"></a>4. I'm quoting a non-member of Arup staff. What should I do?</h5>
 			<p>A. You should NOT create a profile for non-staff members. Profiles should be exclusively reserved for those that work at Arup.</p>
 			<p>You should instead enter the details of the person you're quoting directly into the fields provided on the Quote module.</p>

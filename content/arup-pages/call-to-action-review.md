@@ -1175,7 +1175,7 @@ type: arup-home
 	<section class="container" id="">
 		<div class="rich-text">
 			<div class="reveal rich-text__content">
-				<h2>Publication</h2>
+				<h2>Publication Reveal</h2>
 			</div>
 		</div>
 	</section>
@@ -1231,6 +1231,7 @@ type: arup-home
 		</div>
 	</div>
 	</section>
+	<a name="publication-reveal-revamp"></a>
 	<section class="publications  reveal alternative">
     <div class="highlight-section">
     	<div class="container">

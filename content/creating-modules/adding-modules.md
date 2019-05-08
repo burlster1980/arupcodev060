@@ -60,7 +60,7 @@ menu:
 			<h2>1. What are modules?</h2>
 			<p>Modules - sometimes referred to as components - are elements of content that you can add to virtually any page on arup.com. They are pre-styled and perform defined tasks. For example, the 'Image' module is used for adding images to your content.</p>
 			<p>arup.com has a range of modules (<a href="/creating-modules/">detailed here</a>) that you can utilise to bring your content to life. We have modules to give you the freedom to create unique experiences from your content. By using modules, you are free to layout your content in anyway that you see fit (within some broad parameters), ensuring that no two pages may ever look exactly the same.</p>
-			<p>Modules are created using the <a href="/getting-started/content-experience-editor/#cms">Content Editor</a>, and added to your page using the Experience Editor.</p>
+			<p>Modules are created using the <a href="/getting-started/content-experience-editor/#cms">Content Editor</a>, and added to your page using the <a href="/getting-started/content-experience-editor/#experience">Experience Editor</a>.</p>
 		</div>
 	</div>
 </section>
@@ -163,9 +163,9 @@ menu:
 			<ul>
 				<li><b>Think about your layout first</b> - before you add any modules, why not draw out your content on a piece of paper? Doing this will help you plan out your narrative, and identify the best modules for telling your story. Spending a bit of time doing this will save you time later on - as you'll know exactly which modules you want to use.</li>
 				<li><b>Think about the order in which you create modules</b> - if you draw out your layout first, you can simply create all your modules in the Content Editor in one go. But if you don't, you might want to think about creating one and then adding it via the Experience Editor, then creating a second and adding this. This way you can visually see how things look. You'll likely save time not having to create or recreate additional modules if your first attempt doesn't work.</li>
-				<li><b>Label your modules sensibly</b> - ideally, look to indicate the order you're adding the modules to your page in their name. This way, it helps you understand which modules are being used, and what order there in if you need to edit them - or if something goes wrong later on.</li>
+				<li><b>Label your modules sensibly</b> - ideally, look to indicate the order you're adding the modules to your page in their name. This way, it helps you understand which modules are being used, and what order they're in if you need to edit them - or if something goes wrong later on.</li>
 				<li><b>Tell GMC Online if your not using a created module</b> - if you create modules, but then don't use them on your page, try and let GMC Online know so the team can delete them. This keeps the CMS organised and makes future editing easier.</li>
-				<li><b>Don't use modules for the sake of it</b> - modules are there to bring your content to life. But, miusing them can harm your content. This online guide provoides advice on how to best use modules, but ultimately it's up to you to decide how you use them. Don't feel under pressure to add modules just to break up your content, and only use modules such as the Image module or Text Image Split if they help tell your story.</li>
+				<li><b>Don't use modules for the sake of it</b> - modules are there to bring your content to life. But, misusing them can harm your content. This online guide provides advice on how to best use modules, but ultimately it's up to you to decide how you use them. Don't feel under pressure to add modules just to break up your content, and only use modules such as the Image module or Text Image Split if they help tell your story.</li>
 			</ul>
 		</div>
 	</div>

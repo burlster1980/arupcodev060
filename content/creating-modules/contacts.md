@@ -3,7 +3,7 @@ title: "Adding contacts and the contact us module"
 date: 2019-02-17T01:01:18Z
 draft: false
 type: Creating modules
-lastmod: 2019-02-17
+lastmod: 2019-04-01
 weight: "3"
 menu:
   main:
@@ -109,9 +109,10 @@ menu:
 		<div class="reveal rich-text__content">
 			<h2>4. Showing different contacts to different users</h2>
 			<p>We may have a different 'Health and safety' expert in Australia, America and Italy. It would therefore be great to show that expert to their 'local' audience. For example, if 'John Smith' is the Health and Safety expect in the Americas region, but 'Joan Harris' is the expect in Europe, we should show users in America John Smith, but users in Italy Joan Harris.</p>
-			<p>Using personalisation and GEO IP, we can now do this. For example - visit the 'Energy' page on arup.com. Click on the utility bar 'get in touch' prompt. What do you see? Looking at the website from London, the first thing you will be Ian Gardener as the lead contact.</p>
+			<p>Using personalisation and GEO IP, we can now do this. For example - visit the '<a href="https://www.arup.com/expertise/industry/energy" target="_blank">Energy</a>' page on arup.com. Click on the utility bar 'get in touch' prompt. What do you see? Looking at the website from London, the first thing you will be Ian Gardener as the lead contact.</p>
 			<p>But is this what you're seeing where you are? If you're in Europe, then you're probably seeing Tudor Salusbury.</p>
 			<p>You should be seeing a different contact if you're in Australasia, the Americas, Europe, the UK or East Asia.</p>
+			<p>Implementing this functionality is explained below.</p>
 		</div>
 	</div>
 </section>
@@ -311,7 +312,7 @@ menu:
 			</div><!-- end contact us example 1 -->
 			<p></p>
 			<p><b>Example 2 – profile lacking information</b></p>
-			<p>In the second example, you can see that the presentation is not correct. The profile does not have:</p>
+			<p>In the second example, you can see that the presentation is not correct. The profile has:</p>
 			<ul class="featureList">
 				<li class="cross">No contact image, phone or email</li>
 				<li class="cross">No CTA – which leaves the contact arrow link floating</li>
@@ -394,7 +395,11 @@ menu:
 			<ul class="featureList">
 				<li class="tick">Module well presented, all key information present</li>
 				<li class="cross">Module is virtually first thing user sees – at this point they’ve not been engaged. How can they learn more at this point?</li>
-			</ul>&lt; Put image showing this here &gt;
+			</ul>
+			<div class="training-image"><img alt="Image" class="mainImg" src="/images/contact-us/contact-place-wrong.jpg"></div>
+			<div class="halfbleed__detail">
+				Fig 7: The 'contact us' module the first module placed on the page. This is poor placement and will confuse users.
+			</div>
 		</div>
 	</div>
 </section>
@@ -422,7 +427,7 @@ menu:
 			<h5><a id="contacts-live" name="contacts-live"></a>Where do contacts ‘live’ within the CMS?</h5>
 			<p>A. Currently, all the contacts you can use reside within the ‘Our firm’ area of the CMS. You can browse all the contacts available here</p>
 			<h5>The contact I want doesn’t exist on the website. What should I do?</h5>
-			<p>A. To select a contact, the person must have a ‘Profile’ created within the CMS. It is important that a Profile contains some specific information including the contact’s picture. You should therefore consult the person you want to create as a contact to obtain the correct content to create this profile.</p>
+			<p>A. To select a contact, the person must have a ‘Profile’ created within the CMS. It is important that a Profile contains some specific information including the contact’s picture. You should therefore consult the person you want to create as a contact to obtain the correct content to <a href="/creating-pages/creating-profiles/">create this profile</a>.</p>
 			<h5><a id="can-i" name="can-i"></a>Can I add a page without a contact?</h5>
 			<p>A. Pages can be published without contacts – BUT – it’s important to remember that we want the website to demonstrate the skills of Arup’s staff and to make these staff approachable. Its therefore vital to try and ensure that a relevant contact is added to all Projects and Perspectives (in particular) that you want to publish. Wherever possible, try and ensure that a suitable contact is available.</p>
 			<h5><a id="i-want" name="i-want"></a>I want to personalise my contact. Should I do this?</h5>

@@ -1,7 +1,7 @@
 ---
 title: "Creating a news page"
 date: 2019-02-16T17:42:27Z
-lastmod: 2019-02-17
+lastmod: 2019-04-01
 draft: false
 type: Creating new pages
 weight: "1"
@@ -94,9 +94,10 @@ menu:
 				Fig1: Creating a new News item. You need to right click on the 'News' node, and choose 'Insert &gt; News'
 			</div>
 			<ul>
-				<li>Enter a name for your news item that suitably describes the content (NB - this name will form the URL of the article for example if you called your item 'My news item' the url would be arup.com/news-and-events/my-news-item) and click OK</li>
+				<li>Enter a name for your news item that suitably describes the content - most likely the article's title (NB - this name will form the URL of the article for example if you called your item 'My news item' the url would be arup.com/news-and-events/my-news-item) and click OK</li>
 				<li>The screen will then reload, and you've successfully created your news item</li>
 			</ul>
+
 		</div>
 	</div>
 </section>
@@ -110,7 +111,7 @@ menu:
 			<p><b>*</b>fields marked with an asterisk are required and must be completed</p>
 			<ul>
 				<li><b>Header label*</b> - by default this will be populated with the word 'News'. If you're creating a press release, then you should replace 'News' with the label 'Press release'</li>
-				<li><b>Title*</b> - this is the heading of your article.</li>
+				<li><b>Title*</b> - this is the heading of your article</li>
 				<li>
 					<b>Intro*</b> - this is the introduction to your article. This should either represent:
 					<ul class="sub-header-list">
@@ -120,12 +121,12 @@ menu:
 						</li>
 						<li>a one to two sentence summary of your article - meaning that a user could gain overall insight by reading this content</li>
 					</ul><br>
-					To add content to this field click 'show editor' and enter your text. Please see the guide to using the Rich Text editor for further information on adding content here
+					To add content to this field click 'show editor' and enter your text. Please see the guide to using the <a href="/getting-started/rich-text/">Rich Text editor</a> for further information on adding content here
 				</li>
 				<li><b>Image</b>* - please add a suitable image to your article. This should be resized to 2000px wide by 1125px high. Further details about imagery and news articles is contained below.</li>
 				<li><b>Body</b> - theoretically, you add in your article copy to this field. However, please see below before doing this<br>
 				<br>
-				To add content to this field click 'show editor' and enter your text. Please see the guide to using the Rich Text editor for further information on adding content here.</li>
+				To add content to this field click 'show editor' and enter your text. Please see the guide to using the <a href="/getting-started/rich-text/">Rich Text editor</a> for further information on adding content here.</li>
 				<li>
 					<b>News date*</b> - this is the date of publication of your article. By default, it will be set to the date upon which you created the item. You can however change it to a past or future date if you wish. To change the date:
 					<ul class="sub-header-list">
@@ -133,7 +134,7 @@ menu:
 						<li>From the resulting calendar popup, choose the date you want for your publication date</li>
 					</ul>
 				</li>
-				<li><b>News expiry date</b> - if you set this, the date you insert will be the date that your article CEASES to be published.</li>
+				<li><b>News expiry date</b> - if you set this, the date you insert will be the date that your article CEASES to be published. You should only set this if you believe your story is time limited</li>
 				<li>
 					<b>Author*</b> - you need to select an author for your article. This will be a member of the marketing or press teams (or indeed it maybe you). To choose the contact:
 					<ul class="sub-header-list">
@@ -144,6 +145,7 @@ menu:
 						</li>
 					</ul>
 				</li>
+				<li><b>Comma separated search terms</b> - Enter any specific key words, or combination of key words that relate to your news item. Words added here will influence the search results provided on arup.com (Note - this does not include suggestive search). You should think carefully about the words you enter, and limit entries to be between 3 and 5 words or key phrases. NB - do not use common words or phrases such as 'the' or 'perspective'</li>
 			</ul>
 		</div>
 	</div>
@@ -157,9 +159,9 @@ menu:
 				Fig 2: example of a completed news article indicating which fields do what
 			</div>
 			<p><b>NB - Image</b></p>
-			<p>You MUST add an image to your News item. At the time of writing, images do not show on individual news articles. However, the image is used for promoting your news story - particularly at <a href="https://www.arup.com/news-and-events" target="_blank">https://www.arup.com/news-and-events</a></p>
+			<p>You MUST add an image to your News item in the 'Image' field. Whilst this image will NOT display directly on your news item, it is used elsewhere on the site. For example, the image is used for promoting your news story - particularly at <a href="https://www.arup.com/news-and-events" target="_blank">https://www.arup.com/news-and-events</a></p>
 			<p><b>NB - Body field</b></p>
-			<p>As detailed above, you can add your content to the 'Body' field of a news document. However, if you do this, you won't be able to add any modules to your page. Modules allow you to add elements such as <a href="image.html">images</a>, <a href="/creating-modules/carousel/">carousels</a>, <a href="/creating-modules/quote/">styled quotes</a> and <a href="/creating-modules/contacts/">contact details</a> to your content. If you do NOT want to take advantage of modules then you can safely add all your copy to the 'Body field'. If you want to add any modules then you should do the following:</p>
+			<p>As detailed above, you can add your content to the 'Body' field of a news document. However, if you do this, you won't be able to add any modules to your page. Modules allow you to add elements such as <a href="/creating-modules/images/">images</a>, <a href="/creating-modules/carousel/">carousels</a>, <a href="/creating-modules/quote/">styled quotes</a> and <a href="/creating-modules/contacts/">contact details</a> to your content. If you do NOT want to take advantage of modules then you can safely add all your copy to the 'Body field'. If you want to add any modules then you should do the following:</p>
 			<ul>
 				<li>In the Body field, add all of your copy - up to the point at which you want to include an image / quote / carousel etc. Don't add any more at this point</li>
 				<li>Complete the rest of the relevant fields detailed above (and those below)</li>
@@ -237,7 +239,7 @@ menu:
 			<p>This information is used to aid the discovery of your article via search engines. Adding it is vital in helping people to find the article and ensuring that it performs to the best of its ability.</p>
 			<p><b>*</b>fields marked with an asterisk are required and must be completed</p>
 			<ul>
-				<li><b>Browser title*</b> - Should you re-enter the title of your article to this field. If your title is particularly long, please consider drafting a shorter version for this field.</li>
+				<li><b>Browser title*</b> - You should re-enter the title of your article to this field. If your title is particularly long, please consider drafting a shorter version for this field.</li>
 				<li><b>SEO meta description*</b> - Please enter a two to three sentence summary of your article. You can consider re-using the introduction copy you've used above</li>
 				<li><b>Meta keywords</b> - keywords have been used by search engines in the past to help users locate content. However, keywords are no longer of high relevance for search engines such as Google and you do not need to add these to aid search performance.</li>
 			</ul>
@@ -248,7 +250,7 @@ menu:
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
 			<h5><a id="completing" name="completing"></a>Completing your news article</h5>
-			<p>Once you have added the data detailed above, you should save your document. If you are intending to add modules to your article, you will need to follow the steps outlined below. If your article is complete without modules, you can now submit it for publication or preview it using the method outlined below.</p>
+			<p>Once you have added the data detailed above, you should save your document. If you are intending to add modules to your article, you will need to follow the steps outlined below. If your article is complete without modules, you can now <a href="/getting-started/workflow/#publishing">submit it for publication</a> or preview it using the method outlined below.</p>
 			<h5><a id="links" name="links"></a>Adding links in Sitecore</h5>
 			<p>You can add links to content in certain fields. Fields on a news document you can add links to include:</p>
 			<ul>
@@ -257,7 +259,7 @@ menu:
 			</ul>
 			<p>Please see the '<a href="/getting-started/adding-links/">adding links in Sitecore</a>' guide for more information on adding links.</p>
 			<h5><a id="modules" name="modules"></a>Adding modules to your news item</h5>
-			<p>The following details the steps to prepare for adding modules and adding a new module. It does not provide details on the individual modules you can use. You should consult the individual module guides for full details on those relevant to your article.</p>
+			<p>The following details the steps to prepare for adding modules and adding a new module. It does not provide details on the individual modules you can use. You should consult the <a href="/creating-modules/">individual module guides</a> for full details on those relevant to your article.</p>
 			<ul>
 				<li>Right click on your news item in the content tree window and choose '<b>Insert &gt; Local datasource folder</b>'</li>
 				<li>You will be prompted to name the item you've created - you should leave the pre-defined label of 'Local content' and click 'OK'</li>
@@ -286,7 +288,6 @@ menu:
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
 			<h2>3. Best practice</h2>
-			<p>You can see an example of a well-presented news item by looking at an exemplar news item (link to item).</p>
 			<p>You should bear in mind the following when adding news to arup.com:</p>
 			<ul>
 				<li>Your introduction / summary content is vital - this content needs to encourage people to read on.</li>
@@ -298,13 +299,14 @@ menu:
 						<li>Discover more about our expertise in Z</li>
 					</ul>
 				</li>
-				<li>If you're linking to a specific publication, consider making use of the Publication module (link) - this module helps to highlight publications specifically</li>
-				<li>If you're promoting a specific project / perspective / service / area of expertise, consider making use of the Recommend Content module (link) - this can help highlight a particular page or set of pages. This won't always work, so you should consider this carefully</li>
-				<li>Try and link to relevant pages on the site even if you're not writing about a specific item such as a report or project - news is a great way to get people on to arup.com. Linking to relevant pages will help keep them there and encourage them to learn more</li>
-				<li>If you'd adding links to external sites (for example you're linking to a report on the Parliament website) be sure to set this to open in a 'New window'. All links to pages outside of arup.com (even to other Arup websites) should open in a new tab in your browser (see adding Links above for more details)</li>
+				<!--<li>If you're linking to a specific publication, consider making use of the Publication module (link) - this module helps to highlight publications specifically</li>-->
+				<li>If you're promoting a specific project / perspective / service / area of expertise, consider making use of the <a href="/adding-modules/recommended-content/">Recommend Content module</a> - this can help highlight a particular page or set of pages</li>
+				<li>Try and link to relevant pages on the site even if you're not writing about a specific item such as a report or project - news is a great way to get people on to arup.com. Linking to relevant pages will help keep them there and encourage them to learn more<br/><br/>
+					For example - you've added a news item about staff winning a Water award, in a scenario like this you should ensure that your article ends with a sentence or prompt such as 'Learn more about our water expertise' - and then <a href="/getting-started/adding-links/">link</a> to the Water industry page</li>
+				<li>If you'd adding links to external sites (for example you're linking to a report on the Parliament website) be sure to set this to open in a 'New window'. All links to pages outside of arup.com (even to other Arup websites) should open in a new tab in your browser (see <a href="/getting-started/adding-links/">adding Links</a> guide for more details)</li>
 				<li>Make the most of high quality images - if you've got good images for your story - use them! Images help bring stories to life, particularly when paired with good, descriptive captions that link the image to your story</li>
 				<li>Don't use modules simply to 'break up' your news article - modules are designed to bring your content to life, and if used properly they will. However, don't forget that ultimately you want your readers to read your story. Simply adding modules for the sake of it will make this harder and potentially cause users to leave without getting your full story</li>
-				<li>Don't overuse the Quote module - the quote module is designed to highlight important text or quotes. Its ok to leave extensive quotes in either the body of your article or in a Rich Text module using simple quotation marks (as you would in a Word document for example). Using the module multiple times - particularly one after the other - can reduce the impact of the module</li>
+				<li>Don't overuse the Quote module - the quote module is designed to highlight important text or quotes. Its ok to leave extensive quotes in either the body of your article or in a <a href="/creating-moduls/rich-text-module/">Rich Text module</a> using simple quotation marks (as you would in a Word document for example). Using the module multiple times - particularly one after the other - can reduce the impact of the module</li>
 			</ul>
 		</div>
 	</div>
@@ -345,7 +347,7 @@ menu:
 			<h5><a id="faq-creating" name="faq-creating"></a>1. I'm creating a news item, but the relevant month doesn't yet exist in the CMS. What should I do?</h5>
 			<p>A. You don't need to do anything - but you're likely trying to create your item in the wrong place. Whenever you create a new news item, you should always create it by right clicking on the 'News' node in the content tree. The CMS will automatically create new 'buckets' for months or years if they don't exist and are required.</p>
 			<h5><a id="faq-image" name="faq-image"></a>2. I haven't got an image for my news item. Does it matter?</h5>
-			<p>A. You don't need to do anything - but you're likely trying to create your item in the wrong place. Whenever you create a new news item, you should always create it by right clicking on the 'News' node in the content tree. The CMS will automatically create new 'buckets' for months or years if they don't exist and are required.</p>
+			<p>A. Yes. News items require at least one good image. Whilst this will not show when viewing the actual article, it is used for highlighting the story - particularly on the <a href="https://www.arup.com/news-and-event" target="_blank">News and Events</a> hub page </p>
 			<h5><a id="faq-intro" name="faq-intro"></a>3. Why shouldn't I add links to the Introduction field?</h5>
 			<p>A. You can add links to this field if necessary. However, links naturally encourage users to follow them. If you have a link in your first two sentences, you increase the chances that users won't read your news item. Wherever possible, try and give users an opportunity to read your content and then explore relevant links.</p>
 			<h5><a id="faq-multiple" name="faq-multiple"></a>4. What's the point of linking to content multiple times?</h5>
@@ -353,7 +355,7 @@ menu:
 			<h5><a id="faq-cta" name="faq-cta"></a>5. What kind of calls to action can I add?</h5>
 			<p>A. Not all news articles will have an obvious CTA, but most likely will. You can link to anything on arup.com, be it projects, perspective articles, publications or videos, or industry and service pages. The content you link to is that which is most relevant to your story and that will help your users continue to learn more about Arup.</p>
 			<h5><a id="faq-edit" name="faq-edit"></a>6. Can I go back and edit an article after it's been published?</h5>
-			<p>A. Yes. You can edit an article multiple times even after its been published. Each time you edit an article after publication, a new version will created. This means that if necessary an Administrator can revert back to a previous version if necessary.</p>
+			<p>A. Yes. You can edit an article multiple times even after its been published. Each time you edit an article after publication, a new version will created. This means that if necessary an Administrator can revert back to a previous version if necessary. After you've completed your edits, you will need to re-submit your article for publication by an Administrator or user with publication rights.</p>
 			<h5><a id="faq-cta" name="faq-cta"></a>7. I want my news item to be published in the future. Is this possible?</h5>
 			<p>A. Yes. An article can be published at any point in time. You need to consider the following if you do want this:</p>
 			<ul>
@@ -361,7 +363,7 @@ menu:
 				<li>Ensure that you either don't submit your article for publication until you're ready, or you contact the person responsible for publishing your content to discuss this</li>
 			</ul>
 			<h5><a id="faq-body" name="faq-body"></a>8. I'm not sure about the Body field and adding modules. What should I do?</h5>
-			<p>A. You do NOT have to add any content into the 'Body' field if you don't want. You can use modules to add all your copy if you prefer. However, using the 'Body' field is quicker. If you're not going to add any modules (i.e. images / carousels / quotes etc) its easiest to add content in this way.</p>
+			<p>A. You do NOT have to add any content into the 'Body' field if you don't want. You can use modules to add all your copy if you prefer. However, using the 'Body' field is quicker. If you're not going to add any modules (i.e. images / carousels / quotes etc) it's easiest to add content in this way.</p>
 			<p>Alternatively, if you're only going to add a module half way through your article, it will be quicker to add all the content up to this point into the Body field.</p>
 			<h5><a id="faq-location" name="faq-location"></a>9. When I look at news on the website, I don't see all the articles. Why is this?</h5>
 			<p>A. arup.com uses 'GEOIP' to serve relevant content to users based on their location. By default, users will initially only see news articles relevant to their location. So for example, a user in the USA would only see news from America. You control this by defining what county(s) are assigned to your news item.</p>

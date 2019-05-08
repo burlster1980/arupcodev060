@@ -46,6 +46,7 @@ menu:
 				<li>Make sure that the office address and contact details are present, correct and up to date. This information is vital for users.</li>
 				<li>Ensure that related projects for the office have been selected - it is better to show these are related content (see below or example) than a collection of links in your office description</li>
 				<li>Ensure that any news specifically relating to your office has been selected</li>
+				<lI>You need to keep 'related content' up to date. Because this content is manually selected, it will remain permanently in place until you or a colleague change it. It is important to remember this and ensure that you update it once publishing important news or projects etc.</lI>
 			</ul>
 		</div>
 	</div>

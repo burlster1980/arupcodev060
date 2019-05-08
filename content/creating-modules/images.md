@@ -1,7 +1,7 @@
 ---
 title: "Creating the image module"
 date: 2019-02-17T01:09:03Z
-lastmod: 2019-02-18
+lastmod: 2019-04-01
 draft: false
 type: Creating modules
 weight: "4"
@@ -191,7 +191,7 @@ menu:
 </section>
 <section class="halfbleed reveal" data-full-height="2530" data-full-width="4498">
 	<div class="halfbleed__wrap">
-		<div class="progressiveMedia"><img alt="Sint Lucas" class="tempImg" height="6" src="https:/www.arup.com/-/media/2000x1125jhml16119430.jpg?h=6&amp;la=en&amp;mw=10&amp;w=10&amp;hash=AED4ADC9E7F3673A5CB5E307F697677E24E86EAA" width="10"> <img alt="Sint Lucas" class="mainImg" height="534" src="https:/www.arup.com/-/media/2000x1125jhml16119430.jpg?h=534&amp;la=en&amp;mw=950&amp;w=950&amp;hash=314271748C476E167D02B768D9114713FA3FA215" width="950"></div>
+		<div class="progressiveMedia"><img alt="Sint Lucas" class="tempImg" height="6" src="https:/www.arup.com/-/media/2000x1125jhml16119430.jpg?h=6&amp;la=en&amp;mw=10&amp;w=10&amp;hash=AED4ADC9E7F3673A5CB5E307F697677E24E86EAA" width="10"> <img alt="Sint Lucas" class="mainImg" height="534" src="https:/www.arup.com/-/media/2000x1125jhml16119430.jpg" width="950"></div>
 	</div>
 	<div class="halfbleed__detail">
 		This is an image caption
@@ -461,7 +461,7 @@ menu:
 			<p>You can add content to the following fields of this section:</p>
 			<p><i>Fields marked with * MUST be completed</i></p>
 			<ul>
-				<li><b>Image*</b> - Add your chosen image here. This should be 2000px wide by 1125px high (hero) or 950px wide by 534px high (half bleed). You can find more information about image preparation and uploading images</li>
+				<li><b>Image*</b> - Add your chosen image here. This should be 2000px wide by 1125px high (hero) or 950px wide by 534px high (half bleed). You can find more information about <a href="/getting-started/image-preparation/">image preparation</a> and <a href="/getting-started/uploading-images/">uploading images</a></li>
 				<li><b>Mobile image</b> - If you have used a 'hero' image, it is advisable to provide a mobile alternative of your image. This should be resized to 950px by 534px</li>
 				<li><b>Halfbleed</b> - select this option if you want your image to be 'half bleed'. It will occupy half the full width of the screen</li>
 				<li><b>Hero</b> - select this option if you want your image to be shown at the fullwidth of the screen</li>
@@ -476,12 +476,12 @@ menu:
 			<p><b>Text box</b></p>
 			<p>If you wish to add a copy overlay to your image (requires that you select 'hero' image) then you need to enter this copy in the following fields:</p>
 			<ul>
-				<li><b>Header</b> - you can add a header for your copy in this field</li>
-				<li><b>Text</b> - enter the body of your copy here. Click 'Show editor' to access the rich text editor and add your copy. Please note you should restrict your copy to an absolute maximum of around 70 words</li>
-				<li><b>Cta</b> - you can add a dedicated link and call to action that supports your copy. Click on 'insert link' to add this - see the adding links guide for further information</li>
-				<li><b>Display on the right</b> - by default, your copy will be overlaid to the left of your image. Selecting this image will swap this so that the text appears on the right. This is useful if your copy obscures a key part of your image</li>
-				<li><b>Apply new style</b> - You should ignore this option</li>
-				<li><b>Enabled</b> - You must select this option if you add any information in the above fields. If you don't, your copy won't show on the site</li>
+				<li><b>Header:</b> you can add a header for your copy in this field</li>
+				<li><b>Text:</b> enter the body of your copy here. Click 'Show editor' to access the rich text editor and add your copy. Please note you should restrict your copy to an absolute maximum of around 70 words</li>
+				<li><b>Cta:</b> you can add a dedicated link and call to action that supports your copy. Click on 'insert link' to add this - see the adding links guide for further information</li>
+				<li><b>Display on the right:</b> by default, your copy will be overlaid to the left of your image. Selecting this image will swap this so that the text appears on the right. This is useful if your copy obscures a key part of your image</li>
+				<li><b>Apply new style:</b> you should ignore this option</li>
+				<li><b>Enabled:</b> you must select this option if you add any information in the above fields. If you don't, your copy won't show on the site</li>
 			</ul>
 			<p><b>Caption</b></p>
 			<p>Use the fields below to provide your image with a caption. Generally speaking, images should always have a caption. The only exception is where you're overlaying text on your image already.</p>
@@ -533,17 +533,17 @@ menu:
 			<ul class="featureList">
 				<li class="tick">To present striking and engaging visuals that bring our work to life</li>
 				<li class="tick">To support written content: images of the finished result, work in progress, and featuring people - all help contextualise the work we do</li>
-				<li class="tick">Do not just add in images simply to 'break up' text - add them where they can help the flow of a story, or add context for the reader.</li>
+				<li class="cross">Do not just add in images simply to 'break up' text - add them where they can help the flow of a story, or add context for the reader</li>
 			</ul>
 			<h5><a id="half-bleed" name="half-bleed"></a>Half bleed images</h5>
 			<p><b>Recommended use:</b></p>
 			<ul class="featureList">
-				<li class="tick">Presenting an image that does not take up a large amount of space on page and disrupt the flow of the story - an image that fits nicely with the surrounding content, and doesn't require great prominence or inspection.</li>
-				<li class="tick">To support a paragraph of text where it relates to the concept/idea explained.</li>
-				<li class="tick">We can see all of the focal point within the dimensions of the image (nothing is too small to view, our cropped out of the image).</li>
-				<li class="tick">It is supported with a caption to explain what the user is seeing in the image, or how it relates to what they have just read.</li>
+				<li class="tick">Presenting an image that does not take up a large amount of space on page and disrupt the flow of the story - an image that fits nicely with the surrounding content, and doesn't require great prominence or inspection</li>
+				<li class="tick">To support a paragraph of text where it relates to the concept/idea explained</li>
+				<li class="tick">We can see all of the focal point within the dimensions of the image (nothing is too small to view, our cropped out of the image)</li>
+				<li class="tick">It is supported with a caption to explain what the user is seeing in the image, or how it relates to what they have just read</li>
 			</ul>
-			<p><b>Example 1 - correctly presented half bleed image</b></p>
+			<p><b>Example one - correctly presented half bleed image</b></p>
 			<ul class="featureList">
 				<li class="tick">Image helps reader understand more about the project design</li>
 				<li class="tick">Image is supported with a caption</li>
@@ -735,7 +735,7 @@ menu:
 <section class="container">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<p><b>Example two - incorrectly positioned full bleed imaage</b></p>
+			<p><b>Example two - incorrectly positioned full bleed image</b></p>
 			<ul class="featureList">
 				<li class="cross">No caption included - no context for the top full bleed image</li>
 				<li class="cross">Image modules placed next to/on top of each other - makes quite difficult to follow the content</li>
@@ -839,8 +839,8 @@ menu:
 			<p><b>Recommended use:</b></p>
 			<ul class="featureList">
 				<li class="tick">When an image relates to a topic or theory being explained, and works well as a background image (i.e. the text box is not covering any important details in the image)</li>
-				<li class="tick">Do not use for long paragraphs of text as this will stretch the length of the image, and make it take up more space on the page.</li>
-				<li class="tick">Use imagery that is eye catching and complements the flow of the page.</li>
+				<li class="cross">Do not use for long paragraphs of text as this will stretch the length of the image, and make it take up more space on the page</li>
+				<li class="tick">Use imagery that is eye catching and complements the flow of the page</li>
 			</ul>
 			<p><b>Example one - correct use of text overlay</b></p>
 			<ul class="featureList">
@@ -848,6 +848,7 @@ menu:
 				<li class="tick">Text box is not stretched or touching the edges of the image</li>
 				<li class="tick">The text is an aside, rather than main argument or theme of the content (Kings Cross station)</li>
 			</ul>
+			<p><b>NB - use of a caption for images used in this fashion is less important. Generally, the text you're overlaying on the module should bear some relation to the image - OR - the image is merely being used for decorative purposes i.e. its inclusion is not a key part of the story</b></p>
 		</div>
 	</div>
 </section>
@@ -1158,7 +1159,7 @@ menu:
 			<h5><a id="faq-overlay" name="faq-overlay"></a>5. I want to add text overlaid on my image. What's the maximum length of this text?</h5>
 			<p>A. It is not possible to provide a maximum number of words or characters - but general guidance and experience suggests that you should not use more than around 60 - 70 words on an overlay.</p>
 			<p>Your overlay should never touch the top or bottom of your image (if it does, you need to remove some words).</p>
-			<h5><a id="faq-overlay-not" name="faq-overlay-not"></a>Why is my text overlay not showing?</h5>
+			<h5><a id="faq-overlay-not" name="faq-overlay-not"></a>6. Why is my text overlay not showing?</h5>
 			<p>If you've added a text overlay and it's not showing, check the following:</p>
 			<ul>
 				<li>Have you selected 'enabled' under 'Text box' section of the module?</li>

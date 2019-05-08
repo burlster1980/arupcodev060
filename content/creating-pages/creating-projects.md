@@ -1,7 +1,7 @@
 ---
 title: "Creating a project"
 date: 2019-02-16T17:42:27Z
-lastmod: 2019-02-17
+lastmod: 2019-04-01
 draft: false
 type: Creating new pages
 weight: "5"
@@ -116,18 +116,19 @@ menu:
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
 			<p><b>Article Content</b></p>
-			<p><b>*</b>fields marked with an asterix are required and must be completed</p>
+			<p><strong>&#42;</strong>fields marked with an asterix are required and must be completed</p>
 			<ul>
-				<li><b>Site search description*</b> - Please add a maximum of one to two sentences that give an overview of your project content. This text will be displayed within the search results for your project. For example 'Discover how Arup's engineers rebuilt the Forth Bridge in record time - whilst trains continued to run on time every day.'</li>
-				<li><b>Name*</b> - This is the name of your project - for example 'Forth Crossing redevelopment'. By default, it will contain the text you added during the creation of your project. You can edit this text without fear of changing the URL of your project of changing the physical name of the project within the CMS.</li>
-				<li><b>Title*</b> - Enter a title for your project. This will generally be a descriptive heading giving insight into what the project article is about. A handy approach to 'titles' is to ask a question - that your content will answer. For example, 'How do you redesign and rebuild the Forth Crossing without stopping the trains?'</li>
+				<li><b>Site search description&#42;</b> - Please add a maximum of one to two sentences that give an overview of your project content. This text will be displayed within the search results for your project. For example 'Discover how Arup's engineers rebuilt the Forth Bridge in record time - whilst trains continued to run on time every day.'</li>
+				<li><b>Name&#42;</b> - This is the name of your project - for example 'Forth Crossing redevelopment'. By default, it will contain the text you added during the creation of your project. You can edit this text without fear of changing the URL of your project or changing the physical name of the project within the CMS.</li>
+				<li><b>Title&#42;</b> - Enter a title for your project. This will generally be a descriptive heading giving insight into what the project article is about. A handy approach to 'titles' is to ask a question - that your content will answer. For example, 'How do you redesign and rebuild the Forth Crossing without stopping the trains?'</li>
 				<li><b>Comma separated search terms</b> - Enter any specific key words, or combination of key words that relate to your project. Words added here will influence the search results provided on arup.com (Note - this does not include suggestive search). You should think carefully about the words you enter, and limit entries to be between 3 and 5 words or key phrases</li>
 				<li><b>Video</b> - Please do not use this field without consulting with GMC online first. Video used in this way must conform to various standards including an absence of sound and the ability to 'loop'</li>
-				<li><b>Summary shown in listings*</b> - You should enter the introduction for your project in this field. Your introduction should give the user an overview of what your content is about and what they will learn by reading the content. Please consider starting your text with a heading (use 'H2' formatting)</li>
+				<li><b>Summary shown in listings&#42;</b> - You should enter the introduction for your project in this field. Your introduction should give the user an overview of what your content is about and what they will learn by reading the content. Please consider starting your text with a heading (use 'H2' formatting)</li>
 				<li>
-					<b>Image*</b> - Please enter a suitable image for your project. The image should be high quality and should be at least 2000px wide by 1125px BEFORE you carry out any resizing of the image. See the <a href="/getting-started/image-preparation/">image guide for more information</a> on this if necessary
+					<b>Image&#42;</b> - Please enter a suitable image for your project. The image should be high quality and should be at least 2000px wide by 1125px BEFORE you carry out any resizing of the image. See the <a href="/getting-started/image-preparation/">image guide for more information</a> on this if necessary
 				</li>
-				<li><b>Date*</b> - enter a publication date for your project in this field</li>
+				<li><b>Version image</b> - This is field allows you to show an alternative image to the main 'Image' (above). You would only ever use this if you wish to show a different image for a translated version of your content. You would only complete this field on the translated version (i.e. you do not touch it on the default English version). This will ensure that your image is shown specifically to your language audience, but no one else</li>
+				<li><b>Date&#42;</b> - enter a publication date for your project in this field</li>
 			</ul>
 			<p>The screenshot below indicates where each of the above fields are shown on a published project item.</p>
 			<div class="training-image"><img alt="Image" class="mainImg" src="/images/projects/initial-project-content.jpg"></div>
@@ -142,13 +143,13 @@ menu:
 		<div class="reveal rich-text__content">
 			<p><b>Campaign</b></p>
 			<p>You can ignore this field. It is primarily for categorising and reporting on global campaigns - no data will be revealed on your webpage.</p>
-			<p>If you are creating a Perspective campaign and wish to make use of this, please contact <a href="mailto:steve.burleigh@arup.com">steve.burleigh@arup.com</a> in the first instance.</p>
+			<p>If you are working on a campaign and wish to make use of this, please contact <a href="mailto:steve.burleigh@arup.com">steve.burleigh@arup.com</a> in the first instance.</p>
 			<p><b>Location</b></p>
 			<p>You need to indicate the location of your project and the office(s) that worked on it.</p>
-			<p><b>*</b>fields marked with an asterix are required and must be completed</p>
+			<p><b>&#42;</b>fields marked with an asterix are required and must be completed</p>
 			<ul>
 				<li>
-					<b>Select office*</b> - Please select the relevant Arup offices that worked on your project. You can select as many offices as is required. To do this
+					<b>Select office&#42;</b> - Please select the relevant Arup offices that worked on your project. You can select as many offices as is required. To do this
 					<ul>
 						<li>Click 'edit'</li>
 						<li>In the popup that appears, browse to the relevant country</li>
@@ -159,7 +160,7 @@ menu:
 					<p><b>NB - at present details of the office will not be shown on the website. However, this data will be used to power related content in the future, so it's important that you complete this field</b></p>
 				</li>
 				<li>Location - please enter the location of your project - in this example, you might enter 'Edinburgh' as this is the nearest city / town to the project's location</li>
-				<li><b>Country*</b> - please select the country the project is <i>located</i> in.</li>
+				<li><b>Country&#42;</b> - please select the country the project is <i>located</i> in.</li>
 			</ul>
 			<p><b>NB - Country should be used to indicate the project's location - NOT the office location of the team that developed the project. This field powers the project filters where users search by physical project location.</b></p>
 		</div>
@@ -179,8 +180,8 @@ menu:
 				<li>Services</li>
 			</ul>
 			<p>Wherever possible, you should look to associate related content to your project - as this helps to retain users on arup.com.</p>
-			<p>Fields marked with <b>*</b> MUST be completed</p>
-			<p><b>Related projects*</b></p>
+			<p>Fields marked with <b>&#42;</b> MUST be completed</p>
+			<p><b>Related projects&#42;</b></p>
 			<p>To select related projects:</p>
 			<ul>
 				<li>Click the 'Edit' button - this will launch a popup window</li>
@@ -204,7 +205,7 @@ menu:
 <section class="container" id="">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<p><b>Linking to more similar projects*</b></p>
+			<p><b>Linking to more similar projects&#42;</b></p>
 			<p>After selecting your projects, you can choose to link to a single area of expertise. This will create a link that follows the related projects allowing the user to see more.</p>
 			<ul>
 				<li>Click 'edit'</li>
@@ -236,23 +237,30 @@ menu:
 		<div class="reveal rich-text__content">
 			<p><b>Related people</b></p>
 			<p>This section allows you to enter additional details about the project – including people related to the project, client information and associated people.</p>
-			<p>Fields marked with <b>*</b> should be completed unless impossible</p>
+			<P><b>NB - you do not add the 'main' project contact here. You will do this in the 'Contacts' section below</b></P>
+			<p>Fields marked with <b>&#42;</b> should be completed unless impossible</p>
 			<ul>
 				<li>
-					<b>Client*</b> – Here you can enter the name(s) of the project’s client(s). You should simply enter the name of each client on a separate line within the editor. NB – please follow the steps outlined below to ensure consistent spacing:
+					<b>Client&#42;</b> – Here you can enter the name(s) of the project’s client(s). You should simply enter the name of each client on a separate line within the editor. NB – please follow the steps outlined below to ensure consistent spacing:
 					<ul>
 						<li>When in the Rich Text Editor, click the ‘HTML’ option (bottom left of editor window) to reveal the content’s HTML</li>
 						<li>Delete all and any references to either &lt; p &gt; or &lt; /p &gt;</li>
 						<li>Place &lt; br/ &gt; after each client you’ve added into the editor – except the final one (you won’t do this if you’ve only entered one client)</li>
 					</ul>
 				</li>
+			</ul>
+			<div class="training-image"><img alt="Image" class="mainImg" src="/images/projects/adding-clients.jpg"></div>
+			<div class="halfbleed__detail">
+				Fig 5: Adding information about multiple clients - NB if you're only adding a single client you should simply remove any text present other than the name of your client
+			</div>
+			<ul>
 				<li><b>Joint Venture Partners</b> – You can enter the name(s) of any joint venture partners Arup worked with on your project. Again, if you enter multiple partners, follow the steps outlined above to remove reference to &lt; p &gt; and &lt; /p &gt;</li>
 				<li><b>Partners and Collaborators</b> – You can enter the name(s) of any partners or collaborators Arup worked with on your project. Again, if you enter multiple partners, follow the steps outlined above to remove reference to &lt; p &gt; and &lt; /p &gt;</li>
 				<li><b>Associated people</b> – here you can select Arup staff that were associated with the project – above and beyond the main project contact you will enter in the next section. Click the ‘Edit’ button. Within the popup, browse the content tree and select the appropriate staff profile(s) by double clicking. Please DO NOT add the main project contact here.</li>
 			</ul>
 			<div class="training-image"><img alt="Image" class="mainImg" src="/images/projects/clients.jpg"></div>
 			<div class="halfbleed__detail">
-				Fig 5: Example of how 'related people' information displays when complete
+				Fig 6: Example of how 'related people' information displays when complete
 			</div>
 		</div>
 	</div>
@@ -265,7 +273,7 @@ menu:
 			<p>To select your contact:</p>
 			<ul>
 				<li>Click the ‘Edit’ button to launch the popup</li>
-				<li>Within the popup, browse the content tree in the left-hand column to find your contact (contacts are stored in alphabetical order – based on the contact’s first name. I.e. ‘John Smith’ would be found in the ‘J’ folder)</li>
+				<li>Within the popup, browse the content tree in the left-hand column to find your contact (contacts are stored in alphabetical order – based on the contact’s first name. I.e. ‘John Smith’ would be found in the 'J' folder)</li>
 				<li>Double click your chosen contact – their name will then appear in the righthand colum</li>
 				<li>Click ‘Ok’</li>
 			</ul>
@@ -280,12 +288,12 @@ menu:
 			</ul>
 			<p>Wherever possible, you should try to include 3 project facts. To add a fact:</p>
 			<ul>
-				<li><b>Fact Value 1</b> – here you should enter the value of your fact for example ’10,000’. Wherever possible, you should include any measurement value here as well – so this might be ’10,000m’ or 10,000ft’ for example</li>
-				<li><b>Fact detail 1</b> – here you can provide a few words of context for your fact value – for example ‘Railway track re-laid’</li>
-				<li><b>Fact 1 Unit</b> – you are advised to add your ‘unit’ to the Fact Value field. This is a formatting issue. Adding the unit in this field is likely to result in strange presentation on the final web page</li>
+				<li><b>Fact Value 1</b> – here you should enter the value of your fact for example '10,000'</li>
+				<li><b>Fact detail 1</b> – here you can provide a few words of context for your fact value – for example 'Railway track re-laid'</li>
+				<li><b>Fact 1 Unit</b> – add in any relevant units of measurement here - for example 'ft' or 'km'. Leave blank if your fact does not have a unit of measurement associated with it</li>
 			</ul>
 			<p>Repeat the steps above for Fact 2 and Fact 3</p>
-			<p><b>NB Please note – due to current design constraints, you may notice that large numbers will not fit correctly. Please preview your page once complete and double check the display of facts. GMC Online is attempting to improve the layout of this area to resolve this issue.</b></p>
+			<p><b>NB Please note – if you have large fact values for example '100,000' or your fact detail is a long sentence, you may want to consider using less then 3 facts. This will improve how the information displays on the webpage.</b></p>
 		</div>
 	</div>
 </section>
@@ -306,18 +314,18 @@ menu:
 		<div class="reveal rich-text__content">
 			<p><b>Facebook Open Graph</b></p>
 			<p>These fields are used to display content when your article is shared via social platforms.</p>
-			<p><b>*</b>fields marked with an asterix are required and must be completed</p>
+			<p><b>&#42;</b>fields marked with an asterix are required and must be completed</p>
 			<ul>
-				<li><b>Open Graph Title*</b> - Please enter a suitable title. Generally, you can re-use the article title entered above</li>
-				<li><b>Open Graph Description*</b> - Please enter a brief description of your content. This should summarise the content of your article in a maximum of two sentences.</li>
+				<li><b>Open Graph Title&#42;</b> - Please enter a suitable title. Generally, you can re-use the article title entered above</li>
+				<li><b>Open Graph Description&#42;</b> - Please enter a brief description of your content. This should summarise the content of your article in a maximum of two sentences.</li>
 				<li>Open Graph Image - Please resize your main article image to a width of 800px and add to this field</li>
 			</ul>
 			<p><b>Metadata</b></p>
 			<p>This information is used to aid the discovery of your article via search engines. Adding it is vital in helping people to find the article and ensuring that it performs to the best of its ability.</p>
-			<p><b>*</b>fields marked with an asterix are required and must be completed</p>
+			<p><b>&#42;</b>fields marked with an asterix are required and must be completed</p>
 			<ul>
-				<li><b>Browser title*</b> - Should you re-enter the title of your article to this field. If your title is particularly long, please consider drafting a shorter version for this field.</li>
-				<li><b>SEO meta description*</b> - Please enter a two to three sentence summary of your article. You can consider re-using the introduction copy you've used above</li>
+				<li><b>Browser title&#42;</b> - Should you re-enter the title of your article to this field. If your title is particularly long, please consider drafting a shorter version for this field.</li>
+				<li><b>SEO meta description&#42;</b> - Please enter a two to three sentence summary of your article. You can consider re-using the introduction copy you've used above</li>
 				<li>Meta keywords - keywords have been used by search engines in the past to help users locate content. However, keywords are no longer of high relevance for search engines such as Google and you do not need to add these to aid search performance.</li>
 			</ul>
 		</div>
@@ -341,7 +349,7 @@ menu:
 			<P><a href=/creating-modules">Find out more about creating modules</a></P>
 			<div class="training-image"><img alt="Image" class="mainImg" src="/images/news/adding-localcontent.jpg"></div>
 			<div class="halfbleed__detail">
-				Fig 6: adding a local content folder to your project item. Right click on your project item, and choose 'Insert &gt; Local Datasource Folder'
+				Fig 7: adding a local content folder to your project item. Right click on your project item, and choose 'Insert &gt; Local Datasource Folder'
 			</div>
 		</div>
 	</div>

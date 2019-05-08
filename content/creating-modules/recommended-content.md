@@ -443,7 +443,7 @@ menu:
 				Fig 1: Creating and inserting a Recommended content module. Right click the 'Local content' folder under your page and choose '<b>Insert &gt; Recommended content</b>'
 			</div>
 			<ul>
-				<li>Give your module a suitably descriptive name and click 'Ok'. NB - if you're adding multiple quotes, its useful to number these in the order you're going to add them</li>
+				<li>Give your module a suitably descriptive name and click 'Ok'</li>
 			</ul>
 			<h5><a id="adding-content" name="adding-content"></a>Adding content</h5>
 			<p>You can add content to the following fields:</p>
@@ -458,28 +458,29 @@ menu:
 			<h5><a id="consider" name="consider"></a>Things to consider</h5>
 			<p>When adding your articles you should consider the following:</p>
 			<ol>
-				<li>Display a specific article in the 'Pinned hero' slot<br>
+				<li><b>Display a specific article in the 'Pinned hero' slot</b><br>
 				<br>
 				If you're displaying 4 articles, you can select 4 in the 'recommended content' field. However, you will have no control over the article that appears in the 'Pinned hero' slot.<br>
 				To control this, choose 3 articles in the 'Recommended content' field and an article in the 'Pinned hero' field</li>
-				<li>Display a single article<br>
+				<li><b>Display a single article</b><br>
 				<br>
 				To display a single article you can either select a single article in the 'Recommended content' field or select the article in the 'Pinned hero' field</li>
-				<li>Display two or three articles<br>
+				<li><b>Display two or three articles</b><br>
 				<br>
 				To display two or three articles, select the articles within the 'Recommended content' field and ensure you select 'Hide pinned hero'</li>
 			</ol>
 			<h5><a id="introductions" name="introductions"></a>Adding introductions to your articles</h5>
-			<p>You can choose whether introductions for your articles are added - however, the 'Pinned hero' MUST have an introduction added.. Ideally, you should include an introduction. This content offers the opportunity to briefly summarise your article and encourage users to explore further.</p>
+			<P>As you'll have seen in the examples above, articles displayed in this module can consist of an image, a title and an introductory description. Each of these elements is defined - not in the module - but in the actual pages you select within the recommended content module.</P>
+			<p>Whilst the image and title are mandatory, you can choose whether introductions for your articles are added - however, the 'Pinned hero' MUST have an introduction added. Ideally, you should include an introduction. This content offers the opportunity to briefly summarise your article and encourage users to explore further.</p>
 			<p>To add this content:</p>
 			<ul>
 				<li>Ensure you've saved your module</li>
 				<li>Browse to one of the articles you've selected in the main content tree and select it</li>
-				<li>You should see a field called 'Recommended content' - add your content here</li>
+				<li>You should see a field called 'Recommended content' - add your introduction copy here</li>
 				<li>Save the article / page and either republish it - or ensure that your content publisher knows that they will need to publish this page as well as the page you're creating</li>
 				<li>Repeat for each article you've selected in your recommended content module</li>
 			</ul>
-			<p><b>NB - if content already exists in this field for an article you've selected DO NOT remove it or replace it. This indicates that the article is being used in another version of the module somewhere else on arup.com.</b></p>
+			<p><b>NB - if an introduction is already showing when you select an article, you should not attempt to edit this copy. This is because this most likely means that another user has selected this article to display in a recommended content module elsewhere on the site. If you change this copy, it will change for their version as well - and may well have a negative impact on the context.</b></p>
 		</div>
 	</div>
 </section>
@@ -825,10 +826,10 @@ menu:
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
 			<p><b>Example 3 - no introduction for 'pinned hero' article</b></p>
-			<p>In the example below, the 'pinned hero' lacks an introduction. No only does this leave to much empty space, but it also makes it harder for the user to learn about the article</p>
+			<p>In the example below, the 'pinned hero' lacks an introduction. Not only does this leave too much empty space, but it also makes it harder for the user to learn about the article</p>
 			<p>It lacks:</p>
 			<ul class="featureList">
-				<li class="cross">A introduction for the 'pinned hero' article</li>
+				<li class="cross">An introduction for the 'pinned hero' article</li>
 			</ul>
 		</div>
 	</div>
@@ -893,7 +894,7 @@ menu:
 					<a href="#faq-recommended">I've selected an article, but the intro doesn't suit my needs. What should I do?</a>
 				</li>
 				<li>
-					<a href="#faq-different">Can i use different types of content in the same module?</a>
+					<a href="#faq-different">Can I use different types of content in the same module?</a>
 				</li>
 			</ol>
 			<h5><a id="faq-when" name="faq-when"></a>1. Why should I use this module when pages already have 'related content'?</h5>
@@ -901,7 +902,7 @@ menu:
 			<p>Ultimately the style of quote you use is decision you need to make when building your page.</p>
 			<h5><a id="faq-recommended" name="faq-recommended"></a>2. I've selected an article, but the intro doesn't suit my needs. What should I do?</h5>
 			<p>A. If an article already has the 'recommended content' introduction added to it when you select it, this strongly implies that is being used in a module else where. It is therefore important that you don't edit it. Please contact <a href="mailto:steve.burleigh@arup.com">steve.burleigh@arup.com</a> if this scenario arises.</p>
-			<h5><a id="faq-different" name="faq-different"></a>3. Can i use different types of content in the same module?</h5>
+			<h5><a id="faq-different" name="faq-different"></a>3. Can I use different types of content in the same module?</h5>
 			<p>A. Yes. You can use any of the content types indicated in section 2 of this guide in anyway that you require. For example, you could have one project, two profiles and a perspective.</p>
 		</div>
 	</div>

@@ -1,7 +1,7 @@
 ---
 title: "Creating an office page"
 date: 2019-02-17T15:42:27Z
-lastmod: 2019-02-17
+lastmod: 2019-04-01
 draft: false
 type: Creating new pages
 weight: "2"
@@ -65,7 +65,7 @@ menu:
 			<h5><a id="cms" name="cms"></a>Offices within the CMS</h5>
 			<p></p>
 			<p>When viewing the CMS, offices are found at <b>Sitecore &gt; Content &gt; Arup &gt; Home &gt; Offices</b></p>
-			<p>Individual offices (for example 'London') are located underneath the relevant country i.e. London.</p>
+			<p>Individual offices (for example 'London') are located underneath the relevant country i.e. United Kingdom.</p>
 			<p>An individual office is stored in the following way:</p>
 			<p><b>Offices &gt; Country name &gt; Local content &gt; Offices &gt; Office name</b></p>
 		</div>
@@ -76,6 +76,7 @@ menu:
 		<div class="reveal rich-text__content">
 			<h2>2. Creating a new office item</h2>
 			<p>Before proceeding please be aware that you should never create a new country within the CMS. If your office sits outside of existing countries, please contact the GMC Online team first.</p>
+			<P>Additionally, you are strongly advised to discuss the creation of any new offices with GMC first as well - this is to ensure that there is global alignment on promoting information.</P>
 			<p>To create a new office you will need to:</p>
 			<ul>
 				<li>Browse to 'Offices' in the content tree, and expand this to reveal countries</li>
@@ -88,7 +89,7 @@ menu:
 			</div>
 			<ul>
 				<li>Enter the office location (city) and click OK</li>
-				<li>The screen will then reload, and you've successfully created your office</li>
+				<li>The screen will then reload, and you've successfully created your office item and are ready to begin adding content</li>
 			</ul>
 		</div>
 	</div>
@@ -123,7 +124,7 @@ menu:
 					</ul>
 				</li>
 				<li><b>Office telephone*</b> - the main contact number for your office. <b>NB - this should be a landline number presented in the format '+ country code number' i.e. +44 (0)207 665 2212</b></li>
-				<li><b>Office email*</b> - enter a suitable contact email addres</li>
+				<li><b>Office email*</b> - enter a suitable contact email address</li>
 				<li><b>Office address*</b> - enter the full address of your office</li>
 				<li><b>TimezoneOffset*</b> - enter the time difference between your office location and Greenwich Mean Time</li>
 				<li><b>MapLocationLink*</b> - Please include a Google Maps link showing your office. To obtain this, visit Google Maps, search for your office's address, and once shown - select the URL of the page and paste this into the field</li>
@@ -231,6 +232,10 @@ menu:
 			<ul>
 				<li>Your introduction / summary content is vital - try not to make this content too long, summarise your office succinctly. You can use the related projects area to highlight key projects by your office, rather than the rich text area.</li>
 				<li>Another reason to avoid lengthy office descriptions: the narrow width of the columns for rich text means that a long intro could hide the related projects content, which encourages users to explore the site further.</li>
+				<li>Make sure that the office address and contact details are present, correct and up to date. This information is vital for users.</li>
+				<li>Ensure that related projects for the office have been selected - it is better to show these are related content (see below or example) than a collection of links in your office description</li>
+				<li>Ensure that any news specifically relating to your office has been selected</li>
+				<lI>You need to keep 'related content' up to date. Because this content is manually selected, it will remain permanently in place until you or a colleague change it. It is important to remember this and ensure that you update it once publishing important news or projects etc.</lI>
 			</ul>
 		</div>
 	</div>

@@ -1,7 +1,7 @@
 ---
 title: "Creating a text image split module"
 date: 2019-02-17T09:51:04Z
-lastmod: 2019-02-17
+lastmod: 2019-04-01
 draft: false
 type: Creating modules
 weight: "10"
@@ -213,8 +213,8 @@ menu:
 			<p>Once you've created your module, you can begin adding content.</p>
 			<p><i>Fields marked with * MUST be completed</i></p>
 			<ul>
-				<li>Title - The title field is used for adding a caption over your image. This will appear in white text, overlaid in the bottom corner of your image</li>
-				<li><b>Image*</b> - Add your module's image to this field. The image should be resized to 680px wide by 720px high. For more information on preparing images, please see the image guide.</li>
+				<li><b>Title</b> - The title field is used for adding a caption over your image. This will appear in white text, overlaid in the bottom corner of your image</li>
+				<li><b>Image*</b> - Add your module's image to this field. The image should be resized to 680px wide by 720px high. For more information on preparing images, please see the <a href="/getting-started/image-preparation/">image guide</a>.</li>
 				<li><b>Mobile image</b> - You can add an alternative image for use on mobile devices - but the site will automatically resize your main image for use across all devices.</li>
 				<li><b>Heading</b> - you can add a heading for the copy in your module. This will set immediately above your main copy.</li>
 				<li><b>Body*</b> - enter your main copy in here. Click 'Show editor' to begin adding copy. Please note, you should not enter too much copy here as lengthy copy will distort your image. Once you've added the module to your page via the Experience Editor, you'll be able to see if your text is too long</li>
@@ -314,7 +314,7 @@ menu:
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
 			<p><b>Example 3 - Too much text added to the module</b></p>
-			<p>The copy should be no longer than 1/2 paragraphs. Due to the responsive design, if you make this copy longer, it will stretch the length of the image in smaller screens and take a long time for the user to scroll through the page. This can be seen in the e.g. below:</p>
+			<p>The copy should be no longer than 1/2 paragraphs. Due to the responsive design, if you make this copy longer, it will stretch the length of the image in smaller screens and take a long time for the user to scroll through the page. This can be seen in the example below:</p>
 			<ul class="featureList">
 				<li class="cross">Text length has stretched the image and takes up the full screen, hiding any content that may live beneath it</li>
 			</ul>
@@ -464,8 +464,7 @@ menu:
 				</li>
 			</ol>
 			<h5><a id="faq-fields" name="faq-fields"></a>1. Do I have to use the specific fields for links?</h5>
-			<p>A. No. If your main copy contains links then you can add links into this as you would in any other 'rich text' field. For further advice on adding links, please the links guide.</p>
-			<p>Ultimately the style of quote you use is decision you need to make when building your page.</p>
+			<p>A. No. If your main copy contains links then you can add links into this as you would in any other 'rich text' field. For further advice on adding links, please the <a href="/getting-started/adding-links/">links guide</a>.</p>
 			<h5><a id="faq-multiple" name="faq-multiple"></a>2. Can I add multiple text image splits to a page?</h5>
 			<p>A. Yes. Theoretically you can add as many as you wish. However, you should consider the advice given in the best practice guidance above. You should never do the following:</p>
 			<ul>

@@ -1,7 +1,7 @@
----
+f---
 title: "Working with rich text"
 date: 2019-02-17T11:32:53Z
-lastmod: 2019-02-17
+lastmod: 2019-04-01
 draft: false
 type: Getting started
 weight: "2"
@@ -211,7 +211,7 @@ menu:
 			<p>A. There are a number of reasons for why your formatting may not appear correctly. These include:</p>
 			<ul>
 				<li>Pasting content directly from Word - this may add additional HTML into the editor which impacts how content is displayed. To prevent this, try to always copy content into Notepad (or another text editor) first, then copy from Notepad into the Rich Text Editor</li>
-				<li>Incorrect use of paragraph tags - by default, Sitecore will wrap content in paragraph tags each time you hit 'return' or 'enter' when using the Rich Text Editor. If you 'double space' as you may when using Word, you'll likely see large gaps between your paragraphs. Simply delete one of the additional lines you've add to rectify this</li>
+				<li>Incorrect use of paragraph tags - by default, Sitecore will wrap content in paragraph tags each time you hit 'return' or 'enter' when using the Rich Text Editor. If you 'double space' as you may when using Word, you'll likely see large gaps between your paragraphs. Simply delete one of the additional lines you've added to rectify this</li>
 				<li>Additional paragraph tags or line breaks sometimes get added at the end of content - place your cursor at the very end of your content and ensure that there are no lines below your final word. If there are, simply delete these</li>
 			</ul>
 		</div>
@@ -225,7 +225,7 @@ menu:
 			<p>Using the correct heading format is important chiefly from an SEO perspective. Google and other search engines look for specific signals within your content when they index it. One of these is the structure of the page's underlying HTML. Ensuring good structure boosts the chances of Google et al viewing the page favourably and therefore being returned higher up the search results.</p>
 			<p></p>
 			<h5><a id="faq-images" name="faq-images"></a>3. Why shouldn't I add images in the Rich Text Editor?</h5>
-			<p>arup.com is designed to responsive - i.e. to work on any device. Achieving this is a complex process, particularly when it comes to imagery. To ensure images work correctly across all devices, specific modules have been designed for incorporating imagery into your work. These are coded to allow images to resize and reshape depending on the screen size of the user.</p>
+			<p>arup.com is designed to be responsive - i.e. to work on any device. Achieving this is a complex process, particularly when it comes to imagery. To ensure images work correctly across all devices, specific modules have been designed for incorporating imagery into your work. These are coded to allow images to resize and reshape depending on the screen size of the user.</p>
 			<p>If you add imagery via the Editor, this code will not be in place. If you viewed your content on a mobile device, you'd likely see a full size image 'breaking' the display and disappearing off the edge of your screen. This is a bad user experience and reflects badly on the Arup digital brand.</p>
 		</div>
 	</div>

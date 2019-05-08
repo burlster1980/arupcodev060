@@ -1,7 +1,7 @@
 ---
 title: "Creating a publication promo module"
 date: 2019-02-17T01:18:33Z
-lastmod: 2019-02-17
+lastmod: 2019-04-01
 ddraft: false
 type: Creating modules
 weight: "5"
@@ -143,9 +143,9 @@ menu:
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
 			<h2>4. Creating a publication promo module</h2>
-			<p>To add a video module, you must first create it within the Content Editor. Once this has been created, you can add the module to your page using the Experience Editor.</p>
+			<p>To add a publication promo module, you must first create it within the Content Editor. Once this has been created, you can add the module to your page using the Experience Editor.</p>
 			<ul>
-				<li>" Right click on the 'Local content' folder and choose '<b>Insert &gt; Publication promo</b>' from the popup</li>
+				<li>Right click on the 'Local content' folder and choose '<b>Insert &gt; Publication promo</b>' from the popup</li>
 			</ul>
 			<div class="training-image"><img alt="Image" class="mainImg" src="/images/publication-promo/create-promo.jpg"></div>
 			<div class="halfbleed__detail">
@@ -168,9 +168,9 @@ menu:
 			<ul>
 				<li><b>Promo title</b> - You can add a title to the module. This will appear to the top left of the module</li>
 				<li><b>Promo link</b> - you can choose to add a link to the module. This will generally be used to link to a 'set' of publications for example you may link to 'see all research publications'*</li>
-				<li><b>Publications</b>* - you can select up to 4 publications to display. Click 'Edit' and from the resulting popup, browse the content tree to find the publications you want to choose. Double click each publication you want to add so that it appears in the right hand column. Once you've selected your publications, click 'OK' to close the popup. Your chosen publications should then be on display. Please see the screenshots below for more details on this^</li>
+				<li><b>Publications</b>* - you can select up to 4 publications to display. Click 'Edit' and from the resulting popup, browse the content tree to find the publications you want to choose. Double click each publication you want to add so that it appears in the right hand column. Once you've selected your publications, click 'OK' to close the popup. Your chosen publications should then be on display. Please see the screenshots below for more details on this</li>
 			</ul>
-			<p>*Please see the guide to <a href="/getting-started/adding-links/">adding links</a> for more information on how to add this link</p>
+			<p>Please see the guide to <a href="/getting-started/adding-links/">adding links</a> for more information on how to add this link</p>
 			<div class="training-image"><img alt="Image" class="mainImg" src="/images/publication-promo/select-publications.jpg"></div>
 			<div class="halfbleed__detail">
 				Fig 2: Selecting Publications - this screenshot is an example of the new field that will be in place as of August 2018. 'Related Projects' will be replaced by the label 'Publications'
@@ -181,7 +181,7 @@ menu:
 				Fig 3: From the resulting popup / modal window, you can select your publications. Browse the content tree and select up to 4 publications.
 			</div>
 			<ul>
-				<li><b>Hide count</b> - The module can show the total number of publications available on arup.com. This number is displayed next to the Publication Title content. Generally you should not select this option, or ensure it's unchecked</li>
+				<li><b>Hide count</b> - The module can show the total number of publications available on arup.com (referred to as 'publication count' throughout this document. This number is displayed next to the Publication Title content. Generally you should not select this option, or ensure it's unchecked</li>
 			</ul>
 			<div class="training-image"><img alt="Image" class="mainImg" src="/images/publication-promo/complete-promo.jpg"></div>
 			<div class="halfbleed__detail">
@@ -206,7 +206,7 @@ menu:
 			<p>In the example below, publication promo is presented with all relevant fields present</p>
 			<p>It has:</p>
 			<ul class="featureList">
-				<li class="tick">4 publications have been selected from a single category</li>
+				<li class="tick">4 publications selected from a single category</li>
 				<li class="tick">Title introducing the content is present</li>
 				<li class="tick">Link to see all 'research' publications present</li>
 			</ul>
@@ -415,7 +415,7 @@ menu:
 			<h5><a id="faq-amount" name="faq-amount"></a>1. I've got less than 4 publications to highlight. Can I use the module?</h5>
 			<p>A. Yes. The module is designed to support less than 4 publications - though presentationally it looks better with 4.</p>
 			<h5><a id="faq-one" name="faq-one"></a>2. Can I only have one publication?</h5>
-			<p>A. No. If you only have a single publication to highlight, you instead consider using the Publication module (link). This is specifically designed for use with a single publication - and will work harder for you.</p>
+			<p>A. No. If you only have a single publication to highlight, you instead consider using the Publication module (guide under development). This is specifically designed for use with a single publication - and will work harder for you.</p>
 			<h5><a id="faq-where" name="faq-where"></a>3. Where can I put the module?</h5>
 			<p>A. You can add this module anywhere within your content. However, you should consider your location carefully. When user clicks a publication, they'll be taken to that page - will your users have learnt enough to leave your page before this happens?</p>
 			<h5><a id="faq-title" name="faq-title"></a>4. Do I have to add a title to the module?</h5>

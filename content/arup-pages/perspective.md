@@ -268,8 +268,7 @@ To help address this global issue, we have launched a <a href="/perspectives/pub
 <section class="container" id="video">
         <div class="rich-text">
             <div class="reveal rich-text__content">
-                <h2>A new way of thinking</h2>
-<p>But improvements in fire safety can and have been made in informal settlements. A <a href="/perspectives/publications/research/section/a-framework-for-fire-safety-in-informal-settlements">new framework from Arup</a> brings together our expertise in fire engineering and international development, to provide NGOs, aid organisations and governments with a new way to think about the fire risks in these settlements. By understanding fire risks at the household, community and city scales, we&rsquo;ve defined potential interventions to help communities to mitigate this risk, as well as ways to prepare, respond and recover from a fire-related disaster.</p>
+                <iframe width="853" height="480" src="https://my.matterport.com/show/?m=B4TK5bxXbdE" frameborder="0" allowfullscreen allow="vr"></iframe>
             </div>
         </div>
 </section>
