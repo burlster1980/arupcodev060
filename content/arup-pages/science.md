@@ -257,10 +257,22 @@ The number of multiple-author scientific papers with collaborators from more tha
         <div class="split-pic__inner">
             <div class="split-pic__copy">
                 <h3 class="h4">Francis Crick Institute</h3>
+                <p>In creating Europe's largest biomedical research facility, Arup was tasked with locating over 1,200 scientists under one roof - delivering an 85,000m<sup>2</sup> building in the heart of London.</p>
+                <a class="cta cta--black cta--small" href="/perspectives/publications/research/section/future-of-labs" hidelinkdescription="True">
+                <span class="cta__icon icon icon-oval" style="background-image: none;"><svg width="42" height="42" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
+                <span class="cta__text">Learn more about this project</span>
+                </a>
             </div>
         </div>
     </div>
 </section>
-
+    <section class="container" id="">
+        <div class="rich-text">
+            <div class="reveal rich-text__content">
+                <P>These changing requirements will necessitate a more innovative and unified view of future facilities. Through designing and engineering for the sharing of knowledge, the exchange of people’s personal skills, and the initiation of integrated research programmes we will continue to facilitate the development of world-class institutions which will enhance global strategic partnerships. 
+ </P>
+            </div>
+        </div>
+    </section>
 
 </article>
