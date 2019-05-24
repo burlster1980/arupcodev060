@@ -1,4 +1,8 @@
 
+.meganav-group__title>a {
+  color:inherit!important;
+ }
+
 @media (min-width:768px) {
   .container.homepage {
     max-width:1260px;
@@ -241,4 +245,10 @@ ul.list-navigation li.previous span {
 
 ul.list-navigation li.next span {
 float:;
+ }
+
+ /* careers navigation */
+
+ .meganav-group__title>a {
+  color:inherit!important;
  }

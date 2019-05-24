@@ -1,0 +1,10 @@
+/* nav fiddles */
+
+.meganav-action, .meganav-group__title>a {
+  color:white!important;
+ }
+
+ .meganav-action:hover {
+ 	color:white!important;
+ }
+

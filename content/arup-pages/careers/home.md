@@ -2,7 +2,7 @@
 title: "Home"
 date: 2019-02-28T22:26:05Z
 draft: false
-type: perspective
+type: careers
 ---
 
 <section id="search-results" class="search-results">
