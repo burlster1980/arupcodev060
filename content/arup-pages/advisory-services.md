@@ -425,6 +425,10 @@ We  undertook an independent threat assessment before commencement and reviewed 
                     <h3 class="preview-copy__title ">Strategy and insights</h3>
                     <div class="preview-copy__copy-wrap">
                             <p class="preview-copy__copy">Developing plans that realise new opportunities or respond to market change.</p>
+                    <span class="cta cta--black cta--small cta--right cta--plain">
+                        <span data-grunticon-embed class="icon icon-oval"></span>
+                        <span>Discover more</span>
+                    </span>
                     </div>
                 </div>
             </div>
@@ -449,6 +453,10 @@ We  undertook an independent threat assessment before commencement and reviewed 
                     <h3 class="preview-copy__title ">Finance and economics</h3>
                     <div class="preview-copy__copy-wrap">
                             <p class="preview-copy__copy">Guiding successful investments in built environemnt</p>
+                            <span class="cta cta--black cta--small cta--right cta--plain">
+                        <span data-grunticon-embed class="icon icon-oval"></span>
+                        <span>Discover more</span>
+                    </span>
                     </div>
                 </div>
             </div>
@@ -475,6 +483,10 @@ We  undertook an independent threat assessment before commencement and reviewed 
                     <h3 class="preview-copy__title ">Programme and project management</h3>
                     <div class="preview-copy__copy-wrap">
                             <p class="preview-copy__copy">Delivering major programmes and projects with confidence</p>
+                            <span class="cta cta--black cta--small cta--right cta--plain">
+                        <span data-grunticon-embed class="icon icon-oval"></span>
+                        <span>Discover more</span>
+                    </span>
                     </div>
                 </div>
             </div>
@@ -499,6 +511,10 @@ We  undertook an independent threat assessment before commencement and reviewed 
                     <h3 class="preview-copy__title ">Assets and operations</h3>
                     <div class="preview-copy__copy-wrap">
                             <p class="preview-copy__copy">Ensuring organisations benefit from high performance assets and facilities</p>
+                            <span class="cta cta--black cta--small cta--right cta--plain">
+                        <span data-grunticon-embed class="icon icon-oval"></span>
+                        <span>Discover more</span>
+                    </span>
                     </div>
                 </div>
             </div>
@@ -523,6 +539,10 @@ We  undertook an independent threat assessment before commencement and reviewed 
                     <h3 class="preview-copy__title ">People and organisations</h3>
                     <div class="preview-copy__copy-wrap">
                             <p class="preview-copy__copy">Getting people and organisations ready for change</p>
+                            <span class="cta cta--black cta--small cta--right cta--plain">
+                        <span data-grunticon-embed class="icon icon-oval"></span>
+                        <span>Discover more</span>
+                    </span>
                     </div>
                 </div>
             </div>
