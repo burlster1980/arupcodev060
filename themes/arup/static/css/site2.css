@@ -2043,7 +2043,7 @@ main.cookie-active {
 
 .arup-logo a {
     display: block;
-    background: url(../images/logo-home.svg) no-repeat 0 0;
+    background: url(https://www.arup.com/images/logo-home.svg) no-repeat 0 0;
     background-size: 100% 100%;
     text-indent: -2000em;
     width: 67px;
@@ -2064,15 +2064,15 @@ main.cookie-active {
 }
 
 .arup-logo--alt a {
-    background-image: url(../images/logo-home--white.svg)
+    background-image: url(https://www.arup.com/images/logo-home--white.svg)
 }
 
 .arup-logo.arup-logo a {
-    background-image: url(../images/logo-home.svg)
+    background-image: url(https://www.arup.com/images/logo-home.svg)
 }
 
 .header--transparent .arup-logo a {
-    background-image: url(../images/logo-home--white.svg)
+    background-image: url(https://www.arup.com/images/logo-home--white.svg)
 }
 
 .global-wrapper.menu--active,

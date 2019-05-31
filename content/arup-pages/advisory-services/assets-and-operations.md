@@ -462,14 +462,7 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
         </div>
     </div>
 </div>
-<section class="container">
-		<header class="section-header ">
-			<div class="section-header__title-wrap section-title section-title--nopad">
-				<h4 class="section-title__title">Discover our advisory services</h4>
-			</div>
-		</header>
-	</section>
-	<section class="featured-pub content-slider content-slider--overflow content-slider--dt-md reveal content-slider--compact">
+<section class="featured-pub content-slider content-slider--overflow content-slider--dt-md reveal content-slider--compact">
     <div class="container">
         <hr />
         <div class="tabs">
@@ -477,19 +470,19 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                 <span class="prev icon icon-next" data-grunticon-embed></span>
                 <span class="next icon icon-next" data-grunticon-embed></span>
             </div>
-                <div class="tab"><a href="#tab1-5" class="">People and organisations</a></div>
-                <div class="tab"><a href="#tab1-6" class="">Strategy and insight</a></div>
-                <div class="tab"><a href="#tab1-7" class="">Finance and economics</a></div>
-                <div class="tab"><a href="#tab1-8" class="">Programme and project management</a></div>
+                <div class="tab"><a href="#tab1-9" class="">People and organisations</a></div>
+                <div class="tab"><a href="#tab1-5" class="">Strategy and insights</a></div>
+                <div class="tab"><a href="#tab1-6" class="">Finance and economics</a></div>
+                <div class="tab"><a href="#tab1-7" class="">Programme and project management</a></div>
         </div>
     </div>
     <div class="container js-box-car-container">
         <div class="js-box-car-ctrl"></div>
         <div class="content-slider__carousel">
-                        <div class="content-slider__slide" id="tab1-5">
+                        <div class="content-slider__slide" id="tab1-9">
                             <div class="split-box ">
                                 <div class="split-box__pic-wrap">
-                                    <div class="split-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/programmeprojectmanagementbeijing-national-aquatics-centre-the-water-cubec-ben-mcmillan.jpg?h=1125&la=en&w=2000&hash=7C9E58B20393B979BA333C821C5D6737A43EE4DF');"></div>
+                                    <div class="split-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/organisation-behaviour-park_avenue_plaza_new_york_scott_frances_otto-2000x1125.jpg?h=1126&la=en&w=2000&hash=6726D59F1EBFF805C4F8A8A96A2782FDE44E067B');"></div>
                                 </div>
                                 <div class="split-box__content">
                                     <div class="summary-info">
@@ -499,47 +492,11 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                                                     <span class="cta-title__copy">People and organisations</span>
                                                 </a>
                                             </h3>
-                                                                                    <p class="summary-info__copy">Whatever their core business, our clients are united by the desire to improve their performance, secure value for money, and achieve the required financial return. </p><P class="summary-info__copy">Our Advisory Services team offers a wide range of finance and economics expertise, helping clients to understand what’s driving their market, make sound investments and stay on top of the many related technical, commercial and operational issues they face.</p>                                       
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content-slider__slide" id="tab1-3">
-                            <div class="split-box ">
-                                <div class="split-box__pic-wrap">
-                                    <div class="split-box__pic" style="background-image: url('/images/data-center.jpg');"></div>
-                                </div>
-                                <div class="split-box__content">
-                                    <div class="summary-info">
-                                            <h3 class="summary-info__title cta-title">
-                                                <a href="/projects/malampaya-ace" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
+                                                                                    <p class="summary-info__copy">At moments of business change, like major expansions, getting the right mix of people skills and knowledge right is pivotal to success. Our team are experts in behavioural change, business psychology and leadership techniques that can help an organisation to stay ahead.</p>
+                                                                                    <a href="/arup-pages/advisory-services/people-and-organisations/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span class="cta-title__copy">Strategy and insight</span>
+                                                    <span>Find out more people and organisations</span>
                                                 </a>
-                                            </h3>
-                                                                                    <p class="summary-info__copy">Arup audited a portfolio of data centres operated by outsourced managed service partners across a range of owned and collocated sites, against the client’s corporate standards for physical security.
-</p><p class="summary-info__copy">
-The audit covered the sites’ procedures for establishing the level of physical and personnel security, the resilience of critical building services, the actual measures and the process for continual appraisal and review.
-</p><p class="summary-info__copy">
-We  undertook an independent threat assessment before commencement and reviewed the site operator’s security documentation set. Our report highlighted areas of concern and risk mitigation measures where appropriate. The audit formed part of a five year rolling assessment programme.</p>                                     
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content-slider__slide" id="tab1-4">
-                            <div class="split-box ">
-                                <div class="split-box__pic-wrap">
-                                    <div class="split-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/l/ld6/0508skarupsloughhi089.jpg?h=1125&la=en&w=2000&hash=3514581E0438A08D7337FED3EA15401FCE0523CF');"></div>
-                                </div>
-                                <div class="split-box__content">
-                                    <div class="summary-info">
-                                            <h3 class="summary-info__title cta-title">
-                                                <a href="/projects/gip-renewables-deal" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
-                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span class="cta-title__copy">Strategy and insights</span>
-                                                </a>
-                                            </h3>
-                                                                                    <p class="summary-info__copy">Developing plans that realise new opportunities</p>
                                     </div>
                                 </div>
                             </div>
@@ -547,17 +504,21 @@ We  undertook an independent threat assessment before commencement and reviewed 
                         <div class="content-slider__slide" id="tab1-5">
                             <div class="split-box ">
                                 <div class="split-box__pic-wrap">
-                                    <div class="split-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/l/ld6/0508skarupsloughhi089.jpg?h=1125&la=en&w=2000&hash=3514581E0438A08D7337FED3EA15401FCE0523CF');"></div>
+                                    <div class="split-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/business-investor-advisory-convention-centre-dublin_11733-exterior-view-from-southside-with-dock-0.jpg?h=1125&la=en&w=2000&hash=023110A9725D844A2BE72E7E4B5327353434ABD7');"></div>
                                 </div>
                                 <div class="split-box__content">
                                     <div class="summary-info">
                                             <h3 class="summary-info__title cta-title">
-                                                <a href="/projects/gip-renewables-deal" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
+                                                <a href="/arup-pages/advisory-services/strategy-and-insight/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
                                                     <span class="cta-title__copy">Strategy and insights</span>
                                                 </a>
                                             </h3>
-                                                                                    <p class="summary-info__copy">Developing plans that realise new opportunities</p>
+                                                                                    <p class="summary-info__copy">Arup’s Advisory Services team develops strategies that help organisations face the future. We conduct market and competitor analysis, stress testing proposed corporate strategies against market developments. We bring much-needed objectivity, providing leaders with insights into new trends and developing issues that will shape their future success. Our mantra: to lead is to know.</p> 
+                                                                                    <a href="/arup-pages/advisory-services/strategy-and-insight/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                                                    <span>Find out more about strategy and insights</span>
+                                                </a>                                      
                                     </div>
                                 </div>
                             </div>
@@ -565,17 +526,43 @@ We  undertook an independent threat assessment before commencement and reviewed 
                         <div class="content-slider__slide" id="tab1-6">
                             <div class="split-box ">
                                 <div class="split-box__pic-wrap">
-                                    <div class="split-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/l/ld6/0508skarupsloughhi089.jpg?h=1125&la=en&w=2000&hash=3514581E0438A08D7337FED3EA15401FCE0523CF');"></div>
+                                    <div class="split-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/p/presidio-parkway/presidio-parkway-hero-2000x1125-ethan-rohloff.jpg?h=1125&la=en&w=2000&hash=DE4A06FDD8AE7FEDA12DB6B47DE2A87D29ABBEC8');"></div>
                                 </div>
                                 <div class="split-box__content">
                                     <div class="summary-info">
                                             <h3 class="summary-info__title cta-title">
-                                                <a href="/projects/gip-renewables-deal" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
+                                                <a href="/arup-pages/advisory-services/finance-and-economics/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span class="cta-title__copy">Strategy and insights</span>
+                                                    <span class="cta-title__copy">Finance and economics</span>
                                                 </a>
                                             </h3>
-                                                                                    <p class="summary-info__copy">Developing plans that realise new opportunities</p>
+                                                                                    <p class="summary-info__copy">Our Advisory Services team offers a wide range of finance and economics expertise, helping clients to understand what’s driving their market, make sound investments and stay on top of the many related technical, commercial and operational issues they face.</p>
+                                                                                    <a href="/arup-pages/advisory-services/finance-and-economics/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                                                    <span>Find out more finance and economics</span>
+                                                </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-slider__slide" id="tab1-7">
+                            <div class="split-box ">
+                                <div class="split-box__pic-wrap">
+                                    <div class="split-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/programmeprojectmanagementbeijing-national-aquatics-centre-the-water-cubec-ben-mcmillan.jpg?h=1125&la=en&w=2000&hash=7C9E58B20393B979BA333C821C5D6737A43EE4DF');"></div>
+                                </div>
+                                <div class="split-box__content">
+                                    <div class="summary-info">
+                                            <h3 class="summary-info__title cta-title">
+                                                <a href="/arup-pages/advisory-services/programme-and-project-management/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
+                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                                                    <span class="cta-title__copy">Programme and project management</span>
+                                                </a>
+                                            </h3>
+                                                                                    <p class="summary-info__copy">Whatever the project, bringing in a dedicated programme or project management team offers clients many advantages. Responsible and creative leadership. Insights drawn from other sectors. An experienced team, confident to take on the largest and most complex projects.</p>
+<a href="/arup-pages/advisory-services/programme-and-project-management/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                                                    <span>Find out more programme and project management</span>
+                                                </a>
                                     </div>
                                 </div>
                             </div>

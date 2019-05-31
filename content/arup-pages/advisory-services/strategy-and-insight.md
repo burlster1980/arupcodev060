@@ -207,17 +207,61 @@ type: perspective
 	<section class="container">
 		<div class="rich-text">
 			<div class="reveal rich-text__content">
-				<p>Arup’s Advisory Services team develops strategies that help organisations face the future. We conduct market and competitor analysis, stress testing proposed corporate strategies against market developments. We bring much-needed objectivity, providing leaders with insights into new trends and developing issues that will shape their future success. Our mantra: to lead is to know.</P>
+                <H2>Making change work for you</H2>
+				<p>We help organisations to make their biggest decisions. Clients approach us, needing to redefine their purpose or take bold steps in new directions. For some, regulation is remaking their industry or technology providing new opportunities. For others, a merger or acquisition is a chance to revisit their overall strategy. Some simply want to respond to tougher competition.</p><h2>
+Crafting successful strategies</h2><P>
+We conduct market and competitor analysis, defining and stress testing corporate strategies to help them stay ahead of market developments. Our team will research a client’s market position, working out how they can best prepare for change, expand their services or enter new markets. We provide valuable objectivity and offer leaders insights into the trends and developing issues that will shape their future success. </P><P>
+We worked with Swedish utility company Vattenfall, to help them develop a UK electricity distribution business, one that could compete successfully in a new market against established competitors. We helped them understand the territory and organise a successful renewable energy operation from the ground up.   
+</P>
 			</div>
 		</div>
 	</section>
+    <section class="highlight-section">
+    <div class="dynamic-feat container">
+    <div class="  dynamic-feat__hero">
+    <div class="preview-card preview-card--hero">
+        <a href="#" class="preview-card__header preview-card__header--pic">
+            <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/m/midwifery-leadership-development-programme/2000x1125-bonniekittle122261.jpg?h=1125&la=en&w=2000&hash=84879B826C7D5BA2040AD25F3058C786EDD2653F');">
+            </div>
+        </a>
+        <div class="preview-card__content ">
+            <div class="preview-card__main">
+                <div class="preview-copy">
+                    <a href="/perspectives/can-the-smart-city-be-ethical-with-its-data" class="preview-copy__toplink">
+                        <h4 class="preview-copy__label label--md">
+                            Article
+                        </h4>
+                        <h3 class="preview-copy__title ">Vattenfall example project</h3>
+                        <div class="preview-copy__copy-wrap">
+                                <p class="preview-copy__copy">Intro teaser copy goes here - one to two sentences encouraging the user to click through and learn more</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <footer class="preview-card__footer">
+    <div class="preview-foot">
+                    <div class="preview-card__cta preview-card__cta--foot">
+                <a href="/perspectives/can-the-smart-city-be-ethical-with-its-data">
+                    <span class="cta cta--black cta--small cta--right cta--plain">
+                        <span data-grunticon-embed class="icon icon-oval"></span>
+                        <span>Read about this project</span>
+                    </span>
+                </a>
+            </div>
+    </div>
+</footer>
+        </div>
+    </div>
+</div>
+</div>
+</section>
 	<section class="container">
 		<div class="rich-text">
 			<div class="reveal rich-text__content">
 				<h2>Foresight: how to stay future-focused</h2><P>
-Global issues are becoming local priorities. From the unsustainable use of plastics, to climate change and digital transformation, in a globalised economy few businesses are immune to change. 
+Global issues are becoming local priorities. From the unsustainable use of plastics, to climate change and digital transformation, in a globalised economy few businesses are immune to emerging trends. 
 </P>
-<P>We work in every sector to help clients discover what’s possible, probable or preferable. That means everything from helping transit authorities to plan new services with greater confidence, to reimagining mail and parcel logistics, or plotting the future shape of rail systems. 
+<P>Foresight helps clients in every sector to work out what’s possible, probable or preferable. That means everything from helping transit authorities to plan new services with greater confidence, to reimagining mail and parcel logistics, or plotting the future shape of rail systems. 
 </P>
 			</div>
 		</div>
@@ -231,8 +275,8 @@ Global issues are becoming local priorities. From the unsustainable use of plast
         <div class="split-pic__content">
             <div class="split-pic__inner">
                 <div class="split-pic__copy">
-                    <h3 class="h4">Foresight, research and innovation</h3>
-                    <p>Our experts help organisations to navigate a successful path, anticipating trends that represent market possibilities and potential growth. Our researchers map out and model the most realistic scenarios clients face, before collaborating with clients to develop strategies that work for organisations and their people.</p>
+                    <h3 class="h4"></h3>
+                    <p>Our Foresight, Research and Innovation team helps organisations to navigate a successful path, anticipating trends that represent market possibilities and potential growth. Our researchers map out and model the most pressing scenarios clients face, before collaborating with them to develop strategies that work for their organisations.</p>
                     <h5></h5>
                     <hr>
                     <ul class="list list--links">
@@ -268,9 +312,9 @@ Global issues are becoming local priorities. From the unsustainable use of plast
 		<div class="rich-text">
 			<div class="reveal rich-text__content">
 				<h2>Sustainability: an issue for every business</h2><P>
-After slowly growing in importance for over two decades, sustainability is now a pressing concern to every business. Regulations are changing the business landscape as countries sharpen their response to climate change. Investors are looking to new sources or diversifying away from fossil fuel related funds. 
+After slowly growing in importance for over two decades, sustainability is now a pressing concern to every business. Regulations are changing the business landscape as countries sharpen their response to climate change. Investors are looking to new sources or diversifying away from fossil fuel related funds.  
 </P>
-<P>Growing your business in a sustainable manner poses challenges, from energy and resource use to new paradigms like circular economy and restorative production principles. Many clients are setting ambitious carbon reduction targets and need help to make the required organisational changes.</P>
+<P>Growing your business in a sustainable manner poses challenges. Many clients are setting ambitious carbon reduction targets or want to shift to restorative production and need help to make the required organisational changes. </P>
 			</div>
 		</div>
 	</section>
@@ -301,7 +345,7 @@ After slowly growing in importance for over two decades, sustainability is now a
 		<div class="rich-text">
 			<div class="reveal rich-text__content">
 				<h2>Leading the shift to a circular economy</h2><P>
-Some clients are becoming interested in aligning their business to circular economy principles, where assets or buildings or production are designed for future re-use, keeping resources at the most valuable for longer.  
+From entire cities like Amsterdam, to major infrastructure clients like HS2, clients in many sectors are considering aligning their businesses or operations with circular economy principles. In this more sustainable future, assets are designed for re-use, and the era of take/make/dispose comes to an end.  
 </P>
 			</div>
 		</div>
@@ -319,7 +363,7 @@ Some clients are becoming interested in aligning their business to circular econ
                     </a>
                 <a class="cta cta--black cta--lg" href="/perspectives/publications/speeches-and-lectures/section/ove-arup-key-speech?itc_source=arup.com&itc_medium=publicationA&itc_campaign=ABtestB">
                 <span data-grunticon-embed class="icon icon-oval"></span>
-                <span>Download Circular Economy in the Built Environment</span>
+                <span>Download the publication</span>
                 </a>
                 </div>
             <div class="publications__items">
@@ -339,7 +383,7 @@ Some clients are becoming interested in aligning their business to circular econ
 		<div class="rich-text">
 			<div class="reveal rich-text__content">
 				<P>
-We are a knowledge partner to the <a href="#">Ellen MacArthur Foundation</a>, and are leading the way in the adoption of circular economy thinking in the built environment 
+For the last three years we have been the global built environment knowledge partner to the <a href="#">Ellen MacArthur Foundation</a>, leading the way in the adoption of circular economy thinking in the built environment. Using this approach, we reduced waste on an HS2 project by a significant 50%. Working at a larger urban scale, find out how we planned a district of West London, designing its potential regeneration and future operation according to circular principles. 
 </P>
 			</div>
 		</div>
@@ -495,13 +539,13 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
     </div>
 </div>
 <section class="container">
-		<header class="section-header ">
-			<div class="section-header__title-wrap section-title section-title--nopad">
-				<h4 class="section-title__title">Discover our advisory services</h4>
-			</div>
-		</header>
-	</section>
-	<section class="featured-pub content-slider content-slider--overflow content-slider--dt-md reveal content-slider--compact">
+        <header class="section-header ">
+            <div class="section-header__title-wrap section-title section-title--nopad">
+                <h4 class="section-title__title">Discover our advisory services</h4>
+            </div>
+        </header>
+    </section>
+    <section class="featured-pub content-slider content-slider--overflow content-slider--dt-md reveal content-slider--compact">
     <div class="container">
         <hr />
         <div class="tabs">
@@ -509,16 +553,16 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                 <span class="prev icon icon-next" data-grunticon-embed></span>
                 <span class="next icon icon-next" data-grunticon-embed></span>
             </div>
-                <div class="tab"><a href="#tab1-2" class="">Finances and economics</a></div>
-                <div class="tab"><a href="#tab1-3" class="">Programme and project management</a></div>
-                <div class="tab"><a href="#tab1-4" class="">Assets and operations</a></div>
-                <div class="tab"><a href="#tab1-5" class="">People and organisations</a></div>
+                <div class="tab"><a href="#tab1-6" class="">Finance and economics</a></div>
+                <div class="tab"><a href="#tab1-7" class="">Programme and project management</a></div>
+                <div class="tab"><a href="#tab1-8" class="">Assets and operations</a></div>
+                <div class="tab"><a href="#tab1-9" class="">People and organisations</a></div>
         </div>
     </div>
     <div class="container js-box-car-container">
         <div class="js-box-car-ctrl"></div>
         <div class="content-slider__carousel">
-                        <div class="content-slider__slide" id="tab1-2">
+                        <div class="content-slider__slide" id="tab1-6">
                             <div class="split-box ">
                                 <div class="split-box__pic-wrap">
                                     <div class="split-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/p/presidio-parkway/presidio-parkway-hero-2000x1125-ethan-rohloff.jpg?h=1125&la=en&w=2000&hash=DE4A06FDD8AE7FEDA12DB6B47DE2A87D29ABBEC8');"></div>
@@ -531,52 +575,38 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                                                     <span class="cta-title__copy">Finance and economics</span>
                                                 </a>
                                             </h3>
-                                                                                    <p class="summary-info__copy">Whatever their core business, our clients are united by the desire to improve their performance, secure value for money, and achieve the required financial return. </p><P class="summary-info__copy">Our Advisory Services team offers a wide range of finance and economics expertise, helping clients to understand what’s driving their market, make sound investments and stay on top of the many related technical, commercial and operational issues they face.</p>                                       
+                                                                                    <p class="summary-info__copy">Our Advisory Services team offers a wide range of finance and economics expertise, helping clients to understand what’s driving their market, make sound investments and stay on top of the many related technical, commercial and operational issues they face.</p>
+                                                                                    <a href="/arup-pages/advisory-services/finance-and-economics/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                                                    <span>Find out more finance and economics</span>
+                                                </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="content-slider__slide" id="tab1-3">
+                        <div class="content-slider__slide" id="tab1-7">
                             <div class="split-box ">
                                 <div class="split-box__pic-wrap">
-                                    <div class="split-box__pic" style="background-image: url('/images/data-center.jpg');"></div>
+                                    <div class="split-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/programmeprojectmanagementbeijing-national-aquatics-centre-the-water-cubec-ben-mcmillan.jpg?h=1125&la=en&w=2000&hash=7C9E58B20393B979BA333C821C5D6737A43EE4DF');"></div>
                                 </div>
                                 <div class="split-box__content">
                                     <div class="summary-info">
                                             <h3 class="summary-info__title cta-title">
-                                                <a href="/projects/malampaya-ace" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
+                                                <a href="/arup-pages/advisory-services/programme-and-project-management/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span class="cta-title__copy">Data centre security audit</span>
+                                                    <span class="cta-title__copy">Programme and project management</span>
                                                 </a>
                                             </h3>
-                                                                                    <p class="summary-info__copy">Arup audited a portfolio of data centres operated by outsourced managed service partners across a range of owned and collocated sites, against the client’s corporate standards for physical security.
-</p><p class="summary-info__copy">
-The audit covered the sites’ procedures for establishing the level of physical and personnel security, the resilience of critical building services, the actual measures and the process for continual appraisal and review.
-</p><p class="summary-info__copy">
-We  undertook an independent threat assessment before commencement and reviewed the site operator’s security documentation set. Our report highlighted areas of concern and risk mitigation measures where appropriate. The audit formed part of a five year rolling assessment programme.</p>                                     
+                                                                                    <p class="summary-info__copy">Whatever the project, bringing in a dedicated programme or project management team offers clients many advantages. Responsible and creative leadership. Insights drawn from other sectors. An experienced team, confident to take on the largest and most complex projects.</p>
+<a href="/arup-pages/advisory-services/programme-and-project-management/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                                                    <span>Find out more programme and project management</span>
+                                                </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="content-slider__slide" id="tab1-4">
-                            <div class="split-box ">
-                                <div class="split-box__pic-wrap">
-                                    <div class="split-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/l/ld6/0508skarupsloughhi089.jpg?h=1125&la=en&w=2000&hash=3514581E0438A08D7337FED3EA15401FCE0523CF');"></div>
-                                </div>
-                                <div class="split-box__content">
-                                    <div class="summary-info">
-                                            <h3 class="summary-info__title cta-title">
-                                                <a href="/projects/gip-renewables-deal" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
-                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span class="cta-title__copy">Strategy and insights</span>
-                                                </a>
-                                            </h3>
-                                                                                    <p class="summary-info__copy">Developing plans that realise new opportunities</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content-slider__slide" id="tab1-5">
+                        <div class="content-slider__slide" id="tab1-8">
                             <div class="split-box ">
                                 <div class="split-box__pic-wrap">
                                     <div class="split-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/l/ld6/0508skarupsloughhi089.jpg?h=1125&la=en&w=2000&hash=3514581E0438A08D7337FED3EA15401FCE0523CF');"></div>
@@ -586,10 +616,38 @@ We  undertook an independent threat assessment before commencement and reviewed 
                                             <h3 class="summary-info__title cta-title">
                                                 <a href="/projects/gip-renewables-deal" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span class="cta-title__copy">Strategy and insights</span>
+                                                    <span class="cta-title__copy">Assets and operations</span>
                                                 </a>
                                             </h3>
-                                                                                    <p class="summary-info__copy">Developing plans that realise new opportunities</p>
+                                                                                    <p class="summary-info__copy">Our service has two dimensions: asset strategy and asset operations, meaning we can help clients at both the broadest and most tactical levels.
+</p><p class="summary-info__copy">
+Taking a new approach to your business’ assets can optimise your wider operations: from the level of service offered to financial performance achieved, from regulatory compliance to their overall reputation in the market.</p>
+<a href="/arup-pages/advisory-services/assets-and-operations/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                                                    <span>Find out more assets and operations</span>
+                                                </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-slider__slide" id="tab1-9">
+                            <div class="split-box ">
+                                <div class="split-box__pic-wrap">
+                                    <div class="split-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/organisation-behaviour-park_avenue_plaza_new_york_scott_frances_otto-2000x1125.jpg?h=1126&la=en&w=2000&hash=6726D59F1EBFF805C4F8A8A96A2782FDE44E067B');"></div>
+                                </div>
+                                <div class="split-box__content">
+                                    <div class="summary-info">
+                                            <h3 class="summary-info__title cta-title">
+                                                <a href="/arup-pages/advisory-services/people-and-organisations/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
+                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                                                    <span class="cta-title__copy">People and organisations</span>
+                                                </a>
+                                            </h3>
+                                                                                    <p class="summary-info__copy">At moments of business change, like major expansions, getting the right mix of people skills and knowledge right is pivotal to success. Our team are experts in behavioural change, business psychology and leadership techniques that can help an organisation to stay ahead.</p>
+                                                                                    <a href="/arup-pages/advisory-services/people-and-organisations/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                                                    <span>Find out more people and organisations</span>
+                                                </a>
                                     </div>
                                 </div>
                             </div>
