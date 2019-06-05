@@ -215,94 +215,6 @@ From this point we work closely with clients to define a more effective asset ma
             </div>
         </div>
 </section>
-<section class="container">
-    <div class="dynamic-feat">
-            <header class="dynamic-feat__header">
-                <div class="dynamic-feat__title-wrap">
-                    <h4 class="dynamic-feat__title">Some projects on site?</h4>
-                </div>
-            </header>
-        <div class="dynamic-feat__list">
-            <ul class="up-list">
-<li class="up-list__item up-list__item--three">
-    <div class="preview-card ">
-            <a href="/perspectives/cities-alive-urban-childhood" class="preview-card__header preview-card__header--pic">
-                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/o/old-oak-and-park-royal-circular-economy-study/nadineshaabana161337arupcom.jpg?h=1125&la=en&w=2000&hash=E2AD52F5D25FF31FFA8B7A0AC455B642943A73C0');">
-                </div>
-            </a>
-        <div class="preview-card__content preview-card__content--alt-style">
-            <div class="preview-card__main">
-                <div class="preview-copy">
-                    <a href="/perspectives/cities-alive-urban-childhood" class="preview-copy__toplink">
-                        <h4 class="preview-copy__label label--md">
-                            Article
-                        </h4>
-                        <h3 class="preview-copy__title ">Applying circular economy principles to the UK's largest regeneration site</h3>
-                            <div class="preview-copy__copy-wrap">
-                                <p class="preview-copy__copy">The first study of its kind in London assesses the main opportunities to minimise waste and create circular flows of materials for the United Kingdom’s largest regeneration site.</p>
-                            </div>
-                    </a>
-                </div>
-            </div>
-            <footer class="preview-card__footer">
-    
-</footer>
-        </div>
-    </div>
-</li>
-<li class="up-list__item up-list__item--three">
-    <div class="preview-card ">
-            <a href="/perspectives/stopping-the-spread-a-new-framework-for-fire-safety" class="preview-card__header preview-card__header--pic">
-                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/perspectives/themes/water/water-and-circular-economy/2000x1125-john-salzarulo-138022.jpg?h=1125&la=en&w=2000&hash=10C14903280CC3043C7F6D51BBCCF4834908FE5F');">
-                </div>
-            </a>
-        <div class="preview-card__content preview-card__content--alt-style">
-            <div class="preview-card__main">
-                <div class="preview-copy">
-                    <a href="/perspectives/stopping-the-spread-a-new-framework-for-fire-safety" class="preview-copy__toplink">
-                        <h4 class="preview-copy__label label--md">
-                            Article
-                        </h4>
-                        <h3 class="preview-copy__title ">Exploring the circular economy with Yorkshire Water</h3>
-                            <div class="preview-copy__copy-wrap">
-                                <p class="preview-copy__copy">Arup was commissioned to identify how the Circular Economy concept can be applied to its operations. We undertook a high-level study, based upon the principles of the Circular Economy Framework</p>
-                            </div>
-                    </a>
-                </div>
-            </div>
-            <footer class="preview-card__footer">
-</footer>
-        </div>
-    </div>
-</li>
-<li class="up-list__item up-list__item--three">
-    <div class="preview-card ">
-            <a href="/perspectives/property-hits-the-digital-tipping-point" class="preview-card__header preview-card__header--pic">
-                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/l/london-waste-and-recycling-board-circular-economy/henrybe229092forarupcom.jpg?h=1125&la=en&w=2000&hash=3C0B43BC400C271CAD0B8EA608FE571D679D1434');">
-                </div>
-            </a>
-        <div class="preview-card__content preview-card__content--alt-style">
-            <div class="preview-card__main">
-                <div class="preview-copy">
-                    <a href="/perspectives/property-hits-the-digital-tipping-point" class="preview-copy__toplink">
-                        <h4 class="preview-copy__label label--md">
-                            Article
-                        </h4>
-                        <h3 class="preview-copy__title ">London Waste and Recycling Board (LWARB) circular economy study</h3>
-                            <div class="preview-copy__copy-wrap">
-                                <p class="preview-copy__copy">Aruo worked with LWARB to develop an evidence-based impact assessment model to investigate the effect of applying circular economy initiatives to waste arisings across London.</p>
-                            </div>
-                    </a>
-                </div>
-            </div>
-            <footer class="preview-card__footer">
-</footer>
-        </div>
-    </div>
-</li>            </ul>
-        </div>
-    </div>
-</section>
 <section class="container" id="">
         <div class="rich-text">
             <div class="reveal rich-text__content">
@@ -312,29 +224,66 @@ The transaction is done. You’ve taken receipt of a complicated asset. You now 
             </div>
         </div>
 </section>
-<section class="split-pic highlight-section">
-        <div class="split-pic__pic-wrap split-pic__pic-wrap--frame">
-            <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/q/queensferry-crossing/2000x1125-queensferry-landscape-complete.jpg?h=1125&la=en&w=2000&hash=3DAF444E7D38816E53717F3099EE1459499A41E4')"></div>
-            <div class="split-pic__pic split-pic__pic--mobile" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/q/queensferry-crossing/2000x1125-queensferry-landscape-complete.jpg?h=1125&la=en&w=2000&hash=3DAF444E7D38816E53717F3099EE1459499A41E4')"></div>
-            <p class="split-pic__caption"></p>
-        </div>
-        <div class="split-pic__content">
-            <div class="split-pic__inner">
-                <div class="split-pic__copy">
-                    <h3 class="h4">Example here</h3>
-                    <p>Arup was selected by Transport Scotland as part of a joint venture, to develop the Queensferry Crossing specimen design, prepare the contract documentation and project-manage the new cable-stayed bridge, which crosses the river Forth near Edinburgh.</p>
-                    <h5></h5>
-                    <hr>
-                    <ul class="list list--links">
-                        <li>
-                            <a class="cta cta--black cta--small" href="/projects/acorn"><span class="icon icon-oval" style="background-image: none;"><svg height="42" viewbox="0 0 42 42" width="42" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="20" cy="20" fill="none" r="20" stroke="#FFF" stroke-linecap="square" transform="translate(1 1)"></circle></svg></span> <span class="cta__text">Learn more</span></a>
-                        </li>
-                    </ul>
+<section class="container">
+    <div class=" dynamic-feat reveal">
+            <header class="dynamic-feat__header">
+                <div class="dynamic-feat__title-wrap">
+                    <h4 class="dynamic-feat__title"></h4>
+                </div>
+            </header>
+        <div class="dynamic-feat__list">
+            <ul class="up-list">
+<li class="up-list__item up-list__item--two">
+    <a href="/expertise/services/planning/smart-cities" class="preview-card ">
+            <header class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/b/building-resilience-in-bangladesh/2000x1125salineareaswatersupplyprojectbangladeshcarup.jpg?h=1125&la=en&w=2000&hash=E7372A49DB7B5D977742687F1F271C161F8718DB');"></div>
+            </header>
+        <div class="preview-card__content preview-card__content--alt-style">
+            <div class="preview-card__main">
+                <div class="preview-copy">
+                    <h4 class="preview-copy__label label--md">
+                        Project
+                    </h4>
+                    <h3 class="preview-copy__title ">Helping to build resilience in Bangladesh</h3>
+                    <div class="preview-copy__copy-wrap">
+                            <p class="preview-copy__copy">Arup’s Australasia team met with the Bangladeshi government and UNOPS to advise on asset management practices for rural and urban infrastructure in the country, including roads and small-scale water resources. Through a series of workshops, we focused on finding practical asset management systems and processes to support the LGED.</p>
+                    </div>
                 </div>
             </div>
+            <footer class="preview-card__footer">
+                <div class="preview-foot">
+                </div>
+            </footer>
         </div>
-    </section>
+    </a>
+</li>
+<li class="up-list__item up-list__item--two">
+    <a href="/expertise/services/planning/smart-cities" class="preview-card ">
+            <header class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/images/projects/t/taoyuan_international_airport_terminal_3/new-ones/headertaoyuan-airport-terminal-3-taiwanc-ceci--rshp--arup--fca-jv.jpg?h=1125&la=en&w=2000&hash=CD95AAAE2DAE2C8908AF89A0DD80D9FACCFA7580');"></div>
+            </header>
+        <div class="preview-card__content preview-card__content--alt-style">
+            <div class="preview-card__main">
+                <div class="preview-copy">
+                    <h4 class="preview-copy__label label--md">
+                        Project
+                    </h4>
+                    <h3 class="preview-copy__title ">Western Sydney International aiport</h3>
+                    <div class="preview-copy__copy-wrap">
+                            <p class="preview-copy__copy">Arup has worked with the WSI to develop a Concept of Operations (ConOps) Strategy that’s in line with the corporate strategy, outlining operational processes and procedures needed to ensure the new airport runs smoothly from day one.</p>
+                    </div>
+                </div>
+            </div>
+            <footer class="preview-card__footer">
+                <div class="preview-foot">
+                </div>
+            </footer>
+        </div>
+    </a>
+</li>         </ul>
+        </div>
+    </div>
+</section>
     <section class="container" id="">
         <div class="rich-text">
             <div class="reveal rich-text__content">
@@ -354,7 +303,7 @@ There’s no more pivotal business moment than launching a new service or major 
 <div class="dynamic-feat__hero">
     <div class="preview-card preview-card--hero">
         <a href="#" class="preview-card__header preview-card__header--pic">
-            <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/images/projects/e/emirates_terminal_dubai_airport/gallery1_t3-night.jpg?h=1125&la=en&w=2000&hash=4374E8ED44A640CF5FD7A425E8FB4D4B60780D57');">
+            <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/k/kaohsiung-port-terminal/kaohsiung-cruise-terminalthe-boarding-gate2000x1125c-reiser--umemoto-rur-architecture-pc7.jpg?h=1125&la=en&w=2000&hash=0EE5A7A61E1839689F8AE63764F762066C2C0460');">
             </div>
         </a>
         <div class="preview-card__content ">
@@ -364,9 +313,9 @@ There’s no more pivotal business moment than launching a new service or major 
                         <h4 class="preview-copy__label label--md">
                             Article
                         </h4>
-                        <h3 class="preview-copy__title ">Emirates Terminal 3 Dubai Airport</h3>
+                        <h3 class="preview-copy__title ">Brisbane International Cruise Terminal</h3>
                         <div class="preview-copy__copy-wrap">
-                                <p class="preview-copy__copy">The Arup operational readiness and airport transition team managed every step of Emirates’ and Dubai Airport’s move, from construction project to fully operational environment.</p>
+                                <p class="preview-copy__copy">In collaboration with key PoB stakeholders, Arup is developing an Operational Readiness strategy to set the direction for the opening of the terminal in 2020. This detailed strategy outlines best-practice approaches to governance, training, proving trials, activation and community engagement to seamlessly transition the new terminal from a construction state into a live operation.</p>
                         </div>
                     </a>
                 </div>
@@ -493,9 +442,9 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                                                 </a>
                                             </h3>
                                                                                     <p class="summary-info__copy">At moments of business change, like major expansions, getting the right mix of people skills and knowledge right is pivotal to success. Our team are experts in behavioural change, business psychology and leadership techniques that can help an organisation to stay ahead.</p>
-                                                                                    <a href="/arup-pages/advisory-services/people-and-organisations/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+                                                                                    <a href="/arup-pages/advisory-services/people-and-organisations/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" >
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span>Find out more people and organisations</span>
+                                                    <span>Find out more about people and organisations</span>
                                                 </a>
                                     </div>
                                 </div>
@@ -515,7 +464,7 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                                                 </a>
                                             </h3>
                                                                                     <p class="summary-info__copy">Arup’s Advisory Services team develops strategies that help organisations face the future. We conduct market and competitor analysis, stress testing proposed corporate strategies against market developments. We bring much-needed objectivity, providing leaders with insights into new trends and developing issues that will shape their future success. Our mantra: to lead is to know.</p> 
-                                                                                    <a href="/arup-pages/advisory-services/strategy-and-insight/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+                                                                                    <a href="/arup-pages/advisory-services/strategy-and-insight/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" >
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
                                                     <span>Find out more about strategy and insights</span>
                                                 </a>                                      
@@ -537,9 +486,9 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                                                 </a>
                                             </h3>
                                                                                     <p class="summary-info__copy">Our Advisory Services team offers a wide range of finance and economics expertise, helping clients to understand what’s driving their market, make sound investments and stay on top of the many related technical, commercial and operational issues they face.</p>
-                                                                                    <a href="/arup-pages/advisory-services/finance-and-economics/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+                                                                                    <a href="/arup-pages/advisory-services/finance-and-economics/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" >
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span>Find out more finance and economics</span>
+                                                    <span>Find out more about finance and economics</span>
                                                 </a>
                                     </div>
                                 </div>
@@ -555,13 +504,13 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                                             <h3 class="summary-info__title cta-title">
                                                 <a href="/arup-pages/advisory-services/programme-and-project-management/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span class="cta-title__copy">Programme and project management</span>
+                                                    <span class="cta-title__copy">Programmes and projects</span>
                                                 </a>
                                             </h3>
                                                                                     <p class="summary-info__copy">Whatever the project, bringing in a dedicated programme or project management team offers clients many advantages. Responsible and creative leadership. Insights drawn from other sectors. An experienced team, confident to take on the largest and most complex projects.</p>
-<a href="/arup-pages/advisory-services/programme-and-project-management/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+<a href="/arup-pages/advisory-services/programme-and-project-management/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" >
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span>Find out more programme and project management</span>
+                                                    <span>Find out more about programmes and projects</span>
                                                 </a>
                                     </div>
                                 </div>

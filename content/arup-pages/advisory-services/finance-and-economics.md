@@ -219,7 +219,7 @@ Our Advisory Services team offers a wide range of finance and economics expertis
             <div class="reveal rich-text__content">
                 <h2>Asking and answering the right questions
 </h2><P>
-We help clients ask tough questions. Is the project financially and commercially feasible? Does the project align with public policy goals and does it deliver social and economic benefits? Will the costs be sustainable? What’s the right commercial delivery structure or procurement model? We develop a compelling business case underpinned by sound economic and financial modelling, vital to the decision-making process. On larger-scale projects and program, our economics team can research and evaluate the wider macro-economic value of a proposed scheme.
+We help clients ask tough questions:</P><ul><li><P>Is the project financially and commercially feasible?</P></li><li><p>Does the project align with public policy goals and does it deliver social and economic benefits?</p></li><li><p>Will the costs be sustainable?</p></li><li><p>What’s the right commercial delivery structure or procurement model?</p></li></ul><p>We develop a compelling business case underpinned by sound economic and financial modelling, vital to the decision-making process. On larger-scale projects and program, our economics team can research and evaluate the wider macro-economic value of a proposed scheme.
 </P><h2>Worldwide support
 </h2>
 <P>We work with clients across the energy and utilities, public sector infrastructure, transport and property sectors worldwide. By drawing on the insights and experience of sector experts from across Arup’s 90 disciplines, we can deliver joined-up, evidence-based advice. In addition, Arup is authorised by the <a href="#">UK’s Financial Conduct Authority</a> to provide corporate finance advice and is registered with the <a href="#">US Securities and Exchange Commission</a> and <a href="#">Municipal Securities Rulemaking Board</a> as a Municipal Advisor.</P>
@@ -341,8 +341,8 @@ Our work helps our public-sector clients to create and grow their programs in al
         <div class="split-pic__content">
             <div class="split-pic__inner">
                 <div class="split-pic__copy">
-                    <h3 class="h4">Project example related title here</h3>
-                    <p>Our collaborative approach can be applied to funding too. We structured the funding using flexible models like public-private partnerships (PPP), which was vital to the success of San Francisco’s Presidio Parkway scheme.</p>
+                    <h3 class="h4">Presidio Parkway</h3>
+                    <p>Our collaborative approach can be applied to funding too. We structured the funding for San Francisco's Presidio Parkway Scheme using flexible models like public-private partnerships (PPP).</p>
                     <P>This text may need tweaking a little to give proper context</P>
                     <h5></h5>
                     <hr>
@@ -366,17 +366,17 @@ Our economics team brings analytical rigour to proposed schemes right from the s
 	</section>
 	<section class="container">
     <div class="dynamic-feat">
-            <header class="dynamic-feat__header">
+            <!--<header class="dynamic-feat__header">
                 <div class="dynamic-feat__title-wrap">
                     <h4 class="dynamic-feat__title">Some projects on site?</h4>
                 </div>
-            </header>
+            </header>-->
         <div class="dynamic-feat__list">
             <ul class="up-list">
 <li class="up-list__item up-list__item--three">
     <div class="preview-card ">
             <a href="/perspectives/cities-alive-urban-childhood" class="preview-card__header preview-card__header--pic">
-                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/o/old-oak-and-park-royal-circular-economy-study/nadineshaabana161337arupcom.jpg?h=1125&la=en&w=2000&hash=E2AD52F5D25FF31FFA8B7A0AC455B642943A73C0');">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/w/wash-in-dry-corridor-of-guatemala/cover-photo.jpg?h=405&la=en&mw=720&w=720&hash=5028CF682403E9642A6646C16D6BAF5D3A6D0ED1');">
                 </div>
             </a>
         <div class="preview-card__content preview-card__content--alt-style">
@@ -386,9 +386,9 @@ Our economics team brings analytical rigour to proposed schemes right from the s
                         <h4 class="preview-copy__label label--md">
                             Article
                         </h4>
-                        <h3 class="preview-copy__title ">Applying circular economy principles to the UK's largest regeneration site</h3>
+                        <h3 class="preview-copy__title ">Reducing waste treatment at the largest landfill in the city of Da Nang</h3>
                             <div class="preview-copy__copy-wrap">
-                                <p class="preview-copy__copy">The first study of its kind in London assesses the main opportunities to minimise waste and create circular flows of materials for the United Kingdom’s largest regeneration site.</p>
+                                <p class="preview-copy__copy">Our Business & Investor Advisory team educated the government stakeholders on investment requirements and the importance of building PPP frameworks in to the deal structure to maximise market appetite and competitiveness.</p>
                             </div>
                     </a>
                 </div>
@@ -402,7 +402,7 @@ Our economics team brings analytical rigour to proposed schemes right from the s
 <li class="up-list__item up-list__item--three">
     <div class="preview-card ">
             <a href="/perspectives/stopping-the-spread-a-new-framework-for-fire-safety" class="preview-card__header preview-card__header--pic">
-                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/perspectives/themes/water/water-and-circular-economy/2000x1125-john-salzarulo-138022.jpg?h=1125&la=en&w=2000&hash=10C14903280CC3043C7F6D51BBCCF4834908FE5F');">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/s/sunny-bay-station/disneyland-resort-line-2000x1125c-arup6.jpg?h=1125&la=en&w=2000&hash=BFC771D2C55C00AED39E651BB1B5F2C0A6553DB9');">
                 </div>
             </a>
         <div class="preview-card__content preview-card__content--alt-style">
@@ -412,9 +412,9 @@ Our economics team brings analytical rigour to proposed schemes right from the s
                         <h4 class="preview-copy__label label--md">
                             Article
                         </h4>
-                        <h3 class="preview-copy__title ">Exploring the circular economy with Yorkshire Water</h3>
+                        <h3 class="preview-copy__title ">Using land value capture to reinvest in Bristol Temple Meads community</h3>
                             <div class="preview-copy__copy-wrap">
-                                <p class="preview-copy__copy">Arup was commissioned to identify how the Circular Economy concept can be applied to its operations. We undertook a high-level study, based upon the principles of the Circular Economy Framework</p>
+                                <p class="preview-copy__copy">The project demonstrated an integrated approach to unlocking real estate development, capturing land value uplift and investing in the station.</p>
                             </div>
                     </a>
                 </div>
@@ -427,7 +427,7 @@ Our economics team brings analytical rigour to proposed schemes right from the s
 <li class="up-list__item up-list__item--three">
     <div class="preview-card ">
             <a href="/perspectives/property-hits-the-digital-tipping-point" class="preview-card__header preview-card__header--pic">
-                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/l/london-waste-and-recycling-board-circular-economy/henrybe229092forarupcom.jpg?h=1125&la=en&w=2000&hash=3C0B43BC400C271CAD0B8EA608FE571D679D1434');">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/n/new-york-city-green-infrastructure/newtown1_2000x1125_arup.jpg?h=1125&la=en&w=2000&hash=91C76C0849DB7FD5FB796E44358A7A8F9FA51B33');">
                 </div>
             </a>
         <div class="preview-card__content preview-card__content--alt-style">
@@ -437,9 +437,9 @@ Our economics team brings analytical rigour to proposed schemes right from the s
                         <h4 class="preview-copy__label label--md">
                             Article
                         </h4>
-                        <h3 class="preview-copy__title ">London Waste and Recycling Board (LWARB) circular economy study</h3>
+                        <h3 class="preview-copy__title ">Advising on 500MW Asia Pacific renewable energy deal for the Green Investment Group</h3>
                             <div class="preview-copy__copy-wrap">
-                                <p class="preview-copy__copy">Aruo worked with LWARB to develop an evidence-based impact assessment model to investigate the effect of applying circular economy initiatives to waste arisings across London.</p>
+                                <p class="preview-copy__copy">Arup worked on behalf of GIG to acquire energy developer Conergy Asia’s business along with a portfolio of operational renewable energy assets. Our team provided technical and operational due diligence advisory services to support the business evaluation process.</p>
                             </div>
                     </a>
                 </div>
@@ -529,7 +529,7 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                 <span class="prev icon icon-next" data-grunticon-embed></span>
                 <span class="next icon icon-next" data-grunticon-embed></span>
             </div>
-                <div class="tab"><a href="#tab1-7" class="">Programme and project management</a></div>
+                <div class="tab"><a href="#tab1-7" class="">Programmes and projects</a></div>
                 <div class="tab"><a href="#tab1-8" class="">Assets and operations</a></div>
                 <div class="tab"><a href="#tab1-9" class="">People and organisations</a></div>
                 <div class="tab"><a href="#tab1-5" class="">Strategy and insights</a></div>
@@ -548,11 +548,11 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                                             <h3 class="summary-info__title cta-title">
                                                 <a href="/arup-pages/advisory-services/programme-and-project-management/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span class="cta-title__copy">Programme and project management</span>
+                                                    <span class="cta-title__copy">Programmes and projects</span>
                                                 </a>
                                             </h3>
                                                                                     <p class="summary-info__copy">Whatever the project, bringing in a dedicated programme or project management team offers clients many advantages. Responsible and creative leadership. Insights drawn from other sectors. An experienced team, confident to take on the largest and most complex projects.</p>
-<a href="/arup-pages/advisory-services/programme-and-project-management/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+<a href="/arup-pages/advisory-services/programme-and-project-management/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" >
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
                                                     <span>Find out more programme and project management</span>
                                                 </a>
@@ -576,7 +576,7 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                                                                                     <p class="summary-info__copy">Our service has two dimensions: asset strategy and asset operations, meaning we can help clients at both the broadest and most tactical levels.
 </p><p class="summary-info__copy">
 Taking a new approach to your business’ assets can optimise your wider operations: from the level of service offered to financial performance achieved, from regulatory compliance to their overall reputation in the market.</p>
-<a href="/arup-pages/advisory-services/assets-and-operations/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+<a href="/arup-pages/advisory-services/assets-and-operations/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" >
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
                                                     <span>Find out more assets and operations</span>
                                                 </a>
@@ -598,7 +598,7 @@ Taking a new approach to your business’ assets can optimise your wider operati
                                                 </a>
                                             </h3>
                                                                                     <p class="summary-info__copy">At moments of business change, like major expansions, getting the right mix of people skills and knowledge right is pivotal to success. Our team are experts in behavioural change, business psychology and leadership techniques that can help an organisation to stay ahead.</p>
-                                                                                    <a href="/arup-pages/advisory-services/people-and-organisations/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+                                                                                    <a href="/arup-pages/advisory-services/people-and-organisations/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" >
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
                                                     <span>Find out more people and organisations</span>
                                                 </a>
@@ -620,7 +620,7 @@ Taking a new approach to your business’ assets can optimise your wider operati
                                                 </a>
                                             </h3>
                                                                                     <p class="summary-info__copy">Arup’s Advisory Services team develops strategies that help organisations face the future. We conduct market and competitor analysis, stress testing proposed corporate strategies against market developments. We bring much-needed objectivity, providing leaders with insights into new trends and developing issues that will shape their future success. Our mantra: to lead is to know.</p> 
-                                                                                    <a href="/arup-pages/advisory-services/strategy-and-insight/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+                                                                                    <a href="/arup-pages/advisory-services/strategy-and-insight/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" >
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
                                                     <span>Find out more about strategy and insights</span>
                                                 </a>                                      

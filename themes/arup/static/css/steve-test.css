@@ -178,6 +178,7 @@ padding:2rem 0 2rem;
 		position: initial;
 		float:right;
 		transform: initial;
+		-ms-transform: translateY(0px);
 		margin:0;
 	}
 }

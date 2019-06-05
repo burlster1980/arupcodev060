@@ -275,7 +275,7 @@ Global issues are becoming local priorities. From the unsustainable use of plast
         <div class="split-pic__content">
             <div class="split-pic__inner">
                 <div class="split-pic__copy">
-                    <h3 class="h4"></h3>
+                    <h3 class="h4">Foresight, research and innovation</h3>
                     <p>Our Foresight, Research and Innovation team helps organisations to navigate a successful path, anticipating trends that represent market possibilities and potential growth. Our researchers map out and model the most pressing scenarios clients face, before collaborating with them to develop strategies that work for their organisations.</p>
                     <h5></h5>
                     <hr>
@@ -400,7 +400,7 @@ For the last three years we have been the global built environment knowledge par
 <li class="up-list__item up-list__item--three">
     <div class="preview-card ">
             <a href="/perspectives/cities-alive-urban-childhood" class="preview-card__header preview-card__header--pic">
-                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/o/old-oak-and-park-royal-circular-economy-study/nadineshaabana161337arupcom.jpg?h=1125&la=en&w=2000&hash=E2AD52F5D25FF31FFA8B7A0AC455B642943A73C0');">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/m/m17-m18-motorway/m17m18cbarrow-coakley-photography2000x1125.jpg?h=1125&la=en&w=2000&hash=BBB1C27ED3DA58C353B3889749DB6446974FFEAD');">
                 </div>
             </a>
         <div class="preview-card__content preview-card__content--alt-style">
@@ -410,9 +410,9 @@ For the last three years we have been the global built environment knowledge par
                         <h4 class="preview-copy__label label--md">
                             Article
                         </h4>
-                        <h3 class="preview-copy__title ">Applying circular economy principles to the UK's largest regeneration site</h3>
+                        <h3 class="preview-copy__title ">Unlocking sustainable transport opportunities for Transport Infrastructure Ireland</h3>
                             <div class="preview-copy__copy-wrap">
-                                <p class="preview-copy__copy">The first study of its kind in London assesses the main opportunities to minimise waste and create circular flows of materials for the United Kingdom’s largest regeneration site.</p>
+                                <p class="preview-copy__copy">Our work will result in greater foresight for TII into the enterprise risks they face and will provide a sustainable funding strategy for the future of mobility in Ireland.</p>
                             </div>
                     </a>
                 </div>
@@ -426,7 +426,7 @@ For the last three years we have been the global built environment knowledge par
 <li class="up-list__item up-list__item--three">
     <div class="preview-card ">
             <a href="/perspectives/stopping-the-spread-a-new-framework-for-fire-safety" class="preview-card__header preview-card__header--pic">
-                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/perspectives/themes/water/water-and-circular-economy/2000x1125-john-salzarulo-138022.jpg?h=1125&la=en&w=2000&hash=10C14903280CC3043C7F6D51BBCCF4834908FE5F');">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/f/fishermans-bend/fishermansbend2000x1125.jpg?h=1125&la=en&w=2000&hash=F91A730B5B909CB3EE52FF0B2AAC088013308256');">
                 </div>
             </a>
         <div class="preview-card__content preview-card__content--alt-style">
@@ -436,9 +436,9 @@ For the last three years we have been the global built environment knowledge par
                         <h4 class="preview-copy__label label--md">
                             Article
                         </h4>
-                        <h3 class="preview-copy__title ">Exploring the circular economy with Yorkshire Water</h3>
+                        <h3 class="preview-copy__title ">Fishermans Bend</h3>
                             <div class="preview-copy__copy-wrap">
-                                <p class="preview-copy__copy">Arup was commissioned to identify how the Circular Economy concept can be applied to its operations. We undertook a high-level study, based upon the principles of the Circular Economy Framework</p>
+                                <p class="preview-copy__copy">We have been working with the City of Melbourne and the City of Port Phillip on this vast 500 hectare site, helping to inform an holistic approach to planning, infrastructure and development.</p>
                             </div>
                     </a>
                 </div>
@@ -451,7 +451,7 @@ For the last three years we have been the global built environment knowledge par
 <li class="up-list__item up-list__item--three">
     <div class="preview-card ">
             <a href="/perspectives/property-hits-the-digital-tipping-point" class="preview-card__header preview-card__header--pic">
-                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/l/london-waste-and-recycling-board-circular-economy/henrybe229092forarupcom.jpg?h=1125&la=en&w=2000&hash=3C0B43BC400C271CAD0B8EA608FE571D679D1434');">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/t/tonga-energy-roadmap/aerial-nukualofa-and-tongatapu-island_istock-515533270_2000x1125.jpg?h=1125&la=en&w=2000&hash=7C077FF8C8ADFACA0390AEAA4CA665E6B1137C1D');">
                 </div>
             </a>
         <div class="preview-card__content preview-card__content--alt-style">
@@ -461,9 +461,9 @@ For the last three years we have been the global built environment knowledge par
                         <h4 class="preview-copy__label label--md">
                             Article
                         </h4>
-                        <h3 class="preview-copy__title ">London Waste and Recycling Board (LWARB) circular economy study</h3>
+                        <h3 class="preview-copy__title ">Tonga energy roadmap</h3>
                             <div class="preview-copy__copy-wrap">
-                                <p class="preview-copy__copy">Aruo worked with LWARB to develop an evidence-based impact assessment model to investigate the effect of applying circular economy initiatives to waste arisings across London.</p>
+                                <p class="preview-copy__copy">Almost 80% of Tonga’s energy generation is from diesel. Fuel accounts for 25% of all imports by value. Arup is working to reduce Tonga’s vulnerability to oil price volatility and improve its economic and environmental position.</p>
                             </div>
                     </a>
                 </div>
@@ -576,7 +576,7 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                                                 </a>
                                             </h3>
                                                                                     <p class="summary-info__copy">Our Advisory Services team offers a wide range of finance and economics expertise, helping clients to understand what’s driving their market, make sound investments and stay on top of the many related technical, commercial and operational issues they face.</p>
-                                                                                    <a href="/arup-pages/advisory-services/finance-and-economics/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+                                                                                    <a href="/arup-pages/advisory-services/finance-and-economics/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
                                                     <span>Find out more finance and economics</span>
                                                 </a>
@@ -594,13 +594,13 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                                             <h3 class="summary-info__title cta-title">
                                                 <a href="/arup-pages/advisory-services/programme-and-project-management/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span class="cta-title__copy">Programme and project management</span>
+                                                    <span class="cta-title__copy">Programmes and projects</span>
                                                 </a>
                                             </h3>
                                                                                     <p class="summary-info__copy">Whatever the project, bringing in a dedicated programme or project management team offers clients many advantages. Responsible and creative leadership. Insights drawn from other sectors. An experienced team, confident to take on the largest and most complex projects.</p>
-<a href="/arup-pages/advisory-services/programme-and-project-management/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+<a href="/arup-pages/advisory-services/programme-and-project-management/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span>Find out more programme and project management</span>
+                                                    <span>Find out more about programmes and projects</span>
                                                 </a>
                                     </div>
                                 </div>
@@ -622,7 +622,7 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                                                                                     <p class="summary-info__copy">Our service has two dimensions: asset strategy and asset operations, meaning we can help clients at both the broadest and most tactical levels.
 </p><p class="summary-info__copy">
 Taking a new approach to your business’ assets can optimise your wider operations: from the level of service offered to financial performance achieved, from regulatory compliance to their overall reputation in the market.</p>
-<a href="/arup-pages/advisory-services/assets-and-operations/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+<a href="/arup-pages/advisory-services/assets-and-operations/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
                                                     <span>Find out more assets and operations</span>
                                                 </a>
@@ -644,7 +644,7 @@ Taking a new approach to your business’ assets can optimise your wider operati
                                                 </a>
                                             </h3>
                                                                                     <p class="summary-info__copy">At moments of business change, like major expansions, getting the right mix of people skills and knowledge right is pivotal to success. Our team are experts in behavioural change, business psychology and leadership techniques that can help an organisation to stay ahead.</p>
-                                                                                    <a href="/arup-pages/advisory-services/people-and-organisations/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+                                                                                    <a href="/arup-pages/advisory-services/people-and-organisations/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" >
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
                                                     <span>Find out more people and organisations</span>
                                                 </a>

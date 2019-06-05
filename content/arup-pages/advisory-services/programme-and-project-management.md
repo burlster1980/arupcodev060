@@ -17,7 +17,7 @@ type: perspective
                     <div class="page-info">
                         <div class="page-info__title feature-title">
                             <h3 class="feature-title__label">Services</h3>
-                            <h1 class="feature-title__title">Programme and project management</h1>
+                            <h1 class="feature-title__title">Programmes and projects</h1>
                         </div>
                         <div class="page-info__content">
                             <p class="page-info__copy"><p>Whatever the project, bringing in a dedicated programme or project management team offers clients many advantages. Responsible and creative leadership. Insights drawn from other sectors. An experienced team, confident to take on the largest and most complex projects.</p></p>
@@ -124,7 +124,7 @@ type: perspective
             </div>
         </div>
         <div class="utility-bar__breadcrumb">
-            <p class="utility-bar__page-title">Programme and project management</p>
+            <p class="utility-bar__page-title">Programms and projects</p>
             <p class="utility-bar__page-subtitle">Talk to Carol Lemmens about this service</p>
         </div>
 		<div class="utility-bar__contact">
@@ -213,17 +213,18 @@ type: perspective
             </div>
         </div>
 </section>
-<section class="split-pic highlight-section">
+<section class="split-pic ">
         <div class="split-pic__pic-wrap split-pic__pic-wrap--frame">
-            <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/q/queensferry-crossing/2000x1125-queensferry-landscape-complete.jpg?h=1125&la=en&w=2000&hash=3DAF444E7D38816E53717F3099EE1459499A41E4')"></div>
+            <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/s/smartgrid-smartcity/arupprojectsgovernmentsmartgridsmartcityau012000x1125.jpg?h=1125&la=en&w=2000&hash=87AE3F6F6A9C2CC3AED5C0BC55AB393409269F9F')"></div>
             <div class="split-pic__pic split-pic__pic--mobile" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/q/queensferry-crossing/2000x1125-queensferry-landscape-complete.jpg?h=1125&la=en&w=2000&hash=3DAF444E7D38816E53717F3099EE1459499A41E4')"></div>
             <p class="split-pic__caption"></p>
         </div>
         <div class="split-pic__content">
             <div class="split-pic__inner">
                 <div class="split-pic__copy">
-                    <h3 class="h4">Queensferry Crossing, Scotland</h3>
-                    <p>Arup was selected by Transport Scotland as part of a joint venture, to develop the Queensferry Crossing specimen design, prepare the contract documentation and project-manage the new cable-stayed bridge, which crosses the river Forth near Edinburgh.</p>
+                    <h3 class="h4">National Grid capital investment</h3>
+                    <p>National Grid needed to upgrade London’s aging electricity supply cables to meet increasing demand. Arup provided Programme Management Office (PMO) services, bringing together the existing projects and teams into a single delivery structure, with supporting personnel, systems and processes.</p>
+                    <P>The project was delivered six months early and over £50m below the budget approved by the NG board. </P>
                     <h5></h5>
                     <hr>
                     <ul class="list list--links">
@@ -244,15 +245,162 @@ On programme management commissions our perspective is even wider. We help clien
             </div>
         </div>
 </section>
+<section class="container">
+    <div class=" dynamic-feat reveal">
+            <header class="dynamic-feat__header">
+                <div class="dynamic-feat__title-wrap">
+                    <h4 class="dynamic-feat__title"></h4>
+                </div>
+            </header>
+        <div class="dynamic-feat__list">
+            <ul class="up-list">
+<li class="up-list__item up-list__item--two">
+    <a href="/expertise/services/planning/smart-cities" class="preview-card ">
+            <header class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/p/perth-airport-terminal-2/2000x1125-perth-airport-terminal-2-orat-implementationc-arup3.jpg?h=1322&la=en&w=2349&hash=9650C6EE0DEBA69200A78AD5FA396A449F9811E3');"></div>
+            </header>
+        <div class="preview-card__content preview-card__content--alt-style">
+            <div class="preview-card__main">
+                <div class="preview-copy">
+                    <h4 class="preview-copy__label label--md">
+                        Project
+                    </h4>
+                    <h3 class="preview-copy__title ">Delta Airlines hub move</h3>
+                    <div class="preview-copy__copy-wrap">
+                            <p class="preview-copy__copy">Delta needed to relocate its hub operations at Los Angeles International Airport (LAX) from Terminals 5 and 6 to 2 and 3. Arup was responsible for project managing all design activities on behalf of Delta Air Lines, which included three design teams working across five terminals.</p>
+                    </div>
+                </div>
+            </div>
+            <footer class="preview-card__footer">
+                <div class="preview-foot">
+                </div>
+            </footer>
+        </div>
+    </a>
+</li>
+<li class="up-list__item up-list__item--two">
+    <a href="/expertise/services/planning/smart-cities" class="preview-card ">
+            <header class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/s/st-elizabeth-hospital/stelizabethhospitalenumclaw2000x1125benjaminbenschneider.jpg?h=1125&la=en&w=2000&hash=1F3223B99A646EA5261C33F9C54AD88F020BC845');"></div>
+            </header>
+        <div class="preview-card__content preview-card__content--alt-style">
+            <div class="preview-card__main">
+                <div class="preview-copy">
+                    <h4 class="preview-copy__label label--md">
+                        Project
+                    </h4>
+                    <h3 class="preview-copy__title ">Queen Mary Hospital</h3>
+                    <div class="preview-copy__copy-wrap">
+                            <p class="preview-copy__copy">Arup provided project management services for X years with involvement at all stages from planning through to implementation. Our team developed a procurement strategy and tender documents to engage 50 specialist contractors. </p>
+                    </div>
+                </div>
+            </div>
+            <footer class="preview-card__footer">
+                <div class="preview-foot">
+                </div>
+            </footer>
+        </div>
+    </a>
+</li>        </ul>
+        </div>
+    </div>
+</section>
+
 <section class="container" id="">
         <div class="rich-text">
             <div class="reveal rich-text__content">
                 <h2>The information opportunity</h2><P>
-As the built environment becomes a fully digital realm, information management has become a more important business priority. Our digital services team are expert at setting up common data environments, managing clients’ overall information management requirements. This includes implementation of new BIM models that can support clients’ ongoing post-completion operations. Our visualisation experts can also find new ways to turn client information into valuable insights and services. Imagination is the only limitation.
+As the built environment becomes a fully digital realm, information management has become a more important business priority. Our digital services team are expert at setting up common data environments, managing clients’ overall information management requirements. This includes implementation of new <a href="#">BIM models</a> that can support clients’ ongoing post-completion operations. Our <a href="#">visualisation experts</a> can also find new ways to turn client information into valuable insights and services. Imagination is the only limitation.
 </P>
             </div>
         </div>
 </section>
+<section class="highlight-section">
+    <div class="container dynamic-feat reveal">
+           <header class="dynamic-feat__header">
+                <div class="dynamic-feat__title-wrap">
+                    <h4 class="dynamic-feat__title"></h4>
+                </div>
+            </header>
+        <div class="dynamic-feat__list">
+            <ul class="up-list">
+<li class="up-list__item up-list__item--three">
+    <a href="/expertise/services/planning/smart-cities" class="preview-card ">
+            <header class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/digital/digital-video-still227june.jpg?h=1125&la=en&w=2000&hash=2B0271135E65C171D2877E1731B5174B17D04A70');"></div>
+            </header>
+        <div class="preview-card__content ">
+            <div class="preview-card__main">
+                <div class="preview-copy">
+                    <h4 class="preview-copy__label label--md">
+                        Expertise
+                    </h4>
+                    <h3 class="preview-copy__title ">Digital</h3>
+                    <div class="preview-copy__copy-wrap">
+                            <p class="preview-copy__copy">From design to operation, emerging technologies like AI and augmented reality are challenging our assumptions about the built environment. Our clients look to us to integrate these cutting-edge technologies to create new experiences and services, and become leaders in their field. </p>
+                    </div>
+                </div>
+            </div>
+            <footer class="preview-card__footer">
+                <div class="preview-foot">
+                </div>
+            </footer>
+        </div>
+    </a>
+</li>
+<li class="up-list__item up-list__item--three">
+    <a href="/expertise/services/planning/smart-cities" class="preview-card ">
+            <header class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/bimtaipei-pop-music-center-tpmc-c-arup.jpg?h=1125&la=en&w=2000&hash=B367D1F2B41A091CB07341A745363243FB1C00CB');"></div>
+            </header>
+        <div class="preview-card__content ">
+            <div class="preview-card__main">
+                <div class="preview-copy">
+                    <h4 class="preview-copy__label label--md">
+                        Expertise
+                    </h4>
+                    <h3 class="preview-copy__title ">Building Information Modelling (BIM)</h3>
+                    <div class="preview-copy__copy-wrap">
+                            <p class="preview-copy__copy">Virtual design tools such as 3D modelling and simulation are becoming increasingly sophisticated and integrated. We believe their potential is best realised when they feed into an advanced design process that brings to life the interactions between designers and between each design element. </p>
+                    </div>
+                </div>
+            </div>
+            <footer class="preview-card__footer">
+                <div class="preview-foot">
+                </div>
+            </footer>
+        </div>
+    </a>
+</li>
+<li class="up-list__item up-list__item--three">
+    <a href="/expertise/services/planning/smart-cities" class="preview-card ">
+            <header class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/2-lldc_queen-elizabeth-park-_2030.jpg?h=1125&la=en&w=2000&hash=6F1E26E03836E2C8DA663FCB933217CB41D39EE1');"></div>
+            </header>
+        <div class="preview-card__content ">
+            <div class="preview-card__main">
+                <div class="preview-copy">
+                    <h4 class="preview-copy__label label--md">
+                        Expertise
+                    </h4>
+                    <h3 class="preview-copy__title ">Visualisation</h3>
+                    <div class="preview-copy__copy-wrap">
+                            <p class="preview-copy__copy">We combine design data from across all disciplines to create robust representations for architects, engineers, developers, planners and governments. These benefit any stage of a project – feasibility, early design, planning, consultation, detailed design or marketing. </p>
+                    </div>
+                </div>
+            </div>
+            <footer class="preview-card__footer">
+                <div class="preview-foot">
+                </div>
+            </footer>
+        </div>
+    </a>
+</li>
+         </ul>
+        </div>
+    </div>
+</section>
+
 <section class="container" id="">
         <div class="rich-text">
             <div class="reveal rich-text__content">

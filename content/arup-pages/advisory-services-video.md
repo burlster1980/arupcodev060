@@ -5,40 +5,64 @@ draft: false
 type: perspective
 ---
 
-<section class="fullbleed fullbleed--hero fullbleed--project ">
-    <div class="fullbleed__inner">
+<section class="fullbleed fullbleed--hero fullbleed--video">
     <div class="progressiveMedia">
-        <img src="https://www.arup.com/-/media/arup/images/projects/l/london-waste-and-recycling-board-circular-economy/henrybe229092forarupcom.jpg?h=6&amp;la=en&amp;mw=10&amp;w=10&amp;hash=42EE5581F00C56BCEA4FB1EBA0F1F3069107317B" class="tempImg" alt="Arup carried out an assessment of the potential for the circular economy to reduce London&#39;s waste by as high as 60% in less than 30 years" width="10" height="6" DisableWebEdit="False" />;
-        <img src="https://www.arup.com/-/media/arup/images/projects/l/london-waste-and-recycling-board-circular-economy/henrybe229092forarupcom.jpg?h=1125&amp;la=en&amp;w=2000&amp;hash=3C0B43BC400C271CAD0B8EA608FE571D679D1434" class="mainImg" alt="Arup carried out an assessment of the potential for the circular economy to reduce London&#39;s waste by as high as 60% in less than 30 years" width="2000" height="1125" DisableWebEdit="False" />;
+        <img src="https://www.arup.com/-/media/arup/images/perspectives/themes/cities/stopping-the-spread/bannerimagefireininformalsettlement2000x1125.jpg?h=6&amp;la=en&amp;mw=10&amp;w=10&amp;hash=5BC30A39A542D9E106E747181C4CF8FBE4D81058" class="tempImg" alt="Fire in an informal settlement" width="10" height="6" DisableWebEdit="False" />;
+        <img src="https://www.arup.com/-/media/arup/images/perspectives/themes/cities/stopping-the-spread/bannerimagefireininformalsettlement2000x1125.jpg?h=1125&amp;la=en&amp;w=2000&amp;hash=D3D4AEFA7D8AE033F0153CB8346BC3881181B0E8" class="mainImg" alt="Fire in an informal settlement" width="2000" height="1125" DisableWebEdit="False" />;
     </div>
-        <div class="fullbleed__alt-content">
-            <div class="container container--3col">
-                <div class="col col__main">
-                    <div class="page-info">
-                        <div class="page-info__title feature-title">
-                            <h3 class="feature-title__label">Services</h3>
-                            <h1 class="feature-title__title">Arup Advisory services: bringing clarity to your biggest decisions</h1>
-                        </div>
-                        <div class="page-info__content">
-                            <p class="page-info__copy"><p>The built environment shapes our lives, our work and our prosperity. In a fast-changing world, it's vital to work with a partner who understands how to help you to think log-term, design for success and invest wisely.</p></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <video preload="auto" loop="true" muted="muted" class="desktop-only">
+            <source src="/video/banner-video-1.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+    <div class="container fullbleed__container">
+        <div class="fullbleed__content fullbleed__content--hero">
+            <h1>Advisory services</h1>
+            <h4>Bringing clarity to your biggest decisions</h4>
         </div>
     </div>
-    <div class="fullbleed__outer">
-        <div class="container">
-            <div class="col">
-                <div class="page-info page-info--outer">
-                    <div class="page-info__content page-info__content--outer">
-                        <p class="page-info__copy"><p>Wide-ranging business insights, backed by technical and design expertise.</p></p>
-                    </div>
-                </div>
+        <div class="panel__scrollIcon">
+            <div class="icon">
+                <a href="#article-anchor" class="mouse anchor-scroll" aria-label="Scroll to next section">
+                    <svg width="23px" height="37px" viewBox="0 0 23 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel">
+                            <g id="Buttons/Links/Discover-Scroll" transform="translate(-1.000000, 0.000000)" stroke="#fff">
+                                <g id="mouse" transform="translate(2.000000, 1.000000)">
+                                    <rect id="Rectangle-3" x="0" y="0" width="21" height="35" rx="10.5"></rect>
+                                    <path d="M10.5,5.5 L10.5,11.5" id="Line"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+                <a href="#article-anchor" class="arrow" aria-label="Scroll to next section">
+                    <svg width="6px" height="17px" viewBox="0 0 6 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square" opacity="0.9" stroke-linejoin="bevel">
+                            <g id="Buttons/Links/Discover-Scroll" transform="translate(-29.000000, -12.000000)" stroke="#fff">
+                                <g id="Group" transform="translate(32.000000, 20.500000) rotate(-270.000000) translate(-32.000000, -20.500000) translate(24.500000, 17.500000)">
+                                    <path d="M0.0682870944,3 L14.80162,3" id="Line"></path>
+                                    <polyline id="Path-106" points="12.3333333 0 15 3 12.3333333 6"></polyline>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
             </div>
+            <a href="#article-anchor" class="label">Scroll</a>
         </div>
-    </div>
 </section>
+<style>
+@media (min-width: 1024px) {
+.fullbleed--hero.fullbleed--video:before {
+    background:rgba(0,0,0,0.25);
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index: 2;
+}
+}
+</style>
 <section class="utility-bar sticky">
     <div class="container utility-bar__inner">
         <div class="utility-bar__share">
@@ -207,6 +231,7 @@ type: perspective
 	<section class="container">
 		<div class="rich-text">
 			<div class="reveal rich-text__content">
+                <p class="intro" style="font-size:24px;">The built environment shapes our lives, our work and our prosperity. In a fast-changing world, it's vital to work with a partner who understands how to help you to think log-term, design for success and invest wisely.</p>
 				<p>Independent, creative and pragmatic, we are a global team of strategists, economists, financial advisors, change managers, performance specialists and asset managers. The clients we work with benefit from our seven decades of technical and engineering expertise, shaping the places where people live and work.</p>
 <h2>Client impact</h2><p>
 Every day, our advisory team help clients to identify new revenue, manage their risks and improve their performance. Whether you’re developing new strategies or reimagining customer experiences, investing for the long-term or refreshing your business model, we can help you to shape a more successful future. 
@@ -216,7 +241,7 @@ We help leaders to lead, to refine their goals and sharpen their prospects. Clie
 			</div>
 		</div>
 	</section>
-<section class="highlight-section">
+<section class="highlight-section demo">
     <div class="container dynamic-feat reveal" style="padding-bottom:0">
             <header class="dynamic-feat__header">
                 <div class="dynamic-feat__title-wrap">
@@ -355,298 +380,155 @@ We help leaders to lead, to refine their goals and sharpen their prospects. Clie
 </div>
 </section>
 <style>
-.up-list__item {
+
+.demo .up-list {
+    padding-bottom:4rem;
+}
+.demo .up-list__item {
     width:33%;
     margin-left:0.5%;
     margin-bottom:0.5%;
 }
 
-.up-list__item:nth-child(4) {
+.up-list__item--four:nth-child(4n+1), .demo .up-list__item:first-child {
     margin-left:0;
 }
 
-.preview-card__content {
+.demo .up-list__item:nth-child(4) {
+    margin-left:0;
+}
+
+.demo .preview-card__content {
     align-items: center;
 }
 
-.preview-copy {
+.demo .preview-copy {
     padding-bottom: 0;
     margin:4rem 0;
 }
 
-.cta .icon, .cta__icon {
+.preview-copy__copy-wrap .cta--lg .icon {
     left:0;
 }
+</style>
 <section class="container">
-        <header class="section-header ">
-            <div class="section-header__title-wrap section-title section-title--nopad">
-                <h4 class="section-title__title">Discover our services</h4>
+        <div class="rich-text">
+            <div class="reveal rich-text__content">
+                <h2>Case studies title</h2><P>
+Some intro copy probably goes here to explain why you're hitting case studies - i.e. Discover how our advisory experts are helping business transform their performance, delivering advanced solutions and strategies etc.</P>
             </div>
-        </header>
+        </div>
     </section>
-    <section class="featured-pub content-slider content-slider--overflow content-slider--dt-md reveal content-slider--compact">
-    <div class="container">
-        <hr />
-        <div class="tabs">
-            <div class="controls">
-                <span class="prev icon icon-next" data-grunticon-embed></span>
-                <span class="next icon icon-next" data-grunticon-embed></span>
+    <section class="container">
+    <div class="dynamic-feat">
+            <!--<header class="dynamic-feat__header">
+                <div class="dynamic-feat__title-wrap">
+                    <h4 class="dynamic-feat__title">Some projects on site?</h4>
+                </div>
+            </header>-->
+        <div class="dynamic-feat__list">
+            <ul class="up-list">
+<li class="up-list__item up-list__item--three">
+    <div class="preview-card ">
+            <a href="/perspectives/cities-alive-urban-childhood" class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/w/wash-in-dry-corridor-of-guatemala/cover-photo.jpg?h=405&la=en&mw=720&w=720&hash=5028CF682403E9642A6646C16D6BAF5D3A6D0ED1');">
+                </div>
+            </a>
+        <div class="preview-card__content preview-card__content--alt-style">
+            <div class="preview-card__main">
+                <div class="preview-copy">
+                    <a href="/perspectives/cities-alive-urban-childhood" class="preview-copy__toplink">
+                        <h4 class="preview-copy__label label--md">
+                            Project
+                        </h4>
+                        <h3 class="preview-copy__title ">Reducing waste treatment at the largest landfill in the city of Da Nang</h3>
+                            <div class="preview-copy__copy-wrap">
+                                <p class="preview-copy__copy">We educated the government stakeholders on investment requirements and the importance of building PPP frameworks in to the deal structure to maximise appetite and competitiveness.</p>
+                            </div>
+                    </a>
+                </div>
             </div>
-                <div class="tab"><a href="#tab1-5" class="">Strategy and insights</a></div>
-                <div class="tab"><a href="#tab1-6" class="">Finance and economics</a></div>
-                <div class="tab"><a href="#tab1-7" class="">Programmes and projects</a></div>
-                <div class="tab"><a href="#tab1-8" class="">Assets and operations</a></div>
-                <div class="tab"><a href="#tab1-9" class="">People and organisations</a></div>
+            <footer class="preview-card__footer">
+    
+</footer>
         </div>
     </div>
-    <div class="container js-box-car-container">
-        <div class="js-box-car-ctrl"></div>
-        <div class="content-slider__carousel">
-                        <div class="content-slider__slide" id="tab1-5">
-                            <div class="split-box ">
-                                <div class="split-box__pic-wrap">
-                                    <div class="split-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/business-investor-advisory-convention-centre-dublin_11733-exterior-view-from-southside-with-dock-0.jpg?h=1125&la=en&w=2000&hash=023110A9725D844A2BE72E7E4B5327353434ABD7');"></div>
-                                </div>
-                                <div class="split-box__content">
-                                    <div class="summary-info">
-                                            <h3 class="summary-info__title cta-title">
-                                                <a href="/arup-pages/advisory-services/strategy-and-insight/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
-                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span class="cta-title__copy">Strategy and insights</span>
-                                                </a>
-                                            </h3>
-                                                                                    <p class="summary-info__copy">Arup’s Advisory Services team develops strategies that help organisations face the future. We conduct market and competitor analysis, stress testing proposed corporate strategies against market developments. We bring much-needed objectivity, providing leaders with insights into new trends and developing issues that will shape their future success. Our mantra: to lead is to know.</p> 
-                                                                                    <a href="/arup-pages/advisory-services/strategy-and-insight/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
-                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span>Find out more about strategy and insights</span>
-                                                </a>                                      
-                                    </div>
-                                </div>
+</li>
+<li class="up-list__item up-list__item--three">
+    <div class="preview-card ">
+            <a href="/perspectives/stopping-the-spread-a-new-framework-for-fire-safety" class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/s/sunny-bay-station/disneyland-resort-line-2000x1125c-arup6.jpg?h=1125&la=en&w=2000&hash=BFC771D2C55C00AED39E651BB1B5F2C0A6553DB9');">
+                </div>
+            </a>
+        <div class="preview-card__content preview-card__content--alt-style">
+            <div class="preview-card__main">
+                <div class="preview-copy">
+                    <a href="/perspectives/stopping-the-spread-a-new-framework-for-fire-safety" class="preview-copy__toplink">
+                        <h4 class="preview-copy__label label--md">
+                            Project
+                        </h4>
+                        <h3 class="preview-copy__title ">Using land value capture to reinvest in Bristol Temple Meads community</h3>
+                            <div class="preview-copy__copy-wrap">
+                                <p class="preview-copy__copy">The project demonstrated an integrated approach to unlocking real estate development, capturing land value uplift and investing in the station.</p>
                             </div>
-                        </div>
-                        <div class="content-slider__slide" id="tab1-6">
-                            <div class="split-box ">
-                                <div class="split-box__pic-wrap">
-                                    <div class="split-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/p/presidio-parkway/presidio-parkway-hero-2000x1125-ethan-rohloff.jpg?h=1125&la=en&w=2000&hash=DE4A06FDD8AE7FEDA12DB6B47DE2A87D29ABBEC8');"></div>
-                                </div>
-                                <div class="split-box__content">
-                                    <div class="summary-info">
-                                            <h3 class="summary-info__title cta-title">
-                                                <a href="/arup-pages/advisory-services/finance-and-economics/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
-                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span class="cta-title__copy">Finance and economics</span>
-                                                </a>
-                                            </h3>
-                                                                                    <p class="summary-info__copy">Our Advisory Services team offers a wide range of finance and economics expertise, helping clients to understand what’s driving their market, make sound investments and stay on top of the many related technical, commercial and operational issues they face.</p>
-                                                                                    <a href="/arup-pages/advisory-services/finance-and-economics/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
-                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span>Find out more finance and economics</span>
-                                                </a>
-                                    </div>
-                                </div>
+                    </a>
+                </div>
+            </div>
+            <footer class="preview-card__footer">
+</footer>
+        </div>
+    </div>
+</li>
+<li class="up-list__item up-list__item--three">
+    <div class="preview-card ">
+            <a href="/perspectives/property-hits-the-digital-tipping-point" class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/n/new-york-city-green-infrastructure/newtown1_2000x1125_arup.jpg?h=1125&la=en&w=2000&hash=91C76C0849DB7FD5FB796E44358A7A8F9FA51B33');">
+                </div>
+            </a>
+        <div class="preview-card__content preview-card__content--alt-style">
+            <div class="preview-card__main">
+                <div class="preview-copy">
+                    <a href="/perspectives/property-hits-the-digital-tipping-point" class="preview-copy__toplink">
+                        <h4 class="preview-copy__label label--md">
+                            Project
+                        </h4>
+                        <h3 class="preview-copy__title ">Advising on 500MW Asia Pacific renewable energy deal for the Green Investment Group</h3>
+                            <div class="preview-copy__copy-wrap">
+                                <p class="preview-copy__copy">We worked for GIG to acquire energy developer Conergy Asia’s business along with a portfolio of operational renewable energy assets. Our team provided technical and operational due diligence advisory services.</p>
                             </div>
-                        </div>
-                        <div class="content-slider__slide" id="tab1-7">
-                            <div class="split-box ">
-                                <div class="split-box__pic-wrap">
-                                    <div class="split-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/programmeprojectmanagementbeijing-national-aquatics-centre-the-water-cubec-ben-mcmillan.jpg?h=1125&la=en&w=2000&hash=7C9E58B20393B979BA333C821C5D6737A43EE4DF');"></div>
-                                </div>
-                                <div class="split-box__content">
-                                    <div class="summary-info">
-                                            <h3 class="summary-info__title cta-title">
-                                                <a href="/arup-pages/advisory-services/programme-and-project-management/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
-                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span class="cta-title__copy">Programmes and projects</span>
-                                                </a>
-                                            </h3>
-                                                                                    <p class="summary-info__copy">Whatever the project, bringing in a dedicated programme or project management team offers clients many advantages. Responsible and creative leadership. Insights drawn from other sectors. An experienced team, confident to take on the largest and most complex projects.</p>
-<a href="/arup-pages/advisory-services/programme-and-project-management/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
-                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span>Find out more about programmes and projects</span>
-                                                </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content-slider__slide" id="tab1-8">
-                            <div class="split-box ">
-                                <div class="split-box__pic-wrap">
-                                    <div class="split-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/l/ld6/0508skarupsloughhi089.jpg?h=1125&la=en&w=2000&hash=3514581E0438A08D7337FED3EA15401FCE0523CF');"></div>
-                                </div>
-                                <div class="split-box__content">
-                                    <div class="summary-info">
-                                            <h3 class="summary-info__title cta-title">
-                                                <a href="/arup-pages/advisory-services/assets-and-operations/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
-                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span class="cta-title__copy">Assets and operations</span>
-                                                </a>
-                                            </h3>
-                                                                                    <p class="summary-info__copy">Our service has two dimensions: asset strategy and asset operations, meaning we can help clients at both the broadest and most tactical levels.
-</p><p class="summary-info__copy">
-Taking a new approach to your business’ assets can optimise your wider operations: from the level of service offered to financial performance achieved, from regulatory compliance to their overall reputation in the market.</p>
-<a href="/arup-pages/advisory-services/assets-and-operations/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
-                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span>Find out more assets and operations</span>
-                                                </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content-slider__slide" id="tab1-9">
-                            <div class="split-box ">
-                                <div class="split-box__pic-wrap">
-                                    <div class="split-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/organisation-behaviour-park_avenue_plaza_new_york_scott_frances_otto-2000x1125.jpg?h=1126&la=en&w=2000&hash=6726D59F1EBFF805C4F8A8A96A2782FDE44E067B');"></div>
-                                </div>
-                                <div class="split-box__content">
-                                    <div class="summary-info">
-                                            <h3 class="summary-info__title cta-title">
-                                                <a href="/arup-pages/advisory-services/people-and-organisations/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
-                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span class="cta-title__copy">People and organisations</span>
-                                                </a>
-                                            </h3>
-                                                                                    <p class="summary-info__copy">At moments of business change, like major expansions, getting the right mix of people skills and knowledge right is pivotal to success. Our team are experts in behavioural change, business psychology and leadership techniques that can help an organisation to stay ahead.</p>
-                                                                                    <a href="/arup-pages/advisory-services/people-and-organisations/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
-                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span>Find out more people and organisations</span>
-                                                </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    </a>
+                </div>
+            </div>
+            <footer class="preview-card__footer">
+</footer>
+        </div>
+    </div>
+</li>            </ul>
         </div>
     </div>
 </section>
-<div class="container">
-    <div class="related">
-        <p class="footnote"></p>
-        <h4>Discover our advisory services OPTION 2</h4>
-        <ul class="pic-links">
-                <li class="pic-links__item">
-                    <a href="/expertise/industry/energy/urban-energy" class="pic-link pic-link--stretch " style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/business-investor-advisory-convention-centre-dublin_11733-exterior-view-from-southside-with-dock-0.jpg?h=1125&la=en&w=2000&hash=023110A9725D844A2BE72E7E4B5327353434ABD7');">
-                        <span class="pic-link--mobile" style="background-image: url('/-/media/arup/images/expertise/industries/energy/shutterstock_192479294.jpg?mw=720&amp;hash=29B4A3EB9D0404F2D4D5FB5FB06B66B10176C6E1');"></span>
-                        <div style="text-align: center;">
-                        <span class="pic-link__copy">Strategy and insight</span>
-                        <span class="pic-link__copy strapline" style="font-size:18px;display: block;text-align: left;font-weight: normal;">Developing plans that realise new opportunities or respond to market change</span>
-                    </div>
-                    </a>
-                </li>
-                            <li class="pic-links__item">
-                    <a href="/expertise/industry/energy/liquid-natural-gas" class="pic-link pic-link--stretch " style="background-image: url('https://www.arup.com/-/media/arup/images/projects/p/presidio-parkway/presidio-parkway-hero-2000x1125-ethan-rohloff.jpg?h=1125&la=en&w=2000&hash=DE4A06FDD8AE7FEDA12DB6B47DE2A87D29ABBEC8');">
-                        <span class="pic-link--mobile" style="background-image: url('/-/media/arup/images/expertise/services/lng/2000x1125-shutterstock_650113906.jpg?mw=720&amp;hash=210575962ABA1715B0CD8CA05A886F165AC800A7');"></span>
-                        <div style="text-align: center;">
-                        <span class="pic-link__copy">Finance and economics</span>
-                        <span class="pic-link__copy strapline" style="font-size:18px;display: block;text-align: left;font-weight: normal;">Guiding successful investments in the built environment</span>
-                    </div>
-                    </a>
-                </li>
-        </ul>
+<section class="learn-more learn-more--large reveal" style="background-image: url(https://www.arup.com/-/media/arup/images/projects/l/london-waste-and-recycling-board-circular-economy/henrybe229092forarupcom.jpg?h=1125&la=en&w=2000&hash=3C0B43BC400C271CAD0B8EA608FE571D679D1434)">
+    <div class="learn-more__inner" >
+        <h4 class="learn-more__title" style="font-style: normal;">Discover how we've helped companies around the world</h4>
+        <a href="#" class="cta cta--small cta--mono" style="font-size:1.5em;">
+            <span data-grunticon-embed class="cta__icon icon icon-oval"></span>
+            <span class="cta__text">See all our case studies</span>
+        </a>
     </div>
-</div><style>
-.pic-link:before {
-    opacity:0.4;
-}
-</style>
-<div class="container">
-    <div class="related">
-        <p class="footnote"></p>
-        <h4></h4>
-        <ul class="pic-links">
-                <li class="pic-links__item">
-                    <a href="/expertise/industry/energy/urban-energy" class="pic-link pic-link--stretch " style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/programmeprojectmanagementbeijing-national-aquatics-centre-the-water-cubec-ben-mcmillan.jpg?h=1125&la=en&w=2000&hash=7C9E58B20393B979BA333C821C5D6737A43EE4DF');">
-                        <span class="pic-link--mobile" style="background-image: url('/-/media/arup/images/expertise/industries/energy/shutterstock_192479294.jpg?mw=720&amp;hash=29B4A3EB9D0404F2D4D5FB5FB06B66B10176C6E1');"></span>
-                        <div style="text-align: center;">
-                        <span class="pic-link__copy">Programmes and project management</span>
-                        <span class="pic-link__copy strapline" style="font-size:18px;display: block;text-align: left;font-weight: normal;">Delivering major programmes and projects with confidence</span>
-                    </div>
-                    </a>
-                </li>
-                            <li class="pic-links__item">
-                    <a href="/expertise/industry/energy/liquid-natural-gas" class="pic-link pic-link--stretch " style="background-image: url('https://www.arup.com/-/media/arup/images/projects/l/ld6/0508skarupsloughhi089.jpg?h=1125&la=en&w=2000&hash=3514581E0438A08D7337FED3EA15401FCE0523CF');">
-                        <span class="pic-link--mobile" style="background-image: url('/-/media/arup/images/expertise/services/lng/2000x1125-shutterstock_650113906.jpg?mw=720&amp;hash=210575962ABA1715B0CD8CA05A886F165AC800A7');"></span>
-                        <div style="text-align: center;">
-                        <span class="pic-link__copy">Assets and operations</span>
-                        <span class="pic-link__copy strapline" style="font-size:18px;display: block;text-align: left;font-weight: normal;">Ensuring organisations benefit from high performance assets and facilities</span>
-                    </div>
-                    </a>
-                </li>
-                <li class="pic-links__item">
-                    <a href="/expertise/industry/energy/liquid-natural-gas" class="pic-link pic-link--stretch " style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/organisation-behaviour-park_avenue_plaza_new_york_scott_frances_otto-2000x1125.jpg?h=1126&la=en&w=2000&hash=6726D59F1EBFF805C4F8A8A96A2782FDE44E067B');">
-                        <span class="pic-link--mobile" style="background-image: url('/-/media/arup/images/expertise/services/lng/2000x1125-shutterstock_650113906.jpg?mw=720&amp;hash=210575962ABA1715B0CD8CA05A886F165AC800A7');"></span>
-                        <div style="text-align: center;">
-                        <span class="pic-link__copy">People and organisations</span>
-                        <span class="pic-link__copy strapline" style="font-size:18px;display: block;text-align: left;font-weight: normal;">Getting people and organisations ready for change</span>
-                    </div>
-                    </a>
-                </li>
-        </ul>
-    </div>
-</div>
+</section>
+
 <section class="container">
 		<div class="rich-text">
 			<div class="reveal rich-text__content">
 				<h2>Thinking for impact</h2><P>
-The breadth of Arup’s work allows us to bring clients valuable market insights drawn from sectors as diverse as energy, water, transport and cities. We analyse, adopt and champion new ideas, like the circular economy. And our internal global skills network means we can help clients identify relevant opportunities and plan investments wherever they are in the world. In this way we’re able to engineer more valuable and far-sighted outcomes than traditional advisory services providers.</P>
+The breadth of Arup’s work allows us to bring clients valuable market insights drawn from sectors as diverse as energy, water, transport and cities. We analyse, adopt and champion new ideas, like the circular economy. And our internal global skills network means we can help clients identify relevant opportunities and plan investments wherever they are in the world.</P>
 			</div>
 		</div>
 	</section>
-	<!--<section class="split-pic">
-        <div class="split-pic__pic-wrap split-pic__pic-wrap--frame">
-            <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('https://www.arup.com/-/media/arup/images/perspectives/themes/water/water-and-circular-economy/2000x1125-john-salzarulo-138022.jpg?h=1125&la=en&w=2000&hash=10C14903280CC3043C7F6D51BBCCF4834908FE5F')"></div>
-            <div class="split-pic__pic split-pic__pic--mobile" style="background-image: url('https://www.arup.com/-/media/arup/images/perspectives/themes/water/water-and-circular-economy/2000x1125-john-salzarulo-138022.jpg?h=1125&la=en&w=2000&hash=10C14903280CC3043C7F6D51BBCCF4834908FE5F')"></div>
-            <p class="split-pic__caption"></p>
-        </div>
-        <div class="split-pic__content">
-            <div class="split-pic__inner">
-                <div class="split-pic__copy">
-                    <h3 class="h4">Circular Economy in the Built Environment</h3>
-                    <p></p>
-                    <p>Our research outlines key principles of the circular economy, using the Ellen MacArthur Foundation’s ReSOLVE framework to explore and contextualise practical applications in the built environment. </p>
-                    <h5></h5>
-                    <hr>
-                    <ul class="list list--links">
-                        <li>
-                            <a class="cta cta--black cta--small" href="/projects/acorn"><span class="icon icon-oval" style="background-image: none;"><svg height="42" viewbox="0 0 42 42" width="42" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="20" cy="20" fill="none" r="20" stroke="#FFF" stroke-linecap="square" transform="translate(1 1)"></circle></svg></span> <span class="cta__text">Download the report</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-	<section class="publications alternative  reveal alternative">
-    <div class="highlight-section">
-        <div class="container">
-                <div class="publications__heading">
-                    <span class="title">Publication</span>
-                    <a href="/perspectives/publications/speeches-and-lectures/section/ove-arup-key-speech?itc_source=arup.com&itc_medium=publicationA&itc_campaign=ABtestB">
-                    <h2>
-                        Circular Economy in the Built Environment
-                    </h2>
-                    <p>Our research outlines key principles of the circular economy, using the Ellen MacArthur Foundation’s ReSOLVE framework to explore and contextualise practical applications in the built environment. </p>
-                    </a>
-                <a class="cta cta--black cta--lg" href="/perspectives/publications/speeches-and-lectures/section/ove-arup-key-speech?itc_source=arup.com&itc_medium=publicationA&itc_campaign=ABtestB">
-                <span data-grunticon-embed class="icon icon-oval"></span>
-                <span>Download Circular Economy in the Built Environment</span>
-                </a>
-                </div>
-            <div class="publications__items">
-                    <div class="publications__item">
-                        <div class="publications__top">
-                            <a href="/perspectives/publications/speeches-and-lectures/section/ove-arup-key-speech?itc_source=arup.com&itc_medium=publicationA&itc_campaign=ABtestB">
-                            <img src="https://www.arup.com/-/media/arup/images/publications/c/circular_economy_in_the_built_environment.jpg?h=483&la=en&mw=340&w=340&hash=970EA208E6E91DEBA97FC786EF495261D5F0DD54" alt="A framework for fire safety in informal settlements" width="300" height="424" DisableWebEdit="False" />
-                            </a>
-                        </div>
-                    </div>
-            </div>
-        </div>
-        </a>
-    </div>
-</section>-->
 <section class="container">
     <header class="section-header section-header--line  ">
         <div class="section-header__title-wrap section-title section-title--nopad">
-            <h4 class="section-title__title">Research and reports</h4>
+            <h4 class="section-title__title"></h4>
         </div>
         <div class="section-header__cta-wrap">
 <a class="cta cta--small cta--black" href="/perspectives/publications">                <span class="cta__copy">Explore our publications</span>
@@ -706,141 +588,6 @@ The breadth of Arup’s work allows us to bring clients valuable market insights
         </ul>
     </div>
 </section>
-
-<section class="container" id="">
-        <div class="rich-text">
-            <div class="reveal rich-text__content">
-                <h2>Who are we?</h2>
-<P>
-We are a global team of strategists, economists, financial advisors, change managers, performance specialists and asset managers. Our community of broad capabilities is brought together through our common behaviours – being independent experts, active influencers and ambitious collaborators.
-</P>
-            </div>
-        </div>
-</section>
-<section class="featured-pub content-slider content-slider--overflow content-slider--dt-md reveal content-slider--compact">
-    <div class="container">
-        <hr />
-        <div class="tabs">
-            <div class="controls">
-                <span class="prev icon icon-next" data-grunticon-embed></span>
-                <span class="next icon icon-next" data-grunticon-embed></span>
-            </div>
-                <div class="tab"><a href="#tab1-1" class="selected">Carol Lemmens</a></div>
-                <div class="tab"><a href="#tab1-2" class="">Alice Chow</a></div>
-                <div class="tab"><a href="#tab1-3" class="">Elizbieta Chiconska</a></div>
-                <div class="tab"><a href="#tab1-4" class="">Orion Fulton</a></div>
-                <div class="tab"><a href="#tab1-5" class="">Stefan Sanders</a></div>
-                <div class="tab"><a href="#tab1-6" class="">Steve Lloyd</a></div>
-        </div>
-    </div>
-    <div class="container js-box-car-container">
-        <div class="js-box-car-ctrl"></div>
-        <div class="content-slider__carousel">
-                        <div class="content-slider__slide" id="tab1-1">
-                            <div class="split-box ">
-                                <div class="split-box__pic-wrap">
-                                    <div class="split-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/people/c/carol-lemmens.jpg?gray=1&amp;mw=180&amp;hash=F4AC233BF6C7705D1816B90EFAA9F218994C57E9');"></div>
-                                </div>
-                                <div class="split-box__content">
-                                    <div class="summary-info">
-                                            <h3 class="summary-info__title">Carol Lemmens</h3>
-                                                                                    <p class="summary-info__copy"><p class="summary-info__copy">Chris leads the global Foresight, Research and Innovation team at Arup. His interest in the built environment started early, propelling him into a multifaceted education, beginning with engineering and culminating in a Doctorate in Architecture from ETH in Zurich. While he refuses to be categorised, Chris views himself as a generalist with a view of being &lsquo;in league with the future.&rsquo; </p>
-<a class="cta-title__link cta cta--black cta--small cta--right cta--plain" href="/our-firm/chris-luebkeman">
-<span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
-<span>Find out more about Chris</span>
-</a></p>                                       
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content-slider__slide" id="tab1-2">
-                            <div class="split-box ">
-                                <div class="split-box__pic-wrap">
-                                    <div class="split-box__pic" style="background-image: url('/-/media/arup/images/expertise/services/advisory-services/josefhargrave2.jpg?h=558&amp;w=620&amp;hash=3C89607313D268066A21EE44DA7CE0B8660B6912');"></div>
-                                </div>
-                                <div class="split-box__content">
-                                    <div class="summary-info">
-                                            <h3 class="summary-info__title">Josef Hargrave</h3>
-                                                                                    <p class="summary-info__copy"><P class="summary-info__copy">Josef is an Associate Director in Arup’s Foresight, Research and Innovation team. As Global Foresight Manager he is responsible for the delivery and management of Foresight services, tools and projects globally, including America, Australasia, East Asia, Europe and Middle East. His clients and collaborators include Arup businesses and leadership teams as well as external organisations from a broad range of sectors.</p>
-<a class="cta-title__link cta cta--black cta--small cta--right cta--plain" href="/our-firm/josef-hargrave">
-<span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
-<span>Find out more about Josef</span>
-</a></p>                                       
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content-slider__slide" id="tab1-3">
-                            <div class="split-box ">
-                                <div class="split-box__pic-wrap">
-                                    <div class="split-box__pic" style="background-image: url('/-/media/arup/images/expertise/services/advisory-services/anne.jpg?h=558&amp;w=620&amp;hash=BD69F317EA54C3B87F1AE39E6BFBE1704E82BD12');"></div>
-                                </div>
-                                <div class="split-box__content">
-                                    <div class="summary-info">
-                                            <h3 class="summary-info__title">Dr Anne Kovachevich</h3>
-                                                                                    <p class="summary-info__copy"><P class="summary-info__copy">With a background in hypersonics and sustainable building design and engineering, Anne brings technical expertise to her futures thinking. Anne leads our Australasia region and helps clients to understand the disruptions that are inevitably occurring and helps to empower them to make the most of the opportunities that arise. </P>
-<a class="cta-title__link cta cta--black cta--small cta--right cta--plain" href="/our-firm/anne-kovachevich">
-<span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
-<span>Find out more about Anne</span>
-</a></p>                                       
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content-slider__slide" id="tab1-4">
-                            <div class="split-box ">
-                                <div class="split-box__pic-wrap">
-                                    <div class="split-box__pic" style="background-image: url('/-/media/arup/images/expertise/services/advisory-services/francescabirks.jpg?h=558&amp;w=620&amp;hash=90B84CCB44A05E61A98E3A51CC1586BC434D9DF6');"></div>
-                                </div>
-                                <div class="split-box__content">
-                                    <div class="summary-info">
-                                            <h3 class="summary-info__title">Francesca Birks</h3>
-                                                                                    <p class="summary-info__copy"><P class="summary-info__copy">As the Americas Lead of Foresight, Research and Innovation, Francesca is responsible for delivering projects which promote strategic foresight and innovation in the design development process. An Associate in Arup’s New York office, Francesca is a strategist and certified facilitator with a background in media and advertising. She brings her understanding of ethnography, storytelling and strategic planning to help clients envision the future of their organisation. </P>
-<a class="cta-title__link cta cta--black cta--small cta--right cta--plain" href="/our-firm/francesca-birks">
-<span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
-<span>Find out more about Francesca</span>
-</a></p>                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content-slider__slide" id="tab1-5">
-                            <div class="split-box ">
-                                <div class="split-box__pic-wrap">
-                                    <div class="split-box__pic" style="background-image: url('/-/media/arup/images/expertise/services/advisory-services/janwurm.jpg?h=558&amp;w=620&amp;hash=79568AC93DC97B67B07F8334F62F8D781257D772');"></div>
-                                </div>
-                                <div class="split-box__content">
-                                    <div class="summary-info">
-                                            <h3 class="summary-info__title">Dr Jan Wurm</h3>
-                                                                                    <p class="summary-info__copy"><p class="summary-info__copy">Jan is committed to steer the transformation process so that clients will benefit from the opportunities of change. With a deep understanding of both construction systems and materials, and collaborative design and innovation processes, Jan is dedicated to deliver applied research in the field of sustainable building design. Jan is the Europe lead for Foresight, Research and Innovation. </P>
-<a class="cta-title__link cta cta--black cta--small cta--right cta--plain" href="/our-firm/jan-wurm">
-<span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
-<span>Find out more about Jan</span>
-</a></p>                                
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content-slider__slide" id="tab1-6">
-                            <div class="split-box ">
-                                <div class="split-box__pic-wrap">
-                                    <div class="split-box__pic" style="background-image: url('/-/media/arup/images/expertise/services/advisory-services/alvisesimondetti.jpg?h=558&amp;w=620&amp;hash=556ED5E5623698E77FC3765CAF957CC6CDE1FAA2');"></div>
-                                </div>
-                                <div class="split-box__content">
-                                    <div class="summary-info">
-                                            <h3 class="summary-info__title">Alvise Simondetti</h3>
-                                                                                    <p class="summary-info__copy"><P class="summary-info__copy">Alvise leads Arup’s global digital environments programme and is responsible for the business development of real-time synthetic environments. Alvise is formally educated in architecture, town planning, conservation and computation, and believes that successful design cannot be separated from tools.</P>
-<a class="cta-title__link cta cta--black cta--small cta--right cta--plain" href="/our-firm/alvise-simondetti">
-<span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
-<span>Find out more about Alvise</span>
-</a></p>                                       
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-        </div>
-    </div>
-</section>
 <section class="container" id="">
         <div class="rich-text">
             <div class="reveal rich-text__content">
@@ -850,20 +597,196 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
 </P>
             </div>
         </div>
-</section><div class="container">
-    <div class="contact-us contact-us--in-page">
-        <hr class="contact-us__topline arrow-line arrow-line--down" />
-        <div class="contact-us__main">
-            <h3 class="contact-us__title">Talk to the Advisory Team team about your needs</h3>
-            <div class="contact-us__cta">
-                <a href="/our-firm/josef-hargrave" class="cta cta--black cta--small cta--right cta--plain">
-                    <span data-grunticon-embed class="icon icon-oval"></span>
-                    <span>Contact Carol Lemmens</span>
-                </a>
+</section>
+<style>
+ .contact-us-list {
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-wrap: wrap;
+    align-items:;
+ }
+ .contact-us-list li {
+    display: flex;
+    flex-basis:33%;
+    flex-grow: 0;
+    margin-bottom:5%;
+    list-style: none;
+ }
+
+ .contact-us-list .contact-us__contact {
+    width:90%!important;
+ }
+
+</style>
+<div class="container">
+<hr class="contact-us__divide arrow-line arrow-line--down" />
+        <ul class="contact-us-list">
+                <li class="contact-us__item">
+                    <div>
+                    <div class="contact-us__contact" style="width:90%;">
+            <div class="mini-profile mini-profile--icons ">
+                    <div class="mini-profile__pic-wrap ">
+                        <a href="/our-firm/josef-hargrave" class="mini-profile__link">
+                            <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/o/orion_fulton_-_san_francisco_office_staff__arup_.jpg?gray=1&hash=C52AF43CCBAF3EC111950A449BCA67BDDCDA55E0" alt="Josef Hargrave"/>
+                        </a>
+                    </div>
+                <div class="mini-profile__main">
+                    <ul class="mini-profile__info-list">
+                        <li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
+                            <a href="/our-firm/josef-hargrave" class="mini-profile__info-link">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
+                                <span class="mini-profile__info-content">
+                                    <h4 class="mini-profile__name">
+                                        Orion Fulton
+                                    </h4>
+                                    <h5 class="mini-profile__job">Social Infrastructure and Real Estate Leader</h5>
+                                </span>
+                            </a>
+                        </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
+                                <a href="mailto:foresight@arup.com" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-contact"></span>
+                                    <span class="mini-profile__info-content">advisory@arup.com</span>
+                                </a>
+                            </li>
+                        <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
+                                <a href="tel:+44 (0) 20 7636 1531" class="mini-profile__info-link mini-profile__info-link--alt">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>       
+                            <span class="mini-profile__info-content">
++44 (0) 20 7636 1531                                                                    <br/><span class="mini-profile__info-meta">San Francisco York, local time - 08:51am</span>
+                            </span>
+                                </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div></div>
+                </li>
+                <li class="contact-us__item">
+                    <div>
+                    <div class="contact-us__contact" style="width:90%;">
+            <div class="mini-profile mini-profile--icons ">
+                    <div class="mini-profile__pic-wrap ">
+                        <a href="/our-firm/josef-hargrave" class="mini-profile__link">
+                            <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/r/richard-sharp-pic.jpg?gray=1&mw=180&hash=B33A276D70F8CA89FEC3730741C60C9028E65923" alt="Josef Hargrave"/>
+                        </a>
+                    </div>
+                <div class="mini-profile__main">
+                    <ul class="mini-profile__info-list">
+                        <li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
+                            <a href="/our-firm/josef-hargrave" class="mini-profile__info-link">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
+                                <span class="mini-profile__info-content">
+                                    <h4 class="mini-profile__name">
+                                        Dr Richard Sharp
+                                    </h4>
+                                    <h5 class="mini-profile__job">Director and Global Leader</h5>
+                                </span>
+                            </a>
+                        </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
+                                <a href="mailto:foresight@arup.com" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-contact"></span>
+                                    <span class="mini-profile__info-content">advisory@arup.com</span>
+                                </a>
+                            </li>
+                        <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
+                                <a href="tel:+44 (0) 20 7636 1531" class="mini-profile__info-link mini-profile__info-link--alt">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>       
+                            <span class="mini-profile__info-content">
++44 (0) 20 7636 1531                                                                    <br/><span class="mini-profile__info-meta">Sydney, local time - 11:05pm</span>
+                            </span>
+                                </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div></div>
+                </li>
+                <li class="contact-us__item">
+                    <div>
+                    <div class="contact-us__contact" style="width:90%;">
+            <div class="mini-profile mini-profile--icons ">
+                    <div class="mini-profile__pic-wrap ">
+                        <a href="/our-firm/josef-hargrave" class="mini-profile__link">
+                            <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/a/hong-kong-office-staff--alice-chowc-arup.jpg?gray=1&mw=180&hash=18C483A606C5F9A895FF0E3FDFAFF1F4D346A7F2" alt="Josef Hargrave"/>
+                        </a>
+                    </div>
+                <div class="mini-profile__main">
+                    <ul class="mini-profile__info-list">
+                        <li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
+                            <a href="/our-firm/josef-hargrave" class="mini-profile__info-link">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
+                                <span class="mini-profile__info-content">
+                                    <h4 class="mini-profile__name">
+                                        Alice Chow
+                                    </h4>
+                                    <h5 class="mini-profile__job">Director for Programme and Project Management</h5>
+                                </span>
+                            </a>
+                        </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
+                                <a href="mailto:foresight@arup.com" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-contact"></span>
+                                    <span class="mini-profile__info-content">advisory@arup.com</span>
+                                </a>
+                            </li>
+                        <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
+                                <a href="tel:+44 (0) 20 7636 1531" class="mini-profile__info-link mini-profile__info-link--alt">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>       
+                            <span class="mini-profile__info-content">
++44 (0) 20 7636 1531                                                                    <br/><span class="mini-profile__info-meta">Hong Kong, local time - 11:05pm</span>
+                            </span>
+                                </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div></div>
+                </li>
+                <li class="contact-us__item">
+                    <div class="contact-us__contact" style="width:90%;">
+            <div class="mini-profile mini-profile--icons ">
+                    <div class="mini-profile__pic-wrap ">
+                        <a href="/our-firm/josef-hargrave" class="mini-profile__link">
+                            <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/e/cichonska_elzbieta-(2).jpg?gray=1&mw=180&hash=3D422A9D53C43BF4DE08F7D18D0CCA7695D00778" alt="Josef Hargrave"/>
+                        </a>
+                    </div>
+                <div class="mini-profile__main">
+                    <ul class="mini-profile__info-list">
+                        <li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
+                            <a href="/our-firm/josef-hargrave" class="mini-profile__info-link">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
+                                <span class="mini-profile__info-content">
+                                    <h4 class="mini-profile__name">
+                                        Elzbieta Cichonska 
+                                    </h4>
+                                    <h5 class="mini-profile__job">Director and Global Leader</h5>
+                                </span>
+                            </a>
+                        </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
+                                <a href="mailto:foresight@arup.com" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-contact"></span>
+                                    <span class="mini-profile__info-content">advisory@arup.com</span>
+                                </a>
+                            </li>
+                        <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
+                                <a href="tel:+44 (0) 20 7636 1531" class="mini-profile__info-link mini-profile__info-link--alt">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>       
+                            <span class="mini-profile__info-content">
++44 (0) 20 7636 1531                                                                    <br/><span class="mini-profile__info-meta">Warsaw, local time - 11:05pm</span>
+                            </span>
+                                </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <hr class="contact-us__divide arrow-line arrow-line--down" />
-        <div class="contact-us__contact">
+                </li>
+                <li class="contact-us__item">
+                    <div class="contact-us__contact" style="width:90%;">
             <div class="mini-profile mini-profile--icons ">
                     <div class="mini-profile__pic-wrap ">
                         <a href="/our-firm/josef-hargrave" class="mini-profile__link">
@@ -877,7 +800,7 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                                 <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
                                 <span class="mini-profile__info-content">
                                     <h4 class="mini-profile__name">
-                                        Josef Hargrave
+                                        Carol Lemmens
                                     </h4>
                                     <h5 class="mini-profile__job">Director and Global Leader</h5>
                                 </span>
@@ -901,13 +824,13 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                 </div>
             </div>
         </div>
-    </div>
+                </li>
+        </ul>
 </div>
-
 <section class="container">
         <header class="section-header ">
             <div class="section-header__title-wrap section-title section-title--nopad">
-                <h4 class="section-title__title">Discover our advisory services</h4>
+                <h4 class="section-title__title">Begin exploring our services</h4>
             </div>
         </header>
     </section>
