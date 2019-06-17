@@ -131,7 +131,7 @@ type: perspective
                         <div class="util-contact__pic-wrap">
                             <img class="util-contact__pic" src="https://www.arup.com/-/media/arup/images/people/d/duncan-white---building-engineering-london-a-bel-ac-thomas-grahamarup.jpg?gray=1&amp;mw=180&amp;hash=1C0E96804D01E0A33842BA09C120A54CB4E5F944" alt="Duncan White"/>
                         </div>
-                    <div class="util-contact__main"><br />
+                    <div class="util-contact__main">
                          <h4 class="util-contact__title">Talk about this industry</h4>
                         <div class="util-contact__cta">
                             <span href="#" class="cta cta--black cta--small cta--right cta--plain">
