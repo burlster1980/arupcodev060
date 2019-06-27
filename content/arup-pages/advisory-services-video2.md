@@ -151,7 +151,7 @@ type: perspective
             <p class="utility-bar__page-title">Advisory services</p>
             <p class="utility-bar__page-subtitle">Talk to Carol Lemmens about this service</p>
         </div>
-		<div class="utility-bar__contact">
+        <div class="utility-bar__contact">
                 <a class="util-contact modal-trigger" href="#mainContact">
                         <div class="util-contact__pic-wrap">
                             <img class="util-contact__pic" src="https://www.arup.com/-/media/arup/images/people/c/carol-lemmens.jpg?gray=1&amp;mw=180&amp;hash=F4AC233BF6C7705D1816B90EFAA9F218994C57E9" alt="Carol Lemmens"/>
@@ -228,19 +228,19 @@ type: perspective
         </div>
     </div>
 <article id="article-anchor" class="text-content">
-	<section class="container">
-		<div class="rich-text">
-			<div class="reveal rich-text__content">
+    <section class="container">
+        <div class="rich-text">
+            <div class="reveal rich-text__content">
                 <p class="intro" style="font-size:24px;">The built environment shapes our lives, our work and our prosperity. In a fast-changing world, it's vital to work with a partner who understands how to help you to think log-term, design for success and invest wisely.</p>
-				<p>Independent, creative and pragmatic, we are a global team of strategists, economists, financial advisors, change managers, performance specialists and asset managers. The clients we work with benefit from our seven decades of technical and engineering expertise, shaping the places where people live and work.</p>
+                <p>Independent, creative and pragmatic, we are a global team of strategists, economists, financial advisors, change managers, performance specialists and asset managers. The clients we work with benefit from our seven decades of technical and engineering expertise, shaping the places where people live and work.</p>
 <h2>Client impact</h2><p>
 Every day, our advisory team help clients to identify new revenue, manage their risks and improve their performance. Whether you’re developing new strategies or reimagining customer experiences, investing for the long-term or refreshing your business model, we can help you to shape a more successful future. 
 </p><P>
 We help leaders to lead, to refine their goals and sharpen their prospects. Clients approach us from every sector, from financial institutions to energy providers, airport operators to global tech giants. Together, we collaborate on the project at hand, creating new ideas from existing problems.</P>
 <!--<p>Our business advice is grounded in real technical capabilities and experience. We help clients shape strategies, transactions, programmes, and operations – all with the fundamental purpose of creating a better world.</p>-->
-			</div>
-		</div>
-	</section>
+            </div>
+        </div>
+    </section>
 <section class="container demo">
     <div class="dynamic-feat reveal" style="padding-bottom:0">
             <header class="dynamic-feat__header">
@@ -255,8 +255,10 @@ We help leaders to lead, to refine their goals and sharpen their prospects. Clie
             <header class="preview-card__header preview-card__header--pic">
                 <!--<div class="preview-card__pic" style="background-image: url('/-/media/arup/images/expertise/services/smartcitiesmore-london--overall-viewsc-daniel-clements.jpg?h=1125&amp;w=2000&amp;hash=D76D9D74A1F3C88323C3521BE0BF811AD189143B');"></div>-->
             </header>
-        <div class="preview-card__content">
-            <div class="preview-card__main">
+        <div style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/business-investor-advisory-convention-centre-dublin_11733-exterior-view-from-southside-with-dock-0.jpg?h=1125&la=en&w=2000&hash=023110A9725D844A2BE72E7E4B5327353434ABD7');background-position:50%;-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);position: absolute;top:0;bottom:0;left: 0;right:0;"></div>
+        <div class="preview-card__content image" style="background-color: transparent;">
+            <div class="preview-card__main" style="position: relative;z-index: 3">
                 <div class="preview-copy">
                     <h3 class="preview-copy__title ">Strategy and insights</h3>
                     <div class="preview-copy__copy-wrap">
@@ -280,8 +282,10 @@ We help leaders to lead, to refine their goals and sharpen their prospects. Clie
             <header class="preview-card__header preview-card__header--pic">
                 <!--<div class="preview-card__pic" style="background-image: url('/-/media/arup/images/expertise/services/smartcitiesmore-london--overall-viewsc-daniel-clements.jpg?h=1125&amp;w=2000&amp;hash=D76D9D74A1F3C88323C3521BE0BF811AD189143B');"></div>-->
             </header>
-        <div class="preview-card__content">
-            <div class="preview-card__main">
+        <div style="background-image: url('https://www.arup.com/-/media/arup/images/projects/p/presidio-parkway/presidio-parkway-hero-2000x1125-ethan-rohloff.jpg?h=1125&la=en&w=2000&hash=DE4A06FDD8AE7FEDA12DB6B47DE2A87D29ABBEC8');background-position:50%;-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);position: absolute;top:0;bottom:0;left: 0;right:0;"></div>
+        <div class="preview-card__content image" style="background-color: transparent;">
+            <div class="preview-card__main" style="position: relative;z-index: 3">
                 <div class="preview-copy">
                     <h3 class="preview-copy__title ">Finance and economics</h3>
                     <div class="preview-copy__copy-wrap">
@@ -301,12 +305,14 @@ We help leaders to lead, to refine their goals and sharpen their prospects. Clie
     </a>
 </li>
 <li class="up-list__item">
-    <a href="/expertise/services/planning/smart-cities" class="preview-card ">
+    <a href="/arup-pages/advisory-services/programme-and-project-management/" class="preview-card ">
             <header class="preview-card__header preview-card__header--pic">
                 <!--<div class="preview-card__pic" style="background-image: url('/-/media/arup/images/expertise/services/smartcitiesmore-london--overall-viewsc-daniel-clements.jpg?h=1125&amp;w=2000&amp;hash=D76D9D74A1F3C88323C3521BE0BF811AD189143B');"></div>-->
             </header>
-        <div class="preview-card__content ">
-            <div class="preview-card__main">
+        <div style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/smartcitiesmore-london--overall-viewsc-daniel-clements.jpg?h=1125&amp;w=2000&amp;hash=D76D9D74A1F3C88323C3521BE0BF811AD189143B');background-position:50%;-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);position: absolute;top:0;bottom:0;left: 0;right:0;"></div>
+        <div class="preview-card__content image" style="background-color: transparent;">
+            <div class="preview-card__main" style="position: relative;z-index: 3">
                 <div class="preview-copy">
                     <h3 class="preview-copy__title ">Programme and projects</h3>
                     <div class="preview-copy__copy-wrap">
@@ -326,12 +332,14 @@ We help leaders to lead, to refine their goals and sharpen their prospects. Clie
     </a>
 </li>
 <li class="up-list__item">
-    <a href="/expertise/services/planning/smart-cities" class="preview-card ">
+    <a href="/arup-pages/advisory-services/assets-and-operations/" class="preview-card ">
             <header class="preview-card__header preview-card__header--pic">
                 <!--<div class="preview-card__pic" style="background-image: url('/-/media/arup/images/expertise/services/smartcitiesmore-london--overall-viewsc-daniel-clements.jpg?h=1125&amp;w=2000&amp;hash=D76D9D74A1F3C88323C3521BE0BF811AD189143B');"></div>-->
             </header>
-        <div class="preview-card__content ">
-            <div class="preview-card__main">
+        <div style="background-image: url('/images/arup-pages/rail/rail-banner.jpg');background-position:50%;-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);position: absolute;top:0;bottom:0;left: 0;right:0;"></div>
+        <div class="preview-card__content image" style="background-color: transparent;">
+            <div class="preview-card__main" style="position: relative;z-index: 3">
                 <div class="preview-copy">
                     <h3 class="preview-copy__title ">Assets and operations</h3>
                     <div class="preview-copy__copy-wrap">
@@ -351,11 +359,13 @@ We help leaders to lead, to refine their goals and sharpen their prospects. Clie
     </a>
 </li>
 <li class="up-list__item">
-    <a href="/expertise/services/planning/smart-cities" class="preview-card ">
+    <a href="/arup-pages/advisory-services/people-and-organisations/" class="preview-card ">
             <header class="preview-card__header preview-card__header--pic">
             </header>
-        <div class="preview-card__content image">
-            <div class="preview-card__main">
+        <div style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/organisation-behaviour-park_avenue_plaza_new_york_scott_frances_otto-2000x1125.jpg?h=1126&la=en&w=2000&hash=6726D59F1EBFF805C4F8A8A96A2782FDE44E067B');background-position:50%;-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);position: absolute;top:0;bottom:0;left: 0;right:0;"></div>
+        <div class="preview-card__content image" style="background-color: transparent;">
+            <div class="preview-card__main" style="position: relative;z-index: 3">
                 <div class="preview-copy" >
                                      <h3 class="preview-copy__title ">People and organisations</h3>
                     <div class="preview-copy__copy-wrap">
@@ -374,12 +384,13 @@ We help leaders to lead, to refine their goals and sharpen their prospects. Clie
         </div>
     </a>
 </li>
-<li class="up-list__item">
+<li class="up-list__item" style="position: relative;">
     <a href="/expertise/services/planning/smart-cities" class="preview-card ">
             <header class="preview-card__header preview-card__header--pic">
             </header>
-        <div class="preview-card__content image" style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/smartcitiesmore-london--overall-viewsc-daniel-clements.jpg?h=1125&amp;w=2000&amp;hash=D76D9D74A1F3C88323C3521BE0BF811AD189143B');background-position:50%;-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);">
+        <div style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/smartcitiesmore-london--overall-viewsc-daniel-clements.jpg?h=1125&amp;w=2000&amp;hash=D76D9D74A1F3C88323C3521BE0BF811AD189143B');background-position:50%;-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);position: absolute;top:0;bottom:0;left: 0;right:0;"></div>
+        <div class="preview-card__content image" style="background-color: transparent;">
             <div class="preview-card__main" style="position: relative;z-index: 3">
                 <div class="preview-copy" >
                                      <h3 class="preview-copy__title ">Sustainability consulting</h3>
@@ -397,6 +408,7 @@ We help leaders to lead, to refine their goals and sharpen their prospects. Clie
                 </div>
             </footer>
         </div>
+        <div class="overlay" style=""></div>
     </a>
 </li>
 </ul>
@@ -404,7 +416,13 @@ We help leaders to lead, to refine their goals and sharpen their prospects. Clie
 </div>
 </section>
 <style>
+/*.overlay {
+    position: absolute;top:0;left:0;right:0;bottom:0;opacity: 0;background-color:red;z-index: 20;
+}
 
+.overlay:hover {
+    opacity:1;
+}*/
 .demo .up-list {
     padding-bottom:4rem;
 }
@@ -423,6 +441,10 @@ We help leaders to lead, to refine their goals and sharpen their prospects. Clie
     right:0;
     position: absolute;
     z-index: 2;
+}
+
+demo .preview-card__content.image:hover:before {
+    background-color: red;
 }
 
 .demo .preview-copy {
@@ -565,14 +587,14 @@ Some intro copy probably goes here to explain why you're hitting case studies - 
     </div>
 </section>
 
-<section class="container">
-		<div class="rich-text">
-			<div class="reveal rich-text__content">
-				<h2>Thinking for impact</h2><P>
+<p><section class="container">
+        <div class="rich-text">
+            <div class="reveal rich-text__content">
+                <h2>Thinking for impact</h2><P>
 The breadth of Arup’s work allows us to bring clients valuable market insights drawn from sectors as diverse as energy, water, transport and cities. We analyse, adopt and champion new ideas, like the circular economy. And our internal global skills network means we can help clients identify relevant opportunities and plan investments wherever they are in the world.</P>
-			</div>
-		</div>
-	</section>
+            </div>
+        </div>
+    </section>
 <section class="container">
     <header class="section-header section-header--line  ">
         <div class="section-header__title-wrap section-title section-title--nopad">
@@ -661,17 +683,57 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
     flex-grow: 0;
     margin-bottom:5%;
     list-style: none;
- }
+ }</p>
 
- .contact-us-list .contact-us__contact {
+<p>.contact-us-list .contact-us__contact {
     width:90%!important;
- }
+ }</p>
 
-</style>
+<p></style>
 <section class="highlight-section" style="padding-top:50px;padding-bottom:3rem;margin-bottom:3rem;">
 <div class="container">
 <hr class="contact-us__divide arrow-line arrow-line--down" />
         <ul class="contact-us-list">
+                <li class="contact-us__item">
+                    <div class="contact-us__contact" style="width:90%;">
+            <div class="mini-profile mini-profile--icons ">
+                    <div class="mini-profile__pic-wrap ">
+                        <a href="/our-firm/josef-hargrave" class="mini-profile__link">
+                            <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/c/carol-lemmens.jpg?gray=1&amp;mw=180&amp;hash=F4AC233BF6C7705D1816B90EFAA9F218994C57E9" alt="Josef Hargrave"/>
+                        </a>
+                    </div>
+                <div class="mini-profile__main">
+                    <ul class="mini-profile__info-list">
+                        <li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
+                            <a href="/our-firm/josef-hargrave" class="mini-profile__info-link">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
+                                <span class="mini-profile__info-content">
+                                    <h4 class="mini-profile__name">
+                                        Carol Lemmens
+                                    </h4>
+                                    <h5 class="mini-profile__job">Director and Global Leader</h5>
+                                </span>
+                            </a>
+                        </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
+                                <a href="mailto:foresight@arup.com" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-contact"></span>
+                                    <span class="mini-profile__info-content">advisory@arup.com</span>
+                                </a>
+                            </li>
+                        <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
+                                <a href="tel:+44 (0) 20 7636 1531" class="mini-profile__info-link mini-profile__info-link--alt">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span><br />
+                            <span class="mini-profile__info-content">
++44 (0) 20 7636 1531                                                                    <br/><span class="mini-profile__info-meta">London, local time - 11:05pm</span>
+                            </span>
+                                </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </li>
                 <li class="contact-us__item">
                     <div>
                     <div class="contact-us__contact" style="width:90%;">
@@ -702,7 +764,7 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                             </li>
                         <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
                                 <a href="tel:+44 (0) 20 7636 1531" class="mini-profile__info-link mini-profile__info-link--alt">
-                                <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>       
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span><br />
                             <span class="mini-profile__info-content">
 +44 (0) 20 7636 1531                                                                    <br/><span class="mini-profile__info-meta">San Francisco York, local time - 08:51am</span>
                             </span>
@@ -743,7 +805,7 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                             </li>
                         <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
                                 <a href="tel:+44 (0) 20 7636 1531" class="mini-profile__info-link mini-profile__info-link--alt">
-                                <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>       
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span><br />
                             <span class="mini-profile__info-content">
 +44 (0) 20 7636 1531                                                                    <br/><span class="mini-profile__info-meta">Sydney, local time - 11:05pm</span>
                             </span>
@@ -784,7 +846,7 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                             </li>
                         <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
                                 <a href="tel:+44 (0) 20 7636 1531" class="mini-profile__info-link mini-profile__info-link--alt">
-                                <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>       
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span><br />
                             <span class="mini-profile__info-content">
 +44 (0) 20 7636 1531                                                                    <br/><span class="mini-profile__info-meta">Hong Kong, local time - 11:05pm</span>
                             </span>
@@ -810,7 +872,7 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                                 <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
                                 <span class="mini-profile__info-content">
                                     <h4 class="mini-profile__name">
-                                        Elzbieta Cichonska 
+                                        Elzbieta Cichonska
                                     </h4>
                                     <h5 class="mini-profile__job">Director and Global Leader</h5>
                                 </span>
@@ -824,7 +886,7 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                             </li>
                         <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
                                 <a href="tel:+44 (0) 20 7636 1531" class="mini-profile__info-link mini-profile__info-link--alt">
-                                <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>       
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span><br />
                             <span class="mini-profile__info-content">
 +44 (0) 20 7636 1531                                                                    <br/><span class="mini-profile__info-meta">Warsaw, local time - 11:05pm</span>
                             </span>
@@ -840,7 +902,7 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
             <div class="mini-profile mini-profile--icons ">
                     <div class="mini-profile__pic-wrap ">
                         <a href="/our-firm/josef-hargrave" class="mini-profile__link">
-                            <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/c/carol-lemmens.jpg?gray=1&amp;mw=180&amp;hash=F4AC233BF6C7705D1816B90EFAA9F218994C57E9" alt="Josef Hargrave"/>
+                            <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/s/steven-lloyd--transcation-advice-ukc-daniel-imadearup.jpg?gray=1&hash=898DFF4EFA6BE6270662A990C1C738E8F529D25D" alt="Josef Hargrave"/>
                         </a>
                     </div>
                 <div class="mini-profile__main">
@@ -850,9 +912,9 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                                 <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
                                 <span class="mini-profile__info-content">
                                     <h4 class="mini-profile__name">
-                                        Carol Lemmens
+                                        Steven Lloyd
                                     </h4>
-                                    <h5 class="mini-profile__job">Director and Global Leader</h5>
+                                    <h5 class="mini-profile__job">UK Region Leader</h5>
                                 </span>
                             </a>
                         </li>
@@ -864,7 +926,7 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                             </li>
                         <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
                                 <a href="tel:+44 (0) 20 7636 1531" class="mini-profile__info-link mini-profile__info-link--alt">
-                                <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>       
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span><br />
                             <span class="mini-profile__info-content">
 +44 (0) 20 7636 1531                                                                    <br/><span class="mini-profile__info-meta">London, local time - 11:05pm</span>
                             </span>
@@ -916,11 +978,11 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                                                     <span class="cta-title__copy">Strategy and insights</span>
                                                 </a>
                                             </h3>
-                                                                                    <p class="summary-info__copy">Arup’s Advisory Services team develops strategies that help organisations face the future. We conduct market and competitor analysis, stress testing proposed corporate strategies against market developments. We bring much-needed objectivity, providing leaders with insights into new trends and developing issues that will shape their future success. Our mantra: to lead is to know.</p> 
+                                                                                    <p class="summary-info__copy">Arup’s Advisory Services team develops strategies that help organisations face the future. We conduct market and competitor analysis, stress testing proposed corporate strategies against market developments. We bring much-needed objectivity, providing leaders with insights into new trends and developing issues that will shape their future success. Our mantra: to lead is to know.</p>
                                                                                     <a href="/arup-pages/advisory-services/strategy-and-insight/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
                                                     <span>Find out more about strategy and insights</span>
-                                                </a>                                      
+                                                </a><br />
                                     </div>
                                 </div>
                             </div>

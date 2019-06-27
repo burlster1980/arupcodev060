@@ -1,3 +1,48 @@
+.demo .up-list {
+    padding-bottom:4rem;
+}
+.demo .up-list__item {
+    width:33%;
+    margin-left:0.5%;
+    margin-bottom:0.5%;
+}
+.demo .preview-card__content.image:before {
+    background-color:rgba(233,233,233,0.85);
+    content:"";
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position: absolute;
+    z-index: 2;
+}
+.demo .preview-copy {
+    position: relative;
+    z-index: 3;
+}
+.up-list__item--four:nth-child(4n+1), .demo .up-list__item:first-child {
+    margin-left:0;
+}
+.demo .up-list__item:nth-child(4) {
+    margin-left:0;
+}
+.demo.container .preview-card__content {
+    background-color:#e9e9e9;
+}
+.demo .preview-card__content {
+    align-items: center;
+}
+.demo .preview-copy {
+    padding-bottom: 0;
+    margin:4rem 0;
+}
+.demo .preview-copy__copy {
+    opacity:0.75;
+}
+.preview-copy__copy-wrap .cta--lg .icon {
+    left:0;
+}
+
 /* general changes for presentation */
 ol li, ul li {
 	font-size:20px;
