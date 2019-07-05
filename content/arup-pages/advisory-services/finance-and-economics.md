@@ -208,8 +208,7 @@ type: perspective
         <div class="rich-text">
             <div class="reveal rich-text__content">
                 <h2>Helping you to invest successfully in the built environment</h2><P>
-Whatever their business, our private sector clients are united by the desire to improve their performance and achieve the required financial return. Our public-sector clients are looking for value for money solutions that deliver on their commitments to local populations.</P><P>
-Our Advisory Services team offers a wide range of finance and economics expertise integrated and informed by our industry-leading technical expertise. In any industry, or either sector, we help clients to make sound investments and stay on top of the many related technical, commercial, and operational issues they face. 
+Whatever their business, our private sector clients are united by the desire to improve performance and achieve required financial returns. At the same time, public-sector clients are looking for value for money solutions that deliver efficiently on their social and economic objectives and commitments for their citizens. Whatever the objective, we help clients to develop robust financial strategies and make sound investments, remaining on top of the myriad of technical, commercial and operational issues they face.
 </P>
             </div>
         </div>
@@ -219,10 +218,10 @@ Our Advisory Services team offers a wide range of finance and economics expertis
             <div class="reveal rich-text__content">
                 <h2>Asking and answering the right questions
 </h2><P>
-We help clients ask tough questions:</P><ul><li><P>Is the project financially and commercially feasible?</P></li><li><p>Does the project align with public policy goals and does it deliver social and economic benefits?</p></li><li><p>Will the costs be sustainable?</p></li><li><p>What’s the right commercial delivery structure or procurement model?</p></li></ul><p>We develop a compelling business case underpinned by sound economic and financial modelling, vital to the decision-making process. On larger-scale projects and program, our economics team can research and evaluate the wider macro-economic value of a proposed scheme.
-</P><h2>Worldwide support
+We help clients ask tough questions:</P><ul><li><p>Does a project align with public policy goals?</p></li><li><p>Does it deliver meaningful social and economic benefits? </p></li><li><p>Is the project financially and commercially feasible?</p></li><li><P>Will it be affordable in the long term?</P></li><li><P>Can we make it resilient to future policy and market shifts? </P></li><li><P>What’s the best commercial delivery structure or procurement model?</P></li></ul><p>We help clients by developing compelling business cases, underpinned by sound economic and financial modelling. On larger-scale projects and programmes, our economics teams can research and evaluate the wider economic value of a proposition and assess its viability within existing and future regulatory and policy frameworks. We support our private and public-sector clients to determine whether policy, regulation and business models are fit for purpose in a dynamic, complex environment subject to a world of technological change.
+</P><!--<h2>Worldwide support
 </h2>
-<P>We work with clients across the energy and utilities, public sector infrastructure, transport and property sectors worldwide. By drawing on the insights and experience of sector experts from across Arup’s 90 disciplines, we can deliver joined-up, evidence-based advice. In addition, Arup is authorised by the <a href="#">UK’s Financial Conduct Authority</a> to provide corporate finance advice and is registered with the <a href="#">US Securities and Exchange Commission</a> and <a href="#">Municipal Securities Rulemaking Board</a> as a Municipal Advisor.</P>
+<P>We work with clients across the energy and utilities, public sector infrastructure, transport and property sectors worldwide. By drawing on the insights and experience of sector experts from across Arup’s 90 disciplines, we can deliver joined-up, evidence-based advice. In addition, Arup is authorised by the <a href="#">UK’s Financial Conduct Authority</a> to provide corporate finance advice and is registered with the <a href="#">US Securities and Exchange Commission</a> and <a href="#">Municipal Securities Rulemaking Board</a> as a Municipal Advisor.</P>-->
 <h2>Different ways to create or grow
 </h2><p>
 Our work helps our private sector clients to create and grow their businesses, allowing them to make investment or divestment transactions with confidence. We support them during merger and acquisition activity, offering deal advice throughout the process, to ensure a smooth business evolution.</p>
@@ -244,10 +243,10 @@ Our work helps our private sector clients to create and grow their businesses, a
                 <span class="prev icon icon-next" data-grunticon-embed></span>
                 <span class="next icon icon-next" data-grunticon-embed></span>
             </div>
-                <div class="tab"><a href="#tab1-2" class="">Due diligence</a></div>
-                <div class="tab"><a href="#tab1-3" class="">Corporate finance</a></div>
-                <div class="tab"><a href="#tab1-4" class="">Financal modelling</a></div>
-                <div class="tab"><a href="#tab1-5" class="">Procurement advice</a></div>
+                <div class="tab"><a href="#tab1-2" class="">Strategy and economics</a></div>
+                <div class="tab"><a href="#tab1-3" class="">Financial advice</a></div>
+                <div class="tab"><a href="#tab1-4" class="">Procurement and contracting advice</a></div>
+                <div class="tab"><a href="#tab1-5" class="">Due diligence</a></div>
         </div>
     </div>
     <div class="container js-box-car-container">
@@ -261,9 +260,9 @@ Our work helps our private sector clients to create and grow their businesses, a
                                 <div class="split-box__content">
                                     <div class="summary-info">
                                             <h3 class="summary-info__title cta-title">
-                                                    <span class="cta-title__copy">Due diligence</span>
+                                                    <span class="cta-title__copy">Strategy and economics</span>
                                             </h3>
-                                                                                    <p class="summary-info__copy">We provide technical reviews of assets clients might be buying, technical advice and assurance to lenders who are considering supporting a project or funding an asset purchase. In 2018, working for client GIP, our team provided technical due diligence advice for the acquisition of 139 solar and wind power generation assets.</p>
+                                                                                    <p class="summary-info__copy">Our market knowledge and deep understanding of evolving regulatory issues, means we can help clients to craft the right strategies. We draw on extensive market and policy know-how from our sector experts and specialists to deliver joined-up, evidence-based advice to our clients.</p>
                                                                                     <a href="https://www.driversofchange.com/about/services/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
                                                     <span>Find out more our work with GIP</span>
@@ -280,9 +279,9 @@ Our work helps our private sector clients to create and grow their businesses, a
                                 <div class="split-box__content">
                                     <div class="summary-info">
                                             <h3 class="summary-info__title cta-title">
-                                                    <span class="cta-title__copy">Corporate finance</span>
+                                                    <span class="cta-title__copy">Financial advice</span>
                                                 </h3>
-                                                                                    <p class="summary-info__copy">We help define a viable and compelling business case, establishing feasibility given local opportunities and constraints. We structure the corporate financial element of the deal at hand, raising capital, securing debt and building a robust financial model.</p>
+                                                                                    <p class="summary-info__copy">We help define viable and compelling investment cases, establishing financial feasibility given local opportunities and constraints. We can structure the financial elements of the project at hand, helping to raise capital and secure debt as well as building robust financial models to analyse the underlying potential value of the project.</p>
                                                                                     <!--<a href="https://www.driversofchange.com/about/services/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
                                                     <span>Find out more about Presidio Parkway</span>-->
@@ -299,9 +298,13 @@ Our work helps our private sector clients to create and grow their businesses, a
                                 <div class="split-box__content">
                                     <div class="summary-info">
                                             <h3 class="summary-info__title cta-title">
-                                                    <span class="cta-title__copy">Financial modelling</span>
+                                                    <span class="cta-title__copy">Procurement and contracting advice</span>
                                             </h3>
-                                                                                    <p class="summary-info__copy">we help define a viable and compelling business case, establishing feasibility given local opportunities and constraints. We structure the corporate financial element of the deal at hand, raising capital, securing debt and building a robust financial model.</p>
+                                                                                    <p class="summary-info__copy">We develop procurement strategies from tender stage to contract award, finding the right mix of suppliers to bring in projects on budget, on time and up to quality. We frequently use our cross-sector experience and industry knowledge to innovate and bring new approaches to procurement and supply chain management to our clients. We also approach supply chains as an ongoing relationship that can provide long-term business value.</p>
+                                                                                    <a href="https://www.driversofchange.com/about/services/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                                                    <span>Learn about the Samuel de Champlain</span>
+                                                </a>                                       
                                     </div>
                                 </div>
                             </div>
@@ -314,9 +317,13 @@ Our work helps our private sector clients to create and grow their businesses, a
                                 <div class="split-box__content">
                                     <div class="summary-info">
                                             <h3 class="summary-info__title cta-title">
-                                                    <span class="cta-title__copy">Procurement advice</span>
+                                                    <span class="cta-title__copy">Due diligence</span>
                                             </h3>
-                                                                                    <p class="summary-info__copy">We develop procurement strategies tailored to a client’s long-term project needs, finding the right mix of suppliers to bring in their project at the required cost, time and quality. We never forget that supply chains are an ongoing relationship that can provide long-term business value.</p>
+                                                                                    <p class="summary-info__copy">We provide technical, commercial and market reviews of assets clients are looking to buy, technical and commercial advice and assurance to lenders who are considering supporting a project or funding an asset purchase. For example, in 2018, working for client GIP, our team provided technical due diligence advice for the acquisition of 139 solar and wind power generation assets.</p>
+                                                                                    <a href="https://www.driversofchange.com/about/services/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                                                    <span>Find out more our work with GIP</span>
+                                                </a>                                
                                     </div>
                                 </div>
                             </div>
@@ -328,28 +335,28 @@ Our work helps our private sector clients to create and grow their businesses, a
         <div class="rich-text">
             <div class="reveal rich-text__content">
                 <h2>Working with the public sector</h2><P> 
-Our work helps our public-sector clients to create and grow their programs in alignment with their policies, allowing them to make investment decisions with confidence. We support them from early stage economic and strategic analysis to support decisions whether to make investments, and then based on that decision on how to procure the programmes and projects, secure competitive bids and financing, and manage the procurements all the way to operations. We also provide independent advice on structuring, risk transfer, and procurement strategies designed that will achieve value for money.</P>
+Our work helps our public-sector clients to create and grow their program[me]s in alignment with their policies. We work across the decision-making life cycle, from early stage economic and strategic analysis to supporting investment decisions. And then based on a decision on how to procure the programmes and projects, secure competitive bids and financing, and manage the procurements all the way to operations. We also provide independent advice on commercial structuring, risk transfer, and procurement strategies to achieve value for money and affordability.</P>
             </div>
         </div>
     </section>
     <section class="split-pic highlight section">
         <div class="split-pic__pic-wrap split-pic__pic-wrap--frame">
-            <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/p/presidio-parkway/presidio-parkway-hero-2000x1125-ethan-rohloff.jpg?h=1125&la=en&w=2000&hash=DE4A06FDD8AE7FEDA12DB6B47DE2A87D29ABBEC8')"></div>
-            <div class="split-pic__pic split-pic__pic--mobile" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/p/presidio-parkway/presidio-parkway-hero-2000x1125-ethan-rohloff.jpg?h=1125&la=en&w=2000&hash=DE4A06FDD8AE7FEDA12DB6B47DE2A87D29ABBEC8')"></div>
+            <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/l/long-beach-civic-center/arup_projects_government_long_beach_civic_centre_usa_01_2000x1125.jpg?h=1125&la=en&w=2000&hash=C44753040FEB9FF55EB503B08965CB9E78DACF55')"></div>
+            <div class="split-pic__pic split-pic__pic--mobile" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/l/long-beach-civic-center/arup_projects_government_long_beach_civic_centre_usa_01_2000x1125.jpg?h=1125&la=en&w=2000&hash=C44753040FEB9FF55EB503B08965CB9E78DACF55')"></div>
             <p class="split-pic__caption"></p>
         </div>
         <div class="split-pic__content">
             <div class="split-pic__inner">
                 <div class="split-pic__copy">
-                    <h3 class="h4">Presidio Parkway</h3>
-                    <p>Our collaborative approach can be applied to funding too. We structured the funding for San Francisco's Presidio Parkway Scheme using flexible models like public-private partnerships (PPP).</p>
-                    <P>This text may need tweaking a little to give proper context</P>
+                    <h3 class="h4">Long Beach Civic Centre</h3>
+                    <P>When Long Beach's city hall, port headquarters and civic plaza required a major redevelopment, the city sought our advice on structuring a potential partnership with a developer to create a new complex that would create a new complex that would deliver facilities for same $12.6m the city was spending annually to main the existing complex.</P>
+                    <p>Our collaborative approach allowed us to structured the funding for the project using flexible models like public-private partnerships (PPP).</p>
                     <h5></h5>
                     <hr>
                     <ul class="list list--links">
                         <li>
                             <a class="cta cta--black cta--small" href="/projects/acorn"><span class="icon icon-oval" style="background-image: none;"><svg height="42" viewbox="0 0 42 42" width="42" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="20" cy="20" fill="none" r="20" stroke="#FFF" stroke-linecap="square" transform="translate(1 1)"></circle></svg></span> <span class="cta__text">Presidio Parkway</span></a>
+                            <circle cx="20" cy="20" fill="none" r="20" stroke="#FFF" stroke-linecap="square" transform="translate(1 1)"></circle></svg></span> <span class="cta__text">Long Beach Civic Centre</span></a>
                         </li>
                     </ul>
                 </div>
@@ -359,8 +366,8 @@ Our work helps our public-sector clients to create and grow their programs in al
 <section class="container">
 		<div class="rich-text">
 			<div class="reveal rich-text__content">
-				<h2>Understanding the economic picture</h2><P>
-Our economics team brings analytical rigour to proposed schemes right from the start. We model, evaluate and advise, designing funding models for new infrastructure or redevelopments. Detailed and compelling economic analysis helps clients to build support for new investments, particularly important on major public schemes like new transport infrastructure or regeneration schemes.</P>
+				<h2>Worldwide support</h2><P>
+We work with clients across public and private infrastructure in the transport, energy, water, telecoms and property sectors worldwide. By drawing on the insights and experience of world-class sector experts from across Arup’s many disciplines, we deliver thought-through, evidence-based advice. And because Arup is authorised by the UK’s Financial Conduct Authority to provide corporate finance advice and is registered with the US Securities and Exchange Commission and Municipal Securities Rulemaking Board as a Municipal Advisor, we can deliver on the sort of financial analysis to see projects all the way through to financial close.</P>
 			</div>
 		</div>
 	</section>

@@ -208,23 +208,23 @@ type: perspective
         <div class="rich-text">
             <div class="reveal rich-text__content">
                 <h2>Delivering major programmes and projects with confidence</h2>
-                <p>Arup works with clients in every industry, providing talented teams of project managers who can make sure work is completed on time, on budget and at the lowest risk. Our philosophy is to add value, not bureaucracy. We offer support throughout the whole building lifecycle – developing the initial business case, procurement, undertaking design management, and then construction management. </p>
-                <p>Arup works with clients in every industry, providing talented teams of project managers who can make sure work is completed on time, on budget and at the lowest risk. Our philosophy is to add value, not bureaucracy. We offer support throughout the whole building lifecycle – developing the initial business case, procurement, undertaking design management, and then construction management. </p>
+                <p>Whatever the goal at hand, bringing in a dedicated programme or project management team (PPM) offers clients many advantages. Responsible and creative leadership; insights drawn from other sectors; and the confidence of an experienced team, ready to take on the largest and most complex commissions.</p><p> 
+Arup works with clients in every industry, providing talented teams of project managers who support projects throughout the whole building lifecycle – developing the initial business case, procurement, undertaking design management, and then construction management.</p><p> 
+But we also go beyond a project’s core aims, drawing on our wider knowledge to add value in different ways. Depending on the project there might be opportunities to set more ambitious sustainability targets or improve the overall workplace experience. We take time to consider the possibilities, adding value but never bureaucracy or costs.</p>
             </div>
         </div>
 </section>
 <section class="split-pic ">
         <div class="split-pic__pic-wrap split-pic__pic-wrap--frame">
-            <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/s/smartgrid-smartcity/arupprojectsgovernmentsmartgridsmartcityau012000x1125.jpg?h=1125&la=en&w=2000&hash=87AE3F6F6A9C2CC3AED5C0BC55AB393409269F9F')"></div>
+            <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/q/queensferry-crossing/2000x1125-queensferry-landscape-complete.jpg?h=1125&la=en&w=2000&hash=3DAF444E7D38816E53717F3099EE1459499A41E4')"></div>
             <div class="split-pic__pic split-pic__pic--mobile" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/q/queensferry-crossing/2000x1125-queensferry-landscape-complete.jpg?h=1125&la=en&w=2000&hash=3DAF444E7D38816E53717F3099EE1459499A41E4')"></div>
             <p class="split-pic__caption"></p>
         </div>
         <div class="split-pic__content">
             <div class="split-pic__inner">
                 <div class="split-pic__copy">
-                    <h3 class="h4">National Grid capital investment</h3>
-                    <p>National Grid needed to upgrade London’s aging electricity supply cables to meet increasing demand. Arup provided Programme Management Office (PMO) services, bringing together the existing projects and teams into a single delivery structure, with supporting personnel, systems and processes.</p>
-                    <P>The project was delivered six months early and over £50m below the budget approved by the NG board. </P>
+                    <h3 class="h4">Queensferry Crossing</h3>
+                    <p>On the Forth Replacement Crossing Project, our PPM team quickly discovered the project cost estimate for the original scope as defined was undeliverable for the client. But by stepping back, questioning assumptions and challenging the brief we were able to help reimagine the scheme to deliver on all project goals to programme deadlines and for half the original budget. </P>
                     <h5></h5>
                     <hr>
                     <ul class="list list--links">
@@ -240,8 +240,20 @@ type: perspective
     <section class="container" id="">
         <div class="rich-text">
             <div class="reveal rich-text__content">
+                <h2>Bringing communities and users onboard</h2>
+<p>No project is ever only about numbers. That’s why we help our clients to find ways to expand the social value of their projects or investments, helping them play a more beneficial role in the communities they work in. Again, Arup’s huge range of skills and experience means we can spot opportunities others miss. 
+</p><p>There are new ways to bring certainty to projects and programmes too. On complex infrastructure projects like the U.K.’s High Speed 2, our team were able to provide new digital and visualisation tools to help the stakeholder engagement process, engaging the communities with a better understanding of the route, the impact and the noise involved. 
+</P>
+            </div>
+        </div>
+</section>
+    <section class="container" id="">
+        <div class="rich-text">
+            <div class="reveal rich-text__content">
                 <h2>Taking on major programmes</h2><P>
-On programme management commissions our perspective is even wider. We help clients to decide their priorities, making sure their choices and investments are truly beneficial. Again, our insights are drawn from long experience delivering some of the world’s most complex infrastructure projects.</P>
+On programme management commissions our perspective is even wider. Our team offer strategic advice, always taking time to relate the work at hand to clients’ other long-term goals. How does an whole estate work, viewed as a whole portfolio? Where can efficiencies and savings be produced across the whole commission? We provide a forensic, aerial view.</P><p>
+We help clients to decide their priorities, making sure their choices and investments are truly beneficial over the long-term. We also ensure they have the governance mechanisms to stay in control of costs and can stay forward looking.
+</P>
             </div>
         </div>
 </section>
@@ -310,7 +322,7 @@ On programme management commissions our perspective is even wider. We help clien
         <div class="rich-text">
             <div class="reveal rich-text__content">
                 <h2>The information opportunity</h2><P>
-As the built environment becomes a fully digital realm, information management has become a more important business priority. Our digital services team are expert at setting up common data environments, managing clients’ overall information management requirements. This includes implementation of new <a href="#">BIM models</a> that can support clients’ ongoing post-completion operations. Our <a href="#">visualisation experts</a> can also find new ways to turn client information into valuable insights and services. Imagination is the only limitation.
+As the built environment becomes a fully digital realm, information management has become a more important business priority. Our digital services team are expert at setting up common data environments, managing clients’ overall information management requirements. We develop dashboards that bring real control over the most complex projects and programmes. </P><P>We also develop and set-up BIM models that can support clients’ ongoing post-completion operations, leading to new possibilities like the ‘digital twin’. Our visualisation experts can also find new ways to turn client information into valuable insights and services, aiding the stakeholder engagement process in new ways. Imagination is the only limitation
 </P>
             </div>
         </div>
@@ -496,7 +508,7 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
                                                                                     <p class="summary-info__copy">Our service has two dimensions: asset strategy and asset operations, meaning we can help clients at both the broadest and most tactical levels.
 </p><p class="summary-info__copy">
 Taking a new approach to your business’ assets can optimise your wider operations: from the level of service offered to financial performance achieved, from regulatory compliance to their overall reputation in the market.</p>
-<a href="/arup-pages/advisory-services/assets-and-operations/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+<a href="/arup-pages/advisory-services/assets-and-operations/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
                                                     <span>Find out more assets and operations</span>
                                                 </a>

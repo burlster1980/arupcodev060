@@ -207,7 +207,8 @@ type: perspective
 	<section class="container" id="">
         <div class="rich-text">
             <div class="reveal rich-text__content">
-                <p>At moments of business change, like major expansions, getting the right mix of people skills and knowledge right is pivotal to success. Our team are experts in behavioural change, business psychology and leadership techniques that can help an organisation to stay ahead.</p>
+                <h2>Getting people and organisations ready for change</h2>
+                <p>Creating any form of impact on our built environment requires people. Specifically, talented and capable people brought together and aligned to focus their skills in achieving often innovative and challenging goals to deliver outcomes and benefits that supports our clients and is a critical part of our mission. Our people and change teams bring together experts in strategic change and business psychology to help our clients shape their organisations and maximise their people’s capability and performance.</p>
             </div>
         </div>
 </section>
@@ -215,7 +216,7 @@ type: perspective
         <div class="rich-text">
             <div class="reveal rich-text__content">
                 <h2>Developing leaders</h2><p>
-A great product or service is nothing without inspirational and transformative leadership. It’s how you stay ahead, in good times and bad. Our consultants work with leaders to accelerate their personal development and coach valuable leadership techniques that will take them to the next level.</p>
+The challenge of change is the opportunity for everyone to become part of leading the change. Our teams work with organisations to support their transformation through developing leadership capability at all levels, creating environments that supports that leadership and senior leaders on their own leadership and how to ignite the potential in those they lead.</p>
             </div>
         </div>
 </section>
@@ -223,7 +224,7 @@ A great product or service is nothing without inspirational and transformative l
         <div class="rich-text">
             <div class="reveal rich-text__content">
                 <h2>Cultures that work</h2><p>
-There are many elements to an effective business culture. Shared goals and commitments. Strong skills and a willingness to collaborate. We’ve worked with clients as diverse as CrossRail, the NHS, and Hong Kong's Mass Transit Rail Corporation to help their people adopt new goals, learn new skills and prepare for major business change.</p>
+“How do we do things here?” The days when there was a settled answer to that question are largely behind us. The interventions that can influence culture and support organisational adaption to new ways of working are distinct but complex. Whether it’s the delivery of a large capital programme, the transformation to increased technology influence in work or a need to increase the effectiveness of an existing organisation our experience from a wide range of organisations will be a powerful start to a discussion.</p>
             </div>
         </div>
 </section>
@@ -276,7 +277,7 @@ There are many elements to an effective business culture. Shared goals and commi
         <div class="rich-text">
             <div class="reveal rich-text__content">
                 <h2>Developing the right model</h2><p>
-Sometimes we’re called in to provide a wider vision, rethinking the model from the ground up. With a new goal, or reorganisation in hand, clients ask us to rework their organisational structures and governance models, helping to achieve their strategic and operational objectives.  
+A great strategy is only as good as how well it is implemented and the outcomes it leads to. We’ve worked supporting leaders and organisations to develop that strategy into the vision and operating model to create or change how the organisation works to meet current goals and future challenges. Enabling these new models to ‘land’ in the organisation is often the big next step and one we are familiar and comfortable with.  
 </p>
             </div>
         </div>
@@ -308,9 +309,10 @@ Sometimes we’re called in to provide a wider vision, rethinking the model from
         <div class="rich-text">
             <div class="reveal rich-text__content">
                 <h2>Wellbeing: the people factor</h2><p>
-Our understanding of the health and wellbeing performance of the built environment continues to grow and is now a central part of the design process and operational considerations for any asset.</p><P>Daylight levels, material choices, acoustic performance all play a role. But the workplace isn’t just the building. Our experts ask deeper questions: is an organisation structured to nurture their people’s talent and contribution? Is the working culture one where everyone can learn and develop?
-</P><p>
-Arup is at the forefront in developing environmental and wellness strategies for the built environment, with extensive experience in implementing all building rating systems including WELL, LEED and BREEAM. We help clients to understand and shape the physical and psychological factors that make for a successful business 
+Our understanding of the health and wellbeing performance of the built environment continues to grow and is now a central part of the design process and operational considerations for any asset. Daylight levels, material choices, acoustic performance all play a role. But the workplace isn’t just the building. Our experts ask deeper questions: is an organisation structured to nurture their people’s talent and contribution? Is the working culture one where everyone can learn and develop?
+</p><p>
+Arup is at the forefront in developing environmental and wellness strategies for the built environment, with extensive experience in implementing all building rating systems including WELL, LEED and BREEAM. We help clients to understand and shape the physical and psychological factors that make for a successful business.
+ 
 </p>
             </div>
         </div>

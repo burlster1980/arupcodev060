@@ -2,7 +2,7 @@
 title: "Creating a publication promo module"
 date: 2019-02-17T01:18:33Z
 lastmod: 2019-04-01
-ddraft: false
+draft: false
 type: Creating modules
 weight: "5"
 menu:
@@ -164,10 +164,10 @@ menu:
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
 			<p><b>Promo</b></p>
-			<p>*fields marked in this way must be completed</p>
+			<p><i>&ast;fields marked in this way must be completed</i></p>
 			<ul>
 				<li><b>Promo title</b> - You can add a title to the module. This will appear to the top left of the module</li>
-				<li><b>Promo link</b> - you can choose to add a link to the module. This will generally be used to link to a 'set' of publications for example you may link to 'see all research publications'*</li>
+				<li><b>Promo link</b> - you can choose to add a link to the module. This will generally be used to link to a 'set' of publications for example you may link to 'see all research publications'&ast;</li>
 				<li><b>Publications</b>* - you can select up to 4 publications to display. Click 'Edit' and from the resulting popup, browse the content tree to find the publications you want to choose. Double click each publication you want to add so that it appears in the right hand column. Once you've selected your publications, click 'OK' to close the popup. Your chosen publications should then be on display. Please see the screenshots below for more details on this</li>
 			</ul>
 			<p>Please see the guide to <a href="/getting-started/adding-links/">adding links</a> for more information on how to add this link</p>
@@ -188,7 +188,7 @@ menu:
 				Fig 4: Example of a completed publication promo
 			</div>
 			<h5><a id="completing" name="completing"></a>Completing the module</h5>
-			<p>Once you have entered the relevant information, save the module. If you're ready to add the module to your page, you'll need to access the Experience Editor (link).</p>
+			<p>Once you have entered the relevant information, save the module. If you're ready to add the module to your page, you'll need to access the <a href="/getting-started/content-experience-editor/#experience">Experience Editor</a>.</p>
 		</div>
 	</div>
 </section>

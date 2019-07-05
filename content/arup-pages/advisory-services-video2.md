@@ -11,7 +11,7 @@ type: perspective
         <img src="https://www.arup.com/-/media/arup/images/perspectives/themes/cities/stopping-the-spread/bannerimagefireininformalsettlement2000x1125.jpg?h=1125&amp;la=en&amp;w=2000&amp;hash=D3D4AEFA7D8AE033F0153CB8346BC3881181B0E8" class="mainImg" alt="Fire in an informal settlement" width="2000" height="1125" DisableWebEdit="False" />;
     </div>
         <video preload="auto" loop="true" muted="muted" class="desktop-only">
-            <source src="/video/banner-video-1.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="/video/advisory-demo.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
         </video>
     <div class="container fullbleed__container">
         <div class="fullbleed__content fullbleed__content--hero">

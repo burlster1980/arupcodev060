@@ -259,8 +259,6 @@ To help address this global issue, we have launched a <a href="/perspectives/pub
                         </span>
                     </span>
             </p>
-
-
         </blockquote>
 </section>
 
@@ -284,17 +282,95 @@ To help address this global issue, we have launched a <a href="/perspectives/pub
         </div>
     </div>
 </section>
+<style>
+    .rich-text.feature .dynamic-feat__header {
+        margin-bottom:15px;
+        font-size:20px!important;
+    }
+    @media (min-width:1024px) {
+    .rich-text.feature {
+        margin-left:0;
+        margin-right:20%;
+        width:80%;
+    }
+    .rich-text.feature .feature-container {
+        float:left;
+        width:25%;
+        max-width:300px;
+    }
 
+    .rich-text.feature .feature-container .cta-title__link {
+        margin-top:5%;
+    }
+    .rich-text.feature p {
+        float:right;
+        width:70%;
+    }
+    .rich-text.feature header h4 {
+        font-size:20px;
+    }
+}
+    @media (max-width:1023px) {
+        .rich-text.feature .preview-card__header.preview-card__header--pic {
+            float:left;
+            max-width:250px;
+        }
+        .rich-text.feature .preview-card__content.preview-card__content--alt-style {
+            float:right;
+            width:calc(100% - 250px);
+        }
+    }
+
+</style>
 <section class="container" id="">
-        <div class="rich-text">
-            <div class="reveal rich-text__content">
-                <h2>Fire is a disaster risk
-</h2><P>Recovery from a fire is a long and difficult process for anyone, and it is exacerbated in informal settlements where insecure tenure, financial instability, and a lack of insurance are common. The impacts from a fire often exceed the community’s ability to cope. On this basis, fire in informal settlements is a ‘disaster’ according to the definition of the United Nations International Strategy for Disaster Reduction. Despite this, informal settlement fires are often not included in disaster management policy and practice, and fire resilience isn’t enough of a priority.
-</P><h2>Every fire reflects local issues
-</h2><P>Every informal settlement is unique. A slum in India that has been around for decades faces different challenges than a camp housing refugees displaced from a Syrian warzone. Fire safety considerations for informal settlements must be holistic and take account of the wide range of competing risks and challenges. By first understanding the local context, investments in fire risk reduction can take advantage of existing resources and the capacities of the communities themselves. 
+        <div class="rich-text feature reveal"> 
+                <div class="feature-container">
+    <div class="dynamic-feat">
+        <header class="dynamic-feat__header">
+                <div class="dynamic-feat__title-wrap">
+                    <h4 class="dynamic-feat__title">Related</h4>
+                </div>
+                <hr>
+            </header>
+        <div class="dynamic-feat__list">
+            <ul class="up-list">
+<li class="up-list__item up-list__item--one">
+    <div class="preview-card ">
+        <div>
+            <a href="/perspectives/time-better-spent-can-we-finally-overcome-airport-queues" class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/perspectives/themes/transport/digital-aviation/2000x1125dublinairportshutterstock.jpg?h=1125&amp;w=2000&amp;hash=D23D87E3A0614F358D48F8062BC725698342300F');">
+                </div>
+            </a>
+        <div class="preview-card__content preview-card__content--alt-style">
+            <div class="preview-card__main">
+                <div class="preview-copy">
+                    <a href="/perspectives/time-better-spent-can-we-finally-overcome-airport-queues" class="preview-copy__toplink">
+                        <h4 class="preview-copy__label label--md">
+                            Fishermans Bend
+                        </h4>
+                        <h3 class="preview-copy__title ">Shaping one of the world's largest urban renewal areas</h3>
+                            <div class="preview-copy__copy-wrap">
+                                <span class="cta-title__link cta cta--black cta--small cta--right cta--plain">
+                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                                                    <span>Discover more</span>
+                                                </span>
+                            </div>
+                    </a>
+                </div>
+                </div>
+            </div>
+            <footer class="preview-card__footer">
+</footer>
+        </div>
+</div>
+</li>
+</ul>
+</div>
+                </div></div>
+                <P>Recovery from a fire is a long and difficult process for anyone, and it is exacerbated in informal settlements where insecure tenure, financial instability, and a lack of insurance are common. The impacts from a fire often exceed the community’s ability to cope. On this basis, fire in informal settlements is a ‘disaster’ according to the definition of the United Nations International Strategy for Disaster Reduction. Despite this, informal settlement fires are often not included in disaster management policy and practice, and fire resilience isn’t enough of a priority.
+</P><P>Every informal settlement is unique. A slum in India that has been around for decades faces different challenges than a camp housing refugees displaced from a Syrian warzone. Fire safety considerations for informal settlements must be holistic and take account of the wide range of competing risks and challenges. By first understanding the local context, investments in fire risk reduction can take advantage of existing resources and the capacities of the communities themselves. 
 </P><P>The framework places understanding local context at its centre, emphasising its relevance to every area of fire risk reduction. This keeps the framework relevant to different informal settlements around the world. 
 </P>
-            </div>
         </div>
 </section>
 

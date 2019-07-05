@@ -208,10 +208,11 @@ type: perspective
 		<div class="rich-text">
 			<div class="reveal rich-text__content">
                 <H2>Making change work for you</H2>
-				<p>We help organisations to make their biggest decisions. Clients approach us, needing to redefine their purpose or take bold steps in new directions. For some, regulation is remaking their industry or technology providing new opportunities. For others, a merger or acquisition is a chance to revisit their overall strategy. Some simply want to respond to tougher competition.</p><h2>
-Crafting successful strategies</h2><P>
-We conduct market and competitor analysis, defining and stress testing corporate strategies to help them stay ahead of market developments. Our team will research a client’s market position, working out how they can best prepare for change, expand their services or enter new markets. We provide valuable objectivity and offer leaders insights into the trends and developing issues that will shape their future success. </P><P>
-We worked with Swedish utility company Vattenfall, to help them develop a UK electricity distribution business, one that could compete successfully in a new market against established competitors. We helped them understand the territory and organise a successful renewable energy operation from the ground up.   
+				<P>In today’s fast-moving business environment clients approach us to redefine their purpose or to take bold steps in a new direction. Transformation is driven by regulation redefining industries, technology disrupting the status quo, or users wanting new experiences. For others, a merger or acquisition is a chance to revisit their overall strategy. Some simply want to respond to tougher competition and improve their productivity. Whatever the challenge, we develop effective business strategies that are informed and supported by a wide range of technical, economic, and advisory expertise. </P>
+<h2>Responding to change, improving performance</h2><P>
+We help leaders ensure that their vision and mission is achievable and on target. We conduct market and competitor analysis, defining approaches that will help them to stay ahead of market developments. We provide much-needed objectivity and offer leaders insights into the trends and issues that will shape their future operating environment.</P>
+<p>Making change beneficial means knowing what to stop doing, what to start doing and what to accelerate. This requires a deep understanding of how a business works from top to bottom of its value chain and how it is performing. We are a world leader in supporting organisations through these processes, providing a deep understanding of deliverability and affordability, and the way ways things are done in our clients’ organisations.</p><p>
+Our advisory insights are underpinned by deep technical domain expertise in design and engineering of the built environment, the operation of safety critical assets and business change and organisational development expertise.
 </P>
 			</div>
 		</div>
@@ -221,7 +222,7 @@ We worked with Swedish utility company Vattenfall, to help them develop a UK ele
     <div class="  dynamic-feat__hero">
     <div class="preview-card preview-card--hero">
         <a href="#" class="preview-card__header preview-card__header--pic">
-            <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/m/midwifery-leadership-development-programme/2000x1125-bonniekittle122261.jpg?h=1125&la=en&w=2000&hash=84879B826C7D5BA2040AD25F3058C786EDD2653F');">
+            <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/perspectives/themes/energy/smarter-electricity-in-developing-nations-2000x833.jpg?h=834&la=en&w=2000&hash=2A3A3C667EEB709B924B638538CAFB728B35A4E9');">
             </div>
         </a>
         <div class="preview-card__content ">
@@ -229,11 +230,11 @@ We worked with Swedish utility company Vattenfall, to help them develop a UK ele
                 <div class="preview-copy">
                     <a href="/perspectives/can-the-smart-city-be-ethical-with-its-data" class="preview-copy__toplink">
                         <h4 class="preview-copy__label label--md">
-                            Article
+                            Project
                         </h4>
-                        <h3 class="preview-copy__title ">Vattenfall example project</h3>
+                        <h3 class="preview-copy__title ">Vattenfall</h3>
                         <div class="preview-copy__copy-wrap">
-                                <p class="preview-copy__copy">Intro teaser copy goes here - one to two sentences encouraging the user to click through and learn more</p>
+                                <p class="preview-copy__copy">We worked with Swedish utility company Vattenfall, to help them develop a UK electricity distribution business, one that could compete successfully in a new market against established competitors. We helped them understand the territory and organise a successful renewable energy operation from the ground up.</p>
                         </div>
                     </a>
                 </div>
@@ -258,10 +259,8 @@ We worked with Swedish utility company Vattenfall, to help them develop a UK ele
 	<section class="container">
 		<div class="rich-text">
 			<div class="reveal rich-text__content">
-				<h2>Foresight: how to stay future-focused</h2><P>
-Global issues are becoming local priorities. From the unsustainable use of plastics, to climate change and digital transformation, in a globalised economy few businesses are immune to emerging trends. 
-</P>
-<P>Foresight helps clients in every sector to work out what’s possible, probable or preferable. That means everything from helping transit authorities to plan new services with greater confidence, to reimagining mail and parcel logistics, or plotting the future shape of rail systems. 
+				<h2>Anticipate trends, take actions</h2><P>
+Major global trends, from the explosion of digital technologies to the growing pressures of climate change, are reshaping the way businesses look at their future. What was profitable yesterday, might not be a viable business model tomorrow. New regulations might require a change of tactics. Advances in technology might open opportunities for growth or be a risk to established customer relationships. We help clients to explore new horizons and create value from emerging opportunities. We work across many sectors, including transport, water and energy, to ensure our clients’ organisations are resilient, relevant and profitable in the decades ahead. 
 </P>
 			</div>
 		</div>
@@ -276,7 +275,7 @@ Global issues are becoming local priorities. From the unsustainable use of plast
             <div class="split-pic__inner">
                 <div class="split-pic__copy">
                     <h3 class="h4">Foresight, research and innovation</h3>
-                    <p>Our Foresight, Research and Innovation team helps organisations to navigate a successful path, anticipating trends that represent market possibilities and potential growth. Our researchers map out and model the most pressing scenarios clients face, before collaborating with them to develop strategies that work for their organisations.</p>
+                    <p>Without intelligence, success can be fleeting. Our Foresight, Research and Innovation team helps organisations navigate a successful path into the future. The team identifies, monitors and analysis trends that shape markets and offer potential for innovation and growth.</p><P>Our researchers map out and model plausible scenarios clients face, before collaborating with them to develop strategies that improve the adaptability and resilience of their organisations. Foresight helps clients in every sector to work out what’s possible, probable or preferable.</p>
                     <h5></h5>
                     <hr>
                     <ul class="list list--links">
@@ -311,30 +310,29 @@ Global issues are becoming local priorities. From the unsustainable use of plast
 	<section class="container">
 		<div class="rich-text">
 			<div class="reveal rich-text__content">
-				<h2>Sustainability: an issue for every business</h2><P>
-After slowly growing in importance for over two decades, sustainability is now a pressing concern to every business. Regulations are changing the business landscape as countries sharpen their response to climate change. Investors are looking to new sources or diversifying away from fossil fuel related funds.  
+				<h2>Change that counts</h2><P>
+Arup develops business strategies that are tailored to the context of the client and market, while being informed by our deep and broad technical expertise. The challenges vary, from improving a city’s resilience to climate change, to future-proofing industries whose sectors are changing but our approach is always forensic, joined-up and compelling. We look deep into the data and well beyond the current business horizon.
 </P>
-<P>Growing your business in a sustainable manner poses challenges. Many clients are setting ambitious carbon reduction targets or want to shift to restorative production and need help to make the required organisational changes. </P>
 			</div>
 		</div>
 	</section>
-	<section class="split-pic split-pic--flip">
+	<section class="split-pic split-pic--flip highlight-section">
         <div class="split-pic__pic-wrap split-pic__pic-wrap--frame">
-            <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/sustainability-consulting-california_academy_of_sciences_golden_gate_park_cody_andresen_arup.jpg?h=1125&la=en&w=2000&hash=15C1581EDD75D2C3E95E0EB9EFE1A952A20A0173')"></div>
-            <div class="split-pic__pic split-pic__pic--mobile" style="background-image: url('hhttps://www.arup.com/-/media/arup/images/expertise/services/sustainability-consulting-california_academy_of_sciences_golden_gate_park_cody_andresen_arup.jpg?h=1125&la=en&w=2000&hash=15C1581EDD75D2C3E95E0EB9EFE1A952A20A0173')"></div>
+            <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/h/hy4heat/tomthain145829unsplash.jpg?h=1125&la=en&w=2000&hash=469044F8B29CD1B2E7BD9BF65D62B183C07390F6')"></div>
+            <div class="split-pic__pic split-pic__pic--mobile" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/h/hy4heat/tomthain145829unsplash.jpg?h=1125&la=en&w=2000&hash=469044F8B29CD1B2E7BD9BF65D62B183C07390F6')"></div>
             <p class="split-pic__caption"></p>
         </div>
         <div class="split-pic__content">
             <div class="split-pic__inner">
                 <div class="split-pic__copy">
-                    <h3 class="h4">Sustainability consulting</h3>
-                    <p>Our team supports clients from the high-level initial vision through to auditing, assurance and reporting on the transitions made. As ever, we help clients to take these as opportunities to do something better, for everyone.</p>
+                    <h3 class="h4">Hy4Heat</h3>
+                    <p>Working for Hy4Heat we took the challenge of introducing hydrogen energy to help a large area of London shift away from fossil fuels. We were able to draw up actionable plans, taking in infrastructure change, pricing and governance, physical safety implications and likely returns for investors – all in a single strategy.</p>
                     <h5></h5>
                     <hr>
                     <ul class="list list--links">
                         <li>
                             <a class="cta cta--black cta--small" href="/projects/acorn"><span class="icon icon-oval" style="background-image: none;"><svg height="42" viewbox="0 0 42 42" width="42" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="20" cy="20" fill="none" r="20" stroke="#FFF" stroke-linecap="square" transform="translate(1 1)"></circle></svg></span> <span class="cta__text">Sustainability consulting</span></a>
+                            <circle cx="20" cy="20" fill="none" r="20" stroke="#FFF" stroke-linecap="square" transform="translate(1 1)"></circle></svg></span> <span class="cta__text">Read Hy4Heat</span></a>
                         </li>
                     </ul>
                 </div>
@@ -344,13 +342,50 @@ After slowly growing in importance for over two decades, sustainability is now a
     <section class="container">
 		<div class="rich-text">
 			<div class="reveal rich-text__content">
-				<h2>Leading the shift to a circular economy</h2><P>
-From entire cities like Amsterdam, to major infrastructure clients like HS2, clients in many sectors are considering aligning their businesses or operations with circular economy principles. In this more sustainable future, assets are designed for re-use, and the era of take/make/dispose comes to an end.  
+				<h2>Let the data speak</h2><p>
+Data is at heart of our approach. We consider the performance of our client’s organisation from the perspective of their people, assets, processes and business systems. We use data driven analyses and visualisation techniques to bring insight on business performance, to communicate change, engage end users and monitor the impact of new ways of working. </p>
+            </div>
+        </div>
+    </section>
+    <section class="publications alternative  reveal alternative">
+    <div class="highlight-section">
+        <div class="container">
+                <div class="publications__heading">
+                    <span class="title">Publication</span>
+                    <a href="/perspectives/publications/speeches-and-lectures/section/ove-arup-key-speech?itc_source=arup.com&itc_medium=publicationA&itc_campaign=ABtestB">
+                    <h2>
+                        Cities Alive: Designing for ageing communities
+                    </h2>
+                    <p>The ageing of the world population will be one of the defining megatrends of this century. Our report identifies the specific needs of older people and proposes strategies and actions to meet these needs.</p>
+                    </a>
+                <a class="cta cta--black cta--lg" href="/perspectives/publications/speeches-and-lectures/section/ove-arup-key-speech?itc_source=arup.com&itc_medium=publicationA&itc_campaign=ABtestB">
+                <span data-grunticon-embed class="icon icon-oval"></span>
+                <span>Download the publication</span>
+                </a>
+                </div>
+            <div class="publications__items">
+                    <div class="publications__item">
+                        <div class="publications__top">
+                            <a href="/perspectives/publications/speeches-and-lectures/section/ove-arup-key-speech?itc_source=arup.com&itc_medium=publicationA&itc_campaign=ABtestB">
+                            <img src="https://www.arup.com/-/media/arup/images/publications/d/ageingcommunitiescover.jpg?h=482&la=en&mw=340&w=340&hash=ACED25AC8CD544DC071B6159D13AD7F3FA5FAC19" alt="A framework for fire safety in informal settlements" width="300" height="424" DisableWebEdit="False" />
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        </a>
+    </div>
+</section>
+    <section class="container">
+        <div class="rich-text">
+            <div class="rich-text__content reveal"> <P>   
+We collaborate with specialist market research companies to design, capture and analyse customer data, from which we draw insights to provide strategic advice to our clients on ways to enhance their products and services and ways to create new customer experiences. 
+  
 </P>
 			</div>
 		</div>
 	</section>
-	<section class="publications alternative  reveal alternative">
+	<!--<section class="publications alternative  reveal alternative">
     <div class="highlight-section">
         <div class="container">
                 <div class="publications__heading">
@@ -387,7 +422,7 @@ For the last three years we have been the global built environment knowledge par
 </P>
 			</div>
 		</div>
-	</section>
+	</section>-->
 	<section class="container">
     <div class="dynamic-feat">
             <!--<header class="dynamic-feat__header">
@@ -436,9 +471,9 @@ For the last three years we have been the global built environment knowledge par
                         <h4 class="preview-copy__label label--md">
                             Article
                         </h4>
-                        <h3 class="preview-copy__title ">Fishermans Bend</h3>
+                        <h3 class="preview-copy__title ">Future Road Investment Strategy</h3>
                             <div class="preview-copy__copy-wrap">
-                                <p class="preview-copy__copy">We have been working with the City of Melbourne and the City of Port Phillip on this vast 500 hectare site, helping to inform an holistic approach to planning, infrastructure and development.</p>
+                                <p class="preview-copy__copy">As Technical Partner, we have been advising and supporting Highways England as it develops, implements and embeds strategic planning capability, including new people, processes and systems, into the organisation.</p>
                             </div>
                     </a>
                 </div>

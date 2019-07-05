@@ -207,13 +207,83 @@ type: perspective
 	<section class="container" id="">
         <div class="rich-text">
             <div class="reveal rich-text__content">
-                <p>Our service has two dimensions: asset strategy and asset operations, meaning we can help clients at both the broadest and most tactical levels.
-</p><P>Taking a new approach to your business’ assets can optimise your wider operations: from the level of service offered to financial performance achieved, from regulatory compliance to their overall reputation in the market.</p>
-	<h2>From sharper strategy to improved performance</h2><P>
-First, we ask questions. Does the existing asset strategy align with the organisation’s other, overall goals? Are the right people and skills and supporting logistics in place? What risks are posed by the existing assets and operational model? </P><P>
-From this point we work closely with clients to define a more effective asset management plan, making the most of each individual asset portfolio. That can mean anything from setting up new organisational structures, offering training and skills, to optimising lifecycle maintenance and management, and identifying potential future risks to assets’ resilience.  </P>
+                <h2>Well managed assets and facilities mean better business performance</h2>
+                <p>Whatever your business, long-term success depends on efficient, high-performance assets. Our Advisory Services team helps clients in industries as varied as transport, energy and water to optimise the acquisition, operation, maintenance and divestment of the assets that their businesses depend on. Our service has two dimensions: asset strategy and asset operations, meaning we can help clients at both the broadest and most tactical levels.</p><p>
+Assets and operations must work hand-in-hand. That’s why taking a new approach to your business’ assets can improve your wider operations: from the level of service offered to financial performance achieved, from regulatory compliance to your overall position in the marketplace.
+</P>
             </div>
         </div>
+</section>
+<section class="container" id="">
+        <div class="rich-text">
+            <div class="reveal rich-text__content">
+                <h2>From sharper strategy to improved performance</h2><p>
+First, we ask questions:</p><ul><li><p>Does the existing asset strategy align with the organisation’s other, overall goals?</p></li><li>Are the right people and skills and supporting logistics in place?</p></li><li><p>What risks are posed by the existing assets and operational model?</p></li></ul><p> 
+From this point we work closely with clients to define a more effective asset management plan, making the most of each individual asset portfolio. That can mean anything from setting up new organisational structures, offering training and skills, to optimising lifecycle maintenance and management, and identifying potential future risks to assets’ resilience.</p>
+
+</P>
+            </div>
+        </div>
+</section>
+<section class="container">
+    <div class=" dynamic-feat reveal">
+            <header class="dynamic-feat__header">
+                <div class="dynamic-feat__title-wrap">
+                    <h4 class="dynamic-feat__title"></h4>
+                </div>
+            </header>
+        <div class="dynamic-feat__list">
+            <ul class="up-list">
+<li class="up-list__item up-list__item--two">
+    <a href="/expertise/services/planning/smart-cities" class="preview-card ">
+            <header class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/p/perth-airport-terminal-2/2000x1125-perth-airport-terminal-2-orat-implementationc-arup3.jpg?h=1322&la=en&w=2349&hash=9650C6EE0DEBA69200A78AD5FA396A449F9811E3');"></div>
+            </header>
+        <div class="preview-card__content preview-card__content--alt-style">
+            <div class="preview-card__main">
+                <div class="preview-copy">
+                    <h4 class="preview-copy__label label--md">
+                        Project
+                    </h4>
+                    <h3 class="preview-copy__title ">Rail operators example project</h3>
+                    <div class="preview-copy__copy-wrap">
+                            <p class="preview-copy__copy">Delta needed to relocate its hub operations at Los Angeles International Airport (LAX) from Terminals 5 and 6 to 2 and 3. Arup was responsible for project managing all design activities on behalf of Delta Air Lines, which included three design teams working across five terminals.</p>
+                    </div>
+                </div>
+            </div>
+            <footer class="preview-card__footer">
+                <div class="preview-foot">
+                </div>
+            </footer>
+        </div>
+    </a>
+</li>
+<li class="up-list__item up-list__item--two">
+    <a href="/expertise/services/planning/smart-cities" class="preview-card ">
+            <header class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/s/st-elizabeth-hospital/stelizabethhospitalenumclaw2000x1125benjaminbenschneider.jpg?h=1125&la=en&w=2000&hash=1F3223B99A646EA5261C33F9C54AD88F020BC845');"></div>
+            </header>
+        <div class="preview-card__content preview-card__content--alt-style">
+            <div class="preview-card__main">
+                <div class="preview-copy">
+                    <h4 class="preview-copy__label label--md">
+                        Project
+                    </h4>
+                    <h3 class="preview-copy__title ">Water utilities example project</h3>
+                    <div class="preview-copy__copy-wrap">
+                            <p class="preview-copy__copy">Arup provided project management services for X years with involvement at all stages from planning through to implementation. Our team developed a procurement strategy and tender documents to engage 50 specialist contractors. </p>
+                    </div>
+                </div>
+            </div>
+            <footer class="preview-card__footer">
+                <div class="preview-foot">
+                </div>
+            </footer>
+        </div>
+    </a>
+</li>        </ul>
+        </div>
+    </div>
 </section>
 <section class="container" id="">
         <div class="rich-text">
@@ -287,8 +357,9 @@ The transaction is done. You’ve taken receipt of a complicated asset. You now 
     <section class="container" id="">
         <div class="rich-text">
             <div class="reveal rich-text__content">
-                <h2>ORAT: are you ready for major transitions?</h2><P>
-There’s no more pivotal business moment than launching a new service or major asset. To cope with these specific moments of change we’ve developed a specialist service: Operational Readiness and Transition (ORAT). </p><P>An ORAT project typically involves high profile public launches, complex combinations of new services or technologies, significant public interfaces, demanding security dimensions, among many other considerations. </p><P>Depending on the sector this could mean moving staff to a new headquarters, opening a new airport terminal, or shifting services to a new data centre – all without a break in the level of service the end users expect and demand. </P>
+                <h2>Are you ready for major transitions?</h2><p>There’s no more pivotal business moment than opening a new airport, hotel, hospital, sports stadium, or other major public asset. Open before you’re truly ready and the launch will be riddled by incomplete facilities, system failures, poor customer service and ongoing teething problems. The social media response to day-one errors is savage and reputations long built can be swept away.</p><p>
+To successfully plan and manage these unique moments of change we’ve developed a specialist service: Operational Readiness, Activation and Transition (ORAT). Operational readiness projects typically involve high profile public launches, complex combinations of new services or technologies, significant public interfaces, demanding security dimensions, among many other considerations. Depending on the sector this could mean moving staff to a new headquarters, opening a new airport terminal, or shifting services to a new data centre – all without a break in the level of service the end users expect and demand. 
+</P>
             </div>
         </div>
 </section>
