@@ -239,7 +239,7 @@ The challenge of change is the opportunity for everyone to become part of leadin
 <div class="dynamic-feat__hero">
     <div class="preview-card preview-card--hero">
         <a href="#" class="preview-card__header preview-card__header--pic">
-            <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/m/midwifery-leadership-development-programme/2000x1125-bonniekittle122261.jpg?h=1125&la=en&w=2000&hash=84879B826C7D5BA2040AD25F3058C786EDD2653F');">
+            <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/images/projects/transport-for-the-north/2000x1125leeds_city_centre_at_night__james_prestage_arup.jpg?h=1125&la=en&w=2000&hash=AEA83F4E133F96C0A41B4B339F9681229ACBEAE0');">
             </div>
         </a>
         <div class="preview-card__content ">
@@ -249,9 +249,9 @@ The challenge of change is the opportunity for everyone to become part of leadin
                         <h4 class="preview-copy__label label--md">
                             Article
                         </h4>
-                        <h3 class="preview-copy__title ">Midwifery Leadership Development Programme</h3>
+                        <h3 class="preview-copy__title ">Transport for the North</h3>
                         <div class="preview-copy__copy-wrap">
-                                <p class="preview-copy__copy">Arup and NHS East of England are working together to design and deliver a suite of leadership development programmes for midwives.</p>
+                                <p class="preview-copy__copy">s the UK’s first sub-national transport body, TfN represents the 16 million people who live in Northern England at national level to secure funding for transport schemes that are vital for transforming economic growth. Arup was appointed to design the new organisation, the first of its kind, and write the IT Strategic Plan that would allow all 19 partner organisations to work as one remotely. </p>
                         </div>
                     </a>
                 </div>
@@ -284,15 +284,15 @@ A great strategy is only as good as how well it is implemented and the outcomes 
 </section>
 <section class="split-pic">
         <div class="split-pic__pic-wrap split-pic__pic-wrap--frame">
-            <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/q/queensferry-crossing/2000x1125-queensferry-landscape-complete.jpg?h=1125&la=en&w=2000&hash=3DAF444E7D38816E53717F3099EE1459499A41E4')"></div>
-            <div class="split-pic__pic split-pic__pic--mobile" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/q/queensferry-crossing/2000x1125-queensferry-landscape-complete.jpg?h=1125&la=en&w=2000&hash=3DAF444E7D38816E53717F3099EE1459499A41E4')"></div>
+            <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/e/exploring-road-safety-benefits/2000x1125-eyeballs-hero-image.jpg?h=1125&la=en&w=2000&hash=E912389F48584E935C2CDA59CE256FB9C3CCF15F')"></div>
+            <div class="split-pic__pic split-pic__pic--mobile" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/e/exploring-road-safety-benefits/2000x1125-eyeballs-hero-image.jpg?h=1125&la=en&w=2000&hash=E912389F48584E935C2CDA59CE256FB9C3CCF15F')"></div>
             <p class="split-pic__caption"></p>
         </div>
         <div class="split-pic__content">
             <div class="split-pic__inner">
                 <div class="split-pic__copy">
-                    <h3 class="h4">Example here</h3>
-                    <p>Arup was selected by Transport Scotland as part of a joint venture, to develop the Queensferry Crossing specimen design, prepare the contract documentation and project-manage the new cable-stayed bridge, which crosses the river Forth near Edinburgh.</p>
+                    <h3 class="h4">Exploring the Road Safety Benefits of Direct Vision</h3>
+                    <p>As part of a wider road safety programme in the capital, Transport for London commissioned Arup and the University of Leeds to conduct research into the relationships between the design of HGV cabs, driver behaviour and collisions. </p>
                     <h5></h5>
                     <hr>
                     <ul class="list list--links">

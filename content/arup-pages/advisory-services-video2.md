@@ -7,15 +7,15 @@ type: perspective
 
 <section class="fullbleed fullbleed--hero fullbleed--video">
     <div class="progressiveMedia">
-        <img src="https://www.arup.com/-/media/arup/images/perspectives/themes/cities/stopping-the-spread/bannerimagefireininformalsettlement2000x1125.jpg?h=6&amp;la=en&amp;mw=10&amp;w=10&amp;hash=5BC30A39A542D9E106E747181C4CF8FBE4D81058" class="tempImg" alt="Fire in an informal settlement" width="10" height="6" DisableWebEdit="False" />;
-        <img src="https://www.arup.com/-/media/arup/images/perspectives/themes/cities/stopping-the-spread/bannerimagefireininformalsettlement2000x1125.jpg?h=1125&amp;la=en&amp;w=2000&amp;hash=D3D4AEFA7D8AE033F0153CB8346BC3881181B0E8" class="mainImg" alt="Fire in an informal settlement" width="2000" height="1125" DisableWebEdit="False" />;
+        <img src="/images/arup-pages/advisory-background-banner.jpg" class="tempImg" alt="Fire in an informal settlement" width="10" height="6" DisableWebEdit="False" />;
+        <img src="/images/arup-pages/advisory-background-banner.jpg" class="mainImg" alt="Fire in an informal settlement" width="2000" height="1125" DisableWebEdit="False" />;
     </div>
         <video preload="auto" loop="true" muted="muted" class="desktop-only">
-            <source src="/video/advisory-demo.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="/video/advisory-video-ny.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
         </video>
     <div class="container fullbleed__container">
         <div class="fullbleed__content fullbleed__content--hero">
-            <h1>Advisory services</h1>
+            <h1>Advisory Services</h1>
             <h4 style="font-size:20px;font-style: italic;margin-top:10px;">Bringing clarity to your biggest decisions</h4>
         </div>
     </div>
@@ -148,7 +148,7 @@ type: perspective
             </div>
         </div>
         <div class="utility-bar__breadcrumb">
-            <p class="utility-bar__page-title">Advisory services</p>
+            <p class="utility-bar__page-title">Advisory Services</p>
             <p class="utility-bar__page-subtitle">Talk to Carol Lemmens about this service</p>
         </div>
         <div class="utility-bar__contact">
@@ -314,7 +314,7 @@ We help leaders to lead, to refine their goals and sharpen their prospects. Clie
         <div class="preview-card__content image" style="background-color: transparent;">
             <div class="preview-card__main" style="position: relative;z-index: 3">
                 <div class="preview-copy">
-                    <h3 class="preview-copy__title ">Programme and projects</h3>
+                    <h3 class="preview-copy__title ">Programmes and projects</h3>
                     <div class="preview-copy__copy-wrap">
                             <p class="preview-copy__copy">Delivering major programmes and projects with confidence</p>
                             <span class="cta cta--black cta--lg cta--right cta--plain">
@@ -385,7 +385,7 @@ We help leaders to lead, to refine their goals and sharpen their prospects. Clie
     </a>
 </li>
 <li class="up-list__item" style="position: relative;">
-    <a href="/expertise/services/planning/smart-cities" class="preview-card ">
+    <a href="#" class="preview-card ">
             <header class="preview-card__header preview-card__header--pic">
             </header>
         <div style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/smartcitiesmore-london--overall-viewsc-daniel-clements.jpg?h=1125&amp;w=2000&amp;hash=D76D9D74A1F3C88323C3521BE0BF811AD189143B');background-position:50%;-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -395,7 +395,7 @@ We help leaders to lead, to refine their goals and sharpen their prospects. Clie
                 <div class="preview-copy" >
                                      <h3 class="preview-copy__title ">Sustainability consulting</h3>
                     <div class="preview-copy__copy-wrap">
-                            <p class="preview-copy__copy">Getting people and organisations ready for change</p>
+                            <p class="preview-copy__copy">Shaping a sustainable future</p>
                             <span class="cta cta--lg cta--black cta--right cta--plain">
                         <span data-grunticon-embed class="icon icon-oval"></span>
                         <span></span>
@@ -940,6 +940,7 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
         </ul>
 </div>
 </section>
+<!--
 <section class="container">
         <header class="section-header ">
             <div class="section-header__title-wrap section-title section-title--nopad">
@@ -1079,5 +1080,5 @@ Taking a new approach to your business’ assets can optimise your wider operati
                         </div>
         </div>
     </div>
-</section>
+</section>-->
 </article>

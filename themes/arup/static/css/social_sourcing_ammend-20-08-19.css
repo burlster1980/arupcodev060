@@ -1,0 +1,4755 @@
+#boilerplate_wrapper {
+    min-width: 0
+}
+
+body.desktop #header #header_container,
+body.desktop #header #header_settings_container,
+body.desktop #header_modular #header_container,
+body.desktop #header_modular #header_settings_container,
+body.desktop #header_settings #header_container,
+body.desktop #header_settings #header_settings_container,
+body.desktop body.taleo_biz #header_tbe #header_container,
+body.desktop body.taleo_biz #header_tbe #header_settings_container,
+body.taleo_biz body.desktop #header_tbe #header_container,
+body.taleo_biz body.desktop #header_tbe #header_settings_container {
+    max-width: 1200px;
+    width: 100%
+}
+
+body.mobile #container {
+    margin: 0!important
+}
+
+body.full_width #body_wrapper {
+    padding: 0
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+select,
+textarea,
+button {
+    font-family: Times New Roman, Times, serif
+}
+
+body {
+    background: #fff;
+    color: #000
+}
+
+.font_bold,
+.font_header_normal,
+.font_header_promo,
+body strong,
+div.error,
+input {
+    font-family: inherit
+}
+
+#header,
+#header_modular,
+body.taleo_biz #header_tbe {
+    box-shadow: none!important
+}
+
+.main_content_box {
+    float: none;
+    width: auto
+}
+
+.font_header_light {
+    font-family: inherit
+}
+
+#content,
+#right_bar {
+    margin-top: 40px
+}
+
+#container {
+    max-width: 1200px!important;
+    width: 100%!important;
+    padding: 0!important
+}
+
+#search_hldr.hidden_hero,
+.job_list #search_hldr,
+.notify-no-content[style] {
+    height: auto!important
+}
+
+#notify-banner.shown,
+body.mobile #header,
+body.mobile #header_modular,
+body.mobile #header_settings,
+body.mobile body.taleo_biz #header_tbe,
+body.taleo_biz body.mobile #header_tbe {
+    position: static
+}
+
+#container #content,
+#container #content.content_full,
+#container #footer,
+#container #footer_modular,
+#container #right_bar,
+#container .promo,
+#header #header_container #key_hldr,
+#header #header_container #logo_hldr,
+#header #header_container #nav_key_hldr,
+#header #header_container #nav_key_hldr #nav_hldr,
+#header #header_container .menu_toggle_hldr,
+#header #header_settings_container #key_hldr,
+#header #header_settings_container #logo_hldr,
+#header #header_settings_container #nav_key_hldr,
+#header #header_settings_container #nav_key_hldr #nav_hldr,
+#header #header_settings_container .menu_toggle_hldr,
+#header_modular #header_container #key_hldr,
+#header_modular #header_container #logo_hldr,
+#header_modular #header_container #nav_key_hldr,
+#header_modular #header_container #nav_key_hldr #nav_hldr,
+#header_modular #header_container .menu_toggle_hldr,
+#header_modular #header_settings_container #key_hldr,
+#header_modular #header_settings_container #logo_hldr,
+#header_modular #header_settings_container #nav_key_hldr,
+#header_modular #header_settings_container #nav_key_hldr #nav_hldr,
+#header_modular #header_settings_container .menu_toggle_hldr,
+#header_settings #header_container #key_hldr,
+#header_settings #header_container #logo_hldr,
+#header_settings #header_container #nav_key_hldr,
+#header_settings #header_container #nav_key_hldr #nav_hldr,
+#header_settings #header_container .menu_toggle_hldr,
+#header_settings #header_settings_container #header_settings_language,
+#header_settings #header_settings_container #key_hldr,
+#header_settings #header_settings_container #logo_hldr,
+#header_settings #header_settings_container #nav_key_hldr,
+#header_settings #header_settings_container #nav_key_hldr #nav_hldr,
+#header_settings #header_settings_container .menu_toggle_hldr,
+body.taleo_biz #header_tbe #header_container #key_hldr,
+body.taleo_biz #header_tbe #header_container #logo_hldr,
+body.taleo_biz #header_tbe #header_container #nav_key_hldr,
+body.taleo_biz #header_tbe #header_container #nav_key_hldr #nav_hldr,
+body.taleo_biz #header_tbe #header_container .menu_toggle_hldr,
+body.taleo_biz #header_tbe #header_settings_container #key_hldr,
+body.taleo_biz #header_tbe #header_settings_container #logo_hldr,
+body.taleo_biz #header_tbe #header_settings_container #nav_key_hldr,
+body.taleo_biz #header_tbe #header_settings_container #nav_key_hldr #nav_hldr,
+body.taleo_biz #header_tbe #header_settings_container .menu_toggle_hldr {
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.btn_txt {
+    color: inherit!important
+}
+
+body.desktop #header.compact #header_container,
+body.desktop #header_modular.compact #header_container,
+body.desktop .compact#header_modular #header_container,
+body.desktop body.taleo_biz .compact#header_tbe #header_container,
+body.taleo_biz body.desktop .compact#header_tbe #header_container {
+    width: 100%
+}
+
+#content .content_body .content_header .subtitle,
+#content .content_body .content_header .title {
+    font-family: inherit
+}
+
+a,
+a:link,
+a:visited {
+    color: inherit
+}
+
+a:hover,
+a:link:hover,
+a:visited:hover {
+    color: #ff5056
+}
+
+.no_stats .stats_copy_hldr {
+    height: auto
+}
+
+body.mobile #bottomBranding.responsive_hide,
+body.mobile #topBranding.responsive_hide {
+    display: block!important
+}
+
+.primary_btn,
+.secondary_btn {
+    font-size: 16px;
+    padding: 15px;
+    text-shadow: none;
+    line-height: 1.2
+}
+
+.primary_btn .btn_text,
+.secondary_btn .btn_text {
+    line-height: inherit
+}
+
+.form_btn,
+.generic_btn,
+.primary_btn,
+a.form_btn,
+a.generic_btn,
+a.primary_btn {
+    background-image: -webkit-gradient(linear, left top, right top, from(#eee), to(#f0f0f0));
+    background-image: linear-gradient(90deg, #eee, #f0f0f0);
+    font-family: inherit;
+    text-shadow: none;
+    border: none;
+    width: 100%!important;
+    padding: 15px 60px 15px 20px!important;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 0;
+    float: none!important;
+    font-family: Times New Roman, Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1;
+    text-align: center;
+    position: relative;
+    overflow: hidden
+}
+
+.form_btn,
+.form_btn:focus,
+.form_btn:hover,
+.generic_btn,
+.generic_btn:focus,
+.generic_btn:hover,
+.primary_btn,
+.primary_btn:focus,
+.primary_btn:hover,
+a.form_btn,
+a.form_btn:focus,
+a.form_btn:hover,
+a.generic_btn,
+a.generic_btn:focus,
+a.generic_btn:hover,
+a.primary_btn,
+a.primary_btn:focus,
+a.primary_btn:hover {
+    color: #000;
+    outline: none;
+    box-shadow: none
+}
+
+.form_btn:focus,
+.form_btn:hover,
+.generic_btn:focus,
+.generic_btn:hover,
+.primary_btn:focus,
+.primary_btn:hover,
+a.form_btn:focus,
+a.form_btn:hover,
+a.generic_btn:focus,
+a.generic_btn:hover,
+a.primary_btn:focus,
+a.primary_btn:hover {
+    color: #ff5056
+}
+
+.form_btn:after,
+.form_btn:before,
+.generic_btn:after,
+.generic_btn:before,
+.primary_btn:after,
+.primary_btn:before,
+a.form_btn:after,
+a.form_btn:before,
+a.generic_btn:after,
+a.generic_btn:before,
+a.primary_btn:after,
+a.primary_btn:before {
+    content: "";
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.form_btn:before,
+.generic_btn:before,
+.primary_btn:before,
+a.form_btn:before,
+a.generic_btn:before,
+a.primary_btn:before {
+    background-color: rgba(0, 0, 0, .03);
+    position: absolute;
+    width: 60px;
+    right: -10px;
+    top: 0;
+    bottom: 0;
+    -webkit-transform: skew(-22deg);
+    transform: skew(-22deg)
+}
+
+.form_btn:after,
+.generic_btn:after,
+.primary_btn:after,
+a.form_btn:after,
+a.generic_btn:after,
+a.primary_btn:after {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 12px;
+    height: 9px;
+    background: url(https://www.arup.com/assets-tss/images/arrow@2x.png) no-repeat 50% 50%;
+    background-size: contain
+}
+
+.form_btn:hover:after,
+.generic_btn:hover:after,
+.primary_btn:hover:after,
+a.form_btn:hover:after,
+a.generic_btn:hover:after,
+a.primary_btn:hover:after {
+    background-image: url(https://www.arup.com/assets-tss/images/arrow--hover@2x.png)
+}
+
+.form_btn .entypo,
+.generic_btn .entypo,
+.primary_btn .entypo,
+a.form_btn .entypo,
+a.generic_btn .entypo,
+a.primary_btn .entypo {
+    display: none
+}
+
+.secondary_btn,
+a.secondary_btn {
+    border-radius: 2px;
+    font-size: 18px;
+    line-height: 1;
+    text-align: center;
+    font-style: italic;
+    font-family: Times New Roman, Times, serif;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 20px;
+    width: 100%!important;
+    padding: 15px 65px 15px 15px;
+    box-shadow: none;
+    text-shadow: none;
+    float: none!important;
+    max-width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    font-weight: 400
+}
+
+@media screen and (min-width:786px) {
+    .secondary_btn,
+    a.secondary_btn {
+        width: auto!important;
+        padding-left: 40px
+    }
+}
+
+.secondary_btn,
+.secondary_btn:focus,
+.secondary_btn:hover,
+a.secondary_btn,
+a.secondary_btn:focus,
+a.secondary_btn:hover {
+    box-shadow: none;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000
+}
+
+.secondary_btn:after,
+.secondary_btn:before,
+a.secondary_btn:after,
+a.secondary_btn:before {
+    content: "";
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.secondary_btn:before,
+a.secondary_btn:before {
+    background-color: rgba(0, 0, 0, .03);
+    position: absolute;
+    width: 60px;
+    right: -10px;
+    top: 0;
+    bottom: 0;
+    -webkit-transform: skew(-22deg);
+    transform: skew(-22deg)
+}
+
+.secondary_btn:after,
+a.secondary_btn:after {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 12px;
+    height: 9px;
+    background: url(https://www.arup.com/assets-tss/images/arrow@2x.png) no-repeat 50% 50%;
+    background-size: contain
+}
+
+.secondary_btn:hover,
+a.secondary_btn:hover {
+    color: #ff5056;
+    border-color: #ff5056
+}
+
+.secondary_btn:hover:after,
+a.secondary_btn:hover:after {
+    background-image: url(https://www.arup.com/assets-tss/images/arrow--hover@2x.png)
+}
+
+.generic img {
+    border-radius: 0;
+    max-width: 100%!important;
+    width: 100%;
+    height: auto
+}
+
+.pod {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0 0 30px;
+    background-color: transparent;
+    font-family: Times New Roman, Times, serif;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: start;
+    align-items: flex-start
+}
+
+.pod a {
+    font-style: italic
+}
+
+.pod>.col,
+.pod>.content,
+.pod>.img {
+    -webkit-box-flex: 1;
+    flex-grow: 1
+}
+
+.pod>.col.left,
+.pod>.content.left,
+.pod>.img.left {
+    margin-right: 25px
+}
+
+.pod>h1,
+.pod>h1~*,
+.pod>h2,
+.pod>h2~*,
+.pod>h3,
+.pod>h3~*,
+.pod>h4,
+.pod>h4~*,
+.pod>h5,
+.pod>h5~*,
+.pod>h6,
+.pod>h6~* {
+    -webkit-box-flex: 0;
+    flex: 0 0 100%
+}
+
+.pod>.img {
+    align-self: flex-start;
+    -webkit-box-flex: 1;
+    flex: 1 1 33%;
+    line-height: 1
+}
+
+.pod>.img img {
+    display: block
+}
+
+.pod h1,
+.pod h2,
+.pod h3,
+.pod h4,
+.pod h5,
+.pod h6 {
+    line-height: 1.13;
+    font-family: Times New Roman, Times, serif;
+    display: block;
+    padding: 0;
+    margin: 0 0 15px
+}
+
+.pod h1 {
+    font-size: 36px;
+    line-height: 1.1;
+    color: inherit;
+    font-weight: 400
+}
+
+.pod h2 {
+    font-size: 24px
+}
+
+.pod h2,
+.pod h3 {
+    line-height: 1.2;
+    color: inherit
+}
+
+.pod h3 {
+    font-size: 28px
+}
+
+.pod h4 {
+    font-size: 24px;
+    line-height: 1.2;
+    color: inherit
+}
+
+.pod h5 {
+    font-size: 18px;
+    line-height: 1.3;
+    color: inherit;
+    font-weight: 400
+}
+
+.pod h6 {
+    font-size: 1rem;
+    line-height: 1.25;
+    font-weight: 600
+}
+
+.pod p {
+    line-height: 1.6;
+    font-size: 16px
+}
+
+@media screen and (min-width:786px) {
+    .pod p {
+        font-size: 18px
+    }
+}
+
+#header,
+#header_modular,
+body.taleo_biz #header_tbe {
+    background-color: #f9f9f9;
+    background-image: -webkit-gradient(linear, left top, right top, from(#f4f4f4), to(#f9f9f9));
+    background-image: linear-gradient(90deg, #f4f4f4, #f9f9f9);
+    border: none
+}
+
+#jMenuToggle {
+    background: url(https://www.arup.com/assets-tss/images/hamburger@2x.png) no-repeat 50% 50%!important;
+    background-size: 100%!important
+}
+
+#jMenuSearchToggle,
+#jMenuToggle {
+    text-indent: -999em;
+    text-align: left!important
+}
+
+#jMenuSearchToggle {
+    background: url(https://www.arup.com/assets-tss/images/search@2x.png) no-repeat 50% 50%!important;
+    background-size: contain
+}
+
+@media screen and (min-width:786px) {
+    #header #header_container #logo_hldr,
+    #header #header_settings_container #logo_hldr,
+    #header_modular #header_container #logo_hldr,
+    #header_modular #header_settings_container #logo_hldr,
+    #header_settings #header_container #logo_hldr,
+    #header_settings #header_settings_container #logo_hldr,
+    body.taleo_biz #header_tbe #header_container #logo_hldr,
+    body.taleo_biz #header_tbe #header_settings_container #logo_hldr {
+        display: none!important
+    }
+}
+
+#header #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a,
+#header #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a,
+#header_modular #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a,
+#header_modular #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a,
+#header_settings #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a,
+#header_settings #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a,
+body.taleo_biz #header_tbe #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a,
+body.taleo_biz #header_tbe #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a {
+    border-radius: 0;
+    text-transform: none;
+    text-shadow: none;
+    font-style: italic;
+    font-size: 16px;
+    font-family: Times New Roman, Times, serif
+}
+
+#header #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a .nav_txt,
+#header #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a .nav_txt,
+#header_modular #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a .nav_txt,
+#header_modular #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a .nav_txt,
+#header_settings #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a .nav_txt,
+#header_settings #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a .nav_txt,
+body.taleo_biz #header_tbe #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a .nav_txt,
+body.taleo_biz #header_tbe #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a .nav_txt {
+    border: none!important
+}
+
+#header #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a,
+#header #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:focus,
+#header #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:hover,
+#header #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a,
+#header #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:focus,
+#header #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:hover,
+#header_modular #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a,
+#header_modular #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:focus,
+#header_modular #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:hover,
+#header_modular #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a,
+#header_modular #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:focus,
+#header_modular #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:hover,
+#header_settings #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a,
+#header_settings #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:focus,
+#header_settings #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:hover,
+#header_settings #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a,
+#header_settings #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:focus,
+#header_settings #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:hover,
+body.taleo_biz #header_tbe #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a,
+body.taleo_biz #header_tbe #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:focus,
+body.taleo_biz #header_tbe #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:hover,
+body.taleo_biz #header_tbe #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a,
+body.taleo_biz #header_tbe #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:focus,
+body.taleo_biz #header_tbe #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:hover {
+    border: none;
+    background: transparent
+}
+
+#header #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:focus,
+#header #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:hover,
+#header #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:focus,
+#header #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:hover,
+#header_modular #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:focus,
+#header_modular #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:hover,
+#header_modular #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:focus,
+#header_modular #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:hover,
+#header_settings #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:focus,
+#header_settings #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:hover,
+#header_settings #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:focus,
+#header_settings #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:hover,
+body.taleo_biz #header_tbe #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:focus,
+body.taleo_biz #header_tbe #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:hover,
+body.taleo_biz #header_tbe #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:focus,
+body.taleo_biz #header_tbe #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a:hover {
+    color: #ff5056
+}
+
+#header #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a.selected,
+#header_modular #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a.selected,
+body.taleo_biz #header_tbe #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a.selected {
+    background: transparent;
+    color: #ff5056;
+    font-weight: 700
+}
+
+#header #header_container #nav_key_hldr #nav_hldr #main_nav,
+#header #header_settings_container #nav_key_hldr #nav_hldr #main_nav,
+#header_modular #header_container #nav_key_hldr #nav_hldr #main_nav,
+#header_modular #header_settings_container #nav_key_hldr #nav_hldr #main_nav,
+#header_settings #header_container #nav_key_hldr #nav_hldr #main_nav,
+#header_settings #header_settings_container #nav_key_hldr #nav_hldr #main_nav,
+body.taleo_biz #header_tbe #header_container #nav_key_hldr #nav_hldr #main_nav,
+body.taleo_biz #header_tbe #header_settings_container #nav_key_hldr #nav_hldr #main_nav {
+    padding: 0;
+    float: none;
+    min-height: auto
+}
+
+#header #header_container #nav_key_hldr #nav_hldr,
+#header #header_settings_container #nav_key_hldr #nav_hldr,
+#header_modular #header_container #nav_key_hldr #nav_hldr,
+#header_modular #header_settings_container #nav_key_hldr #nav_hldr,
+#header_settings #header_container #nav_key_hldr #nav_hldr,
+#header_settings #header_settings_container #nav_key_hldr #nav_hldr,
+body.taleo_biz #header_tbe #header_container #nav_key_hldr #nav_hldr,
+body.taleo_biz #header_tbe #header_settings_container #nav_key_hldr #nav_hldr {
+    float: none
+}
+
+#header #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item,
+#header #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item,
+#header_modular #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item,
+#header_modular #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item,
+#header_settings #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item,
+#header_settings #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item,
+body.taleo_biz #header_tbe #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item,
+body.taleo_biz #header_tbe #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item {
+    float: none;
+    height: auto;
+    min-height: auto;
+    padding: 0
+}
+
+@media screen and (min-width:786px) {
+    #header #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item,
+    #header #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item,
+    #header_modular #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item,
+    #header_modular #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item,
+    #header_settings #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item,
+    #header_settings #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item,
+    body.taleo_biz #header_tbe #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item,
+    body.taleo_biz #header_tbe #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item {
+        display: inline-block;
+        margin: 0 15px 0 0!important
+    }
+}
+
+#header #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a,
+#header #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a,
+#header_modular #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a,
+#header_modular #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a,
+#header_settings #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a,
+#header_settings #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a,
+body.taleo_biz #header_tbe #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a,
+body.taleo_biz #header_tbe #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a {
+    padding: 15px 10px;
+    font-size: 17px
+}
+
+#header #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a .nav_txt,
+#header #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a .nav_txt,
+#header_modular #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a .nav_txt,
+#header_modular #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a .nav_txt,
+#header_settings #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a .nav_txt,
+#header_settings #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a .nav_txt,
+body.taleo_biz #header_tbe #header_container #nav_key_hldr #nav_hldr #main_nav .nav_item a .nav_txt,
+body.taleo_biz #header_tbe #header_settings_container #nav_key_hldr #nav_hldr #main_nav .nav_item a .nav_txt {
+    padding: 0!important;
+    height: auto!important;
+    line-height: inherit!important
+}
+
+body.mobile #header #header_container #logo_hldr a,
+body.mobile #header #header_settings_container #logo_hldr a,
+body.mobile #header_modular #header_container #logo_hldr a,
+body.mobile #header_modular #header_settings_container #logo_hldr a,
+body.mobile #header_settings #header_container #logo_hldr a,
+body.mobile #header_settings #header_settings_container #logo_hldr a,
+body.mobile body.taleo_biz #header_tbe #header_container #logo_hldr a,
+body.mobile body.taleo_biz #header_tbe #header_settings_container #logo_hldr a,
+body.taleo_biz body.mobile #header_tbe #header_container #logo_hldr a,
+body.taleo_biz body.mobile #header_tbe #header_settings_container #logo_hldr a {
+    width: 67px;
+    height: 45px;
+    display: inline-block;
+    background: url(https://www.arup.com/assets-tss/images/logo-home.svg) no-repeat 0 0;
+    background-size: 100% 100%;
+    text-indent: -2000em
+}
+
+body.mobile #header #header_container #logo_hldr a img,
+body.mobile #header #header_settings_container #logo_hldr a img,
+body.mobile #header_modular #header_container #logo_hldr a img,
+body.mobile #header_modular #header_settings_container #logo_hldr a img,
+body.mobile #header_settings #header_container #logo_hldr a img,
+body.mobile #header_settings #header_settings_container #logo_hldr a img,
+body.mobile body.taleo_biz #header_tbe #header_container #logo_hldr a img,
+body.mobile body.taleo_biz #header_tbe #header_settings_container #logo_hldr a img,
+body.taleo_biz body.mobile #header_tbe #header_container #logo_hldr a img,
+body.taleo_biz body.mobile #header_tbe #header_settings_container #logo_hldr a img {
+    display: none
+}
+
+#header #header_container #key_hldr #main_key #key_name_hldr .key_menu_icn,
+#header #header_settings_container #key_hldr #main_key #key_name_hldr .key_menu_icn,
+#header_modular #header_container #key_hldr #main_key #key_name_hldr .key_menu_icn,
+#header_modular #header_settings_container #key_hldr #main_key #key_name_hldr .key_menu_icn,
+#header_settings #header_container #key_hldr #main_key #key_name_hldr .key_menu_icn,
+#header_settings #header_settings_container #key_hldr #main_key #key_name_hldr .key_menu_icn,
+body.taleo_biz #header_tbe #header_container #key_hldr #main_key #key_name_hldr .key_menu_icn,
+body.taleo_biz #header_tbe #header_settings_container #key_hldr #main_key #key_name_hldr .key_menu_icn {
+    background: transparent url(https://www.arup.com/assets-tss/images/down-arrow@2x.png) no-repeat 50% 50%;
+    background-size: contain;
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
+    width: 12px;
+    height: 6px;
+    border: none
+}
+
+#key_name_hldr {
+    font-size: 14px
+}
+
+#header #header_container #key_hldr #main_key #key_scl_hldr,
+#header #header_settings_container #key_hldr #main_key #key_scl_hldr,
+#header_modular #header_container #key_hldr #main_key #key_scl_hldr,
+#header_modular #header_settings_container #key_hldr #main_key #key_scl_hldr,
+#header_settings #header_container #key_hldr #main_key #key_scl_hldr,
+#header_settings #header_settings_container #key_hldr #main_key #key_scl_hldr,
+body.taleo_biz #header_tbe #header_container #key_hldr #main_key #key_scl_hldr,
+body.taleo_biz #header_tbe #header_settings_container #key_hldr #main_key #key_scl_hldr {
+    border: none
+}
+
+#header #header_container #key_hldr #main_key #key_scl_hldr .scl_channels .social_network_icon,
+#header #header_settings_container #key_hldr #main_key #key_scl_hldr .scl_channels .social_network_icon,
+#header_modular #header_container #key_hldr #main_key #key_scl_hldr .scl_channels .social_network_icon,
+#header_modular #header_settings_container #key_hldr #main_key #key_scl_hldr .scl_channels .social_network_icon,
+#header_settings #header_container #key_hldr #main_key #key_scl_hldr .scl_channels .social_network_icon,
+#header_settings #header_settings_container #key_hldr #main_key #key_scl_hldr .scl_channels .social_network_icon,
+body.taleo_biz #header_tbe #header_container #key_hldr #main_key #key_scl_hldr .scl_channels .social_network_icon,
+body.taleo_biz #header_tbe #header_settings_container #key_hldr #main_key #key_scl_hldr .scl_channels .social_network_icon {
+    background-image: url(https://www.arup.com/assets-tss/images/social.png)
+}
+
+#header #header_container #key_hldr #main_key #key_scl_hldr .scl_channels a.social_network_icon,
+#header #header_settings_container #key_hldr #main_key #key_scl_hldr .scl_channels a.social_network_icon,
+#header_modular #header_container #key_hldr #main_key #key_scl_hldr .scl_channels a.social_network_icon,
+#header_modular #header_settings_container #key_hldr #main_key #key_scl_hldr .scl_channels a.social_network_icon,
+#header_settings #header_container #key_hldr #main_key #key_scl_hldr .scl_channels a.social_network_icon,
+#header_settings #header_settings_container #key_hldr #main_key #key_scl_hldr .scl_channels a.social_network_icon,
+body.taleo_biz #header_tbe #header_container #key_hldr #main_key #key_scl_hldr .scl_channels a.social_network_icon,
+body.taleo_biz #header_tbe #header_settings_container #key_hldr #main_key #key_scl_hldr .scl_channels a.social_network_icon {
+    opacity: .7
+}
+
+.subnav {
+    box-shadow: none;
+    min-width: 0;
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, .1)
+}
+
+.subnav #subnav_area {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: visible
+}
+
+.subnav #subnav_area #subnav_hldr {
+    float: none;
+    display: inline-block;
+    margin: 0;
+    width: auto
+}
+
+.subnav #subnav_area #subnav_hldr .nav_item {
+    float: none;
+    display: inline-block;
+    position: relative
+}
+
+.subnav #subnav_area #subnav_hldr .nav_item:first-child {
+    margin-left: -10px
+}
+
+.subnav #subnav_area #subnav_hldr .nav_item a {
+    color: #000;
+    font-size: 14px;
+    font-style: italic;
+    position: relative;
+    margin: 0;
+    padding: 15px 10px;
+    border: none
+}
+
+.subnav #subnav_area #subnav_hldr .nav_item a.nav_active,
+.subnav #subnav_area #subnav_hldr .nav_item a:focus,
+.subnav #subnav_area #subnav_hldr .nav_item a:hover {
+    color: #ff5056;
+    text-decoration: none
+}
+
+.subnav #subnav_area #subnav_hldr .nav_item a .nav_txt {
+    display: inline;
+    border: none
+}
+
+#nav_hldr {
+    padding-left: 0!important
+}
+
+#header.compact #header_container #nav_key_hldr #nav_hldr #main_nav,
+#header_modular.compact #header_container #nav_key_hldr #nav_hldr #main_nav,
+.compact#header_modular #header_container #nav_key_hldr #nav_hldr #main_nav,
+body.taleo_biz .compact#header_tbe #header_container #nav_key_hldr #nav_hldr #main_nav {
+    padding: 0
+}
+
+@media screen and (min-width:900px) {
+    #main_nav,
+    #main_nav:before {
+        position: relative
+    }
+    #main_nav:before {
+        content: "Careers at Arup";
+        display: inline-block;
+        padding: 15px 10px;
+        opacity: .5;
+        font-size: 15px;
+        letter-spacing: .46px;
+        color: #000;
+        line-height: 16px;
+        width: 120px;
+        z-index: 2
+    }
+    #main_nav:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: calc(100% - 130px);
+        bottom: 0;
+        left: -800px;
+        z-index: 1;
+        -webkit-transform: skew(-22deg);
+        transform: skew(-22deg);
+        background-image: -webkit-gradient(linear, left top, right top, from(#f9f9f9), to(#fff));
+        background-image: linear-gradient(90deg, #f9f9f9, #fff);
+        opacity: .8
+    }
+}
+
+body.mobile #header #header_container #nav_key_hldr,
+body.mobile #header_modular #header_container #nav_key_hldr {
+    background-color: #fff
+}
+
+body.mobile #header_content #nav_hldr {
+    bottom: 20px!important;
+    padding: 20px!important;
+    left: 0
+}
+
+body.mobile #main_nav {
+    display: -webkit-box;
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column
+}
+
+body.mobile #main_nav .nav_item {
+    display: block!important;
+    margin: 0!important;
+    width: 100%
+}
+
+body.mobile #main_nav .nav_item a {
+    padding: 15px 0!important;
+    border: none!important;
+    font-size: 18px!important;
+    color: #343434!important
+}
+
+body.mobile #main_nav .nav_item a .nav_txt {
+    color: inherit!important
+}
+
+body.mobile #main_nav .nav_item a.selected,
+body.mobile #main_nav .nav_item a:focus,
+body.mobile #main_nav .nav_item a:hover {
+    color: #ff5056!important
+}
+
+body.mobile #main_nav .nav_item:not(:last-of-type) a {
+    border-bottom: 1px solid hsla(0, 0%, 69.8%, .2)!important
+}
+
+body.mobile #main_nav .key_panel {
+    margin-top: auto;
+    width: 100%;
+    border: none!important
+}
+
+body.mobile #main_nav .key_panel .menu_opt a {
+    float: none!important;
+    text-shadow: none!important;
+    color: #343434!important;
+    font-style: italic;
+    font-size: 18px!important;
+    padding: 15px 0!important;
+    border: none!important;
+    border-top: 1px solid hsla(0, 0%, 69.8%, .2)!important
+}
+
+body.mobile #main_nav .key_panel .menu_opt a.selected,
+body.mobile #main_nav .key_panel .menu_opt a:focus,
+body.mobile #main_nav .key_panel .menu_opt a:hover {
+    color: #ff5056!important
+}
+
+.toggle_overlay {
+    box-shadow: none;
+    border: none
+}
+
+body.mobile #header #header_container #nav_key_hldr,
+body.mobile #header_modular #header_container #nav_key_hldr,
+body.mobile body.taleo_biz #header_tbe #header_container #nav_key_hldr,
+body.taleo_biz body.mobile #header_tbe #header_container #nav_key_hldr {
+    box-shadow: 1px 0 1px 0 rgba(0, 0, 0, .1)
+}
+
+#header_settings .gray_btn {
+    background: transparent;
+    color: #707070;
+    font-style: italic;
+    padding: 4px 0;
+    text-shadow: none;
+    line-height: 1.2;
+    font-size: 14px;
+    border: none;
+    box-shadow: none;
+    border-radius: 0
+}
+
+#header_settings .gray_btn:focus,
+#header_settings .gray_btn:hover {
+    color: #ff5056
+}
+
+#header_settings_language select {
+    -webkit-appearance: none;
+    border: none;
+    font-style: italic;
+    font-family: Times New Roman, Times, serif;
+    position: relative;
+    background: url(https://www.arup.com/assets-tss/images/down-arrow@2x.png) no-repeat 100% 11px;
+    background-size: 12px 6px;
+    padding: 5px 10px 5px 5px;
+    font-size: 14px;
+    cursor: pointer
+}
+
+#header_settings_language select:focus {
+    outline: none
+}
+
+#header_settings,
+body.mobile #header_settings,
+body.mobile.left_aligned #header_settings,
+body.mobile.modular #header_settings {
+    background: #fff;
+    color: #fff;
+    border: none;
+    box-shadow: 0 1px 0 0 hsla(0, 0%, 95.3%, .5)
+}
+
+#header_settings #header_settings_container #header_settings_language .chzn-single .globus {
+    display: none
+}
+
+#header_settings #header_settings_container #header_settings_language .globus {
+    display: none!important
+}
+
+#header_settings #header_container,
+#header_settings #header_settings_container {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between
+}
+
+#header_settings #header_container:after,
+#header_settings #header_container:before,
+#header_settings #header_settings_container:after,
+#header_settings #header_settings_container:before {
+    display: none
+}
+
+.arup-header__container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px
+}
+
+.arup-header__inner {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between
+}
+
+.arup-header__back {
+    position: relative;
+    font-style: italic;
+    display: block;
+    padding: 15px 4px
+}
+
+.arup-header a {
+    -webkit-transition: color .25s;
+    transition: color .25s;
+    color: #333;
+    text-decoration: none
+}
+
+.arup-header a:hover {
+    color: #ff5056
+}
+
+.arup-header .arup-nav a {
+    padding: 10px 15px
+}
+
+@media screen and (min-width:1000px) {
+    .arup-header .arup-nav a {
+        padding: 24px
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .arup-header .arup-nav {
+        font-size: 18px
+    }
+}
+
+.arup-header .arup-logo,
+.arup-header .arup-nav {
+    display: none
+}
+
+@media screen and (min-width:786px) {
+    .arup-header .arup-logo,
+    .arup-header .arup-nav {
+        display: block
+    }
+    .arup-header__back {
+        display: none
+    }
+}
+
+#footer {
+    display: none
+}
+
+.arup-nav,
+.arup-social {
+    font-style: italic
+}
+
+.arup-nav ul,
+.arup-social ul {
+    list-style: none
+}
+
+.arup-nav li,
+.arup-social li {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle
+}
+
+.arup-nav a,
+.arup-social a {
+    display: inline-block;
+    padding: 10px 0
+}
+
+.arup-social li:not(:last-child) {
+    margin-right: 20px
+}
+
+.arup-social a {
+    width: 26px;
+    height: 26px;
+    padding: 0;
+    text-indent: -999em;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain
+}
+
+.arup-social__twitter {
+    background-image: url(https://www.arup.com/assets-tss/images/icon-twitter@2x.png)
+}
+
+.arup-social__linkedin {
+    background-image: url(https://www.arup.com/assets-tss/images/icon-linkedin@2x.png)
+}
+
+.arup-social__facebook {
+    background-image: url(https://www.arup.com/assets-tss/images/icon-facebook@2x.png)
+}
+
+.arup-social__instagram {
+    background-image: url(https://www.arup.com/assets-tss/images/icon-instagram@2x.png)
+}
+
+.arup-social__rss {
+    background-image: url(https://www.arup.com/assets-tss/images/icon-rss@2x.png)
+}
+
+.footer_copyright {
+    display: none!important
+}
+
+.arup-copyright {
+    color: rgba(52, 52, 52, .5);
+    letter-spacing: 1px
+}
+
+.arup-copyright p {
+    margin: 0;
+    padding: 0
+}
+
+.arup-logo {
+    color: #343434;
+    display: -webkit-inline-box;
+    display: inline-flex;
+    -webkit-box-align: end;
+    align-items: flex-end;
+    padding: 20px 0
+}
+
+.arup-logo>span {
+    line-height: 1;
+    font-size: 18px
+}
+
+@media screen and (min-width:900px) {
+    .arup-logo>span {
+        font-size: 20px
+    }
+}
+
+.arup-logo a {
+    width: 67px;
+    height: 21px;
+    display: inline-block;
+    background: url(https://www.arup.com/assets-tss/images/logo-home.svg) no-repeat 0 0;
+    background-size: 100% 100%;
+    text-indent: -2000em;
+    margin-right: 23px
+}
+
+@media screen and (min-width:900px) {
+    .arup-logo a {
+        width: 89px;
+        height: 28px
+    }
+}
+
+.jMenuOn .arup-footer {
+    display: none
+}
+
+.arup-footer__container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px
+}
+
+.arup-footer a {
+    -webkit-transition: color .25s;
+    transition: color .25s;
+    color: #333;
+    text-decoration: none
+}
+
+.arup-footer a:hover {
+    color: #ff5056
+}
+
+.arup-footer-top .arup-footer__inner {
+    padding: 30px 0 42px;
+    border-top: 1px solid hsla(0, 0%, 69.8%, .15)
+}
+
+@media screen and (min-width:900px) {
+    .arup-footer-top .arup-footer__inner {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        justify-content: space-between
+    }
+}
+
+@media screen and (min-width:900px) {
+    .arup-footer-top .arup-logo {
+        padding: 0
+    }
+}
+
+.arup-footer-top .arup-nav a {
+    display: block
+}
+
+@media screen and (max-width:900px) {
+    .arup-footer-top .arup-nav li {
+        display: block
+    }
+}
+
+@media screen and (min-width:900px) {
+    .arup-footer-top .arup-nav li:not(: first-child) {
+        margin-left: 36px
+    }
+}
+
+.arup-footer-bottom {
+    background-color: #f9f9f9;
+    font-size: 13px
+}
+
+.arup-footer-bottom .arup-nav li:not(:last-child):after {
+    content: "/";
+    display: inline-block;
+    margin: 0 18px;
+    color: hsla(0, 0%, 69.8%, .2)
+}
+
+@media screen and (max-width:900px) {
+    .arup-footer-bottom .arup-social {
+        border-bottom: 1px solid hsla(0, 0%, 69.8%, .2);
+        padding-bottom: 20px
+    }
+}
+
+.arup-footer-bottom .arup-footer__inner {
+    padding: 25px 0;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column
+}
+
+@media screen and (min-width:900px) {
+    .arup-footer-bottom .arup-footer__inner {
+        padding: 12px 0
+    }
+}
+
+.arup-footer-bottom .arup-footer__inner>:not(:last-child) {
+    margin-bottom: 20px
+}
+
+.arup-footer-bottom .arup-footer__inner .arup-nav {
+    -webkit-box-ordinal-group: 3;
+    order: 2
+}
+
+.arup-footer-bottom .arup-footer__inner .arup-nav--social {
+    -webkit-box-ordinal-group: 2;
+    order: 1
+}
+
+.arup-footer-bottom .arup-footer__inner .arup-copyright {
+    -webkit-box-ordinal-group: 4;
+    order: 3
+}
+
+@media screen and (min-width:900px) {
+    .arup-footer-bottom .arup-footer__inner {
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row
+    }
+    .arup-footer-bottom .arup-footer__inner>:not(:last-child) {
+        margin-bottom: 0
+    }
+    .arup-footer-bottom .arup-footer__inner .arup-copyright {
+        -webkit-box-ordinal-group: 2;
+        order: 1;
+        margin-right: 30px
+    }
+    .arup-footer-bottom .arup-footer__inner .arup-nav {
+        -webkit-box-ordinal-group: 3;
+        order: 2
+    }
+    .arup-footer-bottom .arup-footer__inner .arup-social {
+        -webkit-box-ordinal-group: 4;
+        order: 3;
+        -webkit-box-flex: 1;
+        flex-grow: 1;
+        text-align: right
+    }
+}
+
+.pagination_holder {
+    float: none;
+    width: auto
+}
+
+body.mobile .pagination_holder {
+    padding: 0
+}
+
+.pagination_holder .pagination {
+    float: none;
+    font-size: 18px;
+    margin: 20px 0
+}
+
+.pagination_holder .pagination .current,
+.pagination_holder .pagination .next,
+.pagination_holder .pagination .prev,
+.pagination_holder .pagination>span,
+.pagination_holder .pagination a {
+    box-shadow: none;
+    background-color: transparent;
+    float: none;
+    display: inline-block;
+    height: auto;
+    text-shadow: none;
+    font-family: Times New Roman, Times, serif;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color: #000;
+    padding: 5px;
+    line-height: 1;
+    margin: 0
+}
+
+.pagination_holder .pagination .current span.padding,
+.pagination_holder .pagination .next span.padding,
+.pagination_holder .pagination .prev span.padding,
+.pagination_holder .pagination>span span.padding,
+.pagination_holder .pagination a span.padding {
+    line-height: inherit;
+    padding: 0;
+    min-width: 0;
+    float: none;
+    font-size: inherit;
+    height: auto;
+    color: inherit
+}
+
+.pagination_holder .pagination a:focus,
+.pagination_holder .pagination a:hover {
+    color: #ff5056;
+    box-shadow: none;
+    background: transparent
+}
+
+.pagination_holder .pagination .next,
+.pagination_holder .pagination .prev {
+    width: auto;
+    max-width: none
+}
+
+.pagination_holder .pagination .next:before,
+.pagination_holder .pagination .prev:before {
+    display: block;
+    padding: 5px
+}
+
+.pagination_holder .pagination .next .padding,
+.pagination_holder .pagination .prev .padding {
+    display: none
+}
+
+.pagination_holder .pagination .next:before {
+    content: "Next"
+}
+
+.pagination_holder .pagination .prev:before {
+    content: "Previous"
+}
+
+.pagination_holder .pagination .current:not(.prev):not(.next) {
+    color: #ff5056
+}
+
+body.mobile #container #content #job_list {
+    padding: 0
+}
+
+@media screen and (min-width:786px) {
+    #job_list>.content_header+#jResultsArea #jobs_filters_area #job_search_filters,
+    body.job_list #portal_content>.content_header+#jResultsArea #jobs_filters_area #job_search_filters {
+        margin-top: -100px
+    }
+}
+
+@media screen and (min-width:786px) {
+    #job_list>.content_header,
+    body.job_list #portal_content>.content_header {
+        padding-left: 245px!important
+    }
+}
+
+@media screen and (min-width:786px) {
+    body.job_list:not(.job_results) #portal_content>.content_header {
+        padding-left: 265px!important
+    }
+}
+
+body.mobile #container #content #portal_content .content_header,
+body.mobile #container #content .content_header {
+    padding: 0
+}
+
+#jobs_filters_title .job_filters_toggle {
+    font-family: Times New Roman, Times, serif;
+    font-size: 16px;
+    line-height: 1.6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px 0;
+    font-style: italic
+}
+
+#jobs_filters_title .job_filters_toggle span {
+    float: none;
+    background: url(https://www.arup.com/assets-tss/images/filter.png) no-repeat 0 50%!important;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-top: -4px
+}
+
+#jobs_filters_title .job_filters_toggle span:before {
+    display: none
+}
+
+body.mobile #job_search_filters {
+    padding-left: 0;
+    padding-right: 0;
+    width: 220px
+}
+
+body.mobile #jobs_filters_area.job_filters_on {
+    box-shadow: none;
+    border-color: hsla(0, 0%, 69.8%, .35)
+}
+
+#jobs_filters_area #job_no_results_list_hldr,
+#jobs_filters_area #job_results_list_hldr,
+#jobs_filters_area #job_search_filters {
+    float: none;
+    margin: 0
+}
+
+@media screen and (min-width:786px) {
+    #jobs_filters_area {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-pack: justify;
+        justify-content: space-between
+    }
+    #jobs_filters_area #job_no_results_list_hldr,
+    #jobs_filters_area #job_results_list_hldr,
+    #jobs_filters_area #job_search_filters {
+        width: 100%
+    }
+    #jobs_filters_area #job_search_filters {
+        -webkit-box-flex: 0;
+        flex: 0 0 200px;
+        margin-right: 45px
+    }
+    #jobs_filters_area #job_no_results_list_hldr,
+    #jobs_filters_area #job_results_list_hldr {
+        -webkit-box-flex: 1;
+        flex-grow: 1
+    }
+}
+
+.filter_hldr {
+    text-shadow: none;
+    border: none;
+    background-color: transparent;
+    border-radius: 0
+}
+
+.filter_hldr .filter_title {
+    box-shadow: none;
+    background: transparent;
+    border-radius: 0;
+    padding: 8px 0;
+    overflow: hidden;
+    border: none
+}
+
+.flg_filter_hldr .job_flg {
+    font-family: Times New Roman, Times, serif;
+    float: none;
+    margin: 0;
+    border: none;
+    background: #eee;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-transform: none;
+    color: #333;
+    border-radius: 0;
+    padding: 4px 8px;
+    font-weight: 700;
+    vertical-align: middle
+}
+
+.flg_filter_hldr .job_flg.new_flg,
+.flg_filter_hldr .job_flg .new_flg {
+    background-color: #ff5056;
+    color: #fff
+}
+
+.flg_filter_hldr .job_flg.hot_flg,
+.flg_filter_hldr .job_flg .hot_flg {
+    color: #333
+}
+
+.flg_filter_hldr .filter_row div.label_hldr {
+    font-size: 15px;
+    margin-top: 2px
+}
+
+.filter_hldr {
+    margin: 0 0 30px
+}
+
+.filter_hldr .filter_title {
+    font-family: Times New Roman, Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #343434;
+    position: relative;
+    padding: 15px 10px;
+    border-top: 1px solid hsla(0, 0%, 69.8%, .2)
+}
+
+.filter_hldr .filter_title .facet_name {
+    float: none;
+    width: auto
+}
+
+.filter_hldr .filter_title .row_icon {
+    float: none;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%) rotate(-180deg);
+    transform: translateY(-50%) rotate(-180deg);
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s
+}
+
+.filter_hldr .filter_title .row_icon,
+.filter_hldr.jCollapsedHolder .filter_title .row_icon {
+    background: transparent url(https://www.arup.com/assets-tss/images/down-arrow@2x.png) no-repeat 50% 50%;
+    background-size: contain
+}
+
+.filter_hldr.jCollapsedHolder .filter_title .row_icon {
+    -webkit-transform: translateY(-50%) rotate(0);
+    transform: translateY(-50%) rotate(0)
+}
+
+.filter_hldr .facet_add_keywords {
+    border: none!important;
+    padding: 10px 0
+}
+
+.filter_hldr .facet_add_keywords input {
+    box-sizing: border-box;
+    box-shadow: none;
+    border-radius: 0;
+    border-color: hsla(0, 0%, 69.8%, .35);
+    height: auto;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 10px 10px 25px;
+    font-family: inherit
+}
+
+.filter_hldr .facet_add_keywords .plus_icon {
+    left: 6px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.filter_hldr .facet_add_keywords+.filter_row.all_filter_row a {
+    border-top: none
+}
+
+.filter_hldr .filter_row {
+    font-family: Times New Roman, Times, serif;
+    border-color: hsla(0, 0%, 69.8%, .35)
+}
+
+.filter_hldr .filter_row .filter_row_link {
+    -webkit-transition: all .25s;
+    transition: all .25s;
+    color: #343434;
+    padding: 10px 35px 10px 10px;
+    font-size: 15px;
+    line-height: 1.4;
+    position: relative
+}
+
+.filter_hldr .filter_row .filter_row_link:active,
+.filter_hldr .filter_row .filter_row_link:focus,
+.filter_hldr .filter_row .filter_row_link:hover {
+    background-color: transparent;
+    color: #ff5056
+}
+
+.filter_hldr .filter_row .filter_row_link .facet_name {
+    float: none;
+    width: auto
+}
+
+.filter_hldr .filter_row .filter_row_link .row_icon {
+    float: none;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.filter_hldr .filter_row .filter_row_link:hover .row_icon {
+    background: transparent url(https://www.arup.com/assets-tss/images/tick@2x.png) no-repeat 50% 50%!important;
+    background-size: contain!important;
+    opacity: .5;
+    width: 15px
+}
+
+.filter_hldr .filter_row .filter_row_link.active_row {
+    color: #ff5056
+}
+
+.filter_hldr .filter_row .filter_row_link.active_row .row_icon {
+    background: transparent url(https://www.arup.com/assets-tss/images/tick@2x.png) no-repeat 50% 50%!important;
+    background-size: contain!important;
+    width: 15px
+}
+
+.filter_hldr .filter_row .filter_row_link.active_row:focus .row_icon,
+.filter_hldr .filter_row .filter_row_link.active_row:hover .row_icon {
+    background: transparent url(https://www.arup.com/assets-tss/images/cross@2x.png) no-repeat 50% 50%!important;
+    background-size: contain!important
+}
+
+.filter_hldr .filter_row .filter_row_link.jFacetViewMore {
+    font-family: Times New Roman, Times, serif;
+    display: inline-block;
+    float: none;
+    box-sizing: border-box;
+    border: none;
+    width: auto;
+    text-align: left;
+    position: relative;
+    text-shadow: none;
+    box-shadow: none;
+    font-size: 16px;
+    font-style: italic;
+    color: #000;
+    font-weight: 700;
+    line-height: 1.4;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border-radius: 0;
+    width: 100%;
+    padding: 20px 35px 20px 10px
+}
+
+.filter_hldr .filter_row .filter_row_link.jFacetViewMore .entypo {
+    display: none
+}
+
+.filter_hldr .filter_row .filter_row_link.jFacetViewMore,
+.filter_hldr .filter_row .filter_row_link.jFacetViewMore:focus,
+.filter_hldr .filter_row .filter_row_link.jFacetViewMore:hover {
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    text-decoration: none
+}
+
+.filter_hldr .filter_row .filter_row_link.jFacetViewMore:before {
+    display: block;
+    content: "";
+    width: auto;
+    border-bottom: 1px solid hsla(0, 0%, 70.2%, .35);
+    background-color: transparent;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 10px;
+    -webkit-transition: all .25s;
+    transition: all .25s
+}
+
+.filter_hldr .filter_row .filter_row_link.jFacetViewMore:after {
+    display: none
+}
+
+.filter_hldr .filter_row .filter_row_link.jFacetViewMore:hover:before {
+    border-color: #ff5056;
+    bottom: 8px
+}
+
+.filter_hldr .filter_row .filter_row_link.jFacetViewMore:focus,
+.filter_hldr .filter_row .filter_row_link.jFacetViewMore:hover {
+    color: #ff5056
+}
+
+.filter_hldr .filter_row .filter_row_link.jFacetViewMore:before {
+    right: 0
+}
+
+.filter_hldr .filter_row .filter_row_link.jFacetViewMore .row_icon {
+    display: none!important
+}
+
+.filter_hldr .filter_row_hldr {
+    border: none
+}
+
+.flg_filter_hldr {
+    background-color: #fafafa;
+    padding: 10px 0;
+    margin-bottom: 20px
+}
+
+.flg_filter_hldr+.radius_filter_hldr {
+    margin-top: -20px;
+    padding-top: 0
+}
+
+.flg_filter_hldr .filter_header,
+.flg_filter_hldr .filter_row {
+    border: none
+}
+
+.flg_filter_hldr .filter_header .legend {
+    width: 17px;
+    height: 17px;
+    text-align: left;
+    text-indent: -999em;
+    background: transparent url(https://www.arup.com/assets-tss/images/info@2x.png) no-repeat 50% 50%;
+    background-size: contain;
+    border-radius: 50%
+}
+
+.flg_filter_hldr .filter_header .legend,
+.flg_filter_hldr .filter_header .legend:focus,
+.flg_filter_hldr .filter_header .legend:hover {
+    text-decoration: none
+}
+
+.flg_filter_hldr .filter_header .legend:focus,
+.flg_filter_hldr .filter_header .legend:hover {
+    box-shadow: 0 0 2px 3px rgba(255, 80, 86, .5)
+}
+
+.radius_filter_hldr {
+    background-color: #fafafa;
+    padding: 10px 0
+}
+
+.radius_filter_hldr .filter_header {
+    padding: 10px;
+    border: none
+}
+
+.radius_filter_hldr .filter_header .unit_switch {
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    font-size: 14px
+}
+
+.radius_filter_hldr .filter_header .unit_switch span {
+    line-height: 1;
+    text-shadow: none;
+    float: none;
+    display: inline-block;
+    padding: 0 3px;
+    font-size: inherit;
+    height: auto;
+    position: relative
+}
+
+.radius_filter_hldr .filter_header .unit_switch span:first-child:after {
+    content: "/";
+    color: #343434;
+    display: inline-block;
+    margin: 0 -3px 0 6px
+}
+
+.radius_filter_hldr .filter_header .unit_switch span.active {
+    border: none;
+    margin: 0;
+    background: transparent;
+    color: #ff5056
+}
+
+.radius_filter_hldr .filter_row {
+    padding: 10px;
+    border: none;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    text-align: justify
+}
+
+.radius_filter_hldr .filter_row:after {
+    content: "";
+    display: block
+}
+
+.radius_filter_hldr .filter_row div {
+    border-radius: 50%;
+    border: none!important;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-style: italic;
+    padding: 0;
+    text-align: center;
+    line-height: 35px;
+    width: 35px;
+    font-family: Times New Roman, Times, serif!important
+}
+
+.radius_filter_hldr .filter_row div.selected {
+    color: #fff;
+    background-color: #ff5056
+}
+
+#category_page_tiles {
+    box-sizing: border-box;
+    margin: 0 0 60px
+}
+
+@media screen and (min-width:786px) {
+    #category_page_tiles {
+        display: -webkit-box;
+        display: flex;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        justify-content: space-between
+    }
+    #category_page_tiles>* {
+        -webkit-box-flex: 0;
+        flex: 0 1 48%
+    }
+    #category_page_tiles:after {
+        content: ""
+    }
+}
+
+#category_page_tiles .category_tile {
+    border: none!important;
+    float: none!important;
+    width: auto!important;
+    border-radius: 0;
+    overflow: initial;
+    margin: 0 0 40px;
+    background: transparent;
+    display: block
+}
+
+#category_page_tiles .category_tile .category_tile_title {
+    margin: 0 0 16px
+}
+
+#category_page_tiles .category_tile .category_tile_title h4 {
+    font-family: inherit;
+    border-bottom: none!important
+}
+
+#category_page_tiles .category_tile .category_tile_title h4 a {
+    padding: 12px 0;
+    margin: 0;
+    color: inherit;
+    line-height: 1;
+    height: auto;
+    overflow: initial;
+    font-size: 24px;
+    font-style: italic;
+    display: block;
+    position: relative;
+    border-bottom: 1px solid hsla(0, 0%, 69.8%, .35);
+    -webkit-transition: all .25s;
+    transition: all .25s
+}
+
+#category_page_tiles .category_tile .category_tile_title h4 a:hover {
+    color: #ff5056;
+    border-color: #ff5056
+}
+
+#category_page_tiles .category_tile .category_tile_title h4 a .cat_name {
+    position: static
+}
+
+#category_page_tiles .category_tile .category_tile_title h4 a:after {
+    content: "";
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    background: url(https://www.arup.com/assets-tss/images/btn-arrow-lg@2x.png) no-repeat 50% 50%;
+    background-size: 100% 100%
+}
+
+#category_page_tiles .category_tile .category_tile_title h4 a:hover:after {
+    background-image: url(https://www.arup.com/assets-tss/images/btn-arrow-lg--hover@2x.png)
+}
+
+#category_page_tiles .category_tile .category_tile_title h4 .entypo {
+    display: none
+}
+
+#category_page_tiles .category_tile .category_jobs_hldr {
+    padding: 0
+}
+
+#category_page_tiles .category_tile .category_jobs_hldr .more {
+    border: 1px solid red;
+    padding: 0;
+    color: inherit;
+    font-size: inherit;
+    text-align: left;
+    display: none
+}
+
+#category_page_tiles .category_tile .category_jobs_hldr .cat_list_row {
+    border: none!important;
+    margin: 0 0 16px;
+    padding: 0
+}
+
+#category_page_tiles .category_tile .category_jobs_hldr .cat_list_row .cat_job_title {
+    margin-bottom: 12px;
+    line-height: 1
+}
+
+#category_page_tiles .category_tile .category_jobs_hldr .cat_list_row .cat_job_title a {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1;
+    color: inherit;
+    overflow: initial;
+    display: inline-block;
+    font-weight: 400;
+    border-bottom: 1px solid hsla(0, 0%, 69.8%, .35);
+    padding: 5px 0;
+    -webkit-transition: all .25s;
+    transition: all .25s
+}
+
+#category_page_tiles .category_tile .category_jobs_hldr .cat_list_row .cat_job_title a:hover {
+    color: #ff5056;
+    text-decoration: none;
+    border-color: #ff5056
+}
+
+#category_page_tiles .category_tile .category_jobs_hldr .cat_list_row .cat_job_location {
+    color: #b2b2b2;
+    line-height: 1;
+    font-size: 14px
+}
+
+#category_page_tiles .category_tile .category_jobs_hldr .cat_list_row .cat_job_location .entypo {
+    color: inherit!important;
+    display: inline-block;
+    width: 14px;
+    height: 21px;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: -999em;
+    background: url(https://www.arup.com/assets-tss/images/icon-location@2x.png) no-repeat 50% 50%;
+    background-size: contain;
+    margin-right: 5px
+}
+
+.spotlight_title {
+    padding: 0 0 15px!important;
+    overflow: initial;
+    border-bottom: 1px solid hsla(0, 0%, 69.8%, .35)!important;
+    margin-bottom: 60px
+}
+
+@media screen and (min-width:786px) {
+    .spotlight_title {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        align-items: center
+    }
+}
+
+.spotlight_title h4 {
+    float: none;
+    margin: 0 0 20px;
+    font-size: 32px;
+    line-height: 1.13;
+    letter-spacing: .5px
+}
+
+@media screen and (min-width:786px) {
+    .spotlight_title h4 {
+        margin-bottom: 0
+    }
+}
+
+#job_results_list_hldr {
+    border: none
+}
+
+.jobs_link_hldr {
+    font-size: 16px;
+    font-style: italic
+}
+
+.jobs_link_hldr,
+body.mobile .jobs_link_hldr {
+    float: none;
+    padding: 0;
+    margin: 0
+}
+
+.jobs_link_hldr .hot_jobs_link {
+    border: none;
+    padding-left: 0;
+    margin-left: 8px
+}
+
+.jobs_link_hldr a {
+    font-family: Times New Roman, Times, serif;
+    display: inline-block;
+    float: none;
+    box-sizing: border-box;
+    border: none;
+    width: auto;
+    text-align: left;
+    position: relative;
+    text-shadow: none;
+    box-shadow: none;
+    font-size: 16px;
+    font-style: italic;
+    color: #000;
+    padding: 10px 10px 10px 0;
+    font-weight: 700;
+    line-height: 1.4;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border-radius: 0
+}
+
+.jobs_link_hldr a .entypo {
+    display: none
+}
+
+.jobs_link_hldr a,
+.jobs_link_hldr a:focus,
+.jobs_link_hldr a:hover {
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    text-decoration: none
+}
+
+.jobs_link_hldr a:before {
+    display: block;
+    content: "";
+    width: auto;
+    border-bottom: 1px solid hsla(0, 0%, 70.2%, .35);
+    background-color: transparent;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 10px;
+    -webkit-transition: all .25s;
+    transition: all .25s
+}
+
+.jobs_link_hldr a:after {
+    display: none
+}
+
+.jobs_link_hldr a:hover:before {
+    border-color: #ff5056;
+    bottom: 8px
+}
+
+.jobs_link_hldr a:focus,
+.jobs_link_hldr a:hover {
+    color: #ff5056
+}
+
+.jobs_link_hldr a:before {
+    right: 45px
+}
+
+.jobs_link_hldr a:after {
+    content: "";
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    margin-left: 12px;
+    margin-top: -2px;
+    background: url(https://www.arup.com/assets-tss/images/btn-arrow@2x.png) no-repeat 50% 50%;
+    background-size: contain
+}
+
+.jobs_link_hldr a:focus:after,
+.jobs_link_hldr a:hover:after {
+    background-image: url(https://www.arup.com/assets-tss/images/btn-arrow--hover@2x.png)
+}
+
+.job_list_row {
+    overflow: initial;
+    clear: both
+}
+
+.job_list_row .star_job_hldr {
+    float: none
+}
+
+.job_list_row .learn_more_btn {
+    border-radius: 2px;
+    font-size: 18px;
+    line-height: 1;
+    text-align: center;
+    font-style: italic;
+    font-family: Times New Roman, Times, serif;
+    position: relative;
+    overflow: hidden;
+    width: 100%!important;
+    padding: 15px 65px 15px 15px;
+    box-shadow: none;
+    text-shadow: none;
+    float: none!important;
+    max-width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    font-weight: 400;
+    margin: 20px 0 0;
+    display: none
+}
+
+@media screen and (min-width:786px) {
+    .job_list_row .learn_more_btn {
+        width: auto!important;
+        padding-left: 40px
+    }
+}
+
+.job_list_row .learn_more_btn,
+.job_list_row .learn_more_btn:focus,
+.job_list_row .learn_more_btn:hover {
+    box-shadow: none;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000
+}
+
+.job_list_row .learn_more_btn:after,
+.job_list_row .learn_more_btn:before {
+    content: "";
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.job_list_row .learn_more_btn:before {
+    background-color: rgba(0, 0, 0, .03);
+    position: absolute;
+    width: 60px;
+    right: -10px;
+    top: 0;
+    bottom: 0;
+    -webkit-transform: skew(-22deg);
+    transform: skew(-22deg)
+}
+
+.job_list_row .learn_more_btn:after {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 12px;
+    height: 9px;
+    background: url(https://www.arup.com/assets-tss/images/arrow@2x.png) no-repeat 50% 50%;
+    background-size: contain
+}
+
+.job_list_row .learn_more_btn:hover {
+    color: #ff5056;
+    border-color: #ff5056
+}
+
+.job_list_row .learn_more_btn:hover:after {
+    background-image: url(https://www.arup.com/assets-tss/images/arrow--hover@2x.png)
+}
+
+.job_list_row,
+.portal_listings .job_list_row {
+    border-bottom: 1px solid hsla(0, 0%, 69.8%, .35)!important;
+    margin: 0 0 30px
+}
+
+@media screen and (min-width:786px) {
+    .job_list_row,
+    .portal_listings .job_list_row {
+        margin-bottom: 60px
+    }
+}
+
+.job_list_row .jlr_right_hldr {
+    float: none;
+    width: 100%!important
+}
+
+.job_list_row .jlr_right_hldr .jlr_title {
+    position: relative;
+    overflow: initial
+}
+
+.job_list_row .jlr_right_hldr .jlr_title p {
+    font-size: 16px
+}
+
+.job_list_row .jlr_right_hldr .jlr_title .job_link {
+    font-size: 24px;
+    font-style: italic;
+    line-height: 1.33;
+    color: #000;
+    -webkit-transition: all .25s;
+    transition: all .25s
+}
+
+.job_list_row .jlr_right_hldr .jlr_title .job_link:hover {
+    color: #ff5056!important
+}
+
+.job_list_row .jlr_right_hldr .jlr_title .jlr_cat_loc,
+.job_list_row .jlr_right_hldr .jlr_title .jlr_company {
+    font-size: 14px!important;
+    font-family: Times New Roman, Times, serif;
+    margin: 10px 0;
+    letter-spacing: 1px
+}
+
+.job_list_row .jlr_right_hldr .jlr_title .jlr_cat_loc .font_bold,
+.job_list_row .jlr_right_hldr .jlr_title .jlr_company .font_bold {
+    color: #b2b2b2
+}
+
+.job_list_row .jlr_right_hldr .jlr_title a {
+    color: inherit
+}
+
+.job_list_row .jlr_right_hldr .jlr_title a:hover {
+    color: #ff5056
+}
+
+.job_list_row .jlr_right_hldr .jlr_title .jlr_location {
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: .6px;
+    color: #343434
+}
+
+.job_list_row .jlr_right_hldr .jlr_title .jlr_location .loc_icon {
+    display: none
+}
+
+@media screen and (min-width:786px) {
+    .job_list_row .jlr_right_hldr .jlr_title {
+        padding-right: 260px
+    }
+    .info_listings .job_list_row .jlr_right_hldr .jlr_title {
+        padding-right: 150px
+    }
+    .job_list_row .jlr_right_hldr .jlr_title .flg_hldr {
+        position: absolute;
+        width: 260px;
+        text-align: left;
+        top: 5px;
+        right: 0
+    }
+    .info_listings .job_list_row .jlr_right_hldr .jlr_title .flg_hldr {
+        text-align: right;
+        width: 150px
+    }
+}
+
+.job_list_row .jlr_right_hldr .jlr_content {
+    margin: 20px 0 0
+}
+
+@media screen and (min-width:786px) {
+    .job_list_row .jlr_right_hldr .jlr_content {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-pack: justify;
+        justify-content: space-between
+    }
+    .job_list_row .jlr_right_hldr .jlr_content .jlr_content_right {
+        -webkit-box-flex: 0;
+        flex: 0 0 260px;
+        margin-left: 70px
+    }
+}
+
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_full p,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_half p {
+    font-size: 18px!important;
+    line-height: 1.33!important;
+    color: rgba(52, 52, 52, .5)
+}
+
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_full .jlr_category_field,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_full .jlr_company_field,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_full .jlr_preferred_field,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_full .jlr_secondary_preferred_field,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_half .jlr_category_field,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_half .jlr_company_field,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_half .jlr_preferred_field,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_half .jlr_secondary_preferred_field {
+    font-size: 14px;
+    line-height: 1.54;
+    letter-spacing: .5px;
+    color: #343434;
+    float: none!important;
+    width: auto!important;
+    letter-spacing: 1px
+}
+
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_full .jlr_category_field .jlr_label,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_full .jlr_company_field .jlr_label,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_full .jlr_preferred_field .jlr_label,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_full .jlr_secondary_preferred_field .jlr_label,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_half .jlr_category_field .jlr_label,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_half .jlr_company_field .jlr_label,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_half .jlr_preferred_field .jlr_label,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_half .jlr_secondary_preferred_field .jlr_label {
+    color: rgba(52, 52, 52, .5)
+}
+
+.job_list_row .jlr_right_hldr .flg_hldr {
+    float: none;
+    display: inline-block;
+    margin-bottom: 16px
+}
+
+.job_list_row .jlr_right_hldr .flg_hldr .job_flg {
+    font-family: Times New Roman, Times, serif;
+    float: none;
+    margin: 0;
+    border: none;
+    background: #eee;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-transform: none;
+    color: #333;
+    border-radius: 0;
+    padding: 4px 8px;
+    font-weight: 700;
+    vertical-align: middle
+}
+
+.job_list_row .jlr_right_hldr .flg_hldr .job_flg.new_flg,
+.job_list_row .jlr_right_hldr .flg_hldr .job_flg .new_flg {
+    background-color: #ff5056;
+    color: #fff
+}
+
+.job_list_row .jlr_right_hldr .flg_hldr .job_flg.hot_flg,
+.job_list_row .jlr_right_hldr .flg_hldr .job_flg .hot_flg {
+    color: #333
+}
+
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_left,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_right {
+    width: auto;
+    float: none
+}
+
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_right .job_category,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_right .job_company,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_right .job_post_date,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_right .job_total_views {
+    line-height: 1!important
+}
+
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_right .job_category .jlr_label,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_right .job_company .jlr_label,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_right .job_post_date .jlr_label,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_right .job_total_views .jlr_label {
+    font-size: 13px;
+    float: none;
+    margin: 0
+}
+
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_right .job_category .jlr_label .entypo,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_right .job_company .jlr_label .entypo,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_right .job_post_date .jlr_label .entypo,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_right .job_total_views .jlr_label .entypo {
+    display: none
+}
+
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_right .job_company .jlr_label:before {
+    content: "Company:"
+}
+
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_right .job_category .jlr_label:before {
+    content: "Category:"
+}
+
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_right .job_post_date .jlr_label:before {
+    content: "Date:"
+}
+
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_right .job_total_views .jlr_label:before {
+    content: "Total views:"
+}
+
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_right .job_total_views .jlr_value .field_label {
+    display: none!important
+}
+
+.info_listings .job_list_row .jlr_right_hldr {
+    float: none
+}
+
+#search_banner {
+    width: 100%;
+    overflow: visible;
+    box-sizing: border-box;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 16px
+}
+
+#search_banner #heading_wrapper {
+    height: auto!important;
+    background-image: none
+}
+
+#search_banner .search_border {
+    display: none!important
+}
+
+#search_banner .search_heading {
+    border-radius: 0;
+    color: inherit;
+    position: relative;
+    bottom: auto;
+    text-align: left
+}
+
+#search_banner .search_heading .description_area {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left
+}
+
+#search_banner .search_heading .h4,
+#search_banner .search_heading h4 {
+    text-shadow: none;
+    line-height: 1.27;
+    font-size: 24px;
+    line-height: 1.2;
+    color: inherit;
+    max-height: none
+}
+
+body.mobile #search_banner .search_heading .h4,
+body.mobile #search_banner .search_heading h4 {
+    font-size: 22px;
+    max-height: none
+}
+
+#search_banner *,
+#search_banner:after,
+#search_banner:before {
+    box-sizing: inherit
+}
+
+#search_banner.search_fixed {
+    position: static!important
+}
+
+#search_banner .search_btn_hldr,
+#search_banner .search_input_hldr {
+    float: none!important;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    position: relative;
+    background: transparent!important
+}
+
+#search_banner .search_input_hldr {
+    margin-bottom: 0!important
+}
+
+#search_banner .search_input_hldr:focus {
+    outline: none
+}
+
+#search_banner .search_btn_hldr {
+    margin-top: 11px
+}
+
+@media screen and (min-width:900px) {
+    #search_banner .search_btn_hldr {
+        margin: 0!important
+    }
+}
+
+#search_banner .search_input {
+    width: 100%!important;
+    height: auto!important;
+    padding: 20px 15px 19px 50px;
+    background-color: #fff;
+    border: 1px solid #e9e9e9;
+    font-size: 18px;
+    min-height: 60px
+}
+
+#search_banner .search_input:focus {
+    box-shadow: none
+}
+
+@media screen and (min-width:900px) {
+    #search_banner .search_input {
+        border: none
+    }
+}
+
+#search_banner .search_input:focus {
+    outline: none
+}
+
+#search_banner .search_input_icn {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    width: auto!important;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: left!important;
+    text-indent: -999em;
+    width: 17px!important;
+    height: 25px;
+    background: url(https://www.arup.com/assets-tss/images/search@2x.png) no-repeat 50% 50%;
+    background-size: contain
+}
+
+#search_banner .search_input_icn.loc_icn {
+    background-image: url(https://www.arup.com/assets-tss/images/location@2x.png)
+}
+
+#search_banner .search_separator {
+    float: none;
+    outline: 5px solid red;
+    display: none
+}
+
+#search_banner .location_input_hldr {
+    position: relative!important;
+    left: auto;
+    z-index:1;
+}
+
+#search_banner .location_input_hldr .geo_location_error {
+    text-shadow: none;
+    background: #fff;
+    line-height: 1.4;
+    border-radius: 0;
+    color: #000;
+    margin: 0;
+    box-shadow: 0 2px 2px rgba(189, 137, 137, .15);
+    font-size: 14px;
+    font-family: Times New Roman, Times, serif
+}
+
+#search_banner .search_positioner {
+    box-shadow: none;
+    height: auto!important;
+    border-radius: 0!important;
+    margin: 0
+}
+
+@media screen and (min-width:900px) {
+    #search_banner .search_positioner {
+        display: -webkit-box;
+        display: flex;
+        margin: 40px 0;
+        border: 1px solid #e9e9e9!important
+    }
+    .portal #search_banner .search_positioner {
+        border: none!important;
+        margin-bottom: 0
+    }
+    #search_banner .search_positioner>* {
+        -webkit-box-flex: 1;
+        flex-grow: 1
+    }
+    #search_banner .search_positioner>:first-child {
+        border-right: 1px solid #e9e9e9
+    }
+}
+
+#search_banner .search_positioner {
+    padding: 0!important
+}
+
+.portal .block_region.full-width #search_banner .search_positioner {
+    margin: 30px 0
+}
+
+.search_btn,
+.search_btn.load_btn {
+    background-image: -webkit-gradient(linear, left top, right top, from(#eee), to(#f0f0f0));
+    background-image: linear-gradient(90deg, #eee, #f0f0f0);
+    font-family: inherit;
+    text-shadow: none;
+    border: none;
+    width: 100%!important;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 0;
+    float: none!important;
+    font-family: Times New Roman, Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 21px 60px 21px 20px!important
+}
+
+.search_btn,
+.search_btn.load_btn,
+.search_btn.load_btn:focus,
+.search_btn.load_btn:hover,
+.search_btn:focus,
+.search_btn:hover {
+    color: #000;
+    outline: none;
+    box-shadow: none
+}
+
+.search_btn.load_btn:focus,
+.search_btn.load_btn:hover,
+.search_btn:focus,
+.search_btn:hover {
+    color: #ff5056
+}
+
+.search_btn.load_btn:after,
+.search_btn.load_btn:before,
+.search_btn:after,
+.search_btn:before {
+    content: "";
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.search_btn.load_btn:before,
+.search_btn:before {
+    background-color: rgba(0, 0, 0, .03);
+    position: absolute;
+    width: 60px;
+    right: -10px;
+    top: 0;
+    bottom: 0;
+    -webkit-transform: skew(-22deg);
+    transform: skew(-22deg)
+}
+
+.search_btn.load_btn:after,
+.search_btn:after {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 12px;
+    height: 9px;
+    background: url(https://www.arup.com/assets-tss/images/arrow@2x.png) no-repeat 50% 50%;
+    background-size: contain
+}
+
+.search_btn.load_btn:hover:after,
+.search_btn:hover:after {
+    background-image: url(https://www.arup.com/assets-tss/images/arrow--hover@2x.png)
+}
+
+.search_btn .entypo,
+.search_btn.load_btn .entypo {
+    display: none
+}
+
+.search_btn.load_btn {
+    min-height: 60px;
+    pointer-events: none
+}
+
+.search_btn.load_btn .spinner {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+#search_banner {
+    background: transparent!important;
+    border: 0!important
+}
+
+#search_banner .search_positioner {
+    background-color: transparent!important;
+    padding: 0
+}
+
+.block_region.full-width {
+    position: relative
+}
+
+.portal .block_region.full-width {
+    color: #fff;
+    padding: 90px 20px!important;
+    background: #fafafa url(https://www.arup.com/assets-tss/images/header.jpg) no-repeat 50% 50%/cover!important
+}
+
+@media screen and (min-width:900px) {
+    .portal .block_region.full-width {
+        padding: 140px 40px!important
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .portal .block_region.full-width {
+        padding: 180px 40px!important
+    }
+}
+
+.block_region.full-width h1,
+.block_region.full-width h2,
+.block_region.full-width h3,
+.block_region.full-width h4,
+.block_region.full-width h5,
+.block_region.full-width h6,
+.block_region.full-width p {
+    color: inherit;
+    max-width: 580px;
+    padding: 0!important
+}
+
+.block_region.full-width h2 {
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: .5px;
+    font-weight: 400;
+    max-width: 555px
+}
+
+body.mobile .block_region.full-width h2 {
+    font-size: 36px
+}
+
+@media screen and (min-width:786px) {
+    .block_region.full-width h2 {
+        font-size: 72px
+    }
+}
+
+.block_region.full-width p {
+    font-size: 18px;
+    line-height: 1.45
+}
+
+@media screen and (min-width:786px) {
+    .block_region.full-width p {
+        font-size: 22px
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .block_region.full-width {
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw)
+    }
+}
+
+.block_region.full-width .block {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 1160px
+}
+
+#job_search_banner {
+    margin: 30px 0 0
+}
+
+#job_list_promo h2 {
+    font-size: 36px;
+    line-height: 1.1;
+    color: inherit;
+    font-weight: 400
+}
+
+@media screen and (min-width:786px) {
+    #job_list_promo h2 {
+        font-size: 36px
+    }
+}
+
+#keyword_search.ui-menu,
+#location_geo_search.ui-menu {
+    width: 100%!important;
+    left: 0!important;
+    box-shadow: none;
+    border: none;
+    border-radius: 0
+}
+
+#keyword_search.ui-menu .ui-menu-item a,
+#location_geo_search.ui-menu .ui-menu-item a {
+    padding-top: 10px!important;
+    padding-bottom: 10px!important
+}
+
+.ui-autocomplete li a.ui-state-focus {
+    color: #fff;
+    background-color: #000
+}
+
+body.mobile.job_list #jMenuSearchToggle {
+    display: none!important
+}
+
+body.mobile.job_list #search_banner,
+body.mobile.job_list #search_hldr {
+    display: block!important
+}
+
+body.mobile.job_list #search_banner .search_btn_hldr {
+    width: 100%
+}
+
+body.mobile.job_list #search_banner .search_positioner {
+    padding: 0 20px!important
+}
+
+body.mobile.job_list #search_banner #loc_placeholder,
+body.mobile.job_list #search_banner #location_facet_chzn,
+body.mobile.job_list #search_banner .search_input,
+body.mobile.job_list #search_banner .search_input_hldr {
+    width: 100%!important
+}
+
+body.mobile.job_list #search_banner .location_input_hldr {
+    margin-left: 0;
+    margin-right: 0
+}
+
+body.mobile.job_list #search_banner .mini_input_hldr .search_input {
+    display: block!important;
+    border-top: none
+}
+
+body.mobile.job_list #job_search_banner {
+    margin: 20px 0
+}
+
+.area_content {
+    background-color: #fafafa;
+    padding: 20px
+}
+
+.area_content .stats_copy_hldr>a:only-child {
+    margin-bottom: 0
+}
+
+.area_content .stats_copy_hldr .secondary_btn {
+    padding-left: 15px!important
+}
+
+#right_holder .capsule {
+    background-color: #fafafa;
+    border: none
+}
+
+#right_holder .capsule:focus {
+    outline: none
+}
+
+#right_holder .capsule .capsule_title {
+    padding: 16px 20px;
+    border-bottom: 1px solid hsla(0, 0%, 69.8%, .35)
+}
+
+#right_holder .capsule .capsule_title h2 {
+    text-shadow: none;
+    font-size: 18px;
+    margin: 0;
+    font-family: Times New Roman, Times, serif
+}
+
+#right_holder .capsule .capsule_content {
+    font-size: 16px;
+    padding: 14px 20px!important
+}
+
+#right_holder .capsule .capsule_content p {
+    line-height: 1.25
+}
+
+#right_holder .capsule .flat_btn {
+    font-family: Times New Roman, Times, serif;
+    display: inline-block;
+    float: none;
+    box-sizing: border-box;
+    border: none;
+    width: auto;
+    text-align: left;
+    position: relative;
+    text-shadow: none;
+    box-shadow: none;
+    font-size: 16px;
+    font-style: italic;
+    color: #000;
+    padding: 10px 10px 10px 0;
+    font-weight: 700;
+    line-height: 1.4;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border-radius: 0
+}
+
+#right_holder .capsule .flat_btn .entypo {
+    display: none
+}
+
+#right_holder .capsule .flat_btn,
+#right_holder .capsule .flat_btn:focus,
+#right_holder .capsule .flat_btn:hover {
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    text-decoration: none
+}
+
+#right_holder .capsule .flat_btn:before {
+    display: block;
+    content: "";
+    width: auto;
+    border-bottom: 1px solid hsla(0, 0%, 70.2%, .35);
+    background-color: transparent;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 10px;
+    -webkit-transition: all .25s;
+    transition: all .25s
+}
+
+#right_holder .capsule .flat_btn:after {
+    display: none
+}
+
+#right_holder .capsule .flat_btn:hover:before {
+    border-color: #ff5056;
+    bottom: 8px
+}
+
+#right_holder .capsule .flat_btn:focus,
+#right_holder .capsule .flat_btn:hover {
+    color: #ff5056
+}
+
+#right_holder .capsule .flat_btn:before {
+    right: 45px
+}
+
+#right_holder .capsule .flat_btn:after {
+    content: "";
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    margin-left: 12px;
+    margin-top: -2px;
+    background: url(https://www.arup.com/assets-tss/images/btn-arrow@2x.png) no-repeat 50% 50%;
+    background-size: contain
+}
+
+#right_holder .capsule .flat_btn:focus:after,
+#right_holder .capsule .flat_btn:hover:after {
+    background-image: url(https://www.arup.com/assets-tss/images/btn-arrow--hover@2x.png)
+}
+
+#right_holder .capsule .capsule_footer {
+    font-size: 16px;
+    border-color: hsla(0, 0%, 69.8%, .35);
+    padding: 10px 20px
+}
+
+#right_holder .capsule .capsule_footer a {
+    font-family: Times New Roman, Times, serif;
+    display: inline-block;
+    float: none;
+    box-sizing: border-box;
+    border: none;
+    width: auto;
+    text-align: left;
+    position: relative;
+    text-shadow: none;
+    box-shadow: none;
+    font-size: 16px;
+    font-style: italic;
+    color: #000;
+    padding: 10px 10px 10px 0;
+    font-weight: 700;
+    line-height: 1.4;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border-radius: 0
+}
+
+#right_holder .capsule .capsule_footer a .entypo {
+    display: none
+}
+
+#right_holder .capsule .capsule_footer a,
+#right_holder .capsule .capsule_footer a:focus,
+#right_holder .capsule .capsule_footer a:hover {
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    text-decoration: none
+}
+
+#right_holder .capsule .capsule_footer a:before {
+    display: block;
+    content: "";
+    width: auto;
+    border-bottom: 1px solid hsla(0, 0%, 70.2%, .35);
+    background-color: transparent;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 10px;
+    -webkit-transition: all .25s;
+    transition: all .25s
+}
+
+#right_holder .capsule .capsule_footer a:after {
+    display: none
+}
+
+#right_holder .capsule .capsule_footer a:hover:before {
+    border-color: #ff5056;
+    bottom: 8px
+}
+
+#right_holder .capsule .capsule_footer a:focus,
+#right_holder .capsule .capsule_footer a:hover {
+    color: #ff5056
+}
+
+#right_bar .capsule {
+    margin: 0 0 20px
+}
+
+#right_bar #previous_searches .list_row_title,
+#right_bar #similar_listings .list_row_title {
+    margin-bottom: 16px
+}
+
+#right_bar #previous_searches .list_row_title a,
+#right_bar #similar_listings .list_row_title a {
+    font-style: italic;
+    color: inherit
+}
+
+#right_bar #previous_searches .list_row_title a:focus,
+#right_bar #previous_searches .list_row_title a:hover,
+#right_bar #similar_listings .list_row_title a:focus,
+#right_bar #similar_listings .list_row_title a:hover {
+    color: #ff5056
+}
+
+#right_bar #previous_searches .link_title,
+#right_bar #similar_listings .link_title {
+    font-size: inherit
+}
+
+#right_bar #previous_searches .capsule_row,
+#right_bar #similar_listings .capsule_row {
+    font-size: 16px
+}
+
+#right_bar #previous_searches .capsule_detail_list .listrow,
+#right_bar #similar_listings .capsule_detail_list .listrow {
+    font-size: 14px;
+    margin: 8px 0;
+    color: #b2b2b2
+}
+
+#right_bar #previous_searches .capsule_detail_list .listrow .entypo,
+#right_bar #similar_listings .capsule_detail_list .listrow .entypo {
+    color: inherit!important;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    margin: 0 5px 0 0
+}
+
+.chzn-container {
+    font-size: 14px;
+    font-style: italic;
+    font-family: Times New Roman, Times, serif
+}
+
+.chzn-container .chzn-results {
+    color: #000
+}
+
+.chzn-container .chzn-results .highlighted {
+    background-image: none;
+    background-color: #e9e9e9;
+    color: inherit
+}
+
+.chzn-container-single .chzn-single {
+    background-image: none;
+    box-shadow: none;
+    border-color: #fff
+}
+
+.chzn-container-single .chzn-single div b {
+    background-image: url(https://www.arup.com/assets-tss/images/chosen_sprite.png)
+}
+
+.chzn-container-single .chzn-drop {
+    border: none;
+    margin-top: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .15)
+}
+
+.help .content_body h4 {
+    font-size: 18px;
+    line-height: 1.3;
+    color: inherit;
+    font-weight: 400
+}
+
+.help .content_body h4:hover {
+    text-decoration: none!important
+}
+
+.help .content_body h4 a.help_q_img {
+    font-style: italic;
+    background-position: 0 50%!important;
+    padding: 20px 0!important;
+    display: block;
+    font-weight: 700;
+    background: transparent!important;
+    margin: 0;
+    position: relative;
+    border-bottom: 1px solid hsla(0, 0%, 70.2%, .2);
+    -webkit-transition: all .25s;
+    transition: all .25s
+}
+
+.help .content_body h4 a.help_q_img:hover {
+    color: #ff5056!important;
+    text-decoration: none
+}
+
+.help .content_body h4 a.help_q_img:after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: transparent url(https://www.arup.com/assets-tss/images/down-arrow@2x.png) no-repeat 50% 50%;
+    background-size: contain;
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
+    width: 12px;
+    height: 6px
+}
+
+.help .help_q_a.help_active h4 a.help_q_img {
+    border-color: rgba(255, 80, 86, .2);
+    color: #ff5056
+}
+
+.help .help_q_a.help_active h4 a.help_q_img:after {
+    -webkit-transform: translateY(-50%) rotate(-180deg);
+    transform: translateY(-50%) rotate(-180deg)
+}
+
+.help #help_content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 0 20px!important
+}
+
+.help #help_content .help_a {
+    font-size: 16px;
+    margin: 15px 0;
+    padding: 0;
+    background: none;
+    border: none;
+    box-shadow: none
+}
+
+.help #help_content .help_a h2 {
+    font-size: 36px;
+    line-height: 1.1;
+    color: inherit;
+    font-weight: 400
+}
+
+.help #help_content .help_a h3 {
+    font-size: 24px;
+    line-height: 1.2;
+    color: inherit
+}
+
+.help #help_content .help_a h2,
+.help #help_content .help_a h3,
+.help #help_content .help_a h4,
+.help #help_content .help_a h5,
+.help #help_content .help_a h6 {
+    margin: 0 0 20px
+}
+
+.help .content_body .grey_btn {
+    border-radius: 2px;
+    font-size: 18px;
+    line-height: 1;
+    text-align: center;
+    font-style: italic;
+    font-family: Times New Roman, Times, serif;
+    position: relative;
+    overflow: hidden;
+    width: 100%!important;
+    padding: 15px 65px 15px 15px;
+    box-shadow: none;
+    text-shadow: none;
+    float: none!important;
+    max-width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    font-weight: 400;
+    margin: 0 0 20px
+}
+
+@media screen and (min-width:786px) {
+    .help .content_body .grey_btn {
+        width: auto!important;
+        padding-left: 40px
+    }
+}
+
+.help .content_body .grey_btn,
+.help .content_body .grey_btn:focus,
+.help .content_body .grey_btn:hover {
+    box-shadow: none;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000
+}
+
+.help .content_body .grey_btn:after,
+.help .content_body .grey_btn:before {
+    content: "";
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.help .content_body .grey_btn:before {
+    background-color: rgba(0, 0, 0, .03);
+    position: absolute;
+    width: 60px;
+    right: -10px;
+    top: 0;
+    bottom: 0;
+    -webkit-transform: skew(-22deg);
+    transform: skew(-22deg)
+}
+
+.help .content_body .grey_btn:after {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 12px;
+    height: 9px;
+    background: url(https://www.arup.com/assets-tss/images/arrow@2x.png) no-repeat 50% 50%;
+    background-size: contain
+}
+
+.help .content_body .grey_btn:hover {
+    color: #ff5056;
+    border-color: #ff5056
+}
+
+.help .content_body .grey_btn:hover:after {
+    background-image: url(https://www.arup.com/assets-tss/images/arrow--hover@2x.png)
+}
+
+#help_content .help_go_settings,
+#help_content .help_screenshot {
+    height: auto
+}
+
+#job_details_promo .promo_container,
+#portal_promo .promo_container {
+    padding: 0!important;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+#job_details_promo h2,
+#portal_promo h2 {
+    font-size: 24px;
+    line-height: 1.2;
+    color: inherit
+}
+
+#job_details_promo p,
+#portal_promo p {
+    font-size: 16px
+}
+
+@media screen and (min-width:786px) {
+    #job_details_promo p,
+    #portal_promo p {
+        font-size: 18px
+    }
+}
+
+.portal .block_region.full-width #promo {
+    display: none
+}
+
+@media screen and (min-width:786px) {
+    .portal .block_region.full-width {
+        position: relative;
+        margin-bottom: 160px
+    }
+    .portal .block_region.full-width #portal_promo {
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        height: 160px;
+        color: #000
+    }
+    .portal .block_region.full-width #portal_promo .promo_container {
+        max-width: 1160px;
+        margin: 50px auto;
+        padding: 0 20px!important;
+        position: relative
+    }
+    .portal .block_region.full-width #portal_promo .promo_container>.promo_buttons {
+        right: 20px
+    }
+}
+
+.portal.registered .block_region.full-width {
+    margin-bottom: 1800px
+}
+
+.portal.registered .block_region.full-width #portal_promo {
+    height: 180px
+}
+
+.portal.recruiter .block_region.full-width {
+    margin-bottom: 240px
+}
+
+.portal.recruiter .block_region.full-width #portal_promo {
+    height: 240px
+}
+
+#portal_promo .promo_container {
+    overflow: visible
+}
+
+#portal_promo .promo_container h2 {
+    max-width: none;
+    font-size: 32px;
+    line-height: 1.2;
+    color: inherit
+}
+
+#portal_promo .promo_container p {
+    font-size: 20px
+}
+
+#portal_promo .promo_container .promo_buttons,
+#portal_promo .promo_container .promo_content {
+    float: none;
+    width: 100%;
+    margin: 0
+}
+
+#portal_promo .promo_container button.primary_btn {
+    border-radius: 2px;
+    font-size: 18px;
+    line-height: 1;
+    text-align: center;
+    font-style: italic;
+    font-family: Times New Roman, Times, serif;
+    position: relative;
+    overflow: hidden;
+    padding: 15px 65px 15px 15px;
+    box-shadow: none;
+    text-shadow: none;
+    float: none!important;
+    max-width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    font-weight: 400;
+    margin: 0;
+    width: 100%!important
+}
+
+@media screen and (min-width:786px) {
+    #portal_promo .promo_container button.primary_btn {
+        width: auto!important;
+        padding-left: 40px
+    }
+}
+
+#portal_promo .promo_container button.primary_btn,
+#portal_promo .promo_container button.primary_btn:focus,
+#portal_promo .promo_container button.primary_btn:hover {
+    box-shadow: none;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000
+}
+
+#portal_promo .promo_container button.primary_btn:after,
+#portal_promo .promo_container button.primary_btn:before {
+    content: "";
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+#portal_promo .promo_container button.primary_btn:before {
+    background-color: rgba(0, 0, 0, .03);
+    position: absolute;
+    width: 60px;
+    right: -10px;
+    top: 0;
+    bottom: 0;
+    -webkit-transform: skew(-22deg);
+    transform: skew(-22deg)
+}
+
+#portal_promo .promo_container button.primary_btn:after {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 12px;
+    height: 9px;
+    background: url(https://www.arup.com/assets-tss/images/arrow@2x.png) no-repeat 50% 50%;
+    background-size: contain
+}
+
+#portal_promo .promo_container button.primary_btn:hover {
+    color: #ff5056;
+    border-color: #ff5056
+}
+
+#portal_promo .promo_container button.primary_btn:hover:after {
+    background-image: url(https://www.arup.com/assets-tss/images/arrow--hover@2x.png)
+}
+
+@media screen and (min-width:786px) {
+    #portal_promo .promo_container button.primary_btn {
+        width: 100%!important
+    }
+}
+
+#portal_promo .promo_container button.primary_btn .entypo {
+    display: none!important
+}
+
+@media screen and (min-width:786px) {
+    #portal_promo .promo_container {
+        position: relative
+    }
+    #portal_promo .promo_container .promo_content,
+    #portal_promo .promo_container>h2 {
+        padding-right: 35%;
+        width: auto
+    }
+    #portal_promo .promo_container>.promo_buttons {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 100%;
+        max-width: 30%
+    }
+}
+
+#sitebuilder_enabled .block_region .block {
+    position: static
+}
+
+.scl_net_icon {
+    height: 28px;
+    width: 28px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.scl_net_icon.fb {
+    background: url(https://www.arup.com/assets-tss/images/facebook@2x.png) no-repeat 50% 50%;
+    background-size: contain
+}
+
+.scl_net_icon.li {
+    background: url(https://www.arup.com/assets-tss/images/linkedin@2x.png) no-repeat 50% 50%;
+    background-size: contain
+}
+
+.scl_net_icon.tw {
+    background: url(https://www.arup.com/assets-tss/images/twitter@2x.png) no-repeat 50% 50%;
+    background-size: contain
+}
+
+.scl_count {
+    border: none;
+    background: transparent;
+    font-size: 16px
+}
+
+#notify,
+#notify-banner {
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+    font-size: 13px;
+    background: #000!important;
+    color: #fff!important
+}
+
+#notify-banner.shown,
+#notify.shown {
+    padding: 15px
+}
+
+#category_landing_content #mobileOnlyCategoryTitle {
+    display: none!important
+}
+
+.category_video .media_area {
+    border: none;
+    background: transparent;
+    height: auto!important
+}
+
+.category_video .media_area .media_overlay {
+    position: static
+}
+
+.category_video .media_area .title_holder {
+    padding: 0;
+    text-align: left;
+    background: transparent;
+    border: none
+}
+
+.category_video .media_area .title_holder h1 {
+    display: block!important;
+    text-align: left;
+    white-space: normal;
+    text-overflow: unset;
+    color: inherit;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: .5px;
+    font-weight: 400;
+    max-width: 650px;
+    overflow: initial
+}
+
+@media screen and (min-width:786px) {
+    .category_video .media_area .title_holder h1 {
+        font-size: 72px
+    }
+}
+
+.category_video .media_area .description_holder,
+.category_video .media_area .media_thumb_holder {
+    display: none
+}
+
+.refine_search_link {
+    border: none!important;
+    text-align: left!important;
+    font-size: 16px!important;
+    padding: 0!important;
+    line-height: 1.2!important;
+    background: none!important;
+    margin: 30px 0!important;
+    font-style: italic
+}
+
+.refine_search_link a {
+    display: block;
+    border-bottom: 1px solid #b2b2b2;
+    padding: 15px 0 15px 30px;
+    background: url(https://www.arup.com/assets-tss/images/filter.png) no-repeat 0 50%!important
+}
+
+.refine_search_link a,
+.refine_search_link a:focus,
+.refine_search_link a:hover {
+    text-decoration: none
+}
+
+.refine_search_link a:focus,
+.refine_search_link a:hover {
+    border-color: #ff5056;
+    color: #ff5056
+}
+
+.refine_search_link .icon {
+    display: none
+}
+
+#job_search.capsule {
+    background: transparent
+}
+
+#job_search.capsule .job_input_wrapper {
+    display: -webkit-box;
+    display: flex
+}
+
+#job_search.capsule .job_input_wrapper .job_search_input,
+#job_search.capsule .job_input_wrapper .job_search_submit {
+    height: auto;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 0;
+    border: 1px solid #b2b2b2
+}
+
+#job_search.capsule .job_input_wrapper .job_search_submit {
+    border-left: none;
+    background: #f0f0f0 url(https://www.arup.com/assets-tss/images/search-sm.png) no-repeat 50% 50%;
+    width: 38px
+}
+
+#job_search.capsule .job_input_wrapper .job_search_submit:before {
+    display: none
+}
+
+#job_search.capsule .job_input_wrapper .search_btn_container,
+#job_search.capsule .job_input_wrapper .search_input_container {
+    float: none;
+    width: auto;
+    display: -webkit-box;
+    display: flex
+}
+
+#job_search.capsule .job_input_wrapper .search_input_container {
+    -webkit-box-flex: 1;
+    flex-grow: 1
+}
+
+#content #job_details_content {
+    padding: 0
+}
+
+#content #job_details_content .title {
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: .5px;
+    font-weight: 400
+}
+
+@media screen and (min-width:786px) {
+    #content #job_details_content .title {
+        font-size: 72px
+    }
+}
+
+#content #job_details_content .subtitle {
+    color: rgba(52, 52, 52, .5)
+}
+
+#content #job_details_content .subtitle a,
+#content #job_details_content .subtitle h4 {
+    color: inherit
+}
+
+#content #job_details_content .subtitle a:focus,
+#content #job_details_content .subtitle a:hover {
+    color: #ff5056
+}
+
+#content #job_details_content .subtitle h4 {
+    font-size: 24px;
+    font-style: italic;
+    letter-spacing: .9px;
+    font-weight: 400
+}
+
+#content #job_details_content .subtitle .loc_icon {
+    display: none
+}
+
+#content #job_details_content .subtitle .flg_hldr {
+    float: none;
+    top: auto;
+    height: auto;
+    margin-top: 35px
+}
+
+#content #job_details_content .subtitle .flg_hldr .job_flg {
+    font-family: Times New Roman, Times, serif;
+    float: none;
+    margin: 0;
+    border: none;
+    background: #eee;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-transform: none;
+    color: #333;
+    border-radius: 0;
+    padding: 4px 8px;
+    font-weight: 700;
+    vertical-align: middle
+}
+
+#content #job_details_content .subtitle .flg_hldr .job_flg.new_flg,
+#content #job_details_content .subtitle .flg_hldr .job_flg .new_flg {
+    background-color: #ff5056;
+    color: #fff
+}
+
+#content #job_details_content .subtitle .flg_hldr .job_flg.hot_flg,
+#content #job_details_content .subtitle .flg_hldr .job_flg .hot_flg {
+    color: #333
+}
+
+#description_box .info_box .info_box_fields {
+    border: none;
+    padding: 0;
+    overflow: visible;
+    font-size: 14px
+}
+
+#description_box .info_box .info_box_fields dl {
+    line-height: inherit;
+    overflow: visible;
+    float: none;
+    width: auto;
+    letter-spacing: 1px;
+    margin: 4px 0!important
+}
+
+#description_box .info_box .info_box_fields dl dd,
+#description_box .info_box .info_box_fields dl dt {
+    width: auto;
+    float: none;
+    display: inline-block;
+    vertical-align: middle
+}
+
+#description_box .info_box .info_box_fields dl dt {
+    color: #343434
+}
+
+#description_box .info_box .info_box_fields dl.field_category,
+#description_box .info_box .info_box_fields dl.field_company,
+#description_box .info_box .info_box_fields dl.field_job_post_date,
+#description_box .info_box .info_box_fields dl.field_job_total_views {
+    width: auto
+}
+
+#description_box .info_box .info_box_fields dl.field_category a,
+#description_box .info_box .info_box_fields dl.field_company a,
+#description_box .info_box .info_box_fields dl.field_job_post_date a,
+#description_box .info_box .info_box_fields dl.field_job_total_views a {
+    margin: 0
+}
+
+#description_box .info_box .info_box_fields dl.field_category dt,
+#description_box .info_box .info_box_fields dl.field_company dt,
+#description_box .info_box .info_box_fields dl.field_job_post_date dt,
+#description_box .info_box .info_box_fields dl.field_job_total_views dt {
+    color: #b2b2b2
+}
+
+#description_box .info_box .info_box_fields dl.field_category dt .entypo,
+#description_box .info_box .info_box_fields dl.field_category dt a,
+#description_box .info_box .info_box_fields dl.field_company dt .entypo,
+#description_box .info_box .info_box_fields dl.field_company dt a,
+#description_box .info_box .info_box_fields dl.field_job_post_date dt .entypo,
+#description_box .info_box .info_box_fields dl.field_job_post_date dt a,
+#description_box .info_box .info_box_fields dl.field_job_total_views dt .entypo,
+#description_box .info_box .info_box_fields dl.field_job_total_views dt a {
+    display: none!important
+}
+
+#description_box .info_box .info_box_fields dl.field_category dt:before {
+    content: "Category:"
+}
+
+#description_box .info_box .info_box_fields dl.field_company dt:before {
+    content: "Location:"
+}
+
+#description_box .info_box .info_box_fields dl.field_job_post_date dt:before {
+    content: "Date:"
+}
+
+#description_box .info_box .info_box_fields dl.field_job_total_views dt:before {
+    content: "Views:"
+}
+
+#description_box .info_box .info_btn_box,
+body.mobile #description_box .info_box .info_btn_box {
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 20px 0 0;
+    text-align: left
+}
+
+#description_box .info_box .info_btn_box .button_holder {
+    max-width: 400px;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap
+}
+
+#description_box .info_box .info_btn_box #apply_btn,
+#description_box .info_box .info_btn_box #send_job_btn,
+body.mobile #description_box .info_box .info_btn_box #apply_btn,
+body.mobile #description_box .info_box .info_btn_box #send_job_btn {
+    background-image: -webkit-gradient(linear, left top, right top, from(#eee), to(#f0f0f0));
+    background-image: linear-gradient(90deg, #eee, #f0f0f0);
+    font-family: inherit;
+    text-shadow: none;
+    border: none;
+    width: 100%!important;
+    padding: 15px 60px 15px 20px!important;
+    box-sizing: border-box;
+    border-radius: 0;
+    float: none!important;
+    font-family: Times New Roman, Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 10px;
+    max-width: 370px;
+    -webkit-box-ordinal-group: 0;
+    order: -1
+}
+
+#description_box .info_box .info_btn_box #apply_btn,
+#description_box .info_box .info_btn_box #apply_btn:focus,
+#description_box .info_box .info_btn_box #apply_btn:hover,
+#description_box .info_box .info_btn_box #send_job_btn,
+#description_box .info_box .info_btn_box #send_job_btn:focus,
+#description_box .info_box .info_btn_box #send_job_btn:hover,
+body.mobile #description_box .info_box .info_btn_box #apply_btn,
+body.mobile #description_box .info_box .info_btn_box #apply_btn:focus,
+body.mobile #description_box .info_box .info_btn_box #apply_btn:hover,
+body.mobile #description_box .info_box .info_btn_box #send_job_btn,
+body.mobile #description_box .info_box .info_btn_box #send_job_btn:focus,
+body.mobile #description_box .info_box .info_btn_box #send_job_btn:hover {
+    color: #000;
+    outline: none;
+    box-shadow: none
+}
+
+#description_box .info_box .info_btn_box #apply_btn:focus,
+#description_box .info_box .info_btn_box #apply_btn:hover,
+#description_box .info_box .info_btn_box #send_job_btn:focus,
+#description_box .info_box .info_btn_box #send_job_btn:hover,
+body.mobile #description_box .info_box .info_btn_box #apply_btn:focus,
+body.mobile #description_box .info_box .info_btn_box #apply_btn:hover,
+body.mobile #description_box .info_box .info_btn_box #send_job_btn:focus,
+body.mobile #description_box .info_box .info_btn_box #send_job_btn:hover {
+    color: #ff5056
+}
+
+#description_box .info_box .info_btn_box #apply_btn:after,
+#description_box .info_box .info_btn_box #apply_btn:before,
+#description_box .info_box .info_btn_box #send_job_btn:after,
+#description_box .info_box .info_btn_box #send_job_btn:before,
+body.mobile #description_box .info_box .info_btn_box #apply_btn:after,
+body.mobile #description_box .info_box .info_btn_box #apply_btn:before,
+body.mobile #description_box .info_box .info_btn_box #send_job_btn:after,
+body.mobile #description_box .info_box .info_btn_box #send_job_btn:before {
+    content: "";
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+#description_box .info_box .info_btn_box #apply_btn:before,
+#description_box .info_box .info_btn_box #send_job_btn:before,
+body.mobile #description_box .info_box .info_btn_box #apply_btn:before,
+body.mobile #description_box .info_box .info_btn_box #send_job_btn:before {
+    background-color: rgba(0, 0, 0, .03);
+    position: absolute;
+    width: 60px;
+    right: -10px;
+    top: 0;
+    bottom: 0;
+    -webkit-transform: skew(-22deg);
+    transform: skew(-22deg)
+}
+
+#description_box .info_box .info_btn_box #apply_btn:after,
+#description_box .info_box .info_btn_box #send_job_btn:after,
+body.mobile #description_box .info_box .info_btn_box #apply_btn:after,
+body.mobile #description_box .info_box .info_btn_box #send_job_btn:after {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 12px;
+    height: 9px;
+    background: url(https://www.arup.com/assets-tss/images/arrow@2x.png) no-repeat 50% 50%;
+    background-size: contain
+}
+
+#description_box .info_box .info_btn_box #apply_btn:hover:after,
+#description_box .info_box .info_btn_box #send_job_btn:hover:after,
+body.mobile #description_box .info_box .info_btn_box #apply_btn:hover:after,
+body.mobile #description_box .info_box .info_btn_box #send_job_btn:hover:after {
+    background-image: url(https://www.arup.com/assets-tss/images/arrow--hover@2x.png)
+}
+
+#description_box .info_box .info_btn_box #apply_btn .entypo,
+#description_box .info_box .info_btn_box #send_job_btn .entypo,
+body.mobile #description_box .info_box .info_btn_box #apply_btn .entypo,
+body.mobile #description_box .info_box .info_btn_box #send_job_btn .entypo {
+    display: none
+}
+
+#description_box .info_box .info_btn_box #join_tc_btn,
+#description_box .info_box .info_btn_box #refer_btn,
+#description_box .info_box .info_btn_box #refer_friend_btn,
+body.mobile #description_box .info_box .info_btn_box #join_tc_btn,
+body.mobile #description_box .info_box .info_btn_box #refer_btn,
+body.mobile #description_box .info_box .info_btn_box #refer_friend_btn {
+    font-family: Times New Roman, Times, serif;
+    display: inline-block;
+    float: none;
+    box-sizing: border-box;
+    border: none;
+    width: auto;
+    text-align: left;
+    position: relative;
+    text-shadow: none;
+    box-shadow: none;
+    font-size: 16px;
+    font-style: italic;
+    color: #000;
+    padding: 10px 10px 10px 0;
+    font-weight: 700;
+    line-height: 1.4;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border-radius: 0;
+    width: auto!important;
+    max-width: none;
+    margin: 5px 0
+}
+
+#description_box .info_box .info_btn_box #join_tc_btn .entypo,
+#description_box .info_box .info_btn_box #refer_btn .entypo,
+#description_box .info_box .info_btn_box #refer_friend_btn .entypo,
+body.mobile #description_box .info_box .info_btn_box #join_tc_btn .entypo,
+body.mobile #description_box .info_box .info_btn_box #refer_btn .entypo,
+body.mobile #description_box .info_box .info_btn_box #refer_friend_btn .entypo {
+    display: none
+}
+
+#description_box .info_box .info_btn_box #join_tc_btn,
+#description_box .info_box .info_btn_box #join_tc_btn:focus,
+#description_box .info_box .info_btn_box #join_tc_btn:hover,
+#description_box .info_box .info_btn_box #refer_btn,
+#description_box .info_box .info_btn_box #refer_btn:focus,
+#description_box .info_box .info_btn_box #refer_btn:hover,
+#description_box .info_box .info_btn_box #refer_friend_btn,
+#description_box .info_box .info_btn_box #refer_friend_btn:focus,
+#description_box .info_box .info_btn_box #refer_friend_btn:hover,
+body.mobile #description_box .info_box .info_btn_box #join_tc_btn,
+body.mobile #description_box .info_box .info_btn_box #join_tc_btn:focus,
+body.mobile #description_box .info_box .info_btn_box #join_tc_btn:hover,
+body.mobile #description_box .info_box .info_btn_box #refer_btn,
+body.mobile #description_box .info_box .info_btn_box #refer_btn:focus,
+body.mobile #description_box .info_box .info_btn_box #refer_btn:hover,
+body.mobile #description_box .info_box .info_btn_box #refer_friend_btn,
+body.mobile #description_box .info_box .info_btn_box #refer_friend_btn:focus,
+body.mobile #description_box .info_box .info_btn_box #refer_friend_btn:hover {
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    text-decoration: none
+}
+
+#description_box .info_box .info_btn_box #join_tc_btn:before,
+#description_box .info_box .info_btn_box #refer_btn:before,
+#description_box .info_box .info_btn_box #refer_friend_btn:before,
+body.mobile #description_box .info_box .info_btn_box #join_tc_btn:before,
+body.mobile #description_box .info_box .info_btn_box #refer_btn:before,
+body.mobile #description_box .info_box .info_btn_box #refer_friend_btn:before {
+    display: block;
+    content: "";
+    width: auto;
+    border-bottom: 1px solid hsla(0, 0%, 70.2%, .35);
+    background-color: transparent;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 10px;
+    -webkit-transition: all .25s;
+    transition: all .25s
+}
+
+#description_box .info_box .info_btn_box #join_tc_btn:after,
+#description_box .info_box .info_btn_box #refer_btn:after,
+#description_box .info_box .info_btn_box #refer_friend_btn:after,
+body.mobile #description_box .info_box .info_btn_box #join_tc_btn:after,
+body.mobile #description_box .info_box .info_btn_box #refer_btn:after,
+body.mobile #description_box .info_box .info_btn_box #refer_friend_btn:after {
+    display: none
+}
+
+#description_box .info_box .info_btn_box #join_tc_btn:hover:before,
+#description_box .info_box .info_btn_box #refer_btn:hover:before,
+#description_box .info_box .info_btn_box #refer_friend_btn:hover:before,
+body.mobile #description_box .info_box .info_btn_box #join_tc_btn:hover:before,
+body.mobile #description_box .info_box .info_btn_box #refer_btn:hover:before,
+body.mobile #description_box .info_box .info_btn_box #refer_friend_btn:hover:before {
+    border-color: #ff5056;
+    bottom: 8px
+}
+
+#description_box .info_box .info_btn_box #join_tc_btn:focus,
+#description_box .info_box .info_btn_box #join_tc_btn:hover,
+#description_box .info_box .info_btn_box #refer_btn:focus,
+#description_box .info_box .info_btn_box #refer_btn:hover,
+#description_box .info_box .info_btn_box #refer_friend_btn:focus,
+#description_box .info_box .info_btn_box #refer_friend_btn:hover,
+body.mobile #description_box .info_box .info_btn_box #join_tc_btn:focus,
+body.mobile #description_box .info_box .info_btn_box #join_tc_btn:hover,
+body.mobile #description_box .info_box .info_btn_box #refer_btn:focus,
+body.mobile #description_box .info_box .info_btn_box #refer_btn:hover,
+body.mobile #description_box .info_box .info_btn_box #refer_friend_btn:focus,
+body.mobile #description_box .info_box .info_btn_box #refer_friend_btn:hover {
+    color: #ff5056
+}
+
+@media screen and (min-width:800px) {
+    #description_box .info_box .info_btn_box #join_tc_btn,
+    #description_box .info_box .info_btn_box #refer_btn,
+    #description_box .info_box .info_btn_box #refer_friend_btn,
+    body.mobile #description_box .info_box .info_btn_box #join_tc_btn,
+    body.mobile #description_box .info_box .info_btn_box #refer_btn,
+    body.mobile #description_box .info_box .info_btn_box #refer_friend_btn {
+        margin-right: 16px
+    }
+}
+
+#description_box .job_description {
+    max-width: 680px
+}
+
+#description_box .job_description p {
+    margin-bottom: 15px!important;
+    text-align: left!important
+}
+
+#description_box .job_description div {
+    text-align: left!important
+}
+
+#description_box .job_description,
+#description_box .job_description font {
+    font-family: Times New Roman, Times, serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: inherit
+}
+
+@media screen and (min-width:786px) {
+    #description_box .job_description,
+    #description_box .job_description font {
+        font-size: 20px
+    }
+}
+
+#content .content_body .content_header .subtitle .additional_locations_toggle {
+    margin: 15px 0
+}
+
+body.mobile #header_settings #header_settings_container .job_lang_disabled_msg {
+    display: none!important
+}
+
+body.mobile #content #job_details_content {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.return_holder {
+    right: 20px;
+    bottom: 20px;
+    margin: 0;
+    display: none!important;
+    float: none;
+    height: auto;
+    width: auto
+}
+
+.return_holder a {
+    display: block;
+    height: 50px;
+    width: 50px;
+    text-indent: -999em;
+    background: #f0f
+}
+
+.return_top .up_icn {
+    display: none
+}
+
+.similar_jobs .capsule_detail_list .value.job_post_date {
+    font-size: inherit;
+    text-transform: none
+}
+
+.popover-inner {
+    border: none;
+    box-shadow: none
+}
+
+.flg_filter_hldr .filter_header .legend_pops,
+.promo_recommend_friend .recommend_pops,
+.standard_pops {
+    padding: 0;
+    background-color: #fff
+}
+
+.flg_filter_hldr .filter_header .legend_pops .popover-inner,
+.promo_recommend_friend .recommend_pops .popover-inner,
+.standard_pops .popover-inner {
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, .1);
+    background-color: #fff
+}
+
+.flg_filter_hldr .filter_header .legend_pops .arrow,
+.promo_recommend_friend .recommend_pops .arrow,
+.standard_pops .arrow {
+    border-top-color: #fff!important
+}
+
+.flg_filter_hldr .filter_header .legend_pops dd {
+    font-size: 14px;
+    line-height: 1.4
+}
+
+input[type=password]:focus,
+input[type=text]:focus,
+textarea:focus {
+    box-shadow: inset 0 0 4px #ff5056;
+    outline: none
+}
+
+#container .page_form .form_row dd input[type=password],
+#container .page_form .form_row dd input[type=text] {
+    font-size: 16px;
+    line-height: 1;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(34, 34, 34, .8);
+    color: #000;
+    border-radius: 0;
+    background: #fff;
+    outline: none;
+    box-sizing: border-box;
+    font-family: inherit
+}
+
+#container .page_form .form_row dd,
+#container .page_form .form_row dt {
+    text-align: left;
+    width: 100%;
+    padding: 0;
+    float: none!important;
+    line-height: 1.6;
+    font-size: 16px
+}
+
+body.mobile #container .page_form .form_row dd select {
+    height:auto;
+}
+
+body.mobile #container .page_form .form_fields .form_row dd {
+    width: 100%
+}
+
+label {
+    cursor: pointer
+}
+
+#container .page_form .channel_row dd,
+#container .page_form .channel_row dt {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto
+}
+
+#container .page_form .form_fields .form_btn {
+    float: none;
+    margin-right: 0
+}
+
+.page_form .channel_connect_btn {
+    margin-bottom: 0
+}
+
+#container .page_form .form_fields .form_row.full_row {
+    width: 100%
+}
+
+.page_form .form_row {
+    max-width: 550px
+}
+
+.scl_net_icon {
+    margin-right: 10px
+}
+
+.create_opt .camp_btn_hldr a.campaign_manage_btn {
+    font-family: Times New Roman, Times, serif;
+    display: inline-block;
+    float: none;
+    box-sizing: border-box;
+    border: none;
+    width: auto;
+    text-align: left;
+    position: relative;
+    text-shadow: none;
+    box-shadow: none;
+    font-size: 16px;
+    font-style: italic;
+    color: #000;
+    padding: 10px 10px 10px 0;
+    font-weight: 700;
+    line-height: 1.4;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border-radius: 0
+}
+
+.create_opt .camp_btn_hldr a.campaign_manage_btn .entypo {
+    display: none
+}
+
+.create_opt .camp_btn_hldr a.campaign_manage_btn,
+.create_opt .camp_btn_hldr a.campaign_manage_btn:focus,
+.create_opt .camp_btn_hldr a.campaign_manage_btn:hover {
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    text-decoration: none
+}
+
+.create_opt .camp_btn_hldr a.campaign_manage_btn:before {
+    display: block;
+    content: "";
+    width: auto;
+    border-bottom: 1px solid hsla(0, 0%, 70.2%, .35);
+    background-color: transparent;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 10px;
+    -webkit-transition: all .25s;
+    transition: all .25s
+}
+
+.create_opt .camp_btn_hldr a.campaign_manage_btn:after {
+    display: none
+}
+
+.create_opt .camp_btn_hldr a.campaign_manage_btn:hover:before {
+    border-color: #ff5056;
+    bottom: 8px
+}
+
+.create_opt .camp_btn_hldr a.campaign_manage_btn:focus,
+.create_opt .camp_btn_hldr a.campaign_manage_btn:hover {
+    color: #ff5056
+}
+
+.page_form .channel_connect_btn {
+    border-radius: 2px;
+    font-size: 18px;
+    line-height: 1;
+    text-align: center;
+    font-style: italic;
+    font-family: Times New Roman, Times, serif;
+    position: relative;
+    overflow: hidden;
+    width: 100%!important;
+    padding: 15px 65px 15px 15px;
+    box-shadow: none;
+    text-shadow: none;
+    float: none!important;
+    max-width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    font-weight: 400;
+    margin: 0
+}
+
+@media screen and (min-width:786px) {
+    .page_form .channel_connect_btn {
+        width: auto!important;
+        padding-left: 40px
+    }
+}
+
+.page_form .channel_connect_btn,
+.page_form .channel_connect_btn:focus,
+.page_form .channel_connect_btn:hover {
+    box-shadow: none;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000
+}
+
+.page_form .channel_connect_btn:after,
+.page_form .channel_connect_btn:before {
+    content: "";
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.page_form .channel_connect_btn:before {
+    background-color: rgba(0, 0, 0, .03);
+    position: absolute;
+    width: 60px;
+    right: -10px;
+    top: 0;
+    bottom: 0;
+    -webkit-transform: skew(-22deg);
+    transform: skew(-22deg)
+}
+
+.page_form .channel_connect_btn:after {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 12px;
+    height: 9px;
+    background: url(https://www.arup.com/assets-tss/images/arrow@2x.png) no-repeat 50% 50%;
+    background-size: contain
+}
+
+.page_form .channel_connect_btn:hover {
+    color: #ff5056;
+    border-color: #ff5056
+}
+
+.page_form .channel_connect_btn:hover:after {
+    background-image: url(https://www.arup.com/assets-tss/images/arrow--hover@2x.png)
+}
+
+#category_share_promo {
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fafafa
+}
+
+#category_share_promo .share_promo_content {
+    padding: 0
+}
+
+#category_share_promo .share_promo_content .promo_arrow {
+    display: none
+}
+
+#category_share_promo .flat_button {
+    display: inline;
+    cursor: pointer;
+    line-height: inherit;
+    font-weight: 700;
+    height: auto;
+    vertical-align: unset
+}
+
+#category_share_promo .flat_button,
+#category_share_promo .flat_button:focus,
+#category_share_promo .flat_button:hover {
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    text-shadow: none;
+    box-shadow: none;
+    color: inherit;
+    font-size: inherit;
+    width: auto;
+    font-family: inherit
+}
+
+#category_share_promo .flat_button:focus,
+#category_share_promo .flat_button:hover {
+    text-decoration: underline;
+    color: #ff5056
+}
+
+#category_share_promo .flat_button .entypo {
+    display: none
+}
+
+body.mobile #container #content {
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.number_of_results {
+    color: rgba(0, 0, 0, .5);
+    display: block;
+    margin-top: 10px
+}
+
+#jobs_filters_title .number_of_results,
+.number_of_results {
+    float: none
+}
+
+#content .content_body {
+    border: none;
+    padding: 0
+}
+
+#content .content_body .content_header {
+    padding: 0;
+    margin-bottom: 30px
+}
+
+.job_list_row.jlr_Odd {
+    background-color: transparent;
+    border: none
+}
+
+.block_region.full-width:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    color: #fff
+}
+
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_full p,
+.job_list_row .jlr_right_hldr .jlr_content .jlr_content_half p {
+    font-size: 16px;
+    line-height: 1.4
+}
+
+#job_results_list_hldr.portal_listings,
+.spotlight_title {
+    border: none;
+    border-radius: 0
+}
+
+.job_list_row {
+    border: none;
+    padding: 0 0 20px!important
+}
+
+#content {
+    border: none!important
+}
+
+#content #category_landing_content .refine_search_link {
+    margin-bottom: 20px
+}
+
+#content #category_landing_content .jlr_right_hldr .jlr_title .job_link {
+    font-size: 24px
+}
+
+#content .content_body .content_header .title {
+    font-size: 36px;
+    line-height: 1.1;
+    color: inherit;
+    font-weight: 400
+}
+
+.info_listings .job_list_row .jlr_right_hldr .jlr_title .job_link {
+    font-size: 24px;
+    font-style: italic;
+    line-height: 1.33;
+    color: #000
+}
+
+#jobs_filters_title {
+    margin: 0 0 20px!important
+}
+
+.ref_btn_hldr.top_ref_btn {
+    margin: 0 0 20px;
+    border-color: 1px solid hsla(0, 0%, 69.8%, .35)
+}
+
+.user_settings .main_content_box {
+    float: left
+}
+
+body.mobile .left_content_box {
+    width: 100%;
+    border-radius: 0;
+    padding: 0;
+    border: none;
+    background: transparent
+}
+
+.left_content_box {
+    font-style: italic;
+    list-style: none
+}
+
+.left_content_box .fast_hldr {
+    display: block;
+    text-align: left;
+    vertical-align: middle
+}
+
+.left_content_box .fast_hldr a {
+    display: block;
+    padding: 10px 0;
+    overflow: initial;
+    line-height: 1.4;
+    font-family: Times New Roman, Times, serif!important;
+    color: #000;
+    font-weight: 700
+}
+
+.left_content_box .fast_hldr a .fast_txt {
+    float: none
+}
+
+.left_content_box .fast_hldr a .active_caret {
+    display: none!important
+}
+
+.left_content_box .fast_hldr.active a,
+.left_content_box .fast_hldr a:focus,
+.left_content_box .fast_hldr a:hover {
+    color: #ff5056!important
+}
+
+.no_results_text {
+    font-size: 16px;
+    line-height: 1.6
+}
+
+.no_results_text p {
+    margin-bottom: 15px
+}
+
+.no_results_text ul {
+    list-style: initial;
+    padding-left: 20px
+}
+
+body.mobile #colorbox .modal_actions .action_buttons .submit_finish {
+    top:0;
+    height:55px;
+}

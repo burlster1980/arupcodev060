@@ -293,7 +293,7 @@ We help clients to decide their priorities, making sure their choices and invest
 <li class="up-list__item up-list__item--two">
     <a href="/expertise/services/planning/smart-cities" class="preview-card ">
             <header class="preview-card__header preview-card__header--pic">
-                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/s/st-elizabeth-hospital/stelizabethhospitalenumclaw2000x1125benjaminbenschneider.jpg?h=1125&la=en&w=2000&hash=1F3223B99A646EA5261C33F9C54AD88F020BC845');"></div>
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/industries/education-university-nottingham-engineering-science-library-mhk-photography-2000x1125.jpg?h=1125&la=en&w=2000&hash=7B4899263C55D8E37A16C10FCD75A83B65C27B63');"></div>
             </header>
         <div class="preview-card__content preview-card__content--alt-style">
             <div class="preview-card__main">
@@ -301,9 +301,9 @@ We help clients to decide their priorities, making sure their choices and invest
                     <h4 class="preview-copy__label label--md">
                         Project
                     </h4>
-                    <h3 class="preview-copy__title ">Queen Mary Hospital</h3>
+                    <h3 class="preview-copy__title ">Victoria schools</h3>
                     <div class="preview-copy__copy-wrap">
-                            <p class="preview-copy__copy">Arup provided project management services for X years with involvement at all stages from planning through to implementation. Our team developed a procurement strategy and tender documents to engage 50 specialist contractors. </p>
+                            <p class="preview-copy__copy">Find out how Arup has successfully managed a major programme of educational improvements across Victoria, Australia – an ongoing portfolio of over 2,000 school projects over 17 years.</p>
                     </div>
                 </div>
             </div>

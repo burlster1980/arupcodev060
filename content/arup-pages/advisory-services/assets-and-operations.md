@@ -237,7 +237,7 @@ From this point we work closely with clients to define a more effective asset ma
 <li class="up-list__item up-list__item--two">
     <a href="/expertise/services/planning/smart-cities" class="preview-card ">
             <header class="preview-card__header preview-card__header--pic">
-                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/p/perth-airport-terminal-2/2000x1125-perth-airport-terminal-2-orat-implementationc-arup3.jpg?h=1322&la=en&w=2349&hash=9650C6EE0DEBA69200A78AD5FA396A449F9811E3');"></div>
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/o/orbis/dst-edinburgh-waverley-station-infrastructure-enhancements2.jpg?h=1125&la=en&w=2000&hash=F63A1BB2E3ADFB2062E74450D18847B7EA4342DE');"></div>
             </header>
         <div class="preview-card__content preview-card__content--alt-style">
             <div class="preview-card__main">
@@ -245,9 +245,9 @@ From this point we work closely with clients to define a more effective asset ma
                     <h4 class="preview-copy__label label--md">
                         Project
                     </h4>
-                    <h3 class="preview-copy__title ">Rail operators example project</h3>
+                    <h3 class="preview-copy__title ">Changing data management in the rail industry</h3>
                     <div class="preview-copy__copy-wrap">
-                            <p class="preview-copy__copy">Delta needed to relocate its hub operations at Los Angeles International Airport (LAX) from Terminals 5 and 6 to 2 and 3. Arup was responsible for project managing all design activities on behalf of Delta Air Lines, which included three design teams working across five terminals.</p>
+                            <p class="preview-copy__copy">Working with Network Rail we are participating in a major change programme, Offering Rail Better Information Services (ORBIS) to revolutionise the way information is captured, stored, managed and exploited across the network.</p>
                     </div>
                 </div>
             </div>
@@ -261,7 +261,7 @@ From this point we work closely with clients to define a more effective asset ma
 <li class="up-list__item up-list__item--two">
     <a href="/expertise/services/planning/smart-cities" class="preview-card ">
             <header class="preview-card__header preview-card__header--pic">
-                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/s/st-elizabeth-hospital/stelizabethhospitalenumclaw2000x1125benjaminbenschneider.jpg?h=1125&la=en&w=2000&hash=1F3223B99A646EA5261C33F9C54AD88F020BC845');"></div>
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/b/brisbane-international-cruise-terminal/bict2_c-arup_2000x1125.jpg?h=1125&la=en&w=2000&hash=97C77523C2E3D79F225761CFF6722D2575DB32AF');"></div>
             </header>
         <div class="preview-card__content preview-card__content--alt-style">
             <div class="preview-card__main">
@@ -269,9 +269,9 @@ From this point we work closely with clients to define a more effective asset ma
                     <h4 class="preview-copy__label label--md">
                         Project
                     </h4>
-                    <h3 class="preview-copy__title ">Water utilities example project</h3>
+                    <h3 class="preview-copy__title ">A defining piece of tourism infrastructure for Queensland</h3>
                     <div class="preview-copy__copy-wrap">
-                            <p class="preview-copy__copy">Arup provided project management services for X years with involvement at all stages from planning through to implementation. Our team developed a procurement strategy and tender documents to engage 50 specialist contractors. </p>
+                            <p class="preview-copy__copy">The new $158m facility will allow the world’s largest cruise ships to visit Brisbane and grow the number of international and domestic visitors to the region. </p>
                     </div>
                 </div>
             </div>
@@ -374,7 +374,7 @@ To successfully plan and manage these unique moments of change we’ve developed
 <div class="dynamic-feat__hero">
     <div class="preview-card preview-card--hero">
         <a href="#" class="preview-card__header preview-card__header--pic">
-            <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/k/kaohsiung-port-terminal/kaohsiung-cruise-terminalthe-boarding-gate2000x1125c-reiser--umemoto-rur-architecture-pc7.jpg?h=1125&la=en&w=2000&hash=0EE5A7A61E1839689F8AE63764F762066C2C0460');">
+            <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/images/projects/h/heathrow-terminal-2/headerheathrow-t2-oratc-arup1.jpg?h=1125&la=en&w=2000&hash=9E46D0DCB4DE2CD8F5567CA911FAC2DB9BC1448D');">
             </div>
         </a>
         <div class="preview-card__content ">
@@ -384,9 +384,9 @@ To successfully plan and manage these unique moments of change we’ve developed
                         <h4 class="preview-copy__label label--md">
                             Article
                         </h4>
-                        <h3 class="preview-copy__title ">Brisbane International Cruise Terminal</h3>
+                        <h3 class="preview-copy__title ">Heathrow Terminal 2</h3>
                         <div class="preview-copy__copy-wrap">
-                                <p class="preview-copy__copy">In collaboration with key PoB stakeholders, Arup is developing an Operational Readiness strategy to set the direction for the opening of the terminal in 2020. This detailed strategy outlines best-practice approaches to governance, training, proving trials, activation and community engagement to seamlessly transition the new terminal from a construction state into a live operation.</p>
+                                <p class="preview-copy__copy">Arup, together with Heathrow’s operational readiness teams, trialled and tested terminal processes and equipment, and delivered familiarisation training for the 25,000 airport staff working at the new terminal. By the time the terminal opened, it had undergone over 175 trials and had been tested by nearly 14,000 people.</p>
                         </div>
                     </a>
                 </div>

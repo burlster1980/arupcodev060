@@ -262,11 +262,7 @@ Our work helps our private sector clients to create and grow their businesses, a
                                             <h3 class="summary-info__title cta-title">
                                                     <span class="cta-title__copy">Strategy and economics</span>
                                             </h3>
-                                                                                    <p class="summary-info__copy">Our market knowledge and deep understanding of evolving regulatory issues, means we can help clients to craft the right strategies. We draw on extensive market and policy know-how from our sector experts and specialists to deliver joined-up, evidence-based advice to our clients.</p>
-                                                                                    <a href="https://www.driversofchange.com/about/services/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
-                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span>Find out more our work with GIP</span>
-                                                </a>                                       
+                                                                                    <p class="summary-info__copy">Our market knowledge and deep understanding of evolving regulatory issues, means we can help clients to craft the right strategies. We draw on extensive market and policy know-how from our sector experts and specialists to deliver joined-up, evidence-based advice to our clients. We helped the U.K.’s National Grid to better forecast national electricity and gas demand by developing a new economic modelling and scenario tool. This examines 24 separate sectors of the economy and brings together demand and macro-economic factors to help the Grid plan as far ahead as 2050.</p>                                                                                                 
                                     </div>
                                 </div>
                             </div>
@@ -301,7 +297,7 @@ Our work helps our private sector clients to create and grow their businesses, a
                                                     <span class="cta-title__copy">Procurement and contracting advice</span>
                                             </h3>
                                                                                     <p class="summary-info__copy">We develop procurement strategies from tender stage to contract award, finding the right mix of suppliers to bring in projects on budget, on time and up to quality. We frequently use our cross-sector experience and industry knowledge to innovate and bring new approaches to procurement and supply chain management to our clients. We also approach supply chains as an ongoing relationship that can provide long-term business value.</p>
-                                                                                    <a href="https://www.driversofchange.com/about/services/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+                                                                                    <a href="#" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
                                                     <span>Learn about the Samuel de Champlain</span>
                                                 </a>                                       
@@ -320,7 +316,7 @@ Our work helps our private sector clients to create and grow their businesses, a
                                                     <span class="cta-title__copy">Due diligence</span>
                                             </h3>
                                                                                     <p class="summary-info__copy">We provide technical, commercial and market reviews of assets clients are looking to buy, technical and commercial advice and assurance to lenders who are considering supporting a project or funding an asset purchase. For example, in 2018, working for client GIP, our team provided technical due diligence advice for the acquisition of 139 solar and wind power generation assets.</p>
-                                                                                    <a href="https://www.driversofchange.com/about/services/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+                                                                                    <a href="#" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
                                                     <span>Find out more our work with GIP</span>
                                                 </a>                                
