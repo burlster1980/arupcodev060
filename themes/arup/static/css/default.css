@@ -252,3 +252,30 @@ float:;
  .meganav-group__title>a {
   color:inherit!important;
  }
+
+ /* rail page amends - carousel */
+ @media (min-width: 1024px) {
+.fullbleed.fullbleed-carousel {
+  height:700px;
+}
+.fullbleed.fullbleed-carousel .container {
+  position: initial;
+  z-index: 1000;
+}
+.slick-track:before, .slick-track:after {
+    display: table;
+    content: "";
+}
+.fullbleed-carousel .slick-track:before {
+  content:"";
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  background:rgba(0,0,0,0.10);
+}
+.fullbleed-carousel .slick-list:after {
+  content:none;
+}
+}

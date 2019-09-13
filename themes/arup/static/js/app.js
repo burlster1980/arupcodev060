@@ -1,9 +1,9 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 'use strict';
 
-var _events = require('../libs/events/events');
+var _events = require('../libs-th-nk/events/events');
 
-var _dom = require('../libs/dom/dom');
+var _dom = require('../libs-th-nk/dom/dom');
 
 var _megaMenu = require('../js/modules/mega-menu');
 
@@ -127,6 +127,8 @@ var _servicegroup2 = _interopRequireDefault(_servicegroup);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var scrollThrottleAmount = 50;
+
 $.fn.isOnScreen = function () {
 
   var win = $(window);
@@ -230,6 +232,9 @@ window.app = {
 
       //Init Page Specific JS
       switch (document.body.id) {
+        case '':
+          window.app.videoCarousel.init();
+          break;
         case 'home':
           window.app.videoCarousel.init();
           window.app.home.init();
@@ -277,6 +282,7 @@ window.app = {
             window.app.toggle.init();
             grunticon.svgLoadedCallback();
             window.app.shareButtons.assign();
+            window.app.loadmoreButton.init();
           };
 
           break;
@@ -330,14 +336,13 @@ window.app = {
         });
       }
 
-      $(window).scroll(window.throttle(function (e) {
-
+      function checkScroll() {
         if (window.app.global.ignoreScroll) {
           header.removeClass('header--active');
           return false;
         }
 
-        var scrollt = $(this).scrollTop();
+        var scrollt = $(window).scrollTop();
 
         var mobactive = $('.' + window.app.global.wrapper).hasClass('menu--active');
 
@@ -381,7 +386,11 @@ window.app = {
           }
         }
         st = scrollt;
-      }, 250));
+      }
+
+      $(window).scroll(window.throttle(checkScroll, scrollThrottleAmount));
+
+      checkScroll();
 
       //Feature detection
       var bodyStyle = document.body.style;
@@ -622,7 +631,15 @@ window.app = {
         if ($('.stickyEl').length) {
           if ($(window).width() < window.app.global.desktop) {
             //mobile
-            targetTop -= $('.stickyEl:not(.services_letters)').outerHeight();
+            var el = $('.stickyEl:not(.services_letters)');
+            if (el.length) {
+              targetTop -= el.outerHeight();
+            }
+
+            var header = $('.header--fixed');
+            if (header.length) {
+              targetTop -= header.outerHeight();
+            }
           } else {
             //desktop
             targetTop -= $('.stickyEl').outerHeight();
@@ -684,6 +701,11 @@ window.app = {
             $(v).addClass('active');
             v.play();
           });
+
+          if (v.readyState > 3) {
+            $(v).addClass('active');
+            v.play();
+          }
         });
       }
 
@@ -815,7 +837,10 @@ window.app = {
             infinite: true,
             speed: 500,
             fade: true,
+            dots:true,
+            dotsClass: 'slick-dots',
             cssEase: 'linear',
+            swipe:true,
             prevArrow: $(fullCarouselParent).find('.icon-prev'),
             nextArrow: $(fullCarouselParent).find('.icon-next')
           });
@@ -930,7 +955,7 @@ window.app = {
       }
 
       //Up Lists
-      var carouselUp = $('.up-list');
+      var carouselUp = $('.up-list:not(.up-list--basic)');
       if (carouselUp && carouselUp.find('.up-list__item').length > 0) {
 
         if (!carouselUp.hasClass('slick-initialized')) {
@@ -1263,16 +1288,16 @@ jQuery.extend(jQuery.easing, {
   }
 });
 
-},{"../js/modules/accordion":2,"../js/modules/alert":3,"../js/modules/cookie":4,"../js/modules/filter-career":5,"../js/modules/filter-class":6,"../js/modules/filter-select":7,"../js/modules/image-zoom":9,"../js/modules/load-more":10,"../js/modules/media-hotspot":11,"../js/modules/mega-menu":12,"../js/modules/mobile-nav":13,"../js/modules/modal":14,"../js/modules/monogram":15,"../js/modules/parallax":16,"../js/modules/search":17,"../js/modules/sticky-element":18,"../js/modules/strainer":19,"../js/modules/tabs":20,"../js/modules/timeline":21,"../js/modules/toggle":22,"../js/modules/video-carousel":23,"../js/pages/careers":24,"../js/pages/expertise":25,"../js/pages/home":26,"../js/pages/hub":27,"../js/pages/news":28,"../js/pages/offices":29,"../js/pages/perspectives":30,"../js/pages/project-detail":31,"../js/pages/servicegroup":32,"../libs/dom/dom":33,"../libs/events/events":34}],2:[function(require,module,exports){
+},{"../js/modules/accordion":2,"../js/modules/alert":3,"../js/modules/cookie":4,"../js/modules/filter-career":5,"../js/modules/filter-class":6,"../js/modules/filter-select":7,"../js/modules/image-zoom":9,"../js/modules/load-more":10,"../js/modules/media-hotspot":11,"../js/modules/mega-menu":12,"../js/modules/mobile-nav":13,"../js/modules/modal":14,"../js/modules/monogram":15,"../js/modules/parallax":16,"../js/modules/search":17,"../js/modules/sticky-element":18,"../js/modules/strainer":19,"../js/modules/tabs":20,"../js/modules/timeline":21,"../js/modules/toggle":22,"../js/modules/video-carousel":23,"../js/pages/careers":24,"../js/pages/expertise":25,"../js/pages/home":26,"../js/pages/hub":27,"../js/pages/news":28,"../js/pages/offices":29,"../js/pages/perspectives":30,"../js/pages/project-detail":31,"../js/pages/servicegroup":32,"../libs-th-nk/dom/dom":33,"../libs-th-nk/events/events":34}],2:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 var _init = function _init(root, letters) {
 
@@ -1378,16 +1403,16 @@ var accordion = {
 };
 exports.default = accordion;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34}],3:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34}],3:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 var alert = {
   init: function init() {
@@ -1479,16 +1504,16 @@ var alert = {
 
 exports.default = alert;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34}],4:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34}],4:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 var _init = function _init() {
   var msg = document.querySelector('#cookie_msg');
@@ -1562,7 +1587,7 @@ var cookieMsg = {
 };
 exports.default = cookieMsg;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34}],5:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34}],5:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -1577,9 +1602,9 @@ var _filterClass = require('./filter-class');
 
 var _filterClass2 = _interopRequireDefault(_filterClass);
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1668,7 +1693,7 @@ var FilterCareers = function (_Filter) {
 
 exports.default = FilterCareers;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34,"./filter-class":6}],6:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34,"./filter-class":6}],6:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -1677,9 +1702,9 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -2095,10 +2120,13 @@ var Filter = function () {
   }, {
     key: 'scroller',
     value: function scroller() {
+      var _this3 = this;
 
       if (window.innerWidth >= window.app.global.desktop) {
         this.scrollAdded = true;
-        $(this.listObj).find('.scroller').nanoScroller({ sliderMaxHeight: 35, preventPageScrolling: true, contentClass: 'scroller__content' });
+        setTimeout(function () {
+          $(_this3.listObj).find('.scroller').nanoScroller({ sliderMaxHeight: 35, preventPageScrolling: true, contentClass: 'scroller__content' });
+        }, 10);
         $('.scroller__content').attr('tabindex', '');
       } else if (this.scrollAdded) {
         $(this.listObj).find('.scroller').nanoScroller({ destroy: true });
@@ -2135,7 +2163,7 @@ var Filter = function () {
 
 exports.default = Filter;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34}],7:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34}],7:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -2150,9 +2178,9 @@ var _filterClass = require('./filter-class');
 
 var _filterClass2 = _interopRequireDefault(_filterClass);
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2200,8 +2228,13 @@ var FilterSelect = function (_Filter) {
     _this2.toggleLabel = $(_this2.fil).parent('.filter__secondary');
 
     var currentUrl = window.location.href;
-    _this2.url = currentUrl.match(/.*?(?=projects|$)/i)[0] + 'projects';
 
+    var hubname = _this2.fil.getAttribute('data-hub') || 'projects';
+    if (hubname) {
+      hubname = hubname.replace(" ", "-");
+    }
+    _this2.url = currentUrl.match(new RegExp(".*?(?=" + hubname + "|$)", "i"))[0] + hubname;
+    _this2.urlPattern = _this2.fil.getAttribute('data-urlpattern');
     return _this2;
   }
 
@@ -2348,7 +2381,7 @@ var FilterSelect = function (_Filter) {
       //Filtering on click reinit
       this.reinitList();
 
-      /** 
+      /**
       removed to stop double request
       */
       // window.app.loadmoreButton.init();
@@ -2511,7 +2544,7 @@ var FilterSelect = function (_Filter) {
           loc = false;
 
       $.each(data, function (i, el) {
-        if (i == 'location') {
+        if (i == 'location' || i == 'category') {
           loc = true;
           country = el;
         } else {
@@ -2523,6 +2556,10 @@ var FilterSelect = function (_Filter) {
 
       if (loc) {
         val += '/' + country;
+      }
+
+      if (this.urlPattern) {
+        val = this.urlPattern.replace('[c]', '/' + (country ? country : 'all')).replace('[e]', '/' + (service ? service : 'all')).replace(/(\/all)?\/all$/g, '').toLowerCase();
       }
 
       val = val.replace(/ /g, '-');
@@ -2537,7 +2574,7 @@ var FilterSelect = function (_Filter) {
 
 exports.default = FilterSelect;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34,"./filter-class":6}],8:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34,"./filter-class":6}],8:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -2546,9 +2583,9 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -2593,7 +2630,7 @@ var ImageLoader = function () {
 
 exports.default = ImageLoader;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34}],9:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34}],9:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -2781,9 +2818,9 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 var _imageLoader = require('../modules/image-loader');
 
@@ -3019,16 +3056,16 @@ var LoadMore = function () {
 
 exports.default = LoadMore;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34,"../modules/image-loader":8}],11:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34,"../modules/image-loader":8}],11:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 var mediaHotspot = {
   init: function init() {
@@ -3145,16 +3182,16 @@ var mediaHotspot = {
 
 exports.default = mediaHotspot;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34}],12:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34}],12:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 var megaMenu = {
   menuOpen: false,
@@ -3361,16 +3398,16 @@ var megaMenu = {
 };
 exports.default = megaMenu;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34}],13:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34}],13:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 var _accordion = require('../modules/accordion');
 
@@ -3512,7 +3549,7 @@ var _init = function _init() {
   //   } else {
   //     events.on(container, 'touchmove', disableBackgroundScroll);
   //     dom.toggleClass(document.documentElement, htmlMenuActiveClass);
-  //     dom.toggleClass(document.body, bodyMenuActiveClass); 
+  //     dom.toggleClass(document.body, bodyMenuActiveClass);
   //   }
 
   //   dom.toggleClass(container, containerMenuActiveClass);
@@ -3644,16 +3681,16 @@ var mobileNav = {
 };
 exports.default = mobileNav;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34,"../modules/accordion":2}],14:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34,"../modules/accordion":2}],14:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 var modal = {
   modals: [],
@@ -3756,7 +3793,7 @@ var modal = {
 
 exports.default = modal;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34}],15:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34}],15:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -3827,9 +3864,9 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 var parallax = {
     parallaxMax: 15,
@@ -3904,16 +3941,16 @@ var parallax = {
 
 exports.default = parallax;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34}],17:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34}],17:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 var _init = function _init() {
 
@@ -3968,11 +4005,14 @@ var _init = function _init() {
   //Key events for search
   searchOpen.on('keydown', function (e) {
     if (e.which == 13) {
+      console.log('keydown?');
       showSearch();
     }
   });
 
+  var fakeTab = false;
   searchInput.on('keydown', function (e) {
+    // console.log(e.which)
     if (e.which == 27) {
       hideSearch();
       return;
@@ -3980,9 +4020,18 @@ var _init = function _init() {
     if (e.which != 40) {
       return;
     }
+
+    fakeTab = true;
     //go to first link and let natural browser order do the rest
-    if (searchResults.find('a').length > 0) {
-      searchResults.find('a').first().focus();
+    if (searchResults.find('.search-results__content a').length > 0) {
+      searchResults.find('.search-results__content a').first().focus();
+    }
+  });
+
+  $(document).on('keydown', function (e) {
+    if (fakeTab) {
+      e.preventDefault();
+      fakeTab = false;
     }
   });
 
@@ -4162,7 +4211,7 @@ var _init = function _init() {
         }, 500);
       }
 
-      var queryString = "?query=" + searchTerm.toLowerCase();
+      var queryString = "?query=" + encodeURIComponent(searchTerm.toLowerCase());
       if (activeFilters !== null) {
         queryString = queryString + '&filter=' + activeFilters;
       }
@@ -4370,7 +4419,7 @@ var search = {
 };
 exports.default = search;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34}],18:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34}],18:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -4379,9 +4428,9 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -4608,7 +4657,7 @@ var stickyElement = function () {
 
 exports.default = stickyElement;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34}],19:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34}],19:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -4617,9 +4666,9 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -4649,6 +4698,8 @@ var Strainer = function () {
 
     this.targetElem = document.querySelector('[data-strain-content="' + this.groupElem.dataset.strainTarget + '"]');
     this.targetLoadingClass = this.targetElem.dataset.loadingClass;
+
+    this.exclude = this.groupElem.dataset.strainExclude ? this.groupElem.dataset.strainExclude : null;
 
     this.closeElems = this.dialogElem.querySelectorAll('.js-strain-close');
 
@@ -4809,7 +4860,12 @@ var Strainer = function () {
           makeRequest = false;
         }
       }
-      requestParams = requestParams.substring(0, requestParams.length - 1);
+
+      if (this.exclude) {
+        requestParams += 'exclude=' + this.exclude;
+      } else {
+        requestParams = requestParams.substring(0, requestParams.length - 1);
+      }
 
       requestUrl = requestUrl + requestParams;
 
@@ -4906,16 +4962,16 @@ var Strainer = function () {
 
 exports.default = Strainer;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34}],20:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34}],20:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 var _init = function _init(root) {
 
@@ -4989,16 +5045,16 @@ var tabs = {
 };
 exports.default = tabs;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34}],21:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34}],21:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 var timeline = {
   init: function init() {
@@ -5141,6 +5197,9 @@ var timeline = {
 
       function getElementIndex(node) {
         var index = 0;
+
+        if (node === null || typeof node === 'undefined') return index;
+
         while (node = node.previousElementSibling) {
           index++;
         }
@@ -5171,14 +5230,14 @@ var timeline = {
 
 exports.default = timeline;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34}],22:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34}],22:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
 var toggle = {
   init: function init() {
@@ -5259,16 +5318,16 @@ var toggle = {
 
 exports.default = toggle;
 
-},{"../../libs/events/events":34}],23:[function(require,module,exports){
+},{"../../libs-th-nk/events/events":34}],23:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 var videocarousel = {
   init: function init() {
@@ -5514,16 +5573,16 @@ var videocarousel = {
 
 exports.default = videocarousel;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34}],24:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34}],24:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 var careers = {
   init: function init() {
@@ -5546,16 +5605,16 @@ var careers = {
 
 exports.default = careers;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34}],25:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34}],25:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 var _filterClass = require('../modules/filter-class');
 
@@ -5672,13 +5731,6 @@ var expertise = {
     var carousel = $('.js-es-carousel'),
         controls = $('.js-es-carousel-control');
 
-    //Click on controls
-    controls.each(function (i, e) {
-      $(e).on('click', function (ev) {
-        carousel.slick('slickGoTo', i);
-      });
-    });
-
     carousel.slick({
       slide: '.js-es-carousel-item',
       cssEase: 'ease-in-out',
@@ -5686,6 +5738,20 @@ var expertise = {
       arrows: false,
       swipe: false,
       fade: true
+    });
+
+    controls.each(function (i, e) {
+      //Click on controls
+      $(e).on('click', function (ev) {
+        carousel.slick('slickGoTo', i);
+        history.pushState(null, null, ev.target.closest('a').href);
+      });
+
+      //Load slide if hash set
+      var currentLink = e.firstElementChild.href;
+      if (window.location.hash && currentLink.includes(window.location.hash)) {
+        carousel.slick('slickGoTo', i);
+      }
     });
 
     carousel.each(function () {
@@ -5700,7 +5766,7 @@ var expertise = {
 
 exports.default = expertise;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34,"../modules/filter-class":6}],26:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34,"../modules/filter-class":6}],26:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -6090,9 +6156,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 var _loadMore = require('../modules/load-more');
 
@@ -6359,16 +6425,16 @@ var news = {
 
 exports.default = news;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34,"../modules/image-loader":8,"../modules/load-more":10}],29:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34,"../modules/image-loader":8,"../modules/load-more":10}],29:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 var _filterClass = require('../modules/filter-class');
 
@@ -6428,8 +6494,7 @@ var offices = {
         }, { once: true });
 
         if (window.history && !noHistory) {
-          var displayUrl = location.protocol + '//' + trigger.attr('href').replace(/^https?\:\/\//i, "").replace(/^http?\:\/\//i, "");
-          window.history.pushState({ region: url }, null, displayUrl);
+          window.history.pushState({ region: url }, null, trigger.attr('href'));
         }
       });
     }
@@ -6485,16 +6550,16 @@ var offices = {
 
 exports.default = offices;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34,"../modules/filter-class":6}],30:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34,"../modules/filter-class":6}],30:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 var perspectives = {
   init: function init() {
@@ -6646,16 +6711,16 @@ var perspectives = {
 
 exports.default = perspectives;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34}],31:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34}],31:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 var project = {
   init: function init() {
@@ -6693,16 +6758,16 @@ var project = {
 
 exports.default = project;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34}],32:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34}],32:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _events = require('../../libs/events/events');
+var _events = require('../../libs-th-nk/events/events');
 
-var _dom = require('../../libs/dom/dom');
+var _dom = require('../../libs-th-nk/dom/dom');
 
 var _imageLoader = require('../modules/image-loader');
 
@@ -6751,418 +6816,418 @@ var servicegroup = {
 
 exports.default = servicegroup;
 
-},{"../../libs/dom/dom":33,"../../libs/events/events":34,"../modules/image-loader":8}],33:[function(require,module,exports){
+},{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34,"../modules/image-loader":8}],33:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 
 var closest = function () {
-    var el = HTMLElement.prototype;
-    var matches = el.matches || el.webkitMatchesSelector || el.mozMatchesSelector || el.msMatchesSelector;
+  var el = HTMLElement.prototype;
+  var matches = el.matches || el.webkitMatchesSelector || el.mozMatchesSelector || el.msMatchesSelector;
 
-    return function closest(el, selector) {
-        try {
-            return matches.call(el, selector) ? el : closest(el.parentElement, selector);
-        } catch (e) {
-            return false;
-        }
-    };
+  return function closest(el, selector) {
+    try {
+      return matches.call(el, selector) ? el : closest(el.parentElement, selector);
+    } catch (e) {
+      return false;
+    }
+  };
 }();
 
 var dom = {
-    getPageScroll: function getPageScroll() {
-        if (window.pageYOffset) {
-            return window.pageYOffset;
-        }
+  getPageScroll: function getPageScroll() {
+    if (window.pageYOffset) {
+      return window.pageYOffset;
+    }
 
-        if (document.documentElement && document.documentElement.scrollTop) {
-            return document.documentElement.scrollTop;
-        }
+    if (document.documentElement && document.documentElement.scrollTop) {
+      return document.documentElement.scrollTop;
+    }
 
-        if (document.body) {
-            return document.body.scrollTop;
-        }
+    if (document.body) {
+      return document.body.scrollTop;
+    }
 
-        return false;
-    },
+    return false;
+  },
 
-    position: function position(elm) {
-        var box = elm.getBoundingClientRect();
+  position: function position(elm) {
+    var box = elm.getBoundingClientRect();
 
-        var body = document.body;
-        var docEl = document.documentElement;
+    var body = document.body;
+    var docEl = document.documentElement;
 
-        var scrollTop = window.pageYOffset || docEl.scrollTop || body.scrollTop;
-        var scrollLeft = window.pageXOffset || docEl.scrollLeft || body.scrollLeft;
+    var scrollTop = window.pageYOffset || docEl.scrollTop || body.scrollTop;
+    var scrollLeft = window.pageXOffset || docEl.scrollLeft || body.scrollLeft;
 
-        var clientTop = docEl.clientTop || body.clientTop || 0;
-        var clientLeft = docEl.clientLeft || body.clientLeft || 0;
+    var clientTop = docEl.clientTop || body.clientTop || 0;
+    var clientLeft = docEl.clientLeft || body.clientLeft || 0;
 
-        var top = box.top + scrollTop - clientTop;
-        var left = box.left + scrollLeft - clientLeft;
+    var top = box.top + scrollTop - clientTop;
+    var left = box.left + scrollLeft - clientLeft;
 
-        return {
-            top: Math.round(top),
-            left: Math.round(left)
-        };
-    },
+    return {
+      top: Math.round(top),
+      left: Math.round(left)
+    };
+  },
 
-    height: function height(elm) {
-        return elm.clientHeight;
-    },
+  height: function height(elm) {
+    return elm.clientHeight;
+  },
 
-    /**
+  /**
   * Remove an element from the DOM
   * @param  {Element} elm [description]
   */
-    remove: function remove(elm) {
-        elm.parentNode.removeChild(elm);
-    },
+  remove: function remove(elm) {
+    elm.parentNode.removeChild(elm);
+  },
 
-    /**
+  /**
   * [after description]
-  * @param  {Element} elm       [description]
+  * @param  {Element} elm   [description]
   * @param  {[type]} htmlString [description]
   */
-    after: function after(elm, htmlString) {
-        elm.insertAdjacentHTML('afterend', htmlString);
-    },
+  after: function after(elm, htmlString) {
+    elm.insertAdjacentHTML('afterend', htmlString);
+  },
 
-    /**
+  /**
   * [insertAfter description]
-  * @param  {Element} elm    [description]
+  * @param  {Element} elm  [description]
   * @param  {[type]} newNode [description]
   */
-    insertAfter: function insertAfter(elm, newNode) {
-        elm.parentNode.insertBefore(newNode, elm.nextSibling);
-    },
+  insertAfter: function insertAfter(elm, newNode) {
+    elm.parentNode.insertBefore(newNode, elm.nextSibling);
+  },
 
-    /**
+  /**
   * [append description]
-  * @param  {Element} elm    [description]
+  * @param  {Element} elm  [description]
   * @param  {[type]} newNode [description]
   */
-    append: function append(elm, newNode) {
-        elm.appendChild(newNode);
-    },
+  append: function append(elm, newNode) {
+    elm.appendChild(newNode);
+  },
 
-    /**
+  /**
   * [prepend description]
-  * @param  {Element} elm    [description]
+  * @param  {Element} elm  [description]
   * @param  {[type]} newNode [description]
   */
-    prepend: function prepend(elm, newNode) {
-        elm.insertBefore(newNode, elm.firstChild);
-    },
+  prepend: function prepend(elm, newNode) {
+    elm.insertBefore(newNode, elm.firstChild);
+  },
 
-    /**
+  /**
   * [before description]
-  * @param  {Element} elm       [description]
+  * @param  {Element} elm   [description]
   * @param  {[type]} htmlString [description]
   */
-    before: function before(elm, htmlString) {
-        elm.insertAdjacentHTML('beforebegin', htmlString);
-    },
+  before: function before(elm, htmlString) {
+    elm.insertAdjacentHTML('beforebegin', htmlString);
+  },
 
-    /**
+  /**
   * [clone description]
   * @param  {Element} elm [description]
-  * @return {[type]}     [description]
+  * @return {[type]}   [description]
   */
-    clone: function clone(elm) {
-        return elm.cloneNode(true);
-    },
+  clone: function clone(elm) {
+    return elm.cloneNode(true);
+  },
 
-    /**
+  /**
   * [next description]
   * @param  {[type]}   elm [description]
   * @return {Function}   [description]
   */
-    next: function next(elm) {
-        return elm.nextElementSibling;
-    },
+  next: function next(elm) {
+    return elm.nextElementSibling;
+  },
 
-    /**
+  /**
   * [find description]
-  * @param  {Element} elm     [description]
+  * @param  {Element} elm   [description]
   * @param  {[type]} selector [description]
-  * @return {[type]}          [description]
+  * @return {[type]}      [description]
   */
-    find: function find(elm, selector) {
-        return elm.querySelectorAll(selector);
-    },
+  find: function find(elm, selector) {
+    return elm.querySelectorAll(selector);
+  },
 
-    /**
+  /**
   * [prev description]
   * @param  {Element} elm [description]
-  * @return {[type]}     [description]
+  * @return {[type]}   [description]
   */
-    prev: function prev(elm) {
-        return elm.previousElementSibling;
-    },
+  prev: function prev(elm) {
+    return elm.previousElementSibling;
+  },
 
-    /**
+  /**
   * [selectAll description]
   * @param  {[type]} query [description]
-  * @return {[type]}       [description]
+  * @return {[type]}     [description]
   */
-    selectAll: function selectAll(query) {
-        var base = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : document;
+  selectAll: function selectAll(query) {
+    var base = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : document;
 
-        return base.querySelectorAll(query);
-    },
+    return base.querySelectorAll(query);
+  },
 
-    /**
+  /**
   * [scrollPosition description]
   * @return {[type]} [description]
   */
-    scrollPosition: function scrollPosition() {
-        var doc = document.documentElement;
+  scrollPosition: function scrollPosition() {
+    var doc = document.documentElement;
 
-        return {
-            top: (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0),
-            left: (window.pageXOffset || doc.scrollLeft) - (doc.clientLeft || 0)
-        };
-    },
+    return {
+      top: (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0),
+      left: (window.pageXOffset || doc.scrollLeft) - (doc.clientLeft || 0)
+    };
+  },
 
-    /**
+  /**
   * [create description]
-  * @param  {[type]} str      [description]
+  * @param  {[type]} str    [description]
   * @param  {[type]} location [description]
-  * @return {[type]}          [description]
+  * @return {[type]}      [description]
   */
-    create: function create(str, location) {
-        var temp = document.createElement('div');
-        temp.innerHTML = str;
+  create: function create(str, location) {
+    var temp = document.createElement('div');
+    temp.innerHTML = str;
 
-        var children;
+    var children;
 
-        if (!location) {
-            children = temp;
-        } else {
-            children = temp.children;
+    if (!location) {
+      children = temp;
+    } else {
+      children = temp.children;
 
-            arr.each(location, function (str, i, name) {
-                children = i == location.length - 1 ? children[str] : children[str].children;
-            });
-        }
+      arr.each(location, function (str, i, name) {
+        children = i == location.length - 1 ? children[str] : children[str].children;
+      });
+    }
 
-        return children;
-    },
+    return children;
+  },
 
-    containsClass: function () {
-        if (!!document.documentElement.classList) {
-            /**
+  containsClass: function () {
+    if (!!document.documentElement.classList) {
+      /**
     * [description]
     * @param  {Element} elm    [description]
     * @param  {[type]} className [description]
     */
-            return function (elm, className) {
-                if (!elm) {
-                    return false;
-                }
-
-                return elm.classList.contains(className);
-            };
+      return function (elm, className) {
+        if (!elm) {
+          return false;
         }
 
-        /**
-   * [description]
-   * @param  {Element} elm     [description]
-   * @param  {[type]} className [description]
-   */
-        return function (elm, className) {
-            if (!elm || !elm.className) {
-                return false;
-            }
-
-            var re = new RegExp('(^|\\s)' + className + '(\\s|$)');
-
-            return elm.className.match(re);
-        };
-    }(),
-
-    addClass: function () {
-        if (!!document.documentElement.classList) {
-            /**
-    * [description]
-    * @param  {Element} elm    [description]
-    * @param  {[type]} className [description]
-    */
-            return function (elm, className) {
-                if (!elm) {
-                    return false;
-                }
-
-                if (className.indexOf(' ') > 0) {
-                    var names = className.split(' ');
-
-                    for (var i = 0, il = names.length; i < il; i++) {
-                        elm.classList.add(names[i]);
-                    }
-                } else {
-                    elm.classList.add(className);
-                }
-            };
-        }
-
-        /**
-   * [description]
-   * @param  {Element} elm     [description]
-   * @param  {[type]} className [description]
-   */
-        return function (elm, className) {
-            if (!elm) {
-                return false;
-            }
-
-            if (!this.containsClass(elm, className)) {
-                elm.className += (elm.className ? ' ' : '') + className;
-            }
-        };
-    }(),
-
-    removeClass: function () {
-        if (!!document.documentElement.classList) {
-            /**
-    * [description]
-    * @param  {Element} elm    [description]
-    * @param  {[type]} className [description]
-    */
-            return function (elm, className) {
-                if (!elm) {
-                    return false;
-                }
-
-                elm.classList.remove(className);
-            };
-        }
-
-        /**
-   * [description]
-   * @param  {Element} elm     [description]
-   * @param  {[type]} className [description]
-   */
-        return function (elm, className) {
-            if (!elm || !elm.className) {
-                return false;
-            }
-
-            var regexp = new RegExp('(^|\\s)' + className + '(\\s|$)', 'g');
-
-            elm.className = elm.className.replace(regexp, '$2');
-        };
-    }(),
-
-    toggleClass: function () {
-        if (!!document.documentElement.classList) {
-            /**
-    * [description]
-    * @param  {Element} elm    [description]
-    * @param  {[type]} className [description]
-    */
-            return function (elm, className) {
-                if (!elm) {
-                    return false;
-                }
-
-                return elm.classList.toggle(className);
-            };
-        }
-
-        /**
-   * [description]
-   * @param  {Element} elm     [description]
-   * @param  {[type]} className [description]
-   */
-        return function (elm, className) {
-            if (!elm) {
-                return false;
-            }
-
-            if (this.containsClass(elm, className)) {
-                this.removeClass(elm, className);
-                return false;
-            } else {
-                this.addClass(elm, className);
-                return true;
-            }
-        };
-    }(),
+        return elm.classList.contains(className);
+      };
+    }
 
     /**
+   * [description]
+   * @param  {Element} elm     [description]
+   * @param  {[type]} className [description]
+   */
+    return function (elm, className) {
+      if (!elm || !elm.className) {
+        return false;
+      }
+
+      var re = new RegExp('(^|\\s)' + className + '(\\s|$)');
+
+      return elm.className.match(re);
+    };
+  }(),
+
+  addClass: function () {
+    if (!!document.documentElement.classList) {
+      /**
+    * [description]
+    * @param  {Element} elm    [description]
+    * @param  {[type]} className [description]
+    */
+      return function (elm, className) {
+        if (!elm) {
+          return false;
+        }
+
+        if (className.indexOf(' ') > 0) {
+          var names = className.split(' ');
+
+          for (var i = 0, il = names.length; i < il; i++) {
+            elm.classList.add(names[i]);
+          }
+        } else {
+          elm.classList.add(className);
+        }
+      };
+    }
+
+    /**
+   * [description]
+   * @param  {Element} elm     [description]
+   * @param  {[type]} className [description]
+   */
+    return function (elm, className) {
+      if (!elm) {
+        return false;
+      }
+
+      if (!this.containsClass(elm, className)) {
+        elm.className += (elm.className ? ' ' : '') + className;
+      }
+    };
+  }(),
+
+  removeClass: function () {
+    if (!!document.documentElement.classList) {
+      /**
+    * [description]
+    * @param  {Element} elm    [description]
+    * @param  {[type]} className [description]
+    */
+      return function (elm, className) {
+        if (!elm) {
+          return false;
+        }
+
+        elm.classList.remove(className);
+      };
+    }
+
+    /**
+   * [description]
+   * @param  {Element} elm     [description]
+   * @param  {[type]} className [description]
+   */
+    return function (elm, className) {
+      if (!elm || !elm.className) {
+        return false;
+      }
+
+      var regexp = new RegExp('(^|\\s)' + className + '(\\s|$)', 'g');
+
+      elm.className = elm.className.replace(regexp, '$2');
+    };
+  }(),
+
+  toggleClass: function () {
+    if (!!document.documentElement.classList) {
+      /**
+    * [description]
+    * @param  {Element} elm    [description]
+    * @param  {[type]} className [description]
+    */
+      return function (elm, className) {
+        if (!elm) {
+          return false;
+        }
+
+        return elm.classList.toggle(className);
+      };
+    }
+
+    /**
+   * [description]
+   * @param  {Element} elm     [description]
+   * @param  {[type]} className [description]
+   */
+    return function (elm, className) {
+      if (!elm) {
+        return false;
+      }
+
+      if (this.containsClass(elm, className)) {
+        this.removeClass(elm, className);
+        return false;
+      } else {
+        this.addClass(elm, className);
+        return true;
+      }
+    };
+  }(),
+
+  /**
   * Get the closest matching element up the DOM tree.
   * @private
   * @param  {Element} elem   Starting element
   * @param  {String}  selector Selector to match against (class, ID, data attribute, or tag)
   * @return {Boolean|Element}  Returns null if not match found
   */
-    getClosest: function getClosest(elm, selector) {
-        // Variables
-        var firstChar = selector.charAt(0);
-        var supports = 'classList' in document.documentElement;
+  getClosest: function getClosest(elm, selector) {
+    // Variables
+    var firstChar = selector.charAt(0);
+    var supports = 'classList' in document.documentElement;
 
-        var attribute, value;
+    var attribute, value;
 
-        // If selector is a data attribute, split attribute from value
-        if (firstChar === '[') {
-            selector = selector.substr(1, selector.length - 2);
-            attribute = selector.split('=');
+    // If selector is a data attribute, split attribute from value
+    if (firstChar === '[') {
+      selector = selector.substr(1, selector.length - 2);
+      attribute = selector.split('=');
 
-            if (attribute.length > 1) {
-                value = true;
-                attribute[1] = attribute[1].replace(/"/g, '').replace(/'/g, '');
-            }
+      if (attribute.length > 1) {
+        value = true;
+        attribute[1] = attribute[1].replace(/"/g, '').replace(/'/g, '');
+      }
+    }
+
+    // Get closest match
+    for (; elm && elm !== document; elm = elm.parentNode) {
+
+      // If selector is a class
+      if (firstChar === '.') {
+        if (supports) {
+          if (elm.classList.contains(selector.substr(1))) {
+            return elm;
+          }
+        } else {
+          if (new RegExp('(^|\\s)' + selector.substr(1) + '(\\s|$)').test(elm.className)) {
+            return elm;
+          }
         }
+      }
 
-        // Get closest match
-        for (; elm && elm !== document; elm = elm.parentNode) {
-
-            // If selector is a class
-            if (firstChar === '.') {
-                if (supports) {
-                    if (elm.classList.contains(selector.substr(1))) {
-                        return elm;
-                    }
-                } else {
-                    if (new RegExp('(^|\\s)' + selector.substr(1) + '(\\s|$)').test(elm.className)) {
-                        return elm;
-                    }
-                }
-            }
-
-            // If selector is an ID
-            if (firstChar === '#') {
-                if (elm.id === selector.substr(1)) {
-                    return elm;
-                }
-            }
-
-            // If selector is a data attribute
-            if (firstChar === '[') {
-                if (elm.hasAttribute(attribute[0])) {
-                    if (value) {
-                        if (elm.getAttribute(attribute[0]) === attribute[1]) {
-                            return elm;
-                        }
-                    } else {
-                        return elm;
-                    }
-                }
-            }
-
-            // If selector is a tag
-            if (elm.tagName.toLowerCase() === selector) {
-                return elm;
-            }
+      // If selector is an ID
+      if (firstChar === '#') {
+        if (elm.id === selector.substr(1)) {
+          return elm;
         }
+      }
 
-        return null;
-    },
+      // If selector is a data attribute
+      if (firstChar === '[') {
+        if (elm.hasAttribute(attribute[0])) {
+          if (value) {
+            if (elm.getAttribute(attribute[0]) === attribute[1]) {
+              return elm;
+            }
+          } else {
+            return elm;
+          }
+        }
+      }
 
-    closest: closest
+      // If selector is a tag
+      if (elm.tagName.toLowerCase() === selector) {
+        return elm;
+      }
+    }
+
+    return null;
+  },
+
+  closest: closest
 };
 
 exports.dom = dom;
@@ -7171,7 +7236,7 @@ exports.dom = dom;
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 exports.events = undefined;
 
@@ -7184,153 +7249,153 @@ var _dom = require('../dom/dom');
  */
 var events = {
 
-    /**
+  /**
   * Trigger a function when the document is ready
   * @param  {Function} fn   Function to call when ready
   */
-    ready: function ready(fn) {
-        // if the document is already ready... caall the function
-        if (document.readyState != 'loading') {
-            fn();
-        }
-        // add the loaded event listener
-        else {
-                this.on(document, 'DOMContentLoaded', fn);
-            }
-    },
+  ready: function ready(fn) {
+    // if the document is already ready... caall the function
+    if (document.readyState != 'loading') {
+      fn();
+    }
+    // add the loaded event listener
+    else {
+        this.on(document, 'DOMContentLoaded', fn);
+      }
+  },
 
-    /**
+  /**
   * [live description]
-  * @param  {[type]} selector   [description]
-  * @param  {[type]}  evt       [description]
-  * @param  {Function} fn       [description]
-  * @param  {[type]}  scope     description]
-  * @return {[type]}                [description]
+  * @param  {[type]} selector [description]
+  * @param  {[type]}  evt   [description]
+  * @param  {Function} fn   [description]
+  * @param  {[type]}  scope   description]
+  * @return {[type]}        [description]
   */
-    live: function live(selector, evt, fn, elementScope) {
-        return this.on(elementScope || document, evt, function (ev) {
-            var listeningTarget = _dom.dom.closest(ev.target, selector);
+  live: function live(selector, evt, fn, elementScope) {
+    return this.on(elementScope || document, evt, function (ev) {
+      var listeningTarget = _dom.dom.closest(ev.target, selector);
 
-            if (listeningTarget) {
-                fn.call(listeningTarget, ev);
-            }
-        });
-    },
+      if (listeningTarget) {
+        fn.call(listeningTarget, ev);
+      }
+    });
+  },
 
-    /**
+  /**
  * Bind event to element
  * @memberOf module:events#
  * @param {object} el DOM element
  * @param {string} evt Event type
  * @param {function} fn Callback
  */
-    on: function on(el, evt, fn) {
-        if (!el) {
-            return false;
-        }
+  on: function on(el, evt, fn) {
+    if (!el) {
+      return false;
+    }
 
-        if (el.addEventListener) {
-            this.addEvent = function (el, evt, fn) {
-                el.addEventListener(evt, fn, false);
-                return el;
-            };
-        } else if (el.attachEvent) {
-            this.addEvent = function (el, evt, fn) {
-                el.attachEvent('on' + evt, fn);
-                return el;
-            };
-        } else {
-            this.addEvent = function (el, evt, fn) {
-                el['on' + evt] = fn;
-                return el;
-            };
-        }
+    if (el.addEventListener) {
+      this.addEvent = function (el, evt, fn) {
+        el.addEventListener(evt, fn, false);
+        return el;
+      };
+    } else if (el.attachEvent) {
+      this.addEvent = function (el, evt, fn) {
+        el.attachEvent('on' + evt, fn);
+        return el;
+      };
+    } else {
+      this.addEvent = function (el, evt, fn) {
+        el['on' + evt] = fn;
+        return el;
+      };
+    }
 
-        return this.addEvent(el, evt, fn);
-    },
+    return this.addEvent(el, evt, fn);
+  },
 
-    /**
+  /**
  * Remove event to element
  * @memberOf module:events#
  * @param {object} el DOM element
  * @param {string} evt Event type
  * @param {function} fn Callback
  */
-    off: function off(el, evt, fn) {
-        if (!el) {
-            return false;
-        }
+  off: function off(el, evt, fn) {
+    if (!el) {
+      return false;
+    }
 
-        if (el.removeEventListener) {
-            this.removeEvent = function (el, evt, fn) {
-                el.removeEventListener(evt, fn, false);
-                return el;
-            };
-        } else if (el.detachEvent) {
-            this.removeEvent = function (el, evt, fn) {
-                el.removeEvent('on' + evt, fn);
-                return el;
-            };
-        } else {
-            this.removeEvent = function (el, evt, fn) {
-                el['on' + evt] = fn;
-                return el;
-            };
-        }
-        return this.removeEvent(el, evt, fn);
-    },
+    if (el.removeEventListener) {
+      this.removeEvent = function (el, evt, fn) {
+        el.removeEventListener(evt, fn, false);
+        return el;
+      };
+    } else if (el.detachEvent) {
+      this.removeEvent = function (el, evt, fn) {
+        el.removeEvent('on' + evt, fn);
+        return el;
+      };
+    } else {
+      this.removeEvent = function (el, evt, fn) {
+        el['on' + evt] = fn;
+        return el;
+      };
+    }
+    return this.removeEvent(el, evt, fn);
+  },
 
-    /**
+  /**
  * Trigger event on element
  * @memberOf module:events#
  * @param {object} el DOM element
  * @param {string} evt Event type
  * @param {function} fn Callback
  */
-    trigger: function trigger(el, evt) {
-        if (!el) {
-            return false;
-        }
+  trigger: function trigger(el, evt) {
+    if (!el) {
+      return false;
+    }
 
-        var _evt;
+    var _evt;
 
-        if (document.createEvent) {
-            _evt = document.createEvent('HTMLEvents');
-            _evt.initEvent(evt, true, true);
-        } else {
-            _evt = document.createEventObject();
-            _evt.eventType = evt;
-        }
+    if (document.createEvent) {
+      _evt = document.createEvent('HTMLEvents');
+      _evt.initEvent(evt, true, true);
+    } else {
+      _evt = document.createEventObject();
+      _evt.eventType = evt;
+    }
 
-        _evt.eventName = evt;
+    _evt.eventName = evt;
 
-        if (document.createEvent) {
-            el.dispatchEvent(_evt);
-        } else {
-            el.fireEvent('on' + _evt.eventType, _evt);
-        }
-    },
+    if (document.createEvent) {
+      el.dispatchEvent(_evt);
+    } else {
+      el.fireEvent('on' + _evt.eventType, _evt);
+    }
+  },
 
-    /**
+  /**
  * Cross browser e.preventDefault()
  * @memberOf module:events#
  * @param {string} evt Event type
  */
-    cancel: function cancel(evt) {
-        if (!evt) {
-            return false;
-        }
-
-        if (evt.stopPropagation) {
-            evt.stopPropagation();
-        }
-
-        if (evt.preventDefault) {
-            evt.preventDefault();
-        } else {
-            evt.returnValue = false;
-        }
+  cancel: function cancel(evt) {
+    if (!evt) {
+      return false;
     }
+
+    if (evt.stopPropagation) {
+      evt.stopPropagation();
+    }
+
+    if (evt.preventDefault) {
+      evt.preventDefault();
+    } else {
+      evt.returnValue = false;
+    }
+  }
 };
 
 exports.events = events;

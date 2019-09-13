@@ -4765,3 +4765,11 @@ body.mobile #colorbox .modal_actions .action_buttons .submit_finish {
     top:0;
     height:55px;
 }
+
+/* fix alignment of featured jobs link on homepage - added 21/08/19 */
+
+@media (max-width:382px) {
+    .jobs_link_hldr .hot_jobs_link {
+        margin-left:0px;
+    }
+}

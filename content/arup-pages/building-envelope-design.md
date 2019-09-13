@@ -13,7 +13,7 @@ type: perspective
         <img src="https://www.arup.com/-/media/arup/images/projects/a/amorepacific/2000x1125amorepacific-1-c-noshe.jpg?h=1125&la=en&w=2000&hash=5D996C9120D5C3ADC0941A9F6D3F4371225E7EBB" class="mainImg" alt="" width="2000" height="1125" DisableWebEdit="False" />;
     </div>
             <video preload="auto" loop="true" muted="muted" class="desktop-only">
-                <source src="/video/facade-demo.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+                <source src="https://www.arup.com/-/media/arup/videos/bioenergy-facade.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
             </video>
         <div class="fullbleed__alt-content">
             <div class="container container--3col">
@@ -184,35 +184,7 @@ type: perspective
                             <span class="footnote">Sydney, local time - 1:08 PM</span>
                     </a>
                             <div class="modal__body">
-                        <div class="contact-info">
-                          <a href="/our-firm/will-cavendish">
-                                  <img src="/-/media/arup/images/people/w/450x450-will-cavendish-(002).jpg?gray=1&amp;hash=444E0B15B0304AE75927056BD993849D0E977DE8" alt="Will Cavendish, Arup" />
-                              <p class="name">Will Cavendish</p>
-                              <p class="position">Global Leader, Digital Services</p>
-                          </a>
                         </div>
-                        <div class="contact-info">
-                          <a href="/our-firm/fiona-cousins">
-                                  <img src="/-/media/arup/images/people/f/fionacousinsaruo450x450.jpg?gray=1&amp;hash=CE840C2205BD90E07DF44F58AF855070A3BFC220" alt="Fiona Cousins Arup" />
-                              <p class="name">Fiona Cousins</p>
-                              <p class="position">Digital Services Leader, Americas</p>
-                          </a>
-                        </div>
-                        <div class="contact-info">
-                          <a href="/our-firm/clement-chung">
-                                  <img src="/-/media/arup/images/people/c/clement-chung.jpg?gray=1&amp;hash=26AC186CB208ADF723A20C808D35AC547153158A" alt="Clement Chung" />
-                              <p class="name">Clement Chung</p>
-                              <p class="position">East Asia Digital Leader</p>
-                          </a>
-                        </div>
-                        <div class="contact-info">
-                          <a href="/our-firm/mark-chown">
-                                  <img src="/-/media/arup/images/people/m/markchownarup.jpg?gray=1&amp;hash=8E37D04C717E2A4F20B3D79A4EC79B01CDA28F0B" alt="Mark Chown" />
-                              <p class="name">Mark Chown</p>
-                              <p class="position">Arup Spain Group Leader</p>
-                          </a>
-                        </div>
-                </div>
         </div>
     </div>
 <article id="article-anchor" class="text-content">
@@ -230,7 +202,7 @@ type: perspective
 			</div>
 		</div>
 	</section>
-	<!-- display sample projects -->
+	<!-- display sample projects -
 	<section class="split-pic highlight-section">
     <div class="split-pic__pic-wrap split-pic__pic-wrap--frame">
         <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/a/amorepacific/2000x1125amorepacific-1-c-noshe.jpg?h=1125&la=en&w=2000&hash=5D996C9120D5C3ADC0941A9F6D3F4371225E7EBB')"></div>
@@ -255,7 +227,7 @@ type: perspective
             </div>
         </div>
     </div>
-</section>
+</section>-->
 <section class="container">
 		<div class="rich-text">
 			<div class="reveal rich-text__content">
@@ -313,11 +285,11 @@ type: perspective
         background-color: #f2f2f2 !important;
     }
     [id="C4619586082F43D69CC9E63A3C6601CE"] .inner .background.background-image {
-        background-image: url(/-/media/arup/images/expertise/services/advisory-services/navigation/strategynavigation.jpg?h=230&amp;w=390&amp;hash=7E0706DE887DEDB0A70D18E6FF3E989BADE6EEE6) !important;
+        background-image: url(https://www.arup.com/-/media/arup/images/expertise/services/advisory-services/navigation/strategynavigation.jpg?h=230&amp;w=390&amp;hash=7E0706DE887DEDB0A70D18E6FF3E989BADE6EEE6) !important;
     }
 </style>
 <div class="inpagenav-item" id="C4619586082F43D69CC9E63A3C6601CE">
-    <a href="/expertise/services/advisory-services/strategy-and-insights" class="linkfill">
+    <a href="/arup-pages/building-envelope-design/facade-engineering/" class="linkfill">
         <div class="inner">
                 <div class="background background-image"></div>
             <div class="background background-color"></div>
@@ -338,11 +310,11 @@ type: perspective
         background-color: #ebebeb !important;
     }
     [id="BB88AFA79CC84BAC9818220B79A338B8"] .inner .background.background-image {
-        background-image: url(/-/media/arup/images/expertise/services/advisory-services/navigation/financenavigation.jpg?h=230&amp;w=390&amp;hash=FC0DF7401F141CAB4FBE4D718B930F733FD1C244) !important;
+        background-image: url(/images/arup-pages/building-envelopes/facade-management.jpg) !important;
     }
 </style>
 <div class="inpagenav-item" id="BB88AFA79CC84BAC9818220B79A338B8">
-    <a href="/expertise/services/advisory-services/finance-and-economics" class="linkfill">
+    <a href="/arup-pages/building-envelope-design/facade-access/" class="linkfill">
         <div class="inner">
                 <div class="background background-image"></div>
             <div class="background background-color"></div>
@@ -367,7 +339,7 @@ type: perspective
     }
 </style>
 <div class="inpagenav-item" id="805035DA0DC1410A82D6EAB3E59E3E86">
-    <a href="/expertise/services/advisory-services/programmes-and-project-management" class="linkfill">
+    <a href="/arup-pages/building-envelope-design/green-building-envelopes/" class="linkfill">
         <div class="inner">
                 <div class="background background-image"></div>
             <div class="background background-color"></div>
@@ -389,7 +361,100 @@ type: perspective
 		<div class="rich-text">
 			<div class="reveal rich-text__content">
 				<h2>A complete (and green) vision</h2><p>
-Our cities are becoming more dense. They struggle with growing heat and pollution. That’s why building envelope design requires us to consider every element together, from a building’s position, to its use, the proposed materials and client’s operational goals. We then explore ways a building’s external envelope can provide natural ventilation, with façades that prevent energy input while also contributing usefully to its active energy requirements. It’s a balancing act, a design challenge and always an opportunity to achieve something new and innovative. </p><p>
+Our cities are becoming more dense. They struggle with growing heat and pollution. That’s why building envelope design requires us to consider every element together, from a building’s position, to its use, the proposed materials and client’s operational goals. We then explore ways a building’s external envelope can provide natural ventilation, with façades that prevent energy input while also contributing usefully to its active energy requirements. It’s a balancing act, a design challenge and always an opportunity to achieve something new and innovative. </p>
+			</div>
+		</div>
+	</section>
+	<section class="container">
+    <div class="dynamic-feat">
+        <header class="dynamic-feat__header">
+                <div class="dynamic-feat__title-wrap">
+                    <h4 class="dynamic-feat__title"></h4>
+                </div>
+            </header>
+        <div class="dynamic-feat__list">
+            <ul class="up-list">
+<li class="up-list__item up-list__item--three">
+    <a href="/arup-pages/science/" class="preview-card ">
+            <header class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/m/macquarie-university-incubator/1-macquarie-university-incubatorheromurray-fredericks-20172000x1125.jpg?h=1125&la=en&w=2000&hash=9D92A43B067BCD068D04CA2DB25A76582BD637AB');"></div>
+            </header>
+        <div class="preview-card__content preview-card__content--alt-style">
+            <div class="preview-card__main">
+                <div class="preview-copy">
+                    <h4 class="preview-copy__label label--md">
+                        Project
+                    </h4>
+                    <h3 class="preview-copy__title ">Macquarie University Incubator</h3>
+                    <div class="preview-copy__copy-wrap">
+                            <p class="preview-copy__copy">The Incubator was designed with innovation and sustainability front of mind. Constructed primarily out of timber, the building boasts a flexible layout across two connecting pavilions.</p>
+                    </div>
+                </div>
+            </div>
+            <footer class="preview-card__footer">
+                <div class="preview-foot">
+                </div>
+            </footer>
+        </div>
+    </a>
+</li>
+<li class="up-list__item up-list__item--three">
+    <a href="/arup-pages/data-centres-2/" class="preview-card ">
+            <header class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/a/abu-dhabi-investment-council-headquarters/new-ones/headerabu-dhabi-investment-council-headquarters-adic-hqc-aedas.jpg?h=1125&la=en&w=2000&hash=9BC137AB64D589AE65D7C3F3DA8F47E43B84174A');"></div>
+            </header>
+        <div class="preview-card__content preview-card__content--alt-style">
+            <div class="preview-card__main">
+                <div class="preview-copy">
+                    <h4 class="preview-copy__label label--md">
+                        Project
+                    </h4>
+                    <h3 class="preview-copy__title ">Al Bahr Towers</h3>
+                    <div class="preview-copy__copy-wrap">
+                            <p class="preview-copy__copy">The project comprises two 150m tall towers that share a common podium and a two-level basement for which Arup provided a range of engineering services</p>
+                    </div>
+                </div>
+            </div>
+            <footer class="preview-card__footer">
+                <div class="preview-foot">
+                </div>
+            </footer>
+        </div>
+    </a>
+</li>
+<li class="up-list__item up-list__item--three">
+    <a href="/arup-pages/advanced-manufacturing/" class="preview-card ">
+            <header class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/images/projects/c/california-academy-of-sciences/headerimage3california-academy-of-sciences-golden-gate-parkc-cody-andresenarup1.jpg?h=1125&la=en&w=2000&hash=0B7017657347EF5972976A7D35B66CECA53AC66F');"></div>
+            </header>
+        <div class="preview-card__content preview-card__content--alt-style">
+            <div class="preview-card__main">
+                <div class="preview-copy">
+                    <h4 class="preview-copy__label label--md">
+                        Project
+                    </h4>
+                    <h3 class="preview-copy__title ">California Academy of Sciences</h3>
+                    <div class="preview-copy__copy-wrap">
+                            <p class="preview-copy__copy">Arup worked closely with the Academy to devise and document the many sustainability strategies required for a Platinum LEED® rating.
+</p>
+                    </div>
+                </div>
+            </div>
+            <footer class="preview-card__footer">
+                <div class="preview-foot">
+                </div>
+            </footer>
+        </div>
+    </a>
+</li>            </ul>
+        </div>
+    </div>
+</section>
+</article>
+	<section class="container">
+		<div class="rich-text">
+			<div class="reveal rich-text__content">
+				<p>
 We are also increasingly designing green building envelopes, to help clients operate buildings that can make a significant contribution to solving current problems relating to storm water management, particulate matter pollution and inner-city overheating. </p><P><a href="#">Read more about our expertise in a new generation of green building envelope design</a>
 </p>
 			</div>
@@ -421,5 +486,243 @@ We are also increasingly designing green building envelopes, to help clients ope
             </a>
     </div>
 </section>
+<hr class="contact-us__topline arrow-line arrow-line--down multicontact" />
+<div class="contact-us__top-section rich-text multicontact">
+    <div class="container rich-text__content">
+            <h2>Discover how our team can help</h2>
+                    <p><P>You can access our building envelopes services through regional consultants around the world. Wherever you’re based, we can help you look beyond your sector to explore new sources of inspiration and identify opportunities for growth.</P></p>
+    </div>
+</div>
+<div class="contact-us__contact multicontact highlight-section ">
+    <div class="container">
+            <div class="mini-profile mini-profile--icons">
+                <div class="mini-profile__pic-wrap">
+                    <a href="/our-firm/carol-lemmens" class="mini-profile__link">
+                        <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/r/rudi-scheuermannc-thomas-graham.jpg?gray=1&hash=40A8A2FCE1380EF731E90BB7E30B013D36DFC5BE" alt="Carol Lemmens" />
+                    </a>
+                </div>
+                <div class="mini-profile__main">
+                    <ul class="mini-profile__info-list">
+                        <li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
+                            <a href="/our-firm/carol-lemmens" class="mini-profile__info-link">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
+                                <span class="mini-profile__info-content">
+                                    <h4 class="mini-profile__name">
+                                        Rudi Scheuermann
+                                    </h4>
+                                    <h5 class="mini-profile__job">Global Building Envelopes Leader</h5>
+                                </span>
+                            </a>
+                        </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
+                                <a href="/cdn-cgi/l/email-protection#3a5b5e4c53495548437a5b484f4a14595557" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-contact"></span>
+                                    <span class="mini-profile__info-content"><span class="__cf_email__" data-cfemail="38595c4e514b574a4178594a4d48165b5755">[email&#160;protected]</span></span>
+                                </a>
+                            </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
+                                <a href="tel:+44 (0) 207 755 6642" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>
+                                    <span class="mini-profile__info-content">
+                                        +44 (0) 207 755 6642
+                                        <br />
+                                        <span class="mini-profile__info-meta">Amsterdam, 9/6/2019 5:04:07 PM</span>
+                                    </span>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mini-profile mini-profile--icons">
+                <div class="mini-profile__pic-wrap">
+                    <a href="/our-firm/orion-fulton" class="mini-profile__link">
+                        <img class="mini-profile__pic" src="" alt="T M" />
+                    </a>
+                </div>
+                <div class="mini-profile__main">
+                    <ul class="mini-profile__info-list">
+                        <li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
+                            <a href="/our-firm/orion-fulton" class="mini-profile__info-link">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
+                                <span class="mini-profile__info-content">
+                                    <h4 class="mini-profile__name">
+                                        Tali Mejicovsky
+                                    </h4>
+                                    <h5 class="mini-profile__job">Americas Building Envelopes Leader</h5>
+                                </span>
+                            </a>
+                        </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
+                                <a href="/cdn-cgi/l/email-protection#b9d8ddcfd0cad6cbc0f9d8cbccc997dad6d4" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-contact"></span>
+                                    <span class="mini-profile__info-content"><span class="__cf_email__" data-cfemail="ddbcb9abb4aeb2afa49dbcafa8adf3beb2b0">[email&#160;protected]</span></span>
+                                </a>
+                            </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
+                                <a href="tel:+1 415 957 9445" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>
+                                    <span class="mini-profile__info-content">
+                                        +1 415 957 9445
+                                        <br />
+                                        <span class="mini-profile__info-meta">San Francisco, 9/6/2019 9:04:07 AM</span>
+                                    </span>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mini-profile mini-profile--icons">
+                <div class="mini-profile__pic-wrap">
+                    <a href="/our-firm/jonathan-kinghorn" class="mini-profile__link">
+                        <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/k/2-kerryn-coker.jpg?gray=1&hash=E8ACB401D5D17116D1AA8DE1E8B91443564A9DC6" alt="Jonathan Kinghorn" />
+                    </a>
+                </div>
+                <div class="mini-profile__main">
+                    <ul class="mini-profile__info-list">
+                        <li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
+                            <a href="/our-firm/jonathan-kinghorn" class="mini-profile__info-link">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
+                                <span class="mini-profile__info-content">
+                                    <h4 class="mini-profile__name">
+                                        Kerryn Coker
+                                    </h4>
+                                    <h5 class="mini-profile__job">Australasia Building Envelopes leader</h5>
+                                </span>
+                            </a>
+                        </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
+                                <a href="/cdn-cgi/l/email-protection#ceafaab8a7bda1bcb78eafbcbbbee0ada1a3" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-contact"></span>
+                                    <span class="mini-profile__info-content"><span class="__cf_email__" data-cfemail="19787d6f706a766b6059786b6c69377a7674">[email&#160;protected]</span></span>
+                                </a>
+                            </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
+                                <a href="tel:+61 (0) 3 9668 5500" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>
+                                    <span class="mini-profile__info-content">
+                                        +61 (0) 3 9668 5500
+                                        <br />
+                                        <span class="mini-profile__info-meta">Melbourne, 9/7/2019 2:04:07 AM</span>
+                                    </span>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mini-profile mini-profile--icons">
+                <div class="mini-profile__pic-wrap">
+                    <a href="/our-firm/alice-chow" class="mini-profile__link">
+                        <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/t/tim-suen--agam-2011c-thomas-grahamarup1.jpg?gray=1&hash=B23EA02C984CE7E65A66966C77CB1C3B40161C88" alt="Nina Yiu" />
+                    </a>
+                </div>
+                <div class="mini-profile__main">
+                    <ul class="mini-profile__info-list">
+                        <li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
+                            <a href="/our-firm/alice-chow" class="mini-profile__info-link">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
+                                <span class="mini-profile__info-content">
+                                    <h4 class="mini-profile__name">
+Nina Yiu                                    </h4>
+                                    <h5 class="mini-profile__job">East Asia Building Envelopes Leader</h5>
+                                </span>
+                            </a>
+                        </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
+                                <a href="/cdn-cgi/l/email-protection#4021243629332f323900213235306e232f2d" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-contact"></span>
+                                    <span class="mini-profile__info-content"><span class="__cf_email__" data-cfemail="553431233c263a272c15342720257b363a38">[email&#160;protected]</span></span>
+                                </a>
+                            </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
+                                <a href="tel:+852 2528 3031" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>
+                                    <span class="mini-profile__info-content">
+                                        +852 2528 3031
+                                        <br />
+                                        <span class="mini-profile__info-meta">Hong Kong, 9/7/2019 12:04:07 AM</span>
+                                    </span>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mini-profile mini-profile--icons">
+                <div class="mini-profile__pic-wrap">
+                    <a href="/our-firm/elzbieta-cichonska" class="mini-profile__link">
+                        <img class="mini-profile__pic" src="" alt="Undefined user" />
+                    </a>
+                </div>
+                <div class="mini-profile__main">
+                    <ul class="mini-profile__info-list">
+                        <li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
+                            <a href="/our-firm/elzbieta-cichonska" class="mini-profile__info-link">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
+                                <span class="mini-profile__info-content">
+                                    <h4 class="mini-profile__name">
+                                        Not defined
+                                    </h4>
+                                    <h5 class="mini-profile__job">Europe Building Envelopes Leader</h5>
+                                </span>
+                            </a>
+                        </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
+                                <a href="/cdn-cgi/l/email-protection#4c2d283a253f233e350c2d3e393c622f2321" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-contact"></span>
+                                    <span class="mini-profile__info-content"><span class="__cf_email__" data-cfemail="721316041b011d000b32130007025c111d1f">[email&#160;protected]</span></span>
+                                </a>
+                            </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
+                                <a href="tel:+48 (0) 22 455 4554" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>
+                                    <span class="mini-profile__info-content">
+                                        +48 (0) 22 455 4554
+                                        <br />
+                                        <span class="mini-profile__info-meta">Warsaw, 9/6/2019 6:04:07 PM</span>
+                                    </span>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mini-profile mini-profile--icons">
+                <div class="mini-profile__pic-wrap">
+                    <a href="/our-firm/steven-lloyd" class="mini-profile__link">
+                        <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/r/russell-cole--buildings-london-facades---c-daniel-imadearup.jpg?gray=1&mw=180&hash=88BF550942B09D58CD104881C186359E97EF7AD1" alt="Steven Lloyd" />
+                    </a>
+                </div>
+                <div class="mini-profile__main">
+                    <ul class="mini-profile__info-list">
+                        <li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
+                            <a href="/our-firm/steven-lloyd" class="mini-profile__info-link">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
+                                <span class="mini-profile__info-content">
+                                    <h4 class="mini-profile__name">
+                                        Russel Cole
+                                    </h4>
+                                    <h5 class="mini-profile__job">UKIMEA Building Envelopes Leader</h5>
+                                </span>
+                            </a>
+                        </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
+                                <a href="/cdn-cgi/l/email-protection#87e6e3f1eef4e8f5fec7e6f5f2f7a9e4e8ea" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-contact"></span>
+                                    <span class="mini-profile__info-content"><span class="__cf_email__" data-cfemail="543530223d273b262d14352621247a373b39">[email&#160;protected]</span></span>
+                                </a>
+                            </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
+                                <a href="tel:+44 (0) 161 228 2331" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>
+                                    <span class="mini-profile__info-content">
+                                        +44 (0) 161 228 2331
+                                        <br />
+                                        <span class="mini-profile__info-meta">Manchester, 9/6/2019 5:04:07 PM</span>
+                                    </span>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+</div>
 
 </article>    

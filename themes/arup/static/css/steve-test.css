@@ -373,3 +373,279 @@ padding:2rem 0 2rem;
 		font-size:18px;
 	}
 }
+
+/* rail page amends - carousel */
+ @media (min-width: 1024px) {
+.fullbleed.fullbleed-carousel {
+  height:700px;
+}
+}
+.fullbleed-carousel__slides {
+	overflow: visible;
+}
+.fullbleed.fullbleed-carousel .container {
+  position: initial;
+  z-index: 1000;
+}
+.fullbleed-carousel .slick-slide:before {
+  content:"";
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  background:rgba(0,0,0,0.15);
+  z-index: 2;
+}
+.fullbleed-carousel .slick-list:after {
+  content:none;
+}
+.fullbleed-carousel .fullbleed__content {
+	max-width:696px;
+}
+.fullbleed-carousel__detail {
+	font-size:18px;
+	bottom:4px;
+	margin:1.5rem 0;
+	color:transparent;
+}
+.fullbleed-carousel__detail .divider {
+	display: none;
+}
+.fullbleed-carousel__detail .fullbleed-carousel__controls {
+	max-width: 1160px;
+	width:100%;
+	position: absolute;
+left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+top:5px;
+}
+.fullbleed .icon-next, .fullbleed .icon-prev {
+	height:18px;
+	width:18px;
+	position: absolute;
+}
+
+.fullbleed .icon-next {
+	right:0;
+}
+
+.fullbleed .icon-prev {
+	left:0;
+}
+/* dots */
+.fullbleed-carousel .slick-dots {
+    text-align: center;
+    padding-left: 0;
+    margin-bottom: 0;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 20px;
+    z-index: 1001;
+}
+.fullbleed-carousel .slick-dots li {
+    display: inline-block;
+    margin-right: 8px;
+}
+.fullbleed-carousel .slick-dots li button {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: #e9e9e9;
+    font-size: 0;
+    line-height: 0;
+    border: none;
+    padding: 0;
+    -webkit-transform: skew(-20deg);
+    -ms-transform: skew(-20deg);
+    transform: skew(-20deg);
+}
+.fullbleed-carousel .slick-dots li.slick-active button {
+    background: #ff5056;
+}
+@media (max-width:1023px) {
+	.fullbleed-carousel__detail {
+		width:100%;
+		bottom:-50px;
+	}
+	.fullbleed-carousel .slick-dots {
+		bottom:-45px;
+	}
+	.fullbleed-carousel__detail .fullbleed-carousel__controls {
+		top:100%;
+	}
+}
+@media (min-width:768px) {
+	.fullbleed-carousel .fullbleed__content {
+		position: absolute;
+		top:50%;
+		-webkit-transform:translateY(-50%);
+		-ms-tranform:translateY(-50%);
+		-transform: translateY(-50%);
+		z-index:2;
+		margin-left:92px;
+	}
+	.fullbleed-carousel .fullbleed__content h2 {
+	color:#fff;
+}
+}
+@media (max-width:767px) {
+	.fullbleed.fullbleed-carousel {
+		overflow: visible;
+	}
+	.fullbleed-carousel .slick-list {
+		overflow: visible!important;
+	}
+	.fullbleed-carousel .slick-slide {
+		overflow: visible;
+	}
+	.fullbleed-carousel .fullbleed__content {
+		color:rgba(52,52,52,1);
+	}
+	.fullbleed-carousel .fullbleed__content .cta__text, .fullbleed-carousel .fullbleed__content .cta span:not(.icon), .cta__icon {
+		color:rgba(52,52,52,1);
+	}
+	.fullbleed-carousel .fullbleed__container {
+		margin-top:-3rem;
+	}
+	.fullbleed-carousel .fullbleed__content {
+		position: relative;
+		z-index: 2;
+		background-color:#fff;
+		padding:10px;
+	}
+	.fullbleed-carousel .fullbleed-carousel__detail {
+		display: none;
+	}
+	.fullbleed-carousel .slick-dots {
+		position: initial;
+		transform: translateX(0);
+		-webkit-transform:translateX(0);
+		-ms-transform:translateX(0);
+		margin-top:5rem;
+	}
+}
+@media (max-width:480px) {
+	.fullbleed-carousel .slick-dots {
+		margin-top:6.5rem;
+	}
+}
+
+
+/* fix for new contact us module */
+
+@media (max-width:1279px) {
+.multicontact.contact-us__top-section .container, .multicontact.contact-us__top-section .rich-text {
+.margin-left:0;
+width:100%;
+}
+.multicontact.contact-us__top-section .container h2, .multicontact.contact-us__top-section .rich-text h2 {
+font-size:24px;
+}
+.multicontact.contact-us__top-section .container p, .multicontact.contact-us__top-section .rich-text p {
+font-size:18px;
+}
+}
+
+/* fix for new style banner used on industry / service pages */
+/* banner resolution */
+.fullbleed.fullbleed--new .overlay {
+top:0;
+}
+@media (min-width:1024px) {
+.fullbleed.fullbleed--new .fullbleed__alt-content {
+    height: 100%;
+    position: absolute!important;
+    bottom: 0!important;
+    padding: 50px 0 35px!important;
+}
+.fullbleed.fullbleed--new .fullbleed__alt-content .container--3col {
+    width: 100%!important;
+    position: absolute;
+    top: 40%;
+    -webkit-transform: translateY(-40%);
+    -ms-transform: translateY(-40%);
+    transform: translateY(-40%);
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+}
+@media (max-width:1023px) {
+.fullbleed.fullbleed--new .fullbleed__inner {
+padding:10% 0 0!important;}
+}
+@media (min-width:768px) and (max-width:1023px) {
+.fullbleed.fullbleed--new .fullbleed__alt-content {
+position:relative!important;
+}
+.fullbleed.fullbleed--new .fullbleed__alt-content .container--3col {
+position:relative!important;
+}
+.fullbleed.fullbleed--new .feature-title__title {
+font-size:50px;
+}
+}
+
+/* amendments to multicontact us for use on fellows and leaders */
+.fellows .mini-profile {
+	display: block;
+}
+.fellows.multicontact.contact-us__contact .mini-profile {
+	height:100%;
+	width:100%;
+	max-height: 100%;
+}
+
+.fellows.multicontact.contact-us__contact .mini-profile__info-item--email, .fellows.multicontact.contact-us__contact .mini-profile__info-item--tel {
+	display: none;
+}
+.fellows .mini-profile__main {
+	padding-top:10px;
+}
+.fellows .mini-profile__name {
+	font-size:20px;
+}
+.fellows .mini-profile__job {
+font-size:16px;
+}
+.fellows .mini-profile .mini-profile__pic {
+		width:75%;
+		height:auto;
+		margin:auto;
+		display: block;
+	}
+@media (max-width:479px) {
+	.fellows.multicontact.contact-us__contact .mini-profile {
+		width:100%!important;
+	}
+	.fellows .mini-profile .mini-profile__pic {
+		width:50%;
+	}
+	.fellows .mini-profile:not(:first-child) {
+		margin-top:0;
+	}
+}
+@media (min-width:480px) and (max-width:767px) {
+	.fellows.multicontact.contact-us__contact .mini-profile {
+		width:50%!important;
+	}
+}
+@media (min-width:768px) {
+	.fellows.multicontact.contact-us__contact .mini-profile {
+		width:33.3333%!important;
+	}
+}
+@media (min-width:1280px) {
+	.fellows.multicontact.contact-us__contact .mini-profile {
+		width:25%!important;
+	}
+}
