@@ -1,7 +1,7 @@
 ---
 title: "Metrics and dashboards"
 date: 2019-02-16T17:49:27Z
-lastmod: 2019-03-06
+lastmod: 2012-03-26
 draft: false
 type: Best practice
 weight: "6"
@@ -23,10 +23,10 @@ menu:
 		<div class="menu_section two">
 			<ol class="header-list">
 				<li>
-					<a href="#overview">2018 site overview performance</a>
+					<a href="#overview">2019 site overview performance</a>
 				</li>
 				<li>
-					<a href="#marketing">2018 global marketing expertise performance</a>
+					<a href="#marketing">2019 global marketing expertise performance</a>
 				</li>
 			</ol>
 		</div>
@@ -83,7 +83,7 @@ menu:
 					<a href="https://datastudio.google.com/open/188yAFkfORcz6vQEMe8nie11J1GJtoRDk" target="_blank">Ongoing monthly reporting - provides an overview of web and social performance</a>
 				</li>
 				<li>
-					<a href="https://datastudio.google.com/open/17ItmuWBpCiJGd7nrk2CwcYuLP_BDH7gE" target="_blank">2018 performance review - report providing an overall peformance review of arup.com in 2018. Non filterable.</a>
+					<a href="https://datastudio.google.com/open/17ItmuWBpCiJGd7nrk2CwcYuLP_BDH7gE" target="_blank">2019 performance review - report providing an overall peformance review of arup.com in 2018. Non filterable.</a>
 				</li>
 			</ol>
 			<h5>Global marketer reports</h5>
@@ -112,6 +112,25 @@ menu:
 				</li>
 				<li>
 					<a href="https://datastudio.google.com/open/1_inh-kYR-Xc51OaoLg0mx4yZq-OJdORb" target="_Blank">Water report - overview of the Water industry page and associated projects</a>
+				</li>
+			</ol>
+			<h5>Regional reports</h5>
+			<p>Reports below all include live data and can be filtered by date.</p>
+			<ol class="header-list" style="margin-bottom:20px;">
+				<li>
+					<a href="https://datastudio.google.com/s/vXidxNvYysM" target="_blank">Americas report</a>
+				</li>
+				<li>
+					<a href="https://datastudio.google.com/s/uRqEEokU66w" target="_blank">Australasia report</a>
+				</li>
+				<li>
+					<a href="https://datastudio.google.com/s/jVN2uhKsR1s" target="_blank">East Asia report</a>
+				</li>
+				<li>
+					<a href="https://datastudio.google.com/s/sSgJLkbT-7M" target="_blank">Europe report</a>
+				</li>
+				<li>
+					<a href="https://datastudio.google.com/s/tFRqk1B_Oxs" target="_blank">UKIMEA report</a>
 				</li>
 			</ol>
 		</div>

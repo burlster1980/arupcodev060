@@ -1,4 +1,4 @@
-// Select all links with hashes
+/*// Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
   .not('[href="#"]')
@@ -38,3 +38,17 @@ $('a[href*="#"]')
   $(document).ready(function(){
   $('.my-header').load("header.html");
 })
+*/
+//nano scroller test
+$(".nano").nanoScroller();
+
+// projects scroller 
+$('.multiple-items').slick({
+  infinite: false,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  arrows:true,
+  variableWidth:true,
+  prevArrow:"<button class='carousel-nav__button carousel-nav__button--prev js-vidcar-prev'><span data-grunticon-embed class='carousel-nav__icon icon icon-next'></span></button>",
+      nextArrow:"<button class='carousel-nav__button carousel-nav__button--next js-vidcar-next'><span data-grunticon-embed class='carousel-nav__icon icon icon-next'></span></button>"
+});

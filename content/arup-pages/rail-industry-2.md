@@ -10,7 +10,7 @@ type: perspective
         <img src="/images/arup-pages/advisory-background-banner.jpg" class="mainImg" alt="Fire in an informal settlement" width="2000" height="1125" DisableWebEdit="False" />;
     </div>
         <video preload="auto" loop="true" muted="muted" class="desktop-only">
-            <source src="/video/rail-demo.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="/video/rail-preview-2.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
         </video>
     <div class="container fullbleed__container">
         <div class="fullbleed__content fullbleed__content--hero">
@@ -207,8 +207,8 @@ type: perspective
     <section class="container">
         <div class="rich-text">
             <div class="reveal rich-text__content">
-            	<p class="intro" style="font-size:22px;">Arup has over 30 years’ experience delivering transformative rail projects for clients in the public and private sectors, across the world.</p><P>
-From a single commuter journey to a country’s wider economy, rail can transform lives, businesses and communities. And in a world trying to cope with ever-increasing demand for mobility, the effects of climate change, while adapting to rapidly evolving technology, rail is a sustainable long-term investment.</P><P>
+            	<p class="intro" style="font-size:22px;">Arup has over 60 years’ experience delivering rail projects for clients in the public and private sectors, across the world.</p><P>
+From a single commuter journey to a country’s wider economy, rail can transform lives, businesses and communities. And in a world trying to cope with ever-increasing demand for mobility and the effects of climate change, while adapting to rapidly evolving technology, rail is a sustainable long-term investment.</P><P>
 Rail projects demand a complex mix of skills and insights – from initial strategy and economics, through to engineering, people-centred design, operations and asset management. Success depends on bringing all these elements together – brilliantly. That’s why our technical expertise is always backed by sharp strategic thinking, whether we’re optimising existing assets and services, or designing whole new railways.
 </P>
 			</div>
@@ -221,15 +221,7 @@ Rail projects demand a complex mix of skills and insights – from initial strat
             	<P>Our team can help in five distinct ways:</P>
             </div>
         </div>
-    </section><!--
-	<section class="container">
-        <header class="section-header ">
-            <div class="section-header__title-wrap section-title section-title--nopad">
-                <h4 class="section-title__title">How do we deliver transformative rail?</h4>
-            </div>
-        </header>
-    </section>-->
-	<section class="featured-pub content-slider content-slider--overflow content-slider--dt-md reveal content-slider--compact">
+    </section><section class="featured-pub content-slider content-slider--overflow content-slider--dt-md reveal content-slider--compact">
     <div class="container">
         <hr />
         <div class="tabs">
@@ -258,7 +250,7 @@ Rail projects demand a complex mix of skills and insights – from initial strat
                                                                                     <p class="summary-info__copy">Our end-to-end design service covers every element of the rail experience, from identifying the most sustainable route to achieving integrated railway architecture and master-planning. Our joined-up approach ensures any scheme will provide an excellent user experience and produce economic uplift to surrounding communities.</p>
                                                                                     <a href="/expertise/services/advisory-services/finance-and-economics/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span>Discover how Cityringen is bringing transformative metro services to the people of Copenhagen</span>
+                                                    <span>Discover how we’re helping transform commuting between Dallas and Houston</span>
                                                 </a>
                                     </div>
                                 </div>
@@ -276,7 +268,7 @@ Rail projects demand a complex mix of skills and insights – from initial strat
 We work as delivery partners and provide confident and efficient project management for major rail schemes. Central to complex infrastructure delivery is ensuring the right organisation and people are on board. Our expertise in organisational design helps clients to structure and mobilise their people to deliver and operate railways around the world.</p>
 <a href="/expertise/services/advisory-services/finance-and-economics/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span>Find out how we helped shape Transport for the North, bringing new services to 16 million people</span>
+                                                    <span>Discover how we shaped a new transport organisation to enable delivery of their strategic vision</span>
                                                 </a>
                                     </div>
                                 </div>
@@ -285,22 +277,22 @@ We work as delivery partners and provide confident and efficient project managem
                         <div class="content-slider__slide" id="tab1-3">
                             <div class="split-box ">
                                 <div class="split-box__pic-wrap">
-                                    <div class="split-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/a/acorn/20180605.jpg?h=1371&la=en&w=2048&hash=022A8D04900C3FDDD3BDAC015EC0C1AC74C93C05');"></div>
+                                    <div class="split-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/g/great-western/servicing-spine-banner-photo.jpg?h=1125&la=en&w=2000&hash=AC2764DEC72F266CBC313B910B62C2EE92D96945');"></div>
                                 </div>
                                 <div class="split-box__content">
                                     <div class="summary-info">
                                             <h3 class="summary-info__title">We integrate complex technologies and rail systems to maximise efficiency</h3>
-                                                                                    <p class="summary-info__copy">We help operators and asset owners run more efficient services, improve customer experiences and move to digital railways, blending legacy systems with new technologies and data, for the benefit of all rail users. Never ones to shy from solving complex challenges, where the technology doesn’t exist, we invent new digital products. </p>
+                                                                                    <p class="summary-info__copy">We help operators and asset owners run more efficient services, improve customer experiences and move to digital railways, blending legacy systems with new technologies and data, for the benefit of all rail users. </p>
                                                                                     <a href="/expertise/services/advisory-services/finance-and-economics/" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span>Find out how our ACORN system offers a new level of communications and control to rail networks</span>
+                                                    <span>Find out how we’re modernising Victorian era infrastructure for 21st century rail fleet</span>
                                                 </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="content-slider__slide" id="tab1-4">
-							<div class="split-box ">
+                            <div class="split-box ">
                                 <div class="split-box__pic-wrap">
                                     <div class="split-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/a/axa-investmnet-managers/axainvestmenthitachitrain.jpg?h=1125&la=en&w=2000&hash=7C4EFDBC98B831467596A79E4E47EEC8555A41D7');"></div>
                                 </div>
@@ -339,17 +331,165 @@ We work as delivery partners and provide confident and efficient project managem
 <section class="container">
         <div class="rich-text">
             <div class="reveal rich-text__content">
-            	<h2>Every kind of rail</h2><P>
+            	<h2>Every kind of rail</h2><P>We work across every mode of rail including high speed, metro, commuter, light rail, freight, automated people movers and monorail</P><p>
 Discover how our team are bringing every kind of rail system to cities and countries across the world.</P>
 			</div>
 		</div>
 	</section>
-	<section class="fullbleed fullbleed-carousel reveal">
+    <section class="expertise-services video reveal">
+    <div class="expertise-service__inner">
+            <div class="absolute-container">
+            <div class="container" >
+                <div class="expertise-service-content">
+            <div class="js-es-carousel nav">
+                <div class="js-es-carousel-item">
+                    <div class="expertise-service-content__servicelist">
+                        <div class="scroller js-es-scroller tabs">
+                            <ul class="scroller__content js-es-scroller-content">
+                                <li class="selected js-es-carousel-control"><a href="#tab1">Metro and mass transit</a></li>
+                                <li class="js-es-carousel-control"><a href="#tab2">High Speed </a></li>
+                                <li class="js-es-carousel-control"><a href="#tab3">Light Rail</a></li>
+                                <li class="js-es-carousel-control"><a href="#tab4">Heavy haul and suburban rail</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div></div>
+            <div class="expertise-services__carousel js-es-carousel expertise-service-content__description">
+                <div class="expertise-service js-es-carousel-item" id="tab1">
+                    <div class="fullbleed--video fullbleed--hero fullbleed">
+                        <div class="progressiveMedia">
+                            <img src="https://www.arup.com/-/media/arup/images/projects/c/cityringen/copyright/r_hjortshoj---cityringen-test-48.jpg?h=1125&w=2000&hash=E17020EDC809E497A393043C584A390F" class="tempImg" alt="Cityringen Copenhagen" width="10" height="6" DisableWebEdit="False" />
+                            <img src="/-/media/arup/images/projects/c/cityringen/copyright/r_hjortshoj---cityringen-test-48.jpg?h=1125&w=2000&hash=E17020EDC809E497A393043C584A390F" class="mainImg" alt="Cityringen Copenhagen" width="2000" height="1125" DisableWebEdit="False" />
+                        </div>
+                        <video preload="auto" loop="true" muted="muted" class="desktop-only">
+                            <source src="/-/media/arup/videos/cityringen.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+                        </video>
+                    </div>
+                    <div class="absolute-container">
+                        <div class="container">
+                            <div class="content-description">
+                            <h2>Metro and mass transit</h2>
+                            <P><a href="#">High-capacity metro</a>, subway and mass transit lines are the sustainable way to move millions of people safely, comfortably and quickly through the world’s urban centres.</P><P>
+From Crossrail in London, Cityringen in Copenhagen and the Melbourne Metro to the fully automated driverless mass transit networks in Singapore and Hong Kong, we’re working with clients to shape tomorrow’s urban rail and city mobility.
+
+</P>
+                            <a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/projects/copenhagen-metro">
+                                <span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
+                            <span>Discover Cityringen</span>
+</a>
+<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/expertise/industry/rail/metro-rail-design">
+                                <span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
+                            <span>See more metro systems we've worked on</span>
+</a>  
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="expertise-service js-es-carousel-item" id="tab2">
+                    <div class="fullbleed--video fullbleed--hero fullbleed">
+                        <div class="progressiveMedia">
+                            <img src="/-/media/images/projects/h/hs2_ltd_route_engineering_studies/header_hs2_engineering_support__arup.jpg?h=6&mw=10&w=10&hash=3DA97FC4CA55D238BEB00CC01BFC7383" class="tempImg" alt="Hong Kong Zhuhai Macau crossing" width="10" height="6" DisableWebEdit="False" />
+                            <img src="/-/media/images/projects/h/hs2_ltd_route_engineering_studies/header_hs2_engineering_support__arup.jpg?h=1125&w=2000&hash=723DE600BEAC40A0DB074DC2B002E0E6" class="mainImg" alt="High Speed 2" width="2000" height="1125" DisableWebEdit="False" />
+                        </div>
+                        <video preload="auto" loop="true" muted="muted" class="desktop-only">
+                            <source src="/-/media/arup/videos/hs2-footage.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+                        </video>
+                    </div>
+                    <div class="absolute-container">
+                        <div class="container">
+                            <div class="content-description">
+                            <h2>High Speed 2</h2>
+                            <P>More than ever, high speed rail is becoming the preferred transport of choice for sustainable cross-country and cross-border travel, bringing people closer to jobs, education and each other. </P><P>
+From Europe and the Americas to China, Singapore and Australia, we partner with clients around the world to plan, develop and deliver complex and transformational new high speed links. 
+
+</P>
+<p><a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/projects/hs2-route-engineering-studies">
+                                <span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
+                            <span>Discover High Speed 2</span>
+</a></p>    
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="expertise-service js-es-carousel-item" id="tab3">
+                    <div class="fullbleed--video fullbleed--hero fullbleed">
+                        <div class="progressiveMedia">
+                            <img src="/-/media/arup/images/projects/s/sydney-cbd-and-south-east-light-rail/sydney-light-rail-2000x11252.jpg?h=6&mw=10&w=10&hash=FC34C7185DBD77ABFAAEA8F7F0BC9E03" class="tempImg" alt="Hong Kong Zhuhai Macau crossing" width="10" height="6" DisableWebEdit="False" />
+                            <img src="/-/media/arup/images/projects/s/sydney-cbd-and-south-east-light-rail/sydney-light-rail-2000x11252.jpg?h=1125&w=2000&hash=B659834DDC1A531A574C43077E673829" class="mainImg" alt="Sydney Light Rail" width="2000" height="1125" DisableWebEdit="False" />
+                        </div>
+                        <video preload="auto" loop="true" muted="muted" class="desktop-only">
+                            <source src="/-/media/arup/videos/sydney-light-rail.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+                        </video>
+                    </div>
+                    <div class="absolute-container">
+                        <div class="container">
+                            <div class="content-description">
+                            <h2>Light rail</h2>
+                            <P>Light rail is increasingly seen as an economically and sustainably sound solution for convenient high-capacity, inter-city connectivity, a powerful way to enhance the wider transport network.</P><P>
+We have been supporting Transport for NSW to design and deliver Sydney CBD and South East Light Rail, a new high frequency inner city line which will increase connectivity to support growth of one Australia’s most vibrant cities.
+
+</P>
+<p><a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/projects/sydney-cbd-and-south-east-light-rail">
+                                <span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
+                            <span>Discover Sydney Light rail</span>
+</a></p>    
+                        </div>
+                    </div>
+                    </div>
+            </div>
+            <div class="expertise-service js-es-carousel-item" id="tab4">
+                    <div class="fullbleed--video fullbleed--hero fullbleed">
+                        <div class="progressiveMedia">
+                            <img src="/-/media/arup/images/projects/m/metronet-morley-ellenbrook-line-elup-and-concept-design/20140918_dx_0037cmyk--john-gollings_2000x1125.jpg?h=6&mw=10&w=10&hash=C5BC9E52DC66759226ECD337BFED6273" class="tempImg" alt="Hong Kong Zhuhai Macau crossing" width="10" height="6" DisableWebEdit="False" />
+                            <img src="/-/media/arup/images/projects/m/metronet-morley-ellenbrook-line-elup-and-concept-design/20140918_dx_0037cmyk--john-gollings_2000x1125.jpg?h=1125&w=2000&hash=61C29660EC2E90B1016D02C5B03018D7" class="mainImg" alt="Sydney Light Rail" width="2000" height="1125" DisableWebEdit="False" />
+                        </div>
+                        <video preload="auto" loop="true" muted="muted" class="desktop-only">
+                            <source src="/-/media/arup/videos/suburban-rail.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+                        </video>
+                    </div>
+                    <div class="absolute-container">
+                        <div class="container">
+                            <div class="content-description">
+                            <h2>Heavy haul and suburban rail</h2>
+                            <P>Reducing congestion, car dependency and carbon-emissions relies on having efficient and reliable rail connectivity. Networks need to get the most from their investments in upgrades. </P><P>
+We are working across the UK Main Line network as part of a large-scale infrastructure and fleet modernisation and electrification programme. We are also working with the government in Western Australia to develop and deliver an integrated rail and transport solution to future-proof connectivity in Perth and its surrounding areas.
+</P>
+<p><a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/projects/metronet-morley-ellenbrook-line-elup-and-concept-design">
+                                <span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
+                            <span>Discover Sydney Light rail</span>
+</a></p>    
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+</section>
+	<!--<section class="fullbleed fullbleed-carousel reveal">
         <div class="fullbleed-carousel__slides">
+                <div class="slide" data-description="This state-of-the-art private rail line will connect America’s fourth and fifth largest metropolitan areas and represent the first completed high-speed rail line in North America.">
+                    <img src="https://www.arup.com/-/media/arup/images/projects/t/texas-central-high-speed-rail-road/txhsr3_2000x800_ctexascentral.jpg?h=800&amp;la=en&amp;w=2000&amp;hash=A69CC2FDC6AEFEAE598335FA95442B9A8B4BC772" alt="Rendering of Texas Central High-Speed Rail Road" width="2000" height="800" DisableWebEdit="False" />
+                    <video preload="auto" loop="true" muted="muted" class="active" autoplay="">
+                        <source src="/video/testcityringen.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+                    </video>
+                    <div class="container fullbleed__container">
+                            <div class="fullbleed__content">
+                                <h2>Cityringen</h2>
+                                <a href="/perspectives/publications/the-arup-journal/section/the-arup-journal-2019-issue-2" class="cta cta--lg" onclick="carouselGaTracking('Video Carousel - Video Carousel', 'Video Arup Journal');">
+                                <span data-grunticon-embed class="cta__icon icon icon-oval"></span>
+                                <span class="cta__text">Transforming transport in Copenhagen</span>
+                            </a>
+                            </div>
+                    </div>
+                </div>
                 <div class="slide" data-description="The journey between Houston and Dallas takes four to five hours by car or requires a visit to the airport. Soon, the same trip will take 90 minutes or less.">
                     <img src="https://www.arup.com/-/media/arup/images/projects/h/hs2-soundlab-demonstrations/hs2-engineering-support-arup-train-2000x1125.jpg?h=1125&la=en&w=2000&hash=B7F69F52D7DAB7B44312D167E60DE50A4B60A851" alt="Rendering of Texas Central High-Speed Rail Road " width="2000" height="800" DisableWebEdit="False" />
                     <video preload="auto" loop="true" muted="muted" class="active" autoplay="">
-            			<source src="/video/hs2test.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+            			<source src="/video/hs2-footage.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
         			</video>
                     <div class="container fullbleed__container">
                     		<div class="fullbleed__content">
@@ -357,21 +497,6 @@ Discover how our team are bringing every kind of rail system to cities and count
                     			<a href="/perspectives/publications/the-arup-journal/section/the-arup-journal-2019-issue-2" class="cta cta--lg" onclick="carouselGaTracking('Video Carousel - Video Carousel', 'Video Arup Journal');">
                                 <span data-grunticon-embed class="cta__icon icon icon-oval"></span>
                                 <span class="cta__text">How do you bring a railway to life so that better decisions can be made about its future?</span>
-                            </a>
-                    		</div>
-                    </div>
-                </div>
-                <div class="slide" data-description="This state-of-the-art private rail line will connect America’s fourth and fifth largest metropolitan areas and represent the first completed high-speed rail line in North America.">
-                    <img src="https://www.arup.com/-/media/arup/images/projects/t/texas-central-high-speed-rail-road/txhsr3_2000x800_ctexascentral.jpg?h=800&amp;la=en&amp;w=2000&amp;hash=A69CC2FDC6AEFEAE598335FA95442B9A8B4BC772" alt="Rendering of Texas Central High-Speed Rail Road" width="2000" height="800" DisableWebEdit="False" />
-                    <video preload="auto" loop="true" muted="muted" class="active" autoplay="">
-            			<source src="/video/testcityringen.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
-        			</video>
-                    <div class="container fullbleed__container">
-                    		<div class="fullbleed__content">
-                    			<h2>Cityringen</h2>
-                    			<a href="/perspectives/publications/the-arup-journal/section/the-arup-journal-2019-issue-2" class="cta cta--lg" onclick="carouselGaTracking('Video Carousel - Video Carousel', 'Video Arup Journal');">
-                                <span data-grunticon-embed class="cta__icon icon icon-oval"></span>
-                                <span class="cta__text">Transforming transport in Copenhagen</span>
                             </a>
                     		</div>
                     </div>
@@ -400,12 +525,12 @@ Discover how our team are bringing every kind of rail system to cities and count
                         <span href="#" role="button" data-grunticon-embed class="icon icon-next" aria-label="Next"></span>
                     </div>
             </div>
-    </section>
+    </section>-->
 <section class="container">
         <div class="rich-text">
             <div class="reveal rich-text__content">
             	<h2>Responding to the digital passenger</h2>
-            	<P>Digital tools are reshaping consumer behaviour and giving us new tools to meet their needs. We use digital modelling tools that combine virtual and augmented reality to generate sophisticated visual and aural representations of every aspect of the railway line, throughout the design and public consultation phases of a project. And our data-driven approach to rail provides us with previously impossible levels of insight, enabling rail operators to develop and offer unbeatable experiences to travel and freight customers alike.</P>
+            	<P>Digital tools are reshaping consumer behaviour and giving us new tools to meet their evolving needs. We use digital modelling tools that combine virtual and augmented reality to generate sophisticated visual and aural representations of every aspect of the railway line, throughout the design and public consultation phases of a project. And our data-driven approach to rail provides us with previously impossible levels of insight, enabling rail operators to develop and offer unbeatable experiences to travel and freight customers alike.</P>
 			</div>
 		</div>
 	</section>
@@ -415,7 +540,7 @@ Discover how our team are bringing every kind of rail system to cities and count
             <a href="/perspectives/publications/speeches-and-lectures/section/ove-arup-key-speech" hidelinkdescription="True">
                 <span class="title">Publication</span>
                     <h2>Future of Rail 2050</h2>
-                <p>The Future of Rail 2050 takes a user's perspective and explores how rail travel might change for passengers and freight.</p>
+                <p>With a focused lens on the user’s perspective, explore how rail might change for passengers and freight.</p>
             </a>
             <a href="/perspectives/publications/speeches-and-lectures/section/ove-arup-key-speech" hidelinkdescription="True" class="cta cta--black cta--lg">
                 <span data-grunticon-embed class="icon icon-oval"></span>
@@ -431,7 +556,7 @@ Discover how our team are bringing every kind of rail system to cities and count
 <div class="contact-us__top-section rich-text multicontact">
     <div class="container rich-text__content">
             <h2>Discover how our team can help</h2>
-                    <p><P>You can access our rail consultancy services through regional consultants around the world. Wherever you’re based, we can help you look beyond your sector to explore new sources of inspiration and identify opportunities for growth.</P></p>
+                    <p><P>You can access our rail services through regional consultants around the world. Wherever you’re based, we can help you lWherever you’re based, we can help you get the most out of your rail project at any stage of the railway lifecycle.</P></p>
     </div>
 </div>
 <div class="contact-us__contact multicontact highlight-section ">

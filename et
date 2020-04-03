@@ -1,0 +1,58 @@
+ content/arup-pages/careers/careers-home.md         |   165 [32m+[m[31m-[m
+ content/arup-pages/careers/test.md                 |    68 [32m+[m
+ content/arup-pages/careers/working-for-arup.md     |   542 [32m+[m[31m-[m
+ content/arup-pages/digital-twin-2.md               |    83 [32m+[m[31m-[m
+ content/arup-pages/digital-twins.md                |     2 [32m+[m[31m-[m
+ content/arup-pages/health-and-safety.md            |   596 [32m+[m
+ content/arup-pages/metro-design.md                 |   542 [32m+[m
+ content/arup-pages/rail-industry-2.md              |   137 [32m+[m[31m-[m
+ content/arup-pages/services/architecture.md        |  1028 [32m++[m
+ content/best-practice/dashboards.md                |    27 [32m+[m[31m-[m
+ .../arup-pages/architecture/mingzhu-winery.jpg     |   Bin [31m0[m -> [32m263984[m bytes
+ static/images/arup-pages/architecture/ocado.jpg    |   Bin [31m0[m -> [32m209799[m bytes
+ .../images/arup-pages/architecture/ove-sketch.jpg  |   Bin [31m0[m -> [32m55031[m bytes
+ static/images/arup-pages/architecture/sir-ove.jpg  |   Bin [31m0[m -> [32m87015[m bytes
+ static/images/arup-pages/architecture/test.gif     |   Bin [31m0[m -> [32m5491183[m bytes
+ static/images/arup-pages/architecture/test2.gif    |   Bin [31m0[m -> [32m10621526[m bytes
+ .../images/arup-pages/careers/ove-arup-split.jpg   |   Bin [31m0[m -> [32m47428[m bytes
+ static/images/arup-pages/health-safety/glaxo.jpg   |   Bin [31m0[m -> [32m24266[m bytes
+ .../health-safety/health-safety-banner.jpg         |   Bin [31m0[m -> [32m221492[m bytes
+ static/images/arup-pages/health-safety/hsbc.jpg    |   Bin [31m0[m -> [32m30959[m bytes
+ .../arup-pages/health-safety/neo-bankside.jpg      |   Bin [31m0[m -> [32m185407[m bytes
+ .../science-and-tech/Chinese-Rice-Winery-hero.jpg  |   Bin [31m0[m -> [32m299472[m bytes
+ ...LR_EMC_Opening_Press_Pack_Image_301014_14-1.gif |   Bin [31m0[m -> [32m1445171[m bytes
+ .../arup-pages/science-and-tech/airbus-bristol.jpg |   Bin [31m0[m -> [32m111033[m bytes
+ .../science-and-tech/chinese-rice-winery.jpg       |   Bin [31m0[m -> [32m101289[m bytes
+ .../arup-pages/science-and-tech/data-centre.jpg    |   Bin [31m0[m -> [32m60250[m bytes
+ .../arup-pages/science-and-tech/equinix-paris.jpg  |   Bin [31m0[m -> [32m34707[m bytes
+ static/video/architecture/architecture-banner.mp4  |   Bin [31m0[m -> [32m5880152[m bytes
+ static/video/architecture/cityringen.mp4           |   Bin [31m0[m -> [32m3020991[m bytes
+ static/video/architecture/jlr.mp4                  |   Bin [31m0[m -> [32m5448496[m bytes
+ static/video/architecture/singapore-sportshub.mp4  |   Bin [31m0[m -> [32m9302478[m bytes
+ static/video/architecture/sky.mp4                  |   Bin [31m0[m -> [32m3359764[m bytes
+ static/video/architecture/skydemo.mp4              |   Bin [31m0[m -> [32m658348[m bytes
+ static/video/digital-cities.mp4                    |   Bin [31m26414295[m -> [32m0[m bytes
+ static/video/digital-twin.mp4                      |   Bin [31m28522909[m -> [32m0[m bytes
+ static/video/inwed3.webm                           |   Bin [31m18096481[m -> [32m0[m bytes
+ static/video/taoyuan.mp4                           |   Bin [31m0[m -> [32m8916945[m bytes
+ static/video/what-is-digital-twin.mp4              |   Bin [31m16211362[m -> [32m0[m bytes
+ themes/arup/layouts/careers/single.html            |     2 [32m+[m[31m-[m
+ themes/arup/layouts/partials/digital-header.html   |     2 [32m+[m[31m-[m
+ .../layouts/partials/footer-single-careers.html    |     2 [32m+[m[31m-[m
+ .../arup/layouts/partials/footer-single-feb20.html |    59 [32m+[m
+ .../arup/layouts/partials/full-head-careers.html   |     4 [32m+[m[31m-[m
+ themes/arup/layouts/partials/full-head-feb20.html  |    55 [32m+[m
+ themes/arup/layouts/partials/full-head.html        |     6 [32m+[m[31m-[m
+ themes/arup/layouts/partials/full-header.html      |    61 [32m+[m[31m-[m
+ themes/arup/layouts/partials/notes on semrush.txt  |    43 [32m+[m
+ themes/arup/layouts/service/single.html            |     8 [32m+[m
+ themes/arup/static/css/careers.css                 |   175 [32m+[m[31m-[m
+ themes/arup/static/css/site-feb20.css              |     2 [32m+[m
+ themes/arup/static/css/site2.css                   | 14530 [32m+++++++++++[m[31m--------[m
+ themes/arup/static/css/steve-test-2.css            |  1128 [32m++[m
+ themes/arup/static/css/steve-test.css              |   458 [32m+[m[31m-[m
+ themes/arup/static/js/app-feb20.js                 |  7838 [32m++++++++++[m
+ themes/arup/static/js/app.js                       |  1551 [32m+[m[31m-[m
+ themes/arup/static/js/lib-feb20.js                 |    21 [32m+[m
+ themes/arup/static/js/libs.js                      |  3847 [32m+++[m[31m--[m
+ 57 files changed, 23990 insertions(+), 8992 deletions(-)

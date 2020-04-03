@@ -4,22 +4,23 @@ date: 2019-05-08T11:37:18+01:00
 draft: false
 type: perspective
 ---
-<section class="fullbleed fullbleed--hero fullbleed--project ">
+<section class="fullbleed  fullbleed--hero fullbleed--project fullbleed--video">
     <div class="fullbleed__inner">
-        <div class="progressiveMedia">
-            <img src="https://www.arup.com/-/media/arup/images/expertise/industries/science-industry-sainsbury_laboratory_university_of_cambridge_hufton_crow-2000x1125.jpg?h=6&amp;la=en&amp;mw=10&amp;w=10&amp;hash=0DAD42DAB84B3E76AB3152C9F065240B0AF5065E" class="tempImg" alt="Sainsbury Laboratory" width="10" height="6" DisableWebEdit="False" />;
-            <img src="https:///www.arup.com/-/media/arup/images/expertise/industries/science-industry-sainsbury_laboratory_university_of_cambridge_hufton_crow-2000x1125.jpg?h=1125&amp;la=en&amp;w=2000&amp;hash=89ADC730D9F600840D25BD98A93DCAB7B6DA1958" class="mainImg" alt="Sainsbury Laboratory" width="2000" height="1125" DisableWebEdit="False" />;
-        </div>
+        <div class="overlay"></div>
+    <div class="progressiveMedia">
+        <img src="https://www.arup.com/-/media/arup/images/expertise/industries/science-industry-sainsbury_laboratory_university_of_cambridge_hufton_crow-2000x1125.jpg?h=1125&la=en&w=2000&hash=89ADC730D9F600840D25BD98A93DCAB7B6DA1958" class="tempImg" alt="" width="10" height="6" DisableWebEdit="False" />;
+        <img src="https://www.arup.com/-/media/arup/images/expertise/industries/science-industry-sainsbury_laboratory_university_of_cambridge_hufton_crow-2000x1125.jpg?h=1125&la=en&w=2000&hash=89ADC730D9F600840D25BD98A93DCAB7B6DA1958" class="mainImg" alt="" width="2000" height="1125" DisableWebEdit="False" />;
+    </div>
         <div class="fullbleed__alt-content">
             <div class="container container--3col">
                 <div class="col col__main">
                     <div class="page-info">
                         <div class="page-info__title feature-title">
-                            <h3 class="feature-title__label">Industries</h3>
-                            <h1 class="feature-title__title">Science and Industry</h1>
+                            <h3 class="feature-title__label">Industry</h3>
+                            <h1 class="feature-title__title">Science and industry</h1>
                         </div>
                         <div class="page-info__content">
-                            <p class="page-info__copy"><p>Arup works on the development and design of some of the most functionally demanding buildings in the scientific and industrial sector &ndash; from laboratories to the data centres that power our world.</p></p>
+                            <P>Arup works on the development and design of some of the most functionally demanding buildings in the scientific and industrial sector – from laboratories to the data centres that power our world.</P>
                         </div>
                     </div>
                 </div>
@@ -31,7 +32,7 @@ type: perspective
             <div class="col">
                 <div class="page-info page-info--outer">
                     <div class="page-info__content page-info__content--outer">
-                        <p class="page-info__copy"><p>Arup works on the development and design of some of the most functionally demanding buildings in the scientific and industrial sector &ndash; from laboratories to the data centres that power our world.</p></p>
+                        <p class="page-info__copy"><P>Our digital services combine innate knowledge of the built environment with new technologies to shape a better world.</P></p>
                     </div>
                 </div>
             </div>
@@ -40,11 +41,10 @@ type: perspective
 </section>
 <script>
     function globalContactClick(name) {
-        dataLayer.push({ 'dataLayer.overlayInfo.type': 'global contact' });
-        dataLayer.push({ 'dataLayer.overlayInfo.name': name });
+        dataLayer.push({ &lsquo;dataLayer.overlayInfo.type&rsquo;: &lsquo;global contact&rsquo; });
+        dataLayer.push({ &lsquo;dataLayer.overlayInfo.name&rsquo;: name });
     }
 </script>
-
 <section class="utility-bar sticky">
     <div class="container utility-bar__inner">
         <div class="utility-bar__share">
@@ -130,16 +130,16 @@ type: perspective
             </div>
         </div>
         <div class="utility-bar__breadcrumb">
-            <p class="utility-bar__page-title">Science and Industry</p>
-            <p class="utility-bar__page-subtitle">Talk about this industry</p>
+            <p class="utility-bar__page-title">Science and industry</p>
+            <p class="utility-bar__page-subtitle">Talk to Andrew Harrison about this industry</p>
         </div>
             <div class="utility-bar__contact">
-                <a class="util-contact modal-trigger" href="#mainContact" onclick="globalContactClick('Duncan White - UKMEA Science and Industry Leader');">
+                <a class="util-contact modal-trigger" href="#mainContact" onclick="globalContactClick('Greg Stone - Global Head of Corporate Development');">
                         <div class="util-contact__pic-wrap">
-                            <img class="util-contact__pic" src="https://www.arup.com/-/media/arup/images/people/d/duncan-white---building-engineering-london-a-bel-ac-thomas-grahamarup.jpg?gray=1&amp;mw=180&amp;hash=1C0E96804D01E0A33842BA09C120A54CB4E5F944" alt="Duncan White"/>
+                            <img class="util-contact__pic" src="https://www.arup.com/-/media/arup/images/people/a/andrew-harrison--bel-3c-daniel-imadearup.jpg?gray=1&hash=7C14F0B069FF0B515BFD10465A65E7A0" alt="Greg Stone "/>
                         </div>
-                    <div class="util-contact__main">                       
-                         <h4 class="util-contact__title">Talk about this industry</h4>
+                    <div class="util-contact__main">
+                         <h4 class="util-contact__title">Talk to Andrew Harrison about this industry</h4>
                         <div class="util-contact__cta">
                             <span href="#" class="cta cta--black cta--small cta--right cta--plain">
                                 <span data-grunticon-embed class="icon icon-oval"></span>
@@ -162,88 +162,27 @@ type: perspective
         <div class="modal__inner modal-person">
             <div class="modal__close"><span data-grunticon-embed class="icon icon-close"></span></div>
             <h5 class="text-icon"><span data-grunticon-embed class="icon icon-message"></span>Get in touch</h5>
-                    <img src="https://www.arup.com/-/media/arup/images/people/d/duncan-white---building-engineering-london-a-bel-ac-thomas-grahamarup.jpg?gray=1&amp;mw=180&amp;hash=1C0E96804D01E0A33842BA09C120A54CB4E5F944" alt="Duncan White" />
+                    <img src="https://www.arup.com/-/media/arup/images/people/a/andrew-harrison--bel-3c-daniel-imadearup.jpg?gray=1&hash=7C14F0B069FF0B515BFD10465A65E7A0" alt="Greg Stone " />
                 <p class="text-icon text-grouped">
                     <span data-grunticon-embed class="icon icon-profile"></span>
-                    <a href="/our-firm/duncan-white">
-                         Duncan White
+                    <a href="/our-firm/greg-stone">
+                        Andrew Harrison
                     </a>
-                    <span class="text-sub">UKMEA Science and Industry Leader</span>
+                    <span class="text-sub">Global Head of Corporate Development</span>
                 </p>
-                    <a href="mailto:scienceandindustry@arup.com" class="text-icon text-icon--italic" onclick="dataLayer.push({'dataLayer.linkInfo.cat':'External Clicks - Email'});">
+                    <a href="/cdn-cgi/l/email-protection#23505a474d465a63425156530d404c4e" class="text-icon text-icon--italic" onclick="dataLayer.push({'dataLayer.linkInfo.cat':'External Clicks - Email'});">
                         <span data-grunticon-embed class="icon icon-contact"></span>
-                        scienceandindustry@arup.com
+                        <span class="__cf_email__" data-cfemail="592a203d373c2019382b2c29773a3634">[email&#160;protected]</span>
                     </a>
-                    <a href="tel:+4402076361531" class="text-icon text-icon--italic">
+                    <a href="tel:+610293209320" class="text-icon text-icon--italic">
                         <span data-grunticon-embed class="icon icon-phone"></span>
-                        +44 (0) 20 7636 1531
-                            <span class="footnote">London, local time - 13:00</span>
+                        +61 (0) 2 9320 9320
+                            <span class="footnote">Sydney, local time - 1:08 PM</span>
                     </a>
                             <div class="modal__body">
-                        <div class="contact-info">
-                          <a href="/our-firm/andrew-harrison">
-                                  <img src="https://www.arup.com/-/media/arup/images/people/a/andrew-harrison--bel-3c-daniel-imadearup.jpg?gray=1&amp;hash=CC7F45B52DAC2BE46C189D489DEA3D4C573750FE" alt="Andrew Harrison" />
-                              <p class="name">Andrew Harrison</p>
-                              <p class="position">Global Science and Industry Leader</p>
-                          </a>
                         </div>
-                        <div class="contact-info">
-                          <a href="/our-firm/joshua-yacknowitz">
-                                  <img src="https://www.arup.com/-/media/arup/images/people/y/yacknowitz_josh-hi-res.jpg?gray=1&amp;hash=01BF984B5AEDB49F678899AE9425386EE8054E3F" alt="Yacknowitz Josh" />
-                              <p class="name">Joshua Yacknowitz</p>
-                              <p class="position">Americas Science and Industry Leader</p>
-                          </a>
-                        </div>
-                        <div class="contact-info">
-                          <a href="/our-firm/dave-martin">
-                                  <img src="https://www.arup.com/-/media/arup/images/people/d/sydney-office-staff--dave-martinc-andy-roberts.jpg?gray=1&amp;hash=0303810E51752B8E68BEDF45FC8A223CA68FB8B0" alt="Dave Martin" />
-                              <p class="name">Dave Martin</p>
-                              <p class="position">Australasia Science and Industry Leader</p>
-                          </a>
-                        </div>
-                        <div class="contact-info">
-                          <a href="/our-firm/matthew-chan">
-                                  <img src="https://www.arup.com/-/media/arup/images/people/m/arup-hong-kong-staff--matthew-chanc-arup.jpg?gray=1&amp;hash=30F64BC3C65274BD345986D757410A1BCBBBBFB7" alt="Matthew Chan" />
-                              <p class="name">Matthew Chan</p>
-                              <p class="position">East Asia Science and Industry Leader</p>
-                          </a>
-                        </div>
-                        <div class="contact-info">
-                          <a href="/our-firm/liam-luddy">
-                                  <img src="https://www.arup.com/-/media/arup/images/people/l/liam-luddy_450x450.png?gray=1&amp;hash=DE3871E797CD67F13056B5D0154D84C7E2446801" alt="Picture of Liam Luddy, Director at Arup" />
-                              <p class="name">Liam Luddy</p>
-                              <p class="position">Director, Europe Science and Industry Leader</p>
-                          </a>
-                        </div>
-                </div>
         </div>
     </div>
-<!--<section class="stats   stats--contain">
-    <div class="stats__content">
-        <div class="stats__inner">
-            <div class="stats__stats-wrap">
-                <div class="stat-row">
-                    <h3 class="stat-row__title"></h3>
-                    <ul class="stat-row__list">
-                            <li class="stat-row__item">
-                                59,500
-                                <span class="stat-row__desc">tones of carbon emissions will be saved per year on a district cooling system in Hong Kong </span>
-                            </li>
-                            <li class="stat-row__item">
-                                23GW
-                                <span class="stat-row__desc">of renewable energy infrastructure across Europe</span>
-                            </li>
-                            <li class="stat-row__item">
-                                150
-                                <span class="stat-row__desc">onshore and offshore LNG projects across the world</span>
-                            </li>
-                    </ul>
-                </div>
-            </div>
-            <h4 class="stats__caption"></h4>
-        </div>
-    </div>
-</section>-->
 <article id="article-anchor" class="text-content">
     <section class="container" id="">
         <div class="rich-text">
@@ -255,89 +194,456 @@ type: perspective
             </div>
         </div>
 </section>
-<section class="container">
-    <div class="dynamic-feat">
-        <header class="dynamic-feat__header">
+<style>
+    @media (min-width:768px) and (max-width:1023px) {</p>
+
+<pre><code>.inpagenav .inpagenav-item {
+width: 50%;
+}
+}
+.inpagenav h2 {
+    font-size:32px;
+}
+.inpagenav .inpagenav-item {
+height:300px;
+}
+.inpagenav .inpagenav-item .inner {
+padding:4rem 20px;
+}
+.inpagenav .inpagenav-item .inner .background.background-image {
+opacity:0.15!important;
+filter:none!important;
+}
+.inpagenav .inpagenav-item .inner h4 {
+color: rgba(51,51,51,1)!important;
+font-weight:normal!important;
+}
+.inpagenav .inpagenav-item .inner p {
+color:#343434!important;
+opacity:0.85;
+padding-right:20px;
+}
+.inpagenav .inpagenav-item .inner .cta {
+left:13px!important;
+}
+.inpagenav .cta--small  .icon {
+height:2rem;
+width:2rem;
+}
+.learn-more.learn-more--large.reveal .cta {
+font-size:1.5em;
+}
+</code></pre>
+
+<p></style>
+<div class="inpagenav">
+    <div class="container">
+        <h2>
+            Explore our expertise
+        <div class="inpagenav-container">
+            <style><br />
+    [id=&ldquo;C4619586082F43D69CC9E63A3C6601CE&rdquo;] .inner .background.background-color {
+        background-color: #f2f2f2 !important;
+    }
+    [id=&ldquo;C4619586082F43D69CC9E63A3C6601CE&rdquo;] .inner .background.background-image {
+        background-image: url(<a href="https://www.arup.com/-/media/arup/images/expertise/services/advisory-services/navigation/strategynavigation.jpg?h=230&amp;w=390&amp;hash=7E0706DE887DEDB0A70D18E6FF3E989BADE6EEE6">https://www.arup.com/-/media/arup/images/expertise/services/advisory-services/navigation/strategynavigation.jpg?h=230&amp;w=390&amp;hash=7E0706DE887DEDB0A70D18E6FF3E989BADE6EEE6</a>) !important;
+    }
+</style>
+<div class="inpagenav-item" id="C4619586082F43D69CC9E63A3C6601CE">
+    <a href="/arup-pages/science-and-industry/scientific-research-facilities/" class="linkfill">
+        <div class="inner">
+                <div class="background background-image"></div>
+            <div class="background background-color"></div>
+            <h4>
+                Science research facilities
+            </h4>
+            <p>
+                Working alongside the world's finest scientific minds our experts lead in the development of the most advanced scientific reseach facilities around the globe.
+            </p>
+            <div class="expertise-services__cta cta cta--black cta--small">
+                <span data-grunticon-embed class="icon icon-oval"></span>
+            </div>
+        </div>
+    </a>
+</div>
+<style>
+    [id=&ldquo;BB88AFA79CC84BAC9818220B79A338B8&rdquo;] .inner .background.background-color {
+        background-color: #ebebeb !important;
+    }
+    [id=&ldquo;BB88AFA79CC84BAC9818220B79A338B8&rdquo;] .inner .background.background-image {
+        background-image: url(/images/arup-pages/building-envelopes/facade-management.jpg) !important;
+    }
+</style>
+<div class="inpagenav-item" id="BB88AFA79CC84BAC9818220B79A338B8">
+    <a href="/arup-pages/science-and-industry/data-centres/" class="linkfill">
+        <div class="inner">
+                <div class="background background-image"></div>
+            <div class="background background-color"></div>
+            <h4>
+                Data centres
+            </h4>
+            <p>
+                Working with some of the most complex and data driven companies we continue to lead the way in the development of efficient and secure facilities.
+            </p>
+            <div class="expertise-services__cta cta cta--black cta--small">
+                <span data-grunticon-embed class="icon icon-oval"></span>
+            </div>
+        </div>
+    </a>
+</div>
+<style><br />
+    [id=&ldquo;805035DA0DC1410A82D6EAB3E59E3E86&rdquo;] .inner .background.background-color {
+        background-color: #f2f2f2 !important;
+    }
+    [id=&ldquo;805035DA0DC1410A82D6EAB3E59E3E86&rdquo;] .inner .background.background-image {
+        background-image: url(/-/media/arup/images/expertise/services/advisory-services/navigation/programmesnavigation.jpg?h=230&amp;w=390&amp;hash=CDDAC0B0E36E5BF932FDC60C8053EA411A82781E) !important;
+    }
+</style>
+<div class="inpagenav-item" id="805035DA0DC1410A82D6EAB3E59E3E86">
+    <a href="/arup-pages/science-and-industry/advanced-manufacturing/" class="linkfill">
+        <div class="inner">
+                <div class="background background-image"></div>
+            <div class="background background-color"></div>
+            <h4>
+                Advanced manufacturing
+            </h4>
+            <p>
+                As the authority in the development of leading Advanced Manufacturing facilities we bring together the innovation, research and engineering expertise needed to transform today’s manufacturing processes.
+            </p>
+            <div class="expertise-services__cta cta cta--black cta--small">
+                <span data-grunticon-embed class="icon icon-oval"></span>
+            </div>
+        </div>
+    </a>
+</div>
+</div></div>
+</div>
+<section class="container" id="">
+        <div class="rich-text">
+            <div class="reveal rich-text__content">
+                <h2>Fine tuning solutions</h2>
+                <p>Some content here that introduces some of your projects - this would be a selection of stuff from across science and industry. This text here introduces them and why they're on the page.</p>
+            </div>
+        </div>
+</section>
+<section class="highlight-section">
+    <div class="container dynamic-feat reveal">
+            <!--<header class="dynamic-feat__header">
                 <div class="dynamic-feat__title-wrap">
-                    <h4 class="dynamic-feat__title">Explore our expertise</h4>
+                    <h4 class="dynamic-feat__title">Read more about smart cities</h4>
                 </div>
-            </header>
+            </header>-->
         <div class="dynamic-feat__list">
             <ul class="up-list">
 <li class="up-list__item up-list__item--three">
-    <a href="/arup-pages/science/" class="preview-card ">
-            <header class="preview-card__header preview-card__header--pic">
-                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/f/francis-crick-institute/cover-image-the-francis-crick-institute_-paul-carstairs.jpg?h=1125&la=en&w=2000&hash=433C08A4986EAC583774F9403BCC397784365F14');"></div>
-            </header>
-        <div class="preview-card__content preview-card__content--alt-style">
+    <div class="preview-card ">
+            <a href="/perspectives/if-you-know-the-right-questions-and-understand-the-risks-data-can-help-build-better-cities" class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/c/citigroup-citi-data-centre/citi-data-center_green_2000x1125.jpg?h=1125&la=en&w=2000&hash=C1810AAC83DAA187D1717709D2751F8F3528E9C2');">
+                </div>
+            </a>
+        <div class="preview-card__content ">
             <div class="preview-card__main">
                 <div class="preview-copy">
-                    <h4 class="preview-copy__label label--md">
-                        Expertise
-                    </h4>
-                    <h3 class="preview-copy__title ">Science</h3>
+                    <a href="/perspectives/if-you-know-the-right-questions-and-understand-the-risks-data-can-help-build-better-cities" class="preview-copy__toplink">
+                        <h4 class="preview-copy__label label--md">
+                            Article
+                        </h4>
+                        <h3 class="preview-copy__title ">Citi Data Centre, Frankfurt</h3>
                     <div class="preview-copy__copy-wrap">
-                            <p class="preview-copy__copy">Working alongside the world’s finest scientific minds our experts collaborate to develop the most advanced facilities around the globe. Our experience, insight and skills offer a unique combination in ensuring the development of advanced scientific research facilities.</p>
+                            <p class="preview-copy__copy">Working with Citigroup, Arup delivered the world’s first LEED Platinum Data Centre. Solutions include cooling towers and reverse osmosis delivering a 72% reduction in energy usage and 30% fall in water consumption.</p>
                     </div>
+                    </a>
                 </div>
             </div>
-            <footer class="preview-card__footer">
-                <div class="preview-foot">
-                </div>
-            </footer>
         </div>
-    </a>
-</li>
+    </div>
+</li>     
 <li class="up-list__item up-list__item--three">
-    <a href="/arup-pages/data-centres-2/" class="preview-card ">
-            <header class="preview-card__header preview-card__header--pic">
-                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/i/ixcellerate-moscow-one-data-centre/2000x1125_mos_ixc_site_photo_3.jpg?h=1125&la=en&w=2000&hash=2D4E8D83B4BA6D80E912992F2443385CE28E726F');"></div>
-            </header>
-        <div class="preview-card__content preview-card__content--alt-style">
+    <div class="preview-card ">
+            <a href="/perspectives/if-you-know-the-right-questions-and-understand-the-risks-data-can-help-build-better-cities" class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/j/jaguar-land-rover-engine-manufacturing-centre/hero-image.jpg?h=1125&w=2000&hash=DA9FB2EC7E76259B5E6650E5A3F65314');">
+                </div>
+            </a>
+        <div class="preview-card__content ">
             <div class="preview-card__main">
                 <div class="preview-copy">
-                    <h4 class="preview-copy__label label--md">
-                        Expertise
-                    </h4>
-                    <h3 class="preview-copy__title ">Data centres</h3>
+                    <a href="/perspectives/if-you-know-the-right-questions-and-understand-the-risks-data-can-help-build-better-cities" class="preview-copy__toplink">
+                        <h4 class="preview-copy__label label--md">
+                            Article
+                        </h4>
+                        <h3 class="preview-copy__title ">Jaguar Land Rover Engine Manufacturing Centre</h3>
                     <div class="preview-copy__copy-wrap">
-                            <p class="preview-copy__copy">Our data centre specialists have been innovators in technological facilities from the very early days of the digital age. Working with some of the most complex and data driven companies we continue to lead the way as the growing adoption of digitalisation gives rise to greater demand and responsiveness. </p>
+                            <p class="preview-copy__copy">Drawing on decades of experience in the design of industrial buildings, we provided integrated and innovative low-energy design solutions for Jaguar, while ensuring the building organisation and the location of services enables any future changes in manufacturing process and layout.</p>
                     </div>
+                    </a>
                 </div>
             </div>
-            <footer class="preview-card__footer">
-                <div class="preview-foot">
-                </div>
-            </footer>
         </div>
-    </a>
-</li>
+    </div>
+</li>        
 <li class="up-list__item up-list__item--three">
-    <a href="/arup-pages/advanced-manufacturing/" class="preview-card ">
-            <header class="preview-card__header preview-card__header--pic">
-                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/j/jaguar-land-rover-engine-manufacturing-centre/hero-image.jpg?h=1125&la=en&w=2000&hash=B23EB3C0FAC7035945D08A5D7B30AF971DED7B20');"></div>
-            </header>
-        <div class="preview-card__content preview-card__content--alt-style">
+    <div class="preview-card ">
+            <a href="/perspectives/if-you-know-the-right-questions-and-understand-the-risks-data-can-help-build-better-cities" class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/f/francis-crick-institute/cover-image-the-francis-crick-institute_-paul-carstairs.jpg?h=1125&w=2000&hash=6EAFF2FBBE211056F6030F978986958C');">
+                </div>
+            </a>
+        <div class="preview-card__content ">
             <div class="preview-card__main">
                 <div class="preview-copy">
-                    <h4 class="preview-copy__label label--md">
-                        Expertise
-                    </h4>
-                    <h3 class="preview-copy__title ">Advanced manufacturing</h3>
+                    <a href="/perspectives/if-you-know-the-right-questions-and-understand-the-risks-data-can-help-build-better-cities" class="preview-copy__toplink">
+                        <h4 class="preview-copy__label label--md">
+                            Article
+                        </h4>
+                        <h3 class="preview-copy__title ">Francis Crick Institute</h3>
                     <div class="preview-copy__copy-wrap">
-                            <p class="preview-copy__copy">As the authority in the development of leading Advanced Manufacturing facilities we bring together the innovation, research and engineering expertise needed to transform today’s manufacturing processes. The growing demand for agile, better integrated and resilient facilities has meant that our experts are transforming the face of global manufacturing. 
-</p>
+                            <p class="preview-copy__copy">Speed is of the essence when you’re planning an 85,000m2 building in central London. Before construction on the shell of the building started in June 2011, we developed a procurement route that shortened the time on site by identifying and evaluating the client’s critical success factors against the design.</p>
                     </div>
+                    </a>
                 </div>
             </div>
-            <footer class="preview-card__footer">
-                <div class="preview-foot">
-                </div>
-            </footer>
         </div>
-    </a>
-</li>            </ul>
+    </div>
+</li>        
+    </ul>
         </div>
     </div>
 </section>
+<hr class="contact-us__topline arrow-line arrow-line--down multicontact" />
+<div class="contact-us__top-section rich-text multicontact">
+    <div class="container rich-text__content">
+            <h2>Discover how our team can help</h2>
+                    <p><P>You can access our science and industry expertse through regional consultants around the world. Wherever you’re based, we can help you look beyond your sector to explore new sources of inspiration and identify opportunities for growth.</P></p>
+    </div>
+</div>
+<div class="contact-us__contact multicontact highlight-section ">
+    <div class="container">
+            <div class="mini-profile mini-profile--icons">
+                <div class="mini-profile__pic-wrap">
+                    <a href="/our-firm/carol-lemmens" class="mini-profile__link">
+                        <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/a/andrew-harrison--bel-3c-daniel-imadearup.jpg?gray=1&hash=7C14F0B069FF0B515BFD10465A65E7A0" alt="Carol Lemmens" />
+                    </a>
+                </div>
+                <div class="mini-profile__main">
+                    <ul class="mini-profile__info-list">
+                        <li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
+                            <a href="/our-firm/carol-lemmens" class="mini-profile__info-link">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
+                                <span class="mini-profile__info-content">
+                                    <h4 class="mini-profile__name">
+                                        Andrew Harrison
+                                    </h4>
+                                    <h5 class="mini-profile__job">Global Science and Industry Leader</h5>
+                                </span>
+                            </a>
+                        </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
+                                <a href="/cdn-cgi/l/email-protection#3a5b5e4c53495548437a5b484f4a14595557" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-contact"></span>
+                                    <span class="mini-profile__info-content"><span class="__cf_email__" data-cfemail="38595c4e514b574a4178594a4d48165b5755">[email&#160;protected]</span></span>
+                                </a>
+                            </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
+                                <a href="tel:+44 (0) 207 755 6642" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>
+                                    <span class="mini-profile__info-content">
+                                        +44 (0) 207 755 6642
+                                        <br />
+                                        <span class="mini-profile__info-meta">London, 9/6/2019 5:04:07 PM</span>
+                                    </span>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mini-profile mini-profile--icons">
+                <div class="mini-profile__pic-wrap">
+                    <a href="/our-firm/orion-fulton" class="mini-profile__link">
+                        <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/y/yacknowitz_josh-hi-res.jpg?gray=1&hash=33F1F5532856DEF9A2D3373989810EE0" alt="T M" />
+                    </a>
+                </div>
+                <div class="mini-profile__main">
+                    <ul class="mini-profile__info-list">
+                        <li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
+                            <a href="/our-firm/orion-fulton" class="mini-profile__info-link">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
+                                <span class="mini-profile__info-content">
+                                    <h4 class="mini-profile__name">
+                                        Joshua Yacknowitz
+                                    </h4>
+                                    <h5 class="mini-profile__job">Americas Science and Industry Leader</h5>
+                                </span>
+                            </a>
+                        </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
+                                <a href="/cdn-cgi/l/email-protection#b9d8ddcfd0cad6cbc0f9d8cbccc997dad6d4" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-contact"></span>
+                                    <span class="mini-profile__info-content"><span class="__cf_email__" data-cfemail="ddbcb9abb4aeb2afa49dbcafa8adf3beb2b0">[email&#160;protected]</span></span>
+                                </a>
+                            </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
+                                <a href="tel:+1 415 957 9445" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>
+                                    <span class="mini-profile__info-content">
+                                        +1 415 957 9445
+                                        <br />
+                                        <span class="mini-profile__info-meta">San Francisco, 9/6/2019 9:04:07 AM</span>
+                                    </span>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mini-profile mini-profile--icons">
+                <div class="mini-profile__pic-wrap">
+                    <a href="/our-firm/jonathan-kinghorn" class="mini-profile__link">
+                        <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/d/sydney-office-staff--dave-martinc-andy-roberts.jpg?gray=1&hash=1E41BBDF6461E061E34EE654CEBB014B" alt="Jonathan Kinghorn" />
+                    </a>
+                </div>
+                <div class="mini-profile__main">
+                    <ul class="mini-profile__info-list">
+                        <li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
+                            <a href="/our-firm/jonathan-kinghorn" class="mini-profile__info-link">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
+                                <span class="mini-profile__info-content">
+                                    <h4 class="mini-profile__name">
+                                        Dave Martin
+                                    </h4>
+                                    <h5 class="mini-profile__job">Australasia Science and Industry leader</h5>
+                                </span>
+                            </a>
+                        </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
+                                <a href="/cdn-cgi/l/email-protection#ceafaab8a7bda1bcb78eafbcbbbee0ada1a3" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-contact"></span>
+                                    <span class="mini-profile__info-content"><span class="__cf_email__" data-cfemail="19787d6f706a766b6059786b6c69377a7674">[email&#160;protected]</span></span>
+                                </a>
+                            </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
+                                <a href="tel:+61 (0) 3 9668 5500" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>
+                                    <span class="mini-profile__info-content">
+                                        +61 (0) 3 9668 5500
+                                        <br />
+                                        <span class="mini-profile__info-meta">Melbourne, 9/7/2019 2:04:07 AM</span>
+                                    </span>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mini-profile mini-profile--icons">
+                <div class="mini-profile__pic-wrap">
+                    <a href="/our-firm/alice-chow" class="mini-profile__link">
+                        <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/m/arup-hong-kong-staff--matthew-chanc-arup.jpg?gray=1&hash=8E247C9C88D4FCF53FD0BFE4B7F7B0A4" alt="Nina Yiu" />
+                    </a>
+                </div>
+                <div class="mini-profile__main">
+                    <ul class="mini-profile__info-list">
+                        <li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
+                            <a href="/our-firm/alice-chow" class="mini-profile__info-link">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
+                                <span class="mini-profile__info-content">
+                                    <h4 class="mini-profile__name">Matthew Chan
+                                  </h4>
+                                    <h5 class="mini-profile__job">East Asia Science and Industry Leader</h5>
+                                </span>
+                            </a>
+                        </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
+                                <a href="/cdn-cgi/l/email-protection#4021243629332f323900213235306e232f2d" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-contact"></span>
+                                    <span class="mini-profile__info-content"><span class="__cf_email__" data-cfemail="553431233c263a272c15342720257b363a38">[email&#160;protected]</span></span>
+                                </a>
+                            </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
+                                <a href="tel:+852 2528 3031" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>
+                                    <span class="mini-profile__info-content">
+                                        +852 2528 3031
+                                        <br />
+                                        <span class="mini-profile__info-meta">Hong Kong, 9/7/2019 12:04:07 AM</span>
+                                    </span>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mini-profile mini-profile--icons">
+                <div class="mini-profile__pic-wrap">
+                    <a href="/our-firm/steven-lloyd" class="mini-profile__link">
+                        <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/l/liam-luddy_450x450.png?gray=1&mw=180&hash=C9E0F0A1427EDB67C393F7EFFFF61F26" alt="Steven Lloyd" />
+                    </a>
+                </div>
+                <div class="mini-profile__main">
+                    <ul class="mini-profile__info-list">
+                        <li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
+                            <a href="/our-firm/steven-lloyd" class="mini-profile__info-link">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
+                                <span class="mini-profile__info-content">
+                                    <h4 class="mini-profile__name">
+                                        Liam Luddy
+                                    </h4>
+                                    <h5 class="mini-profile__job">Europe Science and Industry Leader</h5>
+                                </span>
+                            </a>
+                        </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
+                                <a href="/cdn-cgi/l/email-protection#87e6e3f1eef4e8f5fec7e6f5f2f7a9e4e8ea" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-contact"></span>
+                                    <span class="mini-profile__info-content"><span class="__cf_email__" data-cfemail="543530223d273b262d14352621247a373b39">[email&#160;protected]</span></span>
+                                </a>
+                            </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
+                                <a href="tel:+44 (0) 161 228 2331" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>
+                                    <span class="mini-profile__info-content">
+                                        +44 (0) 161 228 2331
+                                        <br />
+                                        <span class="mini-profile__info-meta">Manchester, 9/6/2019 5:04:07 PM</span>
+                                    </span>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mini-profile mini-profile--icons">
+                <div class="mini-profile__pic-wrap">
+                    <a href="/our-firm/steven-lloyd" class="mini-profile__link">
+                        <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/d/duncan-white---building-engineering-london-a-bel-ac-thomas-grahamarup.jpg?gray=1&hash=431EADB729E65B0DAB212CCB87020CDB" alt="Steven Lloyd" />
+                    </a>
+                </div>
+                <div class="mini-profile__main">
+                    <ul class="mini-profile__info-list">
+                        <li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
+                            <a href="/our-firm/steven-lloyd" class="mini-profile__info-link">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
+                                <span class="mini-profile__info-content">
+                                    <h4 class="mini-profile__name">
+                                        Duncan White
+                                    </h4>
+                                    <h5 class="mini-profile__job">UKIMEA Science and Industry Leader</h5>
+                                </span>
+                            </a>
+                        </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
+                                <a href="/cdn-cgi/l/email-protection#87e6e3f1eef4e8f5fec7e6f5f2f7a9e4e8ea" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-contact"></span>
+                                    <span class="mini-profile__info-content"><span class="__cf_email__" data-cfemail="543530223d273b262d14352621247a373b39">[email&#160;protected]</span></span>
+                                </a>
+                            </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
+                                <a href="tel:+44 (0) 161 228 2331" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>
+                                    <span class="mini-profile__info-content">
+                                        +44 (0) 161 228 2331
+                                        <br />
+                                        <span class="mini-profile__info-meta">Manchester, 9/6/2019 5:04:07 PM</span>
+                                    </span>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+</div>
 </article>

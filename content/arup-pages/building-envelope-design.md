@@ -4,7 +4,7 @@ date: 2019-06-26T13:54:36+01:00
 draft: false
 type: perspective
 ---
-
+<article>
 <section class="fullbleed  fullbleed--hero fullbleed--project fullbleed--video">
     <div class="fullbleed__inner">
         <div class="overlay"></div>
@@ -13,7 +13,7 @@ type: perspective
         <img src="https://www.arup.com/-/media/arup/images/projects/a/amorepacific/2000x1125amorepacific-1-c-noshe.jpg?h=1125&la=en&w=2000&hash=5D996C9120D5C3ADC0941A9F6D3F4371225E7EBB" class="mainImg" alt="" width="2000" height="1125" DisableWebEdit="False" />;
     </div>
             <video preload="auto" loop="true" muted="muted" class="desktop-only">
-                <source src="https://www.arup.com/-/media/arup/videos/bioenergy-facade.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+                <source src="/video/bedlanding.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
             </video>
         <div class="fullbleed__alt-content">
             <div class="container container--3col">
@@ -45,8 +45,8 @@ type: perspective
 </section>
 <script>
     function globalContactClick(name) {
-        dataLayer.push({ 'dataLayer.overlayInfo.type': 'global contact' });
-        dataLayer.push({ 'dataLayer.overlayInfo.name': name });
+        dataLayer.push({ &lsquo;dataLayer.overlayInfo.type&rsquo;: &lsquo;global contact&rsquo; });
+        dataLayer.push({ &lsquo;dataLayer.overlayInfo.name&rsquo;: name });
     }
 </script>
 <section class="utility-bar sticky">
@@ -134,7 +134,7 @@ type: perspective
             </div>
         </div>
         <div class="utility-bar__breadcrumb">
-            <p class="utility-bar__page-title">Building Envelope Design</p>
+            <p class="utility-bar__page-title">Building envelope Design</p>
             <p class="utility-bar__page-subtitle">Talk to Rudi Scheuermann about this service</p>
         </div>
             <div class="utility-bar__contact">
@@ -188,22 +188,22 @@ type: perspective
         </div>
     </div>
 <article id="article-anchor" class="text-content">
-	<section class="container">
-		<div class="rich-text">
-			<div class="reveal rich-text__content">
-				<p>A building’s envelope is the final realisation of the design, and a huge factor in how successful it is as an environment, for work or leisure. The envelope is the building’s outer skin and its connection to the city – it must make sense in both roles at once. Arup has decades of experience designing building envelopes that set new standards.</p>
-			</div>
-		</div>
-	</section>
-	<section class="container">
-		<div class="rich-text">
-			<div class="reveal rich-text__content">
-				<p>When we design building envelopes and façades our aim is to reduce energy consumption and create a comfortable, healthy, secure and safe environment, while at the same time meeting the architectural and aesthetic requirements of the project. Arup designs and engineers building envelopes that offer the required energy performance and produce a great experience for occupants, visitors and tenants alike. </p>
-			</div>
-		</div>
-	</section>
-	<!-- display sample projects -
-	<section class="split-pic highlight-section">
+    <section class="container">
+        <div class="rich-text">
+            <div class="reveal rich-text__content">
+                <p>A building’s envelope is the final realisation of the design, and a huge factor in how successful it is as an environment, for work or leisure. The envelope is the building’s outer skin and its connection to the city – it must make sense in both roles at once. Arup has decades of experience designing building envelopes that set new standards.</p>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="rich-text">
+            <div class="reveal rich-text__content">
+                <p>When we design building envelopes and façades our aim is to reduce energy consumption and create a comfortable, healthy, secure and safe environment, while at the same time meeting the architectural and aesthetic requirements of the project. Arup designs and engineers building envelopes that offer the required energy performance and produce a great experience for occupants, visitors and tenants alike. </p>
+            </div>
+        </div>
+    </section>
+    <!-- display sample projects -
+    <section class="split-pic highlight-section">
     <div class="split-pic__pic-wrap split-pic__pic-wrap--frame">
         <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/a/amorepacific/2000x1125amorepacific-1-c-noshe.jpg?h=1125&la=en&w=2000&hash=5D996C9120D5C3ADC0941A9F6D3F4371225E7EBB')"></div>
         <div class="split-pic__pic split-pic__pic--mobile" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/a/amorepacific/2000x1125amorepacific-1-c-noshe.jpg?h=1125&la=en&w=2000&hash=5D996C9120D5C3ADC0941A9F6D3F4371225E7EBB')"></div>
@@ -229,63 +229,65 @@ type: perspective
     </div>
 </section>-->
 <section class="container">
-		<div class="rich-text">
-			<div class="reveal rich-text__content">
-			</div>
-		</div>
-</section>	
+        <div class="rich-text">
+            <div class="reveal rich-text__content">
+            </div>
+        </div>
+</section><br />
 <style>
-    @media (min-width:768px) and (max-width:1023px) {
-    
-    .inpagenav .inpagenav-item {
-    width: 50%;
-    }
-    }
-    .inpagenav h2 {
-    	font-size:32px;
-    }
-    .inpagenav .inpagenav-item {
-    height:300px;
-    }
-    .inpagenav .inpagenav-item .inner {
-    padding:4rem 20px;
-    }
-    .inpagenav .inpagenav-item .inner .background.background-image {
-    opacity:0.15!important;
-    filter:none!important;
-    }
-    .inpagenav .inpagenav-item .inner h4 {
-    color: rgba(51,51,51,1)!important;
-    font-weight:normal!important;
-    }
-    .inpagenav .inpagenav-item .inner p {
-    color:#343434!important;
-    opacity:0.85;
-    padding-right:20px;
-    }
-    .inpagenav .inpagenav-item .inner .cta {
-    left:13px!important;
-    }
-    .inpagenav .cta--small  .icon {
-    height:2rem;
-    width:2rem;
-    }
-    .learn-more.learn-more--large.reveal .cta {
-    font-size:1.5em;
-    }
-</style>
+    @media (min-width:768px) and (max-width:1023px) {</p>
+
+<pre><code>.inpagenav .inpagenav-item {
+width: 50%;
+}
+}
+.inpagenav h2 {
+    font-size:32px;
+}
+.inpagenav .inpagenav-item {
+height:300px;
+}
+.inpagenav .inpagenav-item .inner {
+padding:4rem 20px;
+}
+.inpagenav .inpagenav-item .inner .background.background-image {
+opacity:0.15!important;
+filter:none!important;
+}
+.inpagenav .inpagenav-item .inner h4 {
+color: rgba(51,51,51,1)!important;
+font-weight:normal!important;
+}
+.inpagenav .inpagenav-item .inner p {
+color:#343434!important;
+opacity:0.85;
+padding-right:20px;
+}
+.inpagenav .inpagenav-item .inner .cta {
+left:13px!important;
+}
+.inpagenav .cta--small  .icon {
+height:2rem;
+width:2rem;
+}
+.learn-more.learn-more--large.reveal .cta {
+font-size:1.5em;
+}
+</code></pre>
+
+<p></style>
 <div class="inpagenav">
     <div class="container">
         <h2>
             Find out how we shape your project
         </h2>
         <div class="inpagenav-container">
-            <style>   
-    [id="C4619586082F43D69CC9E63A3C6601CE"] .inner .background.background-color {
+            <style><br />
+    [id=&ldquo;C4619586082F43D69CC9E63A3C6601CE&rdquo;] .inner .background.background-color {
         background-color: #f2f2f2 !important;
     }
-    [id="C4619586082F43D69CC9E63A3C6601CE"] .inner .background.background-image {
-        background-image: url(https://www.arup.com/-/media/arup/images/expertise/services/advisory-services/navigation/strategynavigation.jpg?h=230&amp;w=390&amp;hash=7E0706DE887DEDB0A70D18E6FF3E989BADE6EEE6) !important;
+    [id=&ldquo;C4619586082F43D69CC9E63A3C6601CE&rdquo;] .inner .background.background-image {
+        background-image: url(<a href="https://www.arup.com/-/media/arup/images/expertise/services/advisory-services/navigation/strategynavigation.jpg?h=230&amp;w=390&amp;hash=7E0706DE887DEDB0A70D18E6FF3E989BADE6EEE6">https://www.arup.com/-/media/arup/images/expertise/services/advisory-services/navigation/strategynavigation.jpg?h=230&amp;w=390&amp;hash=7E0706DE887DEDB0A70D18E6FF3E989BADE6EEE6</a>) !important;
     }
 </style>
 <div class="inpagenav-item" id="C4619586082F43D69CC9E63A3C6601CE">
@@ -306,10 +308,10 @@ type: perspective
     </a>
 </div>
 <style>
-    [id="BB88AFA79CC84BAC9818220B79A338B8"] .inner .background.background-color {
+    [id=&ldquo;BB88AFA79CC84BAC9818220B79A338B8&rdquo;] .inner .background.background-color {
         background-color: #ebebeb !important;
     }
-    [id="BB88AFA79CC84BAC9818220B79A338B8"] .inner .background.background-image {
+    [id=&ldquo;BB88AFA79CC84BAC9818220B79A338B8&rdquo;] .inner .background.background-image {
         background-image: url(/images/arup-pages/building-envelopes/facade-management.jpg) !important;
     }
 </style>
@@ -322,7 +324,7 @@ type: perspective
                 Facade access and BMU
             </h4>
             <p>
-                Arup offers a specialist building maintenance and façade access design service, ensuring a building stays viable and well maintained throughout its life.  
+                Arup offers a specialist building maintenance and façade access design service, ensuring a building stays viable and well maintained throughout its life.<br />
             </p>
             <div class="expertise-services__cta cta cta--black cta--small">
                 <span data-grunticon-embed class="icon icon-oval"></span>
@@ -330,11 +332,11 @@ type: perspective
         </div>
     </a>
 </div>
-<style>    
-    [id="805035DA0DC1410A82D6EAB3E59E3E86"] .inner .background.background-color {
+<style><br />
+    [id=&ldquo;805035DA0DC1410A82D6EAB3E59E3E86&rdquo;] .inner .background.background-color {
         background-color: #f2f2f2 !important;
     }
-    [id="805035DA0DC1410A82D6EAB3E59E3E86"] .inner .background.background-image {
+    [id=&ldquo;805035DA0DC1410A82D6EAB3E59E3E86&rdquo;] .inner .background.background-image {
         background-image: url(/-/media/arup/images/expertise/services/advisory-services/navigation/programmesnavigation.jpg?h=230&amp;w=390&amp;hash=CDDAC0B0E36E5BF932FDC60C8053EA411A82781E) !important;
     }
 </style>
@@ -347,7 +349,7 @@ type: perspective
                 Green building envelopes
             </h4>
             <p>
-                As cities demand better air quality and greater energy efficiency, green building envelopes are gaining in popularity. We are leading the way in implementing green infrastructure across the built environment. 
+                As cities demand better air quality and greater energy efficiency, green building envelopes are gaining in popularity. We are leading the way in implementing green infrastructure across the built environment.
             </p>
             <div class="expertise-services__cta cta cta--black cta--small">
                 <span data-grunticon-embed class="icon icon-oval"></span>
@@ -358,14 +360,14 @@ type: perspective
 </div></div>
 </div>
 <section class="container">
-		<div class="rich-text">
-			<div class="reveal rich-text__content">
-				<h2>A complete (and green) vision</h2><p>
+        <div class="rich-text">
+            <div class="reveal rich-text__content">
+                <h2>A complete (and green) vision</h2><p>
 Our cities are becoming more dense. They struggle with growing heat and pollution. That’s why building envelope design requires us to consider every element together, from a building’s position, to its use, the proposed materials and client’s operational goals. We then explore ways a building’s external envelope can provide natural ventilation, with façades that prevent energy input while also contributing usefully to its active energy requirements. It’s a balancing act, a design challenge and always an opportunity to achieve something new and innovative. </p>
-			</div>
-		</div>
-	</section>
-	<section class="container">
+            </div>
+        </div>
+    </section>
+    <section class="container">
     <div class="dynamic-feat">
         <header class="dynamic-feat__header">
                 <div class="dynamic-feat__title-wrap">
@@ -377,7 +379,7 @@ Our cities are becoming more dense. They struggle with growing heat and pollutio
 <li class="up-list__item up-list__item--three">
     <a href="/arup-pages/science/" class="preview-card ">
             <header class="preview-card__header preview-card__header--pic">
-                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/m/macquarie-university-incubator/1-macquarie-university-incubatorheromurray-fredericks-20172000x1125.jpg?h=1125&la=en&w=2000&hash=9D92A43B067BCD068D04CA2DB25A76582BD637AB');"></div>
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/b/blox/2-2000x1125-r_hjortshoj--blox200.jpg?h=1125&la=en&w=2000&hash=72EA60993F9F2CC665652DE93B27EF3278FD6444');"></div>
             </header>
         <div class="preview-card__content preview-card__content--alt-style">
             <div class="preview-card__main">
@@ -385,9 +387,9 @@ Our cities are becoming more dense. They struggle with growing heat and pollutio
                     <h4 class="preview-copy__label label--md">
                         Project
                     </h4>
-                    <h3 class="preview-copy__title ">Macquarie University Incubator</h3>
+                    <h3 class="preview-copy__title ">BLOX</h3>
                     <div class="preview-copy__copy-wrap">
-                            <p class="preview-copy__copy">The Incubator was designed with innovation and sustainability front of mind. Constructed primarily out of timber, the building boasts a flexible layout across two connecting pavilions.</p>
+                            <p class="preview-copy__copy">The building envelope meets with ambitious energy efficiency and sustainability targets that make the façade work thermally in the Danish climate.</p>
                     </div>
                 </div>
             </div>
@@ -411,7 +413,7 @@ Our cities are becoming more dense. They struggle with growing heat and pollutio
                     </h4>
                     <h3 class="preview-copy__title ">Al Bahr Towers</h3>
                     <div class="preview-copy__copy-wrap">
-                            <p class="preview-copy__copy">The project comprises two 150m tall towers that share a common podium and a two-level basement for which Arup provided a range of engineering services</p>
+                            <p class="preview-copy__copy">he towers are overclad by a unique dynamic shading system, a modular ‘Mashrabiya‘, that provides self-shading as the sun moves around the building. </p>
                     </div>
                 </div>
             </div>
@@ -435,7 +437,7 @@ Our cities are becoming more dense. They struggle with growing heat and pollutio
                     </h4>
                     <h3 class="preview-copy__title ">California Academy of Sciences</h3>
                     <div class="preview-copy__copy-wrap">
-                            <p class="preview-copy__copy">Arup worked closely with the Academy to devise and document the many sustainability strategies required for a Platinum LEED® rating.
+                            <p class="preview-copy__copy">The visually-striking building features an undulating 2.5 acre living roof with 1.7 million native plants as well as a perimeter steel canopy supporting photovoltaic cells.
 </p>
                     </div>
                 </div>
@@ -450,40 +452,81 @@ Our cities are becoming more dense. They struggle with growing heat and pollutio
         </div>
     </div>
 </section>
-</article>
-	<section class="container">
-		<div class="rich-text">
-			<div class="reveal rich-text__content">
-				<p>
+<section class="learn-more learn-more--large reveal" style="background-image: url(https://www.arup.com/-/media/arup/images/expertise/services/facadeszaragoza-expo-2008-pavilion-bridge-puente-pabellnc-fgsg-fotografia-de-arquitectura.jpg?h=1125&la=en&w=2000&hash=F78AF904983F828FACBF38CB93F357FEFF4F5BFF)">
+    <div class="learn-more__inner" >
+        <h4 class="learn-more__title" style="font-style: normal;">Discover how we&rsquo;ve shaped building envelopes around the world.</h4>
+        <a href="#" class="cta cta--small cta--mono" style="font-size:1.5em;">
+            <span data-grunticon-embed class="cta__icon icon icon-oval"></span>
+            <span class="cta__text">See all our case studies</span>
+        </a>
+    </div>
+</section>
+    <section class="container">
+        <div class="rich-text">
+            <div class="reveal rich-text__content">
+                <p>
 We are also increasingly designing green building envelopes, to help clients operate buildings that can make a significant contribution to solving current problems relating to storm water management, particulate matter pollution and inner-city overheating. </p><P><a href="#">Read more about our expertise in a new generation of green building envelope design</a>
 </p>
-			</div>
-		</div>
-	</section>
-	<section class="container">
-		<div class="rich-text">
-			<div class="reveal rich-text__content">
-				<h2>Future-focused, ‘conscious design’</h2>
-			<p>Our team develop the most efficient combinations of insulation, heating and shading in every project. We’re also rethinking the fundamentals, increasingly choosing materials that use less embedded energy and lower CO2 emissions, using re-usable elements in keeping with circular economy principles maintaining it well for longer future use.</p>
-			</div>
-		</div>
-</section>
-<section class="publications reveal">
-    <div class="container">
-        <div class="publications__heading">
-            <a href="/perspectives/publications/research/section/circular-economy-in-the-built-environment" hidelinkdescription="True">
-                <span class="title">Publication</span>
-                    <h2>Circular Economy in the Built Environment</h2>
-                <p>Our research outlines key principles of the circular economy, using the Ellen MacArthur Foundation’s ReSOLVE framework to explore and contextualise practical applications in the built environment. </p>
-            </a>
-            <a href="/perspectives/publications/research/section/circular-economy-in-the-built-environment" hidelinkdescription="True" class="cta cta--black cta--lg">
-                <span data-grunticon-embed class="icon icon-oval"></span>
-                    <span>Download</span>
-            </a>
+            </div>
         </div>
-            <a href="/perspectives/publications/research/section/circular-economy-in-the-built-environment" class="image-link">
-                <img src="https://www.arup.com/-/media/arup/images/publications/c/circular_economy_in_the_built_environment.jpg?h=256&amp;la=en&amp;mw=180&amp;w=180&amp;hash=C05C0548FBAAFA167F1C08DF556707D2A8602BEB" alt="" width="180" height="256" DisableWebEdit="False" />
-            </a>
+    </section>
+    <section class="container">
+        <div class="rich-text">
+            <div class="reveal rich-text__content">
+                <h2>Future-focused, ‘conscious design’</h2>
+            <p>Our team develop the most efficient combinations of insulation, heating and shading in every project. We’re also rethinking the fundamentals, increasingly choosing materials that use less embedded energy and lower CO2 emissions, using re-usable elements in keeping with circular economy principles maintaining it well for longer future use.</p>
+            </div>
+        </div>
+</section>
+<section class="container">
+    <header class="section-header section-header--line  ">
+        <div class="section-header__title-wrap section-title section-title--nopad">
+            <h4 class="section-title__title"></h4>
+        </div>
+        <div class="section-header__cta-wrap">
+<a class="cta cta--small cta--black" href="/perspectives/publications">                <span class="cta__copy">Explore our publications</span>
+                <span data-grunticon-embed class="cta__icon icon icon-oval"></span>
+</a>        </div>
+    </header>
+    <div class="item-shelf ">
+            <ul class="item-shelf__list">
+                <li class="item-shelf__item">
+                    <a class="item-shelf__link" href="/perspectives/publications/research/section/rethinking-timber-buildings">
+                            <div class="item-shelf__media">
+                                <div class="item-shelf__pic-wrap">
+                                    <img class="item-shelf__pic" src="https://www.arup.com/-/media/arup/images/publications/c/cities_alive.jpg?h=481&la=en&mw=340&w=340&hash=E2215415B9D9CF99967F8BA7A0DD69E28B739FAD" alt="Rethinking Timber Buildings"/>
+                                </div>
+                            </div>
+                        <div class="item-shelf__copy-wrap">
+                            <h3 class="item-shelf__title">Cities Alive: Rethinking Green Infrastructure</h3>
+                        </div>
+                    </a>
+                </li>
+                <li class="item-shelf__item">
+                    <a class="item-shelf__link" href="/perspectives/publications/research/section/future-of-labs">
+                            <div class="item-shelf__media">
+                                <div class="item-shelf__pic-wrap">
+                                    <img class="item-shelf__pic" src="https://www.arup.com/-/media/arup/images/publications/c/cities_alive_green_building_envelope.jpg?h=482&la=en&mw=340&w=340&hash=170D62E0A559066F916D545A76B541300C6360CB" alt="Future of Labs"/>
+                                </div>
+                            </div>
+                        <div class="item-shelf__copy-wrap">
+                            <h3 class="item-shelf__title">Cities Alive: Green Building Envelope</h3>
+                        </div>
+                    </a>
+                </li>
+                <li class="item-shelf__item">
+                    <a class="item-shelf__link" href="/perspectives/publications/corporate-reports/section/annual-report-2018">
+                            <div class="item-shelf__media">
+                                <div class="item-shelf__pic-wrap">
+                                    <img class="item-shelf__pic" src="https://www.arup.com/-/media/arup/images/publications/c/citiesalivecitiesinaridenvironments_cover_190218.jpg?h=483&la=en&mw=340&w=340&hash=8944CA963F20BA80C9D985944DC9B87C569E264F" alt="Arup Annual Report cover 2018"/>
+                                </div>
+                            </div>
+                        <div class="item-shelf__copy-wrap">
+                            <h3 class="item-shelf__title">Cities Alive: Rethinking Cities in Arid Environments</h3>
+                        </div>
+                    </a>
+                </li>
+        </ul>
     </div>
 </section>
 <hr class="contact-us__topline arrow-line arrow-line--down multicontact" />
@@ -648,44 +691,6 @@ Nina Yiu                                    </h4>
             </div>
             <div class="mini-profile mini-profile--icons">
                 <div class="mini-profile__pic-wrap">
-                    <a href="/our-firm/elzbieta-cichonska" class="mini-profile__link">
-                        <img class="mini-profile__pic" src="" alt="Undefined user" />
-                    </a>
-                </div>
-                <div class="mini-profile__main">
-                    <ul class="mini-profile__info-list">
-                        <li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
-                            <a href="/our-firm/elzbieta-cichonska" class="mini-profile__info-link">
-                                <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
-                                <span class="mini-profile__info-content">
-                                    <h4 class="mini-profile__name">
-                                        Not defined
-                                    </h4>
-                                    <h5 class="mini-profile__job">Europe Building Envelopes Leader</h5>
-                                </span>
-                            </a>
-                        </li>
-                            <li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
-                                <a href="/cdn-cgi/l/email-protection#4c2d283a253f233e350c2d3e393c622f2321" class="mini-profile__info-link mini-profile__info-link--alt">
-                                    <span data-grunticon-embed class="mini-profile__icon icon icon-contact"></span>
-                                    <span class="mini-profile__info-content"><span class="__cf_email__" data-cfemail="721316041b011d000b32130007025c111d1f">[email&#160;protected]</span></span>
-                                </a>
-                            </li>
-                            <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
-                                <a href="tel:+48 (0) 22 455 4554" class="mini-profile__info-link mini-profile__info-link--alt">
-                                    <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>
-                                    <span class="mini-profile__info-content">
-                                        +48 (0) 22 455 4554
-                                        <br />
-                                        <span class="mini-profile__info-meta">Warsaw, 9/6/2019 6:04:07 PM</span>
-                                    </span>
-                                </a>
-                            </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="mini-profile mini-profile--icons">
-                <div class="mini-profile__pic-wrap">
                     <a href="/our-firm/steven-lloyd" class="mini-profile__link">
                         <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/r/russell-cole--buildings-london-facades---c-daniel-imadearup.jpg?gray=1&mw=180&hash=88BF550942B09D58CD104881C186359E97EF7AD1" alt="Steven Lloyd" />
                     </a>
@@ -724,5 +729,4 @@ Nina Yiu                                    </h4>
             </div>
     </div>
 </div>
-
 </article>    

@@ -1,0 +1,59 @@
+	<footer class="footer" role="contentinfo">
+		<div class="footer__menu">
+    		<section class="container">
+				<div class="footer__group footer__group--logo">
+        			<span class="arup-logo"><a href="/index.html">Arup</a></span>
+        			<p>We shape a better world</p>
+      			</div>
+		    	<hr />
+		    	<ul class=" footer__group footer__list footer__right">
+        			<li class=""><a href="../html/careers.html">Careers</a></li>
+        			<li class=""><a href="../html/news.html">News &amp; Events</a></li>
+        			<li class=""><a href="../html/contact.html">Contact</a></li>
+      			</ul>
+    		</section>
+		</div>
+
+		<div class="footer__submenu">
+    		<section class="container">
+        		<div class=" footer__group footer__right">
+            		<ul class="list__icons">
+            			<li><a target="_blank" href="../html/404.html" data-grunticon-embed class="icon icon-twitter">Twitter</a></li>
+            			<li><a target="_blank" href="../html/maintenance.html" data-grunticon-embed class="icon icon-linkedin">LinkedIn</a></li>
+            			<li><a target="_blank" href="#" data-grunticon-embed class="icon icon-facebook">Facebook</a></li>
+            			<li><a target="_blank" href="#" data-grunticon-embed class="icon icon-instagram">Instagram</a></li>
+            			<li><a target="_blank" href="#" data-grunticon-embed class="icon icon-rss">RSS</a></li>
+          			</ul>
+        		</div>
+      			<hr />
+      			<div class="footer__group">
+            		<span class="copyright footer__md">© Arup 2019. All rights reserved <span class="divider"></span> </span>
+          			<ul class="list--inline">
+            			<li><a class="link--small" href="../html/legal.html">Privacy</a><span class="divider footer__mob"></span></li>
+            			<li><a class="link--small" href="../html/legal.html">Legal</a><span class="divider footer__mob"></span></li>
+            			<li><a class="link--small" href="../html/legal.html">Cookies</a></li>
+          			</ul>
+           			<span class="copyright footer__mob">© Arup 2019. All rights reserved <span class="divider footer__md"></span> </span>
+        		</div>
+    		</section>
+		</div>
+	</footer>
+</div>
+<script>document.addEventListener('DOMContentLoaded', function () {grunticon([{{"css/icons.data.svg.css" |relURL}}, {{"css/icons.data.png.css" |relURL}}, {{"css/icons.fallback.css" |relURL}}], grunticon.svgLoadedCallback);});</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js"></script>
+<script src={{"js/lib-feb20.js" | relURL}}></script>
+<script src={{"js/app-feb20.js?=v1" | relURL}} ></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/plugins/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.min.js"></script>
+        <script src="https://preview.wearethink.com/arup-website/assets/js/app-wec.js"></script>
+        <script src={{"js/scroll-demo.js?v=27" | relURL}}></script>-->
+<!--<script src={{"js/steve.js" | relURL}} ></script>-->
+{{ if isset .Params "scripts" }}{{ range .Params.scripts }}<script src="{{ printf "/js/%s" . | relURL }}"></script>{{ end }}{{ end }}
+</body>
+</html>

@@ -218,7 +218,7 @@ type: perspective
             <div class="reveal rich-text__content">
                <h2>The right façade from the start</h2><P>
 The façade is the meeting point of virtually every other building discipline and our façade designs integrate with the structure, building services and others. By understanding the strategic aims of the project in its earliest stages, we can define how the building envelope can achieve the best outcome. We specialise in facades that are easily assembled and can be procured with minimum impact to cost and risk factors.</P>
-<p>The façade is the meeting point of virtually every other building discipline and our façade designs integrate with the structure, building services and others. By understanding the strategic aims of the project in its earliest stages, we can define what the façade should be for the best outcome; facades that are easily assembled and procurable with minimum impact to cost and risk factors. 
+<p>
 With our clients, architectural collaborators and colleagues in industry and academia, we look to the future of our built environment. Investment in research includes design for disassembly and recovery, applying circular economy principles. We design to predicted future weather patterns and developing ideas around comfort/discomfort. All our experience is brought together in one of the industry's most robust specifications which is a critical guide for the successful design and delivery of the project.
   </p><h2>
 Making the complex simple

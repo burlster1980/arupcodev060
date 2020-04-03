@@ -9,8 +9,8 @@ type: perspective
 <section class="fullbleed fullbleed--hero fullbleed--project ">
     <div class="fullbleed__inner">
         <div class="progressiveMedia">
-            <img src="https://www.arup.com/-/media/arup/images/perspectives/themes/cities/cities-alive/green-building-envelopes/cityoflondonskylinelondonukdanielimadearupbearbtifbearb3-large.jpg?h=1125&la=en&w=2000&hash=ABF90FC8EC24A4111DBA61610D27B5E53E4FA7EC" class="tempImg" alt="Sainsbury Laboratory" width="10" height="6" DisableWebEdit="False" />;
-            <img src="https://www.arup.com/-/media/arup/images/perspectives/themes/cities/cities-alive/green-building-envelopes/cityoflondonskylinelondonukdanielimadearupbearbtifbearb3-large.jpg?h=1125&la=en&w=2000&hash=ABF90FC8EC24A4111DBA61610D27B5E53E4FA7EC" class="mainImg" alt="Sainsbury Laboratory" width="2000" height="1125" DisableWebEdit="False" />;
+            <img src="https://www.arup.com/-/media/images/projects/c/california-academy-of-sciences/headerimage3california-academy-of-sciences-golden-gate-parkc-cody-andresenarup1.jpg?h=1125&la=en&w=2000&hash=0B7017657347EF5972976A7D35B66CECA53AC66F" class="tempImg" alt="Sainsbury Laboratory" width="10" height="6" DisableWebEdit="False" />;
+            <img src="https://www.arup.com/-/media/images/projects/c/california-academy-of-sciences/headerimage3california-academy-of-sciences-golden-gate-parkc-cody-andresenarup1.jpg?h=1125&la=en&w=2000&hash=0B7017657347EF5972976A7D35B66CECA53AC66F" class="mainImg" alt="Sainsbury Laboratory" width="2000" height="1125" DisableWebEdit="False" />;
         </div>
         <div class="fullbleed__alt-content">
             <div class="container container--3col">
@@ -175,41 +175,6 @@ type: perspective
                             <span class="footnote">London, local time - 13:00</span>
                     </a>
                             <div class="modal__body">
-                        <div class="contact-info">
-                          <a href="/our-firm/andrew-harrison">
-                                  <img src="https://www.arup.com/-/media/arup/images/people/a/andrew-harrison--bel-3c-daniel-imadearup.jpg?gray=1&amp;hash=CC7F45B52DAC2BE46C189D489DEA3D4C573750FE" alt="Andrew Harrison" />
-                              <p class="name">Andrew Harrison</p>
-                              <p class="position">Global Science and Industry Leader</p>
-                          </a>
-                        </div>
-                        <div class="contact-info">
-                          <a href="/our-firm/joshua-yacknowitz">
-                                  <img src="https://www.arup.com/-/media/arup/images/people/y/yacknowitz_josh-hi-res.jpg?gray=1&amp;hash=01BF984B5AEDB49F678899AE9425386EE8054E3F" alt="Yacknowitz Josh" />
-                              <p class="name">Joshua Yacknowitz</p>
-                              <p class="position">Americas Science and Industry Leader</p>
-                          </a>
-                        </div>
-                        <div class="contact-info">
-                          <a href="/our-firm/dave-martin">
-                                  <img src="https://www.arup.com/-/media/arup/images/people/d/sydney-office-staff--dave-martinc-andy-roberts.jpg?gray=1&amp;hash=0303810E51752B8E68BEDF45FC8A223CA68FB8B0" alt="Dave Martin" />
-                              <p class="name">Dave Martin</p>
-                              <p class="position">Australasia Science and Industry Leader</p>
-                          </a>
-                        </div>
-                        <div class="contact-info">
-                          <a href="/our-firm/matthew-chan">
-                                  <img src="https://www.arup.com/-/media/arup/images/people/m/arup-hong-kong-staff--matthew-chanc-arup.jpg?gray=1&amp;hash=30F64BC3C65274BD345986D757410A1BCBBBBFB7" alt="Matthew Chan" />
-                              <p class="name">Matthew Chan</p>
-                              <p class="position">East Asia Science and Industry Leader</p>
-                          </a>
-                        </div>
-                        <div class="contact-info">
-                          <a href="/our-firm/liam-luddy">
-                                  <img src="https://www.arup.com/-/media/arup/images/people/l/liam-luddy_450x450.png?gray=1&amp;hash=DE3871E797CD67F13056B5D0154D84C7E2446801" alt="Picture of Liam Luddy, Director at Arup" />
-                              <p class="name">Liam Luddy</p>
-                              <p class="position">Director, Europe Science and Industry Leader</p>
-                          </a>
-                        </div>
                 </div>
         </div>
     </div>
@@ -222,19 +187,44 @@ type: perspective
             </div>
         </div>
     </section>
+    <section class="container" id="">
+        <div class="rich-text">
+            <div class="reveal rich-text__content">
+               <h2>Natural diversity</h2><P>
+We offer a wide range of green building envelopes moss walls, tree façades, and urban agriculture initiatives such as vertical farming, beehives and wildlife corridors, which all help to deliver better air quality.
+</p>
+            </div>
+        </div>
+    </section>
+    <section class="container" id="">
+        <div class="rich-text">
+            <div class="reveal rich-text__content">
+               <p>Green roofs greatly improve water management too, enabling storm water retention with timely release to public drainage systems and making it unnecessary to build expensive infrastructural storm water facilities.
+</p>
+            </div>
+        </div>
+    </section>
 <section class="split-pic split-pic--flip ">
     <div class="split-pic__pic-wrap flip-pic split-pic__pic-wrap--frame">
-        <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('/images/arup-pages/building-envelopes/living-wall.jpg')"></div>
-        <div class="split-pic__pic split-pic__pic--mobile" style="background-image: url('/images/arup-pages/building-envelopes/living-wall.jpg')"></div>
+        <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('/images/arup-pages/building-envelopes/living-wall2.jpg')"></div>
+        <div class="split-pic__pic split-pic__pic--mobile" style="background-image: url('/images/arup-pages/building-envelopes/living-wall2.jpg')"></div>
         <p class="split-pic__caption"></p>
     </div>
     <div class="split-pic__content">
         <div class="split-pic__inner">
             <div class="split-pic__copy">
                 <h3 class="h4">Living wall</h3>
-                <p>Construction sites can be noisy, dirty and unattractive for local residents, often for extended periods. Vertical Meadow is an award-winning, Arup-designed green hoarding system that’s cost-effective and makes any construction site a better neighbour.</p>
+                <p>Vertical Meadow is an innovative and cost effective living wall system for temporary applications such as construction site scaffolding and hoardings. Plants and flowers can be grown from seed in-situ on a temporary mat that is easily fixed. Within two or three weeks the first shoots start to appear, before growing into a verdant vertical meadow - turning any unsightly hoarding or scaffolding into something remarkable.</p>
                     <h5></h5>
                     <hr />
+                    <ul class="list list--links">
+                            <li>
+                                <a class="cta cta--black cta--small" href="/expertise/services/advisory-services/strategy-and-insights/foresight" HideLinkDescription="True">
+                                <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
+                                <span class="cta__text">Discover more</span>
+                                </a>
+                            </li>
+                    </ul>
             </div>
         </div>
     </div>
@@ -323,30 +313,13 @@ type: perspective
     </a></div>
         </div>
     </section>-->
-<section class="container" id="">
-        <div class="rich-text">
-            <div class="reveal rich-text__content">
-               <h2>Natural diversity</h2><P>
-We offer a wide range of green building envelopes moss walls, tree façades, and urban agriculture initiatives such as vertical farming, beehives and wildlife corridors, which all help to deliver better air quality. 
-</p>
-            </div>
-        </div>
-    </section>
     <section class="large-quote container">
     <blockquote class="quote reveal">
         <span class="quote__symbol">&#8220;</span>
         <p>We develop green building envelope concepts that are tailored to local and climatically relevant conditions and achieve manifold positive effects that complement each other in the best possible way towards a healthier and more sustainable built environment.  &#8221;</p><span class="people"><img alt="Kaitlin Langdon headshot" height="450" src="https://www.arup.com/-/media/arup/images/people/r/rudi-scheuermannc-thomas-graham.jpg?gray=1&hash=40A8A2FCE1380EF731E90BB7E30B013D36DFC5BE" width="450"> <span class="people__inner"><span class="bold">Rudi Scheuermann</span> <span>Global Building Envelopes Leader</span></span></span>
     </blockquote>
 </section>
-<section class="container" id="">
-        <div class="rich-text">
-            <div class="reveal rich-text__content">
-               <p>Green roofs greatly improve water management too, enabling storm water retention with timely release to public drainage systems and making it unnecessary to build expensive infrastructural storm water facilities.
-</p>
-            </div>
-        </div>
-    </section>
-    <section class="fullbleed fullbleed--secondary fullbleed--hero reveal">
+    <!--<section class="fullbleed fullbleed--secondary fullbleed--hero reveal">
         <div class="progressiveMedia overlay-enabled">
             <img src="https://www.arup.com/-/media/images/projects/c/california-academy-of-sciences/headerimage3california-academy-of-sciences-golden-gate-parkc-cody-andresenarup1.jpg?h=1125&la=en&w=2000&hash=0B7017657347EF5972976A7D35B66CECA53AC66F" class="tempImg" alt="Testing the design at sea" width="10" height="6" DisableWebEdit="False" />
             <img src="https://www.arup.com/-/media/images/projects/c/california-academy-of-sciences/headerimage3california-academy-of-sciences-golden-gate-parkc-cody-andresenarup1.jpg?h=1125&la=en&w=2000&hash=0B7017657347EF5972976A7D35B66CECA53AC66F" class="mainImg" alt="Testing the design at sea" width="4128" height="2322" DisableWebEdit="False" />
@@ -437,17 +410,77 @@ We offer a wide range of green building envelopes moss walls, tree façades, and
         </svg>
     </a></div>
         </div>
-    </section>
+    </section>-->
     <section class="container" id="">
         <div class="rich-text">
             <div class="reveal rich-text__content">
                <h2>Exploring the potential</h2><p>
-Our experts have combined different disciplines in order to quantify the benefits of green building envelopes, examining their potential to mitigate urban noise, air pollution and heat. This extensive research has enabled us to make the effects, in terms of profitability, predictable and measurable.
- 
-</p>
+Our experts have combined different disciplines in order to quantify the benefits of green building envelopes, examining their potential to mitigate urban noise, air pollution and heat. This extensive research has enabled us to make the effects, in terms of profitability, predictable and measurable.</p>
+
+<p></p>
             </div>
         </div>
     </section>
+    <section class="container">
+    <div class=" dynamic-feat reveal">
+            <header class="dynamic-feat__header">
+                <div class="dynamic-feat__title-wrap">
+                    <h4 class="dynamic-feat__title"></h4>
+                </div>
+            </header>
+        <div class="dynamic-feat__list">
+            <ul class="up-list">
+<li class="up-list__item up-list__item--two">
+    <a href="/expertise/services/planning/smart-cities" class="preview-card ">
+            <header class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/c/citigroup-citi-data-centre/citi-data-center_green_2000x1125.jpg?h=1125&la=en&w=2000&hash=C1810AAC83DAA187D1717709D2751F8F3528E9C2');"></div>
+            </header>
+        <div class="preview-card__content preview-card__content--alt-style">
+            <div class="preview-card__main">
+                <div class="preview-copy">
+                    <h4 class="preview-copy__label label--md">
+                        Project
+                    </h4>
+                    <h3 class="preview-copy__title ">Citibank Data Center</h3>
+                    <div class="preview-copy__copy-wrap">
+                            <p class="preview-copy__copy">An iconic green wall - fully irrigated by harvested rainwater - disguises the full volume of the data hall. It complements the extensive green roof and helps maintain a constant building temperature throughout the year while reducing thermal gain in the summer months.</p>
+                    </div>
+                </div>
+            </div>
+            <footer class="preview-card__footer">
+                <div class="preview-foot">
+                </div>
+            </footer>
+        </div>
+    </a>
+</li>
+<li class="up-list__item up-list__item--two">
+    <a href="/expertise/services/planning/smart-cities" class="preview-card ">
+            <header class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/o/one-melbourne-quarter/one-melbourne-quarter-2--lendlease-2000x1125.jpg?h=1500&la=en&w=2667&hash=58872E78FF0FE2675B2032D9FF2BBC593AC5DA54');"></div>
+            </header>
+        <div class="preview-card__content preview-card__content--alt-style">
+            <div class="preview-card__main">
+                <div class="preview-copy">
+                    <h4 class="preview-copy__label label--md">
+                        Project
+                    </h4>
+                    <h3 class="preview-copy__title ">One Melbourne Quarter</h3>
+                    <div class="preview-copy__copy-wrap">
+                            <p class="preview-copy__copy">One Melbourne Quarter opens onto the city’s first Sky Park - one of the most significant public spaces in the central city. Floating above a busy road, we designed the park – and its deck – to a level of resilience which far exceeds typical standards for commercial properties.</p>
+                    </div>
+                </div>
+            </div>
+            <footer class="preview-card__footer">
+                <div class="preview-foot">
+                </div>
+            </footer>
+        </div>
+    </a>
+</li>        </ul>
+        </div>
+    </div>
+</section>
     <section class="container" id="">
         <div class="rich-text">
             <div class="reveal rich-text__content">
@@ -457,7 +490,7 @@ Our experts have combined different disciplines in order to quantify the benefit
             </div>
         </div>
     </section>
-    <section class="publications reveal">
+    <!--<section class="publications reveal">
     <div class="container">
         <div class="publications__heading">
             <a href="/perspectives/publications/research/section/circular-economy-in-the-built-environment" hidelinkdescription="True">
@@ -474,7 +507,7 @@ Our experts have combined different disciplines in order to quantify the benefit
                 <img src="https://www.arup.com/-/media/arup/images/publications/c/cities_alive_green_building_envelope.jpg?h=482&la=en&mw=340&w=340&hash=170D62E0A559066F916D545A76B541300C6360CB" alt="" width="180" height="256" DisableWebEdit="False" />
             </a>
     </div>
-</section>
+</section>-->
 <section class="split-pic ">
     <div class="split-pic__pic-wrap flip-pic split-pic__pic-wrap--frame">
         <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/b/bioenergy-facade/solarleaf_2000x1125.jpg?h=1125&la=en&w=2000&hash=6067027D6FB03735F1ECA85BE9F62C9619F1224B')"></div>
@@ -485,7 +518,7 @@ Our experts have combined different disciplines in order to quantify the benefit
         <div class="split-pic__inner">
             <div class="split-pic__copy">
                 <h3 class="h4">The bioenergy facade</h3>
-                <p>This is a further development of the SolarLeaf façade which was presented as the world's first algae bioreactor façade at the 2013 International Building Exhibition. With the bioenergy façade, the SolarLeaf façade is to be further developed both aesthetically and technologically. </p>
+                <p>This research project is a further development of the SolarLeaf façade, the world’s first algae bioreactor façade, where microalgae are cultivated in glass elements that generate heat for the building operation and biomass for the food and pharmaceutical industries.</p>
                     <h5></h5>
                     <hr />
                     <ul class="list list--links">
@@ -500,6 +533,59 @@ Our experts have combined different disciplines in order to quantify the benefit
         </div>
     </div>
 </section>
+<div class="container">
+    <div class="contact-us contact-us--in-page">
+        <hr class="contact-us__topline arrow-line arrow-line--down" />
+        <div class="contact-us__main">
+            <h3 class="contact-us__title">Talk to our experts about your needs</h3>
+            <div class="contact-us__cta">
+                <a href="/our-firm/josef-hargrave" class="cta cta--black cta--small cta--right cta--plain">
+                    <span data-grunticon-embed class="icon icon-oval"></span>
+                    <span>Contact Josef Hargrave</span>
+                </a>
+            </div>
+        </div>
+        <hr class="contact-us__divide arrow-line arrow-line--down" />
+        <div class="contact-us__contact">
+            <div class="mini-profile mini-profile--icons ">
+                    <div class="mini-profile__pic-wrap ">
+                        <a href="/our-firm/josef-hargrave" class="mini-profile__link">
+                            <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/r/rudi-scheuermannc-thomas-graham.jpg?gray=1&hash=40A8A2FCE1380EF731E90BB7E30B013D36DFC5BE" alt="Josef Hargrave"/>
+                        </a>
+                    </div>
+                <div class="mini-profile__main">
+                    <ul class="mini-profile__info-list">
+                        <li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
+                            <a href="/our-firm/josef-hargrave" class="mini-profile__info-link">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
+                                <span class="mini-profile__info-content">
+                                    <h4 class="mini-profile__name">
+                                        Alistair Law
+                                    </h4>
+                                    <h5 class="mini-profile__job">Global Green building envelopes leader</h5>
+                                </span>
+                            </a>
+                        </li>
+                            <li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
+                                <a href="/cdn-cgi/l/email-protection#aec8c1dccbddc7c9c6daeecfdcdbde80cdc1c3" class="mini-profile__info-link mini-profile__info-link--alt">
+                                    <span data-grunticon-embed class="mini-profile__icon icon icon-contact"></span>
+                                    <span class="mini-profile__info-content"><span class="__cf_email__" data-cfemail="03656c7166706a646b7743627176732d606c6e">[email&#160;protected]</span></span>
+                                </a>
+                            </li>
+                        <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
+                                <a href="tel:+44 (0) 20 7636 1531" class="mini-profile__info-link mini-profile__info-link--alt">
+                                <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span><br />
+                            <span class="mini-profile__info-content">
++44 (0) 20 7636 1531                                                                    <br/><span class="mini-profile__info-meta">London, local time - 10:41pm</span>
+                            </span>
+                                </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     <div class="container">
     <div class="related">
         <p class="footnote"></p>

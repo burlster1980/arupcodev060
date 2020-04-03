@@ -1,127 +1,127 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
-'use strict';
+"use strict";
 
-var _events = require('../libs-th-nk/events/events');
+var _events = require("../libs-th-nk/events/events");
 
-var _dom = require('../libs-th-nk/dom/dom');
+var _dom = require("../libs-th-nk/dom/dom");
 
-var _megaMenu = require('../js/modules/mega-menu');
+var _megaMenu = require("../js/modules/mega-menu");
 
 var _megaMenu2 = _interopRequireDefault(_megaMenu);
 
-var _mobileNav = require('../js/modules/mobile-nav');
+var _mobileNav = require("../js/modules/mobile-nav");
 
 var _mobileNav2 = _interopRequireDefault(_mobileNav);
 
-var _search = require('../js/modules/search');
+var _search = require("../js/modules/search");
 
 var _search2 = _interopRequireDefault(_search);
 
-var _cookie = require('../js/modules/cookie');
+var _cookie = require("../js/modules/cookie");
 
 var _cookie2 = _interopRequireDefault(_cookie);
 
-var _parallax = require('../js/modules/parallax');
+var _parallax = require("../js/modules/parallax");
 
 var _parallax2 = _interopRequireDefault(_parallax);
 
-var _tabs = require('../js/modules/tabs');
+var _tabs = require("../js/modules/tabs");
 
 var _tabs2 = _interopRequireDefault(_tabs);
 
-var _accordion = require('../js/modules/accordion');
+var _accordion = require("../js/modules/accordion");
 
 var _accordion2 = _interopRequireDefault(_accordion);
 
-var _filterClass = require('../js/modules/filter-class');
+var _filterClass = require("../js/modules/filter-class");
 
 var _filterClass2 = _interopRequireDefault(_filterClass);
 
-var _filterSelect = require('../js/modules/filter-select');
+var _filterSelect = require("../js/modules/filter-select");
 
 var _filterSelect2 = _interopRequireDefault(_filterSelect);
 
-var _filterCareer = require('../js/modules/filter-career');
+var _filterCareer = require("../js/modules/filter-career");
 
 var _filterCareer2 = _interopRequireDefault(_filterCareer);
 
-var _strainer = require('../js/modules/strainer');
+var _strainer = require("../js/modules/strainer");
 
 var _strainer2 = _interopRequireDefault(_strainer);
 
-var _loadMore = require('../js/modules/load-more');
+var _loadMore = require("../js/modules/load-more");
 
 var _loadMore2 = _interopRequireDefault(_loadMore);
 
-var _modal = require('../js/modules/modal');
+var _modal = require("../js/modules/modal");
 
 var _modal2 = _interopRequireDefault(_modal);
 
-var _alert = require('../js/modules/alert');
+var _alert = require("../js/modules/alert");
 
 var _alert2 = _interopRequireDefault(_alert);
 
-var _videoCarousel = require('../js/modules/video-carousel');
+var _videoCarousel = require("../js/modules/video-carousel");
 
 var _videoCarousel2 = _interopRequireDefault(_videoCarousel);
 
-var _stickyElement = require('../js/modules/sticky-element');
+var _stickyElement = require("../js/modules/sticky-element");
 
 var _stickyElement2 = _interopRequireDefault(_stickyElement);
 
-var _imageZoom = require('../js/modules/image-zoom');
+var _imageZoom = require("../js/modules/image-zoom");
 
 var _imageZoom2 = _interopRequireDefault(_imageZoom);
 
-var _toggle = require('../js/modules/toggle');
+var _toggle = require("../js/modules/toggle");
 
 var _toggle2 = _interopRequireDefault(_toggle);
 
-var _monogram = require('../js/modules/monogram');
+var _monogram = require("../js/modules/monogram");
 
 var _monogram2 = _interopRequireDefault(_monogram);
 
-var _mediaHotspot = require('../js/modules/media-hotspot');
+var _mediaHotspot = require("../js/modules/media-hotspot");
 
 var _mediaHotspot2 = _interopRequireDefault(_mediaHotspot);
 
-var _timeline = require('../js/modules/timeline');
+var _timeline = require("../js/modules/timeline");
 
 var _timeline2 = _interopRequireDefault(_timeline);
 
-var _home = require('../js/pages/home');
+var _home = require("../js/pages/home");
 
 var _home2 = _interopRequireDefault(_home);
 
-var _hub = require('../js/pages/hub');
+var _hub = require("../js/pages/hub");
 
 var _hub2 = _interopRequireDefault(_hub);
 
-var _projectDetail = require('../js/pages/project-detail');
+var _projectDetail = require("../js/pages/project-detail");
 
 var _projectDetail2 = _interopRequireDefault(_projectDetail);
 
-var _perspectives = require('../js/pages/perspectives');
+var _perspectives = require("../js/pages/perspectives");
 
 var _perspectives2 = _interopRequireDefault(_perspectives);
 
-var _expertise = require('../js/pages/expertise');
+var _expertise = require("../js/pages/expertise");
 
 var _expertise2 = _interopRequireDefault(_expertise);
 
-var _offices = require('../js/pages/offices');
+var _offices = require("../js/pages/offices");
 
 var _offices2 = _interopRequireDefault(_offices);
 
-var _news = require('../js/pages/news');
+var _news = require("../js/pages/news");
 
 var _news2 = _interopRequireDefault(_news);
 
-var _careers = require('../js/pages/careers');
+var _careers = require("../js/pages/careers");
 
 var _careers2 = _interopRequireDefault(_careers);
 
-var _servicegroup = require('../js/pages/servicegroup');
+var _servicegroup = require("../js/pages/servicegroup");
 
 var _servicegroup2 = _interopRequireDefault(_servicegroup);
 
@@ -130,7 +130,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var scrollThrottleAmount = 50;
 
 $.fn.isOnScreen = function () {
-
   var win = $(window);
 
   var viewport = {
@@ -197,17 +196,16 @@ window.throttle = function (func, wait, options) {
 
 window.app = {
   support: function support(test) {
-
     var result = false;
 
     switch (test) {
-      case 'flex':
-        if ('flex' in document.documentElement.style || '-webkit-flex' in document.documentElement.style) {
+      case "flex":
+        if ("flex" in document.documentElement.style || "-webkit-flex" in document.documentElement.style) {
           result = true;
         }
         break;
-      case 'objectFit':
-        if ('objectFit' in document.documentElement.style) {
+      case "objectFit":
+        if ("objectFit" in document.documentElement.style) {
           result = true;
         }
         break;
@@ -226,54 +224,49 @@ window.app = {
     strainers: false,
     ignoreScroll: false,
     hideNav: function hideNav() {
-      $('.header').removeClass('header--docked').addClass('header--fixed').removeClass('header--active');
+      $(".header").removeClass("header--docked").addClass("header--fixed").removeClass("header--active");
     },
     init: function init() {
-
       //Init Page Specific JS
       switch (document.body.id) {
-        case '':
-          window.app.videoCarousel.init();
-          break;
-        case 'home':
+        case "home":
           window.app.videoCarousel.init();
           window.app.home.init();
           break;
-        case 'hub':
+        case "hub":
           window.app.hub.init();
           break;
-        case 'project':
+        case "project":
           window.app.project.init();
           break;
-        case 'perspectives':
+        case "perspectives":
           window.app.videoCarousel.init();
           window.app.perspectives.init();
           break;
-        case 'expertise':
+        case "expertise":
           window.app.expertise.init();
           break;
-        case 'offices':
+        case "offices":
           window.app.offices.init();
           break;
-        case 'newshub':
+        case "newshub":
           window.app.news.init();
           break;
-        case 'careers':
+        case "careers":
           window.app.careers.init();
           break;
-        case 'servicegroup':
+        case "servicegroup":
           window.app.servicegroup.init();
           break;
-        case 'publications':
-
-          if ('objectFit' in document.documentElement.style === false) {
-            $('.publication-category__pub').find('.img-wrap').each(function () {
-              var imagePub = $(this).find('img');
+        case "publications":
+          if ("objectFit" in document.documentElement.style === false) {
+            $(".publication-category__pub").find(".img-wrap").each(function () {
+              var imagePub = $(this).find("img");
               $(this).css({
-                'background-image': 'url(' + imagePub.attr('src') + ')',
-                'background-size': 'cover'
+                "background-image": "url(" + imagePub.attr("src") + ")",
+                "background-size": "cover"
               });
-              imagePub.addClass('hidden').attr('aria-hidden', "true");
+              imagePub.addClass("hidden").attr("aria-hidden", "true");
             });
           }
 
@@ -286,48 +279,90 @@ window.app = {
           };
 
           break;
-        case 'industry':
-          $('.fullbleed__content').addClass('animated');
+        case "industry":
+          $(".fullbleed__content").addClass("animated");
           break;
         default:
           break;
       }
 
+      var twoColTabs = $(".two-col-tabs");
+      if (twoColTabs && twoColTabs.length) {
+        var addTabNav = function addTabNav(links) {
+          links.each(function (i) {
+            $(this).on("click", function (e) {
+              e.preventDefault();
+
+              $(twoColTabs_sidelinks[twoColTabs_active]).parent("li").removeClass("active");
+
+              twoColTabs_active = i;
+              twoColTabs_content.slick("slickGoTo", i);
+
+              $(twoColTabs_sidelinks[twoColTabs_active]).parent("li").addClass("active");
+
+              twoColTabs_mobheader.text($(links[twoColTabs_active]).text());
+            });
+          });
+          $(twoColTabs_sidelinks[twoColTabs_active]).parent("li").addClass("active");
+
+          twoColTabs_mobheader.text($(links[twoColTabs_active]).text());
+        };
+
+        var twoColTabs_sidelinks = twoColTabs.find(".two-col-tabs__leftnav a");
+        var twoColTabs_moblinks = twoColTabs.find(".filter__list a");
+        var twoColTabs_content = twoColTabs.find(".two-col-tabs_content");
+        var twoColTabs_mobheader = twoColTabs.find(".two-col-tabs__header span.filter");
+        var twoColTabs_active = 0;
+
+        twoColTabs_content.slick({
+          dots: false,
+          infinite: false,
+          speed: 500,
+          fade: true,
+          arrows: false,
+          cssEase: "linear",
+          swipe: false
+        });
+
+        addTabNav(twoColTabs_sidelinks);
+        addTabNav(twoColTabs_moblinks);
+      }
+
       //Header
-      var header = $('.header'),
-          logo = $('.arup-logo'),
-          mobNav = $('.mobilenav'),
+      var header = $(".header"),
+          logo = $(".arup-logo"),
+          mobNav = $(".mobilenav"),
           hHeight = header.outerHeight(),
           st = $(window).scrollTop(),
           animate = false;
 
-      var headerTransparentClass = 'header--transparent';
+      var headerTransparentClass = "header--transparent";
 
       function enableHeaderTransparency() {
-        header.removeClass('header--transparent');
-        logo.removeClass('arup-logo--alt');
+        header.removeClass("header--transparent");
+        logo.removeClass("arup-logo--alt");
       }
 
       function disableHeaderTransparency() {
-        if (mobNav.hasClass('active')) {
+        if (mobNav.hasClass("active")) {
           enableHeaderTransparency();
           return;
         }
-        header.addClass('header--transparent');
-        logo.addClass('arup-logo--alt');
+        header.addClass("header--transparent");
+        logo.addClass("arup-logo--alt");
       }
 
       if (header[0].classList.contains(headerTransparentClass)) {
         header[0].dataset.transparent = true;
 
-        header.on('mouseenter', function () {
+        header.on("mouseenter", function () {
           var scroll = $(document).scrollTop();
           if (scroll > 1) {
             return;
           }
           enableHeaderTransparency();
         });
-        header.on('mouseleave', function () {
+        header.on("mouseleave", function () {
           var scroll = $(document).scrollTop();
           if (scroll > 1) {
             return;
@@ -338,13 +373,13 @@ window.app = {
 
       function checkScroll() {
         if (window.app.global.ignoreScroll) {
-          header.removeClass('header--active');
+          header.removeClass("header--active");
           return false;
         }
 
         var scrollt = $(window).scrollTop();
 
-        var mobactive = $('.' + window.app.global.wrapper).hasClass('menu--active');
+        var mobactive = $("." + window.app.global.wrapper).hasClass("menu--active");
 
         //no change
         if (scrollt == st || mobactive) {
@@ -353,7 +388,7 @@ window.app = {
 
         //Scrolled past nav bar?
         if (scrollt <= hHeight) {
-          header.removeClass('header--active').removeClass('header--fixed').removeClass('header--animate').addClass('header--docked');
+          header.removeClass("header--active").removeClass("header--fixed").removeClass("header--animate").addClass("header--docked");
           animate = false;
 
           if (header[0].dataset.transparent) {
@@ -361,16 +396,16 @@ window.app = {
           }
         } else if (scrollt > st) {
           //Scroll down
-          header.removeClass('header--docked');
-          header.addClass('header--fixed').removeClass('header--active');
-          animate ? header.addClass('header--animate') : header.removeClass('header--animate');
+          header.removeClass("header--docked");
+          header.addClass("header--fixed").removeClass("header--active");
+          animate ? header.addClass("header--animate") : header.removeClass("header--animate");
 
           if (window.app.utilitybar) {
             window.app.utilitybar.scroll();
           }
 
-          if ($('.has-menu')) {
-            $('.has-menu').trigger('mouseleave');
+          if ($(".has-menu")) {
+            $(".has-menu").trigger("mouseleave");
           }
 
           if (header[0].dataset.transparent) {
@@ -379,7 +414,7 @@ window.app = {
         } else if (scrollt < st) {
           //Scroll Up
           animate = true;
-          header.addClass('header--fixed').addClass('header--active').addClass('header--animate');
+          header.addClass("header--fixed").addClass("header--active").addClass("header--animate");
 
           if (header[0].dataset.transparent) {
             enableHeaderTransparency();
@@ -399,12 +434,12 @@ window.app = {
       if (bodyStyle) {
         var sAnim = bodyStyle.animation !== undefined || bodyStyle.WebkitAnimation !== undefined || bodyStyle.MsAnimation !== undefined || bodyStyle.OAnimation !== undefined;
         if (!sAnim) {
-          $('body').addClass('no-anim');
+          $("body").addClass("no-anim");
         }
       }
 
       //Tabs if needed
-      var tabs = document.querySelectorAll('.tabs');
+      var tabs = document.querySelectorAll(".tabs");
       if (tabs) {
         for (var i = 0; i < tabs.length; i++) {
           _tabs2.default.init(tabs[i]);
@@ -412,11 +447,11 @@ window.app = {
       }
 
       //Accordion if needed
-      var accordion = document.querySelectorAll('.accordion');
+      var accordion = document.querySelectorAll(".accordion");
       if (accordion) {
         for (var i = 0; i < accordion.length; i++) {
           var letters = false;
-          if ($(accordion[i]).prevAll('.services_letters').length > 0) {
+          if ($(accordion[i]).prevAll(".services_letters").length > 0) {
             letters = true;
           }
           _accordion2.default.init(accordion[i], letters);
@@ -424,36 +459,35 @@ window.app = {
       }
 
       //expertise services on other pages
-      if ($('.expertise-services').length > 0) {
+      if ($(".expertise-services").length > 0) {
         window.app.expertise.serviceCarousel();
       }
 
       //content sliders used on careers and industry
-      $('.content-slider').each(function () {
-
+      $(".content-slider").each(function () {
         var cs = $(this),
-            carousel = $(this).find('.content-slider__carousel:first'),
-            controls = $(this).find('.tabs:first a'),
-            tabs = $(this).find('.tabs:first'),
+            carousel = $(this).find(".content-slider__carousel:first"),
+            controls = $(this).find(".tabs:first a"),
+            tabs = $(this).find(".tabs:first"),
             allowNext = true,
             slideCount = 0,
-            nA = cs.find('.controls:first .next'),
-            pA = cs.find('.controls:first .prev'),
+            nA = cs.find(".controls:first .next"),
+            pA = cs.find(".controls:first .prev"),
             tabsSwiped = false;
 
         //Click on controls
         controls.each(function (i, e) {
-          $(e).on('click', function (ev) {
+          $(e).on("click", function (ev) {
             if (!tabsSwiped) {
-              $(this).addClass("selected").parent().siblings().find('a').removeClass("selected");
+              $(this).addClass("selected").parent().siblings().find("a").removeClass("selected");
               ev.preventDefault();
-              carousel.slick('slickGoTo', i);
+              carousel.slick("slickGoTo", i);
             }
           });
         });
 
         carousel.slick({
-          cssEase: 'ease-in-out',
+          cssEase: "ease-in-out",
           autoplay: false,
           arrows: false,
           swipe: false,
@@ -461,23 +495,22 @@ window.app = {
           adaptiveHeight: true
         });
 
-        carousel.on('afterChange', function (event, slick, currentSlide, nextSlide) {
+        carousel.on("afterChange", function (event, slick, currentSlide, nextSlide) {
           // Prevent bubbling of sub carousel events
 
           if (slick.$slider[0] == carousel[0]) {
-            var $ctrlBoxes = carousel.parents('.js-box-car-container').find('.box-car__ctrl');
+            var $ctrlBoxes = carousel.parents(".js-box-car-container").find(".box-car__ctrl");
             var $activeCtrlBox = $ctrlBoxes.filter('[data-outer-index="' + currentSlide + '"]');
 
-            $ctrlBoxes.removeClass('box-car__ctrl--active');
-            $activeCtrlBox.addClass('box-car__ctrl--active');
+            $ctrlBoxes.removeClass("box-car__ctrl--active");
+            $activeCtrlBox.addClass("box-car__ctrl--active");
           } else {
             carousel[0].children[0].style.height = "auto";
           }
         });
 
         function checkTabs() {
-
-          var tabList = tabs.find('.tab');
+          var tabList = tabs.find(".tab");
           var showArrows = true;
 
           tabList.each(function (i, el) {
@@ -488,13 +521,13 @@ window.app = {
           });
 
           if (showArrows) {
-            cs.find('.controls').addClass('hidden');
-            tabs = $(this).find('.tabs');
+            cs.find(".controls").addClass("hidden");
+            tabs = $(this).find(".tabs");
             var equalWidth = tabs.width() / tabList.length;
-            tabList.css('width', equalWidth);
+            tabList.css("width", equalWidth);
           } else {
-            cs.find('.controls').removeClass('hidden');
-            tabList.css('width', '');
+            cs.find(".controls").removeClass("hidden");
+            tabList.css("width", "");
           }
         }
 
@@ -515,48 +548,48 @@ window.app = {
         }
 
         //Next
-        nA.on('click', function () {
+        nA.on("click", function () {
           if (allowNext) {
-            tabs.slick('slickNext');
+            tabs.slick("slickNext");
           }
         });
 
         //Prev
-        pA.on('click', function () {
-          if (!pA.hasClass('slick-disabled')) {
-            tabs.slick('slickPrev');
+        pA.on("click", function () {
+          if (!pA.hasClass("slick-disabled")) {
+            tabs.slick("slickPrev");
           }
         });
 
         //Enable/Disable Arrow
         function arrowEnable(arrow) {
-          arrow.removeClass('slick-disabled');
-          arrow.attr('aria-disabled', 'false');
+          arrow.removeClass("slick-disabled");
+          arrow.attr("aria-disabled", "false");
         }
 
         function arrowDisable(arrow) {
-          arrow.addClass('slick-disabled');
-          arrow.attr('aria-disabled', 'true');
+          arrow.addClass("slick-disabled");
+          arrow.attr("aria-disabled", "true");
         }
 
-        tabs.on('init', function (event, slick, currentSlide, nextSlide) {
+        tabs.on("init", function (event, slick, currentSlide, nextSlide) {
           slideCount = slick.slideCount - 1;
           arrowDisable(pA);
           checkTabs();
           checkNext(slick);
-          _events.events.on(window, 'resize', function () {
+          _events.events.on(window, "resize", function () {
             checkTabs();
             checkNext(slick);
           });
         });
 
-        tabs.on('swipe', function (event, slick, currentSlide, nextSlide) {
+        tabs.on("swipe", function (event, slick, currentSlide, nextSlide) {
           tabsSwiped = true;
         });
 
-        tabs.on('afterChange', function (event, slick, currentSlide) {
-          $(controls[currentSlide]).addClass("selected").parent().siblings().find('a').removeClass("selected");
-          carousel.slick('slickGoTo', currentSlide);
+        tabs.on("afterChange", function (event, slick, currentSlide) {
+          $(controls[currentSlide]).addClass("selected").parent().siblings().find("a").removeClass("selected");
+          carousel.slick("slickGoTo", currentSlide);
 
           checkNext(slick);
           if (currentSlide == 0) {
@@ -568,7 +601,7 @@ window.app = {
           tabsSwiped = false;
         });
         tabs.slick({
-          slide: '.tab',
+          slide: ".tab",
           arrows: false,
           infinite: false,
           variableWidth: true
@@ -576,13 +609,12 @@ window.app = {
       });
 
       // Utility Bar
-      var stickyElements = document.querySelectorAll('.sticky');
+      var stickyElements = document.querySelectorAll(".sticky");
       this.stickyElementsArray = [];
       if (stickyElements) {
         for (var i = 0; i < stickyElements.length; i++) {
-
-          if (stickyElements[i].hasAttribute('data-alternativeTrigger')) {
-            var sticky = new _stickyElement2.default(stickyElements[i], stickyElements[i].getAttribute('data-alternativeTrigger'));
+          if (stickyElements[i].hasAttribute("data-alternativeTrigger")) {
+            var sticky = new _stickyElement2.default(stickyElements[i], stickyElements[i].getAttribute("data-alternativeTrigger"));
           } else {
             var sticky = new _stickyElement2.default(stickyElements[i]);
           }
@@ -601,63 +633,61 @@ window.app = {
       // todo remove redundant smooth scrolling
 
       // Anchor Smooth Scrolling 1
-      var anchorScrollElem = document.querySelectorAll('.anchor-scroll');
+      var anchorScrollElem = document.querySelectorAll(".anchor-scroll");
       var anchorScrollDuration = 500;
 
       if (anchorScrollElem) {
         for (var i = 0; i < anchorScrollElem.length; i++) {
           _events.events.on(anchorScrollElem[i], "click", function (e) {
-
             e.preventDefault();
-            var target = $(e.currentTarget).attr('href');
+            var target = $(e.currentTarget).attr("href");
 
-            $('html, body').animate({
-              scrollTop: $(target).offset().top - $('.header').height()
+            $("html, body").animate({
+              scrollTop: $(target).offset().top - $(".header").height()
             }, anchorScrollDuration);
           });
         }
       }
 
       // Anchor Smooth Scrolling 2
-      $('a[data-scrollto]').on('click', function (e) {
+      $("a[data-scrollto]").on("click", function (e) {
         e.preventDefault();
-        var target = $(this).attr('href');
+        var target = $(this).attr("href");
 
         if ($(target).length == 0) return false;
 
         var targetTop = $(target).offset().top;
-        var currentScroll = $('body').scrollTop();
+        var currentScroll = $("body").scrollTop();
 
-        if ($('.stickyEl').length) {
+        if ($(".stickyEl").length) {
           if ($(window).width() < window.app.global.desktop) {
             //mobile
-            var el = $('.stickyEl:not(.services_letters)');
+            var el = $(".stickyEl:not(.services_letters)");
             if (el.length) {
               targetTop -= el.outerHeight();
             }
 
-            var header = $('.header--fixed');
+            var header = $(".header--fixed");
             if (header.length) {
               targetTop -= header.outerHeight();
             }
           } else {
             //desktop
-            targetTop -= $('.stickyEl').outerHeight();
+            targetTop -= $(".stickyEl").outerHeight();
           }
           if (currentScroll > targetTop) {
-            targetTop -= $('.header').outerHeight();
+            targetTop -= $(".header").outerHeight();
           }
         }
 
         var animationDuration = Math.round(Math.abs($(window).scrollTop() - targetTop)) / 2;
         animationDuration < 400 ? animationDuration = 400 : animationDuration = animationDuration;
 
-        $("html, body").animate({ scrollTop: targetTop }, animationDuration, 'easeOutQuint');
+        $("html, body").animate({ scrollTop: targetTop }, animationDuration, "easeOutQuint");
       });
 
       var _this = this;
-      _events.events.on(window, 'resize', function () {
-
+      _events.events.on(window, "resize", function () {
         //reset sticky elements
         for (var i = 0; i < _this.stickyElementsArray.length; i++) {
           _this.stickyElementsArray[i].reset();
@@ -665,7 +695,7 @@ window.app = {
       });
 
       //Assign Parallax
-      var heros = document.querySelectorAll('.hero--image, .hero--careers, .fullbleed--expertise');
+      var heros = document.querySelectorAll(".hero--image, .hero--careers, .fullbleed--expertise");
       var obj = this;
 
       //temp - disabling parallax
@@ -681,10 +711,10 @@ window.app = {
       //   });
       // }
 
-      $('.hero__content').addClass('animated');
+      $(".hero__content").addClass("animated");
 
       // Image Expand
-      var imagezoom = document.querySelectorAll('.image-expand');
+      var imagezoom = document.querySelectorAll(".image-expand");
       if (imagezoom) {
         if (window.innerWidth >= window.app.global.tabletl) {
           var imageEl = [];
@@ -695,22 +725,22 @@ window.app = {
       }
 
       //Video Loader
-      if ($('.fullbleed--video').length > 0) {
-        $('.fullbleed--video video').each(function (i, v) {
+      if ($(".fullbleed--video").length > 0) {
+        $(".fullbleed--video video").each(function (i, v) {
           v.addEventListener("canplaythrough", function () {
-            $(v).addClass('active');
+            $(v).addClass("active");
             v.play();
           });
 
           if (v.readyState > 3) {
-            $(v).addClass('active');
+            $(v).addClass("active");
             v.play();
           }
         });
       }
 
       //Monograms
-      var monograms = document.querySelectorAll('.monogram');
+      var monograms = document.querySelectorAll(".monogram");
       if (monograms) {
         for (var i = 0; i < monograms.length; i++) {
           var g = new _monogram2.default(monograms[i]);
@@ -729,38 +759,35 @@ window.app = {
     }
   },
   objectFitFallback: function objectFitFallback() {
-    var container = document.querySelectorAll('.fullbleed__inner .progressiveMedia');
+    var container = document.querySelectorAll(".fullbleed__inner .progressiveMedia");
 
     for (var i = 0; i < container.length; i++) {
-
-      var image = container[i].querySelector('.mainImg');
+      var image = container[i].querySelector(".mainImg");
       if (image && image.src) {
         var imageSource = image.src;
         var wrapper = $("<div class='objectFit'></div>");
         $(image).wrap("<div class='objectFit' style='background-size:cover;background-position:center center; background-image:url(" + imageSource + ")'></div>");
 
-        image.style.display = 'none';
+        image.style.display = "none";
       }
     }
   },
   reveal: {
-
     init: function init() {
-
       //Define animations
       window.pro_sr = ScrollReveal();
 
       //Apply animations if not in view
-      var scrollItems = document.querySelectorAll('.reveal');
+      var scrollItems = document.querySelectorAll(".reveal");
       for (var i = 0; i < scrollItems.length; i++) {
         if ($(scrollItems[i]).isOnScreen()) {
-          scrollItems[i].setAttribute('data-ignore-anim', true);
+          scrollItems[i].setAttribute("data-ignore-anim", true);
         }
       }
 
       window.pro_sr.reveal('.reveal:not([data-ignore-anim="true"])', {
         duration: 700,
-        distance: '50px',
+        distance: "50px",
         viewFactor: 0.2,
         opacity: 0,
         scale: 1,
@@ -769,16 +796,16 @@ window.app = {
       });
 
       //Specific SR
-      var introfacts = document.querySelectorAll('.intro-facts');
+      var introfacts = document.querySelectorAll(".intro-facts");
 
       for (var i = 0; i < introfacts.length; i++) {
         if ($(introfacts[i]).isOnScreen()) {
-          introfacts[i].setAttribute('data-ignore-anim', true);
+          introfacts[i].setAttribute("data-ignore-anim", true);
         }
       }
       window.pro_sr.reveal('.intro-facts:not([data-ignore-anim="true"]) .fact', {
         duration: 700,
-        distance: '50px',
+        distance: "50px",
         viewFactor: 0.2,
         opacity: 0,
         scale: 1,
@@ -787,16 +814,16 @@ window.app = {
       }, 50);
 
       //Large Containers
-      var scrollItemsL = document.querySelectorAll('.reveal-large');
+      var scrollItemsL = document.querySelectorAll(".reveal-large");
       for (var i = 0; i < scrollItemsL.length; i++) {
         if ($(scrollItemsL[i]).isOnScreen()) {
-          scrollItemsL[i].setAttribute('data-ignore-anim', true);
+          scrollItemsL[i].setAttribute("data-ignore-anim", true);
         }
       }
 
       window.pro_sr.reveal('.reveal-large:not([data-ignore-anim="true"])', {
         duration: 700,
-        distance: '50px',
+        distance: "50px",
         viewFactor: 0.05,
         opacity: 0,
         scale: 1,
@@ -807,72 +834,80 @@ window.app = {
     refresh: function refresh() {
       window.pro_sr.sync();
     }
-
   },
   carousels: {
     init: function init() {
-
       //Carousels that could be used globally
 
       //Fullbleed carousel
-      var carousel = $('.fullbleed-carousel__slides');
+      var carousel = $(".fullbleed-carousel__slides");
       if (carousel.length > 0) {
+        var update = function update(root, index) {
+          var desctext = root.find('.slide:eq(' + index + ')').attr('data-description');
+
+          var darktext = root.find('.slide:eq(' + index + ')').attr('data-darktext');
+          var isDark = darktext && darktext === 'true' || false;
+
+          if (isDark) {
+            root.addClass('dark-text');
+          } else {
+            root.removeClass('dark-text');
+          }
+
+          root.find('.fullbleed-carousel__text').text(desctext);
+        };
 
         carousel.each(function (i, el) {
-
           var fullCarousel = $(el);
           var fullCarouselParent = fullCarousel.parent();
 
-          fullCarousel.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+          fullCarousel.on("beforeChange", function (event, slick, currentSlide, nextSlide) {
             //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
             var i = (nextSlide ? nextSlide : 0) + 1;
+
             fullCarouselParent.find('.current').text(i);
-            var desctext = fullCarousel.find('.slide:eq(' + nextSlide + ')').attr('data-description');
-            fullCarouselParent.find('.fullbleed-carousel__text').text(desctext);
+
+            update(fullCarouselParent, nextSlide);
           });
           fullCarousel.on('init reInit', function (event, slick, currentSlide, nextSlide) {
             fullCarouselParent.find('.total').text(slick.slideCount);
+            update(fullCarouselParent, currentSlide || 0);
           });
           fullCarousel.slick({
             infinite: true,
             speed: 500,
             fade: true,
-            dots:true,
-            dotsClass: 'slick-dots',
-            cssEase: 'linear',
-            swipe:true,
-            prevArrow: $(fullCarouselParent).find('.icon-prev'),
-            nextArrow: $(fullCarouselParent).find('.icon-next')
+            cssEase: "linear",
+            prevArrow: $(fullCarouselParent).find(".icon-prev"),
+            nextArrow: $(fullCarouselParent).find(".icon-next")
           });
         });
       }
 
       //Halfbleed carousel
-      var carouselHB = $('.halfbleed-carousel__slides');
+      var carouselHB = $(".halfbleed-carousel__slides");
       if (carouselHB.length > 0) {
-
         carouselHB.each(function (i, el) {
-
           var carouselHalf = $(el);
           var halfCarouselParent = carouselHalf.parent();
 
-          carouselHalf.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+          carouselHalf.on("beforeChange", function (event, slick, currentSlide, nextSlide) {
             //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
             var i = (nextSlide ? nextSlide : 0) + 1;
-            halfCarouselParent.find('.current').text(i);
-            var desctext = carouselHalf.find('.slide:eq(' + nextSlide + ')').attr('data-description');
-            halfCarouselParent.find('.carousel__desc').text(desctext);
+            halfCarouselParent.find(".current").text(i);
+            var desctext = carouselHalf.find(".slide:eq(" + nextSlide + ")").attr("data-description");
+            halfCarouselParent.find(".carousel__desc").text(desctext);
           });
-          carouselHalf.on('init reInit', function (event, slick, currentSlide, nextSlide) {
-            halfCarouselParent.find('.total').text(slick.slideCount);
+          carouselHalf.on("init reInit", function (event, slick, currentSlide, nextSlide) {
+            halfCarouselParent.find(".total").text(slick.slideCount);
           });
           carouselHalf.slick({
             infinite: true,
             speed: 500,
             fade: true,
-            cssEase: 'linear',
-            prevArrow: halfCarouselParent.find('.carousel-prev'),
-            nextArrow: halfCarouselParent.find('.carousel-next'),
+            cssEase: "linear",
+            prevArrow: halfCarouselParent.find(".carousel-prev"),
+            nextArrow: halfCarouselParent.find(".carousel-next"),
             dots: true,
             responsive: [{
               breakpoint: window.app.global.desktop,
@@ -885,17 +920,16 @@ window.app = {
       }
 
       //Related Projects
-      var carouselProject = $('.related-projects');
-      $('.related-projects').last().css('margin-right', 0);
-      if (carouselProject && carouselProject.find('.related-project').length > 0) {
-
-        if (!carouselProject.hasClass('slick-initialized')) {
+      var carouselProject = $(".related-projects");
+      $(".related-projects").last().css("margin-right", 0);
+      if (carouselProject && carouselProject.find(".related-project").length > 0) {
+        if (!carouselProject.hasClass("slick-initialized")) {
           carouselProject.slick({
             speed: 500,
-            cssEase: 'linear',
+            cssEase: "linear",
             infinite: false,
             centerMode: true,
-            centerPadding: '20px',
+            centerPadding: "20px",
             arrows: false,
             mobileFirst: true,
             slide: ".related-project",
@@ -904,24 +938,23 @@ window.app = {
               settings: "unslick"
             }]
           });
-          $(window).on('resize orientationchange', function () {
-            carouselProject.slick('resize');
+          $(window).on("resize orientationchange", function () {
+            carouselProject.slick("resize");
           });
         }
       }
 
       //Related Perspectives
-      var carouselPerspectives = $('.related-perspectives');
-      $('.related-perspective').last().css('margin-right', 0);
+      var carouselPerspectives = $(".related-perspectives");
+      $(".related-perspective").last().css("margin-right", 0);
       if (carouselPerspectives.length > 0) {
-
-        if (!carouselPerspectives.hasClass('slick-initialized')) {
+        if (!carouselPerspectives.hasClass("slick-initialized")) {
           carouselPerspectives.slick({
             speed: 500,
-            cssEase: 'linear',
+            cssEase: "linear",
             infinite: false,
             centerMode: true,
-            centerPadding: '20px',
+            centerPadding: "20px",
             arrows: false,
             mobileFirst: true,
             slide: ".related-perspective",
@@ -930,20 +963,20 @@ window.app = {
               settings: "unslick"
             }]
           });
-          $(window).on('resize orientationchange', function () {
-            carouselPerspectives.slick('resize');
+          $(window).on("resize orientationchange", function () {
+            carouselPerspectives.slick("resize");
           });
         }
       }
 
       //Publications Carousel
-      var publicationsCarousel = $('.publications--multi');
+      var publicationsCarousel = $(".publications--multi");
       if (publicationsCarousel.length > 0) {
-        $('.publications--multi .publications__items').slick({
+        $(".publications--multi .publications__items").slick({
           infinite: false,
           arrows: false,
           speed: 500,
-          cssEase: 'linear',
+          cssEase: "linear",
           slidesToShow: 4,
           responsive: [{
             breakpoint: window.app.global.mobile,
@@ -955,16 +988,15 @@ window.app = {
       }
 
       //Up Lists
-      var carouselUp = $('.up-list:not(.up-list--basic)');
-      if (carouselUp && carouselUp.find('.up-list__item').length > 0) {
-
-        if (!carouselUp.hasClass('slick-initialized')) {
+      var carouselUp = $(".up-list:not(.up-list--basic)");
+      if (carouselUp && carouselUp.find(".up-list__item").length > 0) {
+        if (!carouselUp.hasClass("slick-initialized")) {
           carouselUp.slick({
             speed: 500,
-            cssEase: 'linear',
+            cssEase: "linear",
             infinite: false,
             centerMode: true,
-            centerPadding: '18px', //site gutter minus margin on items
+            centerPadding: "18px", //site gutter minus margin on items
             arrows: false,
             mobileFirst: true,
             slide: ".up-list__item",
@@ -973,35 +1005,35 @@ window.app = {
               settings: "unslick"
             }]
           });
-          $(window).on('resize orientationchange', function () {
-            carouselUp.slick('resize');
+          $(window).on("resize orientationchange", function () {
+            carouselUp.slick("resize");
           });
         }
       }
 
       //Box Carousels
-      var carouselBox = $('.box-car');
-      if (carouselBox && carouselBox.find('.box-car__item').length > 0) {
+      var carouselBox = $(".box-car");
+      if (carouselBox && carouselBox.find(".box-car__item").length > 0) {
         for (var i = 0, len = carouselBox.length; i < len; i++) {
           var thisCarouselBox = carouselBox[i];
 
-          var carouselBoxList = $(thisCarouselBox).find('.js-box-car-list');
+          var carouselBoxList = $(thisCarouselBox).find(".js-box-car-list");
 
           // Hack to make arrows work outside parent tab container - see also '.content-slider' carousel afterChange event
-          var outerIndex = carouselBoxList.parents('.slick-slide').data('slick-index');
-          var extraClass = '';
+          var outerIndex = carouselBoxList.parents(".slick-slide").data("slick-index");
+          var extraClass = "";
           if (outerIndex == 0) {
-            extraClass = 'box-car__ctrl--active';
+            extraClass = "box-car__ctrl--active";
           }
-          var $ctrlWrap = carouselBoxList.parents('.js-box-car-container').find('.js-box-car-ctrl');
+          var $ctrlWrap = carouselBoxList.parents(".js-box-car-container").find(".js-box-car-ctrl");
           var $ctrlBox = $('<div class="box-car__ctrl ' + extraClass + '" data-outer-index="' + outerIndex + '"></div>').appendTo($ctrlWrap);
           var $prevArrow = $('<button class="box-car__ctrl-btn box-car__ctrl-btn--prev js-box-car-prev"><span data-grunticon-embed class="box-car__ctrl-icon icon icon-arrow--thin"></button>').appendTo($ctrlBox);
           var $nextArrow = $('<button class="box-car__ctrl-btn box-car__ctrl-btn--next js-box-car-next"><span data-grunticon-embed class="box-car__ctrl-icon icon icon-arrow--thin"></button>').appendTo($ctrlBox);
 
-          if (!carouselBoxList.hasClass('slick-initialized')) {
+          if (!carouselBoxList.hasClass("slick-initialized")) {
             carouselBoxList.slick({
               speed: 500,
-              cssEase: 'linear',
+              cssEase: "linear",
               infinite: false,
               swipe: true,
               fade: true,
@@ -1011,14 +1043,14 @@ window.app = {
               prevArrow: $prevArrow, //thisCarouselBox.querySelector('.js-box-car-prev'),
               nextArrow: $nextArrow //thisCarouselBox.querySelector('.js-box-car-next'),
             });
-            $(window).on('resize orientationchange', function () {
-              carouselBoxList.slick('resize');
+            $(window).on("resize orientationchange", function () {
+              carouselBoxList.slick("resize");
             });
-            carouselBoxList.on('afterChange', function (event, slick, currentSlide, nextSlide) {
-              var $outerCar = carouselBoxList.parents('.content-slider__carousel');
+            carouselBoxList.on("afterChange", function (event, slick, currentSlide, nextSlide) {
+              var $outerCar = carouselBoxList.parents(".content-slider__carousel");
               if ($outerCar.length > 0) {
                 $outerCar.find(".slick-slide").height("auto");
-                $outerCar.slick("setOption", '', '', true);
+                $outerCar.slick("setOption", "", "", true);
               }
             });
           }
@@ -1049,7 +1081,7 @@ window.app = {
   masonry: {
     object: false,
     check: function check() {
-      var elem = document.querySelectorAll('.masonry');
+      var elem = document.querySelectorAll(".masonry");
       if (elem) {
         for (var i = 0; i < elem.length; i++) {
           window.app.masonry.init(elem[i]);
@@ -1057,12 +1089,11 @@ window.app = {
       }
     },
     init: function init(target) {
-
       if (window.innerWidth >= window.app.global.tabletl) {
         this.create(target);
       }
 
-      _events.events.on(window, 'resize', function () {
+      _events.events.on(window, "resize", function () {
         if (window.innerWidth >= window.app.global.tabletl) {
           if (!window.app.masonry.object) {
             window.app.masonry.create(target);
@@ -1075,10 +1106,10 @@ window.app = {
     create: function create(target) {
       var msnry = new Masonry(target, {
         // options
-        itemSelector: '.js-project-item',
-        columnWidth: $(document).find('.masonry--width')[0],
+        itemSelector: ".js-project-item",
+        columnWidth: $(document).find(".masonry--width")[0],
         percentPosition: true,
-        gutter: $(document).find('.masonry--gutter')[0]
+        gutter: $(document).find(".masonry--gutter")[0]
       });
       this.object = msnry;
     },
@@ -1086,7 +1117,6 @@ window.app = {
       this.object.destroy();
       this.object = false;
     }
-
   },
   fullSearch: {
     container: "#search-page",
@@ -1100,19 +1130,18 @@ window.app = {
   filters: {
     init: function init() {
       //Filters
-      var filter = document.querySelectorAll('.filter');
+      var filter = document.querySelectorAll(".filter");
       if (filter) {
-
         window.app.global.filters = new Array();
 
         for (var i = 0; i < filter.length; i++) {
           var reset = null;
-          if (filter[i].getAttribute('data-reset')) {
-            reset = filter[i].getAttribute('data-reset');
+          if (filter[i].getAttribute("data-reset")) {
+            reset = filter[i].getAttribute("data-reset");
             window.app.global.filters[i] = new _filterSelect2.default(filter[i], reset);
-          } else if (filter[i].getAttribute('data-careers')) {
+          } else if (filter[i].getAttribute("data-careers")) {
             window.app.global.filters[i] = new _filterCareer2.default(filter[i]);
-          } else if (!$(filter[i]).hasClass('filter--carousel')) {
+          } else if (!$(filter[i]).hasClass("filter--carousel")) {
             //carousel filters created in the page JS
             window.app.global.filters[i] = new _filterClass2.default(filter[i]);
           }
@@ -1120,9 +1149,8 @@ window.app = {
       }
 
       //Strainers
-      var strainerElems = document.querySelectorAll('.js-strain');
+      var strainerElems = document.querySelectorAll(".js-strain");
       if (strainerElems) {
-
         window.app.global.strainers = new Array();
 
         for (var i = 0; i < strainerElems.length; i++) {
@@ -1132,7 +1160,6 @@ window.app = {
     }
   },
   browserTests: {
-
     userAgent: window.navigator.userAgent,
 
     isIos: function isIos() {
@@ -1142,8 +1169,8 @@ window.app = {
       return false;
     },
     canTransform: function canTransform() {
-      var prefixes = 'transform WebkitTransform MozTransform OTransform msTransform'.split(' ');
-      var div = document.createElement('div');
+      var prefixes = "transform WebkitTransform MozTransform OTransform msTransform".split(" ");
+      var div = document.createElement("div");
       for (var i = 0; i < prefixes.length; i++) {
         if (div && div.style[prefixes[i]] !== undefined) {
           return prefixes[i];
@@ -1153,11 +1180,9 @@ window.app = {
     }
   },
   loadmoreButton: {
-
     init: function init() {
-
-      if (document.querySelector('.load-more')) {
-        var loads = document.querySelectorAll('.load-more');
+      if (document.querySelector(".load-more")) {
+        var loads = document.querySelectorAll(".load-more");
         for (var i = 0; i < loads.length; i++) {
           //if(!$(loads[i]).attr('data-loadactive')){
           var temp = new _loadMore2.default(loads[i]);
@@ -1170,15 +1195,14 @@ window.app = {
     init: function init() {
       // this will be called once all Smart Layers have been rendered
       var callback = function callback(smartlayer) {
-
-        $('.addthis_button_compact').one('click', function () {
+        $(".addthis_button_compact").one("click", function () {
           // remove all layers currently on the page
           smartlayer.destroy();
         });
       };
 
       // on page load, render the Share layer
-      addthis.layers({ 'share': { 'services': 'more' } }, callback);
+      addthis.layers({ share: { services: "more" } }, callback);
       window.app.shareButtons.assign();
     },
     assign: function assign() {
@@ -1187,58 +1211,56 @@ window.app = {
       var animationDuration = 400;
       var _this = this;
 
-      if ($('.share-this').length > 0) {
-        $('.share-this').off('click');
-        $('.share-this').on('click', function (e) {
+      if ($(".share-this").length > 0) {
+        $(".share-this").off("click");
+        $(".share-this").on("click", function (e) {
           e.preventDefault();
 
           if (animating) return false;
 
           if (!shareVisible) {
             shareVisible = true;
-            $(this).next('.addthis_toolbox').fadeIn(animationDuration);
+            $(this).next(".addthis_toolbox").fadeIn(animationDuration);
             animating = true;
             setTimeout(function () {
               animating = false;
             }, animationDuration);
 
             setTimeout(function () {
-
               var ipad = false;
 
-              if ($('#at20mc').hasClass('ipad')) {
+              if ($("#at20mc").hasClass("ipad")) {
                 ipad = true;
               }
               if (ipad) {
-                $('#at15s').fadeOut(0);
+                $("#at15s").fadeOut(0);
               }
 
               function hideShare(e) {
-
-                if ($('#at20mc').hasClass('ipad')) {
+                if ($("#at20mc").hasClass("ipad")) {
                   ipad = true;
                 }
 
-                if (ipad && ($(e.target).hasClass('addthis_button_compact') || $(e.target).parent().hasClass('addthis_button_compact'))) {
+                if (ipad && ($(e.target).hasClass("addthis_button_compact") || $(e.target).parent().hasClass("addthis_button_compact"))) {
                   return;
                 }
 
-                if (!$(e.target).parents('.addthis_toolbox').length > 0) {
+                if (!$(e.target).parents(".addthis_toolbox").length > 0) {
                   if (ipad) {
-                    $('#at15s').fadeOut();
+                    $("#at15s").fadeOut();
                   }
-                  $('.addthis_toolbox').fadeOut();
-                  $(this).parents('.panel').removeClass("ontop");
+                  $(".addthis_toolbox").fadeOut();
+                  $(this).parents(".panel").removeClass("ontop");
                   shareVisible = false;
-                  $('.global-wrapper').off('click', hideShare);
+                  $(".global-wrapper").off("click", hideShare);
                 }
               }
 
-              $('.global-wrapper').on('click', hideShare);
+              $(".global-wrapper").on("click", hideShare);
             }, 100);
           } else {
             shareVisible = false;
-            $(this).next('.addthis_toolbox').fadeOut(animationDuration);
+            $(this).next(".addthis_toolbox").fadeOut(animationDuration);
 
             animating = true;
             setTimeout(function () {
@@ -1247,18 +1269,16 @@ window.app = {
           }
         });
 
-        $('.addthis_toolbox a').on('click', function (e) {
+        $(".addthis_toolbox a").on("click", function (e) {
           e.preventDefault();
         });
       }
     }
   },
   ajaxCallback: false
-
 };
 
 var init = function init() {
-
   window.app.global.init();
   window.app.cookieMsg.init();
   window.app.mobileNav.init();
@@ -1280,7 +1300,7 @@ _events.events.ready(function () {
   init();
 });
 
-jQuery.easing['jswing'] = jQuery.easing['swing'];
+jQuery.easing["jswing"] = jQuery.easing["swing"];
 
 jQuery.extend(jQuery.easing, {
   easeOutQuint: function easeOutQuint(x, t, b, c, d) {
@@ -1694,7 +1714,7 @@ var FilterCareers = function (_Filter) {
 exports.default = FilterCareers;
 
 },{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34,"./filter-class":6}],6:[function(require,module,exports){
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -1702,9 +1722,9 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _events = require('../../libs-th-nk/events/events');
+var _events = require("../../libs-th-nk/events/events");
 
-var _dom = require('../../libs-th-nk/dom/dom');
+var _dom = require("../../libs-th-nk/dom/dom");
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -1715,111 +1735,113 @@ var Filter = function () {
     _classCallCheck(this, Filter);
 
     this.fil = root;
-    this.list = this.fil.getAttribute('data-target');
-    this.wrapper = document.querySelector('.' + window.app.global.wrapper);
+    this.list = this.fil.getAttribute("data-target");
+    this.wrapper = document.querySelector("." + window.app.global.wrapper);
     this.listObj = document.querySelector(this.list);
 
-    this.originalVal = this.fil.getAttribute('data-original');
-    this.innerContainer = this.listObj.querySelector('.filter__list__inner');
+    this.originalVal = this.fil.getAttribute("data-original");
+    this.innerContainer = this.listObj.querySelector(".filter__list__inner");
 
-    this.ajax = this.fil.getAttribute('data-ajax') == "true" ? true : false;
-    this.ajaxTarget = document.querySelector(this.listObj.getAttribute('data-target'));
-    this.ajaxUrl = this.listObj.getAttribute('data-request');
+    this.ajax = this.fil.getAttribute("data-ajax") == "true" ? true : false;
+    this.ajaxTarget = document.querySelector(this.listObj.getAttribute("data-target"));
+    this.ajaxUrl = this.listObj.getAttribute("data-request");
 
-    this.linkList = this.fil.getAttribute('data-link') == "true" ? true : false; //Allow links to be followed normally
-    this.ajaxList = this.fil.getAttribute('data-ajaxlink') == "true" ? true : false; //Do links as AJAX request
+    this.linkList = this.fil.getAttribute("data-link") == "true" ? true : false; //Allow links to be followed normally
+    this.setTarget = this.fil.getAttribute("data-set-target") == "true" ? true : false;
 
-    this.searchbox = this.listObj.querySelector('input');
-    this.close = this.listObj.querySelector('.icon-close');
-    this.filclose = this.fil.parentNode.querySelector('.filter--close');
+    this.ajaxList = this.fil.getAttribute("data-ajaxlink") == "true" ? true : false; //Do links as AJAX request
+
+    this.searchbox = this.listObj.querySelector("input");
+    this.close = this.listObj.querySelector(".icon-close");
+    this.filclose = this.fil.parentNode.querySelector(".filter--close");
 
     if (this.filclose == null) {
-      this.filclose = $(this.fil.parentNode).siblings('.filter--close')[0];
+      this.filclose = $(this.fil.parentNode).siblings(".filter--close")[0];
     }
 
-    if ($(this.fil).parents('.project-filter').length > 0) {
-      this.filclose = $(this.fil).parents('.project-filter').find('.filter--close')[0];
+    if ($(this.fil).parents(".project-filter").length > 0) {
+      this.filclose = $(this.fil).parents(".project-filter").find(".filter--close")[0];
     }
 
-    if ($(this.fil).parents('.hero--offices').length > 0) {
-      this.filclose = $(this.fil).parents('.hero--offices').find('.filter--close')[0];
+    if ($(this.fil).parents(".hero--offices").length > 0) {
+      this.filclose = $(this.fil).parents(".hero--offices").find(".filter--close")[0];
     }
 
-    this.items = this.innerContainer.querySelectorAll('li > a, .filter__selected a');
+    this.items = this.innerContainer.querySelectorAll("li > a, .filter__selected a");
 
     this.filtered = false;
     this.scrollAdded = false;
 
     //Carousel Controls
-    this.carousel = this.fil.getAttribute('data-carousel');
+    this.carousel = this.fil.getAttribute("data-carousel");
 
     //Events
-    _events.events.on(this.fil, 'click', function (e) {
+    _events.events.on(this.fil, "click", function (e) {
       if (_dom.dom.containsClass(_this.fil, "disabled")) {
         return false;
       }
       _this.show(e);
     });
-    _events.events.on(this.fil, 'keydown', function (e) {
+    _events.events.on(this.fil, "keydown", function (e) {
       if (e.which != 13) {
         return;
       }
       _this.show(e);
     });
 
-    _events.events.on(this.close, 'click', function () {
+    _events.events.on(this.close, "click", function () {
       return _this.hide();
     });
-    _events.events.on(this.filclose, 'click', function () {
+    _events.events.on(this.filclose, "click", function () {
       return _this.hide();
     });
-    _events.events.on(this.searchbox, 'keyup', function () {
+    _events.events.on(this.searchbox, "keyup", function () {
       return _this.search();
     });
 
     //arrow nav
-    var listObject = $(this.innerContainer).find('ul');
-    listObject.on('keydown', function (e) {
+    var listObject = $(this.innerContainer).find("ul");
+    listObject.on("keydown", function (e) {
       if (e.which == 40) {
         e.preventDefault();
         //down through the list
-        if (listObject.find('a').length > 0) {
-          var inFocus = listObject.find('a:focus');
+        if (listObject.find("a").length > 0) {
+          var inFocus = listObject.find("a:focus");
           if (inFocus.parent().next().length > 0) {
-            inFocus.parent().next().find('a').focus();
+            inFocus.parent().next().find("a").focus();
           }
         }
       }
       if (e.which == 38) {
         e.preventDefault();
         //up to the list, then to input
-        if (listObject.find('a').length > 0) {
-          var inFocus = listObject.find('a:focus');
+        if (listObject.find("a").length > 0) {
+          var inFocus = listObject.find("a:focus");
           if (inFocus.parent().prev().length > 0) {
-            inFocus.parent().prev().find('a').focus();
+            inFocus.parent().prev().find("a").focus();
           } else {
             if (_this.searchbox) {
               $(_this.searchbox).focus();
             } else {
-              $('.filter__selected a').focus();
+              $(".filter__selected a").focus();
             }
           }
         }
       }
     });
 
-    $('.filter__selected a').on('keydown', function (e) {
+    $(".filter__selected a").on("keydown", function (e) {
       if (e.which == 38) {
         e.preventDefault();
       }
       if (e.which == 40) {
         e.preventDefault();
-        listObject.find('a').first().focus();
+        listObject.find("a").first().focus();
       }
     });
 
     //hide on esc
-    _events.events.on(this.listObj, 'keydown', function (e) {
+    _events.events.on(this.listObj, "keydown", function (e) {
       if (e.which != 27) {
         return;
       }
@@ -1830,7 +1852,7 @@ var Filter = function () {
 
     //Filtering on click
     for (var i = 0; i < this.items.length; i++) {
-      _events.events.on(this.items[i], 'click', function (e) {
+      _events.events.on(this.items[i], "click", function (e) {
         return _this.assignFilter(e);
       });
     }
@@ -1842,7 +1864,7 @@ var Filter = function () {
       return _this.disableBackgroundScroll(e, that.innerContainer);
     };
 
-    _events.events.on(this.items[this.items.length - 1], 'keydown', function (e) {
+    _events.events.on(this.items[this.items.length - 1], "keydown", function (e) {
       if (e.keyCode == 9) {
         e.preventDefault();
         if (that.searchbox) {
@@ -1851,7 +1873,7 @@ var Filter = function () {
       }
     });
 
-    _events.events.on(window, 'resize', function () {
+    _events.events.on(window, "resize", function () {
       return _this.resetPos();
     });
   }
@@ -1860,20 +1882,18 @@ var Filter = function () {
 
 
   _createClass(Filter, [{
-    key: 'show',
+    key: "show",
     value: function show(e) {
-
       e.preventDefault();
       if ($(window).width() > window.app.global.desktop) {
-
         if (!this.carousel) {
           //Position based on either input or start of listObj
-          var positem = this.searchbox ? $(this.listObj).find('input') : $(this.listObj).find('.filter__list__items');
+          var positem = this.searchbox ? $(this.listObj).find("input") : $(this.listObj).find(".filter__list__items");
 
           var pos = $(this.fil).position();
 
-          if ($(this.listObj).find('input').length > 0) {
-            var inputPos = $(this.listObj).find('input').position();
+          if ($(this.listObj).find("input").length > 0) {
+            var inputPos = $(this.listObj).find("input").position();
             var nudgeLeft = inputPos.left + $(this.innerContainer).position().left;
             var nudgeTop = inputPos.top + 10;
           } else {
@@ -1884,9 +1904,8 @@ var Filter = function () {
           this.listObj.style.left = pos.left - nudgeLeft + "px";
           this.listObj.style.top = pos.top - nudgeTop + "px";
 
-          if ($(this.fil).hasClass('filter--small')) {
-
-            if ($(this.fil).parents('.publication-single--modal').length > 0) {
+          if ($(this.fil).hasClass("filter--small")) {
+            if ($(this.fil).parents(".publication-single--modal").length > 0) {
               this.listObj.style.left = "0px";
               this.listObj.style.right = "auto";
             } else {
@@ -1896,38 +1915,38 @@ var Filter = function () {
           }
         }
       } else {
-        _dom.dom.addClass(document.body, 'fullscreen');
-        $('body').on("touchmove", this.disableBackgroundScrollBind);
+        _dom.dom.addClass(document.body, "fullscreen");
+        $("body").on("touchmove", this.disableBackgroundScrollBind);
       }
 
       this.innerContainer.scrollTop = 0;
 
-      _dom.dom.addClass(this.listObj, 'active');
-      _dom.dom.addClass(this.filclose, 'active');
+      _dom.dom.addClass(this.listObj, "active");
+      _dom.dom.addClass(this.filclose, "active");
 
       if (this.searchbox && $(window).width() > window.app.global.desktop) {
         $(this.searchbox).focus();
       } else {
-        $(this.listObj).find('a').first().focus();
+        $(this.listObj).find("a").first().focus();
       }
     }
 
     //reinit list clicks
 
   }, {
-    key: 'reinitList',
+    key: "reinitList",
     value: function reinitList() {
       var _this2 = this;
 
-      this.items = this.listObj.querySelectorAll('li > a');
-      this.searchbox = this.listObj.querySelector('input');
+      this.items = this.listObj.querySelectorAll("li > a");
+      this.searchbox = this.listObj.querySelector("input");
 
-      _events.events.on(this.searchbox, 'keyup', function () {
+      _events.events.on(this.searchbox, "keyup", function () {
         return _this2.search();
       });
 
       for (var i = 0; i < this.items.length; i++) {
-        _events.events.on(this.items[i], 'click', function (e) {
+        _events.events.on(this.items[i], "click", function (e) {
           return _this2.assignFilter(e);
         });
       }
@@ -1936,10 +1955,9 @@ var Filter = function () {
     //Stop scrolling behind on iOs
 
   }, {
-    key: 'disableBackgroundScroll',
+    key: "disableBackgroundScroll",
     value: function disableBackgroundScroll(e, cont) {
-
-      var container = $(cont).find('.filter__list__items');
+      var container = $(cont).find(".filter__list__items");
       if (container.height() + $(cont).offset().top < window.innerHeight) {
         e.preventDefault();
         return false;
@@ -1954,35 +1972,32 @@ var Filter = function () {
     //Hide the Menu
 
   }, {
-    key: 'hide',
+    key: "hide",
     value: function hide() {
-      _dom.dom.removeClass(this.listObj, 'active');
-      _dom.dom.removeClass(this.filclose, 'active');
-      _dom.dom.removeClass(document.body, 'fullscreen');
-      $('body').off("touchmove", this.disableBackgroundScrollBind);
+      _dom.dom.removeClass(this.listObj, "active");
+      _dom.dom.removeClass(this.filclose, "active");
+      _dom.dom.removeClass(document.body, "fullscreen");
+      $("body").off("touchmove", this.disableBackgroundScrollBind);
     }
 
     //Manually update the Menu
 
   }, {
-    key: 'update',
+    key: "update",
     value: function update(index) {
-
       //get index of result minus 1 for default value
-      var itemsArray = this.listObj.querySelectorAll('li:not(.filter__selected)');
-      this.fil.innerHTML = itemsArray[index].querySelector('a').innerHTML;
+      var itemsArray = this.listObj.querySelectorAll("li:not(.filter__selected)");
+      this.fil.innerHTML = itemsArray[index].querySelector("a").innerHTML;
     }
 
     //Search for item within box
 
   }, {
-    key: 'search',
+    key: "search",
     value: function search(e) {
-
       var searchVal = this.searchbox.value;
 
       if (!searchVal) {
-
         for (var i = 0; i < this.items.length; i++) {
           this.items[i].parentNode.style.display = "block";
         }
@@ -1991,7 +2006,7 @@ var Filter = function () {
 
         return false;
       }
-      var regEx = new RegExp('^' + searchVal, 'i');
+      var regEx = new RegExp("^" + searchVal, "i");
 
       for (var i = 0; i < this.items.length; i++) {
         if (this.items[i].innerHTML.match(regEx)) {
@@ -2009,9 +2024,8 @@ var Filter = function () {
     //@param selector string - AJAX DOM element to update
 
   }, {
-    key: 'ajaxRequest',
+    key: "ajaxRequest",
     value: function ajaxRequest(url, selector) {
-
       var ajaxUrl = url;
       var that = this;
 
@@ -2023,7 +2037,6 @@ var Filter = function () {
       this.hide();
 
       var jsRequest = $.ajax(ajaxUrl).done(function (data) {
-
         //Update the DOM and close
         if (selector) {
           $(that.fil).closest(selector).html($(data).find(selector).html());
@@ -2044,9 +2057,8 @@ var Filter = function () {
     //Filter by selecting item
 
   }, {
-    key: 'assignFilter',
+    key: "assignFilter",
     value: function assignFilter(e) {
-
       //Just follow a link like normal
       if (this.linkList) {
         return;
@@ -2059,21 +2071,20 @@ var Filter = function () {
 
       //Do AJAX Requests for each link
       if (this.ajaxList) {
-
-        if ($(target).parent().hasClass('filter__selected')) {
+        if ($(target).parent().hasClass("filter__selected")) {
           this.hide();
           return;
         }
 
-        this.ajaxRequest($(target).attr('data-ajax'), $(target).attr('data-selector'));
+        this.ajaxRequest($(target).attr("data-ajax"), $(target).attr("data-selector"));
         return;
       }
 
       //get index of result minus 1 for default value
-      var itemsArray = this.listObj.querySelectorAll('li');
+      var itemsArray = this.listObj.querySelectorAll("li");
       for (var i = 0; i < itemsArray.length; i++) {
-        if (itemsArray[i].querySelector('a') != null) {
-          if (itemsArray[i].querySelector('a').innerHTML.toLowerCase() == target.innerHTML.toLowerCase()) {
+        if (itemsArray[i].querySelector("a") != null) {
+          if (itemsArray[i].querySelector("a").innerHTML.toLowerCase() == target.innerHTML.toLowerCase()) {
             targetIndex = i - 1; //-1 for the input
           }
         }
@@ -2086,9 +2097,11 @@ var Filter = function () {
         this.searchbox.value = "";
       }
 
-      //this.fil.innerHTML = targetVal;
+      if (this.setTarget) {
+        this.fil.innerHTML = targetVal;
+      }
 
-      _dom.dom.addClass(this.fil, 'filtered');
+      _dom.dom.addClass(this.fil, "filtered");
       this.filtered = true;
       this.hide();
 
@@ -2099,7 +2112,7 @@ var Filter = function () {
 
       //reset box after it has animated out
       setTimeout(function () {
-        target.innerHTML.toLowerCase() == that.originalVal ? _dom.dom.removeClass(that.listObj, 'filtered') : _dom.dom.addClass(that.listObj, 'filtered');
+        target.innerHTML.toLowerCase() == that.originalVal ? _dom.dom.removeClass(that.listObj, "filtered") : _dom.dom.addClass(that.listObj, "filtered");
         if (that.searchbox) {
           that.searchbox.placeholder = target.innerHTML;
         }
@@ -2109,7 +2122,7 @@ var Filter = function () {
     //If going to moible take away any positioning logic
 
   }, {
-    key: 'resetPos',
+    key: "resetPos",
     value: function resetPos() {
       if ($(window).width() < window.app.global.desktop) {
         this.listObj.style.left = 0;
@@ -2118,18 +2131,22 @@ var Filter = function () {
       this.scroller();
     }
   }, {
-    key: 'scroller',
+    key: "scroller",
     value: function scroller() {
       var _this3 = this;
 
       if (window.innerWidth >= window.app.global.desktop) {
         this.scrollAdded = true;
         setTimeout(function () {
-          $(_this3.listObj).find('.scroller').nanoScroller({ sliderMaxHeight: 35, preventPageScrolling: true, contentClass: 'scroller__content' });
+          $(_this3.listObj).find(".scroller").nanoScroller({
+            sliderMaxHeight: 35,
+            preventPageScrolling: true,
+            contentClass: "scroller__content"
+          });
         }, 10);
-        $('.scroller__content').attr('tabindex', '');
+        $(".scroller__content").attr("tabindex", "");
       } else if (this.scrollAdded) {
-        $(this.listObj).find('.scroller').nanoScroller({ destroy: true });
+        $(this.listObj).find(".scroller").nanoScroller({ destroy: true });
       }
     }
 
@@ -2139,9 +2156,8 @@ var Filter = function () {
     */
 
   }, {
-    key: 'loadingSpinner',
+    key: "loadingSpinner",
     value: function loadingSpinner(close, el) {
-
       var aTarget = $(el);
 
       if (!el) {
@@ -2149,11 +2165,11 @@ var Filter = function () {
       }
 
       if (close) {
-        aTarget.removeClass('loading');
+        aTarget.removeClass("loading");
         return;
       }
 
-      aTarget.addClass('loading');
+      aTarget.addClass("loading");
       aTarget.append('<div class="loading-spinner"><div></div></div>');
     }
   }]);
@@ -2164,7 +2180,7 @@ var Filter = function () {
 exports.default = Filter;
 
 },{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34}],7:[function(require,module,exports){
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -2174,13 +2190,13 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
 
-var _filterClass = require('./filter-class');
+var _filterClass = require("./filter-class");
 
 var _filterClass2 = _interopRequireDefault(_filterClass);
 
-var _dom = require('../../libs-th-nk/dom/dom');
+var _dom = require("../../libs-th-nk/dom/dom");
 
-var _events = require('../../libs-th-nk/events/events');
+var _events = require("../../libs-th-nk/events/events");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2198,43 +2214,43 @@ var FilterSelect = function (_Filter) {
 
     var _this2 = _possibleConstructorReturn(this, (FilterSelect.__proto__ || Object.getPrototypeOf(FilterSelect)).call(this, root));
 
-    _this2.group = _this2.fil.getAttribute('data-filtergroup');
-    _this2.request = _this2.fil.getAttribute('data-request');
+    _this2.group = _this2.fil.getAttribute("data-filtergroup");
+    _this2.request = _this2.fil.getAttribute("data-request");
 
-    _this2.innerList = document.querySelector('.project-filter');
+    _this2.innerList = document.querySelector(".project-filter");
     _this2.defaultList = _this2.innerList.innerHTML;
 
     //Resetting
     _this2.reset = document.querySelector(reset);
-    _events.events.on(_this2.reset, 'click', function (e) {
+    _events.events.on(_this2.reset, "click", function (e) {
       return _this2.resetSearch(e);
     });
-    _this2.resetUrl = _this2.fil.getAttribute('data-reset');
+    _this2.resetUrl = _this2.fil.getAttribute("data-reset");
 
     //If reset, store default data if needed
     if (_this2.resetUrl) {
-      if (_this2.reset.getAttribute('data-is-filtered')) {
-        _dom.dom.addClass(_this2.reset, 'active');
+      if (_this2.reset.getAttribute("data-is-filtered")) {
+        _dom.dom.addClass(_this2.reset, "active");
         //this.autoFilter();
         _this2.defaultAjax = null;
         _this2.defaultHeader = null;
       } else {
         _this2.defaultAjax = _this2.ajaxTarget.innerHTML;
-        _this2.defaultHeader = document.querySelector('.project-filter');
+        _this2.defaultHeader = document.querySelector(".project-filter");
       }
     }
 
     //If toggle label is needed
-    _this2.toggleLabel = $(_this2.fil).parent('.filter__secondary');
+    _this2.toggleLabel = $(_this2.fil).parent(".filter__secondary");
 
     var currentUrl = window.location.href;
 
-    var hubname = _this2.fil.getAttribute('data-hub') || 'projects';
+    var hubname = _this2.fil.getAttribute("data-hub") || "projects";
     if (hubname) {
       hubname = hubname.replace(" ", "-");
     }
     _this2.url = currentUrl.match(new RegExp(".*?(?=" + hubname + "|$)", "i"))[0] + hubname;
-    _this2.urlPattern = _this2.fil.getAttribute('data-urlpattern');
+    _this2.urlPattern = _this2.fil.getAttribute("data-urlpattern");
     return _this2;
   }
 
@@ -2242,77 +2258,77 @@ var FilterSelect = function (_Filter) {
 
 
   _createClass(FilterSelect, [{
-    key: 'search',
+    key: "search",
     value: function search(e) {
-      _get(FilterSelect.prototype.__proto__ || Object.getPrototypeOf(FilterSelect.prototype), 'search', this).call(this, e);
+      _get(FilterSelect.prototype.__proto__ || Object.getPrototypeOf(FilterSelect.prototype), "search", this).call(this, e);
     }
 
     //Filter by selecting item
 
   }, {
-    key: 'assignFilter',
+    key: "assignFilter",
     value: function assignFilter(e, reset) {
-      _get(FilterSelect.prototype.__proto__ || Object.getPrototypeOf(FilterSelect.prototype), 'assignFilter', this).call(this, e);
+      _get(FilterSelect.prototype.__proto__ || Object.getPrototypeOf(FilterSelect.prototype), "assignFilter", this).call(this, e);
 
       var target = e.target;
 
-      _dom.dom.removeClass(this.fil, 'hidden');
+      _dom.dom.removeClass(this.fil, "hidden");
       for (var i = 0; i < this.items.length; i++) {
-        this.items[i].parentNode.style.display = 'table';
+        this.items[i].parentNode.style.display = "table";
       }
 
-      var targetVal = target.getAttribute('data-val'),
+      var targetVal = target.getAttribute("data-val"),
           targetDisplay = target.innerHTML;
 
-      if (this.originalVal !== 'worldwide' || this.originalVal == targetDisplay.toLowerCase()) {
+      if (this.originalVal !== "worldwide" || this.originalVal == targetDisplay.toLowerCase()) {
         targetDisplay = targetDisplay.toLowerCase();
       } else {
         targetDisplay = targetDisplay.charAt(0).toUpperCase() + targetDisplay.slice(1);
       }
 
-      $(this.fil).attr('data-val', targetVal);
+      $(this.fil).attr("data-val", targetVal);
       this.fil.innerHTML = targetDisplay;
 
       if (targetDisplay == this.originalVal) {
         this.filtered = false;
-        _dom.dom.removeClass(this.fil, 'filtered');
+        _dom.dom.removeClass(this.fil, "filtered");
         this.checkFilter();
-        if (this.toggleLabel.length) this.toggleLabel.removeClass('filtered');
+        if (this.toggleLabel.length) this.toggleLabel.removeClass("filtered");
       } else {
-        _dom.dom.addClass(this.fil, 'filtered');
-        _dom.dom.addClass(this.reset, 'active');
-        _dom.dom.addClass(document.querySelector('.filter__container'), 'filtered');
+        _dom.dom.addClass(this.fil, "filtered");
+        _dom.dom.addClass(this.reset, "active");
+        _dom.dom.addClass(document.querySelector(".filter__container"), "filtered");
         this.filtered = true;
-        if (this.toggleLabel.length) this.toggleLabel.addClass('filtered');
+        if (this.toggleLabel.length) this.toggleLabel.addClass("filtered");
       }
 
       if (!reset) this.filter(targetVal, targetDisplay);
     }
   }, {
-    key: 'resetSearch',
+    key: "resetSearch",
     value: function resetSearch(e) {
       e.preventDefault();
 
-      if (document.querySelector('.filter__text')) {
-        document.querySelector('.filter__text').style.display = 'inline';
+      if (document.querySelector(".filter__text")) {
+        document.querySelector(".filter__text").style.display = "inline";
       }
 
-      this.listObj.querySelector('.default').style.display = 'none';
-      _dom.dom.removeClass(this.reset, 'active');
-      _dom.dom.removeClass(this.fil.parentNode, 'filtered');
-      _dom.dom.removeClass(this.fil, 'filtered');
-      _dom.dom.removeClass(this.fil, 'hidden');
+      this.listObj.querySelector(".default").style.display = "none";
+      _dom.dom.removeClass(this.reset, "active");
+      _dom.dom.removeClass(this.fil.parentNode, "filtered");
+      _dom.dom.removeClass(this.fil, "filtered");
+      _dom.dom.removeClass(this.fil, "hidden");
       this.fil.innerHTML = this.originalVal;
       this.searchbox.placeholder = this.originalVal;
 
-      if ($(this.reset).hasClass('resetting')) {
+      if ($(this.reset).hasClass("resetting")) {
         return;
       }
 
-      _dom.dom.addClass(this.reset, 'resetting');
+      _dom.dom.addClass(this.reset, "resetting");
 
       if (!this.resetUrl) {
-        this.ajaxTarget.innerHTML = '';
+        this.ajaxTarget.innerHTML = "";
         return false;
       }
 
@@ -2324,50 +2340,47 @@ var FilterSelect = function (_Filter) {
       var _that = this;
 
       if (!this.defaultAjax) {
-
         this.loadingSpinner();
 
         var jsRequest = $.ajax({ url: this.ajaxUrl, data: {} }).done(function (data) {
-
-          _dom.dom.removeClass(_that.reset, 'resetting');
+          _dom.dom.removeClass(_that.reset, "resetting");
           _that.loadingSpinner(true);
 
           //Now reinit the reset HTML
           _that.updateFilterLists(data);
-          _that.defaultList = $(data).find('.project-filter').html();
+          _that.defaultList = $(data).find(".project-filter").html();
 
-          _that.ajaxTarget.innerHTML = $(data).find('#projects-list').html();
+          _that.ajaxTarget.innerHTML = $(data).find("#projects-list").html();
           _that.defaultAjax = _that.ajaxTarget.innerHTML;
 
           if (window.app.ajaxCallback) {
             window.app.ajaxCallback();
           }
-          $(window).off('scroll.infinite');
+          $(window).off("scroll.infinite");
 
           window.app.loadmoreButton.init();
         });
       } else {
-
         var _this = this;
 
-        var newData = $('<div></div>');
+        var newData = $("<div></div>");
 
         newData.append($(this.defaultAjax));
 
         //strip default markup of bad insline styles
-        $(newData).find('.reveal').each(function () {
-          $(this).attr('style', '');
-          $(this).removeAttr('data-sr-id');
+        $(newData).find(".reveal").each(function () {
+          $(this).attr("style", "");
+          $(this).removeAttr("data-sr-id");
         });
 
         this.ajaxTarget.innerHTML = $(newData).html();
         _that.updateFilterLists(this.defaultList);
         setTimeout(function () {
-          _dom.dom.removeClass(_that.reset, 'resetting');
-          $(window).off('scroll.infinite');
+          _dom.dom.removeClass(_that.reset, "resetting");
+          $(window).off("scroll.infinite");
           window.app.loadmoreButton.init();
 
-          var elem = document.querySelectorAll('.masonry');
+          var elem = document.querySelectorAll(".masonry");
           if (elem) {
             for (var i = 0; i < elem.length; i++) {
               window.app.masonry.init(elem[i]);
@@ -2394,13 +2407,13 @@ var FilterSelect = function (_Filter) {
     */
 
   }, {
-    key: 'filter',
+    key: "filter",
     value: function filter(term, termDisplay) {
       var that = this,
           data = {};
 
       //Get data for filtering
-      var groups = document.querySelectorAll('.filter');
+      var groups = document.querySelectorAll(".filter");
 
       //Get data from current filter
       if (termDisplay != this.originalVal) {
@@ -2410,25 +2423,24 @@ var FilterSelect = function (_Filter) {
       //Get data from other filter not in the same group (eg. industry and services not together)
       var groupCheck;
       for (var i = 0; i < groups.length; i++) {
-
         //if not current filter - already dealt with above
         if (groups[i] !== that.fil) {
           //if no group - include
 
-          var isGroup = groups[i].getAttribute('data-filtergroup');
+          var isGroup = groups[i].getAttribute("data-filtergroup");
           var groupVal = groups[i].innerHTML.toLowerCase();
-          groupVal = groupVal.replace(/\s+$/, '');
-          groupVal = groupVal.replace(/^\s+/, '');
+          groupVal = groupVal.replace(/\s+$/, "");
+          groupVal = groupVal.replace(/^\s+/, "");
 
           if (!isGroup) {
-            if (groupVal != groups[i].getAttribute('data-original').toLowerCase()) {
-              data[groups[i].getAttribute('data-request')] = $(groups[i]).attr('data-val');
+            if (groupVal != groups[i].getAttribute("data-original").toLowerCase()) {
+              data[groups[i].getAttribute("data-request")] = $(groups[i]).attr("data-val");
             }
           } else {
             if (isGroup !== that.group) {
               //if its not its default
-              if (groupVal != groups[i].getAttribute('data-original').toLowerCase()) {
-                data[groups[i].getAttribute('data-request')] = $(groups[i]).attr('data-val');
+              if (groupVal != groups[i].getAttribute("data-original").toLowerCase()) {
+                data[groups[i].getAttribute("data-request")] = $(groups[i]).attr("data-val");
               }
             }
           }
@@ -2439,10 +2451,9 @@ var FilterSelect = function (_Filter) {
       this.updateURL(data);
 
       var jsRequest = $.ajax({ url: this.ajaxUrl, data: data }).done(function (data) {
-
         //hide the other group
         if (that.group) {
-          document.querySelector('.filter__text').style.display = 'none';
+          document.querySelector(".filter__text").style.display = "none";
           that.closeGroup();
         }
 
@@ -2451,7 +2462,7 @@ var FilterSelect = function (_Filter) {
         //Update the DOM and close
         setTimeout(function () {
           // console.log($(data).find('#projects-list').html())
-          that.ajaxTarget.innerHTML = $(data).find('#projects-list').html();
+          that.ajaxTarget.innerHTML = $(data).find("#projects-list").html();
           that.loadingSpinner(true);
           //Apply effects
           if (window.app.ajaxCallback) {
@@ -2460,19 +2471,19 @@ var FilterSelect = function (_Filter) {
           that.updateFilterLists(data);
         }, 500);
 
-        $(window).off('scroll.infinite');
+        $(window).off("scroll.infinite");
         window.app.loadmoreButton.init();
       });
     }
   }, {
-    key: 'closeGroup',
+    key: "closeGroup",
     value: function closeGroup() {
-      var groups = document.querySelectorAll('.filter'),
+      var groups = document.querySelectorAll(".filter"),
           that = this;
 
       for (var i = 0; i < groups.length; i++) {
-        if (groups[i] != that.fil && groups[i].getAttribute('data-filtergroup') == that.group) {
-          _dom.dom.addClass(groups[i], 'hidden');
+        if (groups[i] != that.fil && groups[i].getAttribute("data-filtergroup") == that.group) {
+          _dom.dom.addClass(groups[i], "hidden");
         }
       }
     }
@@ -2480,20 +2491,19 @@ var FilterSelect = function (_Filter) {
     //update lists with ajax content
 
   }, {
-    key: 'updateFilterLists',
+    key: "updateFilterLists",
     value: function updateFilterLists(data) {
-      var lists = $(data).find('.filter__list');
+      var lists = $(data).find(".filter__list");
 
       $.each(lists, function (i, el) {
-
         var $el = $(el);
 
-        var content = $el.find('ul');
-        var selected = $el.find('.filter__selected');
-        var id = $el.attr('id');
+        var content = $el.find("ul");
+        var selected = $el.find(".filter__selected");
+        var id = $el.attr("id");
 
-        $('#' + id).find('ul').html(content.html());
-        $('#' + id).find('.filter__selected').html(selected.html());
+        $("#" + id).find("ul").html(content.html());
+        $("#" + id).find(".filter__selected").html(selected.html());
       });
 
       //Filtering on click reinit
@@ -2505,21 +2515,21 @@ var FilterSelect = function (_Filter) {
     //Hide the reset button if all filters associated are defaults
 
   }, {
-    key: 'checkFilter',
+    key: "checkFilter",
     value: function checkFilter() {
-      var allFilters = document.querySelectorAll('.filter');
+      var allFilters = document.querySelectorAll(".filter");
       var that = this;
 
       if (this.filtered === true) {
         return;
       }
       for (var i = 0; i < allFilters.length; i++) {
-        if (allFilters[i].getAttribute('data-reset') == that.fil.getAttribute('data-reset')) {
-          if (_dom.dom.containsClass(allFilters[i], 'filtered') || _dom.dom.containsClass(allFilters[i], 'hidden')) return;
+        if (allFilters[i].getAttribute("data-reset") == that.fil.getAttribute("data-reset")) {
+          if (_dom.dom.containsClass(allFilters[i], "filtered") || _dom.dom.containsClass(allFilters[i], "hidden")) return;
         }
       }
 
-      _dom.dom.removeClass(this.reset, 'active');
+      _dom.dom.removeClass(this.reset, "active");
     }
 
     /*
@@ -2528,23 +2538,22 @@ var FilterSelect = function (_Filter) {
     */
 
   }, {
-    key: 'updateURL',
+    key: "updateURL",
     value: function updateURL(data) {
-
       if (jQuery.isEmptyObject(data)) {
-        var stateObj = { foo: 'bar' };
+        var stateObj = { foo: "bar" };
         window.history.pushState(stateObj, null, this.url);
         window.pushActive = true;
         return;
       }
 
-      var val = '/',
-          country = '',
-          service = 'all',
+      var val = "/",
+          country = "",
+          service = "all",
           loc = false;
 
       $.each(data, function (i, el) {
-        if (i == 'location' || i == 'category') {
+        if (i == "location" || i == "category") {
           loc = true;
           country = el;
         } else {
@@ -2555,15 +2564,15 @@ var FilterSelect = function (_Filter) {
       val += service;
 
       if (loc) {
-        val += '/' + country;
+        val += "/" + country;
       }
 
       if (this.urlPattern) {
-        val = this.urlPattern.replace('[c]', '/' + (country ? country : 'all')).replace('[e]', '/' + (service ? service : 'all')).replace(/(\/all)?\/all$/g, '').toLowerCase();
+        val = this.urlPattern.replace("[c]", "/" + (country ? country : "all")).replace("[e]", "/" + (service ? service : "all")).replace(/(\/all)?\/all$/g, "").toLowerCase();
       }
 
-      val = val.replace(/ /g, '-');
-      var stateObj = { foo: 'bar' };
+      val = val.replace(/ /g, "-");
+      var stateObj = { foo: "bar" };
       window.history.pushState(stateObj, null, this.url + val);
       window.pushActive = true;
     }
@@ -3249,9 +3258,6 @@ var megaMenu = {
       var submenuTargetElems;
       var subnavElemActiveClass;
       var subnavTargetActiveClass;
-      var markerImg;
-      var markerPos;
-      var menuPadding;
       var i;
       var i;
 
@@ -3270,16 +3276,30 @@ var megaMenu = {
           }
 
           subnavElem.classList.add(subnavElemActiveClass);
-          subnavTargetElem.classList.add(subnavTargetActiveClass);
-          if (focus) {
-            $(subnavTargetElem).find('a').first().focus();
+
+          if (subnavTargetElem) {
+            subnavTargetElem.classList.add(subnavTargetActiveClass);
+            if (focus) {
+              $(subnavTargetElem).find('a').first().focus();
+            }
+          }
+
+          var tPane = $(subnavElem).parents('.meganav-pane__inner');
+          var menuPadding = parseInt(tPane.css('padding-top'));
+          var markerImg = tPane.find('.js-nav-marker-img');
+          var markerPos = parseInt(markerImg.attr('data-top'));
+
+          if (subnavTargetSelector === 'blank') {
+            markerImg[0].style.top = markerPos - 100 + 'px';
+          } else {
+            markerImg[0].style.top = markerPos + ($(subnavElem).position().top - menuPadding) - $(subnavElem).height() / 2 + 'px';
           }
 
           //Subnavigation marker
 
           //Image Based solution
           //Get middle of image and animate from that
-          markerImg.style.top = markerPos + ($(subnavElem).position().top - menuPadding) - $(subnavElem).height() / 2 + 'px';
+
 
           // Alternate solution
           // var submarkerPos = ((subnavElem.offsetTop + subnavElem.offsetHeight) / 2) - (markerCtrl.offsetTop);
@@ -3361,14 +3381,11 @@ var megaMenu = {
           });
         };
 
-        //Subnavigation inside meganav pane
+        // Subnavigation inside meganav pane
         submenuElems = document.querySelectorAll('.js-nav-submenu');
         submenuTargetElems = document.querySelectorAll('.js-nav-submenu-target');
         subnavElemActiveClass = 'active';
         subnavTargetActiveClass = 'active';
-        markerImg = document.querySelector('.js-nav-marker-img');
-        markerPos = parseInt(getComputedStyle(markerImg)['top']);
-        menuPadding = parseInt($('.meganav-pane__inner').css('padding-top'));
 
         // var markerCtrl = document.querySelector('.js-submarker-ctrl');
 
@@ -3391,6 +3408,14 @@ var megaMenu = {
             };
           });
         }
+
+        //var markerImg = document.querySelector('.js-nav-marker-img');
+        //var markerPos = parseInt(getComputedStyle(markerImg)['top']);
+
+
+        $('.js-nav-marker-img').each(function () {
+          $(this).attr('data-top', parseInt($(this).css('top')));
+        });
       })();
     }
   },
@@ -3682,22 +3707,32 @@ var mobileNav = {
 exports.default = mobileNav;
 
 },{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34,"../modules/accordion":2}],14:[function(require,module,exports){
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _events = require('../../libs-th-nk/events/events');
+var _events = require("../../libs-th-nk/events/events");
 
-var _dom = require('../../libs-th-nk/dom/dom');
+var _dom = require("../../libs-th-nk/dom/dom");
 
 var modal = {
   modals: [],
+  modalId: 0,
   init: function init() {
 
-    var modaltriggers = document.querySelectorAll('.modal-trigger');
-    var modals = document.querySelectorAll('.modal');
+    $('.modal').each(function () {
+      $('a[href="#' + $(this).attr('id') + '"]').addClass('modal-trigger');
+    });
+
+    $('a[href*="#modal-content"]').addClass('modal-trigger');
+
+    var modaltriggers = document.querySelectorAll(".modal-trigger");
+    var modals = document.querySelectorAll(".modal");
+
+    // get the window location, to see if a modal should be auto triggered
+    var hash = window.location.hash;
 
     if (modaltriggers) {
       for (var i = 0; i < modaltriggers.length; i++) {
@@ -3710,79 +3745,123 @@ var modal = {
       for (var i = 0; i < modals.length; i++) {
         this.setupModal(modals[i]);
       }
+
+      // if there is a hash, loop through the triggers to find a match, and trigger the click...
+      if (hash) {
+        for (var i = 0; i < modaltriggers.length; i++) {
+          if (modaltriggers[i].getAttribute("href") === hash) {
+            _events.events.trigger(modaltriggers[i], "click");
+          }
+        }
+      }
     }
   },
   scrollbarCheck: function scrollbarCheck() {
-    var scrollDiv = document.createElement('div');
-    scrollDiv.className = 'modal-scrollbar-measure';
-    $('body').append(scrollDiv);
+    var scrollDiv = document.createElement("div");
+    scrollDiv.className = "modal-scrollbar-measure";
+    $("body").append(scrollDiv);
     var scrollbarWidth = scrollDiv.offsetWidth - scrollDiv.clientWidth;
     document.body.removeChild(scrollDiv);
-    $('body').css('padding-right', scrollbarWidth + "pX");
-    $('.header').css('padding-right', scrollbarWidth + "pX");
+    $("body").css("padding-right", scrollbarWidth + "pX");
+    $(".header").css("padding-right", scrollbarWidth + "pX");
+  },
+  openModal: function openModal(target) {
+    var obj = this;
+
+    if (!document.querySelector(target)) {
+      return;
+    }
+
+    _dom.dom.addClass(document.querySelector(target), "active");
+    var scroll = $(document).scrollTop();
+
+    $(document).on("keydown.modal", function (e) {
+      if (e.keyCode == 27) {
+        obj.closeModal(document.querySelector(target));
+      }
+    });
+
+    var modalTarget = $(document.querySelector(target));
+    modalTarget.attr("aria-hidden", "false");
+
+    if (_dom.dom.containsClass(document.querySelector(target), "modal-center")) {
+      modalTarget.find(".modal__inner").attr("tabindex", 0).focus();
+      _dom.dom.addClass(document.body, "fullscreen");
+      obj.scrollbarCheck();
+    } else {
+      setTimeout(function () {
+        modalTarget.find(".modal__inner").attr("tabindex", 0).focus();
+      }, 500);
+      _dom.dom.addClass(document.body, "menu-open");
+      document.body.style.top = -scroll + "px";
+    }
   },
   setupTrigger: function setupTrigger(trigger) {
-
     var obj = this;
 
     _events.events.on(trigger, "click", function (e) {
-
       e.preventDefault();
 
       var target = e.currentTarget.getAttribute("href");
 
-      if (!document.querySelector(target)) {
-        return;
-      }
-
-      _dom.dom.addClass(document.querySelector(target), "active");
-      var scroll = $(document).scrollTop();
-
-      $(document).on("keydown.modal", function (e) {
-        if (e.keyCode == 27) {
-          obj.closeModal(document.querySelector(target));
-        }
-      });
-
-      var modalTarget = $(document.querySelector(target));
-      modalTarget.attr('aria-hidden', 'false');
-
-      if (_dom.dom.containsClass(document.querySelector(target), "modal-center")) {
-        modalTarget.find('.modal__inner').attr('tabindex', 0).focus();
-        _dom.dom.addClass(document.body, "fullscreen");
-        obj.scrollbarCheck();
+      if (target && target.charAt(0) === "#") {
+        obj.openModal(target);
       } else {
-        setTimeout(function () {
-          modalTarget.find('.modal__inner').attr('tabindex', 0).focus();
-        }, 500);
-        _dom.dom.addClass(document.body, "menu-open");
-        document.body.style.top = -scroll + "px";
+        $.ajax(target).done(function (data) {
+          // get the modal content from the page
+          var content = $(data).find("#modal-content");
+
+          // create a unique modal id
+          var id = "modal-" + obj.modalId++;
+
+          // TODO: possibly move this to a template
+          var modal = '<div id="' + id + '" class="modal modal--wide" aria-hidden="true" role="dialog"><div class="modal__wrap"></div><div class="modal__inner"><div class="modal__close"><svg viewBox="0 0 14 14" ><path class="st0" d="M13.1,0.9L0.9,13.1 M13.1,13.1L0.9,0.9"/></svg></div>' + content.html() + "</div></div>";
+
+          // create a modal from the template string
+          var $modal = $(modal);
+
+          // add the modal to the page
+          $("body").append($modal);
+
+          // update the attribute on the clicked anchor, to prevent additional ajax requests to the same content
+          trigger.setAttribute("href", "#" + id);
+
+          // setup the modal
+          obj.setupModal(document.getElementById(id));
+
+          // call custom events that allow other secions of the site to hook into the functionality
+          $.event.trigger({
+            type: "setupModal",
+            modal: $modal
+          });
+
+          // finally open the new modal
+          obj.openModal("#" + id);
+        });
       }
     });
   },
   setupModal: function setupModal(modal) {
     var that = this;
-    _events.events.on(modal.querySelector('.modal__wrap'), "click", function (e) {
+    _events.events.on(modal.querySelector(".modal__wrap"), "click", function (e) {
       that.closeModal(e.currentTarget.parentNode);
     });
-    _events.events.on(modal.querySelector('.modal__close'), "click", function (e) {
+    _events.events.on(modal.querySelector(".modal__close"), "click", function (e) {
       that.closeModal(e.currentTarget.parentNode.parentNode);
     });
   },
   closeModal: function closeModal(modal) {
-
     _dom.dom.removeClass(modal, "active");
-    $(modal).attr('aria-hidden', 'true');
+    $(modal).attr("aria-hidden", "true");
 
     $(document).off("keydown.modal");
 
     setTimeout(function () {
-
       var scroll = document.body.style.top;
       _dom.dom.removeClass(document.body, "menu-open");
       _dom.dom.removeClass(document.body, "fullscreen");
-      $('body').css('padding-right', "");
-      $('.header').css('padding-right', '');
+      $("body").css("padding-right", "");
+      $(".header").css("padding-right", "");
 
       if (!_dom.dom.containsClass(modal, "modal-center")) {
         $(document).scrollTop(Math.abs(parseInt(scroll)));
@@ -3952,7 +4031,64 @@ var _events = require('../../libs-th-nk/events/events');
 
 var _dom = require('../../libs-th-nk/dom/dom');
 
+var updateURLParameter = function updateURLParameter(url, param, paramVal) {
+  var newAdditionalURL = "";
+  var tempArray = url.split("?");
+  var baseURL = tempArray[0];
+  var additionalURL = tempArray[1];
+  var temp = "";
+  if (additionalURL) {
+    tempArray = additionalURL.split("&");
+    for (var i = 0; i < tempArray.length; i++) {
+      if (tempArray[i].split('=')[0] != param) {
+        newAdditionalURL += temp + tempArray[i];
+        temp = "&";
+      }
+    }
+  }
+
+  var rows_txt = temp + "" + param + "=" + paramVal;
+  return baseURL + "?" + newAdditionalURL + rows_txt;
+};
+
+var updateUrl = function updateUrl(facetLink) {
+  var id = facetLink.attr('data-facet');
+  if (id === 'All') id = '';
+  history.pushState({ facetId: id }, document.title, updateURLParameter(window.location.href, 'facet', id));
+};
+
 var _init = function _init() {
+
+  var initialId = $('.search-page__frame .tabs li.selected a').attr('data-facet');
+  history.replaceState({ facetId: initialId !== 'All' ? initialId : '' }, document.title, window.location.href);
+
+  window.onpopstate = function (event) {
+    var id = event.state.facetId;
+    if (id === '') id = 'All';
+    var link = $('.search-page__frame .tabs a[data-facet=\'' + id + '\']');
+
+    link.trigger('click');
+  };
+
+  $('.search-page__frame .tabs a').on('click', function (e) {
+    var href = $(e.currentTarget).attr('href');
+    var more = $(href).find('.load-more--hidden');
+
+    if (typeof e.originalEvent !== 'undefined') {
+      updateUrl($(e.currentTarget));
+    }
+
+    //need to work out whats going on here
+    if (more.length) {
+      var target = more.attr('data-target');
+
+      if (target) {
+        $(target).children('.search-page__result').remove();
+      }
+
+      more.trigger('click');
+    }
+  });
 
   var searchOpen = $('.js-nav-search'),
       searchContainer = $('#search-head'),
@@ -4194,7 +4330,7 @@ var _init = function _init() {
     var searchTerm = searchInput.val();
 
     //If any chars entered
-    if (searchTerm.length > 2) {
+    if (searchTerm.length > 1) {
 
       searchContainer.find('.formError').removeClass('active');
       searchInput.attr('aria-invalid', 'false');
@@ -4279,13 +4415,8 @@ var _init = function _init() {
       html += '<ul class="search-result__results">';
 
       $.each(item, function (i, content) {
-        // html += '<li><a tabindex="0" href="'+ content.Url + '"">' + highlight(content.Content,searchTerm);
         html += '<li><a data-datalayer-action="' + content.Content + '" tabindex="0" href="' + content.Url + '">' + highlight(content.Content, searchTerm);
-
         html += "</a>";
-        if (content.Tags) {
-          html += '<span class="search__tag">' + content.Tags + '</span>';
-        }
         html += "</li>";
       });
 
@@ -5000,6 +5131,7 @@ var _init = function _init(root) {
       //tabs
       for (var i = 0; i < tabGroup.length; i++) {
         _dom.dom.removeClass(tabGroup[i], "selected");
+        $(tabGroup[i]).children().blur();
       }
       _dom.dom.addClass(tab, "selected");
 
@@ -5008,6 +5140,7 @@ var _init = function _init(root) {
         var content = document.querySelector(tabTargets[i]);
         if (_dom.dom.containsClass(content, 'active')) {
           _dom.dom.removeClass(content, "active");
+
           active = true;
           hasActive = true;
         }
@@ -5015,7 +5148,7 @@ var _init = function _init(root) {
       _dom.dom.addClass(document.querySelector(target), "active");
     };
 
-    _events.events.on(tab.querySelector('a'), 'click', function (e) {
+    $(tab).find('a').on('click', function (e) {
       e.preventDefault();
       open();
     });
@@ -5031,7 +5164,7 @@ var _init = function _init(root) {
     if (window.location.hash && tabTargets.indexOf(window.location.hash) !== -1) {
       _dom.dom.addClass(tabGroup[tabTargets.indexOf(window.location.hash)], "selected");
       _dom.dom.addClass(document.querySelector(window.location.hash), "active");
-    } else {
+    } else if ($('.tab-content.active').length == 0) {
       _dom.dom.addClass(tabGroup[0], "selected");
       _dom.dom.addClass(document.querySelector(tabTargets[0]), "active");
     }
@@ -5574,33 +5707,332 @@ var videocarousel = {
 exports.default = videocarousel;
 
 },{"../../libs-th-nk/dom/dom":33,"../../libs-th-nk/events/events":34}],24:[function(require,module,exports){
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _events = require('../../libs-th-nk/events/events');
+var _events = require("../../libs-th-nk/events/events");
 
-var _dom = require('../../libs-th-nk/dom/dom');
+var _dom = require("../../libs-th-nk/dom/dom");
 
 var careers = {
-  init: function init() {
-    this.overlay.init();
+  initCarousel: function initCarousel(target) {
+    target = target || document;
+
+    // currently used in the slideout on wide profile
+    var related = $(target).find(".related-projects");
+
+    related.each(function () {
+      var self = $(this);
+
+      self.find(".related-projects__items").slick({
+        speed: 500,
+        cssEase: "ease-in-out",
+        arrows: true,
+        prevArrow: self.find(".related-projects__prev"),
+        nextArrow: self.find(".related-projects__next"),
+        mobileFirst: true,
+        // infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        centerMode: false,
+        responsive: [{
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            infinite: true
+          }
+        }, {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2
+          }
+        }, {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1
+          }
+        }]
+      });
+    });
   },
-  overlay: {
-    init: function init() {
+  init: function init() {
+    var self = this;
 
-      $('#career-overlay .cta-btn').on('click', function (e) {
+    $("html").addClass("js");
 
-        if ($(this).hasClass("disabled")) {
-          e.preventDefault();
+    $(document).on("setupModal", function (ev) {
+      self.initCarousel(ev.modal);
+    });
+
+    self.initCarousel();
+
+    var videobanner = $(".cssonly");
+    if (videobanner.length) self.video.cssonly(videobanner);
+
+    var howto = $(".country-how-to-apply");
+    if (howto.length) self.howToApply(howto);
+
+    // to archive
+    this.v1.overlay.init();
+  },
+  howToApply: function howToApply(elem) {
+    var fitler = $(elem).find(".filter");
+    var selected = fitler.attr("data-selected-index") || 0;
+    var items = $(elem).find("ul[role='listbox'] li a");
+    var sections = $(elem).find(".container--options section");
+
+    items.on("click", function (e) {
+      var val = $(e.target).attr("data-val");
+      if (val !== selected) {
+        sections.eq(selected).removeClass("section--active");
+        sections.eq(val).addClass("section--active");
+        selected = val;
+      }
+    });
+
+    sections.each(function (sec) {
+      $(this).addClass("section--loaded");
+    });
+
+    sections.eq(selected).addClass("section--active");
+  },
+  video: {
+    videosloaded: false,
+    forms: function forms() {
+      var input = $(".abs_search input");
+      var placeholder = $(".abs_search .placeholder");
+
+      if (placeholder.length) {
+        $(".abs_search .placeholder, .abs_search .icon-search, .abs_search .cta-btn").on("click", function (e) {
+          input.focus();
+        });
+
+        input.on("blur", function () {
+          if ($(this).val() === "") placeholder.show();
+        }).on("focus", function () {
+          placeholder.hide();
+        });
+      } else {
+        placeholder = $(".abs_search .cta-btn .cta-btn__text");
+      }
+    },
+    startvideo: function startvideo() {},
+    stopvideos: function stopvideos(videos) {
+      videos.each(function (i) {
+        $(this)[0].pause();
+      });
+    },
+    loadvideos: function loadvideos(videos) {
+      videos.each(function (i) {
+        var src = $(this).attr("data-src");
+        $(this).attr("src", src);
+      });
+      this.videosloaded = true;
+    },
+    mobilecheck: function mobilecheck(ismobile, videos, current) {
+      if (ismobile) {
+        if (this.videosloaded) this.stopvideos(videos);
+      } else {
+        if (!this.videosloaded) {
+          this.loadvideos(videos);
+        } else {
+          videos[current].play();
+        }
+      }
+    },
+    setText: function setText(heading, headings, placeholder, searchTerms, current, speed) {
+      heading.addClass("fadeout loaded");
+      placeholder.addClass("fadeout");
+
+      speed = speed || 500;
+
+      setTimeout(function () {
+        heading.html(headings[current].innerHTML);
+        placeholder.html(searchTerms[current].innerHTML);
+        heading.removeClass("fadeout");
+        placeholder.removeClass("fadeout");
+      }, speed);
+    },
+    cssonly: function cssonly(elem) {
+      if (!elem) return;
+
+      var prev = 0;
+      var current = 0;
+      var next = 1;
+      var prevnext = 1;
+      var BREAK_POINT = 1280;
+      var MOBILE_TIME = 5000;
+      var that = this;
+      var list = $(elem).find("li");
+      var videos = list.find("video"); //video only
+      var ismobile = $(window).width() < BREAK_POINT;
+      var mobileInterval;
+      var heading = $("#video_search_heading");
+      var placeholder = $("#video_search_term");
+
+      if (!placeholder.length) {
+        placeholder = $(".abs_search .cta-btn .cta-btn__text");
+      }
+
+      var headings = list.find(".video_search_heading");
+      var searchTerms = list.find(".video_search_term");
+
+      that.mobilecheck(ismobile, videos, current);
+
+      var mobileloop = function mobileloop() {
+        var wrap = list.eq(current).find(".angle_wrap1");
+        prev = current;
+        current += 1;
+
+        if (current === videos.length) {
+          //current = 0;
+          clearInterval(mobileInterval);
           return false;
+        }
+
+        if (current === videos.length) {
+          current = 0;
+        }
+
+        prevnext = next;
+        next = current + 1;
+        if (next === videos.length) {
+          next = 0;
+        }
+
+        var anim = wrap.attr("data-animation");
+        wrap.addClass(anim);
+
+        //set text
+        that.setText(heading, headings, placeholder, searchTerms, current);
+
+        setTimeout(function () {
+          wrap.removeClass(anim);
+          $(list[current]).addClass("active");
+          $(list[prev]).removeClass("active");
+          $(list[prevnext]).removeClass("up_next");
+          $(list[next]).addClass("up_next");
+        }, 1000);
+      };
+
+      $(window).on("resize", function () {
+        var s = $(this).width() < BREAK_POINT;
+        if (s !== ismobile) {
+          ismobile = s;
+          that.mobilecheck(ismobile, videos, current);
+
+          if (ismobile) {
+            mobileInterval = setInterval(mobileloop, MOBILE_TIME);
+          } else if (mobileInterval) {
+            clearInterval(mobileInterval);
+            videos[current].play();
+          }
+        }
+      });
+
+      that.forms();
+
+      if (ismobile) {
+        $("html").addClass("js-banner");
+
+        mobileInterval = setInterval(mobileloop, MOBILE_TIME);
+      } else if (mobileInterval) {
+        clearInterval(mobileInterval);
+      }
+
+      /** video */
+      var onload = true;
+      var MAX_LOOPS = 0; //video only
+
+      list.each(function (i) {
+        var self = $(this);
+        var wrap = self.find(".angle_wrap1");
+        var video = self.find("video"); //video only
+        var changing = false;
+
+        var loops = -1;
+
+        video.on("play", function (event) {
+          $("html").addClass("js-banner");
+        });
+
+        video.on("ended", function (event) {
+          loops++;
+          if (MAX_LOOPS && loops === MAX_LOOPS - 1 && i === current || current >= list.length - 1) {
+            $(video)[0].play();
+          } else {
+            loops = -1;
+          }
+        });
+
+        video.on("timeupdate", function (event) {
+          if (this.currentTime >= this.duration - 2 && !changing && loops === MAX_LOOPS - 1 && i === current) {
+            changing = true;
+            prev = current;
+            current += 1;
+            if (current === videos.length) {
+              // current = 0;
+              return false; //loop last video
+            }
+
+            prevnext = next;
+            next = current + 1;
+            if (next === videos.length) {
+              next = 0;
+            }
+
+            var anim = wrap.attr("data-animation");
+            wrap.addClass(anim);
+
+            videos[current].currentTime = 0;
+            videos[current].play();
+
+            var useTransition = $(elem).hasClass("animate-desktop") && !ismobile;
+
+            //set text
+            that.setText(heading, headings, placeholder, searchTerms, current);
+
+            setTimeout(function () {
+              wrap.removeClass(anim);
+              $(list[current]).addClass("active");
+              $(list[prev]).removeClass("active");
+              $(list[prevnext]).removeClass("up_next");
+              $(list[next]).addClass("up_next");
+              changing = false;
+            }, useTransition ? 2000 : 1);
+          }
+        });
+
+        if (i === 0 && onload) {
+          onload = false;
+          $(list[current]).addClass("active");
+          $(list[next]).addClass("up_next");
+          videos[current].play();
+          heading.html(headings[current].innerHTML);
+          placeholder.html(searchTerms[current].innerHTML);
+
+          elem.parent().addClass("load");
         }
       });
     }
-  }
+  },
 
+  // old, to be removed at some point
+  v1: {
+    overlay: {
+      init: function init() {
+        $("#career-overlay .cta-btn").on("click", function (e) {
+          if ($(this).hasClass("disabled")) {
+            e.preventDefault();
+            return false;
+          }
+        });
+      }
+    }
+  }
 };
 
 exports.default = careers;

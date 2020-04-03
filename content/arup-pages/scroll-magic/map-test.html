@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+
+      // This example creates a 2-pixel-wide red polyline showing the path of
+      // the first trans-Pacific flight between Oakland, CA, and Brisbane,
+      // Australia which was made by Charles Kingsford Smith.
+
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: {lat: 22.279, lng: 113.7},
+          mapTypeId: 'terrain'
+        });
+
+        var flightPlanCoordinates = [
+          {lat: 22.209306, lng: 113.571905},
+          {lat: 22.213041,lng: 113.585307},
+          {lat: 22.242438, lng: 113.631386},
+          {lat: 22.246252, lng: 113.640012},
+          {lat: 22.247945, lng: 113.646342},
+          {lat: 22.252215, lng: 113.663015},
+          {lat: 22.259999, lng: 113.679065},
+          {lat: 22.273979, lng: 113.696317},
+          {lat: 22.279797, lng: 113.707926},
+          {lat: 22.283153, lng: 113.724856},
+          {lat: 22.283073, lng: 113.786482},
+          {lat: 22.282547, lng: 113.841306},
+          {lat: 22.275041, lng: 113.869974},
+          {lat: 22.292276, lng: 113.899585},
+          {lat: 22.293507, lng: 113.903190},
+          {lat: 22.293626, lng: 113.908941},
+          {lat: 22.295293, lng: 113.916194}
+
+        ];
+        var flightPath = new google.maps.Polyline({
+          path: flightPlanCoordinates,
+          geodesic: true,
+          strokeColor: '#FF0000',
+          strokeOpacity: 1.0,
+          strokeWeight: 6
+        });
+
+        flightPath.setMap(map);
+      }
+    </script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAja0V5QJ8yD9X_V5OI24VFcWx9UHn1ggc&callback=initMap"
+    async defer></script>
+  </body>
+</html>

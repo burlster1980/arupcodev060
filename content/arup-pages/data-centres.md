@@ -16,10 +16,10 @@ type: perspective
                     <div class="page-info">
                         <div class="page-info__title feature-title">
                             <h3 class="feature-title__label">Industries</h3>
-                            <h1 class="feature-title__title">Data centres</h1>
+                            <h1 class="feature-title__title">Data centres and technology</h1>
                         </div>
                         <div class="page-info__content">
-                            <p class="page-info__copy">Arup&rsquo;s data centre specialists are innovators in technological facilities, working with some of the most complex and data driven companies, to meet today&rsquo;s data needs. </p>
+                            <p class="page-info__copy">Arup&rsquo;s data centre and mission critical specialists are innovators in technological facilities, working with some of the most complex and data driven companies, to meet today&rsquo;s data needs. </p>
                         </div>
                     </div>
                 </div>
@@ -131,7 +131,7 @@ type: perspective
                         <div class="util-contact__pic-wrap">
                             <img class="util-contact__pic" src="https://www.arup.com/-/media/arup/images/people/d/duncan-white---building-engineering-london-a-bel-ac-thomas-grahamarup.jpg?gray=1&amp;mw=180&amp;hash=1C0E96804D01E0A33842BA09C120A54CB4E5F944" alt="Duncan White"/>
                         </div>
-                    <div class="util-contact__main"><br />
+                    <div class="util-contact__main">
                          <h4 class="util-contact__title">Talk about this industry</h4>
                         <div class="util-contact__cta">
                             <span href="#" class="cta cta--black cta--small cta--right cta--plain">
@@ -217,7 +217,7 @@ type: perspective
             <div class="reveal rich-text__content">
                <h2>Data as the ‘new utility’</h2><P>
 
-Data is now integral to our daily lives. We all use networks and complex data services, expecting them to be fast, reliable and secure.
+Data is now integral to our daily lives. Our work and leisure time depend on services powered by data, and we expect them to be fast, reliable and secure.
 </P><P>
 At Arup, we have long viewed data as a utility. By adopting this approach with our clients, our data centre specialists are able help deliver operational excellence, high performance and high-efficiency. </P>
                 </p>
@@ -253,18 +253,16 @@ At Arup, we have long viewed data as a utility. By adopting this approach with o
     <section class="container">
         <div class="rich-text">
             <div class="reveal rich-text__content">
-                <h2>Data centres: a history of innovation</h2>
+                <h2>Full-service data</h2>
 <P>
-We provide clients with a strategic analysis of all options; investigate the potential for cloud services, design IT infrastructure, undertake quality assurance and provide support through the entire process.
-</P><P>
-Our <a href="#">Uptime Institute</a> accredited tier designers have delivered projects across all sectors of the industry including wholesale and retail colocation, telecoms, broadcasting, high performance computing and big data.</P>
+We help clients to define a data centre scheme from the ground up, aligning performance requirements, future capacity, operating costs and sustainability benchmarks. We then design the required IT infrastructure, undertake quality assurance and provide support throughout the entire process. </P><p>Our <a href="#">Uptime Institute accredited tier designers</a> have delivered vital data centre projects across all sectors of the industry including wholesale and retail colocation, telecoms, broadcasting, high performance computing and big data providers.</P>
             </div>
         </div>
     </section>
     <section class="fullbleed fullbleed--secondary fullbleed--hero reveal">
         <div class="progressiveMedia ">
             <img src="/-/media/arup/images/projects/v/vanda-dundee/2000x1125va-dundeec-ross-fraser-mclean8.jpg?h=6&amp;la=en&amp;mw=10&amp;w=10&amp;hash=95DF9EF77C5E105163229FD8E66400830755A384" class="tempImg" alt="Exterior view of the building. Credit: Ross Fraser McLean" width="10" height="6" DisableWebEdit="False" />
-            <img src="/images/map.jpg" class="mainImg" alt="Exterior view of the building. Credit: Ross Fraser McLean" width="2000" height="1126" DisableWebEdit="False" />
+            <img src="/images/arup-pages/science-and-tech/data-centre-map.jpg" class="mainImg" alt="Exterior view of the building. Credit: Ross Fraser McLean" width="2000" height="1126" DisableWebEdit="False" />
         </div>
         <div class="container fullbleed__container fullbleed__container--left">
              <div class="addthis_toolbox addthis_default_style">
@@ -339,9 +337,8 @@ Our <a href="#">Uptime Institute</a> accredited tier designers have delivered pr
     <section class="container">
         <div class="rich-text">
             <div class="reveal rich-text__content">
-                <h2>More data – less energy?</h2><P>Data centres currently account for around 2% of global carbon emissions - equivalent to aviation - and this is expected to grow to 3.5% by 2021.</P><P>
-The key challenge facing the global data industry is the seemingly conflicting demand for ever great computing capabilities, at a time when the need to reduce carbon generation has never been greater.</P><P>
-Arup’s data centre specialists have long focused on addressing this. By considering how excess energy can be re-used, we have been able to consistently deliver major savings in both energy and water consumption for our clients.</P>
+                <h2>More data – less energy?</h2><P>Data centres are energy intensive. The sector currently accounts for around 2% of global carbon emissions - equivalent to aviation - and this is expected to grow to 3.5% by 2021. As our insatiable demand for data increases, finding ways to lower energy use is now a major priority across the data sector.</P>
+                <p>By considering how excess energy can be re-used, we have been able to consistently deliver major savings in both energy and water consumption in designs for our clients. </p>
             </div>
         </div>
     </section>
@@ -369,7 +366,7 @@ Arup’s data centre specialists have long focused on addressing this. By consid
                         </h4>
                         <h3 class="preview-copy__title ">Citi Data Centre, Frankfurt</h3>
                     <div class="preview-copy__copy-wrap">
-                            <p class="preview-copy__copy">Working with Citigroup, Arup delivered the world's first LEED Platinum Data Centre. Solutions include cooling towers and reverse osmosis delivering a 72% reduction in energy usage and 30% fall in water consumption.</p>
+                            <p class="preview-copy__copy">Working with Citigroup, Arup delivered the world’s first LEED Platinum Data Centre. Solutions include cooling towers and reverse osmosis delivering a 72% reduction in energy usage and 30% fall in water consumption.</p>
                     </div>
                     </a>
                 </div>
@@ -417,7 +414,7 @@ Arup’s data centre specialists have long focused on addressing this. By consid
                         </h4>
                         <h3 class="preview-copy__title ">AMS15 Data Centre, Amsterdam</h3>
                     <div class="preview-copy__copy-wrap">
-                            <p class="preview-copy__copy">Utilising fresh cooling air along with indirect cooling air to data halls alongside evaporative cooling, contributed to achieving a BREEAM target rating of ‘Very Good’.</p>
+                            <p class="preview-copy__copy">Utilising fresh cooling air along with indirect cooling air to achieve a Power Usage Effectiveness of 1.23, contributed to achieving a BREEAM target rating of ‘Very Good’.</p>
                     </div>
                     </a>
                 </div>
@@ -458,7 +455,7 @@ Arup’s data centre specialists have long focused on addressing this. By consid
         <div class="rich-text">
             <div class="reveal rich-text__content">
                 <h2>Security, resilience & risk</h2><P>
-Continuous accessibility and reassurance of data integrity are key in the digital economy. Data centres offer unique challenges from a security viewpoint. From natural disaster risk mitigation to physical security, successful data centres need to be able to constantly evolve to in ensure their viability.</P>
+Continuous and reliable access to data are cornerstones of the modern digital economy. It’s why data centres are now a core part of countries’ infrastructure. This is also why operators need to ensure they’re always running the latest hardware, and offer the right levels of security to the commercial clients that rely on them for data services. From natural disaster risk mitigation to physical security, successful data centres need to be able to constantly evolve to in ensure their viability. </P>
             </div>
         </div>
     </section>
@@ -497,7 +494,11 @@ Continuous accessibility and reassurance of data integrity are key in the digita
                                                     <span class="cta-title__copy">Equinix London Data Centre 6</span>
                                                 </a>
                                             </h3>
-                                                                                    <p class="summary-info__copy">TAccounting for over 25% of the total European equities trade, resilience was a key factor in Arup’s solution of Equinix’s LD6 data centre. Any power interruption or single failure of equipment can be tolerated with no perceived impact to the end customer.</p>
+                                                                                    <p class="summary-info__copy">Accounting for over 25% of the total European equities trade, resilience was a key factor in Arup’s solution of Equinix’s LD6 data centre. Any power interruption or single failure of equipment can be tolerated with no perceived impact to the end customer.</p>
+                                                                                    <a href="https://foresight.arup.com/expertise/" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                                                    <span>Find out more</span>
+                                                </a>
                                     </div>
                                 </div>
                             </div>
@@ -516,8 +517,7 @@ Continuous accessibility and reassurance of data integrity are key in the digita
                                                 </a>
                                             </h3>
                                                                                     <p class="summary-info__copy">The project involves the addition of a bypass to the 600 KW flywheel uninterruptible power supply (UPS) and the 1,200 KW Diesel Rotary UPS. An on-site review with the owner of the switchgear arrangement determined that a new section to house the tie circuit breaker was required.</p>
-<p class="summary-info__copy">
-Additionally, the existing security CRAC units were located inside the rooms and caused risk of water damage and were not operating correctly. Arup’s proposed improvements to both security data rooms recommended relocating existing fan coil units to outside the rooms.</p>                                       
+<p class="summary-info__copy">Arup’s proposed improvements to both security data rooms recommended relocating existing fan coil units to outside the rooms.</p>                                       
                                     </div>
                                 </div>
                             </div>
@@ -546,6 +546,12 @@ We  undertook an independent threat assessment before commencement and reviewed 
                         </div>
         </div>
     </div>
+</section>
+<section class="large-quote container">
+    <blockquote class="quote reveal">
+        <span class="quote__symbol">&#8220;</span>
+        <p>There is no doubt that Arup is an expert in the field of data centre engineering. I like the way they manage their processes and how they care about their clients. &#8221;</p><span class="people"><img alt="Kaitlin Langdon headshot" height="450" src="/images/arup-pages/science-and-tech/sergey-vyshemirskiy.jpg?h=450&amp;la=en&amp;w=450&amp;hash=DCA5FE3F0F5EC6A5A2416736BDBDBA08B2460C1F" width="450"> <span class="people__inner"><span class="bold">Sergey Vyshemirskiy</span> <span>Technical Director, IXcellerate</span></span></span>
+    </blockquote>
 </section>
 <section class="container">
         <div class="rich-text">
@@ -583,11 +589,21 @@ From providing solutions that better utilise existing infrastructure, to designi
             </div>
         </div>
     </section>
+    <section class="container">
+        <div class="rich-text">
+            <div class="reveal rich-text__content">
+                <h2>Want to know how Arup can help you?
+</h2><P>
+You can access our data centre and technology specialists through regional consultants around the world. Wherever you’re based, we can help you identify efficient and cost-effective solutions for your mission critical facilities.
+</P>
+            </div>
+        </div>
+    </section>
     <div class="container">
     <div class="contact-us contact-us--in-page">
         <hr class="contact-us__topline arrow-line arrow-line--down" />
         <div class="contact-us__main">
-            <h3 class="contact-us__title">Want to know how Arup can help you?</h3>
+            <h3 class="contact-us__title"></h3>
             <div class="contact-us__cta">
                 <a href="/our-firm/peter-a-thompson" class="cta cta--black cta--small cta--right cta--plain">
                     <span data-grunticon-embed class="icon icon-oval"></span>
@@ -634,6 +650,26 @@ From providing solutions that better utilise existing infrastructure, to designi
                 </div>
             </div>
         </div>
+    </div>
+</div>
+<div class="container">
+    <div class="related">
+        <p class="footnote"></p>
+        <h4>Find out more science and industry experience</h4>
+        <ul class="pic-links">
+                <li class="pic-links__item">
+                    <a href="/expertise/industry/energy/urban-energy" class="pic-link pic-link--stretch " style="background-image: url('https://www.arup.com/-/media/arup/images/projects/f/francis-crick-institute/cover-image-the-francis-crick-institute_-paul-carstairs.jpg?h=1125&la=en&w=2000&hash=433C08A4986EAC583774F9403BCC397784365F14');">
+                        <span class="pic-link--mobile" style="background-image: url('/-/media/arup/images/expertise/industries/energy/shutterstock_192479294.jpg?mw=720&amp;hash=29B4A3EB9D0404F2D4D5FB5FB06B66B10176C6E1');"></span>
+                        <span class="pic-link__copy">Science</span>
+                    </a>
+                </li>
+                            <li class="pic-links__item">
+                    <a href="/expertise/industry/energy/liquid-natural-gas" class="pic-link pic-link--stretch " style="background-image: url('https://www.arup.com/-/media/arup/images/projects/j/jaguar-land-rover-engine-manufacturing-centre/hero-image.jpg?h=1125&la=en&w=2000&hash=B23EB3C0FAC7035945D08A5D7B30AF971DED7B20');">
+                        <span class="pic-link--mobile" style="background-image: url('/-/media/arup/images/expertise/services/lng/2000x1125-shutterstock_650113906.jpg?mw=720&amp;hash=210575962ABA1715B0CD8CA05A886F165AC800A7');"></span>
+                        <span class="pic-link__copy">Advanced manufacturing</span>
+                    </a>
+                </li>
+        </ul>
     </div>
 </div>
 

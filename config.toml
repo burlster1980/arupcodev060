@@ -2,7 +2,7 @@ baseURL = "https://styleguide.arup.com/"
 languageCode = "en-us"
 title = "Arup.com support and best practice"
 theme = "arup"
-publishDir = "../arupBuild/arup/www/"
+publishDir = "../arupbuild/arup/www/"
 [menu]
 
   [[menu.main]]
