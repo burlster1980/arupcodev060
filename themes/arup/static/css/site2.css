@@ -1387,7 +1387,7 @@ sub {
 }
 
 blockquote {
-    quotes: "“" "”" "‘" "’";
+    quotes: "“" "”";
     margin: 0 0 0 5%;
     font-size: 16px
 }
@@ -4330,33 +4330,33 @@ nav.nav-sidebar__main .nav-list-wrap .nav-core__list .nav-core__item ul li {
 }
 
 .nav-list-wrap__item--expertise {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .3)), to(rgba(0, 0, 0, .3))), url(../images/backgrounds/expertise.jpg);
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/backgrounds/expertise.jpg);
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, .3) 0, rgba(0, 0, 0, .3)), url(../images/backgrounds/expertise.jpg)
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .3)), to(rgba(0, 0, 0, .3))), url(https://www.arup.com/images/backgrounds/expertise.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(https://www.arup.com/images/backgrounds/expertise.jpg);
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, .3) 0, rgba(0, 0, 0, .3)), url(https://www.arup.com/images/backgrounds/expertise.jpg)
 }
 
 .nav-list-wrap__item--careers {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .3)), to(rgba(0, 0, 0, .3))), url(../images/backgrounds/careers.jpg);
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/backgrounds/careers.jpg);
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, .3) 0, rgba(0, 0, 0, .3)), url(../images/backgrounds/careers.jpg)
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .3)), to(rgba(0, 0, 0, .3))), url(https://www.arup.com/images/backgrounds/careers.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(https://www.arup.com/images/backgrounds/careers.jpg);
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, .3) 0, rgba(0, 0, 0, .3)), url(https://www.arup.com/images/backgrounds/careers.jpg)
 }
 
 .nav-list-wrap__item--perspectives {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .3)), to(rgba(0, 0, 0, .3))), url(../images/backgrounds/firm.jpg);
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/backgrounds/firm.jpg);
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, .3) 0, rgba(0, 0, 0, .3)), url(../images/backgrounds/firm.jpg)
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .3)), to(rgba(0, 0, 0, .3))), url(https://www.arup.com/images/backgrounds/firm.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(https://www.arup.com/images/backgrounds/firm.jpg);
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, .3) 0, rgba(0, 0, 0, .3)), url(https://www.arup.com/images/backgrounds/firm.jpg)
 }
 
 .nav-list-wrap__item--offices {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .3)), to(rgba(0, 0, 0, .3))), url(../images/backgrounds/offices.jpg);
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/backgrounds/offices.jpg);
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, .3) 0, rgba(0, 0, 0, .3)), url(../images/backgrounds/offices.jpg)
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .3)), to(rgba(0, 0, 0, .3))), url(https://www.arup.com/images/backgrounds/offices.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(https://www.arup.com/images/backgrounds/offices.jpg);
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, .3) 0, rgba(0, 0, 0, .3)), url(https://www.arup.com/images/backgrounds/offices.jpg)
 }
 
 .nav-list-wrap__item--firm {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .3)), to(rgba(0, 0, 0, .3))), url(../images/backgrounds/firm.jpg);
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/backgrounds/firm.jpg);
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, .3) 0, rgba(0, 0, 0, .3)), url(../images/backgrounds/firm.jpg)
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .3)), to(rgba(0, 0, 0, .3))), url(https://www.arup.com/images/backgrounds/firm.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(https://www.arup.com/images/backgrounds/firm.jpg);
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, .3) 0, rgba(0, 0, 0, .3)), url(https://www.arup.com/images/backgrounds/firm.jpg)
 }
 
 .nav-list-wrap__content {
@@ -4773,16 +4773,16 @@ nav.nav-sidebar__main .nav-list-wrap .nav-core__list .nav-core__item ul li {
 }
 
 .meganav-pane--expertise {
-    background-image: url(../images/backgrounds/expertise.jpg);
+    background-image: url(https://www.arup.com/images/backgrounds/expertise.jpg);
     background-position: bottom
 }
 
 .meganav-pane--perspective {
-    background-image: url(../images/backgrounds/perspective.jpg)
+    background-image: url(https://www.arup.com/images/backgrounds/perspective.jpg)
 }
 
 .meganav-pane--careers {
-    background-image: url(../images/backgrounds/careers.jpg)
+    background-image: url(https://www.arup.com/images/backgrounds/careers.jpg)
 }
 
 .meganav-pane--careers .meganav-list__item {
@@ -4802,7 +4802,7 @@ nav.nav-sidebar__main .nav-list-wrap .nav-core__list .nav-core__item ul li {
 }
 
 .meganav-pane--offices {
-    background-image: url(../images/backgrounds/offices.jpg);
+    background-image: url(https://www.arup.com/images/backgrounds/offices.jpg);
     background-size: 100% 100%
 }
 
@@ -8636,6 +8636,10 @@ nav.nav-sidebar__main .nav-list-wrap .nav-core__list .nav-core__item ul li {
 
 .filter__list ul li a:focus {
     outline: none;
+    color: inherit
+}
+
+.filter__list ul li a.active {
     color: #ff5056
 }
 
@@ -9441,22 +9445,22 @@ hr+.people {
 }
 
 .flag--turkey {
-    background: url(../images/flags/turkey.png) no-repeat 0 0;
+    background: url(https://www.arup.com/images/flags/turkey.png) no-repeat 0 0;
     background-size: contain
 }
 
 .flag--gb {
-    background: url(../images/flags/gb.png) no-repeat 0 0;
+    background: url(https://www.arup.com/images/flags/gb.png) no-repeat 0 0;
     background-size: contain
 }
 
 .flag--us {
-    background: url(../images/flags/usa.png) no-repeat 0 0;
+    background: url(https://www.arup.com/images/flags/usa.png) no-repeat 0 0;
     background-size: contain
 }
 
 .flag--sa {
-    background: url(../images/flags/sa.png) no-repeat 0 0;
+    background: url(https://www.arup.com/images/flags/sa.png) no-repeat 0 0;
     background-size: contain
 }
 
@@ -10395,8 +10399,8 @@ hr+.people {
     margin-bottom: 5px;
     float: left;
     margin-right: 35px;
-    width: 20%;
-    white-space: nowrap
+    width: 100%;
+    white-space: normal
 }
 
 .side-facts .fact .stat .stat__figure {
@@ -10435,7 +10439,7 @@ hr+.people {
 
 @media (min-width:1280px) {
     .side-facts--lg .fact .stat {
-        font-size: 60px
+        font-size: 48px
     }
 }
 
@@ -12984,6 +12988,21 @@ hr+.people {
     margin-top: 0
 }
 
+@media (min-width:768px) {
+    .fullbleed-carousel .slide.slick-slide:before {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        content: "";
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(0, 0, 0, .8)));
+        background: -webkit-linear-gradient(transparent 70%, rgba(0, 0, 0, .8));
+        background: linear-gradient(transparent 70%, rgba(0, 0, 0, .8));
+        z-index: 3
+    }
+}
+
 .fullbleed-carousel:after {
     display: none
 }
@@ -13030,6 +13049,12 @@ hr+.people {
     line-height: 1.54;
     letter-spacing: 1px;
     margin: 1.5rem
+}
+
+@media (min-width:768px) {
+    .fullbleed-carousel__detail {
+        font-size: 14px
+    }
 }
 
 .fullbleed-carousel__controls {
@@ -13284,7 +13309,7 @@ hr+.people {
         color: #fff
     }
     .fullbleed-carousel {
-        height: 800px
+        height: 700px
     }
     .fullbleed--empty {
         color: #343434;
@@ -14726,7 +14751,8 @@ hr+.people {
 
 .profile-block {
     margin: 60px auto;
-    display: block
+    display: block;
+    background-color: #f9f9f9
 }
 
 @media (min-width:768px) {
@@ -14842,20 +14868,6 @@ hr+.people {
     content: "”";
     display: inline-block;
     margin-left: -5px
-}
-
-@media (min-width:1280px) {
-    .container--3col .col__main .profile-block blockquote h2:after,
-    .profile-block blockquote .container--3col .col__main h2:after,
-    .profile-block blockquote .h4:after,
-    .profile-block blockquote .project--hero .project__title:after,
-    .profile-block blockquote .rich-text h2:after,
-    .profile-block blockquote .rt-section h2:after,
-    .project--hero .profile-block blockquote .project__title:after,
-    .rich-text .profile-block blockquote h2:after,
-    .rt-section .profile-block blockquote h2:after {
-        margin-left: -15px
-    }
 }
 
 @media (min-width:768px) {
@@ -15005,8 +15017,24 @@ hr+.people {
 .fancy-dropdown .filter {
     margin: 0;
     color: inherit;
-    font-style: normal;
-    padding-right: 40px
+    padding-right: 40px;
+    -webkit-transition: color .25s;
+    transition: color .25s
+}
+
+.fancy-dropdown .filter:after {
+    background: url(https://www.arup.com/images/arrow-down--white.svg) no-repeat 0 0;
+    background-size: cover;
+    -webkit-transition: color .25s;
+    transition: color .25s
+}
+
+.fancy-dropdown .filter:hover {
+    color: #ff5056
+}
+
+.fancy-dropdown .filter:hover:after {
+    background: url(https://www.arup.com/images/arrow-down--red.png)
 }
 
 .perspectives__title {
@@ -15051,7 +15079,8 @@ hr+.people {
     -webkit-flex-direction: column;
     flex-direction: column;
     -webkit-justify-content: space-around;
-    justify-content: space-around
+    justify-content: space-around;
+    min-height: 100%
 }
 
 .perspective img {
@@ -15068,7 +15097,8 @@ hr+.people {
 .perspective blockquote {
     margin: 0;
     padding: 16px 22px;
-    max-width: none
+    max-width: none;
+    font-style: italic
 }
 
 .perspective blockquote p {
@@ -15086,6 +15116,7 @@ hr+.people {
 }
 
 .perspective__footer {
+    margin-top: auto;
     padding: 10px 22px;
     border-top: 1px solid #ccc
 }
@@ -15258,6 +15289,332 @@ hr+.people {
     padding-bottom: 2em
 }
 
+.media-comp {
+    overflow: hidden;
+    pointer-events: none;
+    line-height: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none
+}
+
+.media-comp,
+.media-comp>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%
+}
+
+.media-comp--overlay-dark:after,
+.media-comp--overlay-light:after,
+.media-comp--overlay-medium:after,
+.media-comp--overlay:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6)
+}
+
+.media-comp--overlay-medium:after {
+    background: rgba(0, 0, 0, .4)
+}
+
+.media-comp--overlay-light:after {
+    background: rgba(0, 0, 0, .2)
+}
+
+.media-comp img,
+.media-comp video {
+    position: relative;
+    display: block;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    min-height: 100%;
+    min-width: 100%;
+    height: auto;
+    width: auto;
+    max-width: none
+}
+
+@supports (object-fit:cover) {
+    .media-comp img,
+    .media-comp video {
+        height: 100%;
+        width: 100%;
+        object-fit: cover
+    }
+}
+
+@supports (object-fit:cover) and (-ms-ime-align:auto) {
+    .media-comp img,
+    .media-comp video {
+        height: auto;
+        width: auto
+    }
+}
+
+.panel {
+    padding: 40px 0;
+    position: relative
+}
+
+@media (min-width:768px) {
+    .panel {
+        padding: 80px 0
+    }
+}
+
+.panel__container {
+    position: static;
+    padding: 0
+}
+
+.panel__content {
+    position: relative;
+    z-index: 5;
+    padding: 0 1.5rem
+}
+
+.panel__label {
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 5px
+}
+
+[data-theme=dark] {
+    color: #fff;
+    background: #141414
+}
+
+[data-theme=dark] hr,
+[data-theme=dark] ol,
+[data-theme=dark] ol li,
+[data-theme=dark] p,
+[data-theme=dark] ul,
+[data-theme=dark] ul li {
+    color: inherit
+}
+
+@media (max-width:1279px) {
+    .content-slider--wide .accordion__content,
+    .content-slider--wide .slick-list {
+        margin-left: -1.5rem;
+        margin-right: -1.5rem
+    }
+}
+
+.scroll-panel {
+    position: relative;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 0;
+    padding-right: 17px;
+    max-height: 271px
+}
+
+.scroll-panel.has-scrollbar {
+    overflow: hidden;
+    padding-left: 30px
+}
+
+.scroll-panel ul {
+    margin: 0;
+    padding: 0;
+    max-height: 100%;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #000), right);
+    -webkit-mask-image: -webkit-linear-gradient(top, #000 80%, transparent)
+}
+
+.scroll-panel li {
+    margin: .2em 0 1.6em;
+    padding: 0;
+    list-style: none
+}
+
+.scroll-panel a {
+    font-style: italic;
+    font-size: 18px
+}
+
+.scroll-panel a.active {
+    color: #ff5056
+}
+
+.scroll-panel .nano-pane {
+    position: absolute;
+    width: 7px;
+    left: 0;
+    right: auto;
+    top: 0;
+    bottom: 0
+}
+
+.scroll-panel .nano-pane:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 1px;
+    height: 100%;
+    opacity: .2
+}
+
+.scroll-panel .nano-pane .nano-slider,
+.scroll-panel .nano-pane:before {
+    background: currentColor;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s
+}
+
+.scroll-panel .nano-pane .nano-slider {
+    height: 5px;
+    position: relative;
+    margin: 0 1px;
+    border-radius: 10px
+}
+
+.nav-panel {
+    padding: 40px 0;
+    position: relative
+}
+
+@media (min-width:768px) {
+    .nav-panel {
+        padding: 160px 0 80px
+    }
+}
+
+@media (min-width:1024px) {
+    .nav-panel {
+        margin: 4.375em 0
+    }
+}
+
+.nav-panel__container {
+    position: static
+}
+
+.nav-panel__inner {
+    margin: 0 5% 0 12.5%
+}
+
+.nav-panel__main {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    margin-left: -25px
+}
+
+@media (min-width:768px) {
+    .nav-panel__main {
+        margin-left: -50px
+    }
+}
+
+.nav-panel__content,
+.nav-panel__nav {
+    margin-left: 25px
+}
+
+@media (min-width:768px) {
+    .nav-panel__content,
+    .nav-panel__nav {
+        margin-left: 50px
+    }
+}
+
+.nav-panel__nav {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+    flex: 0 0 25%;
+    position: relative;
+    z-index: 10
+}
+
+@media (min-width:768px) {
+    .nav-panel__nav {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 1 320px;
+        flex: 0 1 320px
+    }
+}
+
+.nav-panel__nav h4 {
+    font-size: 15px;
+    margin-bottom: 1.4em;
+    padding-right: 35px
+}
+
+.nav-panel__scroller {
+    max-height: 350px
+}
+
+.nav-panel__content {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1
+}
+
+.nav-panel .panel {
+    padding: 0!important;
+    position: static;
+    color: inherit;
+    background: transparent;
+    max-width: 440px;
+    margin-left: auto
+}
+
+.nav-panel .panel__media {
+    display: none
+}
+
+.nav-panel .panel__content {
+    padding: 0
+}
+
+.nav-panel--reverse .nav-panel__content {
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    order: -1
+}
+
+.nav-panel--reverse .panel {
+    margin-left: 0
+}
+
+.nav-panel .scroll-panel .nano-pane[style] {
+    display: block!important
+}
+
+.nav-panel .scroll-panel .nano-pane[style] .nano-slider {
+    display: none
+}
+
+.nav-panel:not(.nav-panel--reverse) .nav-panel__nav {
+    text-align: right
+}
+
+.nav-panel:not(.nav-panel--reverse) .scroll-panel li {
+    padding-right: 8px
+}
+
+.nav-panel:not(.nav-panel--reverse) .scroll-panel .nano-pane {
+    left: auto;
+    right: 0
+}
+
 .error__img {
     margin: 0 auto;
     max-width: 680px;
@@ -15279,7 +15636,7 @@ hr+.people {
 }
 
 .error__bg--desktop .error__bgimg--404 {
-    background: url(../images/backgrounds/404.jpg) no-repeat 50%;
+    background: url(https://www.arup.com/images/backgrounds/404.jpg) no-repeat 50%;
     background-size: cover
 }
 
@@ -15294,7 +15651,7 @@ hr+.people {
 }
 
 .error__bg--mobile .error__bgimg--404 {
-    background: url(../images/backgrounds/404-mob.jpg) no-repeat bottom;
+    background: url(https://www.arup.com/images/backgrounds/404-mob.jpg) no-repeat bottom;
     background-size: cover
 }
 
@@ -15755,8 +16112,10 @@ hr+.people {
     background-color: #f2f2f2
 }
 
-#article-anchor .rich-text__content h2.intro {
-    font-size: 22px!important
+@media (max-width:768px) {
+    #article-anchor .rich-text__content h2.intro {
+        font-size: 22px!important
+    }
 }
 
 .content-split {
@@ -23285,6 +23644,10 @@ body#offices .learn-more {
     margin-bottom: .5em
 }
 
+.container--profile-block {
+    max-width: 930px!important
+}
+
 @media (max-width:1280px) {
     #careers.fullscreen .header {
         opacity: 0;
@@ -23292,7 +23655,6 @@ body#offices .learn-more {
     }
 }
 
-#careers .container--profile-block,
 #careers .publications .container,
 #careers .publications .rich-text {
     max-width: 930px!important
@@ -23315,7 +23677,7 @@ body#offices .learn-more {
 }
 
 .fullbleed--careers {
-    min-height: 400px
+    min-height: 300px
 }
 
 .fullbleed--careers,
@@ -23334,6 +23696,7 @@ body#offices .learn-more {
 
 @media (min-width:1280px) {
     .fullbleed--careers {
+        min-height: 400px;
         height: 670px
     }
 }
@@ -23344,12 +23707,20 @@ body#offices .learn-more {
     }
 }
 
-.fullbleed--careers .fancy-dropdown+.filter__list+* {
-    margin-top: 45px
+.fullbleed--careers .fullbleed__alt-content {
+    padding-bottom: 0
 }
 
-.fullbleed--careers .fullbleed__alt-content {
-    padding-bottom: 55px
+@media (min-width:768px) {
+    .fullbleed--careers .fullbleed__alt-content {
+        padding-bottom: 55px
+    }
+}
+
+@media (min-width:1280px) {
+    .fullbleed--careers .fullbleed__alt-content .fancy-dropdown .h3 {
+        font-size: 32px
+    }
 }
 
 .fullbleed--careers .container,
@@ -23646,15 +24017,6 @@ body#offices .learn-more {
     list-style: none;
     margin: 0;
     padding: 0
-}
-
-[data-theme=dark] {
-    background-color: #141414;
-    color: #fff
-}
-
-[data-theme=dark] p {
-    color: inherit
 }
 
 [data-theme=grey] {
@@ -25183,6 +25545,35 @@ body#careers .learn-more {
     font-weight: 700
 }
 
+.note {
+    max-width: 1160px;
+    margin: 15px auto;
+    padding: 10px 15px;
+    position: relative;
+    background: #ff5056;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.2;
+    border-radius: 5px
+}
+
+.note p {
+    color: inherit;
+    font-size: inherit
+}
+
+.note>* {
+    margin: 0;
+    padding: 0
+}
+
+.note b {
+    font-weight: inherit;
+    padding: 2px 4px;
+    background: rgba(0, 0, 0, .2);
+    display: inline-block
+}
+
 .dev-postmvp {
     opacity: .4;
     pointer-events: none;
@@ -25229,6 +25620,38 @@ body#careers .learn-more {
     line-height: 1;
     background: #000;
     color: #fff
+}
+
+@media (min-width:768px) {
+    .new-mobile {
+        display: none
+    }
+}
+
+.new-tablet {
+    display: none
+}
+
+@media (min-width:768px) {
+    .new-tablet {
+        display: block
+    }
+}
+
+@media (min-width:1280px) {
+    .new-tablet {
+        display: none
+    }
+}
+
+.new-desktop {
+    display: none
+}
+
+@media (min-width:1280px) {
+    .new-desktop {
+        display: block
+    }
 }
 
 

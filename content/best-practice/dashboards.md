@@ -1,7 +1,7 @@
 ---
 title: "Metrics and dashboards"
 date: 2019-02-16T17:49:27Z
-lastmod: 2012-03-26
+lastmod: 2020-04-09
 draft: false
 type: Best practice
 weight: "6"
@@ -115,7 +115,7 @@ menu:
 				</li>
 			</ol>
 			<h5>Regional reports</h5>
-			<p>Reports below all include live data and can be filtered by date.</p>
+			<p>Reports below all include live data and show the previous month's data (for example viewing the dashboard in the month of April means you're seeing data from 1 - 31 March).</p>
 			<ol class="header-list" style="margin-bottom:20px;">
 				<li>
 					<a href="https://datastudio.google.com/s/vXidxNvYysM" target="_blank">Americas report</a>
