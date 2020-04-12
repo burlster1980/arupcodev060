@@ -131,7 +131,7 @@ new ScrollMagic.Scene({triggerElement: "#covid-6",triggerHook: 0.75})
     //we need to remove the stickyness of the previous panelk when trhis panel covers it - otherwise you can get its scroll position for the top nav scroll anchors
     var sceneHitTop = new ScrollMagic.Scene({
       triggerElement: "#recovery",
-      offset: $(window).innerHeight() / 2 - 30
+      offset: $(window).innerHeight() / 2 - 34
     });
 
     sceneHitTop.on("enter leave", function () {
