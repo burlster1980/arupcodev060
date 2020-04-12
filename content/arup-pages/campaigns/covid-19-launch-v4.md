@@ -217,7 +217,7 @@ type: covid19
 <!-- end slide three -->
 <!-- slide four rapid -->
 <div id="wec-goals">
-<section id="rapid-adaptation" class="wec-section animated wec-section--pad covid-section panel-four covid-section-white center-align pinned">
+<section id="rapid-adaptation" class="wec-section animated wec-section--pad covid-section panel-four covid-section-white pinned" style="overflow: initial;">
     <div class="wec-section__inner">
         <div class="wec-section__main">
         	<div class="container full-width no-limit">

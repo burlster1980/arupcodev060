@@ -51,11 +51,9 @@ new ScrollMagic.Scene({triggerElement: "#wec-drop", triggerHook:0})
 
 new ScrollMagic.Scene({triggerElement: "#covid-1", triggerHook: 0.65})
           .setClassToggle(".panel-one", "active") // add class toggle
-          .addIndicators()
           .addTo(controller);
 new ScrollMagic.Scene({triggerElement: "#covid-2", triggerHook:0.75})
           .setClassToggle(".panel-two", "active") // add class toggle
-          .addIndicators()
           .addTo(controller);
 new ScrollMagic.Scene({triggerElement: "#covid-3", triggerHook: 0.75})
           .setClassToggle(".panel-three", "active") // add class toggle
@@ -150,6 +148,4 @@ new ScrollMagic.Scene({triggerElement: "#covid-6",triggerHook: 0.75})
 
     TweenMax.to(window, 1, { scrollTo: { y: target.offset().top } });
   });
-    console.log("bam!"); //enjoy it
-
 });

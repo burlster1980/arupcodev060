@@ -163,6 +163,10 @@ h2.section-heading {
 		position: relative;
 		margin: auto;
 	}
+	#wec-goals {
+		position: relative;
+		box-sizing:border-box;
+	}
 	#wec-goals .wec-section {
 		position:relative;
 		top:initial;
@@ -331,5 +335,11 @@ h2.section-heading {
 @media (min-width: 1280px) and (max-width: 1499px) {
 	.full-width {
 		padding:0 1.5rem;
+	}
+}
+@media (max-height: 809px) {
+	.carousel-container .nav-panel__container .panel {
+		min-height:330px!important;
+		max-height:420px;
 	}
 }
