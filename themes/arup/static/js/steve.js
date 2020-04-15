@@ -59,13 +59,13 @@ new ScrollMagic.Scene({triggerElement: "#covid-3", triggerHook: 0.75})
           .setClassToggle(".panel-three", "active") // add class toggle
           .addTo(controller);
 new ScrollMagic.Scene({triggerElement: "#covid-4",triggerHook: 0.75})
-          .setClassToggle(".panel-seven", "active") // add class toggle
-          .addTo(controller);
-new ScrollMagic.Scene({triggerElement: "#covid-5",triggerHook: 0.75})
           .setClassToggle(".panel-eight", "active") // add class toggle
           .addTo(controller);
-new ScrollMagic.Scene({triggerElement: "#covid-6",triggerHook: 0.75})
+new ScrollMagic.Scene({triggerElement: "#covid-5",triggerHook: 0.75})
           .setClassToggle(".panel-nine", "active") // add class toggle
+          .addTo(controller);
+new ScrollMagic.Scene({triggerElement: "#covid-6",triggerHook: 0.75})
+          .setClassToggle(".panel-ten", "active") // add class toggle
           .addTo(controller);
  
   //anchorable scenes - rapid adaptation
@@ -126,7 +126,7 @@ new ScrollMagic.Scene({triggerElement: "#covid-6",triggerHook: 0.75})
       $("#data").toggleClass("hide");
     }).addTo(controller);
 
-    //we need to remove the stickyness of the previous panelk when trhis panel covers it - otherwise you can get its scroll position for the top nav scroll anchors
+    //we need to remove the stickyness of the previous panel when this panel covers it - otherwise you can get its scroll position for the top nav scroll anchors
     var sceneHitTop = new ScrollMagic.Scene({
       triggerElement: "#recovery",
       offset: $(window).innerHeight() / 2 - 34
@@ -134,6 +134,33 @@ new ScrollMagic.Scene({triggerElement: "#covid-6",triggerHook: 0.75})
 
     sceneHitTop.on("enter leave", function () {
       $("#data").toggleClass("disable-sticky");
+    }).addTo(controller);
+  })();
+
+  // scene vaccines
+  (function () {
+    var scene = new ScrollMagic.Scene({
+      triggerElement: "#vaccines",
+      offset: 0,
+      duration: $("#vaccines").outerHeight()
+    });
+
+    scenes.push(scene);
+
+    var timeline = new TimelineMax().add([]);
+
+    scene.setClassToggle("#vaccines", "active").setTween(timeline).on("start", function () {
+      $("#recovery").toggleClass("hide");
+    }).addTo(controller);
+
+    //we need to remove the stickyness of the previous panelk when trhis panel covers it - otherwise you can get its scroll position for the top nav scroll anchors
+    var sceneHitTop = new ScrollMagic.Scene({
+      triggerElement: "#vaccines",
+      offset: $(window).innerHeight() / 2 - 34
+    });
+
+    sceneHitTop.on("enter leave", function () {
+      $("#recovery").toggleClass("disable-sticky");
     }).addTo(controller);
   })();
 

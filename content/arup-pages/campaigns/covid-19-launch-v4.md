@@ -9,43 +9,12 @@ type: covid19
     <div class="wec-section__media">
         <!-- need to add in post background to video tag so that will work on non-video devices -->
     	<video preload="auto" loop="true" muted="muted" class="">
-    		<source src="/video/covid-19/covid-2.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+    		<source src="/video/covid-19/covid-banner-video-final.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
     	</video>
     </div>
     <div class="container narrow">
         <h1>Adapting to a Covid-19 world</h1>
         <p class="page-info__copy">Acting now. Preparing for tomorrow.</p>
-        <div class="panel__scrollIcon">
-            <div>
-                <div class="icon">
-                    <a href="#article-anchor" class="mouse anchor-scroll" aria-label="Scroll to next section">
-                        <svg width="23px" height="37px" viewBox="0 0 23 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel">
-                                <g id="Buttons/Links/Discover-Scroll" transform="translate(-1.000000, 0.000000)" stroke="#fff">
-                                    <g id="mouse" transform="translate(2.000000, 1.000000)">
-                                        <rect id="Rectangle-3" x="0" y="0" width="21" height="35" rx="10.5"></rect>
-                                        <path d="M10.5,5.5 L10.5,11.5" id="Line"></path>
-                                    </g>
-                                </g>
-                            </g>
-                        </svg>
-                    </a>
-                    <a href="#article-anchor" class="arrow" aria-label="Scroll to next section">
-                        <svg width="6px" height="17px" viewBox="0 0 6 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square" opacity="0.9" stroke-linejoin="bevel">
-                                <g id="Buttons/Links/Discover-Scroll" transform="translate(-29.000000, -12.000000)" stroke="#fff">
-                                    <g id="Group" transform="translate(32.000000, 20.500000) rotate(-270.000000) translate(-32.000000, -20.500000) translate(24.500000, 17.500000)">
-                                        <path d="M0.0682870944,3 L14.80162,3" id="Line"></path>
-                                        <polyline id="Path-106" points="12.3333333 0 15 3 12.3333333 6"></polyline>
-                                    </g>
-                                </g>
-                            </g>
-                        </svg>
-                    </a>
-                </div>
-                <a href="#article-anchor" class="label">Scroll</a>
-            </div>
-        </div> 
     </div>
 </section>
 <!-- end banner -->
@@ -55,8 +24,7 @@ type: covid19
         <div class="wec-section__main">
         	<div class="container mid-width">
         		<div class="animate animate-content">
-        			<p class="intro">The Covid-19 pandemic is a major shock to the world. While governments race to address the immediate operational issues posed by the outbreak, organisations are already considering how to return to normality once the virus is under control. </p>
-        			<p class="intro">No-one has all the answers. But as countries, businesses and individuals consider a post-pandemic future, everyone must draw on their skills and experience to produce a safer and more resilient world.</p>
+        			<p class="intro">The COVID-19 pandemic is a major shock to the world. The human cost is hard to bear and our thoughts are with all those affected. While governments race to address the immediate is-sues posed by the outbreak, organisations are already considering how to recover and resume business, once the virus is under control. </p><p class="intro">No one has all the answers. But as countries, businesses and individuals plan for a post-pandemic future, everyone must draw on their skills and experience to shape a safer and more resilient world.</p>
                     <div class="panel__scrollIcon black">
                         <div>
                         <div class="icon">
@@ -85,7 +53,7 @@ type: covid19
                                 </svg>
                             </a>
                         </div>
-                        <a href="#article-anchor" class="label">Scroll</a>
+                        <span class="label">Scroll</span>
                         </div>
                     </div>
         		</div>
@@ -96,15 +64,15 @@ type: covid19
 <!-- end slide one - intro -->
 <!-- slide two - helping -->
 <section class="wec-section override animated wec-section--pad covid-section panel-two covid-section-white center-align overlay" id="covid-2">
-	<div class="wec-section__media" style="background-image:url('/images/arup-pages/covid-19/hospital-demo.jpg')"></div>
+	<div class="wec-section__media" style="background-image:url('/images/arup-pages/covid-19/hospital-corridor.jpg')"></div>
 	<div class="wec-section__inner">
         <div class="wec-section__main" data-theme="overlay-text">
         	<div class="container mid-width">
         		<h2 class="section-heading animate animate-content">Immediate needs</h2>
                 <div class="animate animate-content">
                     <p>As engineers, designers and technical consultants we have a role to play in this moment of crisis. This is a moment to be brave, try new ideas and collaborate closely with others to develop services and facilities our communities need.</p>
-                    <p>We have teams around the world working on the rapid adaptation of existing spaces for medical use. Our healthcare experts are working on modular designs for intensive care beds and investigating the conversion of industrial oxygen for clinical use.</p>
-                    <p>Neuron, our AI powered digital building management platform, has been modified to operate a thermal imaging system that can help screen people’s health as they return to work for clients in China. </p>
+                    <p>We have teams around the world working on the rapid adaptation of existing spaces for medical use. Our healthcare experts are working on modular designs for intensive care beds and inves-tigating the conversion of industrial oxygen for clinical use.</p>
+                    <p>Neuron, our AI-powered digital building management platform, has been modified to operate a thermal imaging system for clients in China, to help screen people’s health as they return to work. </p>
                     <div class="panel__scrollIcon black">
                         <div>
                         <div class="icon">
@@ -133,7 +101,7 @@ type: covid19
                                 </svg>
                             </a>
                         </div>
-                        <a href="#article-anchor" class="label">Scroll</a>
+                        <span class="label">Scroll</span>
                         </div>
                     </div> 
                 </div>
@@ -146,11 +114,11 @@ type: covid19
 <section class="wec-section override animated wec-section--pad covid-section panel-three covid-section-mid__grey center-align" id="covid-3">
     <div class="wec-section__inner">  
     	<div class="wec-section__main">
-    		<div class="container full-width">
+    		<div class="container">
     			<div class="mid-width">
     				<h2 class="section-heading animate animate-content">From crisis to recovery</h2>
     				<div class="animate animate-content">
-                      <p>With so many commercial assumptions challenged by the pandemic, from sudden loss of consumers, passengers or clients, to underused assets and infrastructure, we believe in three priorities:</p>
+                      <p>With so many commercial assumptions challenged by the pandemic, from sudden loss of consumers, passengers or clients, to underused assets and infrastructure, we believe recovery has four strands:</p>
                     </div>
     			</div>
     			<div class="inpagenav covid-section-mid__grey animate animate-content">
@@ -182,7 +150,7 @@ type: covid19
                 						Data, technology and modelling
             						</h4>
             						<p>
-                						Analysis, scenario planning and understanding options for a changed world
+                						Analysis, scenario-planning and financial assumptions to understand your options
             						</p>
             						<div class="expertise-services__cta cta cta--black cta--small">
                 						<span data-grunticon-embed class="icon icon-oval"></span>
@@ -208,6 +176,24 @@ type: covid19
         						</div>
     						</a>
 						</div>
+                        <!-- item four -->
+                        <div class="inpagenav-item">
+                            <a href="#vaccines" class="linkfill">
+                                <div class="inner">
+                                    <div class="background background-image"></div>
+                                    <div class="background background-color"></div>
+                                    <h4>
+                                        Global vaccine development
+                                    </h4>
+                                    <p>
+                                        Meeting a worldwide healthcare priority
+                                    </p>
+                                    <div class="expertise-services__cta cta cta--black cta--small">
+                                        <span data-grunticon-embed class="icon icon-oval"></span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
     				</div>
     			</div>
     		</div>
@@ -224,7 +210,7 @@ type: covid19
         		<div class="mid-width">
         			<h2 class="section-heading animate animate-content">Rapid adaptation</h2>
                     <div class="animate animate-content">
-        			    <p>Traditionally, business never stops for breath. Right now, it’s vital for organisations to hit the pause button, adapting the way their people, resources, services and assets are deployed. We are exploring how this might work for a range of different sectors:</p>
+        			    <p>Traditionally, business never stops for breath. Right now, it’s vital for organisations to hit the pause button, adapting the way their people, resources, services and assets are deployed. We are exploring how this might work across many sectors:</p>
                     </div>
         		</div>
         		<!-- add in mobile version -->
@@ -233,7 +219,7 @@ type: covid19
             			<div class="accordion" data-closed="true">
                     		<div class="accordion__section selected">
                         		<p class="accordion__title intro intro--bold">
-                            		Supporting transport providers
+                            		Adapting business plans 
                             		<span data-grunticon-embed class="accordion__marker icon icon-arrow"></span>
                         		</p>
                         		<div class="accordion__content accordion__content--spaced">
@@ -241,13 +227,13 @@ type: covid19
                                     	<div class="container panel__container">
                                         	<div class="panel__content">
                                             	<h4 class="panel__label"></h4>
-                                            	<h3 class="panel__title">Supporting transport providers</h3>
+                                            	<h3 class="panel__title">Adapting business plans </h3>
                                             	<hr />
-                                            	<p>For train service planners this could mean optimising rail lines for critical freight and key worker services now that normal passenger services are reduced. </p>
-                       							<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="mailto:steve.burleigh@arup.com?subject=Testing out what goes in the subject line" tabindex="0">
+                                            	<p>Our Advisory Services teams help clients to adapt their businesses to the shape of the post-COVID-19 economy. This includes rapid reprioritisation of projects and investments; se-curing access to funding; and ensuring continuity of critical operations.</p>
+                       							<!--<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="mailto:steve.burleigh@arup.com?subject=Testing out what goes in the subject line" tabindex="0">
                                 					<span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewbox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
                             					<span>Find out more</span>
-												</a>
+												</a>-->
                                         	</div>
                                     	</div>
                                 	</div>
@@ -263,12 +249,12 @@ type: covid19
                                     	<div class="container panel__container">
                                         	<div class="panel__content">
                                             	<h4 class="panel__label"></h4>
-                                            	<h3 class="panel__title">Re-purposing facilities</h3>
+                                            	<h3 class="panel__title">Repurposing facilities</h3>
                                             	<hr />
-                                            	<p>For aviation and healthcare clients we are exploring how unused facilities can be repurposed to provide vital healthcare services while flights are suspended.</p>
-                       							<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/expertise/industry/rail/metro-rail-design" tabindex="0">
+                                            	<p>For healthcare and aviation clients, we have developed a range of modular, scalable and rap-id-build solutions – deployed on existing campuses or as standalone facilities – for the re-use of non-medical buildings. These adaptable design solutions can be tailored to many lo-gistical and infrastructure challenges. </p>
+                       							<!--<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/expertise/industry/rail/metro-rail-design" tabindex="0">
                                 					<span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewbox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
-                            					<span>Find out more</span>
+                            					<span>Find out more</span>-->
 												</a>
                                         	</div>
                                     	</div>
@@ -277,7 +263,7 @@ type: covid19
                     		</div>
                     		<div class="accordion__section">
                         		<p class="accordion__title intro intro--bold">
-                            		Remote asset inspection
+                            		Supporting transport providers 
                             		<span data-grunticon-embed class="accordion__marker icon icon-arrow"></span>
                         		</p>
                         		<div class="accordion__content accordion__content--spaced">
@@ -285,13 +271,13 @@ type: covid19
                                     	<div class="container panel__container">
                                         	<div class="panel__content">
                                             	<h4 class="panel__label"></h4>
-                                            	<h3 class="panel__title">Remote asset inspection</h3>
+                                            	<h3 class="panel__title">Supporting transport providers</h3>
                                             	<hr />
-                                            	<p>Use of drones and dedicated software such as Arup Inspect provides an alternative for maintaining critical assets/infrastructure </p>
-                       							<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/expertise/industry/rail/metro-rail-design" tabindex="0">
+                                            	<p>For train service planners this could mean optimising rail lines for critical freight and key worker services, now that normal services have been reduced. And as the shipping industry struggles to meet higher global demand, there’s a chance to develop lower emissions freight transport, for a more sustainable future.</p>
+                       							<!--<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/expertise/industry/rail/metro-rail-design" tabindex="0">
                                 					<span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewbox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
                             					<span>Find out more</span>
-												</a>
+												</a>-->
                                         	</div>
                                     	</div>
                                 	</div>
@@ -309,11 +295,11 @@ type: covid19
                                             	<h4 class="panel__label"></h4>
                                             	<h3 class="panel__title">Supporting supply chains</h3>
                                             	<hr />
-                                            	<p>rom manufacturing to food production, supply chains have undergone major disruption. We can map, identify, plan and build resilience and contingency within supply chains and critical social infrastructure. </p>
-                       							<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/expertise/industry/rail/metro-rail-design" tabindex="0">
+                                            	<p>From manufacturing to food production, supply chains have undergone major disruption. We can map, identify, plan and build resilience and contingency within supply chains for vital goods, including Personal Protective Equipment (PPE), and critical social infrastruc-ture.  </p>
+                       							<!--<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/expertise/industry/rail/metro-rail-design" tabindex="0">
                                 					<span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewbox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
                             					<span>Find out more</span>
-												</a>
+												</a>-->
                                         	</div>
                                     	</div>
                                 	</div>
@@ -321,7 +307,7 @@ type: covid19
                     		</div>
                     		<div class="accordion__section">
                         		<p class="accordion__title intro intro--bold">
-                            		Adapting business plans
+                            		Remote asset inspection
                             		<span data-grunticon-embed class="accordion__marker icon icon-arrow"></span>
                         		</p>
                         		<div class="accordion__content accordion__content--spaced">
@@ -329,17 +315,61 @@ type: covid19
                                     	<div class="container panel__container">
                                         	<div class="panel__content">
                                             	<h4 class="panel__label"></h4>
-                                            	<h3 class="panel__title">Adapting business plans</h3>
+                                            	<h3 class="panel__title">Remote asset inspection</h3>
                                             	<hr />
-                                            	<p>our Advisory Services teams help clients to explore changing markets and sectors, adapting their businesses for the post-Covid-19 economy.</p>
-                       							<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/expertise/industry/rail/metro-rail-design" tabindex="0">
+                                            	<p>We can use drones and dedicated software such as Arup Inspect to provide a safe alterna-tive for maintaining critical assets and infrastructure.</p>
+                       							<!--<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/expertise/industry/rail/metro-rail-design" tabindex="0">
                                 					<span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewbox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
                             					<span>Find out more</span>
-												</a>
+												</a>-->
                                         	</div>
                                     	</div>
                                 	</div>
                         		</div>
+                            </div>
+                            <div class="accordion__section">
+                                    <p class="accordion__title intro intro--bold">
+                                        Medical gas and clinical MEP systems
+                                        <span data-grunticon-embed class="accordion__marker icon icon-arrow"></span>
+                                    </p>
+                                <div class="accordion__content accordion__content--spaced">
+                                    <div class="panel" data-theme='dark' id="4">
+                                        <div class="container panel__container">
+                                            <div class="panel__content">
+                                                <h4 class="panel__label"></h4>
+                                                <h3 class="panel__title">Medical gas and clinical MEP systems</h3>
+                                                <hr />
+                                                <p>We are currently designing temporary and permanent critical medical infrastructure, sup-porting our partners with technical and project management advice. These include medical gas system capacity assessments and upgrades, ventilation solutions, and related power, sanitation and public health services.</p>
+                                                <!--<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/expertise/industry/rail/metro-rail-design" tabindex="0">
+                                                    <span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewbox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
+                                                <span>Find out more</span>
+                                                </a>-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion__section">
+                                <p class="accordion__title intro intro--bold">
+                                    Waste management and handling 
+                                    <span data-grunticon-embed class="accordion__marker icon icon-arrow"></span>
+                                </p>
+                                <div class="accordion__content accordion__content--spaced">
+                                    <div class="panel" data-theme='dark' id="4">
+                                        <div class="container panel__container">
+                                            <div class="panel__content">
+                                                <h4 class="panel__label"></h4>
+                                                <h3 class="panel__title">Waste management and handling </h3>
+                                                <hr />
+                                                <p>We are helping labs and healthcare clients with the safe handling, segregation, and storage of increased volumes of waste. We also provide regulatory advice for the movement, storage and management of hazardous waste to meet local, national and international standards.</p>
+                                                <!--<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/expertise/industry/rail/metro-rail-design" tabindex="0">
+                                                    <span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewbox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
+                                                <span>Find out more</span>
+                                                </a>-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                     		</div>
                     	</div>
                     </section>
@@ -360,11 +390,13 @@ type: covid19
                         			<div class="nav-panel__nav">
                             			<div class="scroller js-es-scroller scroll-panel">
                                 			<ul class="scroller__content js-es-scroller-content">
-                                        		<li><a href="#0">Supporting transport providers</a></li>
-                                        		<li><a href="#1">Re-purposing facilities</a></li>
-                                        		<li><a href="#2">Remote asset inspection</a></li>
-                                        		<li><a href="#3">Supporting supply chains</a></li>
-                                        		<li><a href="#4">Adapting business plans</a></li>
+                                        		<li><a href="#0">Adapting business plans</a></li>
+                                        		<li><a href="#1">Repurposing facilities</a></li>
+                                        		<li><a href="#2">Supporting transport providers </a></li>
+                                        		<li><a href="#3">Solidifying supply chains </a></li>
+                                        		<li><a href="#4">Remote asset inspection</a></li>
+                                                <li><a href="#5">Medical gas and clinical MEP systems</a></li>
+                                                <li><a href="#6">Waste management and handling</a></li>
                                 			</ul>
                             			</div>
                         			</div>
@@ -373,13 +405,13 @@ type: covid19
                                         	<div class="container panel__container">
                                             	<div class="panel__content">
                                                 	<h4 class="panel__label">Rapid adaptation</h4>
-                                                	<h3 class="panel__title">Supporting transport providers</h3>
+                                                	<h3 class="panel__title">Adapting business plans</h3>
                                                 	<hr />
-                                                	<p>For train service planners this could mean optimising rail lines for critical freight and key worker services now that normal passenger services are reduced.</p>
-                                                	<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/expertise/industry/rail/metro-rail-design" tabindex="0">
+                                                	<p>Our Advisory Services teams help clients to adapt their businesses to the shape of the post-COVID-19 economy. This includes rapid reprioritisation of projects and investments; se-curing access to funding; and ensuring continuity of critical operations.</p>
+                                                	<!--<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/expertise/industry/rail/metro-rail-design" tabindex="0">
                                 						<span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewbox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
                             							<span>Find out more</span>
-													</a>
+													</a>-->
                                             	</div>
                                         	</div>
                                     	</div>
@@ -387,9 +419,9 @@ type: covid19
                                         	<div class="container panel__container">
                                             	<div class="panel__content">
                                                 	<h4 class="panel__label">Rapid adaptation</h4>
-                                                	<h3 class="panel__title">Re-purposing facilities</h3>
+                                                	<h3 class="panel__title">Repurposing facilities</h3>
                                                 	<hr />
-                                                	<p>For aviation and healthcare clients we are exploring how unused facilities can be repurposed to provide vital healthcare services while flights are suspended.</p>
+                                                	<p>For healthcare and aviation clients, we have developed a range of modular, scalable and rap-id-build solutions – deployed on existing campuses or as standalone facilities – for the re-use of non-medical buildings. These adaptable design solutions can be tailored to many lo-gistical and infrastructure challenges. </p>
                                             	</div>
                                         	</div>
                                     	</div>
@@ -397,9 +429,9 @@ type: covid19
                                         	<div class="container panel__container">
                                             	<div class="panel__content">
                                                 	<h4 class="panel__label">Rapid adaptation</h4>
-                                                	<h3 class="panel__title">Remote asset inspection</h3>
+                                                	<h3 class="panel__title">Supporting transport providers</h3>
                                                 	<hr />
-                                                	<p>Use of drones and dedicated software such as Arup Inspect provides an alternative for maintaining critical assets/infrastructure</p>
+                                                	<p>For train service planners this could mean optimising rail lines for critical freight and key worker services, now that normal services have been reduced. And as the shipping industry struggles to meet higher global demand, there’s a chance to develop lower emissions freight transport, for a more sustainable future.</p>
                                             	</div>
                                         	</div>
                                     	</div>
@@ -407,9 +439,9 @@ type: covid19
                                         	<div class="container panel__container">
                                             	<div class="panel__content">
                                                 	<h4 class="panel__label">Rapid adaptation</h4>
-                                                	<h3 class="panel__title">Supporting supply chains</h3>
+                                                	<h3 class="panel__title">Solidifying supply chains </h3>
                                                 	<hr />
-                                                	<p>From manufacturing to food production, supply chains have undergone major disruption. We can map, identify, plan and build resilience and contingency within supply chains</p>
+                                                	<p>From manufacturing to food production, supply chains have undergone major disruption. We can map, identify, plan and build resilience and contingency within supply chains for vital goods, including Personal Protective Equipment (PPE), and critical social infrastruc-ture. </p>
                                             	</div>
                                         	</div>
                                     	</div>
@@ -417,12 +449,32 @@ type: covid19
                                         	<div class="container panel__container">
                                             	<div class="panel__content">
                                                 	<h4 class="panel__label">Rapid adaptation</h4>
-                                                	<h3 class="panel__title">Adapting business plans</h3>
+                                                	<h3 class="panel__title">Remote asset inspection</h3>
                                                 	<hr />
-                                                	<p>Our Advisory Services team help clients to explore changing markets and sectors, adapting their businesses for the post-Covid-19 economy</p>
+                                                	<p>We can use drones and dedicated software such as Arup Inspect to provide a safe alterna-tive for maintaining critical assets and infrastructure.</p>
                                             	</div>
                                         	</div>
                                     	</div>
+                                        <div class="panel" data-theme='grey-new' id="5">
+                                            <div class="container panel__container">
+                                                <div class="panel__content">
+                                                    <h4 class="panel__label">Rapid adaptation</h4>
+                                                    <h3 class="panel__title">Medical gas and clinical MEP systems</h3>
+                                                    <hr />
+                                                    <p>We are currently designing temporary and permanent critical medical infrastructure, sup-porting our partners with technical and project management advice. These include medical gas system capacity assessments and upgrades, ventilation solutions, and related power, sanitation and public health services.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel" data-theme='grey-new' id="6">
+                                            <div class="container panel__container">
+                                                <div class="panel__content">
+                                                    <h4 class="panel__label">Rapid adaptation</h4>
+                                                    <h3 class="panel__title">Waste management and handling </h3>
+                                                    <hr />
+                                                    <p>We are helping labs and healthcare clients with the safe handling, segregation, and storage of increased volumes of waste. We also provide regulatory advice for the movement, stor-age and management of hazardous waste to meet local, national and international standards.</p>
+                                                </div>
+                                            </div>
+                                        </div>
                         			</div>
                     			</div>
                 			</div>
@@ -443,7 +495,7 @@ type: covid19
         		<div class="mid-width">
         			<h2 class="section-heading animate animate-content">Data, technology and modelling</h2>
         			<div class="animate animate-content">
-                        <p>Understanding people’s behaviour and preferences and drawing insightful conclusions has never been more vital. Fortunately, a new generation of data modelling tools and techniques mean we are equipped to analyse and understand this situation.</p>
+                        <p>Understanding people’s behaviour and preferences and drawing insightful conclusions has never been more vital. Fortunately, a new generation of data modelling tools and techniques mean we are equipped to analyse and understand this situation. What will the restarted world look like?</p>
                     </div>
         		</div>
         		<!-- add in mobile version -->
@@ -452,7 +504,7 @@ type: covid19
             			<div class="accordion" data-closed="true">
                     		<div class="accordion__section selected">
                         		<p class="accordion__title intro intro--bold">
-                            		Impacts of closure
+                            		Scenario planning and business performance 
                             		<span data-grunticon-embed class="accordion__marker icon icon-arrow"></span>
                         		</p>
                         		<div class="accordion__content accordion__content--spaced">
@@ -460,13 +512,13 @@ type: covid19
                                     	<div class="container panel__container">
                                         	<div class="panel__content">
                                             	<h4 class="panel__label"></h4>
-                                            	<h3 class="panel__title">Impacts of closure</h3>
+                                            	<h3 class="panel__title">Scenario planning and business performance </h3>
                                             	<hr />
-                                            	<p>Data scientists, engineers and designers are able to analyse the impacts of part or full closure of transport networks to inform future planning. </p>
-                       							<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="mailto:steve.burleigh@arup.com?subject=Testing out what goes in the subject line" tabindex="0">
+                                            	<p>Modelling and analysis can help visualise the future for many businesses – helping com-municate change, engage users and monitor the impact of new ways of working. We have already produced city scenario plans that examine the business impacts of isolation measures for San Francisco and New York.</p>
+                       							<!--<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="mailto:steve.burleigh@arup.com?subject=Testing out what goes in the subject line" tabindex="0">
                                 					<span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewbox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
                             					<span>Find out more</span>
-												</a>
+												</a>-->
                                         	</div>
                                     	</div>
                                 	</div>
@@ -474,7 +526,7 @@ type: covid19
                     		</div>
                     		<div class="accordion__section">
                         		<p class="accordion__title intro intro--bold">
-                            		Simulation and agent based modelling
+                            		Data under pressure
                             		<span data-grunticon-embed class="accordion__marker icon icon-arrow"></span>
                         		</p>
                         		<div class="accordion__content accordion__content--spaced">
@@ -482,13 +534,13 @@ type: covid19
                                     	<div class="container panel__container">
                                         	<div class="panel__content">
                                             	<h4 class="panel__label"></h4>
-                                            	<h3 class="panel__title">Simulation and agent based modelling</h3>
+                                            	<h3 class="panel__title">Data under pressure</h3>
                                             	<hr />
-                                            	<p>Software helps us model how people move around cities to aid the maintenance of social distancing in a number of jurisdictions, as well as exploring the implications of hospital locations on existing transport services and populations. </p>
-                       							<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/expertise/industry/rail/metro-rail-design" tabindex="0">
+                                            	<p>Our data experts are helping clients to deal with the pandemic’s impact on data centre capac-ity and network infrastructure. We use artificial intelligence and machine learning-based tools to generate operational insights, and improve and strengthen performance.</p>
+                       							<!--<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/expertise/industry/rail/metro-rail-design" tabindex="0">
                                 					<span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewbox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
                             					<span>Find out more</span>
-												</a>
+												</a>-->
                                         	</div>
                                     	</div>
                                 	</div>
@@ -496,7 +548,7 @@ type: covid19
                     		</div>
                     		<div class="accordion__section">
                         		<p class="accordion__title intro intro--bold">
-                            		Scenario planning and business performance
+                            		Impacts of closure 
                             		<span data-grunticon-embed class="accordion__marker icon icon-arrow"></span>
                         		</p>
                         		<div class="accordion__content accordion__content--spaced">
@@ -504,17 +556,39 @@ type: covid19
                                     	<div class="container panel__container">
                                         	<div class="panel__content">
                                             	<h4 class="panel__label"></h4>
-                                            	<h3 class="panel__title">Scenario planning and business performance</h3>
+                                            	<h3 class="panel__title">Impacts of closure</h3>
                                             	<hr />
-                                            	<p>Modelling and analysis can help visualise the future for many businesses - helping communicate change, engage end users and monitor the impact of new ways of working.</p>
-                       							<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/expertise/industry/rail/metro-rail-design" tabindex="0">
+                                            	<p>Our data scientists, engineers and designers can analyse the impacts of partial or full closure of transport networks, for example, to inform future planning.</p>
+                       							<!--<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/expertise/industry/rail/metro-rail-design" tabindex="0">
                                 					<span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewbox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
                             					<span>Find out more</span>
-												</a>
+												</a>-->
                                         	</div>
                                     	</div>
                                 	</div>
                         		</div>
+                            </div>
+                            <div class="accordion__section">
+                                <p class="accordion__title intro intro--bold">
+                                    Simulation and agent-based modelling 
+                                    <span data-grunticon-embed class="accordion__marker icon icon-arrow"></span>
+                                </p>
+                                <div class="accordion__content accordion__content--spaced">
+                                    <div class="panel" data-theme='dark' id="2">
+                                        <div class="container panel__container">
+                                            <div class="panel__content">
+                                                <h4 class="panel__label"></h4>
+                                                <h3 class="panel__title">Simulation and agent-based modelling</h3>
+                                                <hr />
+                                                <p>We use software to model how people move around cities to aid social distancing in a num-ber of jurisdictions, as well as exploring the implications of existing and temporary hospital locations on transport services and populations.</p>
+                                                <!--<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/expertise/industry/rail/metro-rail-design" tabindex="0">
+                                                    <span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewbox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
+                                                <span>Find out more</span>
+                                                </a>-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                     		</div>
                     	</div>
                     </section>
@@ -535,9 +609,10 @@ type: covid19
                         			<div class="nav-panel__nav">
                             			<div class="scroller js-es-scroller scroll-panel">
                                 			<ul class="scroller__content js-es-scroller-content">
-                                        		<li><a href="#0">Impacts of closure</a></li>
-                                        		<li><a href="#1">Simulation and agent based modelling</a></li>
-                                        		<li><a href="#2">Scenario planning and business performance</a></li>
+                                        		<li><a href="#0">Scenario planning and business performance </a></li>
+                                        		<li><a href="#1">Data under pressure</a></li>
+                                        		<li><a href="#2">Impacts of closure</a></li>
+                                                <li><a href="#3">Simulation and agent-based modelling</a></li>
                                 			</ul>
                             			</div>
                         			</div>
@@ -546,13 +621,13 @@ type: covid19
                                         	<div class="container panel__container">
                                             	<div class="panel__content">
                                                 	<h4 class="panel__label">Data, technology and modelling</h4>
-                                                	<h3 class="panel__title">Impacts of closure</h3>
+                                                	<h3 class="panel__title">Scenario planning and business performance </h3>
                                                 	<hr />
-                                                	<p>Data scientists, engineers and designers are able to analyse the impacts of part or full closure of transport networks to inform future planning. </p>
-                                                	<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="mailto:steve.burleigh@arup.com?subject=Testing out what goes in the subject line" tabindex="0">
+                                                	<p>Modelling and analysis can help visualise the future for many businesses – helping com-municate change, engage users and monitor the impact of new ways of working. We have already produced city scenario plans that examine the business impacts of isolation measures for San Francisco and New York.</p>
+                                                	<!--<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="mailto:steve.burleigh@arup.com?subject=Testing out what goes in the subject line" tabindex="0">
                                 						<span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewbox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
                             							<span>Find out more</span>
-													</a>
+													</a>-->
                                             	</div>
                                         	</div>
                                     	</div>
@@ -560,9 +635,9 @@ type: covid19
                                         	<div class="container panel__container">
                                             	<div class="panel__content">
                                                 	<h4 class="panel__label">Data, technology and modelling</h4>
-                                                	<h3 class="panel__title">Simulation and agent based modelling</h3>
+                                                	<h3 class="panel__title">Data under pressure</h3>
                                                 	<hr />
-                                                	<p>Software helps us model how people move around cities to aid the maintenance of social distancing in a number of jurisdictions, as well as exploring the implications of hospital locations on existing transport services and populations.</p>
+                                                	<p>Our data experts are helping clients to deal with the pandemic’s impact on data centre capac-ity and network infrastructure. We use artificial intelligence and machine learning-based tools to generate operational insights, and improve and strengthen performance. </p>
                                             	</div>
                                         	</div>
                                     	</div>
@@ -570,12 +645,22 @@ type: covid19
                                         	<div class="container panel__container">
                                             	<div class="panel__content">
                                                 	<h4 class="panel__label">Data, technology and modelling</h4>
-                                                	<h3 class="panel__title">Scenario planning and business performance</h3>
+                                                	<h3 class="panel__title">Impacts of closure</h3>
                                                 	<hr />
-                                                	<p>Modelling and analysis can help visualise the future for many businesses - helping communicate change, engage end users and monitor the impact of new ways of working. Exploring new financial models will also be vital for some.  </p>
+                                                	<p>Our data scientists, engineers and designers can analyse the impacts of partial or full closure of transport networks, for example, to inform future planning.</p>
                                             	</div>
                                         	</div>
                                     	</div>
+                                        <div class="panel" data-theme='grey-dark' id="3">
+                                            <div class="container panel__container">
+                                                <div class="panel__content">
+                                                    <h4 class="panel__label">Data, technology and modelling</h4>
+                                                    <h3 class="panel__title">Simulation and agent-based modelling</h3>
+                                                    <hr />
+                                                    <p>We use software to model how people move around cities to aid social distancing in a num-ber of jurisdictions, as well as exploring the implications of existing and temporary hospital locations on transport services and populations.</p>
+                                                </div>
+                                            </div>
+                                        </div>
                         			</div>
                     			</div>
                 			</div>
@@ -596,7 +681,7 @@ type: covid19
         		<div class="mid-width">
         			<h2 class="section-heading animate animate-content">Restarting operations</h2>
                     <div class="animate animate-content">
-        			    <p>Launching a new service or opening a facility is a considerable undertaking in normal times. Restarting operations after disruption to much of the world economy will be harder, but sound planning now will help.</p>
+        			    <p>Launching a new service or opening a facility is a considerable undertaking in normal times. Restarting operations after disruption to much of the world economy will be harder. Sound planning now will help.</p>
                     </div>
         		</div>
         		<!-- add in mobile version -->
@@ -605,7 +690,7 @@ type: covid19
             			<div class="accordion" data-closed="true">
                     		<div class="accordion__section selected">
                         		<p class="accordion__title intro intro--bold">
-                            		Operational Readiness (ORAT)
+                            		Operational Readiness
                             		<span data-grunticon-embed class="accordion__marker icon icon-arrow"></span>
                         		</p>
                         		<div class="accordion__content accordion__content--spaced">
@@ -613,13 +698,13 @@ type: covid19
                                     	<div class="container panel__container">
                                         	<div class="panel__content">
                                             	<h4 class="panel__label"></h4>
-                                            	<h3 class="panel__title">Operational Readiness (ORAT)</h3>
+                                            	<h3 class="panel__title">Operational Readiness</h3>
                                             	<hr />
-                                            	<p>We have begun evolving and expanding our Operational Readiness and Transition framework to apply to distressed operations. This could help transport operators, for example, to move to minimum safe operations in an integrated and effective way. </p>
-                       							<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="mailto:steve.burleigh@arup.com?subject=Testing out what goes in the subject line" tabindex="0">
+                                            	<p>We have begun evolving and expanding our Operational Readiness and Transition framework (ORAT) to apply to distressed operations. This could help transport opera-tors, for example, to move to minimum safe operations in an integrated and effective way.</p>
+                       							<!--<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="mailto:steve.burleigh@arup.com?subject=Testing out what goes in the subject line" tabindex="0">
                                 					<span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewbox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
                             					<span>Find out more</span>
-												</a>
+												</a>-->
                                         	</div>
                                     	</div>
                                 	</div>
@@ -627,7 +712,7 @@ type: covid19
                     		</div>
                     		<div class="accordion__section">
                         		<p class="accordion__title intro intro--bold">
-                            		Developing scalability
+                            		Flexible organisations
                             		<span data-grunticon-embed class="accordion__marker icon icon-arrow"></span>
                         		</p>
                         		<div class="accordion__content accordion__content--spaced">
@@ -635,18 +720,62 @@ type: covid19
                                     	<div class="container panel__container">
                                         	<div class="panel__content">
                                             	<h4 class="panel__label"></h4>
-                                            	<h3 class="panel__title">Developing scalability</h3>
+                                            	<h3 class="panel__title">Flexible organisations</h3>
                                             	<hr />
-                                            	<p>The pandemic has also shown that organisations need to be increasingly flexible and scalable. We can help create the plans to return to ‘business at scale’ – adjusting quickly to whatever form this might be. </p>
-                       							<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/expertise/industry/rail/metro-rail-design" tabindex="0">
+                                            	<p>TThe pandemic has shown that organisations need to be increasingly flexible and scala-ble. We can help create the plans to return to ‘business at scale’ – adjusting quickly to whatever form this might be.</p>
+                       							<!--<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/expertise/industry/rail/metro-rail-design" tabindex="0">
                                 					<span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewbox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
                             					<span>Find out more</span>
-												</a>
+												</a>-->
                                         	</div>
                                     	</div>
                                 	</div>
                         		</div>
                     		</div>
+                            <div class="accordion__section">
+                                <p class="accordion__title intro intro--bold">
+                                    Flexible organisations
+                                    <span data-grunticon-embed class="accordion__marker icon icon-arrow"></span>
+                                </p>
+                                <div class="accordion__content accordion__content--spaced">
+                                    <div class="panel" data-theme='dark' id="1">
+                                        <div class="container panel__container">
+                                            <div class="panel__content">
+                                                <h4 class="panel__label"></h4>
+                                                <h3 class="panel__title">Flexible organisations</h3>
+                                                <hr />
+                                                <p>TThe pandemic has shown that organisations need to be increasingly flexible and scala-ble. We can help create the plans to return to ‘business at scale’ – adjusting quickly to whatever form this might be.</p>
+                                                <!--<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/expertise/industry/rail/metro-rail-design" tabindex="0">
+                                                    <span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewbox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
+                                                <span>Find out more</span>
+                                                </a>-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion__section">
+                                <p class="accordion__title intro intro--bold">
+                                    Return to work
+                                    <span data-grunticon-embed class="accordion__marker icon icon-arrow"></span>
+                                </p>
+                                <div class="accordion__content accordion__content--spaced">
+                                    <div class="panel" data-theme='dark' id="1">
+                                        <div class="container panel__container">
+                                            <div class="panel__content">
+                                                <h4 class="panel__label"></h4>
+                                                <h3 class="panel__title">Return to work</h3>
+                                                <hr />
+                                                <p>Our Business Continuity experts are supporting organisations’ safe and efficient return to work, using tools like thermal imaging to detect high body temperatures with a view to limit the spread of the virus.</p>
+                                                <!--<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="/expertise/industry/rail/metro-rail-design" tabindex="0">
+                                                    <span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewbox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
+                                                <span>Find out more</span>
+                                                </a>-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                     	</div>
                     </section>
                 </div>
@@ -666,8 +795,9 @@ type: covid19
                         			<div class="nav-panel__nav">
                             			<div class="scroller js-es-scroller scroll-panel">
                                 			<ul class="scroller__content js-es-scroller-content">
-                                        		<li><a href="#0">Operational Readiness (ORAT)</a></li>
-                                        		<li><a href="#1">Developing scalability</a></li>
+                                        		<li><a href="#0">Operational Readiness</a></li>
+                                        		<li><a href="#1">Flexible organisations</a></li>
+                                                <li><a href="#2">Return to work </a></li>
                                 			</ul>
                             			</div>
                         			</div>
@@ -676,13 +806,13 @@ type: covid19
                                         	<div class="container panel__container">
                                             	<div class="panel__content">
                                                 	<h4 class="panel__label">Restarting operations</h4>
-                                                	<h3 class="panel__title">Operational Readiness (ORAT)</h3>
+                                                	<h3 class="panel__title">Operational Readiness</h3>
                                                 	<hr />
-                                                	<p>We have begun evolving and expanding our Operational Readiness and Transition framework to apply to distressed operations. This could help transport operators, for example, to move to minimum safe operations in an integrated and effective way. </p>
-                                                	<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="mailto:steve.burleigh@arup.com?subject=Testing out what goes in the subject line" tabindex="0">
+                                                	<p>We have begun evolving and expanding our Operational Readiness and Transition framework (ORAT) to apply to distressed operations. This could help transport opera-tors, for example, to move to minimum safe operations in an integrated and effective way.</p>
+                                                	<!--<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="mailto:steve.burleigh@arup.com?subject=Testing out what goes in the subject line" tabindex="0">
                                 						<span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewbox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
                             							<span>Find out more</span>
-													</a>
+													</a>-->
                                             	</div>
                                         	</div>
                                     	</div>
@@ -690,12 +820,22 @@ type: covid19
                                         	<div class="container panel__container">
                                             	<div class="panel__content">
                                                 	<h4 class="panel__label">Restarting operations</h4>
-                                                	<h3 class="panel__title">Developing scalability</h3>
+                                                	<h3 class="panel__title">Flexible organisations</h3>
                                                 	<hr />
-                                                	<p>The pandemic has also shown that organisations need to be increasingly flexible and scalable. We can help create the plans to return to ‘business at scale’ – adjusting quickly to whatever form this might be.</p>
+                                                	<p>The pandemic has shown that organisations need to be increasingly flexible and scala-ble. We can help create the plans to return to ‘business at scale’ – adjusting quickly to whatever form this might be.</p>
                                             	</div>
                                         	</div>
                                     	</div>
+                                        <div class="panel" data-theme='grey-new' id="2">
+                                            <div class="container panel__container">
+                                                <div class="panel__content">
+                                                    <h4 class="panel__label">Restarting operations</h4>
+                                                    <h3 class="panel__title">Return to work</h3>
+                                                    <hr />
+                                                    <p>Our Business Continuity experts are supporting organisations’ safe and efficient return to work, using tools like thermal imaging to detect high body temperatures with a view to limit the spread of the virus.</p>
+                                                </div>
+                                            </div>
+                                        </div>
                         			</div>
                     			</div>
                 			</div>
@@ -707,18 +847,108 @@ type: covid19
         </div>
     </div>
 </section>
-</div>
 <!-- end slide 6 -->
-<!-- slide 7 - resilience intro -->
-<section id="covid-4" class="covid-section panel-seven center-align covid-section-mid__grey wec-section animated wec-section--pad overlay">
-    <div class="wec-section__media" style="background-image:url('/images/arup-pages/covid-19/resilient-future.jpg')"></div>
+<!-- slide 7 - vaccines -->
+<section id="vaccines" class="wec-section animated wec-section--pad covid-section panel-seven covid-section-light__grey center-align pinned">
+    <div class="wec-section__inner">
+        <div class="wec-section__main">
+            <div class="container full-width no-limit">
+                <div class="mid-width">
+                    <h2 class="section-heading animate animate-content">Global vaccine development</h2>
+                    <div class="animate animate-content">
+                        <p>Today, the whole world needs the same drugs and tests, at the same time. Rapid development of safe, high capacity research and pharmaceutical production facilities is a global priority – our economic future depends on it.</p>
+                    </div>
+                </div>
+                <!-- add in mobile version -->
+                <div class="new-mobile animate animate-content">
+                    <section class="container reveal content-slider content-slider--wide">
+                        <div class="accordion" data-closed="true">
+                            <div class="accordion__section selected">
+                                <p class="accordion__title intro intro--bold">
+                                    sureVaccine and anti-viral drug production support 
+                                    <span data-grunticon-embed class="accordion__marker icon icon-arrow"></span>
+                                </p>
+                                <div class="accordion__content accordion__content--spaced">
+                                    <div class="panel" data-theme='grey-new' id="0">
+                                        <div class="container panel__container">
+                                            <div class="panel__content">
+                                                <h4 class="panel__label"></h4>
+                                                <h3 class="panel__title">Vaccine and anti-viral drug production support </h3>
+                                                <hr />
+                                                <p>Our designers and project managers develop energy efficient research facilities that can meet stringent containment levels, including the handling of highly contagious sub-stances. Similarly, our teams advise on the conversion of existing space for specialist use, including storage facilities for critical medicines and vaccines. Importantly, our consultants have the experience to support organisations to manage country and region-wide vaccination programmes.  </p>
+                                                <!--<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="mailto:steve.burleigh@arup.com?subject=Testing out what goes in the subject line" tabindex="0">
+                                                    <span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewbox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
+                                                <span>Find out more</span>
+                                                </a>-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- end mobile version -->
+                <!-- begin desktop carousel -->
+                <div class="carousel-container animate animate-content">
+                    <div class="new-desktop">
+                    <div class="nav-panel " data-theme='grey-new'>
+                        <div class="media-comp media-comp--overlay nav-panel__media" style="">
+                            <div>
+                                <img src="/images/arup-pages/covid-19/vaccines-background.jpg"/>
+                            </div>
+                        </div>
+                        <div class="nav-panel__container full-width">
+                            <div class="nav-panel__inner">
+                                <div class="nav-panel__main">
+                                    <div class="nav-panel__nav">
+                                        <div class="scroller js-es-scroller scroll-panel">
+                                            <ul class="scroller__content js-es-scroller-content">
+                                                <li><a href="#0">Vaccine and anti-viral drug production support</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="nav-panel__content">
+                                        <div class="panel" data-theme='grey-new' id="0">
+                                            <div class="container panel__container">
+                                                <div class="panel__content">
+                                                    <h4 class="panel__label">Restarting operations</h4>
+                                                    <h3 class="panel__title">Vaccine and anti-viral drug production support</h3>
+                                                    <hr />
+                                                    <p>Our designers and project managers develop energy efficient research facilities that can meet stringent containment levels, including the handling of highly contagious sub-stances. Similarly, our teams advise on the conversion of existing space for specialist use, including storage facilities for critical medicines and vaccines. Importantly, our consultants have the experience to support organisations to manage country and region-wide vaccination programmes.  </p>
+                                                    <!--<a class="cta-title__link cta cta--white cta--small cta--right cta--plain" href="mailto:steve.burleigh@arup.com?subject=Testing out what goes in the subject line" tabindex="0">
+                                                        <span class="cta-title__icon icon icon-oval"><svg width="42" height="42" viewbox="0 0 42 42" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" transform="translate(1 1)" stroke="#FFF" fill="none" stroke-linecap="square"></circle></svg></span>
+                                                        <span>Find out more</span>
+                                                    </a>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+<!-- end slide 7 -->
+<!-- slide 8 - resilience intro -->
+<section id="covid-4" class="covid-section panel-eight center-align covid-section-mid__grey wec-section animated wec-section--pad overlay">
+    <div class="wec-section__media">
+        <video playsinline="" autoplay="" muted="" loop="" src="https://www.arup.com/-/media/arup/videos/2050-scenarios.mp4" poster="/-/media/arup/images/wec/sunset.jpg"></video>
+    </div>
     <div class="wec-section__inner">
     	<div class="wec-section__main">
     		<div class="container mid-width" data-theme="overlay-text">
               	<h2 class="section-heading animate animate-content">Building a more resilient future</h2>
               	<div class="animate animate-content narrow">
-              		<p>The pandemic is providing a global lesson in the true value of resilience. In the post-Covid-19 world business disruption will be a reality every organisation will need to plan for and consider.</p>
-              		<p>Fortunately, there are many existing tools and frameworks we can build upon. The Energy Resilience Framework offers a structured approach to systemic risks across the sector, whilst our City Resilience Indexes have helped urban decision makers to understand the potential threats their cities face, short, mid- and long-term.</p>
+              		<p>The pandemic has provided a global lesson in the true value of resilience. In the post-COVID-19 world business disruption will be a reality every organisation will need to plan for and con-sider, from the boardroom to frontline operations. </p>
+              		<p>This crisis is prompting most businesses and public sector bodies to stop and reassess their contingency and resilience planning. </p>
+                    <p>Resilience is not just a defensive strategy but a positive, future-looking strategic enabler. We can support your business so that you are always ready to respond to, recover from and ulti-mately transform your performance – once the immediate crisis is under control.</p>
               		<div class="panel__scrollIcon black">
             			<div>
             			<div class="icon">
@@ -747,7 +977,7 @@ type: covid19
                     			</svg>
                 			</a>
             			</div>
-            			<a href="#article-anchor" class="label">Scroll</a>
+            			<span class="label">Scroll</span>
             			</div>
             		</div>
               	</div>
@@ -755,9 +985,9 @@ type: covid19
     	</div>
     </div>
 </section>
-<!-- end slide 7 -->
-<!-- slide 8 - resilience thought leadership -->
-<section id="covid-5" class="covid-section panel-eight center-align covid-section-white wec-section animated wec-section--pad">
+<!-- end slide 8 -->
+<!-- slide 9 - resilience thought leadership -->
+<section id="covid-5" class="covid-section panel-nine center-align covid-section-white wec-section animated wec-section--pad">
     <div class="wec-section__inner">
     	<div class="wec-scetion__main">
             <div class="container full-width  animate animate-content">
@@ -823,14 +1053,14 @@ type: covid19
                             </a>
                         </li>
                         <li class="item-shelf__item">
-                            <a class="item-shelf__link" href="/perspectives/publications/research/section/redi-rating-system">
+                            <a class="item-shelf__link" href="/perspectives/publications/promotional-materials/section/resilience-security-and-risk-consulting">
                                 <div class="item-shelf__media">
                                     <div class="item-shelf__pic-wrap">
-                                        <img class="item-shelf__pic" src="https://www.arup.com/-/media/arup/images/publications/r/redi_rating_system.jpg?h=860&w=658&hash=C748A589F17F88E0B92D85073D4584E0" alt="REDi Rating System"/>
+                                        <img class="item-shelf__pic" src="https://www.arup.com/-/media/arup/images/publications/r/resilience_security_and_risk_consulting.jpg?h=481&mw=340&w=340&hash=E5C7DB4E2A9BD473825781CD569E6BFD" alt="Resilience, Security and Risk Consulting"/>
                                     </div>
                                 </div>
                                 <div class="item-shelf__copy-wrap">
-                                    <h3 class="item-shelf__title">REDi Rating System</h3>
+                                    <h3 class="item-shelf__title">Resilience, Security and Risk Consulting</h3>
                                 </div>
                             </a>
                         </li>
@@ -844,7 +1074,7 @@ type: covid19
                         <h4 class="section-title__title">Our perspectives</h4>
                     </div>
                     <div class="section-header__cta-wrap">
-                        <a class="cta cta--small cta--black" href="https://www.arup.com/perspectives/publications/all/resilience,-security-and-risk">
+                        <a class="cta cta--small cta--black" href="https://www.arup.com/perspectives">
                             <span class="cta__copy">See all perspectives</span>
                             <span data-grunticon-embed class="cta__icon icon icon-oval"></span>
                         </a>                
@@ -1052,86 +1282,6 @@ type: covid19
                                 </div>
                             </div>
                         </li>
-                        <li class="up-list__item up-list__item--three five" style="" aria-hidden="true" tabindex="0">
-                            <div class="preview-card  ">
-                                <a href="/perspectives/urban-climate-change-resilience-is-vital" class="preview-card__header preview-card__header--pic" tabindex="-1">
-                                    <div class="preview-card__pic" style="background-image: url(https://www.arup.com/-/media/arup/images/perspectives/themes/cities/urban-climate-change-resilience-arup-2000x833.jpg?h=832&w=2000&hash=E0BF72DA34905967E34C2EA2B7174417);">
-                                    </div>
-                                </a>
-                                <div class="preview-card__content preview-card__content--alt-style">
-                                    <div class="preview-card__main">
-                                        <div class="preview-copy">
-                                            <a href="/perspectives/urban-climate-change-resilience-is-vital" class="preview-copy__toplink" tabindex="-1">
-                                                <h3 class="preview-copy__title ">Urban climate change resilience is vital</h3>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <footer class="preview-card__footer">
-                                        <div class="preview-foot">
-                                            <div class="mini-profile  mini-profile--small">
-                                                <div class="mini-profile__pic-wrap ">
-                                                    <a href="/our-firm/amy-leitch" class="mini-profile__link" tabindex="-1">
-                                                        <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/j/jo-da-silva_arup_450x450.jpg?gray=1&mw=180&hash=5F41A0358574DDFE2628D7B419380EFD" alt="Jo Da Silva">
-                                                    </a>
-                                                </div>
-                                                <div class="mini-profile__main">
-                                                    <ul class="mini-profile__info-list">
-                                                        <li class="mini-profile__info-item mini-profile__info-item--core ">
-                                                            <a href="/our-firm/jo-da-silva" class="mini-profile__info-link" tabindex="-1">
-                                                                <span class="mini-profile__info-content">
-                                                                    <h4 class="mini-profile__name">Jo Da Silva</h4>
-                                                                    <h5 class="mini-profile__job">Global Sustainable Development Leader</h5>
-                                                                </span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </footer>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="up-list__item up-list__item--three five" style="" aria-hidden="true" tabindex="0">
-                            <div class="preview-card  ">
-                                <a href="/perspectives/microgrids-for-resilient-airports" class="preview-card__header preview-card__header--pic" tabindex="-1">
-                                    <div class="preview-card__pic" style="background-image: url(https://www.arup.com/-/media/arup/images/perspectives/themes/energy/microgrids-for-resilient-airports/microgrids1_2000x1125_flickr.jpg?h=1125&w=2000&hash=FA072FF11B5C2C081F287E16F018F689);">
-                                    </div>
-                                </a>
-                                <div class="preview-card__content preview-card__content--alt-style">
-                                    <div class="preview-card__main">
-                                        <div class="preview-copy">
-                                            <a href="/perspectives/microgrids-for-resilient-airports" class="preview-copy__toplink" tabindex="-1">
-                                                <h3 class="preview-copy__title ">Harnessing the power of microgrids for resilient airports</h3>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <footer class="preview-card__footer">
-                                        <div class="preview-foot">
-                                            <div class="mini-profile  mini-profile--small">
-                                                <div class="mini-profile__pic-wrap ">
-                                                    <a href="/our-firm/amy-leitch" class="mini-profile__link" tabindex="-1">
-                                                        <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/d/doug_nordham.jpg?gray=1&mw=180&hash=4A838D66F44ACA76591AF96352D4AA4A" alt="Doug Nordham">
-                                                    </a>
-                                                </div>
-                                                <div class="mini-profile__main">
-                                                    <ul class="mini-profile__info-list">
-                                                        <li class="mini-profile__info-item mini-profile__info-item--core ">
-                                                            <a href="/our-firm/doug-nordham" class="mini-profile__info-link" tabindex="-1">
-                                                                <span class="mini-profile__info-content">
-                                                                    <h4 class="mini-profile__name">Doug Nordham</h4>
-                                                                    <h5 class="mini-profile__job">Associate Principal</h5>
-                                                                </span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </footer>
-                                </div>
-                            </div>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -1139,15 +1289,15 @@ type: covid19
     	</div>
     </div>
 </section>
-<!-- end slide 8 -->
-<!-- begin slide 9 - contacets -->
-<section id="covid-6" class="covid-section panel-nine center-align covid-section-mid__grey wec-section animated wec-section--pad">
+<!-- end slide 9 -->
+<!-- begin slide 10 - contacets -->
+<section id="covid-6" class="covid-section panel-ten center-align covid-section-mid__grey wec-section animated wec-section--pad">
     <div class="wec-section__inner">
         <div class="wec-scetion__main">
             <div class="container mid-width">
                 <h2 class="section-heading animate animate-content">Talk to us</h2>
                 <div class="animate animate-content">
-                    <p class="intro">The world is uniting as one community. It’s a time to share innovative ideas and workable, scalable solutions. No-one can claim to have all the answers right now, but a more resilient future is one in which we all have a role to play. </p>
+                    <p class="intro">The world is uniting as one community. It’s a time to share innovative ideas and workable, scalable solutions. A more resilient future is one in which we all have a role to play.</p>
                     <p>Contact us below if you need to prepare your organisation.</p>
                 </div>
             </div>
@@ -1156,37 +1306,27 @@ type: covid19
                     <div class="container">
                         <div class="mini-profile mini-profile--icons">
                             <div class="mini-profile__pic-wrap">
-                                <a href="/our-firm/carol-lemmens" class="mini-profile__link">
-                                    <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/c/carollemmens2019.jpg?h=400&amp;w=400&amp;hash=336E3D128600C36D4BFC10706E26574D" alt="Carol Lemmens" />
-                                </a>
+                                <span class="mini-profile__link">
+                                    <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/d/dan-moran_400x400.jpg?gray=1&hash=F1E7F6C12342BA700EE973A263BB3948" alt="Dan Moran" />
+                                </span>
                             </div>
                             <div class="mini-profile__main">
                                 <ul class="mini-profile__info-list">
                                     <li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
-                                        <a href="/our-firm/carol-lemmens" class="mini-profile__info-link">
+                                        <span class="mini-profile__info-link">
                                             <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
                                             <span class="mini-profile__info-content">
                                                 <h4 class="mini-profile__name">
-                                                    John Smith
+                                                    Daniel Moran
                                                 </h4>
-                                                <h5 class="mini-profile__job">Global Advisory Services Leader</h5>
+                                                <h5 class="mini-profile__job">Associate Director, Dublin</h5>
                                             </span>
-                                        </a>
+                                        </span>
                                     </li>
                                     <li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
-                                        <a href="/cdn-cgi/l/email-protection#bedfdac8d7cdd1ccc7fedfcccbce90ddd1d3" class="mini-profile__info-link mini-profile__info-link--alt">
+                                        <a href="mailto:covid19@arup.com" class="mini-profile__info-link mini-profile__info-link--alt">
                                             <span data-grunticon-embed class="mini-profile__icon icon icon-contact"></span>
-                                            <span class="mini-profile__info-content"><span class="__cf_email__" data-cfemail="e180859788928e9398a180939491cf828e8c">covid19@arup.com</span></span>
-                                        </a>
-                                    </li>
-                                    <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
-                                        <a href="tel:+44 (0) 207 755 6642" class="mini-profile__info-link mini-profile__info-link--alt">
-                                            <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>
-                                            <span class="mini-profile__info-content">
-                                                +44 (0) 207 755 6642
-                                                <br />
-                                                <span class="mini-profile__info-meta">Amsterdam, 4/6/2020 11:35:15 PM</span>
-                                            </span>
+                                            <span class="mini-profile__info-content"><span class="__cf_email__">covid19@arup.com</span></span>
                                         </a>
                                     </li>
                                 </ul>
@@ -1194,37 +1334,27 @@ type: covid19
                         </div>
                         <div class="mini-profile mini-profile--icons">
                             <div class="mini-profile__pic-wrap">
-                                <a href="/our-firm/orion-fulton" class="mini-profile__link">
-                                    <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/o/orion_fulton_-_san_francisco_office_staff__arup_.jpg?h=450&amp;w=450&amp;hash=5133C7C084C9BCEC1075A104C5D49E83" alt="Orion Fulton" />
-                                </a>
+                                <span class="mini-profile__link">
+                                    <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/j/jennifer_dimambro__bel_c__daniel_imade_arup.jpg?gray=1&hash=ECB292D2BB7F49B327D7F5D78F7C143F" alt="Jennifer Dimambro" />
+                                </span>
                             </div>
                             <div class="mini-profile__main">
                                 <ul class="mini-profile__info-list">
                                     <li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
-                                        <a href="/our-firm/orion-fulton" class="mini-profile__info-link">
+                                        <span class="mini-profile__info-link">
                                             <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
                                             <span class="mini-profile__info-content">
                                                 <h4 class="mini-profile__name">
-                                                Mike Smith
+                                                Jennifer Dimambro
                                                 </h4>
-                                                <h5 class="mini-profile__job">Americas Advisory Services Leader</h5>
+                                                <h5 class="mini-profile__job">Principal, New York</h5>
                                             </span>
-                                        </a>
+                                        </span>
                                     </li>
                                     <li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
-                                        <a href="/cdn-cgi/l/email-protection#99f8fdeff0eaf6ebe0d9f8ebece9b7faf6f4" class="mini-profile__info-link mini-profile__info-link--alt">
+                                        <a href="mailto:covid19@arup.com" class="mini-profile__info-link mini-profile__info-link--alt">
                                             <span data-grunticon-embed class="mini-profile__icon icon icon-contact"></span>
-                                            <span class="mini-profile__info-content"><span class="__cf_email__" data-cfemail="2d4c495b445e425f546d4c5f585d034e4240">covid19@arup.com</span></span>
-                                        </a>
-                                    </li>
-                                    <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
-                                        <a href="tel:+1 415 957 9445" class="mini-profile__info-link mini-profile__info-link--alt">
-                                            <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>
-                                            <span class="mini-profile__info-content">
-                                                +1 415 957 9445
-                                                <br />
-                                                <span class="mini-profile__info-meta">San Francisco, 4/6/2020 2:35:15 PM</span>
-                                            </span>
+                                            <span class="mini-profile__info-content"><span class="__cf_email__">covid19@arup.com</span></span>
                                         </a>
                                     </li>
                                 </ul>
@@ -1232,37 +1362,27 @@ type: covid19
                         </div>  
                         <div class="mini-profile mini-profile--icons">
                             <div class="mini-profile__pic-wrap">
-                                <a href="/our-firm/jonathan-kinghorn" class="mini-profile__link">
-                                    <img class="mini-profile__pic" src="https://www.arup.com/-/media/arup/images/people/j/jonathan-kinghorn-2-(2).jpg?h=450&amp;w=450&amp;hash=AD2E1B576F246E7511DF2A84ADBA142B" alt="Jonathan Kinghorn" />
-                                </a>
+                                <span class="mini-profile__link">
+                                    <img class="mini-profile__pic" src="/images/arup-pages/covid-19/albany-tam.jpg" alt="Albany Tam" />
+                                </span>
                             </div>
                             <div class="mini-profile__main">
                                 <ul class="mini-profile__info-list">
                                     <li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
-                                        <a href="/our-firm/jonathan-kinghorn" class="mini-profile__info-link">
+                                        <span class="mini-profile__info-link">
                                             <span data-grunticon-embed class="mini-profile__icon icon icon-profile"></span>
                                             <span class="mini-profile__info-content">
                                                 <h4 class="mini-profile__name">
-                                                Jonathan Kinghorn
+                                                Albany Tam
                                                 </h4>
-                                                <h5 class="mini-profile__job">Australasia Advisory Services leader</h5>
+                                                <h5 class="mini-profile__job">Associate Director, Taipei</h5>
                                             </span>
-                                        </a>
+                                        </span>
                                     </li>
                                     <li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
-                                        <a href="/cdn-cgi/l/email-protection#4a2b2e3c23392538330a2b383f3a64292527" class="mini-profile__info-link mini-profile__info-link--alt">
+                                        <a href="mailto:covid19@arup.com" class="mini-profile__info-link mini-profile__info-link--alt">
                                             <span data-grunticon-embed class="mini-profile__icon icon icon-contact"></span>
-                                            <span class="mini-profile__info-content"><span class="__cf_email__" data-cfemail="dbbabfadb2a8b4a9a29bbaa9aeabf5">covid19@arup.com</span>com</span>
-                                        </a>
-                                    </li>
-                                    <li class="mini-profile__info-item mini-profile__info-item--tel mini-profile__info-item--icon">
-                                        <a href="tel:+61 (0) 3 9668 5500" class="mini-profile__info-link mini-profile__info-link--alt">
-                                            <span data-grunticon-embed class="mini-profile__icon icon icon-phone"></span>
-                                            <span class="mini-profile__info-content">
-                                                +61 (0) 3 9668 5500
-                                                <br />
-                                                <span class="mini-profile__info-meta">Melbourne, 4/7/2020 7:35:15 AM</span>
-                                            </span>
+                                            <span class="mini-profile__info-content"><span class="__cf_email__">covid19@arup.com</span>com</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -1274,4 +1394,4 @@ type: covid19
         </div>
     </div>
 </section>
-<!-- end slide 9 -->
+<!-- end slide 10 -->

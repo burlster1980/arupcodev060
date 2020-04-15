@@ -1,3 +1,4 @@
+
 baseURL = "https://styleguide.arup.com/"
 languageCode = "en-us"
 title = "Arup.com support and best practice"
@@ -36,4 +37,5 @@ publishDir = "../arupbuild/arup/www/"
   [params]
     DateForm = "2/1/2006"
 
-  
+  [markup.goldmark.renderer]
+unsafe = true

@@ -300,7 +300,7 @@ menu:
 					</ul>
 				</li>
 				<!--<li>If you're linking to a specific publication, consider making use of the Publication module (link) - this module helps to highlight publications specifically</li>-->
-				<li>If you're promoting a specific project / perspective / service / area of expertise, consider making use of the <a href="/adding-modules/recommended-content/">Recommend Content module</a> - this can help highlight a particular page or set of pages</li>
+				<li>If you're promoting a specific project / perspective / service / area of expertise, consider making use of the <a href="/creating-modules/recommended-content/">Recommend Content module</a> - this can help highlight a particular page or set of pages</li>
 				<li>Try and link to relevant pages on the site even if you're not writing about a specific item such as a report or project - news is a great way to get people on to arup.com. Linking to relevant pages will help keep them there and encourage them to learn more<br/><br/>
 					For example - you've added a news item about staff winning a Water award, in a scenario like this you should ensure that your article ends with a sentence or prompt such as 'Learn more about our water expertise' - and then <a href="/getting-started/adding-links/">link</a> to the Water industry page</li>
 				<li>If you'd adding links to external sites (for example you're linking to a report on the Parliament website) be sure to set this to open in a 'New window'. All links to pages outside of arup.com (even to other Arup websites) should open in a new tab in your browser (see <a href="/getting-started/adding-links/">adding Links</a> guide for more details)</li>
