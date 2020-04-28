@@ -1,0 +1,8 @@
+{{- partial "full-head.html" . -}}
+<body id="home">
+    {{- partial "digital-header.html" . -}}
+    <div class="global-wrapper" id="test">
+        <main id="main" role="main" class="nomargin hub">
+        	{{ .Content}}
+        </main>
+    {{- partial "footer.html" . -}}

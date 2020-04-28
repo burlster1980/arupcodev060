@@ -59,16 +59,23 @@ footer.footer {
 .covid-section {
 	overflow: hidden;
 }
-.covid-section.overlay:before {
+.covid-section.overlay:before, .fullbleed--video.overlay:before {
 	position: absolute;
 	content: "";
 	top:0;
 	bottom:0;
 	left:0;
 	right: 0;
-	background-color: rgba(0,0,0,0.525);
-	z-index: 3;
+	z-index: 2;
 }
+
+.covid-section.overlay.dark:before, .fullbleed--video.overlay.dark:before {
+	background: rgba(0,0,0,0.525);
+}
+.covid-section.overlay.light:before, .fullbleed--video.overlay.light:before {
+	background: rgba(0,0,0,0.25);
+}
+
 .narrow {
 		max-width: 800px;
 		margin: auto;
