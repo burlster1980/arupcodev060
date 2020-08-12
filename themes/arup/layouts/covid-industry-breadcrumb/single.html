@@ -1,0 +1,8 @@
+{{- partial "covid-head.html" . -}}
+<body id="wec" class="has-breadcrumbs">
+    {{- partial "covid-header-breadcrumb.html" . -}}
+    <div class="global-wrapper" id="">
+        <main id="main" role="main">
+        	{{ .Content}}
+        </main>
+    {{- partial "covid-footer.html" . -}}

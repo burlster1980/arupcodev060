@@ -1,6 +1,6 @@
 ---
 title: "Facade Engineering"
-date: 2019-06-26T16:36:50+01:00
+date: 2020-06-26T16:36:50+01:00
 draft: false
 type: perspective
 ---
@@ -125,7 +125,7 @@ type: perspective
         </div>
         <div class="utility-bar__breadcrumb">
             <p class="utility-bar__page-title">Data centres</p>
-            <p class="utility-bar__page-subtitle">Talk about this industry</p>
+            <a class="util-contact modal-trigger" href="#mainContact" onclick="globalContactClick('Duncan White - UKMEA Science and Industry Leader');"><p class="utility-bar__page-subtitle">Contact us about this service</p></a>
         </div>
             <div class="utility-bar__contact">
                 <a class="util-contact modal-trigger" href="#mainContact" onclick="globalContactClick('Duncan White - UKMEA Science and Industry Leader');">
@@ -151,6 +151,23 @@ type: perspective
             </div>
     </div>
 </section>
+<style>
+    @media (max-width:767px){
+        .utility-bar__page-title {
+            display: none;
+        }
+        .utility-bar__page-subtitle {
+            color:#343434;
+            font-size: 16px;
+        }
+        .utility-bar__contact, .util-contact__alt {
+            height:26px;
+        }
+    }
+    @media (min-width:768px) {
+
+    }
+</style>
     <div id="mainContact" class="modal" aria-hidden="true" role="dialog">
         <div class="modal__wrap"></div>
         <div class="modal__inner modal-person">
