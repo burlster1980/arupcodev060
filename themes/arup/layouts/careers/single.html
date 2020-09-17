@@ -1,8 +1,8 @@
-{{- partial "full-head-careers.html" . -}}
-<body class="wec">
-    {{- partial "careers-header.html" . -}}
+{{- partial "careers/full-head-careers.html" . -}}
+<body class="has-breadcrumbs" id="careers">
+    {{- partial "careers/careers-header.html" . -}}
     <div class="global-wrapper" id="test">
         <main id="main" role="main">
         	{{ .Content}}
         </main>
-    {{- partial "footer-single-careers.html" . -}}
+    {{- partial "footer.html" . -}}

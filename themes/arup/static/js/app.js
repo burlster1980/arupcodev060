@@ -900,6 +900,7 @@ window.app = {
           });
           fullCarousel.slick({
             infinite: true,
+            autoplay: false,
             speed: 500,
             fade: true,
             cssEase: "linear",

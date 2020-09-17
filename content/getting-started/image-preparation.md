@@ -122,7 +122,7 @@ menu:
 			<h2>4. Image size</h2>
 			<p>The size of your image depends on where you're adding it. To aid you, image dimensions for each module are provided as part of the guidance for each module / page.</p>
 			<p>For your reference, images generally stick to a rule of a 16:9 ratio. This should mean that if you resize one dimension (for example the width), the height should always maintain a 16:9 ratio.</p>
-			<h5><a id="resizing" name="resizing"></a>Resizing an image</h5>
+			<h3><a id="resizing" name="resizing"></a>Resizing an image</h3>
 			<p>This guide uses the example of preparing an image for adding as a Project's main or banner image. This image should be resized to 2000px wide by 1125px high.</p>
 			<p>To resize an image in Photoshop, follow the steps below.</p>
 			<ul>
@@ -137,7 +137,7 @@ menu:
 			<div class="halfbleed__detail">
 				Fig 4: What you'll see after selecting 'Image size'
 			</div>
-			<h5><a id="proportions" name="proportions"></a>Check your image proportions</h5>
+			<h3><a id="proportions" name="proportions"></a>Check your image proportions</h3>
 			<p>When resizing your image, you need to be careful to maintain your image proprtions. When you resize the width, want the height to resize by a corresponding amount (or vice versa). This ensures that the image retains the correct shape.</p>
 			<p>You can ensure that Photoshop will only resize in this way by ensuring that the 'constrain image ratio' option is checked.</p>
 			<p>In the Image Size window (above) make sure that the small 'chain' icon is selected and highlighted as in the screenshot below.</p>
@@ -151,7 +151,7 @@ menu:
 <section class="container" id="">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5><a id="resize-image" name="resize-image"></a>Resize the image</h5>
+			<h3><a id="resize-image" name="resize-image"></a>Resize the image</h3>
 			<p>The first thing to consider is whether to resize by width or by height. At this stage you need to focus on ensuring that EITHER the width or the height is correct - and that the dimension you haven't edited, is either equal, or greater than, your desired amount.</p>
 			<ul>
 				<li>If you have a landscape image (wider than it is height), its best to resize the height.</li>
@@ -162,7 +162,7 @@ menu:
 			<div class="halfbleed__detail">
 				Fig 6: Resizing the height of this image to 1125px has changed the width to 2000px. This image is now the correct size
 			</div>
-			<h5>Images that don't have two correct dimensions after your first resize</h5>
+			<h3>Images that don't have two correct dimensions after your first resize</h3>
 			<p>When you resize your image's width or height, it's unlikely that both dimensions will automatically align to what you want.</p>
 			<p>For example - imagine you have an image of dimensions 2800px wide by 1688px high. Changing the height of this image to 1125px would result in its width becoming 1866px wide. This is not good as now your image is not wide enough.</p>
 			<p>To fix this, you should cancel your image resize. If you've already resized the image click '<b>ctrl +alt + z</b>' on your keyboard to undo any changes you've made.</p>
@@ -219,10 +219,10 @@ menu:
 <section class="container" id="">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5><a id="undoing" name="undoing"></a>Undoing a crop</h5>
+			<h3><a id="undoing" name="undoing"></a>Undoing a crop</h3>
 			<p>If you crop the image and decide you're not happy with it, you can revert the image back by hitting '<b>ctrl + alt + z</b>' on your keyboard at the same time. Every time you hit these keys, the image will revert back to the previous change you made.</p>
 			<p>For example, if you resized your image, and then cropped it, if you hit '<b>ctrl + alt + z</b>' twice, it would revert the image back to its original size (i.e. before you resized it).</p>
-			<h5><a id="perfect" name="perfect"></a>Pixel perfect crops</h5>
+			<h3><a id="perfect" name="perfect"></a>Pixel perfect crops</h3>
 			<p>You may notice that sometimes when you're cropping the image, you cannot get the exact number of pixels you're looking for. For example, you want to ensure the height is 1125px. Every time you crop the height back, it goes to 1126px or 1123px but you just cannot get to 1125px.</p>
 			<p>There are two ways around this:</p>
 			<ol>
@@ -299,7 +299,7 @@ menu:
 					</ul>
 				</li>
 			</ul>
-			<h5><a id="filetypes" name="filetypes"></a>When to use different file types</h5>
+			<h3><a id="filetypes" name="filetypes"></a>When to use different file types</h3>
 			<p>Virtually all of your images for use online should be saved as jpeg files. However, there will be circumstances when you need to use others:</p>
 			<ol>
 				<li>Your image contains transparency - if you have a complex image that has a transparent background then you may need to save this as a PNG file. Jpegs do NOT maintain transparency - it will automatically replace transparency with a white background</li>
@@ -339,22 +339,22 @@ menu:
 					<a href="#faq-uploaded">I've saved my image and uploaded it to the website, but it isn't showing at all. Why is this?</a>
 				</li>
 			</ol>
-			<h5><a id="faq-imagesize" name="faq-imagesize">1. What is an ideal image size?</a></h5>
+			<h3><a id="faq-imagesize" name="faq-imagesize">1. What is an ideal image size?</a></h3>
 			<p>A. There is no single ideal size. Image sizes depend on a number of factors, including the quality of the original photograph and the complexity and detail of its content. A simple diagram will be much smaller in size than a complex photo of a cityscape. Sometimes you'll be able to reduce the size to less than 100kb, other times you'll struggle to get it below 4 - 500kb without seeing a loss in quality. The most important thing is to try and reduce the size.</p>
-			<h5><a id="faq-big" name="faq-big">2. When is an image too big?</a></h5>
+			<h3><a id="faq-big" name="faq-big">2. When is an image too big?</a></h3>
 			<p>A. If you save an image and notice that the file size is more than around 700 - 800kb then your image is too large and you should try to reduce it via the method described above. It's highly unlikely that you should ever need to have a file this large.</p>
-			<h5><a id="faq-width" name="faq-width">3. I resize my image, to the correct width, but the height is reduced to below what I want. How can I change this?</a></h5>
+			<h3><a id="faq-width" name="faq-width">3. I resize my image, to the correct width, but the height is reduced to below what I want. How can I change this?</a></h3>
 			<p>A. If the above scenario happens, the first thing to try is to resize your height instead. If this means that your width is too great, you can crop the image's width down to the desired size.</p>
-			<h5><a id="faq-height" name="faq-height">4. I resize my image, to the correct height, but the width is reduced to below what I want. How can I change this?</a></h5>
+			<h3><a id="faq-height" name="faq-height">4. I resize my image, to the correct height, but the width is reduced to below what I want. How can I change this?</a></h3>
 			<p>A. In this scenario, you should try resizing the width instead, and then cropping the height as appropriate.</p>
-			<h5><a id="faq-bigger" name="faq-bigger">5. The dimensions of my image are smaller than what I require. Can I make an image bigger?</a></h5>
+			<h3><a id="faq-bigger" name="faq-bigger">5. The dimensions of my image are smaller than what I require. Can I make an image bigger?</a></h3>
 			<p>A. Technically yes. But you should only ever do this if the size increase is tiny. For example, if you had an image of 2000px wide by 1105px high, it would be acceptable to increase the height of your image to 1125 and then crop of the extra width created.</p>
 			<p>But you must be aware that increasing the size of an image will affect its quality. It is impossible to make a small image into a big image without reducing the quality of the image significantly and you should never do this. If you need to, you should instead select a different image.</p>
-			<h5><a id="faq-cropped" name="faq-cropped">6. I've cropped my image, but I've removed an important part of the image. What should I do?</a></h5>
+			<h3><a id="faq-cropped" name="faq-cropped">6. I've cropped my image, but I've removed an important part of the image. What should I do?</a></h3>
 			<p>A. Firstly, you can undo a crop by clicking 'Ctrl + Alt + Z' at the same time. Keep clicking these until you get the image back to where you want it. Then try cropping your image again. You can crop an image in multiple ways, either from the top or the bottom, or both. Alternatively, you can crop from the left or the right, or both - or even a combination of all these.</p>
-			<h5><a id="faq-saved" name="faq-saved">7. I've saved my image and uploaded it to the website. The quality of the image isn't good. What can I do?</a></h5>
+			<h3><a id="faq-saved" name="faq-saved">7. I've saved my image and uploaded it to the website. The quality of the image isn't good. What can I do?</a></h3>
 			<p>A. Unfortunately, you'll need to save your image again via Photoshop. Try not reducing the quality as much and accepting a slightly larger file size. Don't forget you can see what the image will look like when you're saving it. Move the image around within the 'Export to web' window by clicking on it and dragging it around. Look at different parts of the image, particularly areas of high detail and areas such as sky.</p>
-			<h5><a id="faq-uploaded" name="faq-uploaded">8. I've saved my image and uploaded it to the website, but it isn't showing at all. Why is this?</a></h5>
+			<h3><a id="faq-uploaded" name="faq-uploaded">8. I've saved my image and uploaded it to the website, but it isn't showing at all. Why is this?</a></h3>
 			<p>A. If you see that your image is not showing when you preview your webpage, the most likely cause is spaces in the file name. If for example you've saved your file as '<b><i>my file name is here.jpg</i></b>' it will not work. Instead, either rename your file via your PC to '<i><b>myfilenameishere.jpg</b></i>' or resave the image again in photoshop without spaces in the file name. Then re-upload your image to Sitecore.</p>
 		</div>
 	</div>

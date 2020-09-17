@@ -39,7 +39,7 @@ menu:
 		<div class="reveal rich-text__content">
 			<h2>1. Best practice tips</h2>
 			<p>On this page you will find an example of a 'best practice' project. This section provides some guidance on <i>why</i> the project is an example of best practice.</p>
-			<h5>Content structure</h5>
+			<h3>Content structure</h3>
 			<p>All content on arup.com needs to have a purpose. The ultimate purpose of all projects on the website is to convey Arup's expertise and ability to deliver high quality solutions. To help you achieve this, GMC Online as developed a basic 'template' that all projects should conform to. Any project you add to arup.com should be structed around the basic ideas detailed below.</p>
 			<p>You do NOT need to use the specific headings detailed below, but your content should be built around these headings - with the headings created in your own words for each specific project.</p>
 		</div>
@@ -118,7 +118,7 @@ menu:
 <section class="container" id="">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5>Content design</h5>
+			<h3>Content design</h3>
 			<p>When building your project content in the CMS, you should bear the below in mind.</p>
 			<p>For guidance on creating a project in Sitecore, please see the <a href="/creating-pages/creating-projects/">Creating a project guide</a>.</p>
 			<ul class="featureList">
@@ -263,7 +263,7 @@ menu:
 		<div class="modal__close">
 			<span class="icon icon-close" data-grunticon-embed=""></span>
 		</div>
-		<h5 class="text-icon"><span class="icon icon-message" data-grunticon-embed=""></span>Get in touch</h5><img alt="Peter Hoad" src="https://www.arup.com/-/media/arup/images/people/p/peter-hoad--consulting-supportc-paul-carstairsarup.jpg?gray=1&amp;mw=180&amp;hash=19C2F698AE52918AC6E9BD97B84E21A30350E201">
+		<h5 class="text-icon"><span class="icon icon-message" data-grunticon-embed=""></span>Get in touch</h3><img alt="Peter Hoad" src="https://www.arup.com/-/media/arup/images/people/p/peter-hoad--consulting-supportc-paul-carstairsarup.jpg?gray=1&amp;mw=180&amp;hash=19C2F698AE52918AC6E9BD97B84E21A30350E201">
 		<p class="text-icon text-grouped"><span class="icon icon-profile" data-grunticon-embed=""></span> <a href="/our-firm/peter-hoad">Peter Hoad</a> <span class="text-sub"></span></p><a class="text-icon text-icon--italic" href="mailto:security-consulting@arup.com" onclick="dataLayer.push({'dataLayer.linkInfo.cat':'External Clicks - Email'});"><span class="icon icon-contact" data-grunticon-embed=""></span> security-consulting@arup.com</a> <a class="text-icon text-icon--italic" href="tel:+4402076361531"><span class="icon icon-phone" data-grunticon-embed=""></span> +44 (0) 20 7636 1531 <span class="footnote">London, local time - 3:02 PM</span></a>
 	</div>
 </div>
@@ -344,19 +344,19 @@ menu:
 			<p class="subheading subheading--toggle toggle-trigger toggled mob-closed">At a glance <span class="icon icon-down_arrow desktop-only" data-grunticon-embed=""></span> <span class="icon icon-expand mobile-only" data-grunticon-embed=""></span></p>
 			<div class="toggle-content active">
 				<div class="article-sidebar__section">
-					<h5 class="label--md transparent">Location</h5><span class="label--md-l">San Francisco, California</span>
+					<h5 class="label--md transparent">Location</h3><span class="label--md-l">San Francisco, California</span>
 				</div>
 				<div class="article-sidebar__section">
-					<h5 class="label--md transparent">Country/Region</h5><span class="label--md-l">United States of America</span>
+					<h5 class="label--md transparent">Country/Region</h3><span class="label--md-l">United States of America</span>
 				</div>
 				<div class="article-sidebar__section">
-					<h5 class="label--md transparent">Client</h5><span class="label--md-l">San Francisco County Transportation Authority</span>
+					<h5 class="label--md transparent">Client</h3><span class="label--md-l">San Francisco County Transportation Authority</span>
 				</div>
 				<div class="article-sidebar__section">
-					<h5 class="label--md-l">Industries</h5><a class="tag" href="/expertise/industry/highways">Highways</a>
+					<h5 class="label--md-l">Industries</h3><a class="tag" href="/expertise/industry/highways">Highways</a>
 				</div>
 				<div class="article-sidebar__section">
-					<h5 class="label--md-l">Services</h5><a class="tag" href="/expertise/services/infrastructure/civil-engineering">Civil engineering</a> <a class="tag" href="/expertise/services/technical-consulting/geotechnics">Geotechnics</a> <a class="tag" href="/expertise/services/buildings/structural-engineering">Structural engineering</a>
+					<h5 class="label--md-l">Services</h3><a class="tag" href="/expertise/services/infrastructure/civil-engineering">Civil engineering</a> <a class="tag" href="/expertise/services/technical-consulting/geotechnics">Geotechnics</a> <a class="tag" href="/expertise/services/buildings/structural-engineering">Structural engineering</a>
 				</div><a class="article-sidebar__section article-sidebar__section--toggle modal-trigger" href="#partnersModal"><span class="icon icon-expand" data-grunticon-embed=""></span> <span class="link--small">Partners &amp; Collaborators</span></a> <a class="article-sidebar__section article-sidebar__section--toggle modal-trigger" href="#partnersModal"><span class="icon icon-expand" data-grunticon-embed=""></span> <span class="link--small">Joint venture partners</span></a>
 			</div>
 		</div>
@@ -366,13 +366,23 @@ menu:
 			<p class="intro" id="step-4">The gateway to the Golden Gate Bridge since 1936, the ageing Doyle Drive was no longer capable of serving its 100,000 daily commuters.</p>
 			<p>In designing a replacement, careful consideration was needed to not only minimise interference for commuters but also to create a long term transport solution that harmonized with the landscape and minimized impacts on the Presidio National Park.</p>
 			<p>Doyle Drive was one of the most active stretches of road on Route 101, with 100,000 vehicles using it daily. At nearly 75 years old, it was deteriorating and not up to current seismic standards. Changes in city traffic flow patterns over the decades had made the existing roadway inefficient at matching traffic demand to and from connecting city streets.</p>
-			<div class="article-facts article-highlight" id="step-5">
-				<p class="subheading">Project Summary</p>
-				<hr>
-				<p class="fact first"><span class="stat">1.6 mile<span class="stat__figure"></span></span> <span class="fact__desc">six-lane expressway</span></p>
-				<p class="fact"><span class="stat">1,800<span class="stat__figure"></span></span><span class="fact__desc">feet of twin-bore, cut and cover tunnels</span></p>
-				<p class="fact"><span class="stat">100,000<span class="stat__figure"></span></span><span class="fact__desc">commuters daily</span></p>
-			</div>
+			<div class="article-facts article-highlight">
+                    <p class="subheading">Project Summary</p>
+                    <hr />
+                    <div class="article-facts--align">
+                            <p class="fact first">
+                                <span class="stat">
+                                    1.6 mile<span class="stat__figure"></span>
+                                </span><span class="fact__desc">six-lane expressway</span>
+                            </p>
+                                                    <p class="fact">
+                                <span class="stat">1,800<span class="stat__figure"></span></span><span class="fact__desc">feet of twin-bore, cut and cover tunnels</span>
+                            </p>
+                                                    <p class="fact">
+                                <span class="stat">100,000<span class="stat__figure"></span></span><span class="fact__desc">commuters daily</span>
+                            </p>
+                   </div>
+                </div>
 		</div>
 	</section>
 	<section class="container" id="">
@@ -488,7 +498,7 @@ menu:
 							<li class="mini-profile__info-item mini-profile__info-item--core mini-profile__info-item--icon">
 								<a class="mini-profile__info-link" href="#"><span class="mini-profile__icon icon icon-profile" data-grunticon-embed=""></span> <span class="mini-profile__info-content"></span>
 								<h4 class="mini-profile__name"><span class="mini-profile__info-content">Peter Hoad</span></h4>
-								<h5 class="mini-profile__job"><span class="mini-profile__info-content">Global Skills Leader, Sustainable Buildings</span></h5></a>
+								<h5 class="mini-profile__job"><span class="mini-profile__info-content">Global Skills Leader, Sustainable Buildings</span></h3></a>
 							</li>
 							<li class="mini-profile__info-item mini-profile__info-item--email mini-profile__info-item--icon">
 								<a class="mini-profile__info-link mini-profile__info-link--alt" href="#"><span class="mini-profile__icon icon icon-contact" data-grunticon-embed=""></span> <span class="mini-profile__info-content">security-consulting@arup.com</span></a>
@@ -539,9 +549,9 @@ menu:
 		<div class="container container--3col related related--last reveal">
 			<p class="footnote" id="step-17">Related</p>
 			<h4>Expertise</h4><a class="related-expertise" href="/expertise/services/technical-consulting/geotechnics"><img alt="" height="394" src="https://www.arup.com/-/media/arup/images/expertise/services/canary-wharf-riverside-southc-daniel-clements.jpg?h=394&amp;la=en&amp;mw=700&amp;w=700&amp;hash=75EFB362C057D26159929D870271FF7A80ECFD50" width="700"> <span class="related-expertise__overlay"></span>
-			<h5>Geotechnics</h5></a> <a class="related-expertise" href="/expertise/services/advisory-services/business-and-investor-advisory"><img alt="Business investor advisory Convention Centre Dublin" height="394" src="https://www.arup.com/-/media/arup/images/expertise/services/business-investor-advisory-convention-centre-dublin_11733-exterior-view-from-southside-with-dock-0.jpg?h=394&amp;la=en&amp;mw=700&amp;w=700&amp;hash=EE19A49325F2333DAAFFDACD75B1F6D22C200D92" width="700"> <span class="related-expertise__overlay"></span>
-			<h5>Business and investor advisory</h5></a> <a class="related-expertise" href="/expertise/services/buildings/structural-engineering"><img alt="" height="394" src="https://www.arup.com/-/media/images/projects/c/chinese_national_aquatics_centre/gallery/gallery2beijing-national-aquatics-centre-the-water-cubec-martin-saunders-photography1.jpg?h=394&amp;la=en&amp;mw=700&amp;w=700&amp;hash=F99407A20185BC5BF13F688032C999019799F86A" width="700"> <span class="related-expertise__overlay"></span>
-			<h5>Structural engineering</h5></a>
+			<h3>Geotechnics</h3></a> <a class="related-expertise" href="/expertise/services/advisory-services/business-and-investor-advisory"><img alt="Business investor advisory Convention Centre Dublin" height="394" src="https://www.arup.com/-/media/arup/images/expertise/services/business-investor-advisory-convention-centre-dublin_11733-exterior-view-from-southside-with-dock-0.jpg?h=394&amp;la=en&amp;mw=700&amp;w=700&amp;hash=EE19A49325F2333DAAFFDACD75B1F6D22C200D92" width="700"> <span class="related-expertise__overlay"></span>
+			<h3>Business and investor advisory</h3></a> <a class="related-expertise" href="/expertise/services/buildings/structural-engineering"><img alt="" height="394" src="https://www.arup.com/-/media/images/projects/c/chinese_national_aquatics_centre/gallery/gallery2beijing-national-aquatics-centre-the-water-cubec-martin-saunders-photography1.jpg?h=394&amp;la=en&amp;mw=700&amp;w=700&amp;hash=F99407A20185BC5BF13F688032C999019799F86A" width="700"> <span class="related-expertise__overlay"></span>
+			<h3>Structural engineering</h3></a>
 		</div>
 	</section>
 	<div aria-hidden="true" class="modal" id="partnersModal" role="dialog">
@@ -550,10 +560,10 @@ menu:
 			<div class="modal__close">
 				<span class="icon icon-close" data-grunticon-embed=""></span>
 			</div>
-			<h5>Partners &amp; Collaborators</h5>MPA Design<br>
+			<h3>Partners &amp; Collaborators</h3>MPA Design<br>
 			<hr>
 			<br>
-			<h5>Joint venture partners</h5>PB Americas Inc.
+			<h3>Joint venture partners</h3>PB Americas Inc.
 		</div>
 	</div>
 </article>

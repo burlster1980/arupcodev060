@@ -86,7 +86,7 @@ menu:
 				<li>Publications</li>
 			</ul>
 			<p>The module can be laid out in a number of different configurations, each of which is shown below.</p>
-			<h5>One article - 'Pinned hero'</h5>
+			<h3>One article - 'Pinned hero'</h3>
 			<p>'Pinned hero' - single article display. Complete the field 'Pinned hero' only to display a single article.</p>
 		</div>
 	</div>
@@ -121,7 +121,7 @@ menu:
 <section class="container" id="what-is">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5>Two articles</h5>
+			<h3>Two articles</h3>
 			<p>'2 articles' - select two articles from the 'Recommended content' field. You will also need to select 'Hide hero'.</p>
 		</div>
 	</div>
@@ -173,7 +173,7 @@ menu:
 <section class="container" id="what-is">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5>Three articles</h5>
+			<h3>Three articles</h3>
 			<p>'3 articles' - select three articles from the 'Recommended content' field. You will also need to select 'Hide hero'.</p>
 		</div>
 	</div>
@@ -243,7 +243,7 @@ menu:
 <section class="container" id="what-is">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5>Four articles - 'Complete'</h5>
+			<h3>Four articles - 'Complete'</h3>
 			<p>'Complete' display - select EITHER 4 articles from the 'Recommended content' field OR 3 articles in the 'Recommended content' field AND the 'Pinned hero'.</p>
 		</div>
 	</div>
@@ -281,7 +281,7 @@ menu:
 										<li class="mini-profile__info-item mini-profile__info-item--core">
 											<a class="mini-profile__info-link" href="#"><span class="mini-profile__info-content"></span>
 											<h4 class="mini-profile__name"><span class="mini-profile__info-content">Jerome Frost</span></h4>
-											<h5 class="mini-profile__job"><span class="mini-profile__info-content">Global Cities Leader</span></h5></a>
+											<h5 class="mini-profile__job"><span class="mini-profile__info-content">Global Cities Leader</span></h3></a>
 										</li>
 									</ul>
 									<hr class="mini-profile__divide">
@@ -324,7 +324,7 @@ menu:
 												<li class="mini-profile__info-item mini-profile__info-item--core">
 													<a class="mini-profile__info-link" href="#"><span class="mini-profile__info-content"></span>
 													<h4 class="mini-profile__name"><span class="mini-profile__info-content">Ian Taylor</span></h4>
-													<h5 class="mini-profile__job"><span class="mini-profile__info-content">Global and East Asia Aviation Leader</span></h5></a>
+													<h5 class="mini-profile__job"><span class="mini-profile__info-content">Global and East Asia Aviation Leader</span></h3></a>
 												</li>
 											</ul>
 											<hr class="mini-profile__divide">
@@ -362,7 +362,7 @@ menu:
 												<li class="mini-profile__info-item mini-profile__info-item--core">
 													<a class="mini-profile__info-link" href="#"><span class="mini-profile__info-content"></span>
 													<h4 class="mini-profile__name"><span class="mini-profile__info-content">Caroline Stalker</span></h4>
-													<h5 class="mini-profile__job"><span class="mini-profile__info-content">Urban Design Director</span></h5></a>
+													<h5 class="mini-profile__job"><span class="mini-profile__info-content">Urban Design Director</span></h3></a>
 												</li>
 											</ul>
 											<hr class="mini-profile__divide">
@@ -400,7 +400,7 @@ menu:
 												<li class="mini-profile__info-item mini-profile__info-item--core">
 													<a class="mini-profile__info-link" href="#"><span class="mini-profile__info-content"></span>
 													<h4 class="mini-profile__name"><span class="mini-profile__info-content">Cameron Dunn</span></h4>
-													<h5 class="mini-profile__job"><span class="mini-profile__info-content">US Offshore Wind Leader</span></h5></a>
+													<h5 class="mini-profile__job"><span class="mini-profile__info-content">US Offshore Wind Leader</span></h3></a>
 												</li>
 											</ul>
 											<hr class="mini-profile__divide">
@@ -445,7 +445,7 @@ menu:
 			<ul>
 				<li>Give your module a suitably descriptive name and click 'Ok'</li>
 			</ul>
-			<h5><a id="adding-content" name="adding-content"></a>Adding content</h5>
+			<h3><a id="adding-content" name="adding-content"></a>Adding content</h3>
 			<p>You can add content to the following fields:</p>
 			<ul>
 				<li><b>Recommended content header</b> - You can add a title to the module. This will appear to the top left of the module</li>
@@ -455,7 +455,7 @@ menu:
 				<li><b>Only show hero</b> - selecting this option will ensure that only the 'Pinned hero' article selection appears</li>
 				<li><b>Use white background</b> - by default, the module displays on a grey background - with each article having a white background. Select this option to 'flip' this choice. The background for the entire module will become white and each article will have a grey background</li>
 			</ul>
-			<h5><a id="consider" name="consider"></a>Things to consider</h5>
+			<h3><a id="consider" name="consider"></a>Things to consider</h3>
 			<p>When adding your articles you should consider the following:</p>
 			<ol>
 				<li><b>Display a specific article in the 'Pinned hero' slot</b><br>
@@ -469,7 +469,7 @@ menu:
 				<br>
 				To display two or three articles, select the articles within the 'Recommended content' field and ensure you select 'Hide pinned hero'</li>
 			</ol>
-			<h5><a id="introductions" name="introductions"></a>Adding introductions to your articles</h5>
+			<h3><a id="introductions" name="introductions"></a>Adding introductions to your articles</h3>
 			<P>As you'll have seen in the examples above, articles displayed in this module can consist of an image, a title and an introductory description. Each of these elements is defined - not in the module - but in the actual pages you select within the recommended content module.</P>
 			<p>Whilst the image and title are mandatory, you can choose whether introductions for your articles are added - however, the 'Pinned hero' MUST have an introduction added. Ideally, you should include an introduction. This content offers the opportunity to briefly summarise your article and encourage users to explore further.</p>
 			<p>To add this content:</p>
@@ -490,12 +490,12 @@ menu:
 			<h2>Best practice</h2>
 			<p>In this section, you will find guidance and advice on how to best utilise the 'recommended content' module.</p>
 			<p>It includes examples illustrating how to use and display the module and guidance on considering when and where to add it.</p>
-			<h5>Recommended use</h5>
+			<h3>Recommended use</h3>
 			<ul class="featureList">
 				<li class="tick">Display similar related articles from arup.com</li>
 				<li class="tick">Retain users attention and encourage them to remain on arup.com</li>
 			</ul>
-			<h5>Placement</h5>
+			<h3>Placement</h3>
 			<p>The module can be added to multiple page types including projects, perspectives, industries and services. You need to think about where you're going to add it to make best use of it. Generally speaking, there will be three scenarios:</p>
 			<ol>
 				<li><b>Highlight interesting examples of Arup's work</b> - in this scenario, you'll be demonstrating the range of expertise we have through examples such as projects or perspectives. In this scenario, you can add the module anywhere with in your content. For example, you may add it after a passage introducing a particular area of expertise where the user could see it in action.</li>
@@ -547,7 +547,7 @@ menu:
 										<li class="mini-profile__info-item mini-profile__info-item--core">
 											<a class="mini-profile__info-link" href="#"><span class="mini-profile__info-content"></span>
 											<h4 class="mini-profile__name"><span class="mini-profile__info-content">Jerome Frost</span></h4>
-											<h5 class="mini-profile__job"><span class="mini-profile__info-content">Global Cities Leader</span></h5></a>
+											<h5 class="mini-profile__job"><span class="mini-profile__info-content">Global Cities Leader</span></h3></a>
 										</li>
 									</ul>
 									<hr class="mini-profile__divide">
@@ -590,7 +590,7 @@ menu:
 												<li class="mini-profile__info-item mini-profile__info-item--core">
 													<a class="mini-profile__info-link" href="#"><span class="mini-profile__info-content"></span>
 													<h4 class="mini-profile__name"><span class="mini-profile__info-content">Ian Taylor</span></h4>
-													<h5 class="mini-profile__job"><span class="mini-profile__info-content">Global and East Asia Aviation Leader</span></h5></a>
+													<h5 class="mini-profile__job"><span class="mini-profile__info-content">Global and East Asia Aviation Leader</span></h3></a>
 												</li>
 											</ul>
 											<hr class="mini-profile__divide">
@@ -628,7 +628,7 @@ menu:
 												<li class="mini-profile__info-item mini-profile__info-item--core">
 													<a class="mini-profile__info-link" href="#"><span class="mini-profile__info-content"></span>
 													<h4 class="mini-profile__name"><span class="mini-profile__info-content">Caroline Stalker</span></h4>
-													<h5 class="mini-profile__job"><span class="mini-profile__info-content">Urban Design Director</span></h5></a>
+													<h5 class="mini-profile__job"><span class="mini-profile__info-content">Urban Design Director</span></h3></a>
 												</li>
 											</ul>
 											<hr class="mini-profile__divide">
@@ -666,7 +666,7 @@ menu:
 												<li class="mini-profile__info-item mini-profile__info-item--core">
 													<a class="mini-profile__info-link" href="#"><span class="mini-profile__info-content"></span>
 													<h4 class="mini-profile__name"><span class="mini-profile__info-content">Cameron Dunn</span></h4>
-													<h5 class="mini-profile__job"><span class="mini-profile__info-content">US Offshore Wind Leader</span></h5></a>
+													<h5 class="mini-profile__job"><span class="mini-profile__info-content">US Offshore Wind Leader</span></h3></a>
 												</li>
 											</ul>
 											<hr class="mini-profile__divide">
@@ -727,7 +727,7 @@ menu:
 										<li class="mini-profile__info-item mini-profile__info-item--core">
 											<a class="mini-profile__info-link" href="#"><span class="mini-profile__info-content"></span>
 											<h4 class="mini-profile__name"><span class="mini-profile__info-content">Jerome Frost</span></h4>
-											<h5 class="mini-profile__job"><span class="mini-profile__info-content">Global Cities Leader</span></h5></a>
+											<h5 class="mini-profile__job"><span class="mini-profile__info-content">Global Cities Leader</span></h3></a>
 										</li>
 									</ul>
 									<hr class="mini-profile__divide">
@@ -770,7 +770,7 @@ menu:
 												<li class="mini-profile__info-item mini-profile__info-item--core">
 													<a class="mini-profile__info-link" href="#"><span class="mini-profile__info-content"></span>
 													<h4 class="mini-profile__name"><span class="mini-profile__info-content">Ian Taylor</span></h4>
-													<h5 class="mini-profile__job"><span class="mini-profile__info-content">Global and East Asia Aviation Leader</span></h5></a>
+													<h5 class="mini-profile__job"><span class="mini-profile__info-content">Global and East Asia Aviation Leader</span></h3></a>
 												</li>
 											</ul>
 											<hr class="mini-profile__divide">
@@ -806,7 +806,7 @@ menu:
 												<li class="mini-profile__info-item mini-profile__info-item--core">
 													<a class="mini-profile__info-link" href="#"><span class="mini-profile__info-content"></span>
 													<h4 class="mini-profile__name"><span class="mini-profile__info-content">Caroline Stalker</span></h4>
-													<h5 class="mini-profile__job"><span class="mini-profile__info-content">Urban Design Director</span></h5></a>
+													<h5 class="mini-profile__job"><span class="mini-profile__info-content">Urban Design Director</span></h3></a>
 												</li>
 											</ul>
 											<hr class="mini-profile__divide">
@@ -865,7 +865,7 @@ menu:
 										<li class="mini-profile__info-item mini-profile__info-item--core">
 											<a class="mini-profile__info-link" href="#"><span class="mini-profile__info-content"></span>
 											<h4 class="mini-profile__name"><span class="mini-profile__info-content">Jerome Frost</span></h4>
-											<h5 class="mini-profile__job"><span class="mini-profile__info-content">Global Cities Leader</span></h5></a>
+											<h5 class="mini-profile__job"><span class="mini-profile__info-content">Global Cities Leader</span></h3></a>
 										</li>
 									</ul>
 									<hr class="mini-profile__divide">
@@ -897,12 +897,12 @@ menu:
 					<a href="#faq-different">Can I use different types of content in the same module?</a>
 				</li>
 			</ol>
-			<h5><a id="faq-when" name="faq-when"></a>1. Why should I use this module when pages already have 'related content'?</h5>
+			<h3><a id="faq-when" name="faq-when"></a>1. Why should I use this module when pages already have 'related content'?</h3>
 			<p>A. The module is more flexible - as it can be placed anywhere on a page. Related content only appears at the end / bottom of a page. Furthermore, by building useful related content in to your content, users are more likely to recognise it as part of your article, rather than an afterthought</p>
 			<p>Ultimately the style of quote you use is decision you need to make when building your page.</p>
-			<h5><a id="faq-recommended" name="faq-recommended"></a>2. I've selected an article, but the intro doesn't suit my needs. What should I do?</h5>
+			<h3><a id="faq-recommended" name="faq-recommended"></a>2. I've selected an article, but the intro doesn't suit my needs. What should I do?</h3>
 			<p>A. If an article already has the 'recommended content' introduction added to it when you select it, this strongly implies that is being used in a module else where. It is therefore important that you don't edit it. Please contact <a href="mailto:steve.burleigh@arup.com">steve.burleigh@arup.com</a> if this scenario arises.</p>
-			<h5><a id="faq-different" name="faq-different"></a>3. Can I use different types of content in the same module?</h5>
+			<h3><a id="faq-different" name="faq-different"></a>3. Can I use different types of content in the same module?</h3>
 			<p>A. Yes. You can use any of the content types indicated in section 2 of this guide in anyway that you require. For example, you could have one project, two profiles and a perspective.</p>
 		</div>
 	</div>

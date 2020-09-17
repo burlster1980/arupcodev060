@@ -65,8 +65,8 @@ menu:
 	</div>
 </section>
 <div class="float-box float-box--nopad">
-	<div class="float-box__pic" style="background-image: url('https://www.arup.com/-/media/2000x1125-full-width-gallery3_4_epic-staircase_post.jpg?h=680&amp;w=720&amp;hash=B2F0C14E413359B645C08FB40112021B374A8831')"></div>
-	<div class="float-box__pic float-box__pic--mobile" style="background-image: url('https://www.arup.com/-/media/2000x1125-full-width-gallery3_4_epic-staircase_post.jpg?mw=720&amp;hash=8E8213B6CD7B57E0012961166477F045996CB017')"></div>
+	<div class="float-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/m/macquarie-university-incubator/1-macquarie-university-incubatorheromurray-fredericks-20172000x1125.jpg?h=1125&w=2000&hash=ED4947E6610AC7BACA9F855147A6C2AB')"></div>
+	<div class="float-box__pic float-box__pic--mobile" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/m/macquarie-university-incubator/1-macquarie-university-incubatorheromurray-fredericks-20172000x1125.jpg?h=1125&w=2000&hash=ED4947E6610AC7BACA9F855147A6C2AB')"></div>
 	<div class="float-box__inner">
 		<div class="float-box__box">
 			<blockquote class="quote quote--after-pad">
@@ -81,13 +81,13 @@ menu:
 			<h2>2. What is the quotation module?</h2>
 			<p>The module allows you to display a quote or highlight a key piece of text from your author - utilising the standard or default arup.com display style - overlaid on an image, with the option of including a specific call to action linking to another page.</p>
 			<p>The module has two potential layouts:</p>
-			<h5>Default layout - by default, the module will display an image with a quote overlaid on the right side of the image</h5>
+			<h3>Default layout - by default, the module will display an image with a quote overlaid on the right side of the image</h3>
 		</div>
 	</div>
 </section>
 <div class="float-box float-box--flip float-box--nopad">
-	<div class="float-box__pic" style="background-image: url('https://www.arup.com/-/media/2000x1125-full-width-gallery3_4_epic-staircase_post.jpg?h=680&amp;w=720&amp;hash=B2F0C14E413359B645C08FB40112021B374A8831')"></div>
-	<div class="float-box__pic float-box__pic--mobile" style="background-image: url('https://www.arup.com/-/media/2000x1125-full-width-gallery3_4_epic-staircase_post.jpg?mw=720&amp;hash=8E8213B6CD7B57E0012961166477F045996CB017')"></div>
+	<div class="float-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/m/macquarie-university-incubator/1-macquarie-university-incubatorheromurray-fredericks-20172000x1125.jpg?h=1125&w=2000&hash=ED4947E6610AC7BACA9F855147A6C2AB')"></div>
+	<div class="float-box__pic float-box__pic--mobile" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/m/macquarie-university-incubator/1-macquarie-university-incubatorheromurray-fredericks-20172000x1125.jpg?h=1125&w=2000&hash=ED4947E6610AC7BACA9F855147A6C2AB')"></div>
 	<div class="float-box__inner">
 		<div class="float-box__box">
 			<blockquote class="quote quote--after-pad">
@@ -99,13 +99,13 @@ menu:
 <section class="container">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5>Image to left - in the example below, you'll see that the module's quote has now been moved to the left of the display</h5>
+			<h3>Image to left - in the example below, you'll see that the module's quote has now been moved to the left of the display</h3>
 		</div>
 	</div>
 </section>
 <div class="float-box">
-	<div class="float-box__pic" style="background-image: url('https://www.arup.com/-/media/2000x1125-full-width-gallery3_4_epic-staircase_post.jpg?h=680&amp;w=720&amp;hash=B2F0C14E413359B645C08FB40112021B374A8831')"></div>
-	<div class="float-box__pic float-box__pic--mobile" style="background-image: url('https://www.arup.com//-/media/2000x1125-full-width-gallery3_4_epic-staircase_post.jpg?mw=720&amp;hash=8E8213B6CD7B57E0012961166477F045996CB017')"></div>
+	<div class="float-box__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/m/macquarie-university-incubator/1-macquarie-university-incubatorheromurray-fredericks-20172000x1125.jpg?h=1125&w=2000&hash=ED4947E6610AC7BACA9F855147A6C2AB')"></div>
+	<div class="float-box__pic float-box__pic--mobile" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/m/macquarie-university-incubator/1-macquarie-university-incubatorheromurray-fredericks-20172000x1125.jpg?h=1125&w=2000&hash=ED4947E6610AC7BACA9F855147A6C2AB')"></div>
 	<div class="float-box__inner">
 		<div class="float-box__box">
 			<blockquote class="quote quote--after-pad">
@@ -158,7 +158,7 @@ menu:
 			<ul>
 				<li>Give your Quote a suitably descriptive name and click 'Ok'. NB - if you're adding multiple quotes, its useful to number these in the order you're going to add them</li>
 			</ul>
-			<h5><a id="adding-content" name="adding-content"></a>Adding content</h5>
+			<h3><a id="adding-content" name="adding-content"></a>Adding content</h3>
 			<p>Once you've created your module, you can begin adding content.</p>
 			<p><i>Fields marked with * MUST be completed</i></p>
 			<ul>
@@ -183,7 +183,7 @@ menu:
 			<h2>Best practice</h2>
 			<p>In this section, you will find guidance and advice on how to best utilise the 'Quotation' module.</p>
 			<p>It includes examples illustrating how to use and display the module.</p>
-			<h5>Recommended use</h5>
+			<h3>Recommended use</h3>
 			<ul class="featureList">
 				<li class="tick">To highlight the viewpoint of Arup staff</li>
 				<li class="tick">Works best when the image relates to quote which has been overlaid, and is not obstructed with the addition of the quote box</li>
@@ -312,17 +312,17 @@ menu:
 					<a href="#faq-height">The full height of my image is not showing. Why?</a>
 				</li>
 			</ol>
-			<h5><a id="faq-why" name="faq-why"></a>1. Why use this module over the 'normal' quote module?</h5>
+			<h3><a id="faq-why" name="faq-why"></a>1. Why use this module over the 'normal' quote module?</h3>
 			<p>A. The Quotation module represents another way to make key pieces of text stand out in your article. It is also reliant on your having an image of sufficient quality to show off. Ultimately which module you use is up to you, but the Quote module offers more flexibility and options for displaying quotes - where as the Quotation module requires more thought before it s used.</p>
 			<p>The style of quote you use is a decision you need to make when building your page.</p>
-			<h5><a id="faq-staff" name="faq-staff"></a>2. Can I quote non-Arup staff using this module?</h5>
+			<h3><a id="faq-staff" name="faq-staff"></a>2. Can I quote non-Arup staff using this module?</h3>
 			<p>A. Not if you need to be able to attribute the quote to an individual. Attribution (providing name / job title etc) requires that the person have a profile on arup.com - and only Arup staff should ever have profiles.</p>
 			<p>If you just wish to highlight some important text from your article, and do not need to attribute it to an individual then you can use the <a href="/creating-moduls/quote/">quote module</a> as an alternative.</p>
-			<h5><a id="faq-picture" name="faq-picture"></a>3. The profile I want to assign to the module does not have an image. What should I do?</h5>
+			<h3><a id="faq-picture" name="faq-picture"></a>3. The profile I want to assign to the module does not have an image. What should I do?</h3>
 			<p>A. Where the profile lacks an image, you'll see a missing space for it on the module. This is not visually pleasing and you should seek to obtain a picture of the person you want to quote and add this to their profile. See the <a href="/creating-pages/creating-profiles/">profile guide</a> for more information on editing profiles.</p>
-			<h5><a id="faq-image" name="faq-image"></a>4. What kind of image should I use in the module?</h5>
+			<h3><a id="faq-image" name="faq-image"></a>4. What kind of image should I use in the module?</h3>
 			<p>A. Your image should be visually striking and must relate to your overall narrative - and ideally the text that you're adding as a quote. Please bear in mind that overlaying the quote on the image will obscure parts of the image. You can switch between 'left' and 'right' alignment for your text if necessary - but do not use a picture that will result in key elements being obscured by your text. Instead use the <a href="creating-modules/images/">image module</a> to show off your image.</p>
-			<h5><a id="faq-height" name="faq-height"></a>5. The full height of my image is not showing. Why?</h5>
+			<h3><a id="faq-height" name="faq-height"></a>5. The full height of my image is not showing. Why?</h3>
 			<p>A. The module is styled so that it has a minimum height. This minimum height is less than the advised height you should prepare your image to (this is deliberate). This can result in the top and bottom of your image being cropped off when displayed on the page.</p>
 			<p>After a minimum height, your image will 'grow' depending on the length of your quote.</p>
 		</div>

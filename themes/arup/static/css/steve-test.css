@@ -48,7 +48,7 @@
 }
 
 /* general changes for presentation */
-ol li, ul li {
+main ol li, main ul li {
 	font-size:20px;
 }
 
@@ -1952,22 +1952,22 @@ font-size:21px!important;
 	margin-bottom:20px;
 }
 /* digital update */
-.nav-secondary li:not(:last-child):after {
+#digital .nav-secondary li:not(:last-child):after {
 	content:"";
 	padding:0 25px;
 }
-.nav-secondary li a {
+#digital .nav-secondary li a {
 	font-style:normal;
 	opacity:0.75;
 }
-.nav-secondary li a:focus, .nav-secondary li a:hover {
+#digital .nav-secondary li a:focus, .nav-secondary li a:hover {
 	color:#ff5056;
 }
 .inpagenav.digital {
 	margin:0 4rem 0 4rem;
 }
 .inpagenav.digital .inpagenav-item {
-	height:300px!important;
+	height:250px!important;
 }
 .inpagenav.digital .inpagenav-item .background.background-image {
 	background-size:cover;
@@ -1976,13 +1976,13 @@ font-size:21px!important;
 .inpagenav-digital .inpagenav-item .background.background-color {
 	color:#000;
 }
-.inpagenav.digital .inpagenav-item .inner h4 {
+/*.inpagenav.digital .inpagenav-item .inner h4 {
 	font-size:28px!important;
 }
 .inpagenav.digital .inpagenav-item .inner p {
 	font-size:20px!important;
 	padding-right:30px;
-}
+}*/
 /*project demo */
 .project-wall {
 	width:100%;
@@ -2211,5 +2211,83 @@ video.blur {
 .up-list__item--three.four:first-child {
 	margin-left:0;
 }
+}
 /* end featured project hero */
 
+/* table play */
+table { 
+  width: 100%; 
+  border-collapse: collapse;
+}
+table a {
+	font-weight: 700;
+	font-style: italic;
+	border:none;
+	color: #ff5056;
+    text-decoration: none;
+    outline: 0;
+	}
+	table a:hover {
+		border-bottom: 1px solid #ff5056;
+    border-bottom: 1px solid rgba(255,80,86,.35);
+	}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: #fafafa;
+  border-top:1px solid #e0e0e0;
+  border-bottom:1px solid #e0e0e0;  
+}
+th {
+  background-color: #fff; 
+  color: #343434; 
+  font-weight: bold; 
+  font-size: 20px;
+  width:16%;
+}
+th.description {
+	width:36%;
+}
+td, th { 
+  padding: 8px 10px 8px 8px;  
+  text-align: left; 
+}
+
+@media only screen and (max-width: 760px),(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		/*border-bottom: 1px solid #eee; */
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	td:nth-of-type(1):before { content: "Date & time"; font-weight: bold; }
+	td:nth-of-type(2):before { content: "Location";font-weight: bold; }
+	td:nth-of-type(3):before { content: "Description";font-weight: bold; }
+	td:nth-of-type(4):before { content: "Audience"; font-weight: bold;}
+	td:nth-of-type(5):before { content: "Register";font-weight: bold; }

@@ -76,7 +76,7 @@ menu:
 			<div class="halfbleed__detail">
 				Fig 1: Click 'Media Library' (highlighted in red above) to access the media library
 			</div>
-			<h5><a id="locating" name="locating"></a>Locating images</h5>
+			<h3><a id="locating" name="locating"></a>Locating images</h3>
 			<p>The media library is organised into folders. Within these folders, the structure of the site (i.e. expertise / projects / our firm / perspectives etc) has been re-created. This is to aid the discovery of images in future and for 'good housekeeping'.</p>
 			<p>You'll find images within the following folder structure:</p>
 			<p><b>Arup &gt; Images &gt; 'content type'</b> where 'content type' could be 'Projects' or 'Perspectives' etc</p>
@@ -91,7 +91,7 @@ menu:
 <section class="container" id="">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5><a id="creating" name="creating"></a>Creating new folders</h5>
+			<h3><a id="creating" name="creating"></a>Creating new folders</h3>
 			<p>If you've not uploaded any images for your page yet, then you'll likely need to create a new folder to hold your images.</p>
 			<ul>
 				<li>Browse to the appropriate letter in your content type folder (using the example above '<b>Arup &gt; Images &gt; Projects &gt; B</b>')</li>
@@ -104,7 +104,7 @@ menu:
 <section class="container" id="">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5><a id="adding" name="adding"></a>Adding images to the folder</h5>
+			<h3><a id="adding" name="adding"></a>Adding images to the folder</h3>
 			<p>Once you've found the appropriate folder, or created it, you're ready to upload your images.</p>
 			<ul>
 				<li>Make sure the folder you want to upload to is selected in the content tree</li>
@@ -193,13 +193,13 @@ menu:
 					<a href="#faq-reuse">Can I re-use an image I've uploaded on multiple pages or modules?</a>
 				</li>
 			</ol>
-			<h5><a id="faq-move" name="faq-move">1. Can I move an image once it's uploaded?</a></h5>
+			<h3><a id="faq-move" name="faq-move">1. Can I move an image once it's uploaded?</a></h3>
 			<p>A. No. Once you've uploaded an image to the media library it is not possible to move it without administrator support. Ultimately you should not need to move images around.</p>
-			<h5><a id="faq-wrong" name="faq-wrong">2. I've uploaded my image to the wrong folder. What should I do?</a></h5>
+			<h3><a id="faq-wrong" name="faq-wrong">2. I've uploaded my image to the wrong folder. What should I do?</a></h3>
 			<p>A. Firstly, don't panic! Image location is not key to the functionality of Sitecore or the website. It is key to helping you and others to easily find your image(s) in the future. Good practice demands that you're careful when uploading images. But if you do make a mistake, you won't break anything.</p>
-			<h5><a id="faq-replace" name="faq-replace">3. Can I replace an image that i've uploaded with an alternative version?</a></h5>
+			<h3><a id="faq-replace" name="faq-replace">3. Can I replace an image that i've uploaded with an alternative version?</a></h3>
 			<p>A. It is possible to replace an image you've uploaded with an alternative image - and not have to re-select it for each document / module you've used it. However, please do not attempt to do this yourself, If you want to replace an image you've used previoulsy, please contact <a href="mailto:steve.burleigh@arup.com">steve.burleigh@arup.com</a>.</p>
-			<h5><a id="faq-reuse" name="faq-reuse">4. Can i re-use an image i've uploaded on multiple pages or modules?</a></h5>
+			<h3><a id="faq-reuse" name="faq-reuse">4. Can i re-use an image i've uploaded on multiple pages or modules?</a></h3>
 			<p>A. Yes - and indeed, you should always seek to do this. Do not upload the same image multiple times. If you've stored it correctly, you should be able to find an image you've used for project X, and easily use it for a perspective or news item if you need to. Everytime you upload an image, this creates a record in the site's database - which must store the image's data. This means that if you're uploading the same, large image multiple times you're causing the database to grow - and risk slowing the site down.</p>
 		</div>
 	</div>

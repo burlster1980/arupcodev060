@@ -41,7 +41,7 @@
 </div>
 <script>document.addEventListener('DOMContentLoaded', function () {grunticon([{{"css/icons.data.svg.css" |relURL}}, {{"css/icons.data.png.css" |relURL}}, {{"css/icons.fallback.css" |relURL}}], grunticon.svgLoadedCallback);});</script>
 <script src={{"js/libs.js" | relURL}}></script>
-<script src={{"js/app.js" | relURL}} ></script>
+<script src={{"js/app.js?v=2" | relURL}} ></script>
 <!--<script src={{"js/steve.js" | relURL}} ></script>-->
 {{ if isset .Params "scripts" }}{{ range .Params.scripts }}<script src="{{ printf "/js/%s" . | relURL }}"></script>{{ end }}{{ end }}
 </body>

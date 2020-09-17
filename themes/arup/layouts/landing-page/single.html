@@ -1,0 +1,8 @@
+{{- partial "landing-page/landing-head.html" . -}}
+<body id="wec" class="has-breadcrumb">
+    {{- partial "landing-page/landing-header.html" . -}}
+    <div class="global-wrapper" id="">
+        <main id="main" role="main">
+        	{{ .Content}}
+        </main>
+    {{- partial "landing-page/landing-footer.html" . -}}

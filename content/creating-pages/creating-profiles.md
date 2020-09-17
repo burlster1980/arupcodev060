@@ -1,16 +1,20 @@
 ---
 title: "Creating profiles"
 date: 2019-02-17T15:49:27Z
-lastmod: 2019-04-01
+lastmod: 2020-08-18
 draft: false
 type: Creating new pages
-weight: "4"
+weight: "5"
 menu:
   main:
     title: "Creating profiles"
     parent: "creating-pages"
 ---
-
+<style>
+	.rich-text h5 {
+		font-size:26px;
+	}
+</style>
 <section class="container" id="">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
@@ -61,6 +65,20 @@ menu:
 		<div class="menu_section two">
 			<ol class="header-list second" start="4">
 				<li>
+					<a href="#job-titles">Job titles</a>
+					<ul class="sub-header-list">
+						<li>
+							<a href="#concept">The concept of multiple job titles</a>
+						</li>
+						<li>
+							<a href="#adding-title">Creating additional job titles</a>
+						</li>
+						<li>
+							<a href="#where-title">Where can you, and how do you, use additional job titles?</a>
+						</li>
+					</ul>
+				</li>
+				<li>
 					<a href="#best-practice">Best practice</a>
 				</li>
 			</ol>
@@ -72,7 +90,8 @@ menu:
 		<div class="reveal rich-text__content">
 			<h2>1. What is a profile?</h2>
 			<p>Profiles are used for displaying information about individual members of staff at Arup. They include key contact information and details about that person's experience, interests and work they've carried at Arup.</p>
-			<p>ANY member of staff at Arup can have a profile on the website - regardless of how junior (or senior!) provided there is a need for this profile to exist. These needs will be discussed throughout this page.</p>
+			<p>You should only create a profile for someone when you are able to provide ALL the information detailed in this guide. Do NOT create profiles without this information.</p>
+			<p>When you add a profile, you should also remember that you - and your team - are responsible for the accuracy of that profile. That means ensuring both that the content is correct, but also that the person remains employed with Arup. You will need to check at least once per year.</p>
 		</div>
 	</div>
 </section>
@@ -80,7 +99,7 @@ menu:
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
 			<h2>2. Where are profiles?</h2>
-			<h5>Profiles on the website</h5>
+			<h3>Profiles on the website</h3>
 			<p>Profiles are located under the URL <a href="https://www.arup.com/our-firm/paolo-cresci" target="_blank">www.arup.com/our-firm/profile-name</a></p>
 			<p>At the time of writing, there is no one page where a user can see all staff members. Profiles will be revealed to users in one of three ways:</p>
 			<ol>
@@ -88,7 +107,7 @@ menu:
 				<li>By searching for a staff member's name on arup.com</li>
 				<li>By clicking a link to a profile within content (for example the utility bar)</li>
 			</ol>
-			<h5>Profiles within the CMS</h5>
+			<h3>Profiles within the CMS</h3>
 			<p>Profiles are 'bucketable' and stored in Sitecore 'Buckets'. Buckets are essentially Sitecore terminology for folders. They allow the CMS to store content in a folder structure, making things easier to find. A bucket's name does not appear in the URL of a page.</p>
 			<p>Profiles are stored in the following way:</p>
 			<p><b>Our firm &gt; Letter (i.e. 'A') &gt; Name of profile</b></p>
@@ -113,7 +132,7 @@ menu:
 				<li>Enter the name of the person who's profile you're creating for example 'Steve Burleigh'</li>
 				<li>Click 'OK' and your profile will be created and assigned to the 'S' bucket</li>
 			</ul>
-			<h5><a id="adding" name="adding"></a>Adding content to your profile item</h5>
+			<h3><a id="adding" name="adding"></a>Adding content to your profile item</h3>
 			<p>Virtually all content you add to a profile will be added via the CMS interface. Profiles make only very limited use of modules and you cannot add multiple modules in the way you would for a News or Project item.</p>
 			<p>Only one type of module can be added and full instructions on this are provided below.</p>
 		</div>
@@ -184,11 +203,7 @@ menu:
 			<p>*fields marked with an asterix are required and must be completed</p>
 			<ul>
 				<li>
-					<b>Role</b>* - Please enter your profilee's job title. Please bear in mind:
-					<ul>
-						<li>Wherever possible this should be the external facing title. Titles such as 'Manager' or 'Associate' provide little clue to users about what the person does</li>
-						<li>Please do not include reference to the person's country or location unless this part of their formal job title</li>
-					</ul>
+					<b>Role</b>* - Please enter your profilee's job title as shown on their staff intranet profile. For example, 'Associate', 'Director' or 'Senior Engineer'. Please <b>DO NOT</b> include any reference to location, group or specialism here.
 				</li>
 				<li><b>Location</b>* - Please select the person's office location. Expand open the appropriate country until you arrive at the office you want. Double click the office name until it appears in the righthand column.</li>
 			</ul>
@@ -214,7 +229,7 @@ menu:
 				<li><b>SEO meta description</b>* - Please enter a brief description / summary of your profilee</li>
 				<li><b>Meta keywords</b> - keywords have been used by search engines in the past to help users locate content. However, keywords are no longer of high relevance for search engines such as Google and you do not need to add these to aid search performance.</li>
 			</ul>
-			<h5><a id="completing" name="completing"></a>Completing your profile</h5>
+			<h3><a id="completing" name="completing"></a>Completing your profile</h3>
 			<p>Once you've added all the necessary information to your profile, click the 'save' button to ensure your work is saved.</p>
 			<p><b>NB - it's advisable to continuously save your work as you add content to prevent losing work if something should go wrong.</b></p>
 		</div>
@@ -223,7 +238,7 @@ menu:
 <section class="container" id="">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5><a id="related" name="related"></a>Adding related content modules to your profile item</h5>
+			<h3><a id="related" name="related"></a>Adding related content modules to your profile item</h3>
 			<p>If you have added related projects or perspectives to your profile, you must follow the steps below to ensure these display:</p>
 			<ul>
 				<li>Open the Experience Editor (select 'Publish' in the ribbon menu and choose 'Experience Editor' from the options</li>
@@ -243,7 +258,7 @@ menu:
 			<div class="halfbleed__detail">
 				Fig 5: choosing the related content components
 			</div>
-			<h5><a id="links" name="links"></a>Adding links in Sitecore</h5>
+			<h3><a id="links" name="links"></a>Adding links in Sitecore</h3>
 			<p>You can add links to content in certain fields. Fields on a profile document you can add links to include:</p>
 			<ul>
 				<li>Biography</li>
@@ -255,28 +270,110 @@ menu:
 <section class="container" id="">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5><a id="language" name="language"></a>Adding an alternative language version</h5>
+			<h3><a id="language" name="language"></a>Adding an alternative language version</h3>
 			<p>Sitecore gives you the ability to add multiple language versions to your content. A <a href="/getting-started/language-versions/">full guide to language versions</a> has been provided, but you should be aware that:</p>
 			<ul>
 				<li>A profile MUST be created in English first</li>
 				<li>Any modules that have been added to your profile item will also require translated versions be created</li>
 			</ul>
 			<p><a href="/getting-started/language-versions/">Find out more about languages in Sitecore</a></p>
-			<h5><a id="workflow" name="workflow"></a>Workflow</h5>
+			<h3><a id="workflow" name="workflow"></a>Workflow</h3>
 			<p>Profiles are covered by the CMS' workflow. This means that only certain staff are able to publish content. Generally, this will be a member of the GMC Online team - though some regions including Australasia and the Far East also have a member of staff with publishing rights.</p>
 			<p><a href="/getting-started/workflow/">Learn more about the Sitecore workflow</a></p>
+		</div>
+	</div>
+</section>
+<section class="container" id="job-titles">
+	<div class="rich-text">
+		<div class="reveal rich-text__content">
+			<h2><a id="concept" name="concept"></a>4. Job titles</h2>
+			<P>Many staff have multiple job titles. The Profile template can only hold one single job title. To address this, functionality has been developed that allows for the addition of mulitple job titles - for use in different parts of the website.</P>
+			<p>For example <A href="https://www.arup.com/our-firm/fiona-cousins" target="_blank">Fiona Cousins' profile</A> shows her job title as 'Director'. Fiona has a number of different roles (at the time of writing) including Americas Digital Leader, Americas Mechanical Engineering, and being a board member and Fellow. The following screenshots show you how her profile is being used in each of the above areas:</p>
+			<div class="training-image"><img alt="Image" class="mainImg" src="/images/profiles/fiona-profile.jpg"></div>
+			<div class="halfbleed__detail">
+				Fig 7: Fiona's profile shows her job title as 'Director'
+			</div>
+			<div class="training-image"><img alt="Image" class="mainImg" src="/images/profiles/fiona-mechanical.jpg"></div>
+			<div class="halfbleed__detail">
+				Fig 7: Fiona's job title displays as 'Americas Mechanical Engineering Leader'
+			</div>
+			<div class="training-image"><img alt="Image" class="mainImg" src="/images/profiles/fiona-boardmember.jpg"></div>
+			<div class="halfbleed__detail">
+				Fig 8: Fiona's title displays as 'Board member'
+			</div>
+			<div class="training-image"><img alt="Image" class="mainImg" src="/images/profiles/fiona-fellow.jpg"></div>
+			<div class="halfbleed__detail">
+				Fig 9: Fiona's title displays as 'Fellow'
+			</div>
+		</div>
+	</div>
+</section>
+<section class="container" id="">
+	<div class="rich-text">
+		<div class="reveal rich-text__content">
+			<h3><a id="adding-title" name="adding-title"></a>Adding job titles / roles</h3>
+			<P>The following examples provides an illustration of when you would need to create an additional job title.</P>
+			<p>You've created a profile for 'Mike Smith' as he is the contact for a project you've added. Mike is an Associate Director, and the civil engineering leader in the UK. For people who view the project, you want people to know that he is the UK Civil Engineering Leader.</p>
+			<P>You've added a new Perspective article written by Fiona Cousins on the subject of digital technology. Fiona's job title in her profile is set to 'Director' - but for the purposes of the article, you want her to be known as the 'Americas Digital Leader'.</P>
+			<p>To add a new role to a person's profile, you need to:</p>
+			<UL>
+				<li>Select the profile of the person you wish to add the role to</li>
+				<lI>Right click on their name and choose '<b>Insert > Role</b>'</lI>
+			</UL>
+			<div class="training-image"><img alt="Image" class="mainImg" src="/images/profiles/creating-role.jpg"></div>
+			<div class="halfbleed__detail">
+				Fig 10: Creating a new role
+			</div>
+			<uL>
+				<lI>Enter a name for the role - usually you will simply enter the job title you want to add for example 'Americas Digital Leader' and click 'OK'</lI>
+				<lI>The screen will re-load and the new 'role' will be presented on your screen with three avaialble fields</lI>
+			</uL>
+			<h3>Adding content to the 'role'</h3>
+			<P>The 'role' item contains three fields:</P>
+			<ul>
+				<li><b>Title:</b> This field is automatically populated with the name of the Item you created - ensure to check that this is correct</li>
+				<li><B>Email:</B> You can add an alternative email address - this should match the job title you're creating. For example, if the job title relates to 'digital', you should an appropriate digital email address i.e. digital@arup.com. NEVER use personal email addresses.</li>
+				<li><b>Telephone:</b> You can add an alternative phone number for the person</li>
+			</ul>
+			<P>Once the details above have been added, click 'save' as you normally would for any piece of content.</P> 
+		</div>
+	</div>
+</section>
+<section class="container" id="">
+	<div class="rich-text">
+		<div class="reveal rich-text__content">
+			<h3><a id="where-title" name="where-title"></a>Where can you use your new roles?</h3>
+			<P>You can use 'roles' in the following places:</P>
+			<uL>
+				<li>Perspectives</li>
+				<lI>Projects</lI>
+				<li>Publications</li>
+			</uL>
+			<P>The solution for using a 'role' has been implemented identically. The following instructions use a Perspective as an example.</P>
+			<uL>
+				<li>Select the project / perspective / publication that you wish to add the new 'role' to</li>
+				<lI>Browse to the 'Contacts' section of the template</lI>
+				<lI>Under 'Contact Role Override', find the name of the person who's role you wish to add (this will match your page's contact). In the example below we are using Jo da Silva</lI>
+				<lI>Click the black triangle next to the person's name to expand out the list of roles available for selection - double click on your chosen role</lI>
+				<lI>The role will appear in the 'Selected' column</lI>
+			</uL>
+			<div class="training-image"><img alt="Image" class="mainImg" src="/images/profiles/adding-role.jpg"></div>
+			<div class="halfbleed__detail">
+				Fig 11: Adding a role to a perspective template
+			</div>
 		</div>
 	</div>
 </section>
 <section class="container" id="best-practice">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h2>4. Best practice</h2>
+			<h2>5. Best practice</h2>
 			<p>You can see an example of a well-presented profile item by looking at an <a href="/best-practive/examplar-profile/">exemplar profile</a>. (link to item).</p>
 			<p>You should bear in mind the following when adding profiles to arup.com:</p>
 			<ul>
 				<li>Profiles are key content items on arup.com. Ultimately staff represent Arup's key resource and profiles are how we bring this to life online</li>
-				<li>Profiles should only ever be created for Arup staff. You must not create profiles for non-staff members</li>
+				<lI>Profiles are to be written in the first person - for example 'I am a civil engineer' or 'I am the leader of Arup's architecture practice in the Americas'
+				<li>Profiles should only ever be created for Arup staff. You must NOT create profiles for non-staff members</li>
 				<li>Profiles should always have as much information as possible. At a minimum, a profile should have:
 					<ul>
 						<li>Name</li>
@@ -287,7 +384,9 @@ menu:
 						<li>Details of industry and service experience</li>
 					</ul>
 				</li>
-				<li>Wherever possible, you should use a person's external facing job title in the 'Role' field. For example, 'Sustainability and Building Services Team Leader' is far better than 'Associate' or 'Director'. It helps give the reader greater understanding of the person's role</li>
+				<li>When completing the 'job title' field you should only use roles such as 'Director', 'Principal, 'Associate' or 'Senior engineer' etc. This value should match what is used for the person on the Arup intranet.</li>
+				<lI>The summary field should always include reference to the person's specialism and any specific roles they play. For example:<br/><br/>
+					<i>I am a chartered civil engineer, with over 15 years experience. I am currently the Americas Civil Engineering Leader, whilst I am also the Infrastructure Leader for Canada.</i><br/><br/>
 				<li>Use the biography to bring the person's story to life and highlight their experience</li>
 				<li>Don't forget to add related content - particularly projects - wherever possible. Highlighting projects in this way helps to bring a user's skills and experience to life</li>
 			</ul>

@@ -52,5 +52,6 @@
 
 <!--<script src={{"js/steve.js" | relURL}} ></script>-->
 {{ if isset .Params "scripts" }}{{ range .Params.scripts }}<script src="{{ printf "/js/%s" . | relURL }}"></script>{{ end }}{{ end }}
+
 </body>
 </html>

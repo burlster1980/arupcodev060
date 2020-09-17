@@ -16,7 +16,7 @@ var tour = {
     {
       target: 'step-2',
       title: 'Job title',
-      content: 'The person\'s job title has been added - ideally this should always be a person\'s external facing job title, and not simply \'Associate\' or \'Director\'.',
+      content: 'The person\'s job title has been added - this should simply be added as \'Associate\' or \'Director\' or \'Senior engineer\' etc.',
       placement: 'left',
       yOffset: -20
     },
@@ -31,25 +31,32 @@ var tour = {
       target: 'step-4',
       placement: 'right',
       title: 'Biography',
-      content: 'The biography should outline the person\'s experience, the skils and some of their key achievements. This should be presented in first person format, or alternatively in an interview style',
+      content: 'The person\'s biography begins with a clear summary of who they are, their role(s) and areas of specialism.'
+      yOffset: -25
+    },
+    {
+      target: 'step-5',
+      placement: 'right',
+      title: 'Biography',
+      content: 'The biography should outline the person\'s experience, the skils and some of their key achievements. This should be presented in first person format.',
       yOffset: -25
     },
 	{
-      target: 'step-5',
+      target: 'step-6',
       placement: 'left',
       title: 'Expertise',
       content: 'You should indicate what the person\'s areas of expertise are. You can select as many industries or services that apply to the person',
       yOffset: -25
     },
     {
-      target: 'step-6',
+      target: 'step-7',
       placement: 'top',
       title: 'Related projects',
       content: 'Wherever possible you should highlight any projects that the person has worked on or been involved with.',
       arrowOffset: 100
     },
     {
-      target: 'step-7',
+      target: 'step-8',
       placement: 'top',
       title: 'Related perspectives',
       content: 'If the profilee has written any perspectives or arup.com, then these should be highlighted here.',

@@ -99,80 +99,11 @@ type: digital
     <section class="container">
         <div class="rich-text">
             <div class="reveal rich-text__content">
-                <p class="intro" style="font-size:24px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius molestie facilisis. </p><p>Curabitur quis pharetra elit. Sed non dictum tortor. Etiam nec mauris lobortis, mollis odio a, laoreet arcu. Curabitur magna ex, viverra vel maximus eu, cursus nec orci. Integer interdum, nulla non gravida eleifend, mauris orci consectetur lectus, et dignissim mi purus vel mi. Vivamus a lectus imperdiet, aliquet enim non, semper leo. Nam euismod rhoncus feugiat. </p>
-                <P>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam sollicitudin porttitor ipsum, et porttitor mi consequat fringilla. Ut viverra pharetra turpis, non consequat sapien gravida id. Ut congue neque at elit rutrum, at euismod massa faucibus.</P>
+                <p class="intro" style="font-size:24px;">Digital tools and data-driven analytics have been producing a quiet revolution in the performance of the built environment. </p><P>Today, buildings can be designed to offer real-time insights into every aspect of their operations, from occupancy to costs, maintenance requirements to energy use. We are leading the way in developing thiss new generation of intelligent assets. </p><P>
+Expectations of the built environment are rising. Demand for net zero emissions, greater energy and resource efficiency, safe and optimal occupancy, the list of priorities continues to grow. We develop digital tools and data-driven platforms that make achieving these goals possible in increasingly ambitious ways, from predictive maintenance algorithms to digital twins that allow entire facilities to be modelled virtually.  </P>
             </div>
         </div>
     </section>
-    <!-- test
-    <section class="project-wall">
-        <uL class="project-wow">
-            <lI>
-                <div class="project-container">
-                    <a href="#">
-                        <div class="project-background__container " style="background-image:url(https://www.arup.com/-/media/arup/images/our-firm/arup-inspect/oilplatformarupinspect.jpg?h=1125&w=2000&hash=50458E4333F37C159BDD24B8373BEAEA);">
-                            <div class="overlay "></div>
-                            <div class="project-container__content">
-                                <h3>Arup Inspect: digital twin for remote inspection</h3>
-                                <p class="project-callout">We developed Arup Inspect to help asset owners improve their inspection routines, making them safer and more efficient - wherever the location.</p>
-                                <span class="cta cta--white cta--small" href="/projects/centaur-pod" HideLinkDescription="True" style="margin-bottom:20px;">                    
-                        <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
-                        <span class="cta__text">Discover Arup Inspect</span>
-                    </span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </lI>
-            <lI>
-                <div class="project-container">
-                    <a href="#">
-                        <div class="project-background__container fullbleed fullbleed--video" style="background-image:url(/images/arup-pages/digital/queensferry.jpg);">
-                            <div class="overlay none"></div>
-                            <div class="project-container__content">
-                                <h3>Data monitoring in the Queensferry Crossing</h3>
-                                <p class="project-callout">We developed Arup Inspect to help asset owners improve their inspection routines, making them safer and more efficient - wherever the location.</p>
-                                <span class="cta cta--white cta--small" href="/projects/centaur-pod" HideLinkDescription="True" style="margin-bottom:20px;">                    
-                        <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
-                        <span class="cta__text">Discover Arup Inspect</span>
-                    </span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </lI>
-            <lI>
-                <div class="project-container">
-                    <a href="#">
-                        <div class="project-background__container fullbleed fullbleed--video" style="background-image:url(/images/arup-pages/digital/queensferry.jpg);">
-                            <div class="overlay none"></div>
-                            <video preload="auto" loop="true" muted="muted" class="desktop-only blur">
-                                <source src="https://www.arup.com/-/media/arup/videos/hs2-footage.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
-                            </video>
-                            <div class="project-container__content">
-                                <h3>Bringing HS2 to life before a shovel was raised</h3>
-                                <p class="project-callout">We developed Arup Inspect to help asset owners improve their inspection routines, making them safer and more efficient - wherever the location.</p>
-                                <span class="cta cta--white cta--small" href="/projects/centaur-pod" HideLinkDescription="True" style="margin-bottom:20px;">                    
-                        <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
-                        <span class="cta__text">Discover Arup Inspect</span>
-                    </span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </lI>
-            <lI>
-                Some content
-            </lI>
-            <lI>
-                Some content
-            </lI>
-            <lI>
-                Some content
-            </lI>
-        </uL>
-    </section>
-    end test -->
     <section class="container">
 		<style>
 			/*.inpagenav .inpagenav-item .inner h4, .inpagenav .inpagenav-item .inner p {
@@ -184,7 +115,7 @@ type: digital
 	<section class="inpagenav digital">
 		<div class="inpagenav-container">
 			<div class="inpagenav-item">
-				<a href="/arup-pages/services/digital/digital-asset-management/" class="linkfill">
+				<a href="/arup-pages/services/digital/digital-asset-management-new/" class="linkfill">
 					<div class="inner">
 						<div class="background background-image" style="background-image:url(/images/arup-pages/digital/top-left);"></div>
 						<div class="background background-color" style="background-color:#f2f2f2;"></div>
@@ -266,9 +197,8 @@ type: digital
     <section class="container">
         <div class="rich-text">
             <div class="reveal rich-text__content">
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius molestie facilisis. Curabitur quis pharetra elit. Sed non dictum tortor. Etiam nec mauris lobortis, mollis odio a, laoreet arcu. Curabitur magna ex, viverra vel maximus eu, cursus nec orci. Integer interdum, nulla non gravida eleifend, mauris orci consectetur lectus, et dignissim mi purus vel mi.</p>
-                <p class="intro" style="font-style: italic;">Envisage the below being a single outstanding example of a project from any area of digital - one that's hard hitting with impact. Would be updated throughout year</p>
+                <h2>Virtual models, real value</h2>
+                <p>Digital tools often produce most value when combined in innovative ways, revealing new performance insights, or leading to new operational possibilities. Our goal is always to combine the latest digital technology with deep engineering and design experience, to provide solutions that address real client issues.  </p>
             </div>
         </div>
     </section>
@@ -335,8 +265,17 @@ type: digital
     <section class="container">
         <div class="rich-text" style="margin-top:0;padding-top:2.5rem;">
             <div class="reveal rich-text__content">
-                <h2>As digital leaders, we ponder the big ideas to redefine the built environment</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare blandit aliquam. Nullam elementum justo non augue venenatis feugiat euismod in velit.</p><p class="intro" style="font-style: italic;">Perspectives shown here will be auto populated from the digital perspective theme - means that most recent two (or however many agreed) would constantly appear, keeping things fresh without requiring constant updating.</p>
+                <h2>Digital is central to carbon-free future </h2>
+                <p>The world desperately needs a more sustainably developed built environment. Our advanced digital engineering team take a data-driven approach to the design process, and our ability to predict and shape the energy efficiency and resource implications of a new building grows daily. Together, we can make the urgently needed shift to truly carbon neutral buildings and assets.</p>
+                <P><a href="#">Find out more</a></P>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="rich-text">
+            <div class="reveal rich-text__content">
+                <h2>Latest insight</h2>
+                <p>Our people are constantly experimenting, finding new ways to turn digital services into valuable built environment outcomes. Discover our insights. </P>
             </div>
         </div>
     </section>
@@ -542,13 +481,13 @@ type: digital
             </a>
         </div>
     </div>
-    <section class="container">
+    <!--<section class="container">
         <div class="rich-text" style="margin-top:0;padding-top:2.5rem;">
             <div class="reveal rich-text__content">
                 <p class="intro" style="font-style: italic;">Module would contain all 50 digital profiles generated of late. Three would be randomly selected each time page loads - link will go to a page with preview of all profiles of digital and that will be accessble from all digital sub pages.</p>
             </div>
         </div>
-    </section>
+    </section>-->
     <section class="highlight-section">
     <div class="container dynamic-feat reveal">
             <header class="dynamic-feat__header">

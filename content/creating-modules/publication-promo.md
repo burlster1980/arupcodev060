@@ -155,7 +155,7 @@ menu:
 				<li>Give your module a suitably descriptive name and click 'Ok'</li>
 				<li>You have now created your video module</li>
 			</ul>
-			<h5><a id="adding-data" name="adding-data"></a>Adding content</h5>
+			<h3><a id="adding-data" name="adding-data"></a>Adding content</h3>
 			<p>This guide is broken up into the individual sections of the publication promo item. The headings below match the headings you'll find when building the module.</p>
 		</div>
 	</div>
@@ -187,7 +187,7 @@ menu:
 			<div class="halfbleed__detail">
 				Fig 4: Example of a completed publication promo
 			</div>
-			<h5><a id="completing" name="completing"></a>Completing the module</h5>
+			<h3><a id="completing" name="completing"></a>Completing the module</h3>
 			<p>Once you have entered the relevant information, save the module. If you're ready to add the module to your page, you'll need to access the <a href="/getting-started/content-experience-editor/#experience">Experience Editor</a>.</p>
 		</div>
 	</div>
@@ -198,7 +198,7 @@ menu:
 			<h2>Best practice</h2>
 			<p>In this section, you will find guidance and advice on how to best utilise the 'publication promo' module.</p>
 			<p>It includes examples illustrating how to use and display the module.</p>
-			<h5>Recommended use</h5>
+			<h3>Recommended use</h3>
 			<ul class="featureList">
 				<li class="tick">Displaying multiple related publications within your content</li>
 			</ul>
@@ -343,7 +343,7 @@ menu:
 	<header class="section-header section-header--line section-header--nopad">
 		<div class="section-header__title-wrap section-title section-title--nopad">
 			<h4 class="section-title__title"></h4>
-			<h5 class="section-title__extra">345 Publications</h5>
+			<h5 class="section-title__extra">345 Publications</h3>
 		</div>
 		<div class="section-header__cta-wrap">
 			<a class="cta cta--small cta--black" href="#"><span class="cta__copy">See all research publications</span> <span class="cta__icon icon icon-oval" style="background-image: none;"><svg height="42" viewbox="0 0 42 42" width="42" xmlns="http://www.w3.org/2000/svg">
@@ -412,15 +412,15 @@ menu:
 					<a href="#faq-total">Why does the publication count show the total number of publications?</a>
 				</li>
 			</ol>
-			<h5><a id="faq-amount" name="faq-amount"></a>1. I've got less than 4 publications to highlight. Can I use the module?</h5>
+			<h3><a id="faq-amount" name="faq-amount"></a>1. I've got less than 4 publications to highlight. Can I use the module?</h3>
 			<p>A. Yes. The module is designed to support less than 4 publications - though presentationally it looks better with 4.</p>
-			<h5><a id="faq-one" name="faq-one"></a>2. Can I only have one publication?</h5>
+			<h3><a id="faq-one" name="faq-one"></a>2. Can I only have one publication?</h3>
 			<p>A. No. If you only have a single publication to highlight, you instead consider using the Publication module (guide under development). This is specifically designed for use with a single publication - and will work harder for you.</p>
-			<h5><a id="faq-where" name="faq-where"></a>3. Where can I put the module?</h5>
+			<h3><a id="faq-where" name="faq-where"></a>3. Where can I put the module?</h3>
 			<p>A. You can add this module anywhere within your content. However, you should consider your location carefully. When user clicks a publication, they'll be taken to that page - will your users have learnt enough to leave your page before this happens?</p>
-			<h5><a id="faq-title" name="faq-title"></a>4. Do I have to add a title to the module?</h5>
+			<h3><a id="faq-title" name="faq-title"></a>4. Do I have to add a title to the module?</h3>
 			<p>A. This depends on your content. Generally, the title will provide the opportunity to introduce the content users will find. However, it may not always be appropriate. Try adding a title first, and if it doesn't work - remove it.</p>
-			<h5><a id="faq-total" name="faq-total"></a>5. Why does the publication count show the total number of publications?</h5>
+			<h3><a id="faq-total" name="faq-total"></a>5. Why does the publication count show the total number of publications?</h3>
 			<p>A. The module was designed to highlight Arup's broad range of publications. Unfortunately it is not able to calculate specific types of publications - for example it cannot show only the total number of 'research' publications.</p>
 		</div>
 	</div>

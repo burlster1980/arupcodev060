@@ -1,7 +1,7 @@
 ---
 title: "Exploring Sitecore"
 date: 2019-02-17T01:30:53Z
-lastmod: 2019-02-17
+lastmod: 2020-08-18
 draft: false
 type: Getting started
 weight: "1"
@@ -91,10 +91,10 @@ menu:
 			<p>The platform is owned and managed by the GMC Online team. The key contacts in the team include:</p>
 			<ul>
 				<li>
-					<a href="mailto:steve.burleigh@arup.com">Steve Burleigh, Web Manager</a>
+					<a href="mailto:steve.burleigh@arup.com">Steve Burleigh, Head of Online</a>
 				</li>
 				<li>
-					<a href="mailto:emma.kennedy@arup.com">Emma Kennedy, Communications Co-ordinator</a>
+					<a href="mailto:emma.kennedy@arup.com">Emma Kennedy, Content Manager</a>
 				</li>
 			</ul>
 			<p>The team are responsible for a range of support and advice in using Sitecore, including:</p>
@@ -130,9 +130,10 @@ menu:
 		<div class="reveal rich-text__content">
 			<h2>3. The CMS - Content editor</h2>
 			<p>Sitecore offers two methods for adding and editing content. To use the platform successfully, you'll need to make use of both on a regular basis. This section focuses on the CMS / content editor element of the platform which is similar to many other CMS' you may have previously come across.</p>
-			<h5><a id="accessing" name="accessing"></a>Accessing Sitecore and logging</h5>
+			<h3><a id="accessing" name="accessing"></a>Accessing Sitecore and logging</h3>
 			<p>If you've been granted access to Sitecore by the GMC Online team, then you can access Sitecore by visiting the link below and entering your username and password:</p>
-			<p><a href="https://sitecore.arup.com/sitecore/login" target="_blank">http://sitecore.arup.com/sitecore/login</a></p>
+			<p><a href="https://sitecore.arup.com/sitecore/login" target="_blank">https://sitecore.arup.com/sitecore/login</a></p>
+			<P><b>Please note:</b> Access to the above URL is restricted by a firewall. This prevents unauthorised IP addresses accessing the CMS. If you are accessing Sitecore from outside the Arup network, you will need to contact <a href="mailto:steve.burleigh@arup.com">Steve Burleigh</a> to request that your IP address be whitelisted.</P>
 			<p>If you've not yet been granted access, then you'll need to contact either <a href="mailto:steve.burleigh@arup.com">Steve Burleigh</a> or <a href="mailto:emma.kennedy@arup.com">Emma Kennedy</a> and outline the following:</p>
 			<ul>
 				<li>Why you need access</li>
@@ -143,7 +144,7 @@ menu:
 			<div class="halfbleed__detail">
 				Fig 1: the Sitecore welcome screen. Enter your login details to begin accessing the CMS platform
 			</div>
-			<h5><a id="home" name="home"></a>Home screen</h5>
+			<h3><a id="home" name="home"></a>Home screen</h3>
 			<p>When you first login, you'll be presented with one of two possible screens depending on the exact URL you've been provided with. The screenshots below detail these and what you're seeing.</p>
 		</div>
 	</div>
@@ -162,7 +163,7 @@ menu:
 			<div class="halfbleed__detail">
 				Fig 3: The 'content editor' home screen. Here you can access the Media Library, or browse the site's content tree. Click the black arrow next to 'Content' in the left hand pane. You'll need to browse to '<b>Content &gt; Arup &gt; Home</b>' to see all the pages on arup.com
 			</div>
-			<h5><a id="browsing" name="browsing"></a>Browing pages in the Content Editor</h5>
+			<h3><a id="browsing" name="browsing"></a>Browing pages in the Content Editor</h3>
 			<p>To explore pages in the Content Editor you need to utilise the 'content tree' to find individual pages. The content tree is located in the left hand pane of the screen. You can view an item by clicking on it within this pane. You can explore items that sit below a 'parent' by clicking the black triangle icon you'll see (highlighted in the screenshot below). This icon indicates that items sit below a visible item.</p>
 			<p>To access pages, you'll need to browse to '<b>Content &gt; Arup &gt; Home &gt;</b>'. Please note, you will not always be able to edit items in the content tree. In General, you will not be able to edit key landing pages such as the 'Home' or 'Expertise' page. What you can edit will depend on what tasks you've been granted permision to undertake. You can however see every page within the content tree.</p>
 			<div class="training-image"><img alt="Image" class="mainImg" src="/images/sitecore/content-tree.jpg"></div>
@@ -175,7 +176,7 @@ menu:
 <section class="container">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5><a id="buckets" name="buckets"></a>Buckets</h5>
+			<h3><a id="buckets" name="buckets"></a>Buckets</h3>
 			<p>Sitecore uses a method called 'Buckets' to store pages when there are significant numbers of similar content types. For example, there are over 1500 project pages on Arup.com. To help you browse these and find what you're looking for, these are ordered alphabetically into Buckets. A bucket is essentially a folder that stores these pages.</p>
 			<p>If you're new to Sitecore, this can be a confusing concept - and you may find that you're unable to view the contents of these buckets. This section details where buckets are used, and also how to ensure you can see their contents.</p>
 			<p><b>Where are buckets found?</b></p>
@@ -206,7 +207,7 @@ menu:
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
 			<p><b>Viewing Bucket content</b></p>
-			<p>If you're new to Sitecore, you may find that you cannot view the contents of Buckets straight away. If when looking at Projects you don't see a list of folders as shown in the screenshot above, please follow the steps outlined below:</p>
+			<p>New users often cannot view the contents of Buckets straight away. If when looking at 'Projects' you don't see a list of folders as shown in the screenshot above, please follow the steps outlined below:</p>
 			<ul>
 				<li>Click the 'View' tab at the top of the screen (highlighted below)</li>
 				<li>Ensure that the 'Buckets' option is checked</li>
@@ -216,7 +217,7 @@ menu:
 			<div class="halfbleed__detail">
 				Fig 6: Follow the steps above if you're unable to view content stored in buckets. You'll only need to do this once if at all
 			</div>
-			<h5><a id="functionality" name="functionality"></a>Key functionality and actions</h5>
+			<h3><a id="functionality" name="functionality"></a>Key functionality and actions</h3>
 			<p>In this section, you will find details on some of the key things you can do in the Content Editor - along with the links to more detailed guidance for specific activities.</p>
 			<p><b>Build page items</b></p>
 			<p>For the majority of content editors, you will be able to create the following types of pages:</p>
@@ -292,8 +293,8 @@ menu:
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
 			<h2>4. The Experience Editor</h2>
-			<p>The Experience Editor is a key part of Sitecore. In essence, it is a visual tool that allows you to build unique layouts for your pages - by adding modules to the page in the order that you require. You can see the page develop visually as you add these modules, giving you the chance to refine or alter your layout depending on what works best for your content.</p>
-			<h5><a id="accessing-experience" name="accessing-experience"></a>Accessing the Experience Editor</h5>
+			<p>The Experience Editor is a key part of Sitecore. It is a visual tool that allows you to build unique layouts for your pages - by adding modules to the page in the order that you require. </p>
+			<h3><a id="accessing-experience" name="accessing-experience"></a>Accessing the Experience Editor</h3>
 			<p>The Experience Editor will most often form the second step in your page creation / editing process. This means in most circumstances, you'll be accessing the Editor from the specific page you've been working on in the Content Editor. The screenshot below shows how to do this:</p>
 			<div class="training-image"><img alt="Image" class="mainImg" src="/images/profiles/access-ee.jpg"></div>
 			<div class="halfbleed__detail">
@@ -383,7 +384,7 @@ menu:
 				<li>From the menu that appears (either top or bottom of your module) click the red 'X' icon - you module should then disappear</li>
 			</ul>
 			<p><b>NB - removing a module from your page does NOT delete it. If you change your mind, you can re-add any module you've previously removed via the Experience Editor.</b></p>
-			<h5><a id="ee-browsing" name="ee-browsing"></a>Browsing pages</h5>
+			<h3><a id="ee-browsing" name="ee-browsing"></a>Browsing pages</h3>
 			<p>It is possible to browse to any page on arup.com utilising the Experience Editor. However, the simplest method for viewing pages via the Experience Editor is to locate it within the Content Editor and launch the Experience Editor from that particular page.</p>
 			<p>If you do wish to find a page in the Experience Editor, you should:</p>
 			<ul>
@@ -401,7 +402,7 @@ menu:
 <section class="container" id="">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5><a id="previewing" name="previewing"></a>Previewing pages</h5>
+			<h3><a id="previewing" name="previewing"></a>Previewing pages</h3>
 			<p>You can preview your finished page within the Experience Editor. This is useful as it removes many of the distractions that are visible when physically editing pages.</p>
 			<ul>
 				<li>Click 'Other'</li>

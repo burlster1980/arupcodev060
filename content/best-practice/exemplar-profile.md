@@ -1,7 +1,7 @@
 ---
 title: "Exemplar profile page"
 date: 2019-02-16T17:46:27Z
-lastmod: 2019-02-17
+lastmod: 2020-08-19
 draft: false
 type: Best practice
 weight: "3"
@@ -54,8 +54,7 @@ menu:
 						<li>Details of industry and service experience</li>
 					</ul>
 				</li>
-				<li>Wherever possible, you should use a person's external facing job title in the 'Role' field. For example, 'Sustainability and Building Services Team Leader' is far better than 'Associate' or 'Director'. It helps give the reader greater understanding of the person's role</li>
-				<li>Use the biography to bring the person's story to life and highlight their experience</li>
+				<li>Use the biography to bring the person's story to life and highlight their experience - ensure that your biography begins with a brief summary of the person's role(s) at Arup.</li>
 				<li>Don't forget to add related content - particularly projects - wherever possible. Highlighting projects in this way helps to bring a user's skills and experience to life</li>
 			</ul>
 			<p><a href="/creating-pages/creating-profiles/">Guidance on creating a profile on Sitecore</a></p>
@@ -76,11 +75,11 @@ menu:
 			<div class="profile-header reveal">
 				<div class="profile-header__top">
 					<div class="profile-header__pic-wrap" id="step-1">
-						<div class="profile-header__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/people/j/josef-hargrave--arup-university-groupc-paul-carstairsarup.jpg?gray=1&amp;hash=7C3533184E8AE8384BB95FF8EDFF9A4EDE35F3A0')"></div>
+						<div class="profile-header__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/people/j/josef-hargrave--arup-university-groupc-paul-carstairsarup.jpg?gray=1&hash=DFE93188C2859F9E6040B0585DE92EC3')"></div>
 					</div>
 					<div class="profile-header__name">
 						<h2>Josef Hargrave</h2>
-						<p class="position" id="step-2">Associate Director, Foresight, Research and Innovation</p>
+						<p class="position" id="step-2">Associate Director</p>
 					</div>
 				</div>
 				<div class="profile-header__details" id="step-3">
@@ -94,7 +93,7 @@ menu:
 			</div>
 			<div class="profile-content reveal" id="step-4">
 				<p class="intro"></p>
-				<p>I&rsquo;m an Associate in Arup&rsquo;s global <a href="https://www.arup.com/expertise/services/advisory-services/foresight">Foresight + Research + Innovation</a> team. I specialise in exploring and envisioning the future of the built environment.</p>
+				<p>I&rsquo;m an Associate Director in Arup&rsquo;s global <a href="https://www.arup.com/expertise/services/advisory-services/foresight">Foresight + Research + Innovation</a> team - and the Global Foresight Leader. I specialise in exploring and envisioning the future of the built environment.</p>
 				<p>Climate change, artificial intelligence, and smart materials are just some of the trends that will transform the future of our built environment. While it is relatively easy to identify these changes, it is much harder to assess how they will impact a specific context. This could be the design of a new workplace or a transport system in a major city. To understand implications and manage uncertainty we must challenge our own perception of what is &lsquo;normal&rsquo;, and what &lsquo;normal&rsquo; will be in the future. We must apply principles that can adequately anticipate the design of structures, processes and experiences of tomorrow.</p>
 				<p>I work across all scales and sectors, including cities, buildings and spaces. I&rsquo;m particularly interested in how trends in design will transform future human experiences and how people themselves will impact future design. I have worked on projects for Arup in Europe, UAE, Japan and Australia.&nbsp;</p>
 				<p>See: Foresight and Innovation (<a href="http://www.driversofchange.com" target="_blank">http://www.driversofchange.com</a>)<br>

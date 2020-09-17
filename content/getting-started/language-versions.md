@@ -1,7 +1,7 @@
 ---
 title: "Adding language versions"
 date: 2019-02-17T11:43:22Z
-lastmod: 2019-02-17
+lastmod: 2020-08-18
 draft: false
 type: Getting started
 weight: "6"
@@ -70,7 +70,7 @@ menu:
 				<li>Chinese (simplified and traditional)</li>
 				<li>Danish</li>
 				<li>Dutch</li>
-				<li>French</li>
+				<li>French Canadian</li>
 				<li>German</li>
 				<li>Japanese</li>
 				<li>Korean</li>
@@ -104,7 +104,7 @@ menu:
 <section class="container" id="">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5><a id="documents" name="documents"></a>Adding language versions to a document</h5>
+			<h3><a id="documents" name="documents"></a>Adding language versions to a document</h3>
 			<p>Once you have created your project (or other content type) in English, please following the following steps:</p>
 			<ul>
 				<li>Browse to your content item in the CMS - click on your content item so that it is selected and the content is editable</li>
@@ -152,7 +152,7 @@ menu:
 <section class="container" id="">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5><a id="modules" name="modules"></a>Adding a language version to a module</h5>
+			<h3><a id="modules" name="modules"></a>Adding a language version to a module</h3>
 			<p>The process for adding language versions to modules is identical to that used for documents.</p>
 			<p>You will need to:</p>
 			<ul>
@@ -197,13 +197,13 @@ menu:
 					<a href="#faq-english">Why do I have to create an English version - my audience isnt located in the UK?</a>
 				</li>
 			</ol>
-			<h5><a id="faq-multiple" name="faq-multiple"></a>1. Can I add multiple languages to a single document or module?</h5>
+			<h3><a id="faq-multiple" name="faq-multiple"></a>1. Can I add multiple languages to a single document or module?</h3>
 			<p>A. Yes. Any page can have multiple different language versions available. You must simply repeat the steps above for each individual language that you wish to add.</p>
-			<h5><a id="faq-why" name="faq-why"></a>2. Why do I have to rebuild the page in the Experience Editor?</h5>
+			<h3><a id="faq-why" name="faq-why"></a>2. Why do I have to rebuild the page in the Experience Editor?</h3>
 			<p>A. Each individual language represents a version of the page. Versions allow you to completely recreate a page in a different way. Because of this, it is necessary to completely rebuild the new language version.</p>
-			<h5><a id="faq-modules" name="faq-modules"></a>3. Do I have to translate and re-add all the modules from my English version?</h5>
+			<h3><a id="faq-modules" name="faq-modules"></a>3. Do I have to translate and re-add all the modules from my English version?</h3>
 			<p>No. You can add as many or as few modules as you wish to your new language version. You can also create modules just for your language version - just remember that you need to <i>create</i> them in English first. NB - this doesnt mean that you have to add English content, if the module will <i>only</i> be used on the foreign language version.</p>
-			<h5><a id="faq-english" name="faq-english"></a>4. Why do I have to create an English version - my audience isn't located in the UK?</h5>
+			<h3><a id="faq-english" name="faq-english"></a>4. Why do I have to create an English version - my audience isn't located in the UK?</h3>
 			<p>By default, arup.com is designed to serve content in English. This means that the first page a user sees will be in English. At present, the site is not able to serve content in a local language by default. It is therefore necessary to ensure that every page is first served in English to ensure consistency.</p>
 		</div>
 	</div>

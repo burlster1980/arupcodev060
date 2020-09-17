@@ -16,7 +16,6 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-<link rel="manifest" href="https://preview.wearethink.com/arup-website/manifest.json">
 <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#000000">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="../mstile-144x144.png">
@@ -28,11 +27,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KWSTJVF');</script>
 <!-- End Google Tag Manager -->
-	<link rel="stylesheet" type="text/css" href={{ "css/site2.css?v=2" | relURL}} />
-	<link rel="stylesheet" type="text/css" href={{ "css/steve-test.css?v=66" | relURL}} />
-    <link rel="stylesheet" type="text/css" href={{ "css/careers.css?v=45" | relURL}} />
-    <link rel="stylesheet" type="text/css" href="/css/slick.css">
+	<link rel="stylesheet" type="text/css" href="https://www.arup.com/css/site.min.css" />
     <link href="https://www.arup.com/css/wec.min.css?v-637213316172271619" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href={{ "css/steve-test.css?v=135" | relURL}} />
+    <link rel="stylesheet" type="text/css" href={{ "css/landing.css?v=11" | relURL}} />
+    <link rel="stylesheet" type="text/css" href="/css/slick.css">
     {{ if isset .Params "css" }}{{ range .Params.css }}<link rel="stylesheet" href="{{ printf "/css/%s" . | relURL }}"/>{{ end }}{{ end }}
 
 

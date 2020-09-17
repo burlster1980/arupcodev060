@@ -57,9 +57,6 @@ menu:
 					</ol>
 				</li>
 				<li>
-					<a href="#personalising">Personalising contacts</a>
-				</li>
-				<li>
 					<a href="#best-practice">Contact us module - best practice</a>
 				</li>
 				<li>
@@ -236,23 +233,6 @@ menu:
 			<h5 id="experience">Adding the Contact us module in the Experience Editor</h5>
 			<p>Once you’ve added all the data you require and saved your ‘Contact us’ module, you’re now ready to add the module in the Experience Editor.</p>
 			<p>Theoretically, you can add this module anywhere across your document. However, its most likely that you’re going to want to add this towards the end of your page.</p>
-		</div>
-	</div>
-</section>
-<section class="container" id="personalising">
-	<div class="rich-text">
-		<div class="reveal rich-text__content">
-			<h2>Personalising contacts</h2>
-			<p>As has been highlighted it is possible to ‘personalise’ the contacts shown to users for both the main contact (displayed via the utility bar) and the contact shown in the ‘contact us’ module.</p>
-			<p>If you want to personalise the contacts for either module, then you should do the following:</p>
-			<ul>
-				<li>Identify which region(s) you want to display personalised contacts for. You can select from Australasia, East Asia, Europe, UK, and USA. You can show contacts for as many as you wish, though ideally a unique contact for each region would be provided.</li>
-				<li>Select which contacts you want to show – these should be relevant to the region and MUST exist as profiles on arup.com</li>
-				<li>Confirm that contact details are available for each contact i.e. that an email address and / or a phone number is provided within their profile</li>
-				<li>Collect this information together, along with the page(s) you wish to apply this too, and send it either <a href="mailto:steve.burleigh@arup.com"><b><em>steve.burleigh@arup.com</em></b></a> or <a href="mailto:emma.kennedy@arup.com"><b><em>emma.kennedy@arup.com</em></b></a>
-				</li>
-				<li>The GMC team will take responsibility for setting this personalisation up and ensuring that it is working correctly</li>
-			</ul>
 		</div>
 	</div>
 </section>

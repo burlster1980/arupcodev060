@@ -4,7 +4,7 @@ date: 2019-02-16T17:42:27Z
 lastmod: 2019-04-01
 draft: false
 type: Creating new pages
-weight: "5"
+weight: "6"
 menu:
   main:
     title: "Creating projects"
@@ -68,9 +68,9 @@ menu:
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
 			<h2>1. Where are projects?</h2>
-			<h5>Projects on the website</h5>
+			<h3>Projects on the website</h3>
 			<p>When viewing the website, projects are found under the URL <a href="https://www.arup.com/projects" target="_blank">www.arup.com/projects</a></p>
-			<h5><a id="cms" name="cms"></a>Projects within the CMS</h5>
+			<h3><a id="cms" name="cms"></a>Projects within the CMS</h3>
 			<p></p>
 			<p>When viewing the CMS, projects are found at <b>Sitecore &gt; Content &gt; Arup &gt; Home &gt; Projects</b></p>
 			<p>Project items are 'bucketable' and stored in Sitecore 'Buckets'. Buckets are essentially Sitecore terminology for folders. They allow the CMS to store content in a folder structure, making things easier to find. A bucket's name does not appear in the URL of a page.</p>
@@ -105,7 +105,7 @@ menu:
 <section class="container" id="">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5><a id="adding" name="adding"></a>Adding content to a project item</h5>
+			<h3><a id="adding" name="adding"></a>Adding content to a project item</h3>
 			<p>Projects contain a mixture of 'form' content and modules. Essentially, the key data about your project item will be added to the Project item you've just created, whilst the bulk of the actual article content will be added via modules. This guide details the former - describing what fields you need to complete and what they do.</p>
 			<p>Each of the headings below represents one of the expandable panels of the project document. The fields relevant to each are detailed.</p>
 			<p>For the purposes of this example, the text added will relate to a project about the Forth Bridge.</p>
@@ -236,7 +236,7 @@ menu:
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
 			<p><b>Related people</b></p>
-			<p>This section allows you to enter additional details about the project – including people related to the project, client information and associated people.</p>
+			<p>This section allows you to enter additional details about the project – such as client information.</p>
 			<P><b>NB - you do not add the 'main' project contact here. You will do this in the 'Contacts' section below</b></P>
 			<p>Fields marked with <b>&#42;</b> should be completed unless impossible</p>
 			<ul>
@@ -256,7 +256,7 @@ menu:
 			<ul>
 				<li><b>Joint Venture Partners</b> – You can enter the name(s) of any joint venture partners Arup worked with on your project. Again, if you enter multiple partners, follow the steps outlined above to remove reference to &lt; p &gt; and &lt; /p &gt;</li>
 				<li><b>Partners and Collaborators</b> – You can enter the name(s) of any partners or collaborators Arup worked with on your project. Again, if you enter multiple partners, follow the steps outlined above to remove reference to &lt; p &gt; and &lt; /p &gt;</li>
-				<li><b>Associated people</b> – here you can select Arup staff that were associated with the project – above and beyond the main project contact you will enter in the next section. Click the ‘Edit’ button. Within the popup, browse the content tree and select the appropriate staff profile(s) by double clicking. Please DO NOT add the main project contact here.</li>
+				<li><b>Associated people</b> – Please do NOT use this field</li>
 			</ul>
 			<div class="training-image"><img alt="Image" class="mainImg" src="/images/projects/clients.jpg"></div>
 			<div class="halfbleed__detail">
@@ -278,6 +278,18 @@ menu:
 				<li>Click ‘Ok’</li>
 			</ul>
 			<p>You should only select a single contact.</p>
+			<p><b>Contact roles</b></p>
+			<p><a href="/creating-pages/creating-profiles/">Profiles</a> can only contain a single job title. Many contacts have multiple titles depending on the context of their work. The 'Contact Role Override' field is designed to deal with this. You can select a contact's specific job title here so that it relates to your project. For example, Fiona Cousins has a job title (on her profile) of Director. If she's the contact for a Digital project, you may want her title too be 'Americas Digital Leader'. Use this field to achieve this.</p>
+			<uL>
+				<li>Browse the list to find the folder your profile's name begins with (i.e. 'F' for Fiona Cousins)</li>
+				<lI>Click the black triangle next to the person's name to expand out their list of job titles</lI>
+				<li>Double click the relevant job title - it will then appear in the 'Selected' columm</li>
+			</uL>
+			<p><b>NB:</b> Most contacts do not have 'roles' created. To use this field, the role will have to have been created previously. See the <a href="/creating-pages/creating-profiles/#job-titles">Profile guide</a> for information on how to do this.</p>
+			<div class="training-image"><img alt="Image" class="mainImg" src="/images/profiles/adding-role.jpg"></div>
+			<div class="halfbleed__detail">
+				Fig 7: Adding a role to a project 
+			</div>
 			<p><b>Project facts</b></p>
 			<p>Project facts are a great way to communicate some key snippets of information about your project. Ideally this should be built around numbers and might include things like:</p>
 			<ul>
@@ -334,9 +346,9 @@ menu:
 <section class="container" id="">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5><a id="completing" name="completing"></a>Completing your project article</h5>
+			<h3><a id="completing" name="completing"></a>Completing your project article</h3>
 			<p>Once you have added the data detailed above, you should save your document. If you are intending to add modules to your article, you will need to follow the steps outlined below. If your article is complete without modules, you can now submit it for publication or preview it using the method outlined below.</p>
-			<h5><a id="modules" name="modules"></a>Adding modules to your project item</h5>
+			<h3><a id="modules" name="modules"></a>Adding modules to your project item</h3>
 			<p>The following details the steps to prepare for adding modules and adding a new module. It does not provide details on the individual modules you can use. You should consult the individual module guides for full details on those relevant to your article.</p>
 			<ul>
 				<li>Right click on your project item in the content tree window and choose '<b>Insert &gt; Local datasource folder</b>'</li>
@@ -349,7 +361,7 @@ menu:
 			<P><a href=/creating-modules">Find out more about creating modules</a></P>
 			<div class="training-image"><img alt="Image" class="mainImg" src="/images/news/adding-localcontent.jpg"></div>
 			<div class="halfbleed__detail">
-				Fig 7: adding a local content folder to your project item. Right click on your project item, and choose 'Insert &gt; Local Datasource Folder'
+				Fig 8: adding a local content folder to your project item. Right click on your project item, and choose 'Insert &gt; Local Datasource Folder'
 			</div>
 		</div>
 	</div>
@@ -357,14 +369,14 @@ menu:
 <section class="container" id="">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5><a id="language" name="language"></a>Adding an alternative language version</h5>
+			<h3><a id="language" name="language"></a>Adding an alternative language version</h3>
 			<p>Sitecore gives you the ability to add multiple language versions to your content. A full guide to language versions has been provided, but you should be aware that:</p>
 			<ul>
 				<li>An article MUST be created in English first</li>
 				<li>Any modules that have been added to your project item will also require translated versions be created</li>
 			</ul>
 			<p><a href="/getting-started/language-versions/">Find out more about languages in Sitecore</a></p>
-			<h5><a id="workflow" name="workflow"></a>Workflow</h5>
+			<h3><a id="workflow" name="workflow"></a>Workflow</h3>
 			<p>Project articles are covered by the CMS' workflow. This means that only certain staff are able to publish content. Generally, this will be a member of the GMC Online team - though some regions including Australasia and the Far East also have a member of staff with publishing rights. You can <a href="/getting-started/workflow/">learn more about the workflow via the online guide</a></p>
 		</div>
 	</div>
@@ -374,7 +386,7 @@ menu:
 		<div class="reveal rich-text__content">
 			<h2>1. Best practice tips</h2>
 			<p>On this page you will find an <a href="/best-practice/exemplar-project/">example of a 'best practice' project</a>. This section provides some guidance on <i>why</i> the project is an example of best practice.</p>
-			<h5>Content structure</h5>
+			<h3>Content structure</h3>
 			<p>All content on arup.com needs to have a purpose. The ultimate purpose of all projects on the website is to convey Arup's expertise and ability to deliver high quality solutions. To help you achieve this, GMC Online as developed a basic 'template' that all projects should conform to. Any project you add to arup.com should be structed around the basic ideas detailed below.</p>
 			<p>You do NOT need to use the specific headings detailed below, but your content should be built around these headings - with the headings created in your own words for each specific project.</p>
 		</div>
@@ -453,7 +465,7 @@ menu:
 <section class="container" id="">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5>Content design</h5>
+			<h3>Content design</h3>
 			<p>When building your project content in the CMS, you should bare the following in mind:</p>
 			<ul class="featureList">
 				<li class="tick">Do use headings - break up your project into clear headings that highlight particular areas - for example 'The challenge' or 'Arup's expertise'. Use the template headings above as minimum headings if necessary - remember to re-word them in the best way for your project</li>

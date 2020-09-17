@@ -6,29 +6,37 @@
     <div class="menu_row clearfix fullwidth" style="margin-top:3rem;">
         <div class="menu_section">
             <h4 class="index-title">Getting started with Sitecore</h4>
-            {{ range where (.Pages.ByParam "weight") "Section" "getting-started" }}
-            <a class="index-link" href="{{.Permalink}}">{{.Title}}</a>
+            {{ range where .Site.Menus.main "Identifier" "in" (slice "getting-started")}}
+                {{ range .Children.ByWeight}}
+                <a class="index-link" href="{{.URL}}">{{.Name}}</a>
+                {{end}}
             {{end}}
         </div>
         <div class="menu_section">
             <h4 class="index-title">Creating pages</h4>
-            {{ range where .Pages.ByTitle "Section" "creating-pages" }}
-            <a class="index-link" href="{{.Permalink}}">{{.Title}}</a>
+            {{ range where .Site.Menus.main "Identifier" "in" (slice "creating-pages")}}
+                {{ range .Children.ByWeight}}
+                <a class="index-link" href="{{.URL}}">{{.Name}}</a>
+                {{end}}
             {{end}}
         </div>
         <div class="menu_section">
             <h4 class="index-title">Creating modules</h4>
-            {{ range where .Pages.ByDate "Section" "creating-modules" }}
-            <a class="index-link" href="{{.Permalink}}">{{.Title}}</a>
+            {{ range where .Site.Menus.main "Identifier" "in" (slice "creating-modules")}}
+                {{ range .Children.ByWeight}}
+                <a class="index-link" href="{{.URL}}">{{.Name}}</a>
+                {{end}}
             {{end}}
         </div>
         <div class="menu_section">
             <h4 class="index-title">Best practice</h4>
-            {{ range where .Pages.ByTitle "Section" "best-practice" }}
-            <a class="index-link" href="{{.Permalink}}">{{.Title}}</a>
+            {{ range where .Site.Menus.main "Identifier" "in" (slice "best-practice")}}
+                {{ range .Children.ByWeight}}
+                <a class="index-link" href="{{.URL}}">{{.Name}}</a>
+                {{end}}
             {{end}}
         </div>
     </div>
   </section>
-  
 {{ end }}
+

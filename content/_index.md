@@ -3,7 +3,7 @@ title: "Arup.com training and best practice"
 date: 2019-02-14T14:34:43Z
 draft: false
 ---
-{{< rawhtml >}}
+
 <section class="hero hero--contacts">
     <div class="container">
         <div class="hero__content hero__content--dark hero__content--perspectives">
@@ -20,4 +20,3 @@ draft: false
         </div>
     </div>
 </section>
-{{< /rawhtml >}}

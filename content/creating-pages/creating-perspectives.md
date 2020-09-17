@@ -1,10 +1,10 @@
 ---
 title: "Creating a perspective"
 date: 2019-02-16T17:42:27Z
-lastmod: 2019-04-01
+lastmod: 2020-08-18
 draft: false
 type: Creating new pages
-weight: "3"
+weight: "4"
 menu:
   main:
     title: "Creating perspectives"
@@ -68,9 +68,9 @@ menu:
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
 			<h2>1. Where are perspectives?</h2>
-			<h5>Perspectives on the website</h5>
+			<h3>Perspectives on the website</h3>
 			<p>When viewing the website, perspectives are found under the URL https://www.arup.com/perspectives/name-of-perspective-article Users are able to browse perspectives via a number of pre-defined themes including <a href="https://www.arup.com/perspectives/cities" target="_blank">Cities</a>, <a href="https://www.arup.com/perspectives/energy" target="_blank">Energy</a>, <a href="https://www.arup.com/perspectives/transport" target="_blank">Transport</a> and <a href="https://www.arup.com/perspectives/water" target="_blank">Water</a>.</p>
-			<h5>Perspectives within the CMS</h5>
+			<h3>Perspectives within the CMS</h3>
 			<p></p>
 			<p>Perspective items are 'bucketable' and stored in Sitecore 'Buckets'. Buckets are essentially Sitecore terminology for folders. They allow the CMS to store content in a folder structure, making things easier to find. A bucket's name does not appear in the URL of a page.</p>
 			<p>Perspective articles are stored in the following way:</p>
@@ -98,7 +98,7 @@ menu:
 				<li>Enter a name for your perspective item that suitably describes the content (NB - this name will form the URL of the article for example if you called your item 'My perspective item' the url would be arup.com/perspective/my-project-item) and click OK</li>
 				<li>The screen will then reload, and you've successfully created your perspective item</li>
 			</ul>
-			<h5><a id="adding" name="adding"></a>Adding content to a perspective item</h5>
+			<h3><a id="adding" name="adding"></a>Adding content to a perspective item</h3>
 			<p>Perspectives contain a mixture of 'form' content and modules. Essentially, the key data about your perspective item will be added to the Perspective item you've just created, whilst the bulk of the actual article content will be added via modules. This guide details the former - describing what fields you need to complete and what they do.</p>
 			<p>Each of the headings below represents one of the expandable panels of the perspective document. The fields relevant to each are detailed.</p>
 			<p>For the purposes of this example, the text added will relate to a perspective about the Future of Digital Cities.</p>
@@ -114,13 +114,12 @@ menu:
 				<li><b>Site search description*</b> - Please add a maximum of one to two sentences that give an overview of your Perspective content. This text will be displayed within the search results for your perspective. For example 'Discover how Arup's knowledge is helping to shape the use of digital technologies in our cities'</li>
 				<li><b>Name*</b> - This is the name of your perspective - for example 'Future of digital cities'. By default, it will contain the text you added during the creation of your perspective. You can edit this text without fear of changing the URL of your perspective of changing the physical name of the perspective within the CMS.</li>
 				<li><b>Title*</b> - The title for perspectives is displayed in the main header banner. You will generally duplicate the content from the 'Name' field above, but you can choose to add something more descriptive here if you wish for example 'Future of digital cities: How computers are changing the way we live'</li>
-				<li><b>Comma separated search terms</b> - Enter any specific key words, or combination of key words that relate to your perspective. Words added here will influence the search results provided on arup.com (Note - this does not include suggestive search). You should think carefully about the words you enter, and limit entries to be between 3 and 5 words or key phrases. NB - do not use common words or phrases such as 'the' or 'perspective'</li>
 				<li><b>Video</b> - Please do not use this field without consulting with GMC online first. Video used in this way must conform to various standards including an absence of sound and the ability to 'loop'</li>
-				<li><b>Summary shown in listings*</b> - Text entered here is used for displaying 'related perspectives'. You should include nothing more than one to two brief sentences that summarise the content of your article</li>
+				<li><b>Summary shown in listings*</b> - Please enter a one to two sentence summary of the article. This should encourage the user to want to read the article - questions can work well here.</li>
 				<li>
 					<b>Image*</b> - Please enter a suitable image for your perspective. The image should be high quality and should be at least 2000px wide by 1125px BEFORE you carry out any resizing of the image. See the <a href="/getting-started/image-preparation/">image guide for more information</a> on this if necessary
 				</li>
-								<li><b>Version image</b> - This is field allows you to show an alternative image to the main 'Image' (above). You would only ever use this if you wish to show a different image for a translated version of your content. You would only complete this field on the translated version (i.e. you do not touch it on the default English version). This will ensure that your image is shown specifically to your language audience, but no one else</li>
+								<li><b>Version image</b> - Do NOT use</li>
 				<li><b>Date*</b> - enter a publication date for your perspective in this field. This will determine the order that your perspective displays on the relevant 'hub' page i.e. 'Cities'</li>
 			</ul>
 			<p>The screenshot below indicates where each of the above fields are shown on a published perspective item.</p>
@@ -260,7 +259,7 @@ menu:
 				<li><b>SEO meta description*</b> - Please enter a two to three sentence summary of your article. You can consider re-using the introduction copy you've used above</li>
 				<li>Meta keywords - keywords have been used by search engines in the past to help users locate content. However, keywords are no longer of high relevance for search engines such as Google and you do not need to add these to aid search performance.</li>
 			</ul>
-			<h5><a id="completing" name="completing"></a>Completing your perspective article</h5>
+			<h3><a id="completing" name="completing"></a>Completing your perspective article</h3>
 			<p>Once you have added the data detailed above, you should save your document. If you are intending to add modules to your article, you will need to follow the steps outlined below. If your article is complete without modules, you can now submit it for publication or preview it using the method outlined below.</p>
 		</div>
 	</div>
@@ -268,7 +267,7 @@ menu:
 <section class="container" id="">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5><a id="modules" name="modules"></a>Adding modules to your perspective item</h5>
+			<h3><a id="modules" name="modules"></a>Adding modules to your perspective item</h3>
 			<p>The following details the steps to prepare for adding modules and adding a new module. It does not provide details on the individual modules you can use. You should consult the individual module guides for full details on those relevant to your article.</p>
 			<ul>
 				<li>Right click on your perspective item in the content tree window and choose '<b>Insert &gt; Local datasource folder</b>'</li>
@@ -283,14 +282,14 @@ menu:
 			<div class="halfbleed__detail">
 				Fig 6: adding a local content folder to your perspective item. Right click on your perspective item, and choose 'Insert &gt; Local Datasource Folder'
 			</div>
-			<h5><a id="language" name="language"></a>Adding an alternative language version</h5>
+			<h3><a id="language" name="language"></a>Adding an alternative language version</h3>
 			<p>Sitecore gives you the ability to add multiple language versions to your content. A full guide to language versions has been provided, but you should be aware that:</p>
 			<ul>
 				<li>An article MUST be created in English first</li>
 				<li>Any modules that have been added to your perspective item will also require that translated versions be created</li>
 			</ul>
 			<p><a href="/getting-started/language-versions">Find out more about languages in Sitecore</a></p>
-			<h5><a id="workflow" name="workflow"></a>Workflow</h5>
+			<h3><a id="workflow" name="workflow"></a>Workflow</h3>
 			<p>Perspective articles are covered by the CMS' workflow. This means that only certain staff are able to publish content. Generally, this will be a member of the GMC Online team - though some regions including Australasia and the Far East also have a member of staff with publishing rights. You can <a href="/getting-started/workflow/">learn more about the workflow via the online guide</a></p>
 		</div>
 	</div>
@@ -305,7 +304,7 @@ menu:
 <section class="container" id="">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5>Content design</h5>
+			<h3>Content design</h3>
 			<p>When building your perspective content in the CMS, you should bare the following in mind:</p>
 			<ul class="featureList">
 				<li class="tick">Do use headings - break up your perspective into clear headings that highlight particular areas - for example 'The challenge' or 'Arup's expertise'</li>

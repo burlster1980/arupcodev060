@@ -1,7 +1,7 @@
 ---
 title: "Adding links"
 date: 2019-02-17T11:34:53Z
-lastmod: 2019-02-17
+lastmod: 2020-08-18
 draft: false
 type: Getting started
 weight: "3"
@@ -64,7 +64,7 @@ menu:
 		<div class="reveal rich-text__content">
 			<h2>2. Adding links in Rich Text fields</h2>
 			<p>Adding links within Rich Text fields is relatively simple and is very smiliar to any other CMS you may have come across. The key thing to be aware of is that Sitecore treats links to 'internal' and 'external' pages separately.</p>
-			<h5><a id="internal" name="internal"></a>Adding links to internal pages - other pages on arup.com</h5>
+			<h3><a id="internal" name="internal"></a>Adding links to internal pages - other pages on arup.com</h3>
 			<p>If you want to add a link to another page on arup.com, you should follow the instructions below:</p>
 			<ul>
 				<li>Locate the text you wish to add a link to - click in front of the first word, and then, holding down your mouse button, drag your cursor across all the words you wish to include in the link</li>
@@ -88,7 +88,7 @@ menu:
 <section class="container" id="">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5><a id="external" name="external"></a>Adding links to external pages - pages not on arup.com</h5>
+			<h3><a id="external" name="external"></a>Adding links to external pages - pages not on arup.com</h3>
 			<p>If you wish to link to a page that doesn't reside on arup.com then you will need to follow the steps below:</p>
 			<ul>
 				<li>Locate the text you wish to add a link to - click in front of the first word, and then, holding down your mouse button, drag your cursor across all the words you wish to include in the link</li>
@@ -156,10 +156,10 @@ menu:
 					<a href="#faq-tab">Why must I ensure links to external sites open in a new tab?</a>
 				</li>
 			</ol>
-			<h5><a id="faq-move" name="faq-move">1. Why should I add links?</a></h5>
+			<h3><a id="faq-move" name="faq-move">1. Why should I add links?</a></h3>
 			<p>A. Adding links to your content is vital. Not only does it allow you to highlight other pages which may relate to your content, but it also allows you to draw attention to things which may be of interest to the reader. In particular, you can signpost important information about the services we offer by ensuring that you link to relevant service and industry pages, or encourage people to find out more about Arup in your location.</p>
 			<p>Adding links also has considerable SEO value. Search engine spiders will use links to explore a site. By ensuring that content contains links to relevent pages you help guide these spiders around arup.com and ensure that they discover everything on offer. Additionally, the more links that point to a page, the more Google et al will consider the page to be 'authoritative'. This means that search engines will see the page as being important and of high quality, and it will more likely appear towards the top of any search rankings.</p>
-			<h5><a id="faq-text" name="faq-text"></a>2. Why should I not use link text such as 'click here' or 'find out more'?</h5>
+			<h3><a id="faq-text" name="faq-text"></a>2. Why should I not use link text such as 'click here' or 'find out more'?</h3>
 			<p>The text you use for links is important for 2 key reasons:</p>
 			<ol>
 				<li>From a usability perspective, using words like 'find out more' or 'click here' offers the user very little information about WHAT they're going to find. For users with poor eyesight and reliant on screen readers to explore the website this can be very frustrating as these phrases do not contextualise the page they're linking to.</li>

@@ -1,10 +1,10 @@
 ---
 title: "Creating an office page"
 date: 2019-02-17T15:42:27Z
-lastmod: 2019-04-01
+lastmod: 2020-08-18
 draft: false
 type: Creating new pages
-weight: "2"
+weight: "3"
 menu:
   main:
     title: "Creating offices"
@@ -60,9 +60,9 @@ menu:
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
 			<h2>1. Where are offices?</h2>
-			<h5><a id="website" name="website"></a>Offices on the website</h5>
+			<h3><a id="website" name="website"></a>Offices on the website</h3>
 			<p>When viewing the website, offices can be found under the URL <a href="https://www.arup.com/offices" target="_blank">www.arup.com/offices</a></p>
-			<h5><a id="cms" name="cms"></a>Offices within the CMS</h5>
+			<h3><a id="cms" name="cms"></a>Offices within the CMS</h3>
 			<p></p>
 			<p>When viewing the CMS, offices are found at <b>Sitecore &gt; Content &gt; Arup &gt; Home &gt; Offices</b></p>
 			<p>Individual offices (for example 'London') are located underneath the relevant country i.e. United Kingdom.</p>
@@ -97,7 +97,7 @@ menu:
 <section class="container">
 	<div class="rich-text">
 		<div class="reveal rich-text__content">
-			<h5><a id="adding" name="adding"></a>Adding content to an office item</h5>
+			<h3><a id="adding" name="adding"></a>Adding content to an office item</h3>
 			<p>All of the information needed to set up an office page can be added to the main template. There are no additional modules that you need to add to design the office page.</p>
 			<p><b>Article Content</b></p>
 			<p><b>*</b>fields marked with an asterisk are required and must be completed</p>
@@ -203,22 +203,22 @@ menu:
 				<li>Repeat this step 1 more time</li>
 			</ul>
 			<p>If you select related perspectives, please try to always select at least two.</p>
-			<h5><a id="completing" name="completing"></a>Completing your office item</h5>
+			<h3><a id="completing" name="completing"></a>Completing your office item</h3>
 			<p>Once you have added the data detailed above, you should save your document. You can now submit it for publication or preview it using the method outlined below.</p>
-			<h5><a id="links" name="links"></a>Adding links in Sitecore</h5>
+			<h3><a id="links" name="links"></a>Adding links in Sitecore</h3>
 			<p>You can add links to content in certain fields. Fields on an office you can add links to include:</p>
 			<ul>
 				<li>Content</li>
 			</ul>
 			<p>Please see the '<a href="/getting-started/adding-links/">Adding links in Sitecore</a>' guide for more information on adding links.</p>
-			<h5><a id="language" name="language"></a>Adding an alternative language version</h5>
+			<h3><a id="language" name="language"></a>Adding an alternative language version</h3>
 			<p>Sitecore gives you the ability to add multiple language versions to your content. A full guide to language versions has been provided, but you should be aware that:</p>
 			<ul>
 				<li>An article MUST be created in English first</li>
 				<li>Any modules that have been added to your news item will also require translated versions be created</li>
 			</ul>
 			<p><a href="/getting-started/language-versions">Find out more about languages in Sitecore</a></p>
-			<h5><a id="workflow" name="workflow"></a>Workflow</h5>
+			<h3><a id="workflow" name="workflow"></a>Workflow</h3>
 			<p>Office items are covered by the CMS' workflow. This means that only certain staff are able to publish content. Generally, this will be a member of the GMC Online team - though some regions including Australasia and the Far East also have a member of staff with publishing rights. You can <a href="/getting-started/workflow/">learn more about the workflow via the online guide</a></p>
 		</div>
 	</div>
@@ -255,11 +255,11 @@ menu:
 					<a href="#profile">Why does the office lead require an arup.com profile?</a>
 				</li>
 			</ol><a id="picture" name="picture"></a>
-			<h5>1. I want a different image to display at the top of my office page</h5>
+			<h3>1. I want a different image to display at the top of my office page</h3>
 			<p>A. The office pages live on the country page and therefore share the same header image as the country header.</p>
-			<h5><a id="modules" name="modules"></a>2. Why can't I add any modules to the office page?</h5>
+			<h3><a id="modules" name="modules"></a>2. Why can't I add any modules to the office page?</h3>
 			<p>A. Office pages are a standard template, therefore you can't add any modules to it.</p>
-			<h5><a id="profile" name="profile"></a>3. Why does the office lead require an arup.com profile?</h5>
+			<h3><a id="profile" name="profile"></a>3. Why does the office lead require an arup.com profile?</h3>
 			<p>A. We want to show our expertise and encourage users to contact our professionals where possible. The CMS also won't allow you to select a profile lead without an associated profile.</p>
 		</div>
 	</div>
