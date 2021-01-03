@@ -1,8 +1,8 @@
-{{- partial "campaigns/full-head-display.html" . -}}
-<body id="careers">
-    {{- partial "full-header.html" . -}}
+{{- partial "scrolling/head.html" . -}}
+<body id="">
+    {{- partial "scrolling/header.html" . -}}
     <div class="global-wrapper" id="test">
-        <main id="main" role="main">
+        <main id="main" role="main" class="nomargin hub">
         	{{ .Content}}
         </main>
-    {{- partial "campaigns/campaigns-footer.html" . -}}
+    {{- partial "scrolling/footer.html" . -}}

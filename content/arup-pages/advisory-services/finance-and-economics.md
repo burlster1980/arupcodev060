@@ -517,6 +517,24 @@ Wherever you’re based, we can help you look beyond your sector to explore new 
         </div>
     </div>
 </div>
+<section class="container container--sm">
+    <div class="accordion">
+                    <div class="accordion__section selected">
+                        <h2>Leadership</h2>
+                        <p>Arup takes recent graduates from a broad range of degree subjects. The main elements we look for are relevant course content and practical experience, leadership, and an interest in the business area.</p>
+                        <p class="accordion__title intro intro--bold">Find out more<span data-grunticon-embed class="accordion__marker icon icon-arrow"></span></p>
+                        <div class="accordion__content">
+                            <p>Arup takes recent graduates from a broad range of degree subjects. The main elements we look for are relevant course content and practical experience, leadership, and an interest in the business area. All roles are listed on our <a href="https://jobs.arup.com/page/americas-region-3" target="_Blank">website</a> with required criteria for the specific position. </p>
+                        </div>
+                    </div>
+                    <div class="accordion__section ">
+                        <p class="accordion__title intro intro--bold">What kind of people are you looking for?<span data-grunticon-embed class="accordion__marker icon icon-arrow"></span></p>
+                        <div class="accordion__content">
+                            <p>There is no simple answer to this question. Arup employs people from all different degrees and backgrounds. If you think you fit in with the culture of the firm and are passionate about making a difference, then there may be a role for you!  </p>
+                        </div>
+                    </div>
+    </div>
+</section>
 <section class="container">
         <header class="section-header ">
             <div class="section-header__title-wrap section-title section-title--nopad">

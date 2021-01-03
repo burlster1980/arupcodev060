@@ -9,7 +9,7 @@ type: covid19
     <div class="wec-section__media">
         <!-- need to add in post background to video tag so that will work on non-video devices -->
     	<video preload="auto" loop="true" muted="muted" class="">
-    		<source src="/video/covid-19/covid-banner-video-final.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+    		<source src="/video/yearbook/sustainable-city-home.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
     	</video>
     </div>
     <div class="container narrow">

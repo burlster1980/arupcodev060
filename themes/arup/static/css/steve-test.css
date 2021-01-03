@@ -2291,3 +2291,15 @@ td, th {
 	td:nth-of-type(3):before { content: "Description";font-weight: bold; }
 	td:nth-of-type(4):before { content: "Audience"; font-weight: bold;}
 	td:nth-of-type(5):before { content: "Register";font-weight: bold; }
+}
+.scroll-panel {
+	height:350px!important;
+	max-height: 320px;
+}
+.scroller>.scroller__content {
+	max-height: 320px;
+}
+
+.scroll-panel ul {
+	-webkit-mask-image:none;
+}
