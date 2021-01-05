@@ -43,7 +43,7 @@ article {
 	padding:15px 10px;
 }
 .utility-bar .fancy-dropdown {
-	margin-top:5px;
+	margin-top:px;
 }
 .utility-bar .h3 {
 	font-size: 16px;
@@ -122,7 +122,7 @@ a.button__get-in-touch:hover {
 	padding:15px 22px;
 	}
 	.utility-bar .h3 {
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.fancy-dropdown .filter {
 		padding-right: 40px;
@@ -136,7 +136,7 @@ a.button__get-in-touch:hover {
 	}
 	ul.utility__navigation li {
 		list-style: none;
-		font-size: 20px;
+		font-size: 18px;
 		margin-right:30px;
 	}
 	a.button__get-in-touch {
@@ -876,4 +876,20 @@ a.button__get-in-touch:hover {
 .split-pic--flip.fullbleed--video .split-pic__inner {
     padding-right: 0;
     padding-left: 6rem;
+}
+.learn-more {
+	position: relative;
+}
+.learn-more__inner {
+	position: relative;
+}
+.learn-more:before {
+	position: absolute;
+	content: "";
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color: rgba(0,0,0,0.4);
+	z-index: 0;
 }

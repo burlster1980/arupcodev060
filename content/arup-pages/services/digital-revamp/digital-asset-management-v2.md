@@ -1,10 +1,9 @@
 ---
-title: "Digital Asset Management"
-date: 2020-12-28T23:09:14Z
+title: "Digital Asset Management V2"
+date: 2021-01-04T20:42:27Z
 draft: false
 type: service_industry
 ---
-
 <section class="new__service-banner">
 <div class="fullbleed service-banner fullbleed--hero fullbleed--project fullbleed--video">
     <div class="overlay"></div>
@@ -60,13 +59,13 @@ type: service_industry
                             	<a role="option" data-val="Americas" href="/arup-pages/services/digital-revamp/digital/">Digital home</a>
                         	</li>
                         	<li>
-                            	<a role="option" data-val="Australasia" href="">Collaboration</a>
+                            	<a role="option" data-val="Australasia" href="/careers/early-careers/graduates/australasia-graduate-programme">Collaboration</a>
                         	</li>
                         	<li>
-                            	<a role="option" data-val="East Asia" href="/arup-pages/services/digital-revamp/digital-consulting/">Consulting</a>
+                            	<a role="option" data-val="East Asia" href="/careers/early-careers/graduates/east-asia-graduate-programme">Consulting</a>
                         	</li>
                         	<li>
-                            	<a role="option" data-val="Europe" href="/arup-pages/services/digital-revamp/digital-design/">Design</a>
+                            	<a role="option" data-val="Europe" href="/careers/early-careers/graduates/europe-graduate-programme">Design</a>
                         	</li>
                         	<li>
                             	<a role="option" data-val="UK, India, Middle East &amp; Africa" href="/careers/early-careers/graduates/uk-india-middle-east-and-africa-graduate-programme">Emerging technologies</a>
@@ -84,19 +83,19 @@ type: service_industry
 		<ul class="utility__navigation">
 			<li>
 				<a href="#">
-					Extract data
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					Value from data
+					Asset health
 				</a>
 			</li>
 			<lI>
 				<a href="#">
-					Model, simulate and test
+					BI and data visualisation
 				</a>
 			</lI>
+			<li>
+				<a href="#">
+					Simulation and scenario planning
+				</a>
+			</li>
 		</ul>
 		<!-- end nav -->
 		<!-- button -->
@@ -110,116 +109,24 @@ type: service_industry
     <section class="container" id="">
         <div class="rich-text">
             <div class="reveal rich-text__content">
-            	<h2>Transform your operations and services, with real-time asset insights</h2>
+            	<!--<h2>Transform your operations and services, with real-time asset insights</h2>-->
+                <p>
+                	For all industries, getting the best value out of existing assets is a critical goal. Whether vital energy infrastructure, transport systems or buildings portfolios, ensuring high performance, optimal maintenance and the best possible asset life are always key priorities.
+                </p>
                 <p>
                 	Whatever the project, our approach is to find ways to connect data sources, enable analysis and use machine learning to detect patterns that keep clients ahead of events. And we are developing real-life digital twins to give clients a total view of their asset performance. 
                 </p>
             </div>
         </div>
 	</section>
-	<!--<div class="content-slider__background reveal" style="background-image: url(https://www.arup.com/-/media/arup/images/projects/k/kvmrt-kajang-line-asset-management/malaysia-mrt-train-2000x1125.jpg?h=1125&w=2000&hash=5DC8ED5BDC223D6D6C96DB0DD269FDF2);">
-	<section class="featured-pub content-slider content-slider--overflow content-slider--dt-md reveal content-slider--compact">
-    <div class="container">
-        <hr />
-        <div class="tabs">
-            <div class="controls">
-                <span class="prev icon icon-next" data-grunticon-embed></span>
-                <span class="next icon icon-next" data-grunticon-embed></span>
-            </div>
-            <div class="tab"><a href="#tab1-1" class="selected">Extract data from assets</a></div>
-            <div class="tab"><a href="#tab1-2" class="">Turn data into value</a></div>
-            <div class="tab"><a href="#tab1-3" class="">Model, simulate and test</a></div>
-        </div>
-    </div>
-    <div class="container js-box-car-container">
-        <div class="js-box-car-ctrl"></div>
-        <div class="content-slider__carousel">
-            <div class="content-slider__slide" id="tab1-1">
-            	<div class="split-box split-box--flip">
-                	<div class="split-box__pic-wrap">
-                    	<div class="split-box__pic" style="background-image: url('/-/media/arup/images/expertise/services/organisation-behaviour-park_avenue_plaza_new_york_scott_frances_otto-2000x1125.jpg?h=1126&amp;w=2000&amp;hash=8CC68B0024424A1A45CE27530CBBBE03');"></div>
-                    </div>
-                    <div class="split-box__content">
-                    	<div class="summary-info">
-                        	<h3 class="summary-info__title cta-title">
-                          	    <span class="cta-title__copy">Extracting data from assets</span>
-                            </h3>
-                            <p class="summary-info__copy">Key to understanding your asset is the ability to 'listen' to it. Learn more about our experience in extracting data from assets within the built environment.</p>
-                            	<a href="#extracting-data" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
-                            		<span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                	<span>Discover how we help</span>
-                            	</a>
-                        	</p>
-                        </div>
-                    </div>
-                </div>
-           	</div>
-           	<div class="content-slider__slide" id="tab1-2">
-            	<div class="split-box split-box--flip">
-                	<div class="split-box__pic-wrap">
-                    	<div class="split-box__pic" style="background-image: url('/-/media/arup/images/expertise/services/organisation-behaviour-park_avenue_plaza_new_york_scott_frances_otto-2000x1125.jpg?h=1126&amp;w=2000&amp;hash=8CC68B0024424A1A45CE27530CBBBE03');"></div>
-                    </div>
-                    <div class="split-box__content">
-                    	<div class="summary-info">
-                        	<h3 class="summary-info__title cta-title">
-                            	<span class="cta-title__copy">Turn data into value</span>
-                            </h3>
-                            <p class="summary-info__copy">Once collected, our expertise allows to turn your assets' data into business value through tools and models.</p>
-                            	<a href="#digital-twin" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
-                            		<span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                	<span>Discover how we help</span>
-                            	</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-           	</div>
-           	<div class="content-slider__slide" id="tab1-3">
-            	<div class="split-box split-box--flip">
-                	<div class="split-box__pic-wrap">
-                    	<div class="split-box__pic" style="background-image: url('/-/media/arup/images/expertise/services/organisation-behaviour-park_avenue_plaza_new_york_scott_frances_otto-2000x1125.jpg?h=1126&amp;w=2000&amp;hash=8CC68B0024424A1A45CE27530CBBBE03');"></div>
-                    </div>
-                    <div class="split-box__content">
-                    	<div class="summary-info">
-                        	<h3 class="summary-info__title cta-title">
-                            	<span class="cta-title__copy">Model, simulating and testing</span>
-                            </h3>
-                            <p class="summary-info__copy">Data models allow us to visualise the future - simulate and test for multiple scenarios - quickly and inexpensively.</p>
-                            	<a href="#simulation-testing" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
-                            		<span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                	<span>Discover how we help</span>
-                            	</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-           	</div>
-           	<!--<div class="content-slider__slide" id="tab1-4">
-            	<div class="split-box split-box--flip">
-                	<div class="split-box__pic-wrap">
-                    	<div class="split-box__pic" style="background-image: url('/-/media/arup/images/expertise/services/organisation-behaviour-park_avenue_plaza_new_york_scott_frances_otto-2000x1125.jpg?h=1126&amp;w=2000&amp;hash=8CC68B0024424A1A45CE27530CBBBE03');"></div>
-                    </div>
-                    <div class="split-box__content">
-                    	<div class="summary-info">
-                        	<h3 class="summary-info__title cta-title">
-                            	<span class="cta-title__copy">Create new ways of working</span>
-                            </h3>
-                            <p class="summary-info__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et urna quis lacus porttitor suscipit vitae et velit.</p>
-                        </div>
-                    </div>
-                </div>
-           	</div>
-        </div>
-   	</div>
-    </section>
-</div>-->
 	<section class="container" id="extracting-data">
         <div class="rich-text">
             <div class="reveal rich-text__content">
-            	<h2>Performance, prediction and asset life</h2>
-                <P>
-            		So much can now be learned about an asset’s performance, enabling predictions about lifespan, maintenance needs and improvements to operation. Connectivity opportunities such as those offered by the Internet of Things and the arrival of 5G mean it is now possible to extract information direct from even the most complex asset. In combination with the power of cloud based computing, analytics and BI platforms, it is possible produce a new level of control and peace-of-mind. 
+            	<h2>Maintaing your asset's health</h2>
+            	<p>
+            		 So much can now be learned about an asset’s performance, enabling predictions about lifespan, maintenance needs and improvements to operation. Connectivity opportunities such as those offered by the Internet of Things and the arrival of 5G mean it is now possible to extract information direct from even the most complex asset. In combination with the power of cloud based computing, analytics and BI platforms, it is possible produce a new level of control and peace-of-mind. 
             	</p>
+            	<h3>Performance, prediction and asset life</h3>
             	<P>
             		In our work on the <a href="https://www.arup.com/projects/salesforce-transit-center" target="_blank">Salesforce Transit Center</a>, our geotechnics team undertook one of the most ambitious urban excavations San Francisco has seen. Key to this was our <a href="https://www.arup.com/projects/global-analyzer" target="_blank">Global Analyzer tool</a>. During excavation, this platform received real-time streaming data from over 2,000 instruments, and giving 24 hour monitoring. After construction, the sensors were re-configured to form part of an asset management tool. 
             	</P>
@@ -229,29 +136,100 @@ type: service_industry
             </div>
         </div>
 	</section>
-	<section class="split-pic fullbleed--video highlight-section">
+	<section class="featured-pub content-slider content-slider--overflow content-slider--dt-md reveal content-slider--compact single-item">
+    <div class="container" style='display: none;'>
+        <hr />
+        <div class="tabs">
+            <div class="controls">
+                <span class="prev icon icon-next" data-grunticon-embed></span>
+                <span class="next icon icon-next" data-grunticon-embed></span>
+            </div>
+                <div class="tab"><a href="#tab1-1" class="selected">Infrastructure Mapping Application</a></div>
+                <div class="tab"><a href="#tab1-2" class="">Digital railway</a></div>
+                <div class="tab"><a href="#tab1-3" class="">The Crown Estate</a></div>
+                <div class="tab"><a href="#tab1-4" class="">Heathrow</a></div>
+        </div>
+    </div>
+    <div class="container js-box-car-container">
+        <div class="js-box-car-ctrl"></div>
+        <div class="content-slider__carousel">
+                        <div class="content-slider__slide" id="tab1-1">
+                            <div class="split-box split-box--flip">
+                                <div class="split-box__pic-wrap fullbleed--video" style="position: relative;">
+                                    <div class="split-box__pic" style="background-image: url('/-/media/arup/images/expertise/services/organisation-behaviour-park_avenue_plaza_new_york_scott_frances_otto-2000x1125.jpg?h=1126&amp;w=2000&amp;hash=8CC68B0024424A1A45CE27530CBBBE03');"></div>
+                                    <div class="split-pic__video">
+        								<video preload="auto" loop="true" muted="muted" class="desktop-only">
+        									<source src="/video/digital/queensferry-2.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+    									</video>
+    								</div>
+                                </div>
+                                <div class="split-box__content">
+                                    <div class="summary-info">
+                                    	<span>Featured project</span>
+                                            <h3 class="summary-info__title cta-title">
+                                                <a href="/expertise/services/advisory-services/people-and-organisations" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
+                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                                                    <span class="cta-title__copy">Monitoring the health of the Queensferry Crossing</span>
+                                                </a>
+                                            </h3>
+                                                                                    <p class="summary-info__copy"><p class="summary-info__copy">Sensors were installed throughout the structure, positioned to monitor the global behaviour of the bridge and its environment in real time. All data is stored in the cloud allowing easy data analysis. This allows the operator to respond quickly to extreme events, to target inspections and </p>
+                                                                                    <a href="https://www.arup.com/projects/infrastructure-mapping-application" class="cta-title__link cta cta--black cta--small cta--right cta--plain" >
+                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                                                    <span>Learn more about our work on Queensferry Crossing</span>
+                                                </a></p>                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    <section class="container" id="extracting-data">
+        <div class="rich-text">
+            <div class="reveal rich-text__content">
+            	<h3>Virtual inspection</h3>
+            	<P>
+            		A key aspect of asset maintence is inspection. For many owners, assets can be hard to inspect, with location or sheer scale increasing health and safety risks as well as costs.
+            	</P>
+            	<p>
+            		To aid clients, we have pioneered the use of digital technologies to speed up the inspection process and reduce the need for onsite inspections.
+            	</p>
+            	<P>We have developed a drone-based façade inspection system, mapping a building’s exterior and helping clients to plan repairs and maintenance in the most challenging locations. Drones are used to capture data, which is then used to create a 3D model. This approach can save up to 70% of the time previously invested in manual inspections, as well as signicantly reducing risks.</P>
+    <!--<section class="halfbleed reveal" data-full-height="2530" data-full-width="4498">
+		<div class="halfbleed__wrap">
+			<div class="progressiveMedia"><img alt="Sint Lucas" class="tempImg" height="6" src="https:/www.arup.com/-/media/2000x1125jhml16119430.jpg?h=6&amp;la=en&amp;mw=10&amp;w=10&amp;hash=AED4ADC9E7F3673A5CB5E307F697677E24E86EAA" width="10"> <img alt="Sint Lucas" class="mainImg" height="534" src="/images/arup-pages/digital/drone-inspection.jpg" width="950"></div>
+		</div>
+		<div class="halfbleed__detail">
+			This is an image caption
+		</div>
+	</section>-->
+            	<P>Arup Inspect is the digital tool we developed to allow clients to carry out remote and automated monitoring of asset or building integrity. The system means you can simulate potential scenarios instead of carrying out unnecessary physical inspections.</P>
+            </div>
+        </div>
+	</section>
+	<section class="split-pic highlight-section">
     <div class="split-pic__pic-wrap ">
-        <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('/-/media/arup/images/projects/q/queensferry-crossing/720x680-20170718-main-crossing-northbound.jpg?h=680&amp;w=720&amp;hash=A6CCBE94B5656BD486ACB6D970BC8980')">
+        <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('/images/arup-pages/digital/arup-inspect-3d.jpg')">
         </div>
         <div class="split-pic__pic split-pic__pic--mobile" style="background-image: url('/-/media/arup/images/projects/q/queensferry-crossing/720x680-20170718-main-crossing-northbound.jpg?mw=720&amp;hash=2E7748BD4150F13304A8A522C83C852E')"></div>
-        <div class="split-pic__video">
+        <!--<div class="split-pic__video">
         	<video preload="auto" loop="true" muted="muted" class="desktop-only">
         		<source src="/video/digital/queensferry-2.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
     		</video>
-    	</div>
+    	</div>-->
         <p class="split-pic__caption"></p>
     </div>
     <div class="split-pic__content">
         <div class="split-pic__inner">
             <div class="split-pic__copy">
-            	<span>Featured project</span>
-                <h3 class="h4">Monitoring the health of the Queensferry Crossing</h3>
-                <p>Sensors were installed throughout the structure, positioned to monitor the global behaviour of the bridge and its environment in real time. All data is stored in the cloud allowing easy data analysis. This allows the operator to respond quickly to extreme events, to target inspections and to carry out pre-emptive interventions to avoid potential failures. It also significantly reduced operational and maintenance costs for the bridge's operator.
+            	<span>Featured software</span>
+                <h3 class="h4">Benefits of Arup Inspect</h3>
+                <p>Arup Inspect Minteg (AIMTM) is a digitalised workflow to enable remote monitoring of asset integrity, which is particularly beneficial to managing offshore assets, such as wind turbines or oil rigs. The digital twin manages and analyses the full operational data for the asset, from design information to inspection results to environmental conditions. 
 				</p>
 				    <hr />
                     <a class="cta cta--black cta--small" href="/our-firm/values" HideLinkDescription="True">
                                 <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
-                                <span class="cta__text">Learn more about our work on Queensferry Crossing</span>
+                                <span class="cta__text">Learn more about Arup Inspect</span>
                             </a>
             </div>
         </div>
@@ -260,9 +238,9 @@ type: service_industry
 	<section class="container" id="digital-twin">
         <div class="rich-text">
             <div class="reveal rich-text__content">
-            	<h2>Turning your data into value</h2>
+            	<h2>Business intelligence and visualisation: turning your data into value</h2>
                 <P>
-            		Once we've identified potential sources of data, we help clients to unify and translate raw data into valuable business intelligence, which in turn, helps you extract increased value from your asset. 
+            		We help clients to unify and translate raw data into valuable business intelligence, which in turn, helps you extract increased value from your asset. 
             	</P>
             	<!--<p>
             		We achieve this through harnessing a range of skills and expertise - from data analysis to software development - that allows us to create solutions shaped to clients' needs. 
@@ -381,6 +359,48 @@ type: service_industry
 	<section class="container" id="digital-twin">
         <div class="rich-text">
             <div class="reveal rich-text__content">
+            	<h3>Optimising asset portfolios</h3>
+                <P>
+            		Our Arup Neuron intelligent building platform offers portfolio-wide management and control of assets’ performance, helping clients to optimise costs and predict maintenance requirements across complex estates.
+            	</P>
+            	<p>
+					At the wider, city scale, Neuron can integrate geographical, transit and other real-time data to provide an operational picture of whole districts. For infrastructure, utility and transport sector clients, the value is clear: one BI dashboard can present live data from potentially thousands of networked assets, from pipes to trains to parts of the electric grid. And with the growing power of machine learning and A.I., predictive maintenance at scale is now a possibility. 
+				</p>
+				<P>
+					<a href="https://www.arup.com/projects/infrastructure-mapping-application" class="cta-title__link cta cta--black cta--small cta--right cta--plain" >
+                    	<span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                        <span>Find out how Arup Neuron can help you</span>
+                    </a>
+                </p>      
+            </div>
+        </div>
+	</section>
+	<!--<section class="fullbleed fullbleed--secondary fullbleed--hero reveal overlay-enabled">
+        <div class="progressiveMedia overlay-enabled">
+            <img src="https://www.arup.com/-/media/arup/images/projects/3/3d-printing-house/2000x1125-11_arup_luca-orlandini.jpg?h=1125&la=en&w=2000&hash=417462F8C04F40DB3F4E3FC2037AA527AED61B57" class="tempImg" alt="Testing the design at sea" width="10" height="6" DisableWebEdit="False" />
+            <img src="https://arupneuron.com/wp-content/uploads/2019/11/New-Homepage.png" class="mainImg" alt="Testing the design at sea" width="4128" height="2322" DisableWebEdit="False" />
+        </div>
+        <div class="container fullbleed__container fullbleed__container--left">
+            <div class="fullbleed__content ">
+                    <h2>Arup Neuron: empowering buildings with a digital brain</h2>
+                    <div class="related-services ">
+                            <h3></h3>
+                            <hr />
+                        <ul class="list list--links list--links--lightDesktop">
+                                <li>
+                                    <a href="#" class="cta cta--small cta--reverse" >
+                                        <span data-grunticon-embed class="icon icon-oval"></span>
+                                        <span>Discover how Neuron can help you</span>
+                                    </a>
+                                </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </section>-->
+	<section class="container" id="digital-twin">
+        <div class="rich-text">
+            <div class="reveal rich-text__content">
             	<h2>Modelling, simulating and testing - using data to see into the future</h2>
                 <P>
             		Imagine being able to carry out asset performance testing, or reveal when maintenance is likely be needed - wherever it is located. Imagine being able to model traffic flows or passenger numbers so that designs are tailored to match future needs. By combining skills in data analysis, software development and visualisation we are able to help you manage your assets in completely new ways.
@@ -448,121 +468,17 @@ type: service_industry
         <div class="rich-text">
             <div class="reveal rich-text__content">
             	<h2>Digital twins - giving you new insight</h2>
-            	<P>A digital twin - an always updating digital model of your buildings or assets - can transform your commercial and operational performance. It is a digital representation of a real-world asset - a bridge, a rail network, even an entire city - aimed at making the curation of that entity safer, more efficient, and more resilient to change.</P>
-            	<P>Discover more about how we're using digital twins to help our clients.</P>
+            	<P>A digital twin can transform your commercial and operational performance. It is a digital representation of a real-world asset - a bridge, a rail network, even an entire city - aimed at making the curation of that entity safer, more efficient, and more resilient to change.</P>
+            	<p>
+            		<a href="https://www.arup.com/projects/infrastructure-mapping-application" class="cta-title__link cta cta--black cta--small cta--right cta--plain" >
+                        <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                        <span>Learn more about how we're using digital twins</span>
+                    </a>
+                </p>      
             </div>
         </div>
 	</section>
 	<!-- recommended content alternative -->
-	<section class="container">
-        <div class="dynamic-feat__list">
-            <ul class="up-list">
-				<li class="up-list__item up-list__item--two">
-    				<div class="preview-card ">
-            			<!--<a href="/perspectives/new-thinking-in-the-air-pandemic-pollution-and-preserving-the-improvements" class="preview-card__header preview-card__header--pic">
-                			<div class="preview-card__pic" style="background-image: url('/-/media/arup/images/perspectives/themes/covid19/new-thinking-in-the-air/empty-road-scape.jpg?h=1125&amp;w=2000&amp;hash=234A131CE72AFFE623730041313CE3E2');">
-                			</div>
-            			</a>-->
-        				<div class="preview-card__content preview-card__content--alt-style">
-            				<div class="preview-card__main">
-                				<div class="preview-copy">
-                    				<a href="/perspectives/new-thinking-in-the-air-pandemic-pollution-and-preserving-the-improvements" class="preview-copy__toplink">
-                        				<h4 class="preview-copy__label label--md">
-                            			</h4>
-                        				<h3 class="preview-copy__title ">Arup Neuron: optimising estates with Business Intelligence</h3>
-                            			<div class="preview-copy__copy-wrap">
-                                			<p class="preview-copy__copy">Our Arup Neuron intelligent building platform offers portfolio-wide management and control of assets’ performance. At the wider, city scale, Neuron can integrate geographical, transit and other real-time data to provide an operational picture of whole districts. At the wider, city scale, Neuron can integrate geographical, transit and other real-time data to provide an operational picture of whole districts.</p>
-                                			<span class="cta cta--black cta--small">
-                                				<span class="cta__icon icon icon-oval " data-grunticon-embed></span>
-                                				<span class="cta__text">Find out more</span><a class="cta cta--black cta--small" href="/projects/massmotion-digital-passenger-model-for-fiumicino" HideLinkDescription="True">
-                                				</span>
-                            			</div>
-                    				</a>
-                				</div>
-            				</div>
-            				<!--<footer class="preview-card__footer">
-    							<div class="preview-foot">
-            						<div class="mini-profile  mini-profile--small">
-                    					<div class="mini-profile__pic-wrap ">
-                        					<a href="/our-firm/justin-bishop" class="mini-profile__link">
-                            					<img class="mini-profile__pic" src="/-/media/arup/images/people/j/justin-bishop.jpg?h=400&amp;w=400&amp;hash=CF47752F4A69E32830851C1FFE6A6A5E" alt="Justin Bishop"/>
-                        					</a>
-                    					</div>
-                						<div class="mini-profile__main">
-                        					<ul class="mini-profile__info-list">
-                            					<li class="mini-profile__info-item mini-profile__info-item--core ">
-                                					<a href="/our-firm/justin-bishop" class="mini-profile__info-link">
-                                    					<span class="mini-profile__info-content">
-                                        					<h4 class="mini-profile__name">Justin Bishop</h4>
-                                            				<h5 class="mini-profile__job">Senior Consultant</h5>
-                                    					</span>
-                                					</a>
-                            					</li>
-                        					</ul>
-                                            <hr class="mini-profile__divide"/>
-                                            <p class="mini-profile__underline">1 June 2020</p>
-                						</div>
-            						</div>
-            					</div>
-							</footer>-->
-        				</div>
-    				</div>
-				</li>
-				<li class="up-list__item up-list__item--two">
-    				<div class="preview-card ">
-            			<!--<a href="/perspectives/new-thinking-in-the-air-pandemic-pollution-and-preserving-the-improvements" class="preview-card__header preview-card__header--pic">
-                			<div class="preview-card__pic" style="background-image: url('/-/media/arup/images/perspectives/themes/covid19/new-thinking-in-the-air/empty-road-scape.jpg?h=1125&amp;w=2000&amp;hash=234A131CE72AFFE623730041313CE3E2');">
-                			</div>
-            			</a>-->
-        				<div class="preview-card__content preview-card__content--alt-style">
-            				<div class="preview-card__main">
-                				<div class="preview-copy">
-                    				<a href="/perspectives/new-thinking-in-the-air-pandemic-pollution-and-preserving-the-improvements" class="preview-copy__toplink">
-                        				<h4 class="preview-copy__label label--md">
-                            			</h4>
-                        				<h3 class="preview-copy__title ">Arup Inspect: automated and remote inspections for better decision making across the built environment</h3>
-                            			<div class="preview-copy__copy-wrap">
-                                			<p class="preview-copy__copy">Arup Inspect is a tool we developed to allow clients to carry out remote and automated monitoring of asset or building integrity. The system means you can simulate potential scenarios instead of carrying out unnecessary physical inspections.</p>
-                                			<span class="cta cta--black cta--small">
-                                				<span class="cta__icon icon icon-oval " data-grunticon-embed></span>
-                                				<span class="cta__text">Find out more</span><a class="cta cta--black cta--small" href="/projects/massmotion-digital-passenger-model-for-fiumicino" HideLinkDescription="True">
-                                			</span>
-                            			</div>
-                    				</a>
-                				</div>
-            				</div>
-            				<!--<footer class="preview-card__footer">
-    							<div class="preview-foot">
-            						<div class="mini-profile  mini-profile--small">
-                    					<div class="mini-profile__pic-wrap ">
-                        					<a href="/our-firm/justin-bishop" class="mini-profile__link">
-                            					<img class="mini-profile__pic" src="/-/media/arup/images/people/j/justin-bishop.jpg?h=400&amp;w=400&amp;hash=CF47752F4A69E32830851C1FFE6A6A5E" alt="Justin Bishop"/>
-                        					</a>
-                    					</div>
-                						<div class="mini-profile__main">
-                        					<ul class="mini-profile__info-list">
-                            					<li class="mini-profile__info-item mini-profile__info-item--core ">
-                                					<a href="/our-firm/justin-bishop" class="mini-profile__info-link">
-                                    					<span class="mini-profile__info-content">
-                                        					<h4 class="mini-profile__name">Justin Bishop</h4>
-                                            				<h5 class="mini-profile__job">Senior Consultant</h5>
-                                    					</span>
-                                					</a>
-                            					</li>
-                        					</ul>
-                                            <hr class="mini-profile__divide"/>
-                                            <p class="mini-profile__underline">1 June 2020</p>
-                						</div>
-            						</div>
-            					</div>
-							</footer>-->
-        				</div>
-    				</div>
-				</li>
-			</ul>
-        </div>
-    </div>
-</section>
 	</section>
 	<!-- end alternative -->
 	<!--<section class="projects-carousel all-content">
