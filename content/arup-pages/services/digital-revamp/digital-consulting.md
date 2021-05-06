@@ -4,108 +4,162 @@ date: 2021-01-03T16:11:43Z
 draft: false
 type: service_industry
 ---
-<section class="new__service-banner">
-	<div class="fullbleed service-banner fullbleed--hero fullbleed--project fullbleed--video">
-    	<div class="overlay"></div>
-    	<div class="progressiveMedia">
-    		<img src="/-/media/arup/images/expertise/services/digital/digital-video-still227june.jpg?h=6&amp;mw=10&amp;w=10&amp;hash=180C31593B4E56C57165BE63FD000ADA" class="tempImg" alt="" width="10" height="6" DisableWebEdit="False" />;
-    		<img src="https://www.arup.com/-/media/arup/images/perspectives/themes/cities/digital-built-environment/istock-184101679.jpg?h=1125&w=2000&hash=D1992F3627CA036E2C78CB158A4C04F0" class="mainImg" alt="" width="2000" height="1125" DisableWebEdit="False" />;
-    	</div>
-    	<video preload="auto" loop="true" muted="muted" class="desktop-only">
-        	<source src="/video/digital/digital-consulting.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
-    	</video>
-    	<div class="banner__background"></div>
-	</div>
-	<div class="banner__intro container">
-		<div class="introduction">
-			<span>Digital</span>
-			<h1>Digital Consulting</h1>
-			<p class="intro">Our digital advisory teams draw on wide domain knowledge and experience from Arup’s many related services, to help clients prioritise change that works for them and their customers or clients. Whatever the objective, our approach combines deep human insight, organisational understanding and the latest emerging technologies. </p>
-			<a class="util-contact modal-trigger" href="#mainContact" onclick="globalContactClick('Will Cavendish - Director');">
-            	<div class="util-contact__pic-wrap">
-                	<img class="util-contact__pic" src="https://www.arup.com/-/media/arup/images/people/w/450x450-will-cavendish-(002).jpg?gray=1&amp;mw=180&amp;hash=E8D2A897531FA5C8041284BF5B30BF0C" alt="Will Cavendish, Arup"/>
-            	</div>
-            	<div class="util-contact__main">               
-            		<h4 class="util-contact__title">Will Cavendish</h4>
-                	<div class="util-contact__cta">
-                		<span class="cta cta--black cta--small cta--right cta--plain">
-                    	<span>Choose a digital expert to go here</span>
-                    	</span>
-                	</div>
-            	</div>
-        	</a>
-		</div>
-	</div>
-</section>
+<div class="industry__banner subpage">
+    <nav class="nav-secondary">
+        <div class="container">
+            <div class="nav-secondary__main">
+                <div>
+                    <ul>
+                        <li>
+                            <a href="/careers">Expertise</a>
+                        </li>
+                        <li>
+                            <a href="#">Digital</a>                            
+                        </li>
+                        <li>
+                            Digital consulting                        
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#career-overlay-global" class="cta cta--black cta--small" target="">
+                        <span data-grunticon-embed class="icon icon-oval"></span>
+                        <span></span>
+                        <span class="cta__text">Search all jobs</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="fullbleed fullbleed--new fullbleed--hero fullbleed--project fullbleed--video">
+        <div class="fullbleed__inner">
+            <div class="overlay"></div>
+            <div class="progressiveMedia">
+                <img src="/-/media/arup/images/expertise/services/digital/digital-video-still227june.jpg?h=6&amp;mw=10&amp;w=10&amp;hash=180C31593B4E56C57165BE63FD000ADA" class="tempImg" alt="" width="10" height="6" DisableWebEdit="False" />;
+                <img src="https://www.arup.com/-/media/arup/images/perspectives/themes/cities/digital-built-environment/istock-184101679.jpg?h=1125&w=2000&hash=D1992F3627CA036E2C78CB158A4C04F0" class="mainImg" alt="" width="2000" height="1125" DisableWebEdit="False" />;
+            </div>
+            <video preload="auto" loop="true" muted="muted" class="desktop-only">
+                <source src="/video/digital/digital-consulting.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
+            <div class="fullbleed__alt-content">
+                <div class="container container--3col">
+                    <div class="col col__main">
+                        <div class="page-info">
+                            <div class="page-info__title feature-title">
+                                <h3 class="feature-title__label">Services</h3>
+                                <h1 class="feature-title__title">Digital consulting</h1>
+                            </div>
+                            <div class="page-info__content">
+                                <div class="page-info__description">
+                                    <a class="cta cta--black cta--small hub-label" href="/arup-pages/services/digital-revamp/digital/">
+                                        <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
+                                        <span>Digital hub</span>
+                                    </a>
+                                    <p>Every modern business produces vast quantities of data. We help you to transform this resource into real business benefits – from greater efficiencies, to improved management or whole new services.</p>
+                                    <a class="util-contact modal-trigger" href="#mainContact" onclick="globalContactClick('Will Cavendish - Director');">
+                                        <div class="util-contact__pic-wrap">
+                                            <img class="util-contact__pic" src="https://www.arup.com/-/media/arup/images/people/w/450x450-will-cavendish-(002).jpg?gray=1&amp;mw=180&amp;hash=E8D2A897531FA5C8041284BF5B30BF0C" alt="Will Cavendish, Arup"/>
+                                        </div>
+                                        <div class="util-contact__main">               
+                                            <h4 class="util-contact__title">An expert is needed</h4>
+                                            <div class="util-contact__cta">
+                                                <span class="cta cta--black cta--small cta--right cta--plain">
+                                                    <span>Global Digital Service Leader</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="page-info__navigation">
+                                    <span>
+                                        On this page
+                                    </span>
+                                    <ul class="inpage__nav">
+                                        <li>
+                                            <a class="cta cta--black cta--small" href="#planning">
+                                                <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
+                                                <span>Data insight</span>
+                                            </a>
+                                        </li>
+                                        <lI>
+                                            <a class="cta cta--black cta--small" href="#optimisation">
+                                                <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
+                                                <span>ICT infrastructure and cyber security</span>
+                                            </a>
+                                        </lI>
+                                        <li>
+                                            <a class="cta cta--black cta--small" href="#dynamic">
+                                                <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
+                                                <span>Experience design</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="fullbleed__outer">
+            <div class="container">
+                <div class="col">
+                    <div class="page-info page-info--outer">
+                        <div class="page-info__content page-info__content--outer">
+                            <p class="page-info__copy"><p>Our digital services combine innate knowledge of the built environment with new technologies to shape a better world.</p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
 <!-- utility bar -->
-<section class="utility-bar sticky">
+<section class="utility-bar sticky industry__subpage">
     <div class="container utility-bar__inner">
-    	<!-- drop down -->
-    	<div class="fancy-dropdown">
-    		<span class="h3">
-        		<span data-target="#dropdownList" data-original="Select a region" data-link="true" class="filter" data-ajax="false" tabindex="0" role="button">
-            		Explore digital services
-        		</span>
-    		</span>
-    		<div class="filter--close"></div>
-		</div>
-		<div id="dropdownList" class="filter__list" role="dialog" aria-label="Select a region">
-    		<span data-grunticon-embed class="icon icon-close"></span>
-    		<div class="filter__list__inner">
-        		<div class="filter__list__items scroller">
-            		<div class="scroller__content">
-                		<ul id="flist1__list" role="listbox">
-                        	<li>
-                            	<a role="option" data-val="Americas" href="/arup-pages/services/digital-revamp/digital/">Digital home</a>
-                        	</li>
-                        	<li>
-                            	<a role="option" data-val="East Asia" href="/careers/early-careers/graduates/east-asia-graduate-programme">Asset management</a>
-                        	</li>
-                        	<li>
-                            	<a role="option" data-val="Europe" href="/careers/early-careers/graduates/europe-graduate-programme">Design</a>
-                        	</li>
-                        	<li>
-                            	<a role="option" data-val="UK, India, Middle East &amp; Africa" href="/careers/early-careers/graduates/uk-india-middle-east-and-africa-graduate-programme">Emerging technologies</a>
-                        	</li>
-                        	<li>
-                            <a role="option" data-val="UK, India, Middle East &amp; Africa" href="/careers/early-careers/graduates/uk-india-middle-east-and-africa-graduate-programme">Sustainable development</a>
-                        	</li>
-                		</ul>
-            		</div>
-        		</div>
-    		</div>
-		</div>
-		<!-- end drop down -->
-		<!-- nav -->
-		<ul class="utility__navigation">
-			<li>
-				<a href="#data">
-					Data insight
-				</a>
-			</li>
-			<!--<li>
-				<a href="#strategic-advice">
-					Strategic advice
-				</a>
-			</li>-->
-			<lI>
-				<a href="#ice-infrastructure">
-					ICT infrastructure and cyber security
-				</a>
-			</lI>
-			<lI>
-				<a href="#experience-design">
-					Experience design
-				</a>
-			</lI>
-		</ul>
-		<!-- end nav -->
-		<!-- button -->
-			<a href="#" class="button__get-in-touch">
-				<span class="button__label">Get in touch</span>
-			</a>
-		<!-- end button -->
-   	</div>
+        <!-- drop down -->
+        <!-- drop down -->
+        <div class="page__label">
+            <span class="h3">
+                    Digital consulting
+            </span>
+        </div>
+        <div class="utility-bar__content">
+            <div class="fancy-dropdown">
+                <span class="h3">
+                    <span data-target="#dropdownList" data-original="Select a region" data-link="true" class="filter" data-ajax="false" tabindex="0" role="button">
+                    On this page
+                    </span>
+                </span>
+                <div class="filter--close"></div>
+            </div>
+            <div id="dropdownList" class="filter__list" role="dialog" aria-label="Select a region">
+                <span data-grunticon-embed class="icon icon-close"></span>
+                <div class="filter__list__inner">
+                    <div class="filter__list__items scroller">
+                        <div class="scroller__content">
+                            <ul id="flist1__list" role="listbox">
+                                <li>
+                                    <a role="option" data-val="Americas" href="#planning">Data insights</a>
+                                </li>
+                                <li>
+                                    <a role="option" data-val="Australasia" href="#optimisation">ICT infrastructure and cyber security</a>
+                                </li>
+                                <li>
+                                    <a role="option" data-val="East Asia" href="#dynamic">Experience design</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- end drop down -->
+        <!-- button -->
+            <a href="#contact" class="button__get-in-touch">
+                <span class="button__label">Get in touch</span>
+            </a>
+        <!-- end drop down -->
+    </div>
 </section>
 <article>
     <section class="container" id="">
@@ -121,85 +175,6 @@ type: service_industry
             </div>
         </div>
 	</section>
-	<!--<div class="content-slider__background reveal" style="background-image: url(https://www.arup.com/-/media/arup/images/projects/k/kvmrt-kajang-line-asset-management/malaysia-mrt-train-2000x1125.jpg?h=1125&w=2000&hash=5DC8ED5BDC223D6D6C96DB0DD269FDF2);">
-		<section class="featured-pub content-slider content-slider--overflow content-slider--dt-md reveal content-slider--compact">
-    		<div class="container">
-        		<hr />
-        		<div class="tabs">
-            		<div class="controls">
-                		<span class="prev icon icon-next" data-grunticon-embed></span>
-                		<span class="next icon icon-next" data-grunticon-embed></span>
-            		</div>
-            		<div class="tab"><a href="#tab1-1" class="selected">Help you gain insight from data</a></div>
-            		<div class="tab"><a href="#tab1-3" class="">Manage your ICT infrastructure</a></div>
-            		<div class="tab"><a href="#tab1-4" class="">Design human-centred solutions</a></div>
-        		</div>
-    		</div>
-    		<div class="container js-box-car-container">
-        		<div class="js-box-car-ctrl"></div>
-        		<div class="content-slider__carousel">
-            		<div class="content-slider__slide" id="tab1-1">
-            			<div class="split-box split-box--flip">
-                			<div class="split-box__pic-wrap">
-                    			<div class="split-box__pic" style="background-image: url('/-/media/arup/images/expertise/services/organisation-behaviour-park_avenue_plaza_new_york_scott_frances_otto-2000x1125.jpg?h=1126&amp;w=2000&amp;hash=8CC68B0024424A1A45CE27530CBBBE03');"></div>
-                    		</div>
-                    		<div class="split-box__content">
-                    			<div class="summary-info">
-                        			<h3 class="summary-info__title cta-title">
-                          	    		<span class="cta-title__copy">Help you gain insight from data</span>
-                            		</h3>
-                            		<p class="summary-info__copy">As the volume of data grows exponentially, the ability to analyse and interpret this becomes more vital.</p>
-                            		<a href="#data" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
-                            			<span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                		<span>Discover how we help</span>
-                            		</a>
-                        		</div>
-                    		</div>
-                		</div>
-           			</div>
-          
-           	<div class="content-slider__slide" id="tab1-3">
-            	<div class="split-box split-box--flip">
-                	<div class="split-box__pic-wrap">
-                    	<div class="split-box__pic" style="background-image: url('/-/media/arup/images/expertise/services/organisation-behaviour-park_avenue_plaza_new_york_scott_frances_otto-2000x1125.jpg?h=1126&amp;w=2000&amp;hash=8CC68B0024424A1A45CE27530CBBBE03');"></div>
-                    </div>
-                    <div class="split-box__content">
-                    	<div class="summary-info">
-                        	<h3 class="summary-info__title cta-title">
-                            	<span class="cta-title__copy">Manage your ICT infrastructrue and security</span>
-                            </h3>
-                            <p class="summary-info__copy">Data models allow us to visualise the future - simulate and test for multiple scenarios - quickly and inexpensively.</p>
-                            	<a href="#simulation-testing" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
-                            		<span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                	<span>Discover how we help</span>
-                            	</a>
-                        </div>
-                    </div>
-                </div>
-           	</div>
-           	<div class="content-slider__slide" id="tab1-4">
-            	<div class="split-box split-box--flip">
-                	<div class="split-box__pic-wrap">
-                    	<div class="split-box__pic" style="background-image: url('/-/media/arup/images/expertise/services/organisation-behaviour-park_avenue_plaza_new_york_scott_frances_otto-2000x1125.jpg?h=1126&amp;w=2000&amp;hash=8CC68B0024424A1A45CE27530CBBBE03');"></div>
-                    </div>
-                    <div class="split-box__content">
-                    	<div class="summary-info">
-                        	<h3 class="summary-info__title cta-title">
-                            	<span class="cta-title__copy">Designing human-centred solutions</span>
-                            </h3>
-                            <p class="summary-info__copy">Today, we use these tools backed by wider disciplinary knowledge to carry out ‘experience design’, plotting out how a given environment will meet users’ needs.</p>
-                            	<a href="#simulation-testing" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
-                            		<span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                	<span>Discover how we help</span>
-                            	</a>
-                        </div>
-                    </div>
-                </div>
-           	</div>
-        </div>
-   	</div>
-    </section>
-	</div>-->
     <section class="container" id="extracting-data">
         <div class="rich-text">
             <div class="reveal rich-text__content">
@@ -216,7 +191,7 @@ type: service_industry
 				<div class="projects__title">
 					<span class="header__label">Latest projects</span>
 					<h2>How we've helped clients obtain value from data</h2>
-					<a class="cta cta--small cta--black" href="https://www.arup.com/perspectives/publications/all/sustainability-consulting">                
+					<a class="cta cta--small cta--black" href="https://www.arup.com/expertise/services/digital/data-insight-and-analytics">                
 						<span class="cta__copy">Learn more about our data expertise</span>
                 		<span data-grunticon-embed class="cta__icon icon icon-oval"></span>
 					</a>
@@ -231,7 +206,7 @@ type: service_industry
 			<div class="feature__projects-carousel">
 				<div class="project__carousel-item">
 					<div class="projects__item">
-						<a href="#" class="preview-card__header preview-card__header--pic">
+						<a href="https://www.arup.com/projects/heathrow-airport-digital" class="preview-card__header preview-card__header--pic">
 							<div class="navigation__content" style="background-image: url(https://www.arup.com/-/media/arup/images/projects/h/heathrow-terminal-5/heathrow-baggage-handlingc-aruphero2000x1125.jpg?h=1125&w=2000&hash=5B6F217AC50DDE3B829957CAF1FE3673);">
 								<div class="description__container">
 									<span class="project__name">Heathrow Airport</span>
@@ -242,7 +217,7 @@ type: service_industry
   						</a>
 					</div>
 					<div class="projects__item large">
-						<a href="#" class="preview-card__header preview-card__header--pic">
+						<a href="https://www.arup.com/projects/infrastructure-mapping-application" class="preview-card__header preview-card__header--pic">
 							<div class="navigation__content" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/i/infrastructure-mapping-application/video-still.jpg?h=1125&w=2000&hash=6877AE15EDF10AE37549D41CF2B55128');">
 								<div class="description__container">
 									<span class="project__name">Infrastructure Mapping Application</span>
@@ -253,7 +228,7 @@ type: service_industry
   						</a>
 					</div>
 					<div class="projects__item no-margin">
-						<a href="#" class="preview-card__header preview-card__header--pic">
+						<a href="https://www.arup.com/projects/crown-estates-digital" class="preview-card__header preview-card__header--pic">
 							<div class="navigation__content" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/c/crown-estates-digital/panel_crown_estates.jpg?h=1024&w=1440&hash=A0EE551A61727A238410C2EB5D9E2C34');">
 								<div class="description__container">
 									<span class="project__name">The Crown Estate</span>
@@ -267,7 +242,7 @@ type: service_industry
 			</div>
 		</div>
 	</section>
-	<section class="split-pic fullbleed--video highlight-section">
+	<section class="split-pic fullbleed--video highlight-section advert">
     	<div class="split-pic__pic-wrap ">
         	<div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('/-/media/arup/images/projects/q/queensferry-crossing/720x680-20170718-main-crossing-northbound.jpg?h=680&amp;w=720&amp;hash=A6CCBE94B5656BD486ACB6D970BC8980')">
         	</div>
@@ -282,29 +257,22 @@ type: service_industry
     	<div class="split-pic__content">
         	<div class="split-pic__inner">
             	<div class="split-pic__copy">
-            		<span>Services</span>
-                	<h3 class="h4">What makes our data expertise?</h3>
-                	<p>At Arup, our expertise extends further than the analysis of data. It is by combining our data analysis experience with expertise such as visualisation and software development as well as deep industry knowledge, that we are able to deliver true insight for clients.</p>
+            		<span>Featured services</span>
+                	<h3 class="h4">Some heading that implies our data stuff is better</h3>
+                	<p>Brief description - suggestion that there's an advisory aspect to this - project lifecycle etc</p>
 					</p>
-						<h5>Discover more</h5>
-				    	<hr />
+						<hr />
                     	<ul class="list list--links">
                             <li>
-                                <a class="cta cta--black cta--small" href="/projects/taoyuan-international-airport-terminal-3" HideLinkDescription="True">
+                                <a class="cta cta--black cta--small" href="https://www.arup.com/expertise/services/digital/visualisation" HideLinkDescription="True">
                                 <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
                                 <span class="cta__text">Visualisation</span>
                                 </a>
                             </li>
                             <li>
-                                <a class="cta cta--black cta--small" href="/projects/massmotion-digital-passenger-model-for-fiumicino" HideLinkDescription="True">
+                                <a class="cta cta--black cta--small" href="https://www.arup.com/expertise/services/advisory-services" HideLinkDescription="True">
                                 <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
-                                <span class="cta__text">Software development</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="cta cta--black cta--small" href="/projects/massmotion-digital-passenger-model-for-fiumicino" HideLinkDescription="True">
-                                <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
-                                <span class="cta__text">Data insight and analytics</span>
+                                <span class="cta__text">Advisory services</span>
                                 </a>
                             </li>
                     </ul>
@@ -330,6 +298,223 @@ type: service_industry
             </div>
         </div>
 	</section>
+    <section class="section highlight-section" id="">
+        <div class="container">
+            <div class="perspectives__feature">
+                <header>
+                    <span class="perspectives__label">Perspectives</span>
+                    <h2 class="perspectives__heading">New ideas for a changing world</h2>
+                </header>
+                <!-- use recommended content module to achieve same result -->
+                <section class="container">
+                    <div class="dynamic-feat">
+                        <div class="dynamic-feat__hero">
+                            <div class="preview-card preview-card--hero">
+                                <a href="/perspectives/dont-bet-against-cities-four-trends-shaping-cities-recovery" class="preview-card__header preview-card__header--pic">
+                                    <div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/images/projects/m/mcb_ebene/new/headerimagemauritius-commercial-bank-mcb-ebenec-arup.jpg?h=1125&w=2000&hash=B219C8379D5AB89F38EF101C9B2B8368');">
+                                    </div>
+                                </a>
+                                <div class="preview-card__content ">
+                                    <div class="preview-card__main">
+                                        <div class="preview-copy">
+                                            <a href="/perspectives/dont-bet-against-cities-four-trends-shaping-cities-recovery" class="preview-copy__toplink">
+                                                <h4 class="preview-copy__label label--md">
+                                                    Service
+                                                </h4>
+                                                <h3 class="preview-copy__title ">ICT infrastructure design</h3>
+                                                <div class="preview-copy__copy-wrap">
+                                                    <p class="preview-copy__copy">Despite the initial fear that the pandemic meant that urbanisation would come to a halt, we believe cities are about to adapt and in beneficial ways. Jerome Frost explores four trends shaping cities recovery.</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <footer class="preview-card__footer">
+                                        <div class="preview-foot">
+                                            <div class="mini-profile  mini-profile--small">
+                    <div class="mini-profile__pic-wrap ">
+                        <a href="/our-firm/jerome-frost" class="mini-profile__link">
+                            <img class="mini-profile__pic" src="/-/media/arup/images/people/j/jerome-frost--consulting-centralc-thomas-grahamarup.jpg?h=450&amp;w=450&amp;hash=F98DB5EA64B142F1E7379FCC01F2B904" alt="Jerome Frost"/>
+                        </a>
+                    </div>
+                <div class="mini-profile__main">
+                        <ul class="mini-profile__info-list">
+                            <li class="mini-profile__info-item mini-profile__info-item--core ">
+                                <a href="/our-firm/jerome-frost" class="mini-profile__info-link">
+                                    <span class="mini-profile__info-content">
+                                        <h4 class="mini-profile__name">Jerome Frost</h4>
+                                            <h5 class="mini-profile__job">Global Cities Leader</h5>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                                            <hr class="mini-profile__divide"/>
+                                            <p class="mini-profile__underline">19 November 2020</p>
+                </div>
+            </div>
+                    <div class="preview-card__cta preview-card__cta--foot">
+                <a href="/perspectives/dont-bet-against-cities-four-trends-shaping-cities-recovery">
+                    <span class="cta cta--black cta--small cta--right cta--plain">
+                        <span data-grunticon-embed class="icon icon-oval"></span>
+                        <span>Read the full perspective</span>
+                    </span>
+                </a>
+            </div>
+    </div>
+</footer>
+        </div>
+    </div>
+</div>
+        <div class="dynamic-feat__list">
+            <ul class="up-list">
+<li class="up-list__item up-list__item--three">
+    <div class="preview-card ">
+            <a href="/perspectives/new-thinking-in-the-air-pandemic-pollution-and-preserving-the-improvements" class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('/-/media/arup/images/perspectives/themes/covid19/new-thinking-in-the-air/empty-road-scape.jpg?h=1125&amp;w=2000&amp;hash=234A131CE72AFFE623730041313CE3E2');">
+                </div>
+            </a>
+        <div class="preview-card__content preview-card__content--alt-style">
+            <div class="preview-card__main">
+                <div class="preview-copy">
+                    <a href="/perspectives/new-thinking-in-the-air-pandemic-pollution-and-preserving-the-improvements" class="preview-copy__toplink">
+                        <h4 class="preview-copy__label label--md">
+                            Article
+                        </h4>
+                        <h3 class="preview-copy__title ">New thinking in the air: pandemic, pollution and preserving the improvements</h3>
+                            <div class="preview-copy__copy-wrap">
+                                <p class="preview-copy__copy">With lockdowns across the world reducing traffic, air quality experts have been eagerly awaiting the statistics for March and April 2020. Many hopeful predictions of drops in pollutants such as nitrogen oxide have been made. So, what have we learned from the great economic pause?</p>
+                            </div>
+                    </a>
+                </div>
+            </div>
+            <footer class="preview-card__footer">
+    <div class="preview-foot">
+            <div class="mini-profile  mini-profile--small">
+                    <div class="mini-profile__pic-wrap ">
+                        <a href="/our-firm/justin-bishop" class="mini-profile__link">
+                            <img class="mini-profile__pic" src="/-/media/arup/images/people/j/justin-bishop.jpg?h=400&amp;w=400&amp;hash=CF47752F4A69E32830851C1FFE6A6A5E" alt="Justin Bishop"/>
+                        </a>
+                    </div>
+                <div class="mini-profile__main">
+                        <ul class="mini-profile__info-list">
+                            <li class="mini-profile__info-item mini-profile__info-item--core ">
+                                <a href="/our-firm/justin-bishop" class="mini-profile__info-link">
+                                    <span class="mini-profile__info-content">
+                                        <h4 class="mini-profile__name">Justin Bishop</h4>
+                                            <h5 class="mini-profile__job">Senior Consultant</h5>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                                            <hr class="mini-profile__divide"/>
+                                            <p class="mini-profile__underline">1 June 2020</p>
+                </div>
+            </div>
+            </div>
+</footer>
+        </div>
+    </div>
+</li>
+<li class="up-list__item up-list__item--three">
+    <div class="preview-card ">
+            <a href="/perspectives/three-design-lessons-for-the-post-pandemic-city" class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('/-/media/arup/images/perspectives/themes/covid19/four-design-lessons-for-the-post-pandemic-city/kate-trifo-1bs9smgovry-unsplash-.jpg?h=1125&amp;w=2000&amp;hash=FBEA5FC4C9992387E42805F56849490E');">
+                </div>
+            </a>
+        <div class="preview-card__content preview-card__content--alt-style">
+            <div class="preview-card__main">
+                <div class="preview-copy">
+                    <a href="/perspectives/three-design-lessons-for-the-post-pandemic-city" class="preview-copy__toplink">
+                        <h4 class="preview-copy__label label--md">
+                            Article
+                        </h4>
+                        <h3 class="preview-copy__title ">Three design lessons for the post pandemic city</h3>
+                            <div class="preview-copy__copy-wrap">
+                                <p class="preview-copy__copy">How can we improve our access to the real-time information that helps cities survive a crisis?  What can urban planners do to reduce the impact of a crisis on disadvantaged communities?  How should public services be designed to cope with surges in demand?</p>
+                            </div>
+                    </a>
+                </div>
+            </div>
+            <footer class="preview-card__footer">
+    <div class="preview-foot">
+            <div class="mini-profile  mini-profile--small">
+                    <div class="mini-profile__pic-wrap ">
+                        <a href="/our-firm/matthew-gevers" class="mini-profile__link">
+                            <img class="mini-profile__pic" src="/-/media/arup/images/people/m/hong-kong-office-staff-matthew-gevers.jpg?h=450&amp;w=450&amp;hash=A8D7BE817B298D48DB21C56858AE44AB" alt="Matthew Gevers"/>
+                        </a>
+                    </div>
+                <div class="mini-profile__main">
+                        <ul class="mini-profile__info-list">
+                            <li class="mini-profile__info-item mini-profile__info-item--core ">
+                                <a href="/our-firm/matthew-gevers" class="mini-profile__info-link">
+                                    <span class="mini-profile__info-content">
+                                        <h4 class="mini-profile__name">Matthew Gevers</h4>
+                                            <h5 class="mini-profile__job">Associate</h5>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                                            <hr class="mini-profile__divide"/>
+                                            <p class="mini-profile__underline">23 June 2020</p>
+                </div>
+            </div>
+            </div>
+</footer>
+        </div>
+    </div>
+</li>
+<li class="up-list__item up-list__item--three">
+    <div class="preview-card ">
+            <a href="/perspectives/the-fifteen-minute-vision-future-proofing-our-cities" class="preview-card__header preview-card__header--pic">
+                <div class="preview-card__pic" style="background-image: url('/-/media/arup/images/perspectives/themes/cities/the-fifteen-minute-neighbourhood/shutterstock_308225579.jpg?h=1125&amp;w=2000&amp;hash=434F263E2551913524482C3E5D6CB3D2');">
+                </div>
+            </a>
+        <div class="preview-card__content preview-card__content--alt-style">
+            <div class="preview-card__main">
+                <div class="preview-copy">
+                    <a href="/perspectives/the-fifteen-minute-vision-future-proofing-our-cities" class="preview-copy__toplink">
+                        <h4 class="preview-copy__label label--md">
+                            Article
+                        </h4>
+                        <h3 class="preview-copy__title "> The fifteen minute vision: Future proofing our cities </h3>
+                            <div class="preview-copy__copy-wrap">
+                                <p class="preview-copy__copy">We wanted to investigate how lockdowns and the pandemic, restricting people’s movements to their neighbourhoods, highlighted the benefits and shortcomings of those neighbourhoods and the possible consequences for future design.</p>
+                            </div>
+                    </a>
+                </div>
+            </div>
+            <footer class="preview-card__footer">
+    <div class="preview-foot">
+            <div class="mini-profile  mini-profile--small">
+                    <div class="mini-profile__pic-wrap ">
+                        <a href="/our-firm/malcolm-smith" class="mini-profile__link">
+                            <img class="mini-profile__pic" src="/-/media/arup/images/people/m/malcolm_smith_studio_no_1_450x450.jpg?h=449&amp;w=450&amp;hash=D609A296F9068A4047770E048130B3C3" alt="Malcolm Smith"/>
+                        </a>
+                    </div>
+                <div class="mini-profile__main">
+                        <ul class="mini-profile__info-list">
+                            <li class="mini-profile__info-item mini-profile__info-item--core ">
+                                <a href="/our-firm/malcolm-smith" class="mini-profile__info-link">
+                                    <span class="mini-profile__info-content">
+                                        <h4 class="mini-profile__name">Malcolm Smith</h4>
+                                            <h5 class="mini-profile__job"> Global Masterplanning and Urban Design Leader</h5>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                                            <hr class="mini-profile__divide"/>
+                                            <p class="mini-profile__underline">18 November 2020</p>
+                </div>
+            </div>
+            </div>
+</footer>
+        </div>
+    </div>
+</li>            </ul>
+        </div>
+    </div>
+</section>
+</div></section>
+<!--
 	<section class="highlight-section">
 		<div class="container">
 			<div class="perspectives__feature">
@@ -340,16 +525,15 @@ type: service_industry
 				<div class="dynamic-feat__list" data-load-target="theme-perspectives">
 					<ul class="up-list up-list--basic">
         				<li class="up-list__item up-list__item--three" style="" aria-hidden="true" tabindex="0">
-        					<!-- publication -->
         					<div class="preview-card  ">
-                				<a href="/perspectives/publications/research/section/future-of-offices-in-a-post-pandemic-world" class="preview-card__header preview-card__header--pic" tabindex="-1">
+                				<a href="https://www.arup.com/expertise/services/technical-consulting/ict-infrastructure-design" class="preview-card__header preview-card__header--pic" tabindex="-1">
                         			<div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/images/projects/m/mcb_ebene/new/headerimagemauritius-commercial-bank-mcb-ebenec-arup.jpg?h=1125&w=2000&hash=B219C8379D5AB89F38EF101C9B2B8368');">
                         			</div>
                 				</a>
                 				<div class="preview-card__content">
                     				<div class="preview-card__main">
                         				<div class="preview-copy">
-                            				<a href="/perspectives/publications/research/section/future-of-offices-in-a-post-pandemic-world" class="preview-copy__toplink" tabindex="-1">
+                            				<a href="https://www.arup.com/expertise/services/technical-consulting/ict-infrastructure-design" class="preview-copy__toplink" tabindex="-1">
                                 				<h4 class="preview-copy__label label--md">
                                     				Service
                                 				</h4>
@@ -388,14 +572,14 @@ type: service_industry
         				</li>
         				<li class="up-list__item up-list__item--three" style="" aria-hidden="true" tabindex="0">
         					<div class="preview-card  ">
-                				<a href="/perspectives/engaging-everyone-virtual-design-and-consultation-come-of-age" class="preview-card__header preview-card__header--pic" tabindex="-1">
+                				<a href="https://www.arup.com/perspectives/why-5g-may-be-taking-longer-than-we-thought" class="preview-card__header preview-card__header--pic" tabindex="-1">
                         			<div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/perspectives/themes/digital/5g/shutterstock_1056112217.jpg?h=1125&w=2000&hash=484457E8C534149FB21313B5FC69FB54');">
                         			</div>
                 				</a>
                	 				<div class="preview-card__content">
                     				<div class="preview-card__main">
                         				<div class="preview-copy">
-                            				<a href="/perspectives/engaging-everyone-virtual-design-and-consultation-come-of-age" class="preview-copy__toplink" tabindex="-1">
+                            				<a href="https://www.arup.com/perspectives/why-5g-may-be-taking-longer-than-we-thought" class="preview-copy__toplink" tabindex="-1">
                                 				<h4 class="preview-copy__label label--md">
                                     				Article
                                 				</h4>
@@ -431,14 +615,14 @@ type: service_industry
         				</li>
         				<li class="up-list__item up-list__item--three" style="" aria-hidden="true" tabindex="0">
         					<div class="preview-card  ">
-                				<a href="/perspectives/new-thinking-in-the-air-pandemic-pollution-and-preserving-the-improvements" class="preview-card__header preview-card__header--pic" tabindex="-1">
+                				<a href="https://www.arup.com/projects/nato-hq" class="preview-card__header preview-card__header--pic" tabindex="-1">
                         			<div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/n/nato-hq/20180711_180711h050.jpg?h=1125&w=2000&hash=932082B5BE950406186E646E51E63C35');">
                         			</div>
                 				</a>
                 				<div class="preview-card__content">
                     				<div class="preview-card__main">
                         				<div class="preview-copy">
-                            				<a href="/perspectives/new-thinking-in-the-air-pandemic-pollution-and-preserving-the-improvements" class="preview-copy__toplink" tabindex="-1">
+                            				<a href="https://www.arup.com/projects/nato-hq" class="preview-copy__toplink" tabindex="-1">
                                 				<h4 class="preview-copy__label label--md">
                                     				Project
                                 				</h4>
@@ -446,7 +630,7 @@ type: service_industry
                             				</a>
                         				</div>
                     				</div>
-                    				<!--<footer class="preview-card__footer">
+                    				<footer class="preview-card__footer">
                         				<div class="preview-foot">
                                 			<div class="mini-profile  mini-profile--small">
                                         		<div class="mini-profile__pic-wrap ">
@@ -468,20 +652,20 @@ type: service_industry
                                     			</div>
                                 			</div>
                         				</div>
-                    				</footer>-->
+                    				</footer>
                 				</div>
             				</div>
         				</li>
         				<li class="up-list__item up-list__item--three" style="" aria-hidden="true" tabindex="0">
         					<div class="preview-card  ">
-                				<a href="/perspectives/publications/research/section/covid-19-business-recovery-scenarios" class="preview-card__header preview-card__header--pub" tabindex="-1">
+                				<a href="https://www.arup.com/projects/white-collar-factory-digital" class="preview-card__header preview-card__header--pub" tabindex="-1">
                 					<div class="preview-card__pic" style="background-image: url('https://www.arup.com/-/media/arup/images/projects/w/white-collar-factory/new-folder/white-collar-factory-zzz078_n991.jpg?h=1125&w=2000&hash=71724D451FFF28BE61507A5C76345993');">
                             		</div>
                 				</a>
                 				<div class="preview-card__content">
                     				<div class="preview-card__main">
                         				<div class="preview-copy">
-                            				<a href="/perspectives/publications/research/section/covid-19-business-recovery-scenarios" class="preview-copy__toplink" tabindex="-1">
+                            				<a href="https://www.arup.com/projects/white-collar-factory-digital" class="preview-copy__toplink" tabindex="-1">
                                 				<h4 class="preview-copy__label label--md">
                                     				Project
                                 				</h4>
@@ -497,20 +681,10 @@ type: service_industry
             				</div>
         				</li>
         			</ul>
-        			<!-- load more -->
-        			<!--<div class="dynamic-feat__footer">
-        				<div class="load-more-container load-more-container--spaced">
-            				<a href="#" class="cta cta--black cta--plus cta--plain load-more" data-href="/api/ThemeHub/PespectiveFilterLoadMore?&amp;country=Worldwide&amp;theme=Cities&amp;loadAmount=9&amp;greyBackGround=True&amp;startPosition=18&amp;loadMoreText=Load the next" data-target="[data-load-target='theme-perspectives']">
-                				<span class="cta__icon icon icon-plus">
-                				</span>
-                				<span class="cta__text">Load the next 9 perspectives<span class="cta__aside">(of 228)</span></span>
-            				</a>
-        				</div>
-					</div>-->
 				</div>
 			</div>
 		</div>
-	</section>
+	</section>-->
 	<section class="container" id="extracting-data">
         <div class="rich-text">
             <div class="reveal rich-text__content">
@@ -521,7 +695,6 @@ type: service_industry
             	<p>
             		Today, we use these tools backed by wider disciplinary knowledge to carry out ‘experience design’, plotting out how a given environment will meet users’ needs. For clients it’s a chance to establish confidence in design choices well before any construction begins, vital in major infrastructure or public-funded projects. 
             	</p> 
-            	<P>Discover how we've helped clients.</P>
             </div>
         </div>
 	</section>
@@ -586,8 +759,45 @@ type: service_industry
         </div>
     </div>
 </section>
+<section class="learn-more learn-more--large reveal" style="background-image: url('https://www.arup.com/-/media/arup/images/expertise/services/digital/experience-design/experience-design-banner-image.jpg?h=1125&w=2000&hash=DF4FCDBC11CC89D6DC57A1FB6B035063'); background-color: #ebebeb; background-position: 50% 25%;">
+        <div class="learn-more__inner" >
+            <h4 class="learn-more__title">Discover how we&#39;ve helped our clients</h4>
+                <a href="https://www.arup.com/expertise/services/digital/experience-design" class="cta cta--small cta--mono">
+                    <span data-grunticon-embed class="cta__icon icon icon-oval"></span>
+                    <span class="cta__text">Learn more about our experience design service</span>
+                </a>
+        </div>
+    </section>
+    <section class="split-pic highlight-section split-pic--flip advert">
+        <div class="split-pic__pic-wrap ">
+            <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('/-/media/arup/images/projects/q/queensferry-crossing/720x680-20170718-main-crossing-northbound.jpg?h=680&amp;w=720&amp;hash=A6CCBE94B5656BD486ACB6D970BC8980')">
+            </div>
+            <div class="split-pic__pic split-pic__pic--mobile" style="background-image: url('/-/media/arup/images/projects/q/queensferry-crossing/720x680-20170718-main-crossing-northbound.jpg?mw=720&amp;hash=2E7748BD4150F13304A8A522C83C852E')"></div>
+            <div class="split-pic__video">
+                <video preload="auto" loop="true" muted="muted" class="desktop-only">
+                    <source src="https://www.arup.com/-/media/arup/videos/massmotion/airport-proximityv2.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+                </video>
+            </div>
+            <p class="split-pic__caption"></p>
+        </div>
+        <div class="split-pic__content">
+            <div class="split-pic__inner">
+                <div class="split-pic__copy">
+                    <span>Tools</span>
+                    <h3 class="h4">Developing tools for tomorrow</h3>
+                    <p>In the digital realm, if a tool already exists we use it and improve it. If it doesn’t exist, we invent it.  
+                    </p>
+                    <hr />
+                    <a class="cta cta--black cta--small" href="/projects/taoyuan-international-airport-terminal-3" HideLinkDescription="True">
+                                <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
+                                <span class="cta__text">Find out more about our digital tools (page to be created)</span>
+                                </a>
+                </div>
+            </div>
+        </div>
+    </section>
 <!-- people -->
-	<section class="featured__contacts highlight-section">
+	<section class="featured__contacts highlight-section" id="contact">
 		<header class="container">
 			<span class="contacts__label">People</spanc>
 			<h2 class="contacts__title">Meet our people</h2>

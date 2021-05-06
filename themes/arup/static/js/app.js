@@ -1014,7 +1014,7 @@ window.app = {
       }
 
       //Up Lists
-      var carouselUp = $(".up-list:not(.up-list--basic)");
+      var carouselUp = $(".up-list:not(.up-list--basic, .perspectives__feature .up-list)");
       if (carouselUp && carouselUp.find(".up-list__item").length > 0) {
         if (!carouselUp.hasClass("slick-initialized")) {
           carouselUp.slick({
@@ -1027,7 +1027,7 @@ window.app = {
             mobileFirst: true,
             slide: ".up-list__item",
             responsive: [{
-              breakpoint: window.app.global.mobile - 1,
+              breakpoint: 768,
               settings: "unslick"
             }]
           });

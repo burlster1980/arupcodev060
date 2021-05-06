@@ -4,105 +4,163 @@ date: 2021-01-04T20:42:27Z
 draft: false
 type: service_industry
 ---
-<section class="new__service-banner">
-<div class="fullbleed service-banner fullbleed--hero fullbleed--project fullbleed--video">
-    <div class="overlay"></div>
-    <div class="progressiveMedia">
-    	<img src="/-/media/arup/images/expertise/services/digital/digital-video-still227june.jpg?h=6&amp;mw=10&amp;w=10&amp;hash=180C31593B4E56C57165BE63FD000ADA" class="tempImg" alt="" width="10" height="6" DisableWebEdit="False" />;
-    	<img src="https://www.arup.com/-/media/arup/images/perspectives/themes/cities/digital-built-environment/istock-184101679.jpg?h=1125&w=2000&hash=D1992F3627CA036E2C78CB158A4C04F0" class="mainImg" alt="" width="2000" height="1125" DisableWebEdit="False" />;
-    </div>
-    <video preload="auto" loop="true" muted="muted" class="desktop-only">
-        <source src="/-/media/arup/videos/arup_cityscape-resize.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
-    </video>
-    <div class="banner__background"></div>
-</div>
-<div class="banner__intro container">
-	<div class="introduction">
-		<span>Digital</span>
-		<h1>Digital Asset Management</h1>
-		<p class="intro">As the physical and digital worlds converge, there are now powerful new ways to manage, operate and optimise your buildings and assets. Arup is at the forefront of developing the tools and platforms that make these new insights possible.</p>
-		<a class="util-contact modal-trigger" href="#mainContact" onclick="globalContactClick('Will Cavendish - Director');">
-            <div class="util-contact__pic-wrap">
-                <img class="util-contact__pic" src="https://www.arup.com/-/media/arup/images/people/w/450x450-will-cavendish-(002).jpg?gray=1&amp;mw=180&amp;hash=E8D2A897531FA5C8041284BF5B30BF0C" alt="Will Cavendish, Arup"/>
-            </div>
-            <div class="util-contact__main">               
-            	<h4 class="util-contact__title">Will Cavendish</h4>
-                <div class="util-contact__cta">
-                	<span class="cta cta--black cta--small cta--right cta--plain">
-                    	<span>Choose an expert</span>
-                    </span>
+<nav class="nav-secondary">
+        <div class="container">
+            <div class="nav-secondary__main">
+                <div>
+                    <ul>
+                        <li>
+                            <a href="/careers">Expertise</a>
+                        </li>
+                        <li>
+                            <a href="#">Digital</a>                            
+                        </li>
+                        <li>
+                            Digital asset management                        
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#career-overlay-global" class="cta cta--black cta--small" target="">
+                        <span data-grunticon-embed class="icon icon-oval"></span>
+                        <span></span>
+                        <span class="cta__text">Search all jobs</span>
+                    </a>
                 </div>
             </div>
-        </a>
-	</div>
+        </div>
+    </nav>
+    <section class="fullbleed fullbleed--hero fullbleed--new fullbleed--project fullbleed--video">
+        <div class="fullbleed__inner">
+            <div class="overlay"></div>
+            <div class="progressiveMedia">
+                <img src="/-/media/arup/images/expertise/services/digital/digital-video-still227june.jpg?h=6&amp;mw=10&amp;w=10&amp;hash=180C31593B4E56C57165BE63FD000ADA" class="tempImg" alt="" width="10" height="6" DisableWebEdit="False" />;
+                <img src="https://www.arup.com/-/media/arup/images/perspectives/themes/cities/digital-built-environment/istock-184101679.jpg?h=1125&w=2000&hash=D1992F3627CA036E2C78CB158A4C04F0" class="mainImg" alt="" width="2000" height="1125" DisableWebEdit="False" />;
+            </div>
+            <video preload="auto" loop="true" muted="muted" class="desktop-only">
+                <source src="/-/media/arup/videos/arup_cityscape-resize.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
+            <div class="fullbleed__alt-content">
+                <div class="container container--3col">
+                    <div class="col col__main">
+                        <div class="page-info">
+                            <div class="page-info__title feature-title">
+                                <h3 class="feature-title__label">Services</h3>
+                                <h1 class="feature-title__title">Digital asset management</h1>
+                            </div>
+                            <div class="page-info__content">
+                                <div class="page-info__description">
+                                    <a class="cta cta--black cta--small hub-label long-name" href="/arup-pages/services/digital-revamp/digital/">
+                                        <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
+                                        <span>Digital hub</span>
+                                    </a>
+                                    <p>As the physical and digital worlds converge, there are powerful new ways to manage, operate and optimise your buildings and assets. Arup is at the forefront of developing the tools and platforms that make this possible. </p>
+                                    <a class="util-contact modal-trigger" href="#mainContact" onclick="globalContactClick('Will Cavendish - Director');">
+                                        <div class="util-contact__pic-wrap">
+                                            <img class="util-contact__pic" src="https://www.arup.com/-/media/arup/images/people/w/450x450-will-cavendish-(002).jpg?gray=1&amp;mw=180&amp;hash=E8D2A897531FA5C8041284BF5B30BF0C" alt="Will Cavendish, Arup"/>
+                                        </div>
+                                        <div class="util-contact__main">               
+                                            <h4 class="util-contact__title">We need an expert</h4>
+                                            <div class="util-contact__cta">
+                                                <span class="cta cta--black cta--small cta--right cta--plain">
+                                                    <span>Global Digital Service Leader</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="page-info__navigation">
+                                    <span>
+                                        On this page
+                                    </span>
+                                    <ul class="inpage__nav">
+                                        <li>
+                                            <a class="cta cta--black cta--small" href="#planning">
+                                                <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
+                                                <span>High performance assets </span>
+                                            </a>
+                                        </li>
+                                        <lI>
+                                            <a class="cta cta--black cta--small" href="#optimisation">
+                                                <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
+                                                <span>Learning assets</span>
+                                            </a>
+                                        </lI>
+                                        <li>
+                                            <a class="cta cta--black cta--small" href="#dynamic">
+                                                <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
+                                                <span>Simulation and scenario planning</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="fullbleed__outer">
+            <div class="container">
+                <div class="col">
+                    <div class="page-info page-info--outer">
+                        <div class="page-info__content page-info__content--outer">
+                            <p class="page-info__copy"><p>Our digital services combine innate knowledge of the built environment with new technologies to shape a better world.</p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
-</section>
 <!-- utility bar -->
-<section class="utility-bar sticky">
+<section class="utility-bar sticky industry__subpage">
     <div class="container utility-bar__inner">
     	<!-- drop down -->
-    	<div class="fancy-dropdown">
-    		<span class="h3">
-        		<span data-target="#dropdownList" data-original="Select a region" data-link="true" class="filter" data-ajax="false" tabindex="0" role="button">
-            		Explore digital services
-        		</span>
-    		</span>
-    		<div class="filter--close"></div>
-		</div>
-		<div id="dropdownList" class="filter__list" role="dialog" aria-label="Select a region">
-    		<span data-grunticon-embed class="icon icon-close"></span>
-    		<div class="filter__list__inner">
-        		<div class="filter__list__items scroller">
-            		<div class="scroller__content">
-                		<ul id="flist1__list" role="listbox">
-                        	<li>
-                            	<a role="option" data-val="Americas" href="/arup-pages/services/digital-revamp/digital/">Digital home</a>
-                        	</li>
-                        	<li>
-                            	<a role="option" data-val="Australasia" href="/careers/early-careers/graduates/australasia-graduate-programme">Collaboration</a>
-                        	</li>
-                        	<li>
-                            	<a role="option" data-val="East Asia" href="/careers/early-careers/graduates/east-asia-graduate-programme">Consulting</a>
-                        	</li>
-                        	<li>
-                            	<a role="option" data-val="Europe" href="/careers/early-careers/graduates/europe-graduate-programme">Design</a>
-                        	</li>
-                        	<li>
-                            	<a role="option" data-val="UK, India, Middle East &amp; Africa" href="/careers/early-careers/graduates/uk-india-middle-east-and-africa-graduate-programme">Emerging technologies</a>
-                        	</li>
-                        	<li>
-                            <a role="option" data-val="UK, India, Middle East &amp; Africa" href="/careers/early-careers/graduates/uk-india-middle-east-and-africa-graduate-programme">Sustainable development</a>
-                        	</li>
-                		</ul>
-            		</div>
-        		</div>
-    		</div>
-		</div>
+    	<!-- drop down -->
+        <div class="page__label">
+            <span class="h3">
+                    Digital asset management
+            </span>
+        </div>
+        <div class="utility-bar__content">
+            <div class="fancy-dropdown">
+                <span class="h3">
+                    <span data-target="#dropdownList" data-original="Select a region" data-link="true" class="filter" data-ajax="false" tabindex="0" role="button">
+                    On this page
+                    </span>
+                </span>
+                <div class="filter--close"></div>
+            </div>
+            <div id="dropdownList" class="filter__list" role="dialog" aria-label="Select a region">
+                <span data-grunticon-embed class="icon icon-close"></span>
+                <div class="filter__list__inner">
+                    <div class="filter__list__items scroller">
+                        <div class="scroller__content">
+                            <ul id="flist1__list" role="listbox">
+                                <li>
+                                    <a href="#performance">High performance assets</a>
+                                </li>
+                                <li>
+                                    <a href="#learning">Learning assets</a>
+                                </li>
+                                <li>
+                                    <a href="#model">Model, simulate and test</a>
+                                </li>
+                                <li>
+                                    <a href="#digital-twin">Developing digital twin</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- end drop down -->
+        <!-- button -->
+            <a href="#contact" class="button__get-in-touch">
+                <span class="button__label">Get in touch</span>
+            </a>
 		<!-- end drop down -->
-		<!-- nav -->
-		<ul class="utility__navigation">
-			<li>
-				<a href="#">
-					Asset health
-				</a>
-			</li>
-			<lI>
-				<a href="#">
-					BI and data visualisation
-				</a>
-			</lI>
-			<li>
-				<a href="#">
-					Simulation and scenario planning
-				</a>
-			</li>
-		</ul>
-		<!-- end nav -->
-		<!-- button -->
-			<a href="#" class="button__get-in-touch">
-				<span class="button__label">Get in touch</span>
-			</a>
-		<!-- end button -->
    	</div>
 </section>
 <article>
@@ -119,7 +177,7 @@ type: service_industry
             </div>
         </div>
 	</section>
-	<section class="container" id="extracting-data">
+	<section class="container" id="health">
         <div class="rich-text">
             <div class="reveal rich-text__content">
             	<h2>Maintaing your asset's health</h2>
@@ -136,8 +194,9 @@ type: service_industry
             </div>
         </div>
 	</section>
+	<div class="single-slider">
 	<section class="featured-pub content-slider content-slider--overflow content-slider--dt-md reveal content-slider--compact single-item">
-    <div class="container" style='display: none;'>
+    <div class="container">
         <hr />
         <div class="tabs">
             <div class="controls">
@@ -145,9 +204,6 @@ type: service_industry
                 <span class="next icon icon-next" data-grunticon-embed></span>
             </div>
                 <div class="tab"><a href="#tab1-1" class="selected">Infrastructure Mapping Application</a></div>
-                <div class="tab"><a href="#tab1-2" class="">Digital railway</a></div>
-                <div class="tab"><a href="#tab1-3" class="">The Crown Estate</a></div>
-                <div class="tab"><a href="#tab1-4" class="">Heathrow</a></div>
         </div>
     </div>
     <div class="container js-box-car-container">
@@ -184,7 +240,8 @@ type: service_industry
                     </div>
                 </div>
             </section>
-    <section class="container" id="extracting-data">
+    </div>
+    <section class="container">
         <div class="rich-text">
             <div class="reveal rich-text__content">
             	<h3>Virtual inspection</h3>
@@ -207,7 +264,7 @@ type: service_industry
             </div>
         </div>
 	</section>
-	<section class="split-pic highlight-section">
+	<section class="split-pic highlight-section advert">
     <div class="split-pic__pic-wrap ">
         <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('/images/arup-pages/digital/arup-inspect-3d.jpg')">
         </div>
@@ -235,7 +292,7 @@ type: service_industry
         </div>
     </div>
 </section>
-	<section class="container" id="digital-twin">
+	<section class="container" id="visualisation">
         <div class="rich-text">
             <div class="reveal rich-text__content">
             	<h2>Business intelligence and visualisation: turning your data into value</h2>
@@ -398,7 +455,7 @@ type: service_industry
             </div>
         </div>
     </section>-->
-	<section class="container" id="digital-twin">
+	<section class="container" id="modelling">
         <div class="rich-text">
             <div class="reveal rich-text__content">
             	<h2>Modelling, simulating and testing - using data to see into the future</h2>
@@ -418,7 +475,7 @@ type: service_industry
             </div>
         </div>
 	</section>
-	<section class="split-pic fullbleed--video highlight-section split-pic--flip">
+	<section class="split-pic fullbleed--video highlight-section split-pic--flip advert">
     	<div class="split-pic__pic-wrap ">
         	<div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('/-/media/arup/images/projects/q/queensferry-crossing/720x680-20170718-main-crossing-northbound.jpg?h=680&amp;w=720&amp;hash=A6CCBE94B5656BD486ACB6D970BC8980')">
         	</div>
@@ -464,7 +521,7 @@ type: service_industry
        	 	</div>
     	</div>
 	</section>
-	<section class="container" id="digital-twin">
+	<section class="container">
         <div class="rich-text">
             <div class="reveal rich-text__content">
             	<h2>Digital twins - giving you new insight</h2>
@@ -537,8 +594,36 @@ type: service_industry
 			</div>
 		</div>
 	</section>-->
+    <section class="split-pic highlight-section split-pic--flip advert">
+        <div class="split-pic__pic-wrap ">
+            <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('/-/media/arup/images/projects/q/queensferry-crossing/720x680-20170718-main-crossing-northbound.jpg?h=680&amp;w=720&amp;hash=A6CCBE94B5656BD486ACB6D970BC8980')">
+            </div>
+            <div class="split-pic__pic split-pic__pic--mobile" style="background-image: url('/-/media/arup/images/projects/q/queensferry-crossing/720x680-20170718-main-crossing-northbound.jpg?mw=720&amp;hash=2E7748BD4150F13304A8A522C83C852E')"></div>
+            <div class="split-pic__video">
+                <video preload="auto" loop="true" muted="muted" class="desktop-only">
+                    <source src="https://www.arup.com/-/media/arup/videos/massmotion/airport-proximityv2.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+                </video>
+            </div>
+            <p class="split-pic__caption"></p>
+        </div>
+        <div class="split-pic__content">
+            <div class="split-pic__inner">
+                <div class="split-pic__copy">
+                    <span>Tools</span>
+                    <h3 class="h4">Developing tools for tomorrow’s assets</h3>
+                    <p>In the digital realm, if a tool already exists we use it and improve it. If it doesn’t exist, we invent it.  
+                    </p>
+                    <hr />
+                    <a class="cta cta--black cta--small" href="/projects/taoyuan-international-airport-terminal-3" HideLinkDescription="True">
+                                <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
+                                <span class="cta__text">Find out more about our digital tools (page to be created)</span>
+                                </a>
+                </div>
+            </div>
+        </div>
+    </section>
 	<!-- people -->
-	<section class="featured__contacts highlight-section">
+	<section class="featured__contacts highlight-section" id="contact">
 		<header class="container">
 			<span class="contacts__label">People</spanc>
 			<h2 class="contacts__title">Meet our people</h2>
@@ -778,7 +863,7 @@ type: service_industry
 	</section>
 	<!-- end people -->
 	<!-- conclusion -->
-	<section class="fullbleed fullbleed--secondary fullbleed--hero reveal related">
+	<section class="fullbleed fullbleed--secondary reveal related">
         <div class="progressiveMedia ">
             <img src="/-/media/arup/images/projects/q/queensferry-crossing/2000x1125-queensferry-landscape-complete.jpg?h=6&amp;mw=10&amp;w=10&amp;hash=1FF8FA18CD51AD4A47CD5A7862717D71" class="tempImg" alt="Landscape view of Queensferry crossing. Credit: Arup." width="10" height="6" DisableWebEdit="False" />
             <img src="https://www.arup.com/-/media/arup/images/expertise/services/digital/digital-video-still227june.jpg?h=1125&amp;w=2000&amp;hash=DA5086E409CF81B4F07F653B1CC305D4" class="mainImg" alt="Landscape view of Queensferry crossing. Credit: Arup." width="2000" height="1125" DisableWebEdit="False" />

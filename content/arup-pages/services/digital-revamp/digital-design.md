@@ -4,104 +4,160 @@ date: 2021-01-05T10:24:44Z
 draft: false
 type: service_industry
 ---
-<section class="new__service-banner">
-<div class="fullbleed service-banner fullbleed--hero fullbleed--project fullbleed--video">
-    <div class="overlay"></div>
-    <div class="progressiveMedia">
-    	<img src="/-/media/arup/images/expertise/services/digital/digital-video-still227june.jpg?h=6&amp;mw=10&amp;w=10&amp;hash=180C31593B4E56C57165BE63FD000ADA" class="tempImg" alt="" width="10" height="6" DisableWebEdit="False" />;
-    	<img src="https://www.arup.com/-/media/arup/images/perspectives/themes/cities/digital-built-environment/istock-184101679.jpg?h=1125&w=2000&hash=D1992F3627CA036E2C78CB158A4C04F0" class="mainImg" alt="" width="2000" height="1125" DisableWebEdit="False" />;
-    </div>
-    <video preload="auto" loop="true" muted="muted" class="desktop-only">
-        <source src="/-/media/arup/videos/arup_cityscape-resize.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
-    </video>
-    <div class="banner__background"></div>
-</div>
-<div class="banner__intro container">
-	<div class="introduction">
-		<span>Digital</span>
-		<h1>Digital Design</h1>
-		<p class="intro">At Arup, every design task is a blend of human creativity, data-driven insights and clarity about the client and community’s ultimate needs. We self-disrupt, continually finding new ways to push what design can achieve.</p>
-		<a class="util-contact modal-trigger" href="#mainContact" onclick="globalContactClick('Will Cavendish - Director');">
-            <div class="util-contact__pic-wrap">
-                <img class="util-contact__pic" src="https://www.arup.com/-/media/arup/images/people/w/450x450-will-cavendish-(002).jpg?gray=1&amp;mw=180&amp;hash=E8D2A897531FA5C8041284BF5B30BF0C" alt="Will Cavendish, Arup"/>
-            </div>
-            <div class="util-contact__main">               
-            	<h4 class="util-contact__title">Will Cavendish</h4>
-                <div class="util-contact__cta">
-                	<span class="cta cta--black cta--small cta--right cta--plain">
-                    	<span>Choose an expert</span>
-                    </span>
+<div class="industry__banner subpage">
+    <nav class="nav-secondary">
+        <div class="container">
+            <div class="nav-secondary__main">
+                <div>
+                    <ul>
+                        <li>
+                            <a href="/careers">Expertise</a>
+                        </li>
+                        <li>
+                            <a href="#">Digital</a>                            
+                        </li>
+                        <li>
+                            Digital design                        
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#career-overlay-global" class="cta cta--black cta--small" target="">
+                        <span data-grunticon-embed class="icon icon-oval"></span>
+                        <span></span>
+                        <span class="cta__text">Search all jobs</span>
+                    </a>
                 </div>
             </div>
-        </a>
-	</div>
+        </div>
+    </nav>
+    <section class="fullbleed service-banner fullbleed--hero fullbleed--project fullbleed--video">
+        <div class="fullbleed__inner">
+            <div class="overlay"></div>
+            <div class="progressiveMedia">
+                <img src="/-/media/arup/images/expertise/services/digital/digital-video-still227june.jpg?h=6&amp;mw=10&amp;w=10&amp;hash=180C31593B4E56C57165BE63FD000ADA" class="tempImg" alt="" width="10" height="6" DisableWebEdit="False" />;
+                <img src="https://www.arup.com/-/media/arup/images/projects/v/valley-amsterdam/hr_2.jpg?h=1125&w=2000&hash=D4CFE5D9E5C40BB5A8C9564C08F787B8" class="mainImg" alt="" width="2000" height="1125" DisableWebEdit="False" />;
+            </div>
+            <video preload="auto" loop="true" muted="muted" class="desktop-only">
+                <source src="/-/media/arup/videos/arup_cityscape-resize.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
+            <div class="fullbleed__alt-content">
+                <div class="container container--3col">
+                    <div class="col col__main">
+                        <div class="page-info">
+                            <div class="page-info__title feature-title">
+                                <h3 class="feature-title__label">Services</h3>
+                                <h1 class="feature-title__title">Digital design</h1>
+                            </div>
+                            <div class="page-info__content">
+                                <div class="page-info__description">
+                                    <a class="cta cta--black cta--small hub-label" href="/arup-pages/services/digital-revamp/digital/">
+                                        <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
+                                        <span>Digital hub</span>
+                                    </a>
+                                    <p>In this digital era, our design process gains in ambition and capability every day. Our ethos blends human creativity, data-driven insights with and a deep understanding of our clients’ and communities’ needs.</p>
+                                    <a class="util-contact modal-trigger" href="#mainContact" onclick="globalContactClick('Will Cavendish - Director');">
+                                        <div class="util-contact__pic-wrap">
+                                            <img class="util-contact__pic" src="https://www.arup.com/-/media/arup/images/people/w/450x450-will-cavendish-(002).jpg?gray=1&amp;mw=180&amp;hash=E8D2A897531FA5C8041284BF5B30BF0C" alt="Will Cavendish, Arup"/>
+                                        </div>
+                                        <div class="util-contact__main">               
+                                            <h4 class="util-contact__title">Will Cavendish</h4>
+                                            <div class="util-contact__cta">
+                                                <span class="cta cta--black cta--small cta--right cta--plain">
+                                                    <span>Global Digital Service Leader</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="page-info__navigation">
+                                    <span>
+                                        On this page
+                                    </span>
+                                    <ul class="inpage__nav">
+                                        <li>
+                                            <a class="cta cta--black cta--small" href="#planning">
+                                                <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
+                                                <span>Planning design</span>
+                                            </a>
+                                        </li>
+                                        <lI>
+                                            <a class="cta cta--black cta--small" href="#optimisation">
+                                                <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
+                                                <span>Optimising design</span>
+                                            </a>
+                                        </lI>
+                                        <li>
+                                            <a class="cta cta--black cta--small" href="#dynamic">
+                                                <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
+                                                <span>Understanding dynamic systems</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="fullbleed__outer">
+            <div class="container">
+                <div class="col">
+                    <div class="page-info page-info--outer">
+                        <div class="page-info__content page-info__content--outer">
+                            <p class="page-info__copy"><p>Our digital services combine innate knowledge of the built environment with new technologies to shape a better world.</p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
-</section>
 <!-- utility bar -->
-<section class="utility-bar sticky">
+<section class="utility-bar sticky industry__subpage">
     <div class="container utility-bar__inner">
     	<!-- drop down -->
-    	<div class="fancy-dropdown">
+    	<div class="page__label">
     		<span class="h3">
-        		<span data-target="#dropdownList" data-original="Select a region" data-link="true" class="filter" data-ajax="false" tabindex="0" role="button">
-            		Explore digital services
-        		</span>
+            		Digital design
     		</span>
-    		<div class="filter--close"></div>
 		</div>
-		<div id="dropdownList" class="filter__list" role="dialog" aria-label="Select a region">
-    		<span data-grunticon-embed class="icon icon-close"></span>
-    		<div class="filter__list__inner">
-        		<div class="filter__list__items scroller">
-            		<div class="scroller__content">
-                		<ul id="flist1__list" role="listbox">
-                        	<li>
-                            	<a role="option" data-val="Americas" href="/arup-pages/services/digital-revamp/digital/">Digital home</a>
-                        	</li>
-                        	<li>
-                            	<a role="option" data-val="Australasia" href="/careers/early-careers/graduates/australasia-graduate-programme">Collaboration</a>
-                        	</li>
-                        	<li>
-                            	<a role="option" data-val="East Asia" href="/careers/early-careers/graduates/east-asia-graduate-programme">Consulting</a>
-                        	</li>
-                        	<li>
-                            	<a role="option" data-val="Europe" href="/careers/early-careers/graduates/europe-graduate-programme">Design</a>
-                        	</li>
-                        	<li>
-                            	<a role="option" data-val="UK, India, Middle East &amp; Africa" href="/careers/early-careers/graduates/uk-india-middle-east-and-africa-graduate-programme">Emerging technologies</a>
-                        	</li>
-                        	<li>
-                            <a role="option" data-val="UK, India, Middle East &amp; Africa" href="/careers/early-careers/graduates/uk-india-middle-east-and-africa-graduate-programme">Sustainable development</a>
-                        	</li>
-                		</ul>
-            		</div>
-        		</div>
-    		</div>
-		</div>
+        <div class="utility-bar__content">
+            <div class="fancy-dropdown">
+                <span class="h3">
+                    <span data-target="#dropdownList" data-original="Select a region" data-link="true" class="filter" data-ajax="false" tabindex="0" role="button">
+                    On this page
+                    </span>
+                </span>
+                <div class="filter--close"></div>
+            </div>
+            <div id="dropdownList" class="filter__list" role="dialog" aria-label="Select a region">
+                <span data-grunticon-embed class="icon icon-close"></span>
+                <div class="filter__list__inner">
+                    <div class="filter__list__items scroller">
+                        <div class="scroller__content">
+                            <ul id="flist1__list" role="listbox">
+                                <li>
+                                    <a role="option" data-val="Americas" href="#planning">Planning design</a>
+                                </li>
+                                <li>
+                                    <a role="option" data-val="Australasia" href="#optimisation">Optimising design</a>
+                                </li>
+                                <li>
+                                    <a role="option" data-val="East Asia" href="#dynamic">Understanding dynamic systems</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
 		<!-- end drop down -->
-		<!-- nav -->
-		<ul class="utility__navigation">
-			<li>
-				<a href="#planning">
-					Planning your design
-				</a>
-			</li>
-			<lI>
-				<a href="#optimisation">
-					Optimising design
-				</a>
-			</lI>
-			<li>
-				<a href="dynamic">
-					Understanding dynamic systems
-				</a>
-			</li>
-		</ul>
-		<!-- end nav -->
 		<!-- button -->
 			<a href="#contact" class="button__get-in-touch">
 				<span class="button__label">Get in touch</span>
 			</a>
+        </div>
 		<!-- end button -->
    	</div>
 </section>
@@ -127,7 +183,7 @@ type: service_industry
             <div class="reveal rich-text__content">
             	<h2>Planning tools</h2>
                 <p>
-                	At the planning stage, we use digital tools and data-sets to build a robust picture of the context into which a project must fit. Our City Modelling Labs use agent-based modelling to help plan future transport infrastructure investments that truly meet current and future need. We are also utilising our <a href="https://www.arup.com/expertise/services/digital/massmotion" target="_blank">MassMotion software</a> to allow accurate simulation of how people move around and interact with their environment helping us better consider user needs in design. 
+                	At the planning stage, we use digital tools and data-sets to build a robust picture of the context into which a project must fit. Our <a href="#">City Modelling Labs (page to be created)</a> use agent-based modelling to help plan future transport infrastructure investments that truly meet current and future need. We are also utilising our <a href="https://www.arup.com/expertise/services/digital/massmotion" target="_blank">MassMotion software</a> to allow accurate simulation of how people move around and interact with their environment helping us better consider user needs in design. 
                 </p>
                 <p>
                 	Clients are also taking advantage of our machine learning powered tools to analyse and understand land-use at the district and city scale, enabling building designs to work in harmony with the city they join.
@@ -135,7 +191,7 @@ type: service_industry
             </div>
         </div>
     </section>
-	<section class="split-pic fullbleed--video highlight-section">
+	<section class="split-pic fullbleed--video highlight-section advert">
     <div class="split-pic__pic-wrap ">
         <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('/-/media/arup/images/projects/q/queensferry-crossing/720x680-20170718-main-crossing-northbound.jpg?h=680&amp;w=720&amp;hash=A6CCBE94B5656BD486ACB6D970BC8980')">
         </div>
@@ -155,7 +211,7 @@ type: service_industry
                 <p>Find out how our simulation and visualisation tools allow every element of design to be explored and tested well before anything is built.
 				</p>
 				    <hr />
-                    <a class="cta cta--black cta--small" href="/our-firm/values" HideLinkDescription="True">
+                    <a class="cta cta--black cta--small" href="https://www.arup.com/expertise/services/digital/visualisation" HideLinkDescription="True">
                                 <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
                                 <span class="cta__text">Learn more about visualisation</span>
                             </a>
@@ -297,12 +353,12 @@ type: service_industry
         	<h4 class="learn-more__title">Discover how we&#39;ve helped our clients</h4>
             	<a href="#" class="cta cta--small cta--mono">
                 	<span data-grunticon-embed class="cta__icon icon icon-oval"></span>
-                	<span class="cta__text">Learn more about our parametric design work</span>
+                	<span class="cta__text">Learn more about our parametric design work (page being created)</span>
             	</a>
     	</div>
 	</section>
 	<section class="container">
-		<div class="rich-text" id="dyanmic">
+		<div class="rich-text" id="dynamic">
 			<div class="rich-text__content">
 				<h2>Understanding dynamic systems</h2>
 				<p>
@@ -314,17 +370,15 @@ type: service_industry
         	</div>
     	</div>
 	</section>
+    <div class="single-slider">
 	<section class="featured-pub content-slider content-slider--overflow content-slider--dt-md reveal content-slider--compact single-item">
-    <div class="container" style='display: none;'>
+    <div class="container">
         <hr />
         <div class="tabs">
             <div class="controls">
                 <span class="prev icon icon-next" data-grunticon-embed></span>
                 <span class="next icon icon-next" data-grunticon-embed></span>
             </div>
-                <div class="tab"><a href="#tab1-1" class="selected">Infrastructure Mapping Application</a></div>
-                <div class="tab"><a href="#tab1-2" class="">Digital railway</a></div>
-                <div class="tab"><a href="#tab1-3" class="">The Crown Estate</a></div>
                 <div class="tab"><a href="#tab1-4" class="">Heathrow</a></div>
         </div>
     </div>
@@ -368,6 +422,7 @@ type: service_industry
                     </div>
                 </div>
             </section>
+        </div>
     <section class="container">
 		<div class="rich-text" id="dyanmic">
 			<div class="rich-text__content">
@@ -378,7 +433,7 @@ type: service_industry
         	</div>
     	</div>
 	</section>
-	<section class="split-pic highlight-section split-pic--flip">
+	<section class="split-pic highlight-section split-pic--flip advert">
     	<div class="split-pic__pic-wrap ">
         	<div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('/-/media/arup/images/projects/q/queensferry-crossing/720x680-20170718-main-crossing-northbound.jpg?h=680&amp;w=720&amp;hash=A6CCBE94B5656BD486ACB6D970BC8980')">
         	</div>
@@ -393,20 +448,21 @@ type: service_industry
     	<div class="split-pic__content">
         	<div class="split-pic__inner">
             	<div class="split-pic__copy">
+                    <span>Tools</span>
             		<h3 class="h4">Developing tools for tomorrow’s design</h3>
-                	<p>In the digital realm, if a tool already exists we use it and improve it. If it doesn’t exist, we invent it. Our culture is digital to the core, we encourage our people to think and act like developers on every project, sharing what they create for re-use on other projects. Our clients benefit from this circle of innovation.  
+                	<p>In the digital realm, if a tool already exists we use it and improve it. If it doesn’t exist, we invent it.  
 					</p>
 				    <hr />
                     <a class="cta cta--black cta--small" href="/projects/taoyuan-international-airport-terminal-3" HideLinkDescription="True">
                                 <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
-                                <span class="cta__text">Find out more about our digital tools</span>
+                                <span class="cta__text">Find out more about our digital tools (page to be created)</span>
                                 </a>
             	</div>
        	 	</div>
     	</div>
 	</section>
 	<!-- people -->
-	<section class="featured__contacts highlight-section">
+	<section class="featured__contacts highlight-section" id="contact">
 		<header class="container">
 			<span class="contacts__label">People</spanc>
 			<h2 class="contacts__title">Meet our people</h2>

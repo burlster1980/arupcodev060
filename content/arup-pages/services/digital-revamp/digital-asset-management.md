@@ -21,7 +21,7 @@ type: service_industry
 	<div class="introduction">
 		<span>Digital</span>
 		<h1>Digital Asset Management</h1>
-		<p class="intro">As the physical and digital worlds converge, there are now powerful new ways to manage, operate and optimise your buildings and assets. Arup is at the forefront of developing the tools and platforms that make these new insights possible.</p>
+		<p class="intro">As the physical and digital worlds converge, there are powerful new ways to manage, operate and optimise your buildings and assets. Arup is at the forefront of developing the tools and platforms that make this possible.</p>
 		<a class="util-contact modal-trigger" href="#mainContact" onclick="globalContactClick('Will Cavendish - Director');">
             <div class="util-contact__pic-wrap">
                 <img class="util-contact__pic" src="https://www.arup.com/-/media/arup/images/people/w/450x450-will-cavendish-(002).jpg?gray=1&amp;mw=180&amp;hash=E8D2A897531FA5C8041284BF5B30BF0C" alt="Will Cavendish, Arup"/>
@@ -60,19 +60,20 @@ type: service_industry
                             	<a role="option" data-val="Americas" href="/arup-pages/services/digital-revamp/digital/">Digital home</a>
                         	</li>
                         	<li>
-                            	<a role="option" data-val="Australasia" href="">Collaboration</a>
-                        	</li>
-                        	<li>
                             	<a role="option" data-val="East Asia" href="/arup-pages/services/digital-revamp/digital-consulting/">Consulting</a>
                         	</li>
                         	<li>
                             	<a role="option" data-val="Europe" href="/arup-pages/services/digital-revamp/digital-design/">Design</a>
                         	</li>
                         	<li>
-                            	<a role="option" data-val="UK, India, Middle East &amp; Africa" href="/careers/early-careers/graduates/uk-india-middle-east-and-africa-graduate-programme">Emerging technologies</a>
+                            	<a role="option" data-val="UK, India, Middle East &amp; Africa" href="/arup-pages/services/digital-revamp/digital-emerging-technologies/">Emerging technologies</a>
                         	</li>
                         	<li>
-                            <a role="option" data-val="UK, India, Middle East &amp; Africa" href="/careers/early-careers/graduates/uk-india-middle-east-and-africa-graduate-programme">Sustainable development</a>
+                            <a role="option" data-val="UK, India, Middle East &amp; Africa" href="/arup-pages/services/digital-revamp/digital-sustainable-development/">Sustainable development</a>
+                        	</li>
+                        	</li>
+                        	                        	<li>
+                            <a role="option" data-val="UK, India, Middle East &amp; Africa" href="/arup-pages/services/digital-revamp/digital-every-step/">With you every step</a>
                         	</li>
                 		</ul>
             		</div>
@@ -83,24 +84,24 @@ type: service_industry
 		<!-- nav -->
 		<ul class="utility__navigation">
 			<li>
-				<a href="#">
+				<a href="#extracting-data">
 					Extract data
 				</a>
 			</li>
 			<li>
-				<a href="#">
+				<a href="#value">
 					Value from data
 				</a>
 			</li>
 			<lI>
-				<a href="#">
+				<a href="#model">
 					Model, simulate and test
 				</a>
 			</lI>
 		</ul>
 		<!-- end nav -->
 		<!-- button -->
-			<a href="#" class="button__get-in-touch">
+			<a href="#contact" class="button__get-in-touch">
 				<span class="button__label">Get in touch</span>
 			</a>
 		<!-- end button -->
@@ -229,35 +230,54 @@ type: service_industry
             </div>
         </div>
 	</section>
-	<section class="split-pic fullbleed--video highlight-section">
-    <div class="split-pic__pic-wrap ">
-        <div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('/-/media/arup/images/projects/q/queensferry-crossing/720x680-20170718-main-crossing-northbound.jpg?h=680&amp;w=720&amp;hash=A6CCBE94B5656BD486ACB6D970BC8980')">
-        </div>
-        <div class="split-pic__pic split-pic__pic--mobile" style="background-image: url('/-/media/arup/images/projects/q/queensferry-crossing/720x680-20170718-main-crossing-northbound.jpg?mw=720&amp;hash=2E7748BD4150F13304A8A522C83C852E')"></div>
-        <div class="split-pic__video">
-        	<video preload="auto" loop="true" muted="muted" class="desktop-only">
-        		<source src="/video/digital/queensferry-2.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
-    		</video>
-    	</div>
-        <p class="split-pic__caption"></p>
-    </div>
-    <div class="split-pic__content">
-        <div class="split-pic__inner">
-            <div class="split-pic__copy">
-            	<span>Featured project</span>
-                <h3 class="h4">Monitoring the health of the Queensferry Crossing</h3>
-                <p>Sensors were installed throughout the structure, positioned to monitor the global behaviour of the bridge and its environment in real time. All data is stored in the cloud allowing easy data analysis. This allows the operator to respond quickly to extreme events, to target inspections and to carry out pre-emptive interventions to avoid potential failures. It also significantly reduced operational and maintenance costs for the bridge's operator.
-				</p>
-				    <hr />
-                    <a class="cta cta--black cta--small" href="/our-firm/values" HideLinkDescription="True">
-                                <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
-                                <span class="cta__text">Learn more about our work on Queensferry Crossing</span>
-                            </a>
+	<div class="single-slider">
+	<section class="featured-pub content-slider content-slider--overflow content-slider--dt-md reveal content-slider--compact single-item">
+    <div class="container">
+        <hr />
+        <div class="tabs">
+            <div class="controls">
+                <span class="prev icon icon-next" data-grunticon-embed></span>
+                <span class="next icon icon-next" data-grunticon-embed></span>
             </div>
+                <div class="tab"><a href="#tab1-1" class="selected">Infrastructure Mapping Application</a></div>
         </div>
     </div>
-</section>
-	<section class="container" id="digital-twin">
+    <div class="container js-box-car-container">
+        <div class="js-box-car-ctrl"></div>
+        <div class="content-slider__carousel">
+                        <div class="content-slider__slide" id="tab1-1">
+                            <div class="split-box split-box--flip">
+                                <div class="split-box__pic-wrap fullbleed--video" style="position: relative;">
+                                    <div class="split-box__pic" style="background-image: url('/-/media/arup/images/expertise/services/organisation-behaviour-park_avenue_plaza_new_york_scott_frances_otto-2000x1125.jpg?h=1126&amp;w=2000&amp;hash=8CC68B0024424A1A45CE27530CBBBE03');"></div>
+                                    <div class="split-pic__video">
+        								<video preload="auto" loop="true" muted="muted" class="desktop-only">
+        									<source src="/video/digital/queensferry-2.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+    									</video>
+    								</div>
+                                </div>
+                                <div class="split-box__content">
+                                    <div class="summary-info">
+                                    	<span>Featured project</span>
+                                            <h3 class="summary-info__title cta-title">
+                                                <a href="/expertise/services/advisory-services/people-and-organisations" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
+                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                                                    <span class="cta-title__copy">Monitoring the health of the Queensferry Crossing</span>
+                                                </a>
+                                            </h3>
+                                                                                    <p class="summary-info__copy"><p class="summary-info__copy">Sensors were installed throughout the structure, positioned to monitor the global behaviour of the bridge and its environment in real time. All data is stored in the cloud allowing easy data analysis. This allows the operator to respond quickly to extreme events, to target inspections and </p>
+                                                                                    <a href="https://www.arup.com/projects/queensferry-crossing-digital" class="cta-title__link cta cta--black cta--small cta--right cta--plain" >
+                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                                                    <span>Learn more about our work on Queensferry Crossing</span>
+                                                </a></p>                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </div>
+	<section class="container" id="value">
         <div class="rich-text">
             <div class="reveal rich-text__content">
             	<h2>Turning your data into value</h2>
@@ -295,10 +315,8 @@ type: service_industry
                                 <div class="split-box__content">
                                     <div class="summary-info">
                                             <h3 class="summary-info__title cta-title">
-                                                <a href="/expertise/services/advisory-services/people-and-organisations" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
-                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                                                <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
                                                     <span class="cta-title__copy">Infrastructure Mapping Application</span>
-                                                </a>
                                             </h3>
                                                                                     <p class="summary-info__copy"><p class="summary-info__copy">At moments of business change, like major expansions, getting the right mix of people skills and knowledge right is pivotal to success. Our team are experts in behavioural change, business psychology and leadership techniques that can help an organisation to stay ahead. Find out how we can help your team develop the people and skills it needs. </p>
                                                                                     <a href="https://www.arup.com/projects/infrastructure-mapping-application" class="cta-title__link cta cta--black cta--small cta--right cta--plain" >
@@ -317,10 +335,8 @@ type: service_industry
                                 <div class="split-box__content">
                                     <div class="summary-info">
                                             <h3 class="summary-info__title cta-title">
-                                                <a href="/expertise/services/advisory-services/sustainable-futures" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
-                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                                                <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
                                                     <span class="cta-title__copy">European Railway Traffic Management System (ERTMS)</span>
-                                                </a>
                                             </h3>
                                                                                     <p class="summary-info__copy">The European Railway Traffic Management System (ERTMS), an initiative that turns each train into a separate communications hub that connects directly to the central system. Better information means trains will go faster more often, and do not need to be spaced out so much - offering operators the chance to run more services, more safely.</p>
                                                                                     <a href="https://www.arup.com/projects/ertms" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
@@ -339,10 +355,8 @@ type: service_industry
                                 <div class="split-box__content">
                                     <div class="summary-info">
                                             <h3 class="summary-info__title cta-title">
-                                                <a href="/expertise/services/advisory-services/strategy-and-insights" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
-                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                                                <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
                                                     <span class="cta-title__copy">The Crown Estate</span>
-                                                </a>
                                             </h3>
                                                                                     <p class="summary-info__copy">By gathering detailed data on heating and ventilation usage, we have helped The Crown Estate identify energy and financial savings. This information is constantly analysed using software that we’ve developed for this purpose, to show areas where internal environmental conditions are falling below expected levels.</p>
                                                                                     <a href="https://www.arup.com/projects/crown-estates-digital" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
@@ -361,15 +375,13 @@ type: service_industry
                                 <div class="split-box__content">
                                     <div class="summary-info">
                                             <h3 class="summary-info__title cta-title">
-                                                <a href="/expertise/services/advisory-services/strategy-and-insights" class="cta-title__link cta cta--black cta--small cta--right cta--plain">
-                                                    <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
+                                                <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
                                                     <span class="cta-title__copy">Heathrow Airport and Airport Demand Analyzer</span>
-                                                </a>
-                                            </h3>
+                                                </h3>
                                                                                     <p class="summary-info__copy">Our Airport Demand Analyser tool combines flight data from 800 international airports and uses machine learning to help Heathrow Airport run an efficient, full-capacity service. </p>
-                                                                                    <a href="https://www.arup.com/projects/crown-estates-digital" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
+                                                                                    <a href="#" class="cta-title__link cta cta--black cta--small cta--right cta--plain" target="_blank">
                                                     <span data-grunticon-embed class="cta-title__icon icon icon-oval"></span>
-                                                    <span>Find out more about our work with Heathrow</span>
+                                                    <span>Find out more about our work with Heathrown (no page at present)</span>
                                                 </a></p>                                      
                                     </div>
                                 </div>
@@ -378,7 +390,7 @@ type: service_industry
         </div>
     </div>
 </section>
-	<section class="container" id="digital-twin">
+	<section class="container" id="model">
         <div class="rich-text">
             <div class="reveal rich-text__content">
             	<h2>Modelling, simulating and testing - using data to see into the future</h2>
@@ -398,7 +410,7 @@ type: service_industry
             </div>
         </div>
 	</section>
-	<section class="split-pic fullbleed--video highlight-section split-pic--flip">
+	<section class="split-pic fullbleed--video highlight-section split-pic--flip advert">
     	<div class="split-pic__pic-wrap ">
         	<div class="split-pic__pic split-pic__pic--desktop" style="background-image: url('/-/media/arup/images/projects/q/queensferry-crossing/720x680-20170718-main-crossing-northbound.jpg?h=680&amp;w=720&amp;hash=A6CCBE94B5656BD486ACB6D970BC8980')">
         	</div>
@@ -415,41 +427,27 @@ type: service_industry
             	<div class="split-pic__copy">
             		<span>Featured software</span>
                 	<h3 class="h4">MassMotion: modelling movement</h3>
-                	<p>Based on our research of human movement and refined by data from real world projects, MassMotion provides technical analysis of people’s movement through physical spaces. Our experts use MassMotion in many sectors to ensure smooth and efficient movement of people in rail stations, airport terminals, and popular public spaces.  
+                	<p>Based on our research of human movement and refined by data from real world projects, MassMotion provides technical analysis of people’s movement through physical spaces. Our experts use MassMotion in many sectors to ensure smooth and efficient movement of people.  
 					</p>
-				    <hr />
-                    <h5>Discover how we've applied MassMotion</h5>
-                    <hr />
-                    <ul class="list list--links">
-                            <li>
-                                <a class="cta cta--black cta--small" href="/projects/taoyuan-international-airport-terminal-3" HideLinkDescription="True">
-                                <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
-                                <span class="cta__text">Taoyuan International</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="cta cta--black cta--small" href="/projects/massmotion-digital-passenger-model-for-fiumicino" HideLinkDescription="True">
-                                <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
-                                <span class="cta__text">AS Roma Stadium</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="cta cta--black cta--small" href="/projects/massmotion-digital-passenger-model-for-fiumicino" HideLinkDescription="True">
+					<hr>
+                                <a class="cta cta--black cta--small" href="https://www.arup.com/expertise/services/digital/massmotion" HideLinkDescription="True">
                                 <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
                                 <span class="cta__text">More on MassMotion</span>
                                 </a>
-                            </li>
-                    </ul>
             	</div>
        	 	</div>
     	</div>
 	</section>
-	<section class="container" id="digital-twin">
+	<section class="container" id="">
         <div class="rich-text">
             <div class="reveal rich-text__content">
             	<h2>Digital twins - giving you new insight</h2>
             	<P>A digital twin - an always updating digital model of your buildings or assets - can transform your commercial and operational performance. It is a digital representation of a real-world asset - a bridge, a rail network, even an entire city - aimed at making the curation of that entity safer, more efficient, and more resilient to change.</P>
-            	<P>Discover more about how we're using digital twins to help our clients.</P>
+            	<p><a class="cta cta--black cta--small" href="https://www.arup.com/shaping-the-connected-world" HideLinkDescription="True">
+                                <span class="cta__icon icon icon-oval" data-grunticon-embed></span>
+                                <span class="cta__text">Find out more about our work with digital twins</span>
+                                </a>
+                </p>
             </div>
         </div>
 	</section>
@@ -466,7 +464,7 @@ type: service_industry
         				<div class="preview-card__content preview-card__content--alt-style">
             				<div class="preview-card__main">
                 				<div class="preview-copy">
-                    				<a href="/perspectives/new-thinking-in-the-air-pandemic-pollution-and-preserving-the-improvements" class="preview-copy__toplink">
+                    				<a href="#" class="preview-copy__toplink">
                         				<h4 class="preview-copy__label label--md">
                             			</h4>
                         				<h3 class="preview-copy__title ">Arup Neuron: optimising estates with Business Intelligence</h3>
@@ -474,7 +472,7 @@ type: service_industry
                                 			<p class="preview-copy__copy">Our Arup Neuron intelligent building platform offers portfolio-wide management and control of assets’ performance. At the wider, city scale, Neuron can integrate geographical, transit and other real-time data to provide an operational picture of whole districts. At the wider, city scale, Neuron can integrate geographical, transit and other real-time data to provide an operational picture of whole districts.</p>
                                 			<span class="cta cta--black cta--small">
                                 				<span class="cta__icon icon icon-oval " data-grunticon-embed></span>
-                                				<span class="cta__text">Find out more</span><a class="cta cta--black cta--small" href="/projects/massmotion-digital-passenger-model-for-fiumicino" HideLinkDescription="True">
+                                				<span class="cta__text">Find out more (new page to create)</span><a class="cta cta--black cta--small" href="/projects/massmotion-digital-passenger-model-for-fiumicino" HideLinkDescription="True">
                                 				</span>
                             			</div>
                     				</a>
@@ -517,7 +515,7 @@ type: service_industry
         				<div class="preview-card__content preview-card__content--alt-style">
             				<div class="preview-card__main">
                 				<div class="preview-copy">
-                    				<a href="/perspectives/new-thinking-in-the-air-pandemic-pollution-and-preserving-the-improvements" class="preview-copy__toplink">
+                    				<a href="https://www.arup.com/our-firm/arup-inspect" class="preview-copy__toplink">
                         				<h4 class="preview-copy__label label--md">
                             			</h4>
                         				<h3 class="preview-copy__title ">Arup Inspect: automated and remote inspections for better decision making across the built environment</h3>
@@ -525,7 +523,7 @@ type: service_industry
                                 			<p class="preview-copy__copy">Arup Inspect is a tool we developed to allow clients to carry out remote and automated monitoring of asset or building integrity. The system means you can simulate potential scenarios instead of carrying out unnecessary physical inspections.</p>
                                 			<span class="cta cta--black cta--small">
                                 				<span class="cta__icon icon icon-oval " data-grunticon-embed></span>
-                                				<span class="cta__text">Find out more</span><a class="cta cta--black cta--small" href="/projects/massmotion-digital-passenger-model-for-fiumicino" HideLinkDescription="True">
+                                				<span class="cta__text">Find out more</span><a class="cta cta--black cta--small" href="https://www.arup.com/our-firm/arup-inspect" HideLinkDescription="True">
                                 			</span>
                             			</div>
                     				</a>
@@ -622,7 +620,7 @@ type: service_industry
 		</div>
 	</section>-->
 	<!-- people -->
-	<section class="featured__contacts highlight-section">
+	<section class="featured__contacts highlight-section" id="contact">
 		<header class="container">
 			<span class="contacts__label">People</spanc>
 			<h2 class="contacts__title">Meet our people</h2>

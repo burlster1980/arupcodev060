@@ -42,8 +42,10 @@
 <script>document.addEventListener('DOMContentLoaded', function () {grunticon([{{"css/icons.data.svg.css" |relURL}}, {{"css/icons.data.png.css" |relURL}}, {{"css/icons.fallback.css" |relURL}}], grunticon.svgLoadedCallback);});</script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js"></script>
 <script src="https://www.arup.com/js/libs.js"></script>
-<script src={{"js/app.js?v=9" | relURL}} ></script>
-<script src={{"js/industry.js?v=24" | relURL}} ></script>
+<script src={{"js/app.js?v=13" | relURL}} ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/ScrollTrigger.min.js"></script>
+<script src={{"js/industry.js?v=29" | relURL}} ></script>
 {{ if isset .Params "scripts" }}{{ range .Params.scripts }}<script src="{{ printf "/js/%s" . | relURL }}"></script>{{ end }}{{ end }}
 </body>
 </html>
